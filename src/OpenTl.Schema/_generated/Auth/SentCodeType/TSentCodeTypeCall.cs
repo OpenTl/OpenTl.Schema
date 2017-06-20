@@ -1,0 +1,16 @@
+﻿namespace OpenTl.Schema.Auth
+{
+	using System;
+	using System.Collections;
+
+	using OpenTl.Schema;
+	using OpenTl.Schema.Serialization.Attributes;	
+
+	[Serialize(0x5353e5a7)]
+	public class TSentCodeTypeCall : ISentCodeType
+	{
+       [SerializationOrder(0)]
+       public int Length {get; set;}
+
+	}
+}

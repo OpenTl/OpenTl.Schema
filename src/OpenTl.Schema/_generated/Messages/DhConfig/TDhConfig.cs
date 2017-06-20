@@ -1,0 +1,27 @@
+﻿namespace OpenTl.Schema.Messages
+{
+	using System;
+	using System.Collections;
+
+	using OpenTl.Schema;
+	using OpenTl.Schema.Serialization.Attributes;	
+
+	[Serialize(0x2c221edd)]
+	public class TDhConfig : IDhConfig
+	{
+       [SerializationOrder(0)]
+       public int G {get; set;}
+
+       [SerializationArrayLength(-1)]
+       [SerializationOrder(1)]
+       public byte[] P {get; set;}
+
+       [SerializationOrder(2)]
+       public int Version {get; set;}
+
+       [SerializationArrayLength(-1)]
+       [SerializationOrder(3)]
+       public byte[] Random {get; set;}
+
+	}
+}
