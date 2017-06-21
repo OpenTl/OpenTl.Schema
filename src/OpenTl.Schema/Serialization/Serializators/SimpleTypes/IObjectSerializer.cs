@@ -11,7 +11,7 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
     {
         public TypeInfo SupportedType { get; } = typeof(IObject).GetTypeInfo();
 
-        public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata) => Serializer.Serialize(writer, value);
+        public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata) => Serializer.Serialize(value, writer);
 
         public object Deserialize(BinaryReader reader, SerializationMetadata metadata) => Serializer.Deserialize(reader);
     }

@@ -12,6 +12,10 @@ namespace OpenTl.Schema.Serialization
     {
         private static readonly Dictionary<TypeInfo, SerializationMetadata[]> TypesMetadata = new Dictionary<TypeInfo, SerializationMetadata[]>();
 
+        private static readonly TNull Null = new TNull();
+        private static readonly TBoolTrue True = new TBoolTrue();
+        private static readonly TBoolFalse False = new TBoolFalse();
+        
         public static IObject DeserializeObject(byte[] bytes)
         {
             using (var stream = new MemoryStream(bytes))
@@ -65,8 +69,19 @@ namespace OpenTl.Schema.Serialization
             return stream;
         }
 
-        private static void Serialize(object obj, BinaryWriter binaryWriter)
+        internal static void Serialize(object obj, BinaryWriter binaryWriter)
         {
+            switch (obj)
+            {
+                case var _ when obj == null:
+                    obj = new TNull();
+                    break;
+                
+                case bool value :
+                    obj = value ? (object) True : False;
+                    break;
+            }
+            
             var objectType = obj.GetType().GetTypeInfo();
 
             if (!SerializationMap.GetIdByType(objectType, out var typeId))
@@ -75,7 +90,7 @@ namespace OpenTl.Schema.Serialization
             }
 
             binaryWriter.Write(typeId);
-
+            
             var metadatas = GetMetadatas(objectType);
 
             ComputeFlags(obj, metadatas);
@@ -83,7 +98,7 @@ namespace OpenTl.Schema.Serialization
             Serialize(binaryWriter, obj);
         }
 
-        internal static object Serialize(BinaryWriter binaryWriter, object obj)
+        private static object Serialize(BinaryWriter binaryWriter, object obj)
         {
             var metadatas = GetMetadatas(obj.GetType().GetTypeInfo());
 

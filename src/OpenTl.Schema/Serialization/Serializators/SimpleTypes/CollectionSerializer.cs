@@ -18,7 +18,7 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
             
             foreach (var item in collection)
             {
-                Serializer.Serialize(writer, item);
+                Serializer.Serialize(item, writer);
             }
         }
 
