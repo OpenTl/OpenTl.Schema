@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using OpenTl.Schema.Serialization.Attributes;
+ using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
 namespace OpenTl.Schema.Serialization
 {
@@ -13,50 +14,82 @@ namespace OpenTl.Schema.Serialization
         private static readonly Dictionary<TypeInfo, SerializationMetadata[]> TypesMetadata = new Dictionary<TypeInfo, SerializationMetadata[]>();
 
         private static readonly TNull Null = new TNull();
-        private static readonly TBoolTrue True = new TBoolTrue();
-        private static readonly TBoolFalse False = new TBoolFalse();
-        
+    
+        private static readonly TypeInfo NullTypeInfo = Null.GetType().GetTypeInfo();
+
         public static IObject DeserializeObject(byte[] bytes)
         {
             using (var stream = new MemoryStream(bytes))
             using (var binaryReader = new BinaryReader(stream))
             {
-                return Deserialize(binaryReader);
+                return DeserializeObject(binaryReader);
             }
         }
 
-        internal static IObject Deserialize(BinaryReader binaryReader)
+        public static IObject DeserializeObject(BinaryReader reader)
         {
-            var id = binaryReader.ReadUInt32();
+            return DeserializeObject(reader, null);
+        }
+        
+        internal static object Deserialize(BinaryReader binaryReader, TypeInfo typeInfo)
+        {
+            if (typeInfo == null || typeof(IObject).GetTypeInfo().IsAssignableFrom(typeInfo))
+            {
+                return DeserializeObject(binaryReader, typeInfo);
+            }
+
+            var serializator = SerializationMap.GetSerializator(typeInfo);
+            return serializator.Deserialize(binaryReader, null);
+        }
+
+        private static IObject DeserializeObject(BinaryReader reader, TypeInfo propertyTypeInfo)
+        {
+            var id = reader.ReadUInt32();
 
             if (!SerializationMap.GetTypeById(id, out var typeInfo))
             {
                 throw new NotSupportedException();
             }
-
-            return (IObject) Deserialize(binaryReader, typeInfo);
-        }
-
-        private static object Deserialize(BinaryReader reader, TypeInfo typeInfo)
-        {
+                
+            if (Equals(typeInfo, NullTypeInfo))
+            {
+                return null;
+            }
+            
             var metadatas = GetMetadatas(typeInfo);
 
             if (metadatas == null)
             {
-                var serializator =  SerializationMap.GetSerializator(typeInfo);
-                return serializator.Deserialize(reader, null);
+               
             }
-            
-            var obj = Activator.CreateInstance(typeInfo.AsType());
+
+            var typeForCreate = (propertyTypeInfo ?? typeInfo).AsType();
+            var obj = Activator.CreateInstance(typeForCreate);
             foreach (var metadata in metadatas)
             {
+                if (metadata.CanSerializeIndex.HasValue)
+                {
+                    var flags = (BitArray)metadata.CanSerializeSource.GetValue(obj);
+                    if (!flags[metadata.CanSerializeIndex.Value])
+                    {
+                        continue; 
+                    }
+                }
+
+                if (metadata.FromFlagIndex.HasValue)
+                {
+                    var flags = (BitArray) metadata.FromFlagSource.GetValue(obj);
+                    var flagValue = flags[metadata.FromFlagIndex.Value];
+                    metadata.PropertyInfo.SetValue(obj, flagValue);
+                }
+
                 var serializator =  SerializationMap.GetSerializator(metadata.PropertyTypeInfo);
                 
                 var value = serializator.Deserialize(reader, metadata);
                 metadata.PropertyInfo.SetValue(obj, value);
             }
 
-            return obj;
+            return (IObject) obj;
         }
         
         public static MemoryStream SerializeObject(object obj)
@@ -71,31 +104,27 @@ namespace OpenTl.Schema.Serialization
 
         internal static void Serialize(object obj, BinaryWriter binaryWriter)
         {
-            switch (obj)
-            {
-                case var _ when obj == null:
-                    obj = new TNull();
-                    break;
-                
-                case bool value :
-                    obj = value ? (object) True : False;
-                    break;
-            }
-            
+            if (obj == null)
+                obj = Null;
+
             var objectType = obj.GetType().GetTypeInfo();
-
-            if (!SerializationMap.GetIdByType(objectType, out var typeId))
-            {
-                throw new NotSupportedException();
-            }
-
-            binaryWriter.Write(typeId);
             
-            var metadatas = GetMetadatas(objectType);
+            
+            if (SerializationMap.GetIdByType(objectType, out var typeId))
+            {
+                binaryWriter.Write(typeId);
+            
+                var metadatas = GetMetadatas(objectType);
 
-            ComputeFlags(obj, metadatas);
+                ComputeFlags(obj, metadatas);
 
-            Serialize(binaryWriter, obj);
+                Serialize(binaryWriter, obj);                
+            }
+            else
+            {
+                SerializeValue(binaryWriter, obj, null);
+            }
+            
         }
 
         private static object Serialize(BinaryWriter binaryWriter, object obj)
@@ -104,14 +133,28 @@ namespace OpenTl.Schema.Serialization
 
             foreach (var metadata in metadatas)
             {
-                var serializator =  SerializationMap.GetSerializator(metadata.PropertyTypeInfo);
-
                 var value = metadata.PropertyInfo.GetValue(obj);
-                
-                serializator.Serialize(binaryWriter, value, metadata);
+                SerializeValue(binaryWriter, value, metadata);
             }
 
             return obj;
+        }
+
+        private static void SerializeValue(BinaryWriter binaryWriter, object value, SerializationMetadata metadata)
+        {
+            ISerializator ser;
+            if (value != null)
+            {
+                ser = SerializationMap.GetSerializator(value.GetType().GetTypeInfo());
+            }
+            else
+            {
+                value = Null;
+                ser = SerializationMap.GetSerializator(NullTypeInfo);
+            }
+
+
+            ser.Serialize(binaryWriter, value, metadata);
         }
 
         private static void ComputeFlags(object obj, IReadOnlyList<SerializationMetadata> metadatas)

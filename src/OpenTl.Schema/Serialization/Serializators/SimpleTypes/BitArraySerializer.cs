@@ -12,10 +12,9 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
         public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata)
         {
             var bitArray = (BitArray) value;
-            for (var j = 0; j < 32; j++)
-            {
-                writer.Write(bitArray[j]);
-            }
+            var data = new byte[(bitArray.Length - 1) / 8 + 1];
+            ((ICollection) bitArray).CopyTo(data, 0);
+            writer.Write(data);
         }
 
         public object Deserialize(BinaryReader reader, SerializationMetadata metadata) => new BitArray(reader.ReadBytes(4));

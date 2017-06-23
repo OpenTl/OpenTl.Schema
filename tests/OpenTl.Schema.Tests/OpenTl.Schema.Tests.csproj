@@ -8,10 +8,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\OpenTl.Schema.Serialization\OpenTl.Schema.Serialization.csproj">
-      <Project>{ff01d593-faa7-4acd-9617-a96cd8961d9f}</Project>
-      <Name>OpenTl.Schema.Serialization</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\src\OpenTl.Schema\OpenTl.Schema.csproj">
       <Project>{8683ff11-7768-45bf-b91d-0dfed484fe11}</Project>
       <Name>OpenTl.Schema</Name>

@@ -6,7 +6,21 @@
     [Serialize(0x1cb5c415)]
     public class TVector<T> : IObject
     {
-        [SerializationOrder(0)]
-        public ICollection<T> Lists { get; set; }
+        public TVector()
+        {
+        }
+
+        public TVector(params T[] items)
+        {
+            Items = new List<T>(items);
+        }
+
+        public T this[int index]
+        {
+            get => Items[index];
+            set => Items[index] = value;
+        }
+
+        public List<T> Items { get; set; }
     }
 }    
