@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
 
         public object Deserialize(BinaryReader reader, SerializationMetadata metadata)
         {
-            var obj = Serializer.Deserialize(reader, metadata.PropertyTypeInfo);
+            var obj = Serializer.Deserialize(reader, null);
             return obj is TTrue;
         }
     }

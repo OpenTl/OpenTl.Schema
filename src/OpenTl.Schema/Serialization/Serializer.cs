@@ -58,12 +58,7 @@ namespace OpenTl.Schema.Serialization
             
             var metadatas = GetMetadatas(typeInfo);
 
-            if (metadatas == null)
-            {
-               
-            }
-
-            var typeForCreate = (propertyTypeInfo ?? typeInfo).AsType();
+            var typeForCreate = ( propertyTypeInfo != null && propertyTypeInfo.IsClass ? propertyTypeInfo : typeInfo).AsType();
             var obj = Activator.CreateInstance(typeForCreate);
             foreach (var metadata in metadatas)
             {
@@ -81,6 +76,8 @@ namespace OpenTl.Schema.Serialization
                     var flags = (BitArray) metadata.FromFlagSource.GetValue(obj);
                     var flagValue = flags[metadata.FromFlagIndex.Value];
                     metadata.PropertyInfo.SetValue(obj, flagValue);
+                    
+                    continue;
                 }
 
                 var serializator =  SerializationMap.GetSerializator(metadata.PropertyTypeInfo);
@@ -134,6 +131,24 @@ namespace OpenTl.Schema.Serialization
             foreach (var metadata in metadatas)
             {
                 var value = metadata.PropertyInfo.GetValue(obj);
+
+                if (metadata.CanSerializeIndex.HasValue)
+                {
+                    var flags = (BitArray) metadata.CanSerializeSource.GetValue(obj);
+                    if (!flags[metadata.CanSerializeIndex.Value])
+                    {
+                        continue;
+                    }
+                }
+
+                if (metadata.FromFlagIndex.HasValue)
+                {
+                    var flags = (BitArray) metadata.FromFlagSource.GetValue(obj);
+                    flags[metadata.FromFlagIndex.Value] = (bool) value;
+                 
+                    continue;
+                }
+
                 SerializeValue(binaryWriter, value, metadata);
             }
 

@@ -1,6 +1,13 @@
 using System;
+using System.IO;
 using System.Reflection;
+using Newtonsoft.Json;
 using OpenTl.Schema.Serialization;
+using OpenTl.Schema.Upload;
+using OpenTl.Schema.Users;
+using TelegramClient.Entities;
+using TelegramClient.Entities.TL;
+using TelegramClient.Entities.TL.Users;
 using Xunit;
 
 namespace OpenTl.Schema.Tests
@@ -8,7 +15,7 @@ namespace OpenTl.Schema.Tests
     public class SerializeTests
     {
         [Fact]
-        public void TPeerUserTest()
+        public void PeerUser_Serialize()
         {
             var peer = new TPeerUser()
             {
@@ -17,13 +24,28 @@ namespace OpenTl.Schema.Tests
 
             var data = Serializer.SerializeObject(peer).ToArray();
 
-            var obj = (TPeerUser)Serializer.DeserializeObject(data);
+            var obj = (TlPeerUser) LegacyDeserialize(data);
             
             Assert.Equal(peer.UserId, obj.UserId);
         }
         
         [Fact]
-        public void TPhoneCallWaitingTest()
+        public void PeerUser_Deserialize()
+        {
+            var peer = new TlPeerUser()
+            {
+                UserId = 123
+            };
+
+            var data = LegacySerialize(peer);
+            
+            var obj = (TPeerUser) Serializer.DeserializeObject(data);
+
+            Assert.Equal(peer.UserId, obj.UserId);
+        }
+
+        [Fact]
+        public void PhoneCallWaiting_Self()
         {
             var callWaiting = new TPhoneCallWaiting()
             {
@@ -57,5 +79,28 @@ namespace OpenTl.Schema.Tests
             Assert.Equal(((TPhoneCallProtocol)callWaiting.Protocol).UdpP2p, ((TPhoneCallProtocol)obj.Protocol).UdpP2p);
             Assert.Equal(((TPhoneCallProtocol)callWaiting.Protocol).UdpReflector, ((TPhoneCallProtocol)obj.Protocol).UdpReflector);
         }
+        
+
+        private static object LegacyDeserialize(byte[] data)
+        {
+            using (var stream = new MemoryStream(data))
+            using (var reader = new BinaryReader(stream))
+            {
+                return ObjectUtils.DeserializeObject(reader);
+            }
+        }
+
+        private static byte[] LegacySerialize(TlPeerUser peer)
+        {
+            using (var stream = new MemoryStream())
+            using (var reader = new BinaryWriter(stream))
+            {
+                ObjectUtils.SerializeObject(peer, reader);
+
+                return stream.ToArray();
+            }
+        }
+
+     
     }
 }
