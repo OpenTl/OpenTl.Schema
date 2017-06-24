@@ -4,7 +4,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <Title>Schema for a OpenTl project</Title>
-    <Version>0.1.0</Version>
+    <Version>0.0.0</Version>
     <PackageId>OpenTl.Schema</PackageId>
     <Authors>Viktor Borisov</Authors>
     <Company />
