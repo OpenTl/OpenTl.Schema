@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Channels
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Channels
 {
 	using System;
 	using OpenTl.Schema;

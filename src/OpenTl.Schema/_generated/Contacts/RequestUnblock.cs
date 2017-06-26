@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Contacts
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Contacts
 {
 	using System;
 	using System.Collections;

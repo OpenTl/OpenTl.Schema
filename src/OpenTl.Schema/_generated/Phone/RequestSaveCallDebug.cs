@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Phone
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Phone
 {
 	using System;
 	using System.Collections;

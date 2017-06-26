@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Users
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Users
 {
 	using System;
 	using System.Collections;

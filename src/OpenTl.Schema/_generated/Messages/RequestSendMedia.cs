@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Messages
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Messages
 {
 	using System;
 	using System.Collections;

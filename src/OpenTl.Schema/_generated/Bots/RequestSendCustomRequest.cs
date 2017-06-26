@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Bots
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Bots
 {
 	using System;
 	using System.Collections;

@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Storage
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Storage
 {
 	using System;
 	using System.Collections;

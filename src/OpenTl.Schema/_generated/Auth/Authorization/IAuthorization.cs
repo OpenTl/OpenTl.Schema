@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Auth
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Auth
 {
 	using System;
 	using OpenTl.Schema;

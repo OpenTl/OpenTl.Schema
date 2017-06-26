@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Contest
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Contest
 {
 	using System;
 	using System.Collections;

@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Help
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Help
 {
 	using System;
 	using OpenTl.Schema;

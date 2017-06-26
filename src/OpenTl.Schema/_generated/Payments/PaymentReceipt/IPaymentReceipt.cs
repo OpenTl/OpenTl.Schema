@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Payments
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Payments
 {
 	using System;
 	using OpenTl.Schema;

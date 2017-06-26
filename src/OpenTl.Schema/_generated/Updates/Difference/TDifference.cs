@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Updates
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Updates
 {
 	using System;
 	using System.Collections;

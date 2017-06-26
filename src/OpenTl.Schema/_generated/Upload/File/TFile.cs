@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Upload
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema.Upload
 {
 	using System;
 	using System.Collections;
