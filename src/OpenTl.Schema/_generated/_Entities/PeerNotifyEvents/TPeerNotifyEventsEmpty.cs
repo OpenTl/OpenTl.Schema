@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xadd53cb3)]
-	public class TPeerNotifyEventsEmpty : IPeerNotifyEvents
+	public class TPeerNotifyEventsEmpty : IPeerNotifyEvents, IEmpty
 	{
 
 	}

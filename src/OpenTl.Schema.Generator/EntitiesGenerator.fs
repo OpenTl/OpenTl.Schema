@@ -8,6 +8,11 @@ open System.IO
 open System.Text
 open System.Text.RegularExpressions
 
+let (|EndWith|_|) pattern (input: string) =
+  match input with
+  | source when input.EndsWith(pattern) -> Some()
+  | source -> None
+
 let defaultNamespace = "OpenTl.Schema"
 let baseObjectInterface = "IObject"
 
@@ -23,7 +28,11 @@ let nameMarker = "/* NAME */"
 
 let parentMarker = "/* PARENT */"
 let serializeMarker = "/* SERIALIZE */"
+
 let paramMarker = "/* PARAMS */"
+let modMarker = "/* MOD */"
+
+
 
 let formatName (name: string) =
     name.Split('_')
@@ -41,12 +50,17 @@ let getName (name: string) =
     |> Array.last
     |> formatName
 
+let isEmpty typeName = 
+    match getName typeName with
+    | EndWith "Empty" -> Some()
+    | _ -> None
+
 let getClassNameFromEntity (typeName:string) = 
     getName typeName |> sprintf "T%s"
 
 let getClassNameFromInterface (typeName:string) = 
     getName typeName |> sprintf "I%s"
-
+    
 let containsName (interfacesSet: HashSet<string>) (tlType:string) =
     tlType.ToLower() |> interfacesSet.Contains
 
@@ -66,10 +80,10 @@ let getFullNamespace (typeName: string) =
     | false -> defaultNamespace + "." + shortNamespace
 
 let getFullTypeName tlType typeName =
-        let typeNamespace = getShotNamespace tlType
-        match String.IsNullOrEmpty typeNamespace with
-            | true -> typeName
-            | false -> String.Join(".", typeNamespace, typeName)
+    let typeNamespace = getShotNamespace tlType
+    match String.IsNullOrEmpty typeNamespace with
+        | true -> typeName
+        | false -> String.Join(".", typeNamespace, typeName)
 
 let genericTypeReg = Regex("(.*)\<(.*)\>")
 
@@ -117,14 +131,35 @@ let getSerializeAttribute(tlParam: TlParam) =
         | "true" -> sprintf """       [FromFlag("%s", %s)]""" fieldName index |> Some
         | _ -> sprintf """       [CanSerialize("%s", %s)]""" fieldName index |> Some
 
-let getParametersForEntity (typeSet: HashSet<string> , interfacesSet: HashSet<string>, prms: TlParam list) = 
+let getParameterForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
+        let paramName = getName p.Name
+        let paramType = typeMapping typeSet interfacesSet p.Type
+        sprintf "       %s %s %s {get; set;}\n" modMarker paramType paramName
+
+let getTypesForInterface (allTypes: List<TlType>) (typeName: string) = 
+    allTypes
+    |> Seq.filter(fun t -> t.Type = typeName)
+
+let getParametersForInterface (allTypes: List<TlType>, typesSet: HashSet<string>, interfacesSet: HashSet<string>, typeName: string) = 
+    let types = getTypesForInterface allTypes typeName
+                |> Seq.filter (fun t -> isEmpty t.Predicate = None)
+
+    let typesCount =  Seq.length types
+
+    types
+    |> Seq.collect(fun t -> t.Params)
+    |> Seq.groupBy(fun p -> p.Name, p.Type)
+    |> Seq.filter(fun (_, col) -> Seq.length col = typesCount)
+    |> Seq.map (fun (_, col) -> Seq.head col)
+    |> Seq.map (fun p -> getParameterForType typesSet interfacesSet p)
+    |> Seq.map (fun s -> s.Replace(modMarker, ""))
+    |> String.concat "\n"
+
+let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<string>, prms: TlParam list) = 
     let result = List<string>()
     prms
     |> Seq.ofList
     |> Seq.iteri(fun i p ->
-        let paramName = getName p.Name
-        let paramType = typeMapping typeSet interfacesSet p.Type
-       
         match p.Type with
         | "int128" ->  result.Add "       [SerializationArrayLength(16)]"
         | "int256" ->  result.Add "       [SerializationArrayLength(32)]"
@@ -137,7 +172,9 @@ let getParametersForEntity (typeSet: HashSet<string> , interfacesSet: HashSet<st
         | Some(value) -> result.Add value
         | None -> ()
 
-        sprintf "       public %s %s {get; set;}\n" paramType paramName |> result.Add
+        getParameterForType typeSet interfacesSet  p
+        |> (fun s -> s.Replace(modMarker, "public"))
+        |> result.Add
     )
 
     result |> String.concat "\n"
@@ -166,6 +203,13 @@ let createEntityFile (tlType: TlType) (interfacesHash: HashSet<string>)=
     | true ->  getName tlType.Type |> createFile nmsp className
     | false ->  createFile nmsp className String.Empty
 
+let createInterfaceCommonFile (typeName: string) =
+    let nmsp = getShotNamespace(typeName)
+    let interfaceName = getClassNameFromInterface(typeName)
+    let name = getName typeName
+    createFile nmsp (interfaceName + "Common") name
+
+
 let createInterfaceFile (typeName: string) =
     let nmsp = getShotNamespace(typeName)
     let interfaceName = getClassNameFromInterface(typeName)
@@ -173,13 +217,22 @@ let createInterfaceFile (typeName: string) =
     createFile nmsp interfaceName name
 
 let getParentForType (tlType: TlType, interfacesSet: HashSet<string>) =
-    match tlType.Type = tlType.Predicate with
-    | true -> baseObjectInterface
-    | false -> 
-        match containsName interfacesSet tlType.Type with
-        | true -> getClassNameFromInterface(tlType.Type)
-        | false -> baseObjectInterface
+    let baseClass =
+        match tlType.Type = tlType.Predicate with
+        | true -> baseObjectInterface
+        | false -> 
+            match containsName interfacesSet tlType.Type with
+            | true -> getClassNameFromInterface(tlType.Type)
+            | false -> baseObjectInterface
 
+    let emptyInterface = 
+        match isEmpty tlType.Predicate with
+        | Some() -> "IEmpty"
+        | None -> "" 
+    
+    [baseClass; emptyInterface]
+    |> Seq.filter (String.IsNullOrEmpty >> not)
+    |> String.concat ", " 
 
 let getClassNameFromRequest (tlRequest: TlRequest) = 
      getName tlRequest.Method
@@ -223,13 +276,39 @@ let generateEntities (schema: Schema) =
     |> ignore
 
     for tlType in schema.Types do
-        if containsName interfacesHash tlType.Type then
-            StringBuilder(interfaceTemplate)
-                .Replace(namespaceMarker, getFullNamespace(tlType.Type))
-                .Replace(nameMarker, getClassNameFromInterface(tlType.Type))
-                .ToString()
-            |> createInterfaceFile tlType.Type
+        match containsName interfacesHash tlType.Type with
+        | false -> ()
+        | true ->
+            let types = getTypesForInterface schema.Types tlType.Type
+            let exist = types
+                        |> Seq.tryFind (fun t -> t.Predicate.Contains("Empty"))
 
+            match exist with
+            | Some(_) -> 
+                if Seq.length types > 2 then
+                    StringBuilder(interfaceTemplate)
+                        .Replace(namespaceMarker, getFullNamespace(tlType.Type))
+                        .Replace(nameMarker, getClassNameFromInterface(tlType.Type) + "Common" )
+                        .Replace(paramMarker, getParametersForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
+                        .ToString()
+                    |> createInterfaceCommonFile tlType.Type
+                    
+                StringBuilder(interfaceTemplate)
+                    .Replace(namespaceMarker, getFullNamespace(tlType.Type))
+                    .Replace(nameMarker, getClassNameFromInterface(tlType.Type))
+                    .Replace(paramMarker, "")
+                    .ToString()
+                |> createInterfaceFile tlType.Type
+
+            | None -> 
+                StringBuilder(interfaceTemplate)
+                    .Replace(namespaceMarker, getFullNamespace(tlType.Type))
+                    .Replace(nameMarker, getClassNameFromInterface(tlType.Type))
+                    .Replace(paramMarker, getParametersForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
+                    .Replace(paramMarker, "")
+                    .ToString()
+                |> createInterfaceFile tlType.Type
+        
         StringBuilder(entityTemplate)
             .Replace(constructorMarker, tlType.Id)
             .Replace(parentMarker, getParentForType(tlType, interfacesHash))
@@ -240,7 +319,7 @@ let generateEntities (schema: Schema) =
         |> createEntityFile tlType interfacesHash
 
     for tlRequest in schema.Requests do
-     StringBuilder(requestTemplate)
+        StringBuilder(requestTemplate)
             .Replace(constructorMarker, tlRequest.Id)
             .Replace(namespaceMarker, getFullNamespace(tlRequest.Method))
             .Replace(requestParamMarker, getGenericParamRequest(tlRequest, typesHash, interfacesHash))

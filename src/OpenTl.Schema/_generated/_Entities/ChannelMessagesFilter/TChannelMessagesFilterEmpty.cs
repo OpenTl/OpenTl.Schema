@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x94d42ee7)]
-	public class TChannelMessagesFilterEmpty : IChannelMessagesFilter
+	public class TChannelMessagesFilterEmpty : IChannelMessagesFilter, IEmpty
 	{
 
 	}

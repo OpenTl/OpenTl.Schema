@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe4c123d6)]
-	public class TInputGeoPointEmpty : IInputGeoPoint
+	public class TInputGeoPointEmpty : IInputGeoPoint, IEmpty
 	{
 
 	}

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9664f57f)]
-	public class TInputMediaEmpty : IInputMedia
+	public class TInputMediaEmpty : IInputMedia, IEmpty
 	{
 
 	}

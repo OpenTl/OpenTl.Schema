@@ -2,10 +2,13 @@
 
 namespace OpenTl.Schema
 {
-	using System;
+    using System;
+	using System.Collections;
+
 	using OpenTl.Schema;
 
     public interface ITopPeerCategory : IObject
     {
+
     }
 }

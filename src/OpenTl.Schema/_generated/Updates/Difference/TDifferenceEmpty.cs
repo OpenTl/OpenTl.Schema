@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5d75a138)]
-	public class TDifferenceEmpty : IDifference
+	public class TDifferenceEmpty : IDifference, IEmpty
 	{
        [SerializationOrder(0)]
        public int Date {get; set;}

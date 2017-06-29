@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x200250ba)]
-	public class TUserEmpty : IUser
+	public class TUserEmpty : IUser, IEmpty
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

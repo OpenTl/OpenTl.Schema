@@ -2,10 +2,18 @@
 
 namespace OpenTl.Schema
 {
-	using System;
+    using System;
+	using System.Collections;
+
 	using OpenTl.Schema;
 
     public interface IWallPaper : IObject
     {
+        int Id {get; set;}
+
+        string Title {get; set;}
+
+        int Color {get; set;}
+
     }
 }

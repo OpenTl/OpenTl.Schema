@@ -2,10 +2,13 @@
 
 namespace OpenTl.Schema.Storage
 {
-	using System;
+    using System;
+	using System.Collections;
+
 	using OpenTl.Schema;
 
     public interface IFileType : IObject
     {
+
     }
 }

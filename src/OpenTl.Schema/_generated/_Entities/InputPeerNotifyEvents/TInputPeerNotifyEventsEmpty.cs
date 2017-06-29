@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf03064d8)]
-	public class TInputPeerNotifyEventsEmpty : IInputPeerNotifyEvents
+	public class TInputPeerNotifyEventsEmpty : IInputPeerNotifyEvents, IEmpty
 	{
 
 	}

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb6aef7b0)]
-	public class TMessageActionEmpty : IMessageAction
+	public class TMessageActionEmpty : IMessageAction, IEmpty
 	{
 
 	}

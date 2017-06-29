@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3e11affb)]
-	public class TChannelDifferenceEmpty : IChannelDifference
+	public class TChannelDifferenceEmpty : IChannelDifference, IEmpty
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

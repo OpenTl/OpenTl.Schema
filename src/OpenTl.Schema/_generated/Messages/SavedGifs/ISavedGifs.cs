@@ -2,10 +2,13 @@
 
 namespace OpenTl.Schema.Messages
 {
-	using System;
+    using System;
+	using System.Collections;
+
 	using OpenTl.Schema;
 
     public interface ISavedGifs : IObject
     {
+
     }
 }

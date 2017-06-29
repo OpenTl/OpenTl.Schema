@@ -2,10 +2,13 @@
 
 namespace OpenTl.Schema.Updates
 {
-	using System;
+    using System;
+	using System.Collections;
+
 	using OpenTl.Schema;
 
     public interface IDifference : IObject
     {
+
     }
 }

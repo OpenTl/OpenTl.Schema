@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb285a0c6)]
-	public class TChannelRoleEmpty : IChannelParticipantRole
+	public class TChannelRoleEmpty : IChannelParticipantRole, IEmpty
 	{
 
 	}

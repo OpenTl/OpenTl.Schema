@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdc3d824f)]
-	public class TTextEmpty : IRichText
+	public class TTextEmpty : IRichText, IEmpty
 	{
 
 	}

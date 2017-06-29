@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe17e23c)]
-	public class TPhotoSizeEmpty : IPhotoSize
+	public class TPhotoSizeEmpty : IPhotoSize, IEmpty
 	{
        [SerializationOrder(0)]
        public string Ype {get; set;}
