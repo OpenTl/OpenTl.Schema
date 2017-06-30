@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Account
 	[Serialize(0x96dabc18)]
 	public class TNoPassword : IPassword
 	{
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] NewSalt {get; set;}
 

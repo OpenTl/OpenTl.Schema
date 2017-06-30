@@ -17,7 +17,6 @@ namespace OpenTl.Schema.Phone
        [SerializationOrder(1)]
        public int RandomId {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(2)]
        public byte[] GAHash {get; set;}
 

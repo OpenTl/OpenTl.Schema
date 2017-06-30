@@ -14,7 +14,6 @@ namespace OpenTl.Schema.Auth
        [SerializationOrder(0)]
        public int Id {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] Bytes {get; set;}
 

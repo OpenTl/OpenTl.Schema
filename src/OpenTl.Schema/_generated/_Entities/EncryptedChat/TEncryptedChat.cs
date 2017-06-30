@@ -26,7 +26,6 @@ namespace OpenTl.Schema
        [SerializationOrder(4)]
        public int ParticipantId {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(5)]
        public byte[] GAOrB {get; set;}
 

@@ -14,7 +14,6 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(0)]
        public IInputEncryptedChat Peer {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] GB {get; set;}
 

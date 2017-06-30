@@ -17,7 +17,6 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int UserId {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(2)]
        public byte[] Payload {get; set;}
 

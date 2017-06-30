@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Account
 	[Serialize(0x4a82327e)]
     public class RequestGetTmpPassword : IRequest<Account.ITmpPassword>
     {
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] PasswordHash {get; set;}
 

@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Upload
 	[Serialize(0xa99fca4f)]
 	public class TCdnFile : ICdnFile
 	{
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] Bytes {get; set;}
 

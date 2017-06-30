@@ -23,7 +23,6 @@ namespace OpenTl.Schema
        [SerializationOrder(3)]
        public int H {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(4)]
        public byte[] Bytes {get; set;}
 

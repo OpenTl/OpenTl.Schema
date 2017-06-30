@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard1.5;net46</TargetFrameworks>
+    <TargetFrameworks>netstandard15;net46</TargetFrameworks>
   </PropertyGroup>
   <PropertyGroup>
     <Title>Schema for a OpenTl project</Title>
@@ -29,6 +29,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Entities" />
     <Folder Include="_generated\Account\Authorizations" />
     <Folder Include="_generated\Account\Authorizations" />
     <Folder Include="_generated\Account\Password" />

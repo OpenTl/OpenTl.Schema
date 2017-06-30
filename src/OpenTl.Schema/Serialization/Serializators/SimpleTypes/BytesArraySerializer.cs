@@ -11,10 +11,12 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
         public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata)
         {
             var array = (byte[]) value;
-            
-            var length = metadata.ArrayLength.Value;
-            
-            if ( length == -1)
+
+            if (metadata?.ArrayLength != null)
+            {
+                writer.Write(array, 0, metadata.ArrayLength.Value);
+            }
+            else
             {
                 int padding;
                 if (array.Length < 254)
@@ -41,20 +43,13 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
                 for (var i = 0; i < padding; i++)
                     writer.Write((byte) 0);
             }
-            else
-            {
-                writer.Write(array, 0, length);
-            }
-
         }
 
         public object Deserialize(BinaryReader reader, SerializationMetadata metadata)
         {
-            var length = metadata.ArrayLength.Value;
-
-            if (length != -1)
+            if ( metadata?.ArrayLength != null)
             {
-                return reader.ReadBytes(length);
+                return reader.ReadBytes(metadata.ArrayLength.Value);
             }
             
             var firstByte = reader.ReadByte();

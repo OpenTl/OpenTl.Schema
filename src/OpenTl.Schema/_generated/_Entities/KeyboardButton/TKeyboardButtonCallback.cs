@@ -14,7 +14,6 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public string Ext {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] Data {get; set;}
 

@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Upload
 	[Serialize(0x2000bcc3)]
     public class RequestGetCdnFile : IRequest<Upload.ICdnFile>
     {
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] FileToken {get; set;}
 

@@ -11,11 +11,9 @@ namespace OpenTl.Schema.Account
 	[Serialize(0x7c18141c)]
 	public class TPassword : IPassword
 	{
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] CurrentSalt {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] NewSalt {get; set;}
 

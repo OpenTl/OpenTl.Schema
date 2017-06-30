@@ -14,7 +14,6 @@ namespace OpenTl.Schema.Phone
        [SerializationOrder(0)]
        public IInputPhoneCall Peer {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] GA {get; set;}
 

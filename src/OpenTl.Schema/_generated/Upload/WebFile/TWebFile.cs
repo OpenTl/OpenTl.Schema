@@ -23,7 +23,6 @@ namespace OpenTl.Schema.Upload
        [SerializationOrder(3)]
        public int Mtime {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(4)]
        public byte[] Bytes {get; set;}
 

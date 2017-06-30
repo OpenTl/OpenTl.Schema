@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Auth
 	[Serialize(0xa63011e)]
     public class RequestCheckPassword : IRequest<Auth.IAuthorization>
     {
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] PasswordHash {get; set;}
 

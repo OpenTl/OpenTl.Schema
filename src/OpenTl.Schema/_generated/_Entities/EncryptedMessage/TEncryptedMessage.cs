@@ -20,7 +20,6 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public int Date {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(3)]
        public byte[] Bytes {get; set;}
 

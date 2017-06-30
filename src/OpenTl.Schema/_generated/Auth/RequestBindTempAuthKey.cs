@@ -20,7 +20,6 @@ namespace OpenTl.Schema.Auth
        [SerializationOrder(2)]
        public int ExpiresAt {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(3)]
        public byte[] EncryptedMessage {get; set;}
 

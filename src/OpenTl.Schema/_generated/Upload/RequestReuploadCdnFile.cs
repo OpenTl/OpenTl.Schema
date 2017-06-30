@@ -11,11 +11,9 @@ namespace OpenTl.Schema.Upload
 	[Serialize(0x2e7a2020)]
     public class RequestReuploadCdnFile : IRequest<bool>
     {
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] FileToken {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] RequestToken {get; set;}
 

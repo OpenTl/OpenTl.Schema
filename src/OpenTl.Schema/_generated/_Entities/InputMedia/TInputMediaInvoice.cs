@@ -27,7 +27,6 @@ namespace OpenTl.Schema
        [SerializationOrder(4)]
        public IInvoice Invoice {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(5)]
        public byte[] Payload {get; set;}
 

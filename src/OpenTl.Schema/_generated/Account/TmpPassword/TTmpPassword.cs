@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Account
 	[Serialize(0xdb64fd34)]
 	public class TTmpPassword : ITmpPassword
 	{
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] MpPassword {get; set;}
 

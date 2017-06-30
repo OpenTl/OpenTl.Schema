@@ -17,7 +17,6 @@ namespace OpenTl.Schema.Upload
        [SerializationOrder(1)]
        public int FilePart {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(2)]
        public byte[] Bytes {get; set;}
 

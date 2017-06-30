@@ -11,7 +11,6 @@ namespace OpenTl.Schema.Upload
 	[Serialize(0xeea8e46e)]
 	public class TCdnFileReuploadNeeded : ICdnFile
 	{
-       [SerializationArrayLength(-1)]
        [SerializationOrder(0)]
        public byte[] RequestToken {get; set;}
 

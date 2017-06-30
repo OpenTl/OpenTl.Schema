@@ -14,15 +14,12 @@ namespace OpenTl.Schema.Upload
        [SerializationOrder(0)]
        public int DcId {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(1)]
        public byte[] FileToken {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(2)]
        public byte[] EncryptionKey {get; set;}
 
-       [SerializationArrayLength(-1)]
        [SerializationOrder(3)]
        public byte[] EncryptionIv {get; set;}
 

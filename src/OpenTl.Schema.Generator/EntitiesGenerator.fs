@@ -164,7 +164,6 @@ let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<str
         match p.Type with
         | "int128" ->  result.Add "       [SerializationArrayLength(16)]"
         | "int256" ->  result.Add "       [SerializationArrayLength(32)]"
-        | "bytes" ->  result.Add "       [SerializationArrayLength(-1)]"
         | _ -> ()
 
         sprintf "       [SerializationOrder(%i)]" i |> result.Add
