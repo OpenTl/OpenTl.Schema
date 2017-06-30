@@ -83,7 +83,7 @@ msg_new_detailed_info#809db6df answer_msg_id:long bytes:int status:int = MsgDeta
 
 msg_resend_req#7d861a08 msg_ids:Vector<long> = MsgResendReq;
 
-//rpc_result#f35c6d01 req_msg_id:long result:Object = RpcResult; // parsed manually
+rpc_result#f35c6d01 req_msg_id:long result:Object = RpcResult;
 
 rpc_error#2144ca19 error_code:int error_message:string = RpcError;
 

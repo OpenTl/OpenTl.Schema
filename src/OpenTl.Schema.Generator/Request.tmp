@@ -1,0 +1,16 @@
+﻿// ReSharper disable All
+
+namespace /* NAMESPACE */
+{
+	using System;
+	using System.Collections;
+
+	using OpenTl.Schema;
+	using OpenTl.Schema.Serialization.Attributes;	
+
+	[Serialize(/* CONSTRUCTOR */)]
+    public class /* NAME */ : IRequest</* GENERIC_PARAM */>
+    {
+/* PARAMS */
+    }
+}

@@ -159,8 +159,6 @@
     <Folder Include="_generated\_Entities\ChannelParticipantRole" />
     <Folder Include="_generated\_Entities\ChannelParticipantsFilter" />
     <Folder Include="_generated\_Entities\Chat" />
-    <Folder Include="_generated\_Entities\ChatCommon" />
-    <Folder Include="_generated\_Entities\ChatCommonCommon" />
     <Folder Include="_generated\_Entities\ChatFull" />
     <Folder Include="_generated\_Entities\ChatInvite" />
     <Folder Include="_generated\_Entities\ChatParticipant" />
@@ -185,12 +183,8 @@
     <Folder Include="_generated\_Entities\DisabledFeature" />
     <Folder Include="_generated\_Entities\Document" />
     <Folder Include="_generated\_Entities\DocumentAttribute" />
-    <Folder Include="_generated\_Entities\DocumentCommon" />
-    <Folder Include="_generated\_Entities\DocumentCommonCommon" />
     <Folder Include="_generated\_Entities\DraftMessage" />
     <Folder Include="_generated\_Entities\EncryptedChat" />
-    <Folder Include="_generated\_Entities\EncryptedChatCommon" />
-    <Folder Include="_generated\_Entities\EncryptedChatCommonCommon" />
     <Folder Include="_generated\_Entities\EncryptedFile" />
     <Folder Include="_generated\_Entities\EncryptedMessage" />
     <Folder Include="_generated\_Entities\ExportedChatInvite" />
@@ -257,8 +251,6 @@
     <Folder Include="_generated\_Entities\MaskCoords" />
     <Folder Include="_generated\_Entities\Message" />
     <Folder Include="_generated\_Entities\MessageAction" />
-    <Folder Include="_generated\_Entities\MessageCommon" />
-    <Folder Include="_generated\_Entities\MessageCommonCommon" />
     <Folder Include="_generated\_Entities\MessageEntity" />
     <Folder Include="_generated\_Entities\MessageFwdHeader" />
     <Folder Include="_generated\_Entities\MessageFwdHeader" />
@@ -270,6 +262,7 @@
     <Folder Include="_generated\_Entities\NearestDc" />
     <Folder Include="_generated\_Entities\NearestDc" />
     <Folder Include="_generated\_Entities\NotifyPeer" />
+    <Folder Include="_generated\_Entities\Object" />
     <Folder Include="_generated\_Entities\Page" />
     <Folder Include="_generated\_Entities\PageBlock" />
     <Folder Include="_generated\_Entities\PaymentCharge" />
@@ -284,20 +277,13 @@
     <Folder Include="_generated\_Entities\PeerSettings" />
     <Folder Include="_generated\_Entities\PeerSettings" />
     <Folder Include="_generated\_Entities\PhoneCall" />
-    <Folder Include="_generated\_Entities\PhoneCallCommon" />
-    <Folder Include="_generated\_Entities\PhoneCallCommonCommon" />
     <Folder Include="_generated\_Entities\PhoneCallDiscardReason" />
     <Folder Include="_generated\_Entities\PhoneCallProtocol" />
     <Folder Include="_generated\_Entities\PhoneCallProtocol" />
     <Folder Include="_generated\_Entities\PhoneConnection" />
     <Folder Include="_generated\_Entities\PhoneConnection" />
     <Folder Include="_generated\_Entities\Photo" />
-    <Folder Include="_generated\_Entities\PhotoCommon" />
-    <Folder Include="_generated\_Entities\PhotoCommonCommon" />
     <Folder Include="_generated\_Entities\PhotoSize" />
-    <Folder Include="_generated\_Entities\PhotoSizeCommon" />
-    <Folder Include="_generated\_Entities\PhotoSizeCommonCommon" />
-    <Folder Include="_generated\_Entities\Pong" />
     <Folder Include="_generated\_Entities\Pong" />
     <Folder Include="_generated\_Entities\PostAddress" />
     <Folder Include="_generated\_Entities\PostAddress" />
@@ -324,8 +310,6 @@
     <Folder Include="_generated\_Entities\Update" />
     <Folder Include="_generated\_Entities\Updates" />
     <Folder Include="_generated\_Entities\User" />
-    <Folder Include="_generated\_Entities\UserCommon" />
-    <Folder Include="_generated\_Entities\UserCommonCommon" />
     <Folder Include="_generated\_Entities\UserFull" />
     <Folder Include="_generated\_Entities\UserFull" />
     <Folder Include="_generated\_Entities\UserProfilePhoto" />
@@ -334,7 +318,5 @@
     <Folder Include="_generated\_Entities\WebDocument" />
     <Folder Include="_generated\_Entities\WebDocument" />
     <Folder Include="_generated\_Entities\WebPage" />
-    <Folder Include="_generated\_Entities\WebPageCommon" />
-    <Folder Include="_generated\_Entities\WebPageCommonCommon" />
   </ItemGroup>
 </Project>

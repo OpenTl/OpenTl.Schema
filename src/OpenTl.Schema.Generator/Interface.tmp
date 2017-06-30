@@ -1,0 +1,14 @@
+﻿// ReSharper disable All
+
+namespace /* NAMESPACE */
+{
+    using System;
+	using System.Collections;
+
+	using OpenTl.Schema;
+
+    public interface /* NAME */ : IObject
+    {
+/* PARAMS */
+    }
+}

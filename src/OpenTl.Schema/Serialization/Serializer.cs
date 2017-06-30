@@ -89,14 +89,16 @@ namespace OpenTl.Schema.Serialization
             return (IObject) obj;
         }
         
-        public static MemoryStream SerializeObject(object obj)
+        public static byte[] SerializeObject(object obj)
         {
-            var stream = new MemoryStream();
-            var binaryWriter = new BinaryWriter(stream);
-            Serialize(obj, binaryWriter);
+            using (var stream = new MemoryStream())
+            using (var binaryWriter = new BinaryWriter(stream))
+            {
+                Serialize(obj, binaryWriter);
 
-            stream.Seek(0, SeekOrigin.Begin);
-            return stream;
+                stream.TryGetBuffer(out var buffer);
+                return buffer.Array;
+            }
         }
 
         internal static void Serialize(object obj, BinaryWriter binaryWriter)
