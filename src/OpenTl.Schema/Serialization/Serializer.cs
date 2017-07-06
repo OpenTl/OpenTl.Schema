@@ -31,7 +31,7 @@ namespace OpenTl.Schema.Serialization
             return DeserializeObject(reader, null);
         }
         
-        internal static object Deserialize(BinaryReader binaryReader, TypeInfo typeInfo)
+        public static object Deserialize(BinaryReader binaryReader, TypeInfo typeInfo)
         {
             if (typeInfo == null || typeof(IObject).GetTypeInfo().IsAssignableFrom(typeInfo))
             {
@@ -89,7 +89,7 @@ namespace OpenTl.Schema.Serialization
             return (IObject) obj;
         }
         
-        public static byte[] SerializeObject(object obj)
+        public static byte[] SerializeObjectWithBuffer(object obj)
         {
             using (var stream = new MemoryStream())
             using (var binaryWriter = new BinaryWriter(stream))
@@ -101,6 +101,17 @@ namespace OpenTl.Schema.Serialization
             }
         }
 
+        public static byte[] SerializeObjectWithoutBuffer(object obj)
+        {
+            using (var stream = new MemoryStream())
+            using (var binaryWriter = new BinaryWriter(stream))
+            {
+                Serialize(obj, binaryWriter);
+
+                return stream.ToArray();
+            }
+        }
+        
         internal static void Serialize(object obj, BinaryWriter binaryWriter)
         {
             if (obj == null)

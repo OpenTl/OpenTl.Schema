@@ -25,8 +25,8 @@ namespace OpenTl.Schema.Serialization
                 .Where(t => t.GetCustomAttribute<SerializeAttribute>() != null)
                 .ToArray();
 
-            IdToTypeMap = modelTypes.ToDictionary(t => t.GetCustomAttribute<SerializeAttribute>().TypeId);
-            TypeToIdMap = modelTypes.ToDictionary(t => t, t => t.GetCustomAttribute<SerializeAttribute>().TypeId);
+            IdToTypeMap = modelTypes.ToDictionary(t => t.GetCustomAttribute<SerializeAttribute>().Id);
+            TypeToIdMap = modelTypes.ToDictionary(t => t, t => t.GetCustomAttribute<SerializeAttribute>().Id);
             
             
             Serializators = allTypes

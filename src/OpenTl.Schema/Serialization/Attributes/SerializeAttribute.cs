@@ -4,11 +4,11 @@ namespace OpenTl.Schema.Serialization.Attributes
 {
     internal class SerializeAttribute: Attribute
     {
-        internal uint TypeId { get; }
+        internal uint Id { get; }
 
-        public SerializeAttribute(uint typeId)
+        public SerializeAttribute(uint id)
         {
-            TypeId = typeId;
+            Id = id;
         }
     }
 }
