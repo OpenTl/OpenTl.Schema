@@ -23,7 +23,8 @@
         
         public static string GetStringFromBinary(byte[] bytes)
         {
-            var chars = new char[bytes.Length / sizeof(char)];
+            var length = bytes.Length / sizeof(char) + (bytes.Length % sizeof(char) != 0 ? 1 : 0);
+            var chars = new char[length];
             System.Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
             return new string(chars);
         }
