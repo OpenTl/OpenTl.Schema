@@ -1,5 +1,7 @@
 ﻿namespace OpenTl.Schema.Serialization
 {
+    using System;
+    using System.Linq;
     using System.Text;
 
     public class SerializationUtils
@@ -16,16 +18,13 @@
         
         public static byte[] GetBinaryFromString(string str)
         {
-            var bytes = new byte[str.Length * sizeof(char)];
-            System.Buffer.BlockCopy(str.ToCharArray(), 0, bytes, 0, bytes.Length);
-            return bytes;
+            return str.Select(Convert.ToByte).ToArray();
         }
         
         public static string GetStringFromBinary(byte[] bytes)
         {
-            var length = bytes.Length / sizeof(char) + (bytes.Length % sizeof(char) != 0 ? 1 : 0);
-            var chars = new char[length];
-            System.Buffer.BlockCopy(bytes, 0, chars, 0, bytes.Length);
+            var chars = bytes.Select(Convert.ToChar).ToArray();
+            
             return new string(chars);
         }
     }
