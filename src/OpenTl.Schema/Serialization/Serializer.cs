@@ -101,7 +101,7 @@ namespace OpenTl.Schema.Serialization
             }
         }
 
-        public static byte[] SerializeObjectWithoutBuffer(object obj)
+        public static byte[] SerializeObject(object obj)
         {
             using (var stream = new MemoryStream())
             using (var binaryWriter = new BinaryWriter(stream))
