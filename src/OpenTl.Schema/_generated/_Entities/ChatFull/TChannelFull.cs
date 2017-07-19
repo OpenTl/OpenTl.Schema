@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xc3d5512f)]
+	[Serialize(0x95cb5f57)]
 	public class TChannelFull : IChatFull
 	{
        [SerializationOrder(0)]
@@ -41,35 +41,39 @@ namespace OpenTl.Schema
        public int KickedCount {get; set;}
 
        [SerializationOrder(8)]
-       public int ReadInboxMaxId {get; set;}
+       [CanSerialize("Flags", 2)]
+       public int BannedCount {get; set;}
 
        [SerializationOrder(9)]
-       public int ReadOutboxMaxId {get; set;}
+       public int ReadInboxMaxId {get; set;}
 
        [SerializationOrder(10)]
-       public int UnreadCount {get; set;}
+       public int ReadOutboxMaxId {get; set;}
 
        [SerializationOrder(11)]
-       public IPhoto ChatPhoto {get; set;}
+       public int UnreadCount {get; set;}
 
        [SerializationOrder(12)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public IPhoto ChatPhoto {get; set;}
 
        [SerializationOrder(13)]
-       public IExportedChatInvite ExportedInvite {get; set;}
+       public IPeerNotifySettings NotifySettings {get; set;}
 
        [SerializationOrder(14)]
-       public TVector<IBotInfo> BotInfo {get; set;}
+       public IExportedChatInvite ExportedInvite {get; set;}
 
        [SerializationOrder(15)]
-       [CanSerialize("Flags", 4)]
-       public int MigratedFromChatId {get; set;}
+       public TVector<IBotInfo> BotInfo {get; set;}
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 4)]
-       public int MigratedFromMaxId {get; set;}
+       public int MigratedFromChatId {get; set;}
 
        [SerializationOrder(17)]
+       [CanSerialize("Flags", 4)]
+       public int MigratedFromMaxId {get; set;}
+
+       [SerializationOrder(18)]
        [CanSerialize("Flags", 5)]
        public int PinnedMsgId {get; set;}
 

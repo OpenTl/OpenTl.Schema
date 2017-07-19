@@ -1,0 +1,27 @@
+﻿// ReSharper disable All
+
+namespace OpenTl.Schema
+{
+	using System;
+	using System.Collections;
+
+	using OpenTl.Schema;
+	using OpenTl.Schema.Serialization.Attributes;	
+
+	[Serialize(0x3b5a3e40)]
+	public class TChannelAdminLogEvent : IChannelAdminLogEvent
+	{
+       [SerializationOrder(0)]
+       public long Id {get; set;}
+
+       [SerializationOrder(1)]
+       public int Date {get; set;}
+
+       [SerializationOrder(2)]
+       public int UserId {get; set;}
+
+       [SerializationOrder(3)]
+       public IChannelAdminLogEventAction Action {get; set;}
+
+	}
+}

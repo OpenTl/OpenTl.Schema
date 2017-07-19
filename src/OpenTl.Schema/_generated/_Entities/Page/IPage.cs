@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 
         TVector<IPhoto> Photos {get; set;}
 
-        TVector<IDocument> Videos {get; set;}
+        TVector<IDocument> Documents {get; set;}
 
     }
 }

@@ -100,6 +100,7 @@ let rec typeMapping (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>)
     | "Bool" -> "bool"
     | "true" -> "bool"
     | "Object" -> "IObject"
+    | "ipPort" -> "IpPort"
     | "X" -> baseObjectInterface
     | "!X" -> baseObjectInterface
     | tlType when containsName interfacesSet tlType -> getClassNameFromInterface tlType  |> getFullTypeName tlType

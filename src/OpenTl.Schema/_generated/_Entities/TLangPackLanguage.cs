@@ -8,17 +8,17 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x91057fef)]
-	public class TChannelParticipantModerator : IChannelParticipant
+	[Serialize(0x117698f1)]
+	public class TLangPackLanguage : IObject
 	{
        [SerializationOrder(0)]
-       public int UserId {get; set;}
+       public string Name {get; set;}
 
        [SerializationOrder(1)]
-       public int InviterId {get; set;}
+       public string NativeName {get; set;}
 
        [SerializationOrder(2)]
-       public int Date {get; set;}
+       public string LangCode {get; set;}
 
 	}
 }

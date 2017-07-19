@@ -7,7 +7,7 @@ namespace OpenTl.Schema
 
 	using OpenTl.Schema;
 
-    public interface IChannelParticipantRole : IObject
+    public interface IChannelAdminLogEventAction : IObject
     {
 
     }

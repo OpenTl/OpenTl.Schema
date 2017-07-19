@@ -29,7 +29,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entities" />
     <Folder Include="_generated\Account\Authorizations" />
     <Folder Include="_generated\Account\Authorizations" />
     <Folder Include="_generated\Account\Password" />

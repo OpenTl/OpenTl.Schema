@@ -19,6 +19,8 @@ namespace OpenTl.Schema
 
         bool Cdn {get; set;}
 
+        bool Static {get; set;}
+
         int Id {get; set;}
 
         string IpAddress {get; set;}

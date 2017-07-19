@@ -8,9 +8,11 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x3c37bb7a)]
+	[Serialize(0xa3b54985)]
 	public class TChannelParticipantsKicked : IChannelParticipantsFilter
 	{
+       [SerializationOrder(0)]
+       public string Q {get; set;}
 
 	}
 }

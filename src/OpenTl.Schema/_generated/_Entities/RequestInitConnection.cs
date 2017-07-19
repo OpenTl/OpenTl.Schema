@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x69796de9)]
+	[Serialize(0xc7481da6)]
     public class RequestInitConnection : IRequest<IObject>
     {
        [SerializationOrder(0)]
@@ -24,9 +24,15 @@ namespace OpenTl.Schema
        public string AppVersion {get; set;}
 
        [SerializationOrder(4)]
-       public string LangCode {get; set;}
+       public string SystemLangCode {get; set;}
 
        [SerializationOrder(5)]
+       public string LangPack {get; set;}
+
+       [SerializationOrder(6)]
+       public string LangCode {get; set;}
+
+       [SerializationOrder(7)]
        public IObject Query {get; set;}
 
     }

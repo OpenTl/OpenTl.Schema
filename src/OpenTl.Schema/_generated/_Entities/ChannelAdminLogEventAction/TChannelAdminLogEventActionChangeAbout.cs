@@ -8,17 +8,14 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x8cc5e69a)]
-	public class TChannelParticipantKicked : IChannelParticipant
+	[Serialize(0x55188a2e)]
+	public class TChannelAdminLogEventActionChangeAbout : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public int UserId {get; set;}
+       public string PrevValue {get; set;}
 
        [SerializationOrder(1)]
-       public int KickedBy {get; set;}
-
-       [SerializationOrder(2)]
-       public int Date {get; set;}
+       public string NewValue {get; set;}
 
 	}
 }

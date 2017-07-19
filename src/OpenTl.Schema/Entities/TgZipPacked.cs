@@ -1,4 +1,4 @@
-﻿namespace OpenTl.Schema.Entities
+﻿namespace OpenTl.Schema
 {
     using OpenTl.Schema.Serialization.Attributes;
 

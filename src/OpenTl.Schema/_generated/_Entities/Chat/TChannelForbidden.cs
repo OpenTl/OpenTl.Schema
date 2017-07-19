@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x8537784f)]
+	[Serialize(0x289da732)]
 	public class TChannelForbidden : IChat
 	{
        [SerializationOrder(0)]
@@ -30,6 +30,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(5)]
        public string Title {get; set;}
+
+       [SerializationOrder(6)]
+       [CanSerialize("Flags", 16)]
+       public int UntilDate {get; set;}
 
 	}
 }

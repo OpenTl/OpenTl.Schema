@@ -31,12 +31,16 @@ namespace OpenTl.Schema
        public bool Cdn {get; set;}
 
        [SerializationOrder(5)]
-       public int Id {get; set;}
+       [FromFlag("Flags", 4)]
+       public bool Static {get; set;}
 
        [SerializationOrder(6)]
-       public string IpAddress {get; set;}
+       public int Id {get; set;}
 
        [SerializationOrder(7)]
+       public string IpAddress {get; set;}
+
+       [SerializationOrder(8)]
        public int Port {get; set;}
 
 	}

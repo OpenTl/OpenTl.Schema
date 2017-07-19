@@ -8,7 +8,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xeb7611d0)]
+	[Serialize(0x20b88214)]
     public class RequestEditAdmin : IRequest<IUpdates>
     {
        [SerializationOrder(0)]
@@ -18,7 +18,7 @@ namespace OpenTl.Schema.Channels
        public IInputUser UserId {get; set;}
 
        [SerializationOrder(2)]
-       public IChannelParticipantRole Role {get; set;}
+       public IChannelAdminRights AdminRights {get; set;}
 
     }
 }

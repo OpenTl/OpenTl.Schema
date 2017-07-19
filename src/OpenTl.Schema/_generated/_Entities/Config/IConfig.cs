@@ -69,6 +69,10 @@ namespace OpenTl.Schema
 
         string MeUrlPrefix {get; set;}
 
+        string SuggestedLangCode {get; set;}
+
+        int LangPackVersion {get; set;}
+
         TVector<IDisabledFeature> DisabledFeatures {get; set;}
 
     }

@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x8dee6c44)]
+	[Serialize(0x8e3f9ebe)]
 	public class TPagePart : IPage
 	{
        [SerializationOrder(0)]
@@ -18,7 +18,7 @@ namespace OpenTl.Schema
        public TVector<IPhoto> Photos {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IDocument> Videos {get; set;}
+       public TVector<IDocument> Documents {get; set;}
 
 	}
 }

@@ -8,8 +8,8 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xb285a0c6)]
-	public class TChannelRoleEmpty : IChannelParticipantRole, IEmpty
+	[Serialize(0x10c2404b)]
+	public class TUpdateLangPackTooLong : IUpdate
 	{
 
 	}

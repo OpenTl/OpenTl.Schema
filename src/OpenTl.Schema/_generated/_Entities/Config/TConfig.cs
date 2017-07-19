@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xcb601684)]
+	[Serialize(0x7feec888)]
 	public class TConfig : IConfig
 	{
        [SerializationOrder(0)]
@@ -104,6 +104,14 @@ namespace OpenTl.Schema
        public string MeUrlPrefix {get; set;}
 
        [SerializationOrder(30)]
+       [CanSerialize("Flags", 2)]
+       public string SuggestedLangCode {get; set;}
+
+       [SerializationOrder(31)]
+       [CanSerialize("Flags", 2)]
+       public int LangPackVersion {get; set;}
+
+       [SerializationOrder(32)]
        public TVector<IDisabledFeature> DisabledFeatures {get; set;}
 
 	}

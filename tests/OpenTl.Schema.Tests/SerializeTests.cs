@@ -1,7 +1,9 @@
 using System;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
+using OpenTl.Schema.Help;
 using OpenTl.Schema.Serialization;
 using OpenTl.Schema.Upload;
 using OpenTl.Schema.Users;
@@ -14,6 +16,24 @@ namespace OpenTl.Schema.Tests
 {
     public class SerializeTests
     {
+        [Fact]
+        public void ConfigSimple_Serialize()
+        {
+            var peer = new TConfigSimple()
+            {
+                Date = 123,
+                DcId = 432,
+                Expires = 3213,
+                IpPortList = new TVector<TIpPort>(new TIpPort{Ipv4 = 444, Port = 555})
+            };
+
+            var data = Serializer.SerializeObject(peer).ToArray();
+
+            var obj = (TConfigSimple) Serializer.DeserializeObject(data);
+            
+            Assert.Equal(peer.Date, obj.Date);
+        }
+        
         [Fact]
         public void PeerUser_Serialize()
         {

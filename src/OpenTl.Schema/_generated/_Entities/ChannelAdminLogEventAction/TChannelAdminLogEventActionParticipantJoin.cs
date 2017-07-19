@@ -8,8 +8,8 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x820bfe8c)]
-	public class TChannelRoleEditor : IChannelParticipantRole
+	[Serialize(0x183040d3)]
+	public class TChannelAdminLogEventActionParticipantJoin : IChannelAdminLogEventAction
 	{
 
 	}

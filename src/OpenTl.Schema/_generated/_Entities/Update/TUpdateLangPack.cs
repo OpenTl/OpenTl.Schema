@@ -8,9 +8,11 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x9618d975)]
-	public class TChannelRoleModerator : IChannelParticipantRole
+	[Serialize(0x56022f4d)]
+	public class TUpdateLangPack : IUpdate
 	{
+       [SerializationOrder(0)]
+       public ILangPackDifference Difference {get; set;}
 
 	}
 }

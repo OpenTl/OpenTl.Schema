@@ -7,8 +7,9 @@ namespace OpenTl.Schema
 
 	using OpenTl.Schema;
 
-    public interface IChannelParticipantRoleCommon : IObject
+    public interface ILangPackString : IObject
     {
+        string Key {get; set;}
 
     }
 }
