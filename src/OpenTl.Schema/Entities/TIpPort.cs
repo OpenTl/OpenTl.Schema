@@ -3,7 +3,7 @@
     using OpenTl.Schema.Serialization.Attributes;
 
     [Serialize]
-    public class TIpPort : IObject
+    public class TIpPort
     {
         [SerializationOrder(1)]
         public int Ipv4 { get; set; }

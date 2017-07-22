@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Serialization
             var allTypes = typeof(SerializationMap).GetTypeInfo().Assembly.DefinedTypes.ToArray();
             
             var modelTypes = allTypes
-                .Where(t => t.GetCustomAttribute<SerializeAttribute>() != null)
+                .Where(t => t.GetCustomAttribute<SerializeAttribute>() != null && typeof(IObject).GetTypeInfo().IsAssignableFrom(t))
                 .ToArray();
 
             IdToTypeMap = modelTypes.ToDictionary(t => t.GetCustomAttribute<SerializeAttribute>().Id);
