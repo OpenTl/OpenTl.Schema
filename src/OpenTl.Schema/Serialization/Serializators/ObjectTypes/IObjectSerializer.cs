@@ -1,12 +1,12 @@
- using System;
- using System.Collections;
- using System.Collections.Generic;
- using System.IO;
- using System.Linq;
- using System.Reflection;
- using OpenTl.Schema.Serialization.Serializators.Interfaces;
- 
- namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using OpenTl.Schema.Serialization.Serializators.Interfaces;
+
+namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
  {
      internal class ObjectSerializer : ISerializator
      {

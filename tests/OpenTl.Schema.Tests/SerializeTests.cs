@@ -17,6 +17,32 @@ namespace OpenTl.Schema.Tests
     public class SerializeTests
     {
         [Fact]
+        public void RequestInvokeWithLayer_Serialize()
+        {
+            var request = new RequestInvokeWithLayer
+            {
+                Layer = SchemaInfo.SchemaVersion,
+                Query = new RequestInitConnection
+                {
+                    ApiId = 123123123,
+                    AppVersion = "1.0.0",
+                    DeviceModel = "PC",
+                    LangCode = "en",
+                    LangPack = "en",
+                    SystemLangCode = "en",
+                    Query = new RequestGetConfig(),
+                    SystemVersion = "Win 10.0"
+                }
+            };
+
+            var data = Serializer.SerializeObject(request).ToArray();
+
+            var obj = (RequestInvokeWithLayer) Serializer.DeserializeObject(data);
+            
+            Assert.Equal(request.Layer, obj.Layer);
+        }
+        
+        [Fact]
         public void ConfigSimple_Serialize()
         {
             var peer = new TConfigSimple()
