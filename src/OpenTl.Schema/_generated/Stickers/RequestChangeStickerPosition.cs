@@ -8,8 +8,8 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x4ed705ca)]
-    public class RequestChangeStickerPosition : IRequest<bool>
+	[Serialize(0xffb6d4ca)]
+    public class RequestChangeStickerPosition : IRequest<Messages.IStickerSet>
     {
        [SerializationOrder(0)]
        public IInputDocument Sticker {get; set;}

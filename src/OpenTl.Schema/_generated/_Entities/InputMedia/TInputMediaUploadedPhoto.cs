@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x630c9af1)]
+	[Serialize(0x2f37e231)]
 	public class TInputMediaUploadedPhoto : IInputMedia
 	{
        [SerializationOrder(0)]
@@ -23,6 +23,10 @@ namespace OpenTl.Schema
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
        public TVector<IInputDocument> Stickers {get; set;}
+
+       [SerializationOrder(4)]
+       [CanSerialize("Flags", 1)]
+       public int TtlSeconds {get; set;}
 
 	}
 }

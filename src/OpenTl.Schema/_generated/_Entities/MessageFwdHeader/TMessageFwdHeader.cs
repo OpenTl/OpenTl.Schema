@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xc786ddcb)]
+	[Serialize(0xfadff4ac)]
 	public class TMessageFwdHeader : IMessageFwdHeader
 	{
        [SerializationOrder(0)]
@@ -28,6 +28,10 @@ namespace OpenTl.Schema
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
        public int ChannelPost {get; set;}
+
+       [SerializationOrder(5)]
+       [CanSerialize("Flags", 3)]
+       public string PostAuthor {get; set;}
 
 	}
 }

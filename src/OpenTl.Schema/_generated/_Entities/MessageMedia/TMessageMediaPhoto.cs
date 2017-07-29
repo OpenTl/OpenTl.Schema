@@ -8,14 +8,23 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x3d8ce53d)]
+	[Serialize(0xb5223b0f)]
 	public class TMessageMediaPhoto : IMessageMedia
 	{
        [SerializationOrder(0)]
-       public IPhoto Photo {get; set;}
+       public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
+       [CanSerialize("Flags", 0)]
+       public IPhoto Photo {get; set;}
+
+       [SerializationOrder(2)]
+       [CanSerialize("Flags", 1)]
        public string Caption {get; set;}
+
+       [SerializationOrder(3)]
+       [CanSerialize("Flags", 2)]
+       public int TtlSeconds {get; set;}
 
 	}
 }

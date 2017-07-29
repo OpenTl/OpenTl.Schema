@@ -8,8 +8,8 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x4255934)]
-    public class RequestRemoveStickerFromSet : IRequest<bool>
+	[Serialize(0xf7760f51)]
+    public class RequestRemoveStickerFromSet : IRequest<Messages.IStickerSet>
     {
        [SerializationOrder(0)]
        public IInputDocument Sticker {get; set;}

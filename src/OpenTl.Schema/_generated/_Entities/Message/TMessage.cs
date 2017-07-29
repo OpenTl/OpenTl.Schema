@@ -8,7 +8,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xc09be45f)]
+	[Serialize(0x90dddc11)]
 	public class TMessage : IMessage
 	{
        [SerializationOrder(0)]
@@ -81,6 +81,10 @@ namespace OpenTl.Schema
        [SerializationOrder(18)]
        [CanSerialize("Flags", 15)]
        public int EditDate {get; set;}
+
+       [SerializationOrder(19)]
+       [CanSerialize("Flags", 16)]
+       public string PostAuthor {get; set;}
 
 	}
 }

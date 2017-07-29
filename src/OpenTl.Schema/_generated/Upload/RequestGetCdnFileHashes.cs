@@ -8,14 +8,14 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x1af91c09)]
-    public class RequestReuploadCdnFile : IRequest<TVector<ICdnFileHash>>
+	[Serialize(0xf715c87b)]
+    public class RequestGetCdnFileHashes : IRequest<TVector<ICdnFileHash>>
     {
        [SerializationOrder(0)]
        public byte[] FileToken {get; set;}
 
        [SerializationOrder(1)]
-       public byte[] RequestToken {get; set;}
+       public int Offset {get; set;}
 
     }
 }

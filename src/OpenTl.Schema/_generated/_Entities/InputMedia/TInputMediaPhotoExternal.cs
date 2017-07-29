@@ -8,14 +8,21 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xb55f4f18)]
+	[Serialize(0x922aec1)]
 	public class TInputMediaPhotoExternal : IInputMedia
 	{
        [SerializationOrder(0)]
-       public string Url {get; set;}
+       public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
+       public string Url {get; set;}
+
+       [SerializationOrder(2)]
        public string Caption {get; set;}
+
+       [SerializationOrder(3)]
+       [CanSerialize("Flags", 0)]
+       public int TtlSeconds {get; set;}
 
 	}
 }

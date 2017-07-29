@@ -19,5 +19,7 @@ namespace OpenTl.Schema
 
         int ChannelPost {get; set;}
 
+        string PostAuthor {get; set;}
+
     }
 }
