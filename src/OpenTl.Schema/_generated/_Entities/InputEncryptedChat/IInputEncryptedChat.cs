@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IInputEncryptedChat : IObject
     {
-        int ChatId {get; set;}
+       int ChatId {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Auth
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -19,7 +20,10 @@ namespace OpenTl.Schema.Auth
        public bool AllowFlashcall {get; set;}
 
        [SerializationOrder(2)]
-       public string PhoneNumber {get; set;}
+       public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
+       private byte[] _PhoneNumberAsBinary;
+       private string _PhoneNumber;
+       public string PhoneNumber { get => _PhoneNumber; set { PhoneNumberAsBinary = Encoding.UTF8.GetBytes(value); _PhoneNumber = value; }}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
@@ -29,7 +33,10 @@ namespace OpenTl.Schema.Auth
        public int ApiId {get; set;}
 
        [SerializationOrder(5)]
-       public string ApiHash {get; set;}
+       public byte[] ApiHashAsBinary { get => _ApiHashAsBinary; set { _ApiHash = Encoding.UTF8.GetString(value); _ApiHashAsBinary = value; }}
+       private byte[] _ApiHashAsBinary;
+       private string _ApiHash;
+       public string ApiHash { get => _ApiHash; set { ApiHashAsBinary = Encoding.UTF8.GetBytes(value); _ApiHash = value; }}
 
     }
 }

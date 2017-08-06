@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Messages
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,7 +19,10 @@ namespace OpenTl.Schema.Messages
        public IInputPeer Peer {get; set;}
 
        [SerializationOrder(2)]
-       public string Q {get; set;}
+       public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
+       private byte[] _QAsBinary;
+       private string _Q;
+       public string Q { get => _Q; set { QAsBinary = Encoding.UTF8.GetBytes(value); _Q = value; }}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]

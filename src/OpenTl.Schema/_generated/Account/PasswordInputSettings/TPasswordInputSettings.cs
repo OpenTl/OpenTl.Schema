@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Account
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -24,11 +25,17 @@ namespace OpenTl.Schema.Account
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public string Hint {get; set;}
+       public byte[] HintAsBinary { get => _HintAsBinary; set { _Hint = Encoding.UTF8.GetString(value); _HintAsBinary = value; }}
+       private byte[] _HintAsBinary;
+       private string _Hint;
+       public string Hint { get => _Hint; set { HintAsBinary = Encoding.UTF8.GetBytes(value); _Hint = value; }}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
-       public string Email {get; set;}
+       public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}
+       private byte[] _EmailAsBinary;
+       private string _Email;
+       public string Email { get => _Email; set { EmailAsBinary = Encoding.UTF8.GetBytes(value); _Email = value; }}
 
 	}
 }

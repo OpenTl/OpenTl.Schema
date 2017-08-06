@@ -9,9 +9,10 @@ namespace OpenTl.Schema.Help
 
     public interface ISupport : IObject
     {
-        string PhoneNumber {get; set;}
+       byte[] PhoneNumberAsBinary {get; set;}
+       string PhoneNumber {get; set;}
 
-        IUser User {get; set;}
+       IUser User {get; set;}
 
     }
 }

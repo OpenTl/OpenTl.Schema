@@ -9,13 +9,14 @@ namespace OpenTl.Schema
 
     public interface IResPQ : IObject
     {
-        byte[] Nonce {get; set;}
+       byte[] Nonce {get; set;}
 
-        byte[] ServerNonce {get; set;}
+       byte[] ServerNonce {get; set;}
 
-        string Pq {get; set;}
+       byte[] PqAsBinary {get; set;}
+       string Pq {get; set;}
 
-        TVector<long> ServerPublicKeyFingerprints {get; set;}
+       TVector<long> ServerPublicKeyFingerprints {get; set;}
 
     }
 }

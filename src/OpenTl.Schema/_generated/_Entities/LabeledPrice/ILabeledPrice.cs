@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface ILabeledPrice : IObject
     {
-        string Label {get; set;}
+       byte[] LabelAsBinary {get; set;}
+       string Label {get; set;}
 
-        long Amount {get; set;}
+       long Amount {get; set;}
 
     }
 }

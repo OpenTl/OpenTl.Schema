@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Auth
 
     public interface IExportedAuthorization : IObject
     {
-        int Id {get; set;}
+       int Id {get; set;}
 
-        byte[] Bytes {get; set;}
+       byte[] Bytes {get; set;}
 
     }
 }

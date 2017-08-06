@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IInputPhoneCall : IObject
     {
-        long Id {get; set;}
+       long Id {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
     }
 }

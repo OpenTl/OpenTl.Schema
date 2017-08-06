@@ -9,17 +9,18 @@ namespace OpenTl.Schema.Auth
 
     public interface ISentCode : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool PhoneRegistered {get; set;}
+       bool PhoneRegistered {get; set;}
 
-        Auth.ISentCodeType Type {get; set;}
+       Auth.ISentCodeType Type {get; set;}
 
-        string PhoneCodeHash {get; set;}
+       byte[] PhoneCodeHashAsBinary {get; set;}
+       string PhoneCodeHash {get; set;}
 
-        Auth.ICodeType NextType {get; set;}
+       Auth.ICodeType NextType {get; set;}
 
-        int Timeout {get; set;}
+       int Timeout {get; set;}
 
     }
 }

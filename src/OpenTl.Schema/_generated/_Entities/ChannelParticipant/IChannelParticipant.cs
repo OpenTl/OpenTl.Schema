@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IChannelParticipant : IObject
     {
-        int UserId {get; set;}
+       int UserId {get; set;}
 
     }
 }

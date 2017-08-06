@@ -9,27 +9,29 @@ namespace OpenTl.Schema
 
     public interface IStickerSet : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Installed {get; set;}
+       bool Installed {get; set;}
 
-        bool Archived {get; set;}
+       bool Archived {get; set;}
 
-        bool Official {get; set;}
+       bool Official {get; set;}
 
-        bool Masks {get; set;}
+       bool Masks {get; set;}
 
-        long Id {get; set;}
+       long Id {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
-        string Title {get; set;}
+       byte[] TitleAsBinary {get; set;}
+       string Title {get; set;}
 
-        string ShortName {get; set;}
+       byte[] ShortNameAsBinary {get; set;}
+       string ShortName {get; set;}
 
-        int Count {get; set;}
+       int Count {get; set;}
 
-        int Hash {get; set;}
+       int Hash {get; set;}
 
     }
 }

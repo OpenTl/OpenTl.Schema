@@ -9,21 +9,24 @@ namespace OpenTl.Schema
 
     public interface IGame : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        long Id {get; set;}
+       long Id {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
-        string ShortName {get; set;}
+       byte[] ShortNameAsBinary {get; set;}
+       string ShortName {get; set;}
 
-        string Title {get; set;}
+       byte[] TitleAsBinary {get; set;}
+       string Title {get; set;}
 
-        string Description {get; set;}
+       byte[] DescriptionAsBinary {get; set;}
+       string Description {get; set;}
 
-        IPhoto Photo {get; set;}
+       IPhoto Photo {get; set;}
 
-        IDocument Document {get; set;}
+       IDocument Document {get; set;}
 
     }
 }

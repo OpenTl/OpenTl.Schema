@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Contest
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,16 +16,25 @@ namespace OpenTl.Schema.Contest
        public int VkId {get; set;}
 
        [SerializationOrder(1)]
-       public string Name {get; set;}
+       public byte[] NameAsBinary { get => _NameAsBinary; set { _Name = Encoding.UTF8.GetString(value); _NameAsBinary = value; }}
+       private byte[] _NameAsBinary;
+       private string _Name;
+       public string Name { get => _Name; set { NameAsBinary = Encoding.UTF8.GetBytes(value); _Name = value; }}
 
        [SerializationOrder(2)]
-       public string PhoneNumber {get; set;}
+       public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
+       private byte[] _PhoneNumberAsBinary;
+       private string _PhoneNumber;
+       public string PhoneNumber { get => _PhoneNumber; set { PhoneNumberAsBinary = Encoding.UTF8.GetBytes(value); _PhoneNumber = value; }}
 
        [SerializationOrder(3)]
        public int Age {get; set;}
 
        [SerializationOrder(4)]
-       public string City {get; set;}
+       public byte[] CityAsBinary { get => _CityAsBinary; set { _City = Encoding.UTF8.GetString(value); _CityAsBinary = value; }}
+       private byte[] _CityAsBinary;
+       private string _City;
+       public string City { get => _City; set { CityAsBinary = Encoding.UTF8.GetBytes(value); _City = value; }}
 
     }
 }

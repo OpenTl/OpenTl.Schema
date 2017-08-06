@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,7 +16,10 @@ namespace OpenTl.Schema
        public long ReqMsgId {get; set;}
 
        [SerializationOrder(1)]
-       public string Info {get; set;}
+       public byte[] InfoAsBinary { get => _InfoAsBinary; set { _Info = Encoding.UTF8.GetString(value); _InfoAsBinary = value; }}
+       private byte[] _InfoAsBinary;
+       private string _Info;
+       public string Info { get => _Info; set { InfoAsBinary = Encoding.UTF8.GetBytes(value); _Info = value; }}
 
 	}
 }

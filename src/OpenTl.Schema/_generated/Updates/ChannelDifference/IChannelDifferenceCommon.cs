@@ -9,17 +9,17 @@ namespace OpenTl.Schema.Updates
 
     public interface IChannelDifferenceCommon : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Final {get; set;}
+       bool Final {get; set;}
 
-        int Pts {get; set;}
+       int Pts {get; set;}
 
-        int Timeout {get; set;}
+       int Timeout {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

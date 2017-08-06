@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Auth
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,10 +19,16 @@ namespace OpenTl.Schema.Auth
        public int ApiId {get; set;}
 
        [SerializationOrder(2)]
-       public string ApiHash {get; set;}
+       public byte[] ApiHashAsBinary { get => _ApiHashAsBinary; set { _ApiHash = Encoding.UTF8.GetString(value); _ApiHashAsBinary = value; }}
+       private byte[] _ApiHashAsBinary;
+       private string _ApiHash;
+       public string ApiHash { get => _ApiHash; set { ApiHashAsBinary = Encoding.UTF8.GetBytes(value); _ApiHash = value; }}
 
        [SerializationOrder(3)]
-       public string BotAuthToken {get; set;}
+       public byte[] BotAuthTokenAsBinary { get => _BotAuthTokenAsBinary; set { _BotAuthToken = Encoding.UTF8.GetString(value); _BotAuthTokenAsBinary = value; }}
+       private byte[] _BotAuthTokenAsBinary;
+       private string _BotAuthToken;
+       public string BotAuthToken { get => _BotAuthToken; set { BotAuthTokenAsBinary = Encoding.UTF8.GetBytes(value); _BotAuthToken = value; }}
 
     }
 }

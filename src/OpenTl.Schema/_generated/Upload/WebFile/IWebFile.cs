@@ -9,15 +9,16 @@ namespace OpenTl.Schema.Upload
 
     public interface IWebFile : IObject
     {
-        int Size {get; set;}
+       int Size {get; set;}
 
-        string MimeType {get; set;}
+       byte[] MimeTypeAsBinary {get; set;}
+       string MimeType {get; set;}
 
-        Storage.IFileType FileType {get; set;}
+       Storage.IFileType FileType {get; set;}
 
-        int Mtime {get; set;}
+       int Mtime {get; set;}
 
-        byte[] Bytes {get; set;}
+       byte[] Bytes {get; set;}
 
     }
 }

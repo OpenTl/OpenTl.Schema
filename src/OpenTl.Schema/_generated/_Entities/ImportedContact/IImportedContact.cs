@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IImportedContact : IObject
     {
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        long ClientId {get; set;}
+       long ClientId {get; set;}
 
     }
 }

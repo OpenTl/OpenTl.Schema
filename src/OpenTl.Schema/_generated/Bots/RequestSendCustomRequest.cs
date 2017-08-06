@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Bots
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Bots
     public class RequestSendCustomRequest : IRequest<IDataJSON>
     {
        [SerializationOrder(0)]
-       public string CustomMethod {get; set;}
+       public byte[] CustomMethodAsBinary { get => _CustomMethodAsBinary; set { _CustomMethod = Encoding.UTF8.GetString(value); _CustomMethodAsBinary = value; }}
+       private byte[] _CustomMethodAsBinary;
+       private string _CustomMethod;
+       public string CustomMethod { get => _CustomMethod; set { CustomMethodAsBinary = Encoding.UTF8.GetBytes(value); _CustomMethod = value; }}
 
        [SerializationOrder(1)]
        public IDataJSON Params {get; set;}

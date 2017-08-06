@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -67,19 +68,31 @@ namespace OpenTl.Schema
 
        [SerializationOrder(14)]
        [CanSerialize("Flags", 1)]
-       public string FirstName {get; set;}
+       public byte[] FirstNameAsBinary { get => _FirstNameAsBinary; set { _FirstName = Encoding.UTF8.GetString(value); _FirstNameAsBinary = value; }}
+       private byte[] _FirstNameAsBinary;
+       private string _FirstName;
+       public string FirstName { get => _FirstName; set { FirstNameAsBinary = Encoding.UTF8.GetBytes(value); _FirstName = value; }}
 
        [SerializationOrder(15)]
        [CanSerialize("Flags", 2)]
-       public string LastName {get; set;}
+       public byte[] LastNameAsBinary { get => _LastNameAsBinary; set { _LastName = Encoding.UTF8.GetString(value); _LastNameAsBinary = value; }}
+       private byte[] _LastNameAsBinary;
+       private string _LastName;
+       public string LastName { get => _LastName; set { LastNameAsBinary = Encoding.UTF8.GetBytes(value); _LastName = value; }}
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 3)]
-       public string Username {get; set;}
+       public byte[] UsernameAsBinary { get => _UsernameAsBinary; set { _Username = Encoding.UTF8.GetString(value); _UsernameAsBinary = value; }}
+       private byte[] _UsernameAsBinary;
+       private string _Username;
+       public string Username { get => _Username; set { UsernameAsBinary = Encoding.UTF8.GetBytes(value); _Username = value; }}
 
        [SerializationOrder(17)]
        [CanSerialize("Flags", 4)]
-       public string Phone {get; set;}
+       public byte[] PhoneAsBinary { get => _PhoneAsBinary; set { _Phone = Encoding.UTF8.GetString(value); _PhoneAsBinary = value; }}
+       private byte[] _PhoneAsBinary;
+       private string _Phone;
+       public string Phone { get => _Phone; set { PhoneAsBinary = Encoding.UTF8.GetBytes(value); _Phone = value; }}
 
        [SerializationOrder(18)]
        [CanSerialize("Flags", 5)]
@@ -95,15 +108,24 @@ namespace OpenTl.Schema
 
        [SerializationOrder(21)]
        [CanSerialize("Flags", 18)]
-       public string RestrictionReason {get; set;}
+       public byte[] RestrictionReasonAsBinary { get => _RestrictionReasonAsBinary; set { _RestrictionReason = Encoding.UTF8.GetString(value); _RestrictionReasonAsBinary = value; }}
+       private byte[] _RestrictionReasonAsBinary;
+       private string _RestrictionReason;
+       public string RestrictionReason { get => _RestrictionReason; set { RestrictionReasonAsBinary = Encoding.UTF8.GetBytes(value); _RestrictionReason = value; }}
 
        [SerializationOrder(22)]
        [CanSerialize("Flags", 19)]
-       public string BotInlinePlaceholder {get; set;}
+       public byte[] BotInlinePlaceholderAsBinary { get => _BotInlinePlaceholderAsBinary; set { _BotInlinePlaceholder = Encoding.UTF8.GetString(value); _BotInlinePlaceholderAsBinary = value; }}
+       private byte[] _BotInlinePlaceholderAsBinary;
+       private string _BotInlinePlaceholder;
+       public string BotInlinePlaceholder { get => _BotInlinePlaceholder; set { BotInlinePlaceholderAsBinary = Encoding.UTF8.GetBytes(value); _BotInlinePlaceholder = value; }}
 
        [SerializationOrder(23)]
        [CanSerialize("Flags", 22)]
-       public string LangCode {get; set;}
+       public byte[] LangCodeAsBinary { get => _LangCodeAsBinary; set { _LangCode = Encoding.UTF8.GetString(value); _LangCodeAsBinary = value; }}
+       private byte[] _LangCodeAsBinary;
+       private string _LangCode;
+       public string LangCode { get => _LangCode; set { LangCodeAsBinary = Encoding.UTF8.GetBytes(value); _LangCode = value; }}
 
 	}
 }

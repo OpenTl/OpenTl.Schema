@@ -9,15 +9,18 @@ namespace OpenTl.Schema
 
     public interface IPaymentRequestedInfo : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        string Name {get; set;}
+       byte[] NameAsBinary {get; set;}
+       string Name {get; set;}
 
-        string Phone {get; set;}
+       byte[] PhoneAsBinary {get; set;}
+       string Phone {get; set;}
 
-        string Email {get; set;}
+       byte[] EmailAsBinary {get; set;}
+       string Email {get; set;}
 
-        IPostAddress ShippingAddress {get; set;}
+       IPostAddress ShippingAddress {get; set;}
 
     }
 }

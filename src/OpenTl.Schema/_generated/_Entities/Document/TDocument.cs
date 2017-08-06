@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -21,7 +22,10 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(3)]
-       public string MimeType {get; set;}
+       public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
+       private byte[] _MimeTypeAsBinary;
+       private string _MimeType;
+       public string MimeType { get => _MimeType; set { MimeTypeAsBinary = Encoding.UTF8.GetBytes(value); _MimeType = value; }}
 
        [SerializationOrder(4)]
        public int Size {get; set;}

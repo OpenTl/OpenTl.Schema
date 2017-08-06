@@ -9,11 +9,12 @@ namespace OpenTl.Schema
 
     public interface INearestDc : IObject
     {
-        string Country {get; set;}
+       byte[] CountryAsBinary {get; set;}
+       string Country {get; set;}
 
-        int ThisDc {get; set;}
+       int ThisDc {get; set;}
 
-        int NearestDc {get; set;}
+       int NearestDc {get; set;}
 
     }
 }

@@ -9,7 +9,8 @@ namespace OpenTl.Schema.Help
 
     public interface ITermsOfService : IObject
     {
-        string Ext {get; set;}
+       byte[] ExtAsBinary {get; set;}
+       string Ext {get; set;}
 
     }
 }

@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IHighScore : IObject
     {
-        int Pos {get; set;}
+       int Pos {get; set;}
 
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        int Score {get; set;}
+       int Score {get; set;}
 
     }
 }

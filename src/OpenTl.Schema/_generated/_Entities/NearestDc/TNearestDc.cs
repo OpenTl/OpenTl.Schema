@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TNearestDc : INearestDc
 	{
        [SerializationOrder(0)]
-       public string Country {get; set;}
+       public byte[] CountryAsBinary { get => _CountryAsBinary; set { _Country = Encoding.UTF8.GetString(value); _CountryAsBinary = value; }}
+       private byte[] _CountryAsBinary;
+       private string _Country;
+       public string Country { get => _Country; set { CountryAsBinary = Encoding.UTF8.GetBytes(value); _Country = value; }}
 
        [SerializationOrder(1)]
        public int ThisDc {get; set;}

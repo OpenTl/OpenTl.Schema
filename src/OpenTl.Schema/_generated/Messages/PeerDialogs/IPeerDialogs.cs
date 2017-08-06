@@ -9,15 +9,15 @@ namespace OpenTl.Schema.Messages
 
     public interface IPeerDialogs : IObject
     {
-        TVector<IDialog> Dialogs {get; set;}
+       TVector<IDialog> Dialogs {get; set;}
 
-        TVector<IMessage> Messages {get; set;}
+       TVector<IMessage> Messages {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
-        Updates.IState State {get; set;}
+       Updates.IState State {get; set;}
 
     }
 }

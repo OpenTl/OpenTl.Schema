@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Account
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Account
     public class RequestDeleteAccount : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public string Reason {get; set;}
+       public byte[] ReasonAsBinary { get => _ReasonAsBinary; set { _Reason = Encoding.UTF8.GetString(value); _ReasonAsBinary = value; }}
+       private byte[] _ReasonAsBinary;
+       private string _Reason;
+       public string Reason { get => _Reason; set { ReasonAsBinary = Encoding.UTF8.GetBytes(value); _Reason = value; }}
 
     }
 }

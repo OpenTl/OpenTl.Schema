@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,10 +13,16 @@ namespace OpenTl.Schema
 	public class TPaymentSavedCredentialsCard : IPaymentSavedCredentials
 	{
        [SerializationOrder(0)]
-       public string Id {get; set;}
+       public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
+       private byte[] _IdAsBinary;
+       private string _Id;
+       public string Id { get => _Id; set { IdAsBinary = Encoding.UTF8.GetBytes(value); _Id = value; }}
 
        [SerializationOrder(1)]
-       public string Title {get; set;}
+       public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
+       private byte[] _TitleAsBinary;
+       private string _Title;
+       public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
 	}
 }

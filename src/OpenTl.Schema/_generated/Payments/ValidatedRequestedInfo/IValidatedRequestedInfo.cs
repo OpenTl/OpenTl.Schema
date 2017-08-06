@@ -9,11 +9,12 @@ namespace OpenTl.Schema.Payments
 
     public interface IValidatedRequestedInfo : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        string Id {get; set;}
+       byte[] IdAsBinary {get; set;}
+       string Id {get; set;}
 
-        TVector<IShippingOption> ShippingOptions {get; set;}
+       TVector<IShippingOption> ShippingOptions {get; set;}
 
     }
 }

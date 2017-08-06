@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Auth
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Auth
 	public class TPasswordRecovery : IPasswordRecovery
 	{
        [SerializationOrder(0)]
-       public string EmailPattern {get; set;}
+       public byte[] EmailPatternAsBinary { get => _EmailPatternAsBinary; set { _EmailPattern = Encoding.UTF8.GetString(value); _EmailPatternAsBinary = value; }}
+       private byte[] _EmailPatternAsBinary;
+       private string _EmailPattern;
+       public string EmailPattern { get => _EmailPattern; set { EmailPatternAsBinary = Encoding.UTF8.GetBytes(value); _EmailPattern = value; }}
 
 	}
 }

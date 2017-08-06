@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Auth
 
     public interface ICheckedPhone : IObject
     {
-        bool PhoneRegistered {get; set;}
+       bool PhoneRegistered {get; set;}
 
     }
 }

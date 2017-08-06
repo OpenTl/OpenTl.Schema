@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Auth
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -22,7 +23,10 @@ namespace OpenTl.Schema.Auth
        public Auth.ISentCodeType Type {get; set;}
 
        [SerializationOrder(3)]
-       public string PhoneCodeHash {get; set;}
+       public byte[] PhoneCodeHashAsBinary { get => _PhoneCodeHashAsBinary; set { _PhoneCodeHash = Encoding.UTF8.GetString(value); _PhoneCodeHashAsBinary = value; }}
+       private byte[] _PhoneCodeHashAsBinary;
+       private string _PhoneCodeHash;
+       public string PhoneCodeHash { get => _PhoneCodeHash; set { PhoneCodeHashAsBinary = Encoding.UTF8.GetBytes(value); _PhoneCodeHash = value; }}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]

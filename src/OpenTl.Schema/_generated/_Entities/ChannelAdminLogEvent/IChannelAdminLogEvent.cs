@@ -9,13 +9,13 @@ namespace OpenTl.Schema
 
     public interface IChannelAdminLogEvent : IObject
     {
-        long Id {get; set;}
+       long Id {get; set;}
 
-        int Date {get; set;}
+       int Date {get; set;}
 
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        IChannelAdminLogEventAction Action {get; set;}
+       IChannelAdminLogEventAction Action {get; set;}
 
     }
 }

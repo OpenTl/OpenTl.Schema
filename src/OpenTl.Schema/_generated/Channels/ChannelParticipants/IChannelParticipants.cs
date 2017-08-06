@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Channels
 
     public interface IChannelParticipants : IObject
     {
-        int Count {get; set;}
+       int Count {get; set;}
 
-        TVector<IChannelParticipant> Participants {get; set;}
+       TVector<IChannelParticipant> Participants {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

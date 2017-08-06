@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -20,7 +21,10 @@ namespace OpenTl.Schema
        public byte[] ServerNonce {get; set;}
 
        [SerializationOrder(2)]
-       public string EncryptedData {get; set;}
+       public byte[] EncryptedDataAsBinary { get => _EncryptedDataAsBinary; set { _EncryptedData = Encoding.UTF8.GetString(value); _EncryptedDataAsBinary = value; }}
+       private byte[] _EncryptedDataAsBinary;
+       private string _EncryptedData;
+       public string EncryptedData { get => _EncryptedData; set { EncryptedDataAsBinary = Encoding.UTF8.GetBytes(value); _EncryptedData = value; }}
 
     }
 }

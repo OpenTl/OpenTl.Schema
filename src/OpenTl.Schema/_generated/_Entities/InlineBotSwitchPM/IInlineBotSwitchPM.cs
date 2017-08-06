@@ -9,9 +9,11 @@ namespace OpenTl.Schema
 
     public interface IInlineBotSwitchPM : IObject
     {
-        string Ext {get; set;}
+       byte[] ExtAsBinary {get; set;}
+       string Ext {get; set;}
 
-        string StartParam {get; set;}
+       byte[] StartParamAsBinary {get; set;}
+       string StartParam {get; set;}
 
     }
 }

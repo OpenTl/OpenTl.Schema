@@ -9,17 +9,19 @@ namespace OpenTl.Schema
 
     public interface IWebDocument : IObject
     {
-        string Url {get; set;}
+       byte[] UrlAsBinary {get; set;}
+       string Url {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
-        int Size {get; set;}
+       int Size {get; set;}
 
-        string MimeType {get; set;}
+       byte[] MimeTypeAsBinary {get; set;}
+       string MimeType {get; set;}
 
-        TVector<IDocumentAttribute> Attributes {get; set;}
+       TVector<IDocumentAttribute> Attributes {get; set;}
 
-        int DcId {get; set;}
+       int DcId {get; set;}
 
     }
 }

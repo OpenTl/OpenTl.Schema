@@ -9,13 +9,14 @@ namespace OpenTl.Schema
 
     public interface ILangPackDifference : IObject
     {
-        string LangCode {get; set;}
+       byte[] LangCodeAsBinary {get; set;}
+       string LangCode {get; set;}
 
-        int FromVersion {get; set;}
+       int FromVersion {get; set;}
 
-        int Version {get; set;}
+       int Version {get; set;}
 
-        TVector<ILangPackString> Strings {get; set;}
+       TVector<ILangPackString> Strings {get; set;}
 
     }
 }

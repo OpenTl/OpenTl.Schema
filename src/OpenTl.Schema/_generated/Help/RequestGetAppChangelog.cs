@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Help
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Help
     public class RequestGetAppChangelog : IRequest<IUpdates>
     {
        [SerializationOrder(0)]
-       public string PrevAppVersion {get; set;}
+       public byte[] PrevAppVersionAsBinary { get => _PrevAppVersionAsBinary; set { _PrevAppVersion = Encoding.UTF8.GetString(value); _PrevAppVersionAsBinary = value; }}
+       private byte[] _PrevAppVersionAsBinary;
+       private string _PrevAppVersion;
+       public string PrevAppVersion { get => _PrevAppVersion; set { PrevAppVersionAsBinary = Encoding.UTF8.GetBytes(value); _PrevAppVersion = value; }}
 
     }
 }

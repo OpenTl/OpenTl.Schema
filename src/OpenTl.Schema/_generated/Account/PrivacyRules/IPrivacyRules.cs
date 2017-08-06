@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Account
 
     public interface IPrivacyRules : IObject
     {
-        TVector<IPrivacyRule> Rules {get; set;}
+       TVector<IPrivacyRule> Rules {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

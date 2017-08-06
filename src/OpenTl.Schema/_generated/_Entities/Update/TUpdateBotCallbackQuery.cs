@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -35,7 +36,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 1)]
-       public string GameShortName {get; set;}
+       public byte[] GameShortNameAsBinary { get => _GameShortNameAsBinary; set { _GameShortName = Encoding.UTF8.GetString(value); _GameShortNameAsBinary = value; }}
+       private byte[] _GameShortNameAsBinary;
+       private string _GameShortName;
+       public string GameShortName { get => _GameShortName; set { GameShortNameAsBinary = Encoding.UTF8.GetBytes(value); _GameShortName = value; }}
 
 	}
 }

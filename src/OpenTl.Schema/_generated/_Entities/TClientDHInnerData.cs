@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -23,7 +24,10 @@ namespace OpenTl.Schema
        public long RetryId {get; set;}
 
        [SerializationOrder(3)]
-       public string GB {get; set;}
+       public byte[] GBAsBinary { get => _GBAsBinary; set { _GB = Encoding.UTF8.GetString(value); _GBAsBinary = value; }}
+       private byte[] _GBAsBinary;
+       private string _GB;
+       public string GB { get => _GB; set { GBAsBinary = Encoding.UTF8.GetBytes(value); _GB = value; }}
 
 	}
 }

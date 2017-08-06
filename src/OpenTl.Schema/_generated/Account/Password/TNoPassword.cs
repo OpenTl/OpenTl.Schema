@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Account
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,7 +16,10 @@ namespace OpenTl.Schema.Account
        public byte[] NewSalt {get; set;}
 
        [SerializationOrder(1)]
-       public string EmailUnconfirmedPattern {get; set;}
+       public byte[] EmailUnconfirmedPatternAsBinary { get => _EmailUnconfirmedPatternAsBinary; set { _EmailUnconfirmedPattern = Encoding.UTF8.GetString(value); _EmailUnconfirmedPatternAsBinary = value; }}
+       private byte[] _EmailUnconfirmedPatternAsBinary;
+       private string _EmailUnconfirmedPattern;
+       public string EmailUnconfirmedPattern { get => _EmailUnconfirmedPattern; set { EmailUnconfirmedPatternAsBinary = Encoding.UTF8.GetBytes(value); _EmailUnconfirmedPattern = value; }}
 
 	}
 }

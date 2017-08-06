@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TPhotoCachedSize : IPhotoSize
 	{
        [SerializationOrder(0)]
-       public string Ype {get; set;}
+       public byte[] YpeAsBinary { get => _YpeAsBinary; set { _Ype = Encoding.UTF8.GetString(value); _YpeAsBinary = value; }}
+       private byte[] _YpeAsBinary;
+       private string _Ype;
+       public string Ype { get => _Ype; set { YpeAsBinary = Encoding.UTF8.GetBytes(value); _Ype = value; }}
 
        [SerializationOrder(1)]
        public IFileLocation Location {get; set;}

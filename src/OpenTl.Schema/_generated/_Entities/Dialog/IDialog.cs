@@ -9,25 +9,25 @@ namespace OpenTl.Schema
 
     public interface IDialog : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Pinned {get; set;}
+       bool Pinned {get; set;}
 
-        IPeer Peer {get; set;}
+       IPeer Peer {get; set;}
 
-        int TopMessage {get; set;}
+       int TopMessage {get; set;}
 
-        int ReadInboxMaxId {get; set;}
+       int ReadInboxMaxId {get; set;}
 
-        int ReadOutboxMaxId {get; set;}
+       int ReadOutboxMaxId {get; set;}
 
-        int UnreadCount {get; set;}
+       int UnreadCount {get; set;}
 
-        IPeerNotifySettings NotifySettings {get; set;}
+       IPeerNotifySettings NotifySettings {get; set;}
 
-        int Pts {get; set;}
+       int Pts {get; set;}
 
-        IDraftMessage Draft {get; set;}
+       IDraftMessage Draft {get; set;}
 
     }
 }

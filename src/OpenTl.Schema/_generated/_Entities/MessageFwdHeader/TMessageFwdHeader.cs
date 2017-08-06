@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -31,7 +32,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 3)]
-       public string PostAuthor {get; set;}
+       public byte[] PostAuthorAsBinary { get => _PostAuthorAsBinary; set { _PostAuthor = Encoding.UTF8.GetString(value); _PostAuthorAsBinary = value; }}
+       private byte[] _PostAuthorAsBinary;
+       private string _PostAuthor;
+       public string PostAuthor { get => _PostAuthor; set { PostAuthorAsBinary = Encoding.UTF8.GetBytes(value); _PostAuthor = value; }}
 
 	}
 }

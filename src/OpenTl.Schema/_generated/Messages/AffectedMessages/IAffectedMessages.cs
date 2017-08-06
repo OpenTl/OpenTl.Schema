@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Messages
 
     public interface IAffectedMessages : IObject
     {
-        int Pts {get; set;}
+       int Pts {get; set;}
 
-        int PtsCount {get; set;}
+       int PtsCount {get; set;}
 
     }
 }

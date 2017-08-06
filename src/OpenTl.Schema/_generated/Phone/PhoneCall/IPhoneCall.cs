@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Phone
 
     public interface IPhoneCall : IObject
     {
-        IPhoneCall PhoneCall {get; set;}
+       IPhoneCall PhoneCall {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

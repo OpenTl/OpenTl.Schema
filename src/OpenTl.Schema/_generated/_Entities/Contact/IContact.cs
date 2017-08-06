@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IContact : IObject
     {
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        bool Mutual {get; set;}
+       bool Mutual {get; set;}
 
     }
 }

@@ -9,7 +9,8 @@ namespace OpenTl.Schema
 
     public interface IExportedMessageLink : IObject
     {
-        string Link {get; set;}
+       byte[] LinkAsBinary {get; set;}
+       string Link {get; set;}
 
     }
 }

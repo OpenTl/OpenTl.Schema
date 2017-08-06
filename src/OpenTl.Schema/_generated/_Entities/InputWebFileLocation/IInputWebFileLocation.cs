@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface IInputWebFileLocation : IObject
     {
-        string Url {get; set;}
+       byte[] UrlAsBinary {get; set;}
+       string Url {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,7 +16,10 @@ namespace OpenTl.Schema
        public int ErrorCode {get; set;}
 
        [SerializationOrder(1)]
-       public string ErrorMessage {get; set;}
+       public byte[] ErrorMessageAsBinary { get => _ErrorMessageAsBinary; set { _ErrorMessage = Encoding.UTF8.GetString(value); _ErrorMessageAsBinary = value; }}
+       private byte[] _ErrorMessageAsBinary;
+       private string _ErrorMessage;
+       public string ErrorMessage { get => _ErrorMessage; set { ErrorMessageAsBinary = Encoding.UTF8.GetBytes(value); _ErrorMessage = value; }}
 
 	}
 }

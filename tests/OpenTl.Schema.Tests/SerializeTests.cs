@@ -1,15 +1,9 @@
-using System;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using Newtonsoft.Json;
 using OpenTl.Schema.Help;
 using OpenTl.Schema.Serialization;
-using OpenTl.Schema.Upload;
-using OpenTl.Schema.Users;
 using TelegramClient.Entities;
 using TelegramClient.Entities.TL;
-using TelegramClient.Entities.TL.Users;
 using Xunit;
 
 namespace OpenTl.Schema.Tests
@@ -36,10 +30,13 @@ namespace OpenTl.Schema.Tests
             };
 
             var data = Serializer.SerializeObject(request).ToArray();
+            
+            var legacy = (RequestInvokeWithLayer) LegacyDeserialize(data);
 
             var obj = (RequestInvokeWithLayer) Serializer.DeserializeObject(data);
             
             Assert.Equal(request.Layer, obj.Layer);
+            Assert.Equal(request.Query, obj.Query);
         }
         
         [Fact]

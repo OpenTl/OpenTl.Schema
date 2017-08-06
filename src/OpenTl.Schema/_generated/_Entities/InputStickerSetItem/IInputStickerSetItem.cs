@@ -9,13 +9,14 @@ namespace OpenTl.Schema
 
     public interface IInputStickerSetItem : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        IInputDocument Document {get; set;}
+       IInputDocument Document {get; set;}
 
-        string Emoji {get; set;}
+       byte[] EmojiAsBinary {get; set;}
+       string Emoji {get; set;}
 
-        IMaskCoords MaskCoords {get; set;}
+       IMaskCoords MaskCoords {get; set;}
 
     }
 }

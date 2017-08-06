@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IMessageRange : IObject
     {
-        int MinId {get; set;}
+       int MinId {get; set;}
 
-        int MaxId {get; set;}
+       int MaxId {get; set;}
 
     }
 }

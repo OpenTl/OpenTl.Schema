@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Messages
 
     public interface IChatFull : IObject
     {
-        IChatFull FullChat {get; set;}
+       IChatFull FullChat {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

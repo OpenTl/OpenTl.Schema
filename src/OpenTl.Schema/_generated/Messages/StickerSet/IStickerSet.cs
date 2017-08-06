@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Messages
 
     public interface IStickerSet : IObject
     {
-        IStickerSet Set {get; set;}
+       IStickerSet Set {get; set;}
 
-        TVector<IStickerPack> Packs {get; set;}
+       TVector<IStickerPack> Packs {get; set;}
 
-        TVector<IDocument> Documents {get; set;}
+       TVector<IDocument> Documents {get; set;}
 
     }
 }

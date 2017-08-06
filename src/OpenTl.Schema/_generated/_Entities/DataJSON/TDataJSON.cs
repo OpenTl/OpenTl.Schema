@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TDataJSON : IDataJSON
 	{
        [SerializationOrder(0)]
-       public string Data {get; set;}
+       public byte[] DataAsBinary { get => _DataAsBinary; set { _Data = Encoding.UTF8.GetString(value); _DataAsBinary = value; }}
+       private byte[] _DataAsBinary;
+       private string _Data;
+       public string Data { get => _Data; set { DataAsBinary = Encoding.UTF8.GetBytes(value); _Data = value; }}
 
 	}
 }

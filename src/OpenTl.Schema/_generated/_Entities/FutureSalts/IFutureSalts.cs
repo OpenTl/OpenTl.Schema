@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IFutureSalts : IObject
     {
-        long ReqMsgId {get; set;}
+       long ReqMsgId {get; set;}
 
-        int Now {get; set;}
+       int Now {get; set;}
 
-        TVector<TFutureSalt> Salts {get; set;}
+       TVector<TFutureSalt> Salts {get; set;}
 
     }
 }

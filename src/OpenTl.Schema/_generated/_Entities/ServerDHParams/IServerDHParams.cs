@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IServerDHParams : IObject
     {
-        byte[] Nonce {get; set;}
+       byte[] Nonce {get; set;}
 
-        byte[] ServerNonce {get; set;}
+       byte[] ServerNonce {get; set;}
 
     }
 }

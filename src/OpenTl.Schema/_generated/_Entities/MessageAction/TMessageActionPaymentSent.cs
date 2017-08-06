@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TMessageActionPaymentSent : IMessageAction
 	{
        [SerializationOrder(0)]
-       public string Currency {get; set;}
+       public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
+       private byte[] _CurrencyAsBinary;
+       private string _Currency;
+       public string Currency { get => _Currency; set { CurrencyAsBinary = Encoding.UTF8.GetBytes(value); _Currency = value; }}
 
        [SerializationOrder(1)]
        public long TotalAmount {get; set;}

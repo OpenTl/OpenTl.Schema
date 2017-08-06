@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -19,10 +20,16 @@ namespace OpenTl.Schema
        public bool SamePeer {get; set;}
 
        [SerializationOrder(2)]
-       public string Text {get; set;}
+       public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
+       private byte[] _TextAsBinary;
+       private string _Text;
+       public string Text { get => _Text; set { TextAsBinary = Encoding.UTF8.GetBytes(value); _Text = value; }}
 
        [SerializationOrder(3)]
-       public string Query {get; set;}
+       public byte[] QueryAsBinary { get => _QueryAsBinary; set { _Query = Encoding.UTF8.GetString(value); _QueryAsBinary = value; }}
+       private byte[] _QueryAsBinary;
+       private string _Query;
+       public string Query { get => _Query; set { QueryAsBinary = Encoding.UTF8.GetBytes(value); _Query = value; }}
 
 	}
 }

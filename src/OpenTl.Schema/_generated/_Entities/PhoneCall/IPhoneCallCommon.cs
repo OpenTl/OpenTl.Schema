@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IPhoneCallCommon : IObject
     {
-        long Id {get; set;}
+       long Id {get; set;}
 
     }
 }

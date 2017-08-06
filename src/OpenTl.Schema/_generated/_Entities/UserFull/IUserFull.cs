@@ -9,27 +9,28 @@ namespace OpenTl.Schema
 
     public interface IUserFull : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Blocked {get; set;}
+       bool Blocked {get; set;}
 
-        bool PhoneCallsAvailable {get; set;}
+       bool PhoneCallsAvailable {get; set;}
 
-        bool PhoneCallsPrivate {get; set;}
+       bool PhoneCallsPrivate {get; set;}
 
-        IUser User {get; set;}
+       IUser User {get; set;}
 
-        string About {get; set;}
+       byte[] AboutAsBinary {get; set;}
+       string About {get; set;}
 
-        Contacts.ILink Link {get; set;}
+       Contacts.ILink Link {get; set;}
 
-        IPhoto ProfilePhoto {get; set;}
+       IPhoto ProfilePhoto {get; set;}
 
-        IPeerNotifySettings NotifySettings {get; set;}
+       IPeerNotifySettings NotifySettings {get; set;}
 
-        IBotInfo BotInfo {get; set;}
+       IBotInfo BotInfo {get; set;}
 
-        int CommonChatsCount {get; set;}
+       int CommonChatsCount {get; set;}
 
     }
 }

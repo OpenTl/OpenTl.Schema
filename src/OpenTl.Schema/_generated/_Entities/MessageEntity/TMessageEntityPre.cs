@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,7 +19,10 @@ namespace OpenTl.Schema
        public int Length {get; set;}
 
        [SerializationOrder(2)]
-       public string Language {get; set;}
+       public byte[] LanguageAsBinary { get => _LanguageAsBinary; set { _Language = Encoding.UTF8.GetString(value); _LanguageAsBinary = value; }}
+       private byte[] _LanguageAsBinary;
+       private string _Language;
+       public string Language { get => _Language; set { LanguageAsBinary = Encoding.UTF8.GetBytes(value); _Language = value; }}
 
 	}
 }

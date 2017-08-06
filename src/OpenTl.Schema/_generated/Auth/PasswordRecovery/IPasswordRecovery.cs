@@ -9,7 +9,8 @@ namespace OpenTl.Schema.Auth
 
     public interface IPasswordRecovery : IObject
     {
-        string EmailPattern {get; set;}
+       byte[] EmailPatternAsBinary {get; set;}
+       string EmailPattern {get; set;}
 
     }
 }

@@ -9,9 +9,11 @@ namespace OpenTl.Schema
 
     public interface IDisabledFeature : IObject
     {
-        string Feature {get; set;}
+       byte[] FeatureAsBinary {get; set;}
+       string Feature {get; set;}
 
-        string Description {get; set;}
+       byte[] DescriptionAsBinary {get; set;}
+       string Description {get; set;}
 
     }
 }

@@ -9,13 +9,14 @@ namespace OpenTl.Schema
 
     public interface IPhotoSizeCommon : IObject
     {
-        string Ype {get; set;}
+       byte[] YpeAsBinary {get; set;}
+       string Ype {get; set;}
 
-        IFileLocation Location {get; set;}
+       IFileLocation Location {get; set;}
 
-        int W {get; set;}
+       int W {get; set;}
 
-        int H {get; set;}
+       int H {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -23,10 +24,16 @@ namespace OpenTl.Schema
        public int G {get; set;}
 
        [SerializationOrder(3)]
-       public string DhPrime {get; set;}
+       public byte[] DhPrimeAsBinary { get => _DhPrimeAsBinary; set { _DhPrime = Encoding.UTF8.GetString(value); _DhPrimeAsBinary = value; }}
+       private byte[] _DhPrimeAsBinary;
+       private string _DhPrime;
+       public string DhPrime { get => _DhPrime; set { DhPrimeAsBinary = Encoding.UTF8.GetBytes(value); _DhPrime = value; }}
 
        [SerializationOrder(4)]
-       public string GA {get; set;}
+       public byte[] GAAsBinary { get => _GAAsBinary; set { _GA = Encoding.UTF8.GetString(value); _GAAsBinary = value; }}
+       private byte[] _GAAsBinary;
+       private string _GA;
+       public string GA { get => _GA; set { GAAsBinary = Encoding.UTF8.GetBytes(value); _GA = value; }}
 
        [SerializationOrder(5)]
        public int ServerTime {get; set;}

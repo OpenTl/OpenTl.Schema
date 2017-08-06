@@ -9,9 +9,11 @@ namespace OpenTl.Schema
 
     public interface IBotCommand : IObject
     {
-        string Command {get; set;}
+       byte[] CommandAsBinary {get; set;}
+       string Command {get; set;}
 
-        string Description {get; set;}
+       byte[] DescriptionAsBinary {get; set;}
+       string Description {get; set;}
 
     }
 }

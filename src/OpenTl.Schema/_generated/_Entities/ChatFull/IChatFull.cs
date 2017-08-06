@@ -9,15 +9,15 @@ namespace OpenTl.Schema
 
     public interface IChatFull : IObject
     {
-        int Id {get; set;}
+       int Id {get; set;}
 
-        IPhoto ChatPhoto {get; set;}
+       IPhoto ChatPhoto {get; set;}
 
-        IPeerNotifySettings NotifySettings {get; set;}
+       IPeerNotifySettings NotifySettings {get; set;}
 
-        IExportedChatInvite ExportedInvite {get; set;}
+       IExportedChatInvite ExportedInvite {get; set;}
 
-        TVector<IBotInfo> BotInfo {get; set;}
+       TVector<IBotInfo> BotInfo {get; set;}
 
     }
 }

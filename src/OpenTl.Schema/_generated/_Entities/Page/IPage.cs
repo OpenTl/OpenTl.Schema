@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IPage : IObject
     {
-        TVector<IPageBlock> Blocks {get; set;}
+       TVector<IPageBlock> Blocks {get; set;}
 
-        TVector<IPhoto> Photos {get; set;}
+       TVector<IPhoto> Photos {get; set;}
 
-        TVector<IDocument> Documents {get; set;}
+       TVector<IDocument> Documents {get; set;}
 
     }
 }

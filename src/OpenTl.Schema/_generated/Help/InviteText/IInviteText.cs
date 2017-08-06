@@ -9,7 +9,8 @@ namespace OpenTl.Schema.Help
 
     public interface IInviteText : IObject
     {
-        string Message {get; set;}
+       byte[] MessageAsBinary {get; set;}
+       string Message {get; set;}
 
     }
 }

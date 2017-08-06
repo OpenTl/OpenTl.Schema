@@ -9,23 +9,24 @@ namespace OpenTl.Schema
 
     public interface IInvoice : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Test {get; set;}
+       bool Test {get; set;}
 
-        bool NameRequested {get; set;}
+       bool NameRequested {get; set;}
 
-        bool PhoneRequested {get; set;}
+       bool PhoneRequested {get; set;}
 
-        bool EmailRequested {get; set;}
+       bool EmailRequested {get; set;}
 
-        bool ShippingAddressRequested {get; set;}
+       bool ShippingAddressRequested {get; set;}
 
-        bool Flexible {get; set;}
+       bool Flexible {get; set;}
 
-        string Currency {get; set;}
+       byte[] CurrencyAsBinary {get; set;}
+       string Currency {get; set;}
 
-        TVector<ILabeledPrice> Prices {get; set;}
+       TVector<ILabeledPrice> Prices {get; set;}
 
     }
 }

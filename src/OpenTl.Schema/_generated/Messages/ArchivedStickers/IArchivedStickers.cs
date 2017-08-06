@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Messages
 
     public interface IArchivedStickers : IObject
     {
-        int Count {get; set;}
+       int Count {get; set;}
 
-        TVector<IStickerSetCovered> Sets {get; set;}
+       TVector<IStickerSetCovered> Sets {get; set;}
 
     }
 }

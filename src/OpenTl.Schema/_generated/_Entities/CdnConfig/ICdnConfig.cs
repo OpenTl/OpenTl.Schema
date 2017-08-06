@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface ICdnConfig : IObject
     {
-        TVector<ICdnPublicKey> PublicKeys {get; set;}
+       TVector<ICdnPublicKey> PublicKeys {get; set;}
 
     }
 }

@@ -9,11 +9,12 @@ namespace OpenTl.Schema
 
     public interface IInputFile : IObject
     {
-        long Id {get; set;}
+       long Id {get; set;}
 
-        int Parts {get; set;}
+       int Parts {get; set;}
 
-        string Name {get; set;}
+       byte[] NameAsBinary {get; set;}
+       string Name {get; set;}
 
     }
 }

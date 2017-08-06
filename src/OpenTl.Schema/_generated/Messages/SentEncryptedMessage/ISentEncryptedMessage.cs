@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 
     public interface ISentEncryptedMessage : IObject
     {
-        int Date {get; set;}
+       int Date {get; set;}
 
     }
 }

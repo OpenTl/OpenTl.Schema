@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Contacts
 
     public interface IFound : IObject
     {
-        TVector<IPeer> Results {get; set;}
+       TVector<IPeer> Results {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

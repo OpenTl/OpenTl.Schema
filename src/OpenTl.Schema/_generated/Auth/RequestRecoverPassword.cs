@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Auth
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Auth
     public class RequestRecoverPassword : IRequest<Auth.IAuthorization>
     {
        [SerializationOrder(0)]
-       public string Code {get; set;}
+       public byte[] CodeAsBinary { get => _CodeAsBinary; set { _Code = Encoding.UTF8.GetString(value); _CodeAsBinary = value; }}
+       private byte[] _CodeAsBinary;
+       private string _Code;
+       public string Code { get => _Code; set { CodeAsBinary = Encoding.UTF8.GetBytes(value); _Code = value; }}
 
     }
 }

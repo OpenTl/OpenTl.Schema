@@ -9,7 +9,8 @@ namespace OpenTl.Schema
 
     public interface ILangPackString : IObject
     {
-        string Key {get; set;}
+       byte[] KeyAsBinary {get; set;}
+       string Key {get; set;}
 
     }
 }

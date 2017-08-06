@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -23,10 +24,16 @@ namespace OpenTl.Schema
        public int InboxDate {get; set;}
 
        [SerializationOrder(3)]
-       public string Type {get; set;}
+       public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
+       private byte[] _TypeAsBinary;
+       private string _Type;
+       public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(4)]
-       public string Message {get; set;}
+       public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
+       private byte[] _MessageAsBinary;
+       private string _Message;
+       public string Message { get => _Message; set { MessageAsBinary = Encoding.UTF8.GetBytes(value); _Message = value; }}
 
        [SerializationOrder(5)]
        public IMessageMedia Media {get; set;}

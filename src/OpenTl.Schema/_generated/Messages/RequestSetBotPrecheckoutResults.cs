@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Messages
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -23,7 +24,10 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public string Error {get; set;}
+       public byte[] ErrorAsBinary { get => _ErrorAsBinary; set { _Error = Encoding.UTF8.GetString(value); _ErrorAsBinary = value; }}
+       private byte[] _ErrorAsBinary;
+       private string _Error;
+       public string Error { get => _Error; set { ErrorAsBinary = Encoding.UTF8.GetBytes(value); _Error = value; }}
 
     }
 }

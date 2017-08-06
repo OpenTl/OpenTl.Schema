@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -19,7 +20,10 @@ namespace OpenTl.Schema
        public bool Mask {get; set;}
 
        [SerializationOrder(2)]
-       public string Alt {get; set;}
+       public byte[] AltAsBinary { get => _AltAsBinary; set { _Alt = Encoding.UTF8.GetString(value); _AltAsBinary = value; }}
+       private byte[] _AltAsBinary;
+       private string _Alt;
+       public string Alt { get => _Alt; set { AltAsBinary = Encoding.UTF8.GetBytes(value); _Alt = value; }}
 
        [SerializationOrder(3)]
        public IInputStickerSet Stickerset {get; set;}

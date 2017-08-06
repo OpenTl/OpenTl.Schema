@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Contacts
 
     public interface ILink : IObject
     {
-        IContactLink MyLink {get; set;}
+       IContactLink MyLink {get; set;}
 
-        IContactLink ForeignLink {get; set;}
+       IContactLink ForeignLink {get; set;}
 
-        IUser User {get; set;}
+       IUser User {get; set;}
 
     }
 }

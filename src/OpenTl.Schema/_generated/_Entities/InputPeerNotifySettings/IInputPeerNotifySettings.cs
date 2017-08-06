@@ -9,15 +9,16 @@ namespace OpenTl.Schema
 
     public interface IInputPeerNotifySettings : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool ShowPreviews {get; set;}
+       bool ShowPreviews {get; set;}
 
-        bool Silent {get; set;}
+       bool Silent {get; set;}
 
-        int MuteUntil {get; set;}
+       int MuteUntil {get; set;}
 
-        string Sound {get; set;}
+       byte[] SoundAsBinary {get; set;}
+       string Sound {get; set;}
 
     }
 }

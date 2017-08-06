@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 
     public interface IDhConfig : IObject
     {
-        byte[] Random {get; set;}
+       byte[] Random {get; set;}
 
     }
 }

@@ -9,15 +9,17 @@ namespace OpenTl.Schema.Account
 
     public interface IPasswordInputSettings : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        byte[] NewSalt {get; set;}
+       byte[] NewSalt {get; set;}
 
-        byte[] NewPasswordHash {get; set;}
+       byte[] NewPasswordHash {get; set;}
 
-        string Hint {get; set;}
+       byte[] HintAsBinary {get; set;}
+       string Hint {get; set;}
 
-        string Email {get; set;}
+       byte[] EmailAsBinary {get; set;}
+       string Email {get; set;}
 
     }
 }

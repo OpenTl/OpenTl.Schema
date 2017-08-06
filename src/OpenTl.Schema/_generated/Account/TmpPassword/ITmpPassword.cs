@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Account
 
     public interface ITmpPassword : IObject
     {
-        byte[] MpPassword {get; set;}
+       byte[] MpPassword {get; set;}
 
-        int ValidUntil {get; set;}
+       int ValidUntil {get; set;}
 
     }
 }

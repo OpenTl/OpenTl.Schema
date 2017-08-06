@@ -9,15 +9,15 @@ namespace OpenTl.Schema
 
     public interface IPhoneCallProtocol : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool UdpP2p {get; set;}
+       bool UdpP2p {get; set;}
 
-        bool UdpReflector {get; set;}
+       bool UdpReflector {get; set;}
 
-        int MinLayer {get; set;}
+       int MinLayer {get; set;}
 
-        int MaxLayer {get; set;}
+       int MaxLayer {get; set;}
 
     }
 }

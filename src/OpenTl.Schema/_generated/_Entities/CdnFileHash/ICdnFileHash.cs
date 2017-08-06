@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface ICdnFileHash : IObject
     {
-        int Offset {get; set;}
+       int Offset {get; set;}
 
-        int Limit {get; set;}
+       int Limit {get; set;}
 
-        byte[] Hash {get; set;}
+       byte[] Hash {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Payments
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -35,13 +36,19 @@ namespace OpenTl.Schema.Payments
        public IShippingOption Shipping {get; set;}
 
        [SerializationOrder(7)]
-       public string Currency {get; set;}
+       public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
+       private byte[] _CurrencyAsBinary;
+       private string _Currency;
+       public string Currency { get => _Currency; set { CurrencyAsBinary = Encoding.UTF8.GetBytes(value); _Currency = value; }}
 
        [SerializationOrder(8)]
        public long TotalAmount {get; set;}
 
        [SerializationOrder(9)]
-       public string CredentialsTitle {get; set;}
+       public byte[] CredentialsTitleAsBinary { get => _CredentialsTitleAsBinary; set { _CredentialsTitle = Encoding.UTF8.GetString(value); _CredentialsTitleAsBinary = value; }}
+       private byte[] _CredentialsTitleAsBinary;
+       private string _CredentialsTitle;
+       public string CredentialsTitle { get => _CredentialsTitle; set { CredentialsTitleAsBinary = Encoding.UTF8.GetBytes(value); _CredentialsTitle = value; }}
 
        [SerializationOrder(10)]
        public TVector<IUser> Users {get; set;}

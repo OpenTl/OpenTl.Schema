@@ -156,7 +156,6 @@
     <Folder Include="_generated\_Entities\CdnPublicKey" />
     <Folder Include="_generated\_Entities\ChannelMessagesFilter" />
     <Folder Include="_generated\_Entities\ChannelParticipant" />
-    <Folder Include="_generated\_Entities\ChannelParticipantRole" />
     <Folder Include="_generated\_Entities\ChannelParticipantsFilter" />
     <Folder Include="_generated\_Entities\Chat" />
     <Folder Include="_generated\_Entities\ChatFull" />
@@ -262,7 +261,6 @@
     <Folder Include="_generated\_Entities\NearestDc" />
     <Folder Include="_generated\_Entities\NearestDc" />
     <Folder Include="_generated\_Entities\NotifyPeer" />
-    <Folder Include="_generated\_Entities\Object" />
     <Folder Include="_generated\_Entities\Page" />
     <Folder Include="_generated\_Entities\PageBlock" />
     <Folder Include="_generated\_Entities\PaymentCharge" />

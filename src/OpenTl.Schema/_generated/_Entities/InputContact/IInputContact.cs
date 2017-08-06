@@ -9,13 +9,16 @@ namespace OpenTl.Schema
 
     public interface IInputContact : IObject
     {
-        long ClientId {get; set;}
+       long ClientId {get; set;}
 
-        string Phone {get; set;}
+       byte[] PhoneAsBinary {get; set;}
+       string Phone {get; set;}
 
-        string FirstName {get; set;}
+       byte[] FirstNameAsBinary {get; set;}
+       string FirstName {get; set;}
 
-        string LastName {get; set;}
+       byte[] LastNameAsBinary {get; set;}
+       string LastName {get; set;}
 
     }
 }

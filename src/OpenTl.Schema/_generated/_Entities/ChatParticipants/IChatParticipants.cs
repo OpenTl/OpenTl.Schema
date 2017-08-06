@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IChatParticipants : IObject
     {
-        int ChatId {get; set;}
+       int ChatId {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,13 +13,22 @@ namespace OpenTl.Schema
 	public class TPQInnerData : IObject
 	{
        [SerializationOrder(0)]
-       public string Pq {get; set;}
+       public byte[] PqAsBinary { get => _PqAsBinary; set { _Pq = Encoding.UTF8.GetString(value); _PqAsBinary = value; }}
+       private byte[] _PqAsBinary;
+       private string _Pq;
+       public string Pq { get => _Pq; set { PqAsBinary = Encoding.UTF8.GetBytes(value); _Pq = value; }}
 
        [SerializationOrder(1)]
-       public string P {get; set;}
+       public byte[] PAsBinary { get => _PAsBinary; set { _P = Encoding.UTF8.GetString(value); _PAsBinary = value; }}
+       private byte[] _PAsBinary;
+       private string _P;
+       public string P { get => _P; set { PAsBinary = Encoding.UTF8.GetBytes(value); _P = value; }}
 
        [SerializationOrder(2)]
-       public string Q {get; set;}
+       public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
+       private byte[] _QAsBinary;
+       private string _Q;
+       public string Q { get => _Q; set { QAsBinary = Encoding.UTF8.GetBytes(value); _Q = value; }}
 
        [SerializationArrayLength(16)]
        [SerializationOrder(3)]

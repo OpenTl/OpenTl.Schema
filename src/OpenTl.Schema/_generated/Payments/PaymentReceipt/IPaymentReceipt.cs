@@ -9,27 +9,29 @@ namespace OpenTl.Schema.Payments
 
     public interface IPaymentReceipt : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        int Date {get; set;}
+       int Date {get; set;}
 
-        int BotId {get; set;}
+       int BotId {get; set;}
 
-        IInvoice Invoice {get; set;}
+       IInvoice Invoice {get; set;}
 
-        int ProviderId {get; set;}
+       int ProviderId {get; set;}
 
-        IPaymentRequestedInfo Info {get; set;}
+       IPaymentRequestedInfo Info {get; set;}
 
-        IShippingOption Shipping {get; set;}
+       IShippingOption Shipping {get; set;}
 
-        string Currency {get; set;}
+       byte[] CurrencyAsBinary {get; set;}
+       string Currency {get; set;}
 
-        long TotalAmount {get; set;}
+       long TotalAmount {get; set;}
 
-        string CredentialsTitle {get; set;}
+       byte[] CredentialsTitleAsBinary {get; set;}
+       string CredentialsTitle {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

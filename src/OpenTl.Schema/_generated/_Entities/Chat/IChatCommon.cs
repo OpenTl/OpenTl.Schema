@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface IChatCommon : IObject
     {
-        int Id {get; set;}
+       int Id {get; set;}
 
-        string Title {get; set;}
+       byte[] TitleAsBinary {get; set;}
+       string Title {get; set;}
 
     }
 }

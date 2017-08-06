@@ -9,27 +9,27 @@ namespace OpenTl.Schema
 
     public interface IMessageCommon : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Out {get; set;}
+       bool Out {get; set;}
 
-        bool Mentioned {get; set;}
+       bool Mentioned {get; set;}
 
-        bool MediaUnread {get; set;}
+       bool MediaUnread {get; set;}
 
-        bool Silent {get; set;}
+       bool Silent {get; set;}
 
-        bool Post {get; set;}
+       bool Post {get; set;}
 
-        int Id {get; set;}
+       int Id {get; set;}
 
-        int FromId {get; set;}
+       int FromId {get; set;}
 
-        IPeer ToId {get; set;}
+       IPeer ToId {get; set;}
 
-        int ReplyToMsgId {get; set;}
+       int ReplyToMsgId {get; set;}
 
-        int Date {get; set;}
+       int Date {get; set;}
 
     }
 }

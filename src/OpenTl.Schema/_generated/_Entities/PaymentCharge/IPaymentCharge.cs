@@ -9,9 +9,11 @@ namespace OpenTl.Schema
 
     public interface IPaymentCharge : IObject
     {
-        string Id {get; set;}
+       byte[] IdAsBinary {get; set;}
+       string Id {get; set;}
 
-        string ProviderChargeId {get; set;}
+       byte[] ProviderChargeIdAsBinary {get; set;}
+       string ProviderChargeId {get; set;}
 
     }
 }

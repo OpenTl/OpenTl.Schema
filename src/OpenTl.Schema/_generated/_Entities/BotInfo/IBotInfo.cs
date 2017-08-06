@@ -9,11 +9,12 @@ namespace OpenTl.Schema
 
     public interface IBotInfo : IObject
     {
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        string Description {get; set;}
+       byte[] DescriptionAsBinary {get; set;}
+       string Description {get; set;}
 
-        TVector<IBotCommand> Commands {get; set;}
+       TVector<IBotCommand> Commands {get; set;}
 
     }
 }

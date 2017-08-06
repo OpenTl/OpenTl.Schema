@@ -9,7 +9,8 @@ namespace OpenTl.Schema
 
     public interface IDataJSON : IObject
     {
-        string Data {get; set;}
+       byte[] DataAsBinary {get; set;}
+       string Data {get; set;}
 
     }
 }

@@ -9,13 +9,15 @@ namespace OpenTl.Schema
 
     public interface IInputWebDocument : IObject
     {
-        string Url {get; set;}
+       byte[] UrlAsBinary {get; set;}
+       string Url {get; set;}
 
-        int Size {get; set;}
+       int Size {get; set;}
 
-        string MimeType {get; set;}
+       byte[] MimeTypeAsBinary {get; set;}
+       string MimeType {get; set;}
 
-        TVector<IDocumentAttribute> Attributes {get; set;}
+       TVector<IDocumentAttribute> Attributes {get; set;}
 
     }
 }

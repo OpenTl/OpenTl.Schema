@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Payments
 
     public interface ISavedInfo : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool HasSavedCredentials {get; set;}
+       bool HasSavedCredentials {get; set;}
 
-        IPaymentRequestedInfo SavedInfo {get; set;}
+       IPaymentRequestedInfo SavedInfo {get; set;}
 
     }
 }

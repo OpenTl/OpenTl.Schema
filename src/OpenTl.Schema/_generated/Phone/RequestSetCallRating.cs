@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Phone
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,7 +19,10 @@ namespace OpenTl.Schema.Phone
        public int Rating {get; set;}
 
        [SerializationOrder(2)]
-       public string Comment {get; set;}
+       public byte[] CommentAsBinary { get => _CommentAsBinary; set { _Comment = Encoding.UTF8.GetString(value); _CommentAsBinary = value; }}
+       private byte[] _CommentAsBinary;
+       private string _Comment;
+       public string Comment { get => _Comment; set { CommentAsBinary = Encoding.UTF8.GetBytes(value); _Comment = value; }}
 
     }
 }

@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface IStickerPack : IObject
     {
-        string Emoticon {get; set;}
+       byte[] EmoticonAsBinary {get; set;}
+       string Emoticon {get; set;}
 
-        TVector<long> Documents {get; set;}
+       TVector<long> Documents {get; set;}
 
     }
 }

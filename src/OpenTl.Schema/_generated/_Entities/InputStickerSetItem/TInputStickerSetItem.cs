@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,7 +19,10 @@ namespace OpenTl.Schema
        public IInputDocument Document {get; set;}
 
        [SerializationOrder(2)]
-       public string Emoji {get; set;}
+       public byte[] EmojiAsBinary { get => _EmojiAsBinary; set { _Emoji = Encoding.UTF8.GetString(value); _EmojiAsBinary = value; }}
+       private byte[] _EmojiAsBinary;
+       private string _Emoji;
+       public string Emoji { get => _Emoji; set { EmojiAsBinary = Encoding.UTF8.GetBytes(value); _Emoji = value; }}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]

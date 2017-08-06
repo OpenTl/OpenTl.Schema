@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Messages
 
     public interface IMessages : IObject
     {
-        TVector<IMessage> Messages {get; set;}
+       TVector<IMessage> Messages {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

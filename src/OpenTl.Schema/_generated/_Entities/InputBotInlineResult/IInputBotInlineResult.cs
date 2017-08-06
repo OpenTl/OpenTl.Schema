@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface IInputBotInlineResult : IObject
     {
-        string Id {get; set;}
+       byte[] IdAsBinary {get; set;}
+       string Id {get; set;}
 
-        IInputBotInlineMessage SendMessage {get; set;}
+       IInputBotInlineMessage SendMessage {get; set;}
 
     }
 }

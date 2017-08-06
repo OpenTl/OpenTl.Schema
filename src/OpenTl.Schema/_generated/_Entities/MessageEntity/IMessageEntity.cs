@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IMessageEntity : IObject
     {
-        int Offset {get; set;}
+       int Offset {get; set;}
 
-        int Length {get; set;}
+       int Length {get; set;}
 
     }
 }

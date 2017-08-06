@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TStickerPack : IStickerPack
 	{
        [SerializationOrder(0)]
-       public string Emoticon {get; set;}
+       public byte[] EmoticonAsBinary { get => _EmoticonAsBinary; set { _Emoticon = Encoding.UTF8.GetString(value); _EmoticonAsBinary = value; }}
+       private byte[] _EmoticonAsBinary;
+       private string _Emoticon;
+       public string Emoticon { get => _Emoticon; set { EmoticonAsBinary = Encoding.UTF8.GetBytes(value); _Emoticon = value; }}
 
        [SerializationOrder(1)]
        public TVector<long> Documents {get; set;}

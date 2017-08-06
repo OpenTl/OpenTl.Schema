@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -22,13 +23,19 @@ namespace OpenTl.Schema
        public IInputFile Thumb {get; set;}
 
        [SerializationOrder(3)]
-       public string MimeType {get; set;}
+       public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
+       private byte[] _MimeTypeAsBinary;
+       private string _MimeType;
+       public string MimeType { get => _MimeType; set { MimeTypeAsBinary = Encoding.UTF8.GetBytes(value); _MimeType = value; }}
 
        [SerializationOrder(4)]
        public TVector<IDocumentAttribute> Attributes {get; set;}
 
        [SerializationOrder(5)]
-       public string Caption {get; set;}
+       public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
+       private byte[] _CaptionAsBinary;
+       private string _Caption;
+       public string Caption { get => _Caption; set { CaptionAsBinary = Encoding.UTF8.GetBytes(value); _Caption = value; }}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 0)]

@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Channels
 
     public interface IAdminLogResults : IObject
     {
-        TVector<IChannelAdminLogEvent> Events {get; set;}
+       TVector<IChannelAdminLogEvent> Events {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

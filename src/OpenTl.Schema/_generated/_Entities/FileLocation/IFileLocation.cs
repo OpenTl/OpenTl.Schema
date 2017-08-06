@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IFileLocation : IObject
     {
-        long VolumeId {get; set;}
+       long VolumeId {get; set;}
 
-        int LocalId {get; set;}
+       int LocalId {get; set;}
 
-        long Secret {get; set;}
+       long Secret {get; set;}
 
     }
 }

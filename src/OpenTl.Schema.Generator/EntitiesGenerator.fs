@@ -30,9 +30,6 @@ let parentMarker = "/* PARENT */"
 let serializeMarker = "/* SERIALIZE */"
 
 let paramMarker = "/* PARAMS */"
-let modMarker = "/* MOD */"
-
-
 
 let formatName (name: string) =
     name.Split('_')
@@ -100,7 +97,7 @@ let rec typeMapping (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>)
     | "Bool" -> "bool"
     | "true" -> "bool"
     | "Object" -> "IObject"
-    | "ipPort" -> "IpPort"
+    | "ipPort" -> "TIpPort"
     | "X" -> baseObjectInterface
     | "!X" -> baseObjectInterface
     | tlType when containsName interfacesSet tlType -> getClassNameFromInterface tlType  |> getFullTypeName tlType
@@ -133,10 +130,40 @@ let getSerializeAttribute(tlParam: TlParam) =
         | "true" -> sprintf """       [FromFlag("%s", %s)]""" fieldName index |> Some
         | _ -> sprintf """       [CanSerialize("%s", %s)]""" fieldName index |> Some
 
-let getParameterForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
+let getParameterForInterface (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
         let paramName = getName p.Name
         let paramType = typeMapping typeSet interfacesSet p.Type
-        sprintf "       %s %s %s {get; set;}\n" modMarker paramType paramName
+
+        let result = new List<string>()
+
+        if paramType = "string" then
+            paramName + "AsBinary"
+            |> sprintf "       byte[] %s {get; set;}"
+            |> result.Add
+        
+        sprintf "       %s %s {get; set;}\n" paramType paramName |> result.Add
+
+        result |> String.concat "\n"
+
+let getParameterForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
+    let paramName = getName p.Name
+    let paramType = typeMapping typeSet interfacesSet p.Type
+
+    match paramType with 
+    | "string" -> 
+        let privateName =  "_" + paramName;
+        let asBinaryName = paramName + "AsBinary"
+        let privateBinaryName =  "_" + asBinaryName;
+
+        [|
+            sprintf "       public byte[] %s { get => %s; set { %s = Encoding.UTF8.GetString(value); %s = value; }}" asBinaryName privateBinaryName privateName  privateBinaryName 
+            sprintf "       private byte[] %s;" privateBinaryName
+            sprintf "       private string %s;" privateName
+            sprintf "       public string %s { get => %s; set { %s = Encoding.UTF8.GetBytes(value); %s = value; }}\n" paramName privateName asBinaryName privateName
+        |]
+        |> String.concat "\n"
+    | _ -> 
+        sprintf "       public %s %s {get; set;}\n" paramType paramName
 
 let getTypesForInterface (allTypes: List<TlType>) (typeName: string) = 
     allTypes
@@ -153,8 +180,7 @@ let getParametersForInterface (allTypes: List<TlType>, typesSet: HashSet<string>
     |> Seq.groupBy(fun p -> p.Name, p.Type)
     |> Seq.filter(fun (_, col) -> Seq.length col = typesCount)
     |> Seq.map (fun (_, col) -> Seq.head col)
-    |> Seq.map (fun p -> getParameterForType typesSet interfacesSet p)
-    |> Seq.map (fun s -> s.Replace(modMarker, ""))
+    |> Seq.map (fun p -> getParameterForInterface typesSet interfacesSet p)
     |> String.concat "\n"
 
 let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<string>, prms: TlParam list) = 
@@ -173,9 +199,7 @@ let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<str
         | Some(value) -> result.Add value
         | None -> ()
 
-        getParameterForType typeSet interfacesSet  p
-        |> (fun s -> s.Replace(modMarker, "public"))
-        |> result.Add
+        getParameterForType typeSet interfacesSet  p |> result.Add
     )
 
     result |> String.concat "\n"

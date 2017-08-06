@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IDestroySessionRes : IObject
     {
-        long SessionId {get; set;}
+       long SessionId {get; set;}
 
     }
 }

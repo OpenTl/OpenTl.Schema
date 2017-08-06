@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IBadMsgNotification : IObject
     {
-        long BadMsgId {get; set;}
+       long BadMsgId {get; set;}
 
-        int BadMsgSeqno {get; set;}
+       int BadMsgSeqno {get; set;}
 
-        int ErrorCode {get; set;}
+       int ErrorCode {get; set;}
 
     }
 }

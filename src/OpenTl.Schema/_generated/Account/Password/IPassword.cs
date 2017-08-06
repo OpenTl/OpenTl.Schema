@@ -9,9 +9,10 @@ namespace OpenTl.Schema.Account
 
     public interface IPassword : IObject
     {
-        byte[] NewSalt {get; set;}
+       byte[] NewSalt {get; set;}
 
-        string EmailUnconfirmedPattern {get; set;}
+       byte[] EmailUnconfirmedPatternAsBinary {get; set;}
+       string EmailUnconfirmedPattern {get; set;}
 
     }
 }

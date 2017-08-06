@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,7 +16,10 @@ namespace OpenTl.Schema
        public IInputUser BotId {get; set;}
 
        [SerializationOrder(1)]
-       public string ShortName {get; set;}
+       public byte[] ShortNameAsBinary { get => _ShortNameAsBinary; set { _ShortName = Encoding.UTF8.GetString(value); _ShortNameAsBinary = value; }}
+       private byte[] _ShortNameAsBinary;
+       private string _ShortName;
+       public string ShortName { get => _ShortName; set { ShortNameAsBinary = Encoding.UTF8.GetBytes(value); _ShortName = value; }}
 
 	}
 }

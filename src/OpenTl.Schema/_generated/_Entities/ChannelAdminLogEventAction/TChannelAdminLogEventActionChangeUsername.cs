@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,10 +13,16 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionChangeUsername : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public string PrevValue {get; set;}
+       public byte[] PrevValueAsBinary { get => _PrevValueAsBinary; set { _PrevValue = Encoding.UTF8.GetString(value); _PrevValueAsBinary = value; }}
+       private byte[] _PrevValueAsBinary;
+       private string _PrevValue;
+       public string PrevValue { get => _PrevValue; set { PrevValueAsBinary = Encoding.UTF8.GetBytes(value); _PrevValue = value; }}
 
        [SerializationOrder(1)]
-       public string NewValue {get; set;}
+       public byte[] NewValueAsBinary { get => _NewValueAsBinary; set { _NewValue = Encoding.UTF8.GetString(value); _NewValueAsBinary = value; }}
+       private byte[] _NewValueAsBinary;
+       private string _NewValue;
+       public string NewValue { get => _NewValue; set { NewValueAsBinary = Encoding.UTF8.GetBytes(value); _NewValue = value; }}
 
 	}
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IAccountDaysTTL : IObject
     {
-        int Days {get; set;}
+       int Days {get; set;}
 
     }
 }

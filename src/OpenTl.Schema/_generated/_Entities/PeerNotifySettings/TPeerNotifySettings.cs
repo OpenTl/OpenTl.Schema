@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -26,7 +27,10 @@ namespace OpenTl.Schema
        public int MuteUntil {get; set;}
 
        [SerializationOrder(4)]
-       public string Sound {get; set;}
+       public byte[] SoundAsBinary { get => _SoundAsBinary; set { _Sound = Encoding.UTF8.GetString(value); _SoundAsBinary = value; }}
+       private byte[] _SoundAsBinary;
+       private string _Sound;
+       public string Sound { get => _Sound; set { SoundAsBinary = Encoding.UTF8.GetBytes(value); _Sound = value; }}
 
 	}
 }

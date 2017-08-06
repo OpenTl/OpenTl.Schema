@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -38,7 +39,10 @@ namespace OpenTl.Schema
        public int Id {get; set;}
 
        [SerializationOrder(7)]
-       public string IpAddress {get; set;}
+       public byte[] IpAddressAsBinary { get => _IpAddressAsBinary; set { _IpAddress = Encoding.UTF8.GetString(value); _IpAddressAsBinary = value; }}
+       private byte[] _IpAddressAsBinary;
+       private string _IpAddress;
+       public string IpAddress { get => _IpAddress; set { IpAddressAsBinary = Encoding.UTF8.GetBytes(value); _IpAddress = value; }}
 
        [SerializationOrder(8)]
        public int Port {get; set;}

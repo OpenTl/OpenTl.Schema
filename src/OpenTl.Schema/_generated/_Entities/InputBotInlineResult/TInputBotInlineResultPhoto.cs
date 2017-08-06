@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,10 +13,16 @@ namespace OpenTl.Schema
 	public class TInputBotInlineResultPhoto : IInputBotInlineResult
 	{
        [SerializationOrder(0)]
-       public string Id {get; set;}
+       public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
+       private byte[] _IdAsBinary;
+       private string _Id;
+       public string Id { get => _Id; set { IdAsBinary = Encoding.UTF8.GetBytes(value); _Id = value; }}
 
        [SerializationOrder(1)]
-       public string Type {get; set;}
+       public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
+       private byte[] _TypeAsBinary;
+       private string _Type;
+       public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(2)]
        public IInputPhoto Photo {get; set;}

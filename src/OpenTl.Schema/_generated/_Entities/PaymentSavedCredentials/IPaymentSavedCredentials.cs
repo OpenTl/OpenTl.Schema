@@ -9,9 +9,11 @@ namespace OpenTl.Schema
 
     public interface IPaymentSavedCredentials : IObject
     {
-        string Id {get; set;}
+       byte[] IdAsBinary {get; set;}
+       string Id {get; set;}
 
-        string Title {get; set;}
+       byte[] TitleAsBinary {get; set;}
+       string Title {get; set;}
 
     }
 }

@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IPong : IObject
     {
-        long MsgId {get; set;}
+       long MsgId {get; set;}
 
-        long PingId {get; set;}
+       long PingId {get; set;}
 
     }
 }

@@ -9,7 +9,8 @@ namespace OpenTl.Schema
 
     public interface IFoundGif : IObject
     {
-        string Url {get; set;}
+       byte[] UrlAsBinary {get; set;}
+       string Url {get; set;}
 
     }
 }

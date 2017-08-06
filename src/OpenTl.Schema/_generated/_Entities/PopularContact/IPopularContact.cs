@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IPopularContact : IObject
     {
-        long ClientId {get; set;}
+       long ClientId {get; set;}
 
-        int Importers {get; set;}
+       int Importers {get; set;}
 
     }
 }

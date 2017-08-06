@@ -9,19 +9,20 @@ namespace OpenTl.Schema.Messages
 
     public interface IBotResults : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Gallery {get; set;}
+       bool Gallery {get; set;}
 
-        long QueryId {get; set;}
+       long QueryId {get; set;}
 
-        string NextOffset {get; set;}
+       byte[] NextOffsetAsBinary {get; set;}
+       string NextOffset {get; set;}
 
-        IInlineBotSwitchPM SwitchPm {get; set;}
+       IInlineBotSwitchPM SwitchPm {get; set;}
 
-        TVector<IBotInlineResult> Results {get; set;}
+       TVector<IBotInlineResult> Results {get; set;}
 
-        int CacheTime {get; set;}
+       int CacheTime {get; set;}
 
     }
 }

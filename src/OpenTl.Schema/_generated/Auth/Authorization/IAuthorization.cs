@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Auth
 
     public interface IAuthorization : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        int TmpSessions {get; set;}
+       int TmpSessions {get; set;}
 
-        IUser User {get; set;}
+       IUser User {get; set;}
 
     }
 }

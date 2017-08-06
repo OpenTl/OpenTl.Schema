@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IPeerSettings : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool ReportSpam {get; set;}
+       bool ReportSpam {get; set;}
 
     }
 }

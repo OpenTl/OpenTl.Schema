@@ -9,11 +9,12 @@ namespace OpenTl.Schema
 
     public interface IWallPaper : IObject
     {
-        int Id {get; set;}
+       int Id {get; set;}
 
-        string Title {get; set;}
+       byte[] TitleAsBinary {get; set;}
+       string Title {get; set;}
 
-        int Color {get; set;}
+       int Color {get; set;}
 
     }
 }

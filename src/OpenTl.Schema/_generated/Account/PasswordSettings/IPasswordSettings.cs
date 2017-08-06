@@ -9,7 +9,8 @@ namespace OpenTl.Schema.Account
 
     public interface IPasswordSettings : IObject
     {
-        string Email {get; set;}
+       byte[] EmailAsBinary {get; set;}
+       string Email {get; set;}
 
     }
 }

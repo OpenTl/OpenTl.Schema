@@ -9,9 +9,10 @@ namespace OpenTl.Schema
 
     public interface ICdnPublicKey : IObject
     {
-        int DcId {get; set;}
+       int DcId {get; set;}
 
-        string PublicKey {get; set;}
+       byte[] PublicKeyAsBinary {get; set;}
+       string PublicKey {get; set;}
 
     }
 }

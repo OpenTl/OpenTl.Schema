@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -23,10 +24,16 @@ namespace OpenTl.Schema
        public bool Test {get; set;}
 
        [SerializationOrder(3)]
-       public string Title {get; set;}
+       public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
+       private byte[] _TitleAsBinary;
+       private string _Title;
+       public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(4)]
-       public string Description {get; set;}
+       public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}
+       private byte[] _DescriptionAsBinary;
+       private string _Description;
+       public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 0)]
@@ -37,13 +44,19 @@ namespace OpenTl.Schema
        public int ReceiptMsgId {get; set;}
 
        [SerializationOrder(7)]
-       public string Currency {get; set;}
+       public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
+       private byte[] _CurrencyAsBinary;
+       private string _Currency;
+       public string Currency { get => _Currency; set { CurrencyAsBinary = Encoding.UTF8.GetBytes(value); _Currency = value; }}
 
        [SerializationOrder(8)]
        public long TotalAmount {get; set;}
 
        [SerializationOrder(9)]
-       public string StartParam {get; set;}
+       public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
+       private byte[] _StartParamAsBinary;
+       private string _StartParam;
+       public string StartParam { get => _StartParam; set { StartParamAsBinary = Encoding.UTF8.GetBytes(value); _StartParam = value; }}
 
 	}
 }

@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IContactBlocked : IObject
     {
-        int UserId {get; set;}
+       int UserId {get; set;}
 
-        int Date {get; set;}
+       int Date {get; set;}
 
     }
 }

@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Help
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema.Help
 	public class TSupport : ISupport
 	{
        [SerializationOrder(0)]
-       public string PhoneNumber {get; set;}
+       public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
+       private byte[] _PhoneNumberAsBinary;
+       private string _PhoneNumber;
+       public string PhoneNumber { get => _PhoneNumber; set { PhoneNumberAsBinary = Encoding.UTF8.GetBytes(value); _PhoneNumber = value; }}
 
        [SerializationOrder(1)]
        public IUser User {get; set;}

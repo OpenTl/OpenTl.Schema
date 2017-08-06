@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -12,7 +13,10 @@ namespace OpenTl.Schema
 	public class TExportedMessageLink : IExportedMessageLink
 	{
        [SerializationOrder(0)]
-       public string Link {get; set;}
+       public byte[] LinkAsBinary { get => _LinkAsBinary; set { _Link = Encoding.UTF8.GetString(value); _LinkAsBinary = value; }}
+       private byte[] _LinkAsBinary;
+       private string _Link;
+       public string Link { get => _Link; set { LinkAsBinary = Encoding.UTF8.GetBytes(value); _Link = value; }}
 
 	}
 }

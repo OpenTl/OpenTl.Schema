@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IEncryptedChatCommon : IObject
     {
-        int Id {get; set;}
+       int Id {get; set;}
 
     }
 }

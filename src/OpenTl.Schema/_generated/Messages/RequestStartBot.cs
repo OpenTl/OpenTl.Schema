@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Messages
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -21,7 +22,10 @@ namespace OpenTl.Schema.Messages
        public long RandomId {get; set;}
 
        [SerializationOrder(3)]
-       public string StartParam {get; set;}
+       public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
+       private byte[] _StartParamAsBinary;
+       private string _StartParam;
+       public string StartParam { get => _StartParam; set { StartParamAsBinary = Encoding.UTF8.GetBytes(value); _StartParam = value; }}
 
     }
 }

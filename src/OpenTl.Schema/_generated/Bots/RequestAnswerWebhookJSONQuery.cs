@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Bots
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	

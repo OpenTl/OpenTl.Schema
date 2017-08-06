@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Messages
 
     public interface IMessageEditData : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool Caption {get; set;}
+       bool Caption {get; set;}
 
     }
 }

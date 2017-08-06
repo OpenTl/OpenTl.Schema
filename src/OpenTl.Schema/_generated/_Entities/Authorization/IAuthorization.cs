@@ -9,31 +9,39 @@ namespace OpenTl.Schema
 
     public interface IAuthorization : IObject
     {
-        long Hash {get; set;}
+       long Hash {get; set;}
 
-        int Flags {get; set;}
+       int Flags {get; set;}
 
-        string DeviceModel {get; set;}
+       byte[] DeviceModelAsBinary {get; set;}
+       string DeviceModel {get; set;}
 
-        string Platform {get; set;}
+       byte[] PlatformAsBinary {get; set;}
+       string Platform {get; set;}
 
-        string SystemVersion {get; set;}
+       byte[] SystemVersionAsBinary {get; set;}
+       string SystemVersion {get; set;}
 
-        int ApiId {get; set;}
+       int ApiId {get; set;}
 
-        string AppName {get; set;}
+       byte[] AppNameAsBinary {get; set;}
+       string AppName {get; set;}
 
-        string AppVersion {get; set;}
+       byte[] AppVersionAsBinary {get; set;}
+       string AppVersion {get; set;}
 
-        int DateCreated {get; set;}
+       int DateCreated {get; set;}
 
-        int DateActive {get; set;}
+       int DateActive {get; set;}
 
-        string Ip {get; set;}
+       byte[] IpAsBinary {get; set;}
+       string Ip {get; set;}
 
-        string Country {get; set;}
+       byte[] CountryAsBinary {get; set;}
+       string Country {get; set;}
 
-        string Region {get; set;}
+       byte[] RegionAsBinary {get; set;}
+       string Region {get; set;}
 
     }
 }

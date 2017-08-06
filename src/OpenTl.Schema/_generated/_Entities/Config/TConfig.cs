@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -101,11 +102,17 @@ namespace OpenTl.Schema
        public int CallPacketTimeoutMs {get; set;}
 
        [SerializationOrder(29)]
-       public string MeUrlPrefix {get; set;}
+       public byte[] MeUrlPrefixAsBinary { get => _MeUrlPrefixAsBinary; set { _MeUrlPrefix = Encoding.UTF8.GetString(value); _MeUrlPrefixAsBinary = value; }}
+       private byte[] _MeUrlPrefixAsBinary;
+       private string _MeUrlPrefix;
+       public string MeUrlPrefix { get => _MeUrlPrefix; set { MeUrlPrefixAsBinary = Encoding.UTF8.GetBytes(value); _MeUrlPrefix = value; }}
 
        [SerializationOrder(30)]
        [CanSerialize("Flags", 2)]
-       public string SuggestedLangCode {get; set;}
+       public byte[] SuggestedLangCodeAsBinary { get => _SuggestedLangCodeAsBinary; set { _SuggestedLangCode = Encoding.UTF8.GetString(value); _SuggestedLangCodeAsBinary = value; }}
+       private byte[] _SuggestedLangCodeAsBinary;
+       private string _SuggestedLangCode;
+       public string SuggestedLangCode { get => _SuggestedLangCode; set { SuggestedLangCodeAsBinary = Encoding.UTF8.GetBytes(value); _SuggestedLangCode = value; }}
 
        [SerializationOrder(31)]
        [CanSerialize("Flags", 2)]

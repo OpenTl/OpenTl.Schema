@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Account
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -19,7 +20,10 @@ namespace OpenTl.Schema.Account
        public bool AllowFlashcall {get; set;}
 
        [SerializationOrder(2)]
-       public string Hash {get; set;}
+       public byte[] HashAsBinary { get => _HashAsBinary; set { _Hash = Encoding.UTF8.GetString(value); _HashAsBinary = value; }}
+       private byte[] _HashAsBinary;
+       private string _Hash;
+       public string Hash { get => _Hash; set { HashAsBinary = Encoding.UTF8.GetBytes(value); _Hash = value; }}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]

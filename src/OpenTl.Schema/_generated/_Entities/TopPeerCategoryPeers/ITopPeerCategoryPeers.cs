@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface ITopPeerCategoryPeers : IObject
     {
-        ITopPeerCategory Category {get; set;}
+       ITopPeerCategory Category {get; set;}
 
-        int Count {get; set;}
+       int Count {get; set;}
 
-        TVector<ITopPeer> Peers {get; set;}
+       TVector<ITopPeer> Peers {get; set;}
 
     }
 }

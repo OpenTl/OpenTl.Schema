@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -62,11 +63,17 @@ namespace OpenTl.Schema
        public long AccessHash {get; set;}
 
        [SerializationOrder(13)]
-       public string Title {get; set;}
+       public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
+       private byte[] _TitleAsBinary;
+       private string _Title;
+       public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(14)]
        [CanSerialize("Flags", 6)]
-       public string Username {get; set;}
+       public byte[] UsernameAsBinary { get => _UsernameAsBinary; set { _Username = Encoding.UTF8.GetString(value); _UsernameAsBinary = value; }}
+       private byte[] _UsernameAsBinary;
+       private string _Username;
+       public string Username { get => _Username; set { UsernameAsBinary = Encoding.UTF8.GetBytes(value); _Username = value; }}
 
        [SerializationOrder(15)]
        public IChatPhoto Photo {get; set;}
@@ -79,7 +86,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(18)]
        [CanSerialize("Flags", 9)]
-       public string RestrictionReason {get; set;}
+       public byte[] RestrictionReasonAsBinary { get => _RestrictionReasonAsBinary; set { _RestrictionReason = Encoding.UTF8.GetString(value); _RestrictionReasonAsBinary = value; }}
+       private byte[] _RestrictionReasonAsBinary;
+       private string _RestrictionReason;
+       public string RestrictionReason { get => _RestrictionReason; set { RestrictionReasonAsBinary = Encoding.UTF8.GetBytes(value); _RestrictionReason = value; }}
 
        [SerializationOrder(19)]
        [CanSerialize("Flags", 14)]

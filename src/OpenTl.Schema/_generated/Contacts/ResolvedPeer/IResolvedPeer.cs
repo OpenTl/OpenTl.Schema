@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Contacts
 
     public interface IResolvedPeer : IObject
     {
-        IPeer Peer {get; set;}
+       IPeer Peer {get; set;}
 
-        TVector<IChat> Chats {get; set;}
+       TVector<IChat> Chats {get; set;}
 
-        TVector<IUser> Users {get; set;}
+       TVector<IUser> Users {get; set;}
 
     }
 }

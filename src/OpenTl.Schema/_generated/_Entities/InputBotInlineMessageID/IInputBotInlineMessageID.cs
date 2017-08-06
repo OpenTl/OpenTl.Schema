@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IInputBotInlineMessageID : IObject
     {
-        int DcId {get; set;}
+       int DcId {get; set;}
 
-        long Id {get; set;}
+       long Id {get; set;}
 
-        long AccessHash {get; set;}
+       long AccessHash {get; set;}
 
     }
 }

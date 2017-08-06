@@ -9,13 +9,13 @@ namespace OpenTl.Schema
 
     public interface IMaskCoords : IObject
     {
-        int N {get; set;}
+       int N {get; set;}
 
-        double X {get; set;}
+       double X {get; set;}
 
-        double Y {get; set;}
+       double Y {get; set;}
 
-        double Zoom {get; set;}
+       double Zoom {get; set;}
 
     }
 }

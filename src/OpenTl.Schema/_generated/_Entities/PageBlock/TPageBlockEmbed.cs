@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -24,11 +25,17 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
-       public string Url {get; set;}
+       public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
+       private byte[] _UrlAsBinary;
+       private string _Url;
+       public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
-       public string Html {get; set;}
+       public byte[] HtmlAsBinary { get => _HtmlAsBinary; set { _Html = Encoding.UTF8.GetString(value); _HtmlAsBinary = value; }}
+       private byte[] _HtmlAsBinary;
+       private string _Html;
+       public string Html { get => _Html; set { HtmlAsBinary = Encoding.UTF8.GetBytes(value); _Html = value; }}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 4)]

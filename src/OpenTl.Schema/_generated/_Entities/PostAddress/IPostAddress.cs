@@ -9,17 +9,23 @@ namespace OpenTl.Schema
 
     public interface IPostAddress : IObject
     {
-        string StreetLine1 {get; set;}
+       byte[] StreetLine1AsBinary {get; set;}
+       string StreetLine1 {get; set;}
 
-        string StreetLine2 {get; set;}
+       byte[] StreetLine2AsBinary {get; set;}
+       string StreetLine2 {get; set;}
 
-        string City {get; set;}
+       byte[] CityAsBinary {get; set;}
+       string City {get; set;}
 
-        string State {get; set;}
+       byte[] StateAsBinary {get; set;}
+       string State {get; set;}
 
-        string CountryIso2 {get; set;}
+       byte[] CountryIso2AsBinary {get; set;}
+       string CountryIso2 {get; set;}
 
-        string PostCode {get; set;}
+       byte[] PostCodeAsBinary {get; set;}
+       string PostCode {get; set;}
 
     }
 }

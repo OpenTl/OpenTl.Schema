@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,7 +19,10 @@ namespace OpenTl.Schema
        public int Parts {get; set;}
 
        [SerializationOrder(2)]
-       public string Md5Checksum {get; set;}
+       public byte[] Md5ChecksumAsBinary { get => _Md5ChecksumAsBinary; set { _Md5Checksum = Encoding.UTF8.GetString(value); _Md5ChecksumAsBinary = value; }}
+       private byte[] _Md5ChecksumAsBinary;
+       private string _Md5Checksum;
+       public string Md5Checksum { get => _Md5Checksum; set { Md5ChecksumAsBinary = Encoding.UTF8.GetBytes(value); _Md5Checksum = value; }}
 
        [SerializationOrder(3)]
        public int KeyFingerprint {get; set;}

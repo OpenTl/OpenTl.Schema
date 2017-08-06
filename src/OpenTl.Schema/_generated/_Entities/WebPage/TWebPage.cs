@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -18,29 +19,47 @@ namespace OpenTl.Schema
        public long Id {get; set;}
 
        [SerializationOrder(2)]
-       public string Url {get; set;}
+       public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
+       private byte[] _UrlAsBinary;
+       private string _Url;
+       public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
        [SerializationOrder(3)]
-       public string DisplayUrl {get; set;}
+       public byte[] DisplayUrlAsBinary { get => _DisplayUrlAsBinary; set { _DisplayUrl = Encoding.UTF8.GetString(value); _DisplayUrlAsBinary = value; }}
+       private byte[] _DisplayUrlAsBinary;
+       private string _DisplayUrl;
+       public string DisplayUrl { get => _DisplayUrl; set { DisplayUrlAsBinary = Encoding.UTF8.GetBytes(value); _DisplayUrl = value; }}
 
        [SerializationOrder(4)]
        public int Hash {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 0)]
-       public string Type {get; set;}
+       public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
+       private byte[] _TypeAsBinary;
+       private string _Type;
+       public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 1)]
-       public string SiteName {get; set;}
+       public byte[] SiteNameAsBinary { get => _SiteNameAsBinary; set { _SiteName = Encoding.UTF8.GetString(value); _SiteNameAsBinary = value; }}
+       private byte[] _SiteNameAsBinary;
+       private string _SiteName;
+       public string SiteName { get => _SiteName; set { SiteNameAsBinary = Encoding.UTF8.GetBytes(value); _SiteName = value; }}
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 2)]
-       public string Title {get; set;}
+       public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
+       private byte[] _TitleAsBinary;
+       private string _Title;
+       public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(8)]
        [CanSerialize("Flags", 3)]
-       public string Description {get; set;}
+       public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}
+       private byte[] _DescriptionAsBinary;
+       private string _Description;
+       public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 4)]
@@ -48,11 +67,17 @@ namespace OpenTl.Schema
 
        [SerializationOrder(10)]
        [CanSerialize("Flags", 5)]
-       public string EmbedUrl {get; set;}
+       public byte[] EmbedUrlAsBinary { get => _EmbedUrlAsBinary; set { _EmbedUrl = Encoding.UTF8.GetString(value); _EmbedUrlAsBinary = value; }}
+       private byte[] _EmbedUrlAsBinary;
+       private string _EmbedUrl;
+       public string EmbedUrl { get => _EmbedUrl; set { EmbedUrlAsBinary = Encoding.UTF8.GetBytes(value); _EmbedUrl = value; }}
 
        [SerializationOrder(11)]
        [CanSerialize("Flags", 5)]
-       public string EmbedType {get; set;}
+       public byte[] EmbedTypeAsBinary { get => _EmbedTypeAsBinary; set { _EmbedType = Encoding.UTF8.GetString(value); _EmbedTypeAsBinary = value; }}
+       private byte[] _EmbedTypeAsBinary;
+       private string _EmbedType;
+       public string EmbedType { get => _EmbedType; set { EmbedTypeAsBinary = Encoding.UTF8.GetBytes(value); _EmbedType = value; }}
 
        [SerializationOrder(12)]
        [CanSerialize("Flags", 6)]
@@ -68,7 +93,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(15)]
        [CanSerialize("Flags", 8)]
-       public string Author {get; set;}
+       public byte[] AuthorAsBinary { get => _AuthorAsBinary; set { _Author = Encoding.UTF8.GetString(value); _AuthorAsBinary = value; }}
+       private byte[] _AuthorAsBinary;
+       private string _Author;
+       public string Author { get => _Author; set { AuthorAsBinary = Encoding.UTF8.GetBytes(value); _Author = value; }}
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 9)]

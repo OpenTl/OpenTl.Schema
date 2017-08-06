@@ -4,6 +4,7 @@ namespace OpenTl.Schema.Account
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,7 +16,10 @@ namespace OpenTl.Schema.Account
        public int OkenType {get; set;}
 
        [SerializationOrder(1)]
-       public string Token {get; set;}
+       public byte[] TokenAsBinary { get => _TokenAsBinary; set { _Token = Encoding.UTF8.GetString(value); _TokenAsBinary = value; }}
+       private byte[] _TokenAsBinary;
+       private string _Token;
+       public string Token { get => _Token; set { TokenAsBinary = Encoding.UTF8.GetBytes(value); _Token = value; }}
 
     }
 }

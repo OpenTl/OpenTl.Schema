@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -15,13 +16,19 @@ namespace OpenTl.Schema
        public double Ime {get; set;}
 
        [SerializationOrder(1)]
-       public string Type {get; set;}
+       public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
+       private byte[] _TypeAsBinary;
+       private string _Type;
+       public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(2)]
        public long Peer {get; set;}
 
        [SerializationOrder(3)]
-       public string Data {get; set;}
+       public byte[] DataAsBinary { get => _DataAsBinary; set { _Data = Encoding.UTF8.GetString(value); _DataAsBinary = value; }}
+       private byte[] _DataAsBinary;
+       private string _Data;
+       public string Data { get => _Data; set { DataAsBinary = Encoding.UTF8.GetBytes(value); _Data = value; }}
 
 	}
 }

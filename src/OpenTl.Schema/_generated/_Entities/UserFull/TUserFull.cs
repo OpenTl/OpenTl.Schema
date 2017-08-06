@@ -4,6 +4,7 @@ namespace OpenTl.Schema
 {
 	using System;
 	using System.Collections;
+	using System.Text;
 
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
@@ -31,7 +32,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
-       public string About {get; set;}
+       public byte[] AboutAsBinary { get => _AboutAsBinary; set { _About = Encoding.UTF8.GetString(value); _AboutAsBinary = value; }}
+       private byte[] _AboutAsBinary;
+       private string _About;
+       public string About { get => _About; set { AboutAsBinary = Encoding.UTF8.GetBytes(value); _About = value; }}
 
        [SerializationOrder(6)]
        public Contacts.ILink Link {get; set;}

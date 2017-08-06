@@ -9,11 +9,11 @@ namespace OpenTl.Schema
 
     public interface IMsgDetailedInfo : IObject
     {
-        long AnswerMsgId {get; set;}
+       long AnswerMsgId {get; set;}
 
-        int Bytes {get; set;}
+       int Bytes {get; set;}
 
-        int Status {get; set;}
+       int Status {get; set;}
 
     }
 }

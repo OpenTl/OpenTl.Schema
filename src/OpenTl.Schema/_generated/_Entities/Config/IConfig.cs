@@ -9,71 +9,73 @@ namespace OpenTl.Schema
 
     public interface IConfig : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        bool PhonecallsEnabled {get; set;}
+       bool PhonecallsEnabled {get; set;}
 
-        int Date {get; set;}
+       int Date {get; set;}
 
-        int Expires {get; set;}
+       int Expires {get; set;}
 
-        bool TestMode {get; set;}
+       bool TestMode {get; set;}
 
-        int ThisDc {get; set;}
+       int ThisDc {get; set;}
 
-        TVector<IDcOption> DcOptions {get; set;}
+       TVector<IDcOption> DcOptions {get; set;}
 
-        int ChatSizeMax {get; set;}
+       int ChatSizeMax {get; set;}
 
-        int MegagroupSizeMax {get; set;}
+       int MegagroupSizeMax {get; set;}
 
-        int ForwardedCountMax {get; set;}
+       int ForwardedCountMax {get; set;}
 
-        int OnlineUpdatePeriodMs {get; set;}
+       int OnlineUpdatePeriodMs {get; set;}
 
-        int OfflineBlurTimeoutMs {get; set;}
+       int OfflineBlurTimeoutMs {get; set;}
 
-        int OfflineIdleTimeoutMs {get; set;}
+       int OfflineIdleTimeoutMs {get; set;}
 
-        int OnlineCloudTimeoutMs {get; set;}
+       int OnlineCloudTimeoutMs {get; set;}
 
-        int NotifyCloudDelayMs {get; set;}
+       int NotifyCloudDelayMs {get; set;}
 
-        int NotifyDefaultDelayMs {get; set;}
+       int NotifyDefaultDelayMs {get; set;}
 
-        int ChatBigSize {get; set;}
+       int ChatBigSize {get; set;}
 
-        int PushChatPeriodMs {get; set;}
+       int PushChatPeriodMs {get; set;}
 
-        int PushChatLimit {get; set;}
+       int PushChatLimit {get; set;}
 
-        int SavedGifsLimit {get; set;}
+       int SavedGifsLimit {get; set;}
 
-        int EditTimeLimit {get; set;}
+       int EditTimeLimit {get; set;}
 
-        int RatingEDecay {get; set;}
+       int RatingEDecay {get; set;}
 
-        int StickersRecentLimit {get; set;}
+       int StickersRecentLimit {get; set;}
 
-        int TmpSessions {get; set;}
+       int TmpSessions {get; set;}
 
-        int PinnedDialogsCountMax {get; set;}
+       int PinnedDialogsCountMax {get; set;}
 
-        int CallReceiveTimeoutMs {get; set;}
+       int CallReceiveTimeoutMs {get; set;}
 
-        int CallRingTimeoutMs {get; set;}
+       int CallRingTimeoutMs {get; set;}
 
-        int CallConnectTimeoutMs {get; set;}
+       int CallConnectTimeoutMs {get; set;}
 
-        int CallPacketTimeoutMs {get; set;}
+       int CallPacketTimeoutMs {get; set;}
 
-        string MeUrlPrefix {get; set;}
+       byte[] MeUrlPrefixAsBinary {get; set;}
+       string MeUrlPrefix {get; set;}
 
-        string SuggestedLangCode {get; set;}
+       byte[] SuggestedLangCodeAsBinary {get; set;}
+       string SuggestedLangCode {get; set;}
 
-        int LangPackVersion {get; set;}
+       int LangPackVersion {get; set;}
 
-        TVector<IDisabledFeature> DisabledFeatures {get; set;}
+       TVector<IDisabledFeature> DisabledFeatures {get; set;}
 
     }
 }

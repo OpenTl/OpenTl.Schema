@@ -9,9 +9,9 @@ namespace OpenTl.Schema
 
     public interface IInputBotInlineMessage : IObject
     {
-        BitArray Flags {get; set;}
+       BitArray Flags {get; set;}
 
-        IReplyMarkup ReplyMarkup {get; set;}
+       IReplyMarkup ReplyMarkup {get; set;}
 
     }
 }
