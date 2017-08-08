@@ -40,6 +40,23 @@ namespace OpenTl.Schema.Tests
         }
         
         [Fact]
+        public void RsaPublicKey()
+        {
+            var peer = new TRsaPublicKey()
+            {
+                E = new byte[]{123},
+                N = new byte[]{111},
+            };
+
+            var data = Serializer.SerializeObject(peer).ToArray();
+
+            var obj = (TRsaPublicKey) Serializer.DeserializeObject(data);
+            
+            Assert.Equal(peer.E, obj.E);
+            Assert.Equal(peer.N, obj.N);
+        }
+        
+        [Fact]
         public void ConfigSimple_Serialize()
         {
             var peer = new TConfigSimple()

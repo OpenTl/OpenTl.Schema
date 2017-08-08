@@ -8,7 +8,7 @@ open TlProcessor
 open EntitiesGenerator
 
 [<EntryPoint>]
-let main argv = 
+let Main argv = 
     File.ReadLines("scheme.tl")
     |> parseTlSchema 
     |> generateEntities
