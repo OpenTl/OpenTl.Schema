@@ -89,9 +89,13 @@ namespace OpenTl.Schema.Serialization
             return (IObject) obj;
         }
         
-        public static byte[] SerializeObjectWithBuffer(object obj)
+        public static byte[] SerializeObjectWithBuffer(object obj, int bufferSize = -1)
         {
-            using (var stream = new MemoryStream())
+            var stream = bufferSize == -1
+                             ? new MemoryStream()
+                             : new MemoryStream(bufferSize);
+            
+            using (stream)
             using (var binaryWriter = new BinaryWriter(stream))
             {
                 Serialize(obj, binaryWriter);

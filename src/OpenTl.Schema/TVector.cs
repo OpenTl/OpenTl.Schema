@@ -8,6 +8,7 @@
     {
         public TVector()
         {
+            Items = new List<T>();
         }
 
         public TVector(params T[] items)
