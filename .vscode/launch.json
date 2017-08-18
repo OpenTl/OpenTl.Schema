@@ -5,7 +5,6 @@
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
             "program": "${workspaceRoot}\\src\\OpenTl.Schema.Generator\\bin\\Debug\\netcoreapp1.1\\OpenTl.Schema.Generator.dll",
             "args": [],
             "cwd": "${workspaceRoot}\\src\\OpenTl.Schema.Generator",

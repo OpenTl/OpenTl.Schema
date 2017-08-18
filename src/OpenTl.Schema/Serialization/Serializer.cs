@@ -191,6 +191,8 @@ namespace OpenTl.Schema.Serialization
 
         private static void ComputeFlags(object obj, IReadOnlyList<SerializationMetadata> metadatas)
         {
+            var setIndexes = new HashSet<int>();
+            
             // ReSharper disable once ForCanBeConvertedToForeach
             for (var index = 0; index < metadatas.Count; index++)
             {
@@ -205,7 +207,12 @@ namespace OpenTl.Schema.Serialization
                         metadata.CanSerializeSource.SetValue(obj, flags);
                     }
 
-                    flags[metadata.CanSerializeIndex.Value] = value != null && !value.Equals(GetDefaultValue(metadata.PropertyInfo.PropertyType));
+                    if (!setIndexes.Contains(metadata.CanSerializeIndex.Value))
+                    {
+                        flags[metadata.CanSerializeIndex.Value] = value != null && !value.Equals(GetDefaultValue(metadata.PropertyInfo.PropertyType));
+                        
+                        setIndexes.Add(metadata.CanSerializeIndex.Value);
+                    }
                 }
 
                 if (metadata.FromFlagIndex.HasValue)
@@ -218,6 +225,8 @@ namespace OpenTl.Schema.Serialization
                     }
                     
                     flags[metadata.FromFlagIndex.Value] = (bool) value;
+                    
+                    setIndexes.Add(metadata.FromFlagIndex.Value);
                 }
             }
         }
