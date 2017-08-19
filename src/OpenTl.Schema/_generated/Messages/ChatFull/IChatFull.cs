@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 
     public interface IChatFull : IObject
     {
-       IChatFull FullChat {get; set;}
+       Schema.IChatFull FullChat {get; set;}
 
        TVector<IChat> Chats {get; set;}
 
