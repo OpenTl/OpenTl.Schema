@@ -9,6 +9,8 @@ namespace OpenTl.Schema
 
     public interface IKeyboardButton : IObject
     {
+       byte[] TextAsBinary {get; set;}
+       string Text {get; set;}
 
     }
 }

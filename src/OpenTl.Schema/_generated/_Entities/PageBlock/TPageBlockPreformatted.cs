@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockPreformatted : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IRichText Ext {get; set;}
+       public IRichText Text {get; set;}
 
        [SerializationOrder(1)]
        public byte[] LanguageAsBinary { get => _LanguageAsBinary; set { _Language = Encoding.UTF8.GetString(value); _LanguageAsBinary = value; }}

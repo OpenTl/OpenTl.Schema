@@ -16,7 +16,7 @@ let private isTypeRegion (line: string) =
     | _ -> None
 
 let private parseLine (line: string) =
-    let matches = Regex.Match(line, @"^([\w\d\.\\_0-9]*)#([\w\d]*)\ ?(\{.*\})?\ ?#? ?\[? ?t? ?\]? ?(.*)? = (.*);$")
+    let matches = Regex.Match(line, @"^([\w\d\.\\_0-9]*)#([\w\d]*)\ ?(\{.*\})?\ ?#? ?\[? ?t?(?= ) ?\]? ?(.*)? = (.*);$")
     let groups = matches.Groups
     groups.Item(1).Value, groups.Item(2).Value, groups.Item(3).Value, groups.Item(4).Value, groups.Item(5).Value
 

@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Account
     public class RequestSetAccountTTL : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IAccountDaysTTL Tl {get; set;}
+       public IAccountDaysTTL Ttl {get; set;}
 
     }
 }

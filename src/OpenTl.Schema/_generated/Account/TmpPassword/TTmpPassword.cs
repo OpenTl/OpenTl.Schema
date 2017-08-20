@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Account
 	public class TTmpPassword : ITmpPassword
 	{
        [SerializationOrder(0)]
-       public byte[] MpPassword {get; set;}
+       public byte[] TmpPassword {get; set;}
 
        [SerializationOrder(1)]
        public int ValidUntil {get; set;}

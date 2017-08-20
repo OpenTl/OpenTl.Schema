@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockPullquote : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IRichText Ext {get; set;}
+       public IRichText Text {get; set;}
 
        [SerializationOrder(1)]
        public IRichText Caption {get; set;}

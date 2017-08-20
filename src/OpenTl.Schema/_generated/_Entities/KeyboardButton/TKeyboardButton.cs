@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TKeyboardButton : IKeyboardButton
 	{
        [SerializationOrder(0)]
-       public byte[] ExtAsBinary { get => _ExtAsBinary; set { _Ext = Encoding.UTF8.GetString(value); _ExtAsBinary = value; }}
-       private byte[] _ExtAsBinary;
-       private string _Ext;
-       public string Ext { get => _Ext; set { ExtAsBinary = Encoding.UTF8.GetBytes(value); _Ext = value; }}
+       public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
+       private byte[] _TextAsBinary;
+       private string _Text;
+       public string Text { get => _Text; set { TextAsBinary = Encoding.UTF8.GetBytes(value); _Text = value; }}
 
 	}
 }

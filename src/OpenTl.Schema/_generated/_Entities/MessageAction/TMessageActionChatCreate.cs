@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TMessageActionChatCreate : IMessageAction
 	{
        [SerializationOrder(0)]
-       public byte[] ItleAsBinary { get => _ItleAsBinary; set { _Itle = Encoding.UTF8.GetString(value); _ItleAsBinary = value; }}
-       private byte[] _ItleAsBinary;
-       private string _Itle;
-       public string Itle { get => _Itle; set { ItleAsBinary = Encoding.UTF8.GetBytes(value); _Itle = value; }}
+       public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
+       private byte[] _TitleAsBinary;
+       private string _Title;
+       public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(1)]
        public TVector<int> Users {get; set;}

@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Upload
 	public class TFile : IFile
 	{
        [SerializationOrder(0)]
-       public Storage.IFileType Ype {get; set;}
+       public Storage.IFileType Type {get; set;}
 
        [SerializationOrder(1)]
        public int Mtime {get; set;}

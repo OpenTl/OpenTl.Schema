@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IInputAppEvent : IObject
     {
-       double Ime {get; set;}
+       double Time {get; set;}
 
        byte[] TypeAsBinary {get; set;}
        string Type {get; set;}

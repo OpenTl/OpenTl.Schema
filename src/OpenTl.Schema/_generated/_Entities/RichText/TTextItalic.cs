@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TTextItalic : IRichText
 	{
        [SerializationOrder(0)]
-       public IRichText Ext {get; set;}
+       public IRichText Text {get; set;}
 
 	}
 }

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputAppEvent : IInputAppEvent
 	{
        [SerializationOrder(0)]
-       public double Ime {get; set;}
+       public double Time {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}

@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Account
     public class RequestUnregisterDevice : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public int OkenType {get; set;}
+       public int TokenType {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TokenAsBinary { get => _TokenAsBinary; set { _Token = Encoding.UTF8.GetString(value); _TokenAsBinary = value; }}
