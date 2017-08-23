@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Langpack
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2e1ee318)]
-    public class RequestGetStrings : IRequest<TVector<ILangPackString>>
+    public class RequestGetStrings : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.ILangPackString>>
     {
        [SerializationOrder(0)]
        public byte[] LangCodeAsBinary { get => _LangCodeAsBinary; set { _LangCode = Encoding.UTF8.GetString(value); _LangCodeAsBinary = value; }}
@@ -19,7 +19,7 @@ namespace OpenTl.Schema.Langpack
        public string LangCode { get => _LangCode; set { LangCodeAsBinary = Encoding.UTF8.GetBytes(value); _LangCode = value; }}
 
        [SerializationOrder(1)]
-       public TVector<string> Keys {get; set;}
+       public OpenTl.Schema.TVector<string> Keys {get; set;}
 
     }
 }

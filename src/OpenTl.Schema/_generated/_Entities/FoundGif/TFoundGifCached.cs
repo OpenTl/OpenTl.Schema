@@ -19,10 +19,10 @@ namespace OpenTl.Schema
        public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
        [SerializationOrder(1)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(2)]
-       public IDocument Document {get; set;}
+       public OpenTl.Schema.IDocument Document {get; set;}
 
 	}
 }

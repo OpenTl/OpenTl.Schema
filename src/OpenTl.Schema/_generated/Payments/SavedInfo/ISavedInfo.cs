@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Payments
 
        bool HasSavedCredentials {get; set;}
 
-       IPaymentRequestedInfo SavedInfo {get; set;}
+       OpenTl.Schema.IPaymentRequestedInfo SavedInfo {get; set;}
 
     }
 }

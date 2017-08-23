@@ -40,11 +40,11 @@ namespace OpenTl.Schema
        public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(6)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 0)]
-       public IDocument Document {get; set;}
+       public OpenTl.Schema.IDocument Document {get; set;}
 
 	}
 }

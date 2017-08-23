@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageMediaVenue : IMessageMedia
 	{
        [SerializationOrder(0)]
-       public IGeoPoint Geo {get; set;}
+       public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}

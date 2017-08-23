@@ -13,13 +13,13 @@ namespace OpenTl.Schema
 	public class TUpdates : IUpdates
 	{
        [SerializationOrder(0)]
-       public TVector<IUpdate> Updates {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUpdate> Updates {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(3)]
        public int Date {get; set;}

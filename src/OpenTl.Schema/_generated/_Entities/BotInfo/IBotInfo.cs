@@ -14,7 +14,7 @@ namespace OpenTl.Schema
        byte[] DescriptionAsBinary {get; set;}
        string Description {get; set;}
 
-       TVector<IBotCommand> Commands {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IBotCommand> Commands {get; set;}
 
     }
 }

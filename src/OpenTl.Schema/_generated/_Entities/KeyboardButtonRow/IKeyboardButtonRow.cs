@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IKeyboardButtonRow : IObject
     {
-       TVector<IKeyboardButton> Buttons {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButton> Buttons {get; set;}
 
     }
 }

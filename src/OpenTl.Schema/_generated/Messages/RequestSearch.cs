@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf288a275)]
-    public class RequestSearch : IRequest<Messages.IMessages>
+    public class RequestSearch : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(2)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
@@ -26,10 +26,10 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IInputUser FromId {get; set;}
+       public OpenTl.Schema.IInputUser FromId {get; set;}
 
        [SerializationOrder(4)]
-       public IMessagesFilter Filter {get; set;}
+       public OpenTl.Schema.IMessagesFilter Filter {get; set;}
 
        [SerializationOrder(5)]
        public int MinDate {get; set;}

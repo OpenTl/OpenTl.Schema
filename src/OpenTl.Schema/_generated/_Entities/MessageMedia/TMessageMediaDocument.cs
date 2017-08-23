@@ -17,7 +17,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
-       public IDocument Document {get; set;}
+       public OpenTl.Schema.IDocument Document {get; set;}
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 1)]

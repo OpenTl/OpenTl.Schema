@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Payments
 	public class TPaymentResult : IPaymentResult
 	{
        [SerializationOrder(0)]
-       public IUpdates Updates {get; set;}
+       public OpenTl.Schema.IUpdates Updates {get; set;}
 
 	}
 }

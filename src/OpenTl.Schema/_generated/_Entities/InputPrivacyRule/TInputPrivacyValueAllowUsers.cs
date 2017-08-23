@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputPrivacyValueAllowUsers : IInputPrivacyRule
 	{
        [SerializationOrder(0)]
-       public TVector<IInputUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputUser> Users {get; set;}
 
 	}
 }

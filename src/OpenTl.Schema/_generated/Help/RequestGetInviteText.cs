@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4d392343)]
-    public class RequestGetInviteText : IRequest<Help.IInviteText>
+    public class RequestGetInviteText : IRequest<OpenTl.Schema.Help.IInviteText>
     {
 
     }

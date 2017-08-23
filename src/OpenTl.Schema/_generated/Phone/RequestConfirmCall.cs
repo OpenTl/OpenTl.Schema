@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2efe1722)]
-    public class RequestConfirmCall : IRequest<Phone.IPhoneCall>
+    public class RequestConfirmCall : IRequest<OpenTl.Schema.Phone.IPhoneCall>
     {
        [SerializationOrder(0)]
-       public IInputPhoneCall Peer {get; set;}
+       public OpenTl.Schema.IInputPhoneCall Peer {get; set;}
 
        [SerializationOrder(1)]
        public byte[] GA {get; set;}
@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Phone
        public long KeyFingerprint {get; set;}
 
        [SerializationOrder(3)]
-       public IPhoneCallProtocol Protocol {get; set;}
+       public OpenTl.Schema.IPhoneCallProtocol Protocol {get; set;}
 
     }
 }

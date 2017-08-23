@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public string Emoticon { get => _Emoticon; set { EmoticonAsBinary = Encoding.UTF8.GetBytes(value); _Emoticon = value; }}
 
        [SerializationOrder(1)]
-       public TVector<long> Documents {get; set;}
+       public OpenTl.Schema.TVector<long> Documents {get; set;}
 
 	}
 }

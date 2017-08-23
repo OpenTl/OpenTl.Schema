@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc9f81ce8)]
-    public class RequestSetPrivacy : IRequest<Account.IPrivacyRules>
+    public class RequestSetPrivacy : IRequest<OpenTl.Schema.Account.IPrivacyRules>
     {
        [SerializationOrder(0)]
-       public IInputPrivacyKey Key {get; set;}
+       public OpenTl.Schema.IInputPrivacyKey Key {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IInputPrivacyRule> Rules {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPrivacyRule> Rules {get; set;}
 
     }
 }

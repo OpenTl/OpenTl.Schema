@@ -16,11 +16,11 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputGeoPoint GeoPoint {get; set;}
+       public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
 	}
 }

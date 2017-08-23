@@ -49,7 +49,7 @@ namespace OpenTl.Schema
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(9)]
-       public IChatPhoto Photo {get; set;}
+       public OpenTl.Schema.IChatPhoto Photo {get; set;}
 
        [SerializationOrder(10)]
        public int ParticipantsCount {get; set;}
@@ -62,7 +62,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(13)]
        [CanSerialize("Flags", 6)]
-       public IInputChannel MigratedTo {get; set;}
+       public OpenTl.Schema.IInputChannel MigratedTo {get; set;}
 
 	}
 }

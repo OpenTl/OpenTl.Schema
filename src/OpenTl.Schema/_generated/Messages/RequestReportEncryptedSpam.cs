@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestReportEncryptedSpam : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputEncryptedChat Peer {get; set;}
+       public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}
 
     }
 }

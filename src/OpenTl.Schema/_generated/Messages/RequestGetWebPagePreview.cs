@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x25223e24)]
-    public class RequestGetWebPagePreview : IRequest<IMessageMedia>
+    public class RequestGetWebPagePreview : IRequest<OpenTl.Schema.IMessageMedia>
     {
        [SerializationOrder(0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}

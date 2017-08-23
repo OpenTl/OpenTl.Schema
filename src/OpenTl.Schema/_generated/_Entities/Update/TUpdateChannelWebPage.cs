@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public int ChannelId {get; set;}
 
        [SerializationOrder(1)]
-       public IWebPage Webpage {get; set;}
+       public OpenTl.Schema.IWebPage Webpage {get; set;}
 
        [SerializationOrder(2)]
        public int Pts {get; set;}

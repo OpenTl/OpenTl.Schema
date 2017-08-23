@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestReadFeaturedStickers : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public TVector<long> Id {get; set;}
+       public OpenTl.Schema.TVector<long> Id {get; set;}
 
     }
 }

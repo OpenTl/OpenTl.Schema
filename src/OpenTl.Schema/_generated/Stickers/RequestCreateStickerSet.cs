@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9bd86e6a)]
-    public class RequestCreateStickerSet : IRequest<Messages.IStickerSet>
+    public class RequestCreateStickerSet : IRequest<OpenTl.Schema.Messages.IStickerSet>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Stickers
        public bool Masks {get; set;}
 
        [SerializationOrder(2)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(3)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
@@ -35,7 +35,7 @@ namespace OpenTl.Schema.Stickers
        public string ShortName { get => _ShortName; set { ShortNameAsBinary = Encoding.UTF8.GetBytes(value); _ShortName = value; }}
 
        [SerializationOrder(5)]
-       public TVector<IInputStickerSetItem> Stickers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputStickerSetItem> Stickers {get; set;}
 
     }
 }

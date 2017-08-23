@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestUninstallStickerSet : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputStickerSet Stickerset {get; set;}
+       public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}
 
     }
 }

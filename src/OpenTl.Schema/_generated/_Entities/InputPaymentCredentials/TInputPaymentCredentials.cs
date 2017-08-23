@@ -20,7 +20,7 @@ namespace OpenTl.Schema
        public bool Save {get; set;}
 
        [SerializationOrder(2)]
-       public IDataJSON Data {get; set;}
+       public OpenTl.Schema.IDataJSON Data {get; set;}
 
 	}
 }

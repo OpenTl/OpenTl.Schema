@@ -16,13 +16,13 @@ namespace OpenTl.Schema.Messages
        public int Count {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IMessage> Messages {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(3)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

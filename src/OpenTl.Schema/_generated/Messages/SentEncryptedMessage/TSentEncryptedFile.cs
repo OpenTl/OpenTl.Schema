@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Messages
        public int Date {get; set;}
 
        [SerializationOrder(1)]
-       public IEncryptedFile File {get; set;}
+       public OpenTl.Schema.IEncryptedFile File {get; set;}
 
 	}
 }

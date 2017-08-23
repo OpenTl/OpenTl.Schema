@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(1)]
-       public IFileLocation Location {get; set;}
+       public OpenTl.Schema.IFileLocation Location {get; set;}
 
        [SerializationOrder(2)]
        public int W {get; set;}

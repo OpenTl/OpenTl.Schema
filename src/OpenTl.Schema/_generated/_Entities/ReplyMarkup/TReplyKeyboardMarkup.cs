@@ -28,7 +28,7 @@ namespace OpenTl.Schema
        public bool Selective {get; set;}
 
        [SerializationOrder(4)]
-       public TVector<IKeyboardButtonRow> Rows {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButtonRow> Rows {get; set;}
 
 	}
 }

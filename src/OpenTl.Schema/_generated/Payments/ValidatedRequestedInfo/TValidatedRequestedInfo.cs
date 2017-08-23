@@ -24,7 +24,7 @@ namespace OpenTl.Schema.Payments
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 1)]
-       public TVector<IShippingOption> ShippingOptions {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IShippingOption> ShippingOptions {get; set;}
 
 	}
 }

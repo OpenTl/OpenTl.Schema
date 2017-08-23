@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool NoWebpage {get; set;}
 
        [SerializationOrder(2)]
-       public IInputBotInlineMessageID Id {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessageID Id {get; set;}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 11)]
@@ -31,11 +31,11 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 3)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
     }
 }

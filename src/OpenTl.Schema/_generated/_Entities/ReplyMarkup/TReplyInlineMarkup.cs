@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TReplyInlineMarkup : IReplyMarkup
 	{
        [SerializationOrder(0)]
-       public TVector<IKeyboardButtonRow> Rows {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButtonRow> Rows {get; set;}
 
 	}
 }

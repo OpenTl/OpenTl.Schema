@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Auth
 
        int TmpSessions {get; set;}
 
-       IUser User {get; set;}
+       OpenTl.Schema.IUser User {get; set;}
 
     }
 }

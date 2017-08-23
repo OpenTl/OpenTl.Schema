@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TKeyboardButtonRow : IKeyboardButtonRow
 	{
        [SerializationOrder(0)]
-       public TVector<IKeyboardButton> Buttons {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButton> Buttons {get; set;}
 
 	}
 }

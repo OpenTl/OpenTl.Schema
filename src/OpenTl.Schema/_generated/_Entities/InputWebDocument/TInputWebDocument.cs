@@ -28,7 +28,7 @@ namespace OpenTl.Schema
        public string MimeType { get => _MimeType; set { MimeTypeAsBinary = Encoding.UTF8.GetBytes(value); _MimeType = value; }}
 
        [SerializationOrder(3)]
-       public TVector<IDocumentAttribute> Attributes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
 	}
 }

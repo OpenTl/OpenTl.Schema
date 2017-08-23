@@ -20,7 +20,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 0)]
-       public IChatParticipant SelfParticipant {get; set;}
+       public OpenTl.Schema.IChatParticipant SelfParticipant {get; set;}
 
 	}
 }

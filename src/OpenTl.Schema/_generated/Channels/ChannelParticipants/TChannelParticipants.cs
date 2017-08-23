@@ -16,10 +16,10 @@ namespace OpenTl.Schema.Channels
        public int Count {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IChannelParticipant> Participants {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChannelParticipant> Participants {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

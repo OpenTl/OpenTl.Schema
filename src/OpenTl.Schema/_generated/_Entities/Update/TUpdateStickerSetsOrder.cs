@@ -20,7 +20,7 @@ namespace OpenTl.Schema
        public bool Masks {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<long> Order {get; set;}
+       public OpenTl.Schema.TVector<long> Order {get; set;}
 
 	}
 }

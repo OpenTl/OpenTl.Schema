@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbf9a776b)]
-    public class RequestSearchGifs : IRequest<Messages.IFoundGifs>
+    public class RequestSearchGifs : IRequest<OpenTl.Schema.Messages.IFoundGifs>
     {
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TTextConcat : IRichText
 	{
        [SerializationOrder(0)]
-       public TVector<IRichText> Texts {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IRichText> Texts {get; set;}
 
 	}
 }

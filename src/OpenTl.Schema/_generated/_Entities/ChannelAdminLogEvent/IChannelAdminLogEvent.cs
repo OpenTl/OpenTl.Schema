@@ -15,7 +15,7 @@ namespace OpenTl.Schema
 
        int UserId {get; set;}
 
-       IChannelAdminLogEventAction Action {get; set;}
+       OpenTl.Schema.IChannelAdminLogEventAction Action {get; set;}
 
     }
 }

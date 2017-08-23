@@ -39,13 +39,13 @@ namespace OpenTl.Schema.Updates
        public int UnreadCount {get; set;}
 
        [SerializationOrder(8)]
-       public TVector<IMessage> Messages {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}
 
        [SerializationOrder(9)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(10)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

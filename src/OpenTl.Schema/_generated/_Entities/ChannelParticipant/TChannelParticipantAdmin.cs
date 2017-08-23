@@ -32,7 +32,7 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(6)]
-       public IChannelAdminRights AdminRights {get; set;}
+       public OpenTl.Schema.IChannelAdminRights AdminRights {get; set;}
 
 	}
 }

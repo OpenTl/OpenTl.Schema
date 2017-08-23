@@ -27,7 +27,7 @@ namespace OpenTl.Schema.Payments
        public int BotId {get; set;}
 
        [SerializationOrder(4)]
-       public IInvoice Invoice {get; set;}
+       public OpenTl.Schema.IInvoice Invoice {get; set;}
 
        [SerializationOrder(5)]
        public int ProviderId {get; set;}
@@ -47,18 +47,18 @@ namespace OpenTl.Schema.Payments
 
        [SerializationOrder(8)]
        [CanSerialize("Flags", 4)]
-       public IDataJSON NativeParams {get; set;}
+       public OpenTl.Schema.IDataJSON NativeParams {get; set;}
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 0)]
-       public IPaymentRequestedInfo SavedInfo {get; set;}
+       public OpenTl.Schema.IPaymentRequestedInfo SavedInfo {get; set;}
 
        [SerializationOrder(10)]
        [CanSerialize("Flags", 1)]
-       public IPaymentSavedCredentials SavedCredentials {get; set;}
+       public OpenTl.Schema.IPaymentSavedCredentials SavedCredentials {get; set;}
 
        [SerializationOrder(11)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

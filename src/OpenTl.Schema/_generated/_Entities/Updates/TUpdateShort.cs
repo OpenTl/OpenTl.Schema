@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateShort : IUpdates
 	{
        [SerializationOrder(0)]
-       public IUpdate Update {get; set;}
+       public OpenTl.Schema.IUpdate Update {get; set;}
 
        [SerializationOrder(1)]
        public int Date {get; set;}

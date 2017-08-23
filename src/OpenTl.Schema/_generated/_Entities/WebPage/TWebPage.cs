@@ -63,7 +63,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 4)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(10)]
        [CanSerialize("Flags", 5)]
@@ -100,11 +100,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 9)]
-       public IDocument Document {get; set;}
+       public OpenTl.Schema.IDocument Document {get; set;}
 
        [SerializationOrder(17)]
        [CanSerialize("Flags", 10)]
-       public IPage CachedPage {get; set;}
+       public OpenTl.Schema.IPage CachedPage {get; set;}
 
 	}
 }

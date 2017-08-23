@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TTextUrl : IRichText
 	{
        [SerializationOrder(0)]
-       public IRichText Text {get; set;}
+       public OpenTl.Schema.IRichText Text {get; set;}
 
        [SerializationOrder(1)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}

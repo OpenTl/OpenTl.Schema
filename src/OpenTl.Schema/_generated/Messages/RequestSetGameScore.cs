@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8ef8ecc0)]
-    public class RequestSetGameScore : IRequest<IUpdates>
+    public class RequestSetGameScore : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -24,13 +24,13 @@ namespace OpenTl.Schema.Messages
        public bool Force {get; set;}
 
        [SerializationOrder(3)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(4)]
        public int Id {get; set;}
 
        [SerializationOrder(5)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(6)]
        public int Score {get; set;}

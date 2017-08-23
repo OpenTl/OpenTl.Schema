@@ -16,11 +16,11 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputFile File {get; set;}
+       public OpenTl.Schema.IInputFile File {get; set;}
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 2)]
-       public IInputFile Thumb {get; set;}
+       public OpenTl.Schema.IInputFile Thumb {get; set;}
 
        [SerializationOrder(3)]
        public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
@@ -29,7 +29,7 @@ namespace OpenTl.Schema
        public string MimeType { get => _MimeType; set { MimeTypeAsBinary = Encoding.UTF8.GetBytes(value); _MimeType = value; }}
 
        [SerializationOrder(4)]
-       public TVector<IDocumentAttribute> Attributes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
        [SerializationOrder(5)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
@@ -39,7 +39,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 0)]
-       public TVector<IInputDocument> Stickers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputDocument> Stickers {get; set;}
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 1)]

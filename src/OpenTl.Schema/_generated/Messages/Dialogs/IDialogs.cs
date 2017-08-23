@@ -9,13 +9,13 @@ namespace OpenTl.Schema.Messages
 
     public interface IDialogs : IObject
     {
-       TVector<IDialog> Dialogs {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IDialog> Dialogs {get; set;}
 
-       TVector<IMessage> Messages {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}
 
-       TVector<IChat> Chats {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

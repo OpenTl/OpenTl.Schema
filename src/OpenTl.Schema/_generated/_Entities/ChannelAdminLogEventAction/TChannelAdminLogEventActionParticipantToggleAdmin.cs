@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionParticipantToggleAdmin : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public IChannelParticipant PrevParticipant {get; set;}
+       public OpenTl.Schema.IChannelParticipant PrevParticipant {get; set;}
 
        [SerializationOrder(1)]
-       public IChannelParticipant NewParticipant {get; set;}
+       public OpenTl.Schema.IChannelParticipant NewParticipant {get; set;}
 
 	}
 }

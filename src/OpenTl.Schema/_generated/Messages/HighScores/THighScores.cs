@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Messages
 	public class THighScores : IHighScores
 	{
        [SerializationOrder(0)]
-       public TVector<IHighScore> Scores {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IHighScore> Scores {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

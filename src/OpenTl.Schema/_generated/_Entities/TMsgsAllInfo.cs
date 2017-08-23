@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMsgsAllInfo : IObject
 	{
        [SerializationOrder(0)]
-       public TVector<long> MsgIds {get; set;}
+       public OpenTl.Schema.TVector<long> MsgIds {get; set;}
 
        [SerializationOrder(1)]
        public byte[] InfoAsBinary { get => _InfoAsBinary; set { _Info = Encoding.UTF8.GetString(value); _InfoAsBinary = value; }}

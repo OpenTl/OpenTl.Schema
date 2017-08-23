@@ -29,7 +29,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 0)]
-       public IGeoPoint Geo {get; set;}
+       public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
        [SerializationOrder(5)]
        public byte[] OffsetAsBinary { get => _OffsetAsBinary; set { _Offset = Encoding.UTF8.GetString(value); _OffsetAsBinary = value; }}

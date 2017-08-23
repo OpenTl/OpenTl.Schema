@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputChatUploadedPhoto : IInputChatPhoto
 	{
        [SerializationOrder(0)]
-       public IInputFile File {get; set;}
+       public OpenTl.Schema.IInputFile File {get; set;}
 
 	}
 }

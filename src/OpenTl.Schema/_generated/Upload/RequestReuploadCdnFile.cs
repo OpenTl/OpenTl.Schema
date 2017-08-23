@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1af91c09)]
-    public class RequestReuploadCdnFile : IRequest<TVector<ICdnFileHash>>
+    public class RequestReuploadCdnFile : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.ICdnFileHash>>
     {
        [SerializationOrder(0)]
        public byte[] FileToken {get; set;}

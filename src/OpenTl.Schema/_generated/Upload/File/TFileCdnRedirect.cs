@@ -25,7 +25,7 @@ namespace OpenTl.Schema.Upload
        public byte[] EncryptionIv {get; set;}
 
        [SerializationOrder(4)]
-       public TVector<ICdnFileHash> CdnFileHashes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ICdnFileHash> CdnFileHashes {get; set;}
 
 	}
 }

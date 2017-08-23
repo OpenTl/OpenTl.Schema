@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Force {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IInputPeer> Order {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPeer> Order {get; set;}
 
     }
 }

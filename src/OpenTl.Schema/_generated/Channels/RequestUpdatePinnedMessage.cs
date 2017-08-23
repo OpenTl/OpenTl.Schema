@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa72ded52)]
-    public class RequestUpdatePinnedMessage : IRequest<IUpdates>
+    public class RequestUpdatePinnedMessage : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Channels
        public bool Silent {get; set;}
 
        [SerializationOrder(2)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(3)]
        public int Id {get; set;}

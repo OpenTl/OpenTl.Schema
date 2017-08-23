@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Attached {get; set;}
 
        [SerializationOrder(2)]
-       public IInputDocument Id {get; set;}
+       public OpenTl.Schema.IInputDocument Id {get; set;}
 
        [SerializationOrder(3)]
        public bool Unsave {get; set;}

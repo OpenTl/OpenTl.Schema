@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TPageBlockSlideshow : IPageBlock
 	{
        [SerializationOrder(0)]
-       public TVector<IPageBlock> Items {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock> Items {get; set;}
 
        [SerializationOrder(1)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

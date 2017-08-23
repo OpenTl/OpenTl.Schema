@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageMediaGame : IMessageMedia
 	{
        [SerializationOrder(0)]
-       public IGame Game {get; set;}
+       public OpenTl.Schema.IGame Game {get; set;}
 
 	}
 }

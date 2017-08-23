@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Account
 
     public interface IAuthorizations : IObject
     {
-       TVector<IAuthorization> Authorizations {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IAuthorization> Authorizations {get; set;}
 
     }
 }

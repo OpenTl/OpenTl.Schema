@@ -12,7 +12,7 @@ namespace OpenTl.Schema.Help
        byte[] PhoneNumberAsBinary {get; set;}
        string PhoneNumber {get; set;}
 
-       IUser User {get; set;}
+       OpenTl.Schema.IUser User {get; set;}
 
     }
 }

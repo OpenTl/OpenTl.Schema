@@ -22,18 +22,18 @@ namespace OpenTl.Schema.Payments
        public int BotId {get; set;}
 
        [SerializationOrder(3)]
-       public IInvoice Invoice {get; set;}
+       public OpenTl.Schema.IInvoice Invoice {get; set;}
 
        [SerializationOrder(4)]
        public int ProviderId {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 0)]
-       public IPaymentRequestedInfo Info {get; set;}
+       public OpenTl.Schema.IPaymentRequestedInfo Info {get; set;}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 1)]
-       public IShippingOption Shipping {get; set;}
+       public OpenTl.Schema.IShippingOption Shipping {get; set;}
 
        [SerializationOrder(7)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
@@ -51,7 +51,7 @@ namespace OpenTl.Schema.Payments
        public string CredentialsTitle { get => _CredentialsTitle; set { CredentialsTitleAsBinary = Encoding.UTF8.GetBytes(value); _CredentialsTitle = value; }}
 
        [SerializationOrder(10)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

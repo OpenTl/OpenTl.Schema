@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Account
        public byte[] CurrentPasswordHash {get; set;}
 
        [SerializationOrder(1)]
-       public Account.IPasswordInputSettings NewSettings {get; set;}
+       public OpenTl.Schema.Account.IPasswordInputSettings NewSettings {get; set;}
 
     }
 }

@@ -15,13 +15,13 @@ namespace OpenTl.Schema.Payments
 
        int BotId {get; set;}
 
-       IInvoice Invoice {get; set;}
+       OpenTl.Schema.IInvoice Invoice {get; set;}
 
        int ProviderId {get; set;}
 
-       IPaymentRequestedInfo Info {get; set;}
+       OpenTl.Schema.IPaymentRequestedInfo Info {get; set;}
 
-       IShippingOption Shipping {get; set;}
+       OpenTl.Schema.IShippingOption Shipping {get; set;}
 
        byte[] CurrencyAsBinary {get; set;}
        string Currency {get; set;}
@@ -31,7 +31,7 @@ namespace OpenTl.Schema.Payments
        byte[] CredentialsTitleAsBinary {get; set;}
        string CredentialsTitle {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

@@ -31,7 +31,7 @@ namespace OpenTl.Schema
        public int Size {get; set;}
 
        [SerializationOrder(5)]
-       public IPhotoSize Thumb {get; set;}
+       public OpenTl.Schema.IPhotoSize Thumb {get; set;}
 
        [SerializationOrder(6)]
        public int DcId {get; set;}
@@ -40,7 +40,7 @@ namespace OpenTl.Schema
        public int Version {get; set;}
 
        [SerializationOrder(8)]
-       public TVector<IDocumentAttribute> Attributes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
 	}
 }

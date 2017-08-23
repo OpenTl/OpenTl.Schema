@@ -25,7 +25,7 @@ namespace OpenTl.Schema
        public byte[] Bytes {get; set;}
 
        [SerializationOrder(4)]
-       public IEncryptedFile File {get; set;}
+       public OpenTl.Schema.IEncryptedFile File {get; set;}
 
 	}
 }

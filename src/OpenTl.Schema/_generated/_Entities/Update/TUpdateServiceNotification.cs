@@ -36,10 +36,10 @@ namespace OpenTl.Schema
        public string Message { get => _Message; set { MessageAsBinary = Encoding.UTF8.GetBytes(value); _Message = value; }}
 
        [SerializationOrder(5)]
-       public IMessageMedia Media {get; set;}
+       public OpenTl.Schema.IMessageMedia Media {get; set;}
 
        [SerializationOrder(6)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
 	}
 }

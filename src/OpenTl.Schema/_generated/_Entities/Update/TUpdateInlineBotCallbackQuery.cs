@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(3)]
-       public IInputBotInlineMessageID MsgId {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessageID MsgId {get; set;}
 
        [SerializationOrder(4)]
        public long ChatInstance {get; set;}

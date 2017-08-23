@@ -20,7 +20,7 @@ namespace OpenTl.Schema
        byte[] EmailAsBinary {get; set;}
        string Email {get; set;}
 
-       IPostAddress ShippingAddress {get; set;}
+       OpenTl.Schema.IPostAddress ShippingAddress {get; set;}
 
     }
 }

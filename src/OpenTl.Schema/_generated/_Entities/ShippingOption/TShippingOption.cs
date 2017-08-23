@@ -25,7 +25,7 @@ namespace OpenTl.Schema
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(2)]
-       public TVector<ILabeledPrice> Prices {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice> Prices {get; set;}
 
 	}
 }

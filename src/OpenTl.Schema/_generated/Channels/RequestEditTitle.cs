@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x566decd0)]
-    public class RequestEditTitle : IRequest<IUpdates>
+    public class RequestEditTitle : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}

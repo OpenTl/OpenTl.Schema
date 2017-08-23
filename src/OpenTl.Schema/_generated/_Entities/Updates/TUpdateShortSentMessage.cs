@@ -33,11 +33,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 9)]
-       public IMessageMedia Media {get; set;}
+       public OpenTl.Schema.IMessageMedia Media {get; set;}
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 7)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
 	}
 }

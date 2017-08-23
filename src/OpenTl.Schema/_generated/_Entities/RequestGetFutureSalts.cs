@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb921bd04)]
-    public class RequestGetFutureSalts : IRequest<IFutureSalts>
+    public class RequestGetFutureSalts : IRequest<OpenTl.Schema.IFutureSalts>
     {
        [SerializationOrder(0)]
        public int Num {get; set;}

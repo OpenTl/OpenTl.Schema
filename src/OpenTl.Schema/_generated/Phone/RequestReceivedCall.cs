@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Phone
     public class RequestReceivedCall : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputPhoneCall Peer {get; set;}
+       public OpenTl.Schema.IInputPhoneCall Peer {get; set;}
 
     }
 }

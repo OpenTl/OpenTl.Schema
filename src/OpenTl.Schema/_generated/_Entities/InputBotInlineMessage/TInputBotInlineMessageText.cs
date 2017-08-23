@@ -27,11 +27,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
 	}
 }

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageActionChatEditPhoto : IMessageAction
 	{
        [SerializationOrder(0)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
 	}
 }

@@ -25,10 +25,10 @@ namespace OpenTl.Schema
        public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
        [SerializationOrder(2)]
-       public IInputPhoto Photo {get; set;}
+       public OpenTl.Schema.IInputPhoto Photo {get; set;}
 
        [SerializationOrder(3)]
-       public IInputBotInlineMessage SendMessage {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessage SendMessage {get; set;}
 
 	}
 }

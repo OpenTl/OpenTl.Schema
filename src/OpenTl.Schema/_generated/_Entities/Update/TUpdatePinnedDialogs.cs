@@ -17,7 +17,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
-       public TVector<IPeer> Order {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Order {get; set;}
 
 	}
 }

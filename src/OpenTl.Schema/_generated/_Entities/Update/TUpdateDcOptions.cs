@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateDcOptions : IUpdate
 	{
        [SerializationOrder(0)]
-       public TVector<IDcOption> DcOptions {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
 
 	}
 }

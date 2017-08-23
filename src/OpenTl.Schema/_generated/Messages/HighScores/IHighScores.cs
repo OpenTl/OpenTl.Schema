@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Messages
 
     public interface IHighScores : IObject
     {
-       TVector<IHighScore> Scores {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IHighScore> Scores {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1f69b606)]
-    public class RequestToggleSignatures : IRequest<IUpdates>
+    public class RequestToggleSignatures : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
        public bool Enabled {get; set;}

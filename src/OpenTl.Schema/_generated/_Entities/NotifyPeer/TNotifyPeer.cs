@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TNotifyPeer : INotifyPeer
 	{
        [SerializationOrder(0)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
 	}
 }

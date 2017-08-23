@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateEncryption : IUpdate
 	{
        [SerializationOrder(0)]
-       public IEncryptedChat Chat {get; set;}
+       public OpenTl.Schema.IEncryptedChat Chat {get; set;}
 
        [SerializationOrder(1)]
        public int Date {get; set;}

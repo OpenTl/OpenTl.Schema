@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdatePhoneCall : IUpdate
 	{
        [SerializationOrder(0)]
-       public IPhoneCall PhoneCall {get; set;}
+       public OpenTl.Schema.IPhoneCall PhoneCall {get; set;}
 
 	}
 }

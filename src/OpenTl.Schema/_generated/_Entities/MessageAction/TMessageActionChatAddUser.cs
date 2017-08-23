@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageActionChatAddUser : IMessageAction
 	{
        [SerializationOrder(0)]
-       public TVector<int> Users {get; set;}
+       public OpenTl.Schema.TVector<int> Users {get; set;}
 
 	}
 }

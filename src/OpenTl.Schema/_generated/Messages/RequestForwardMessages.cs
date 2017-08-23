@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x708e0195)]
-    public class RequestForwardMessages : IRequest<IUpdates>
+    public class RequestForwardMessages : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -28,16 +28,16 @@ namespace OpenTl.Schema.Messages
        public bool WithMyScore {get; set;}
 
        [SerializationOrder(4)]
-       public IInputPeer FromPeer {get; set;}
+       public OpenTl.Schema.IInputPeer FromPeer {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<int> Id {get; set;}
+       public OpenTl.Schema.TVector<int> Id {get; set;}
 
        [SerializationOrder(6)]
-       public TVector<long> RandomId {get; set;}
+       public OpenTl.Schema.TVector<long> RandomId {get; set;}
 
        [SerializationOrder(7)]
-       public IInputPeer ToPeer {get; set;}
+       public OpenTl.Schema.IInputPeer ToPeer {get; set;}
 
     }
 }

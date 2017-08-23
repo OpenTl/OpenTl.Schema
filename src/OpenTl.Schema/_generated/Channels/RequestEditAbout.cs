@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Channels
     public class RequestEditAbout : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
        public byte[] AboutAsBinary { get => _AboutAsBinary; set { _About = Encoding.UTF8.GetString(value); _AboutAsBinary = value; }}

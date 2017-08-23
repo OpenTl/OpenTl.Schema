@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateNewStickerSet : IUpdate
 	{
        [SerializationOrder(0)]
-       public Messages.IStickerSet Stickerset {get; set;}
+       public OpenTl.Schema.Messages.IStickerSet Stickerset {get; set;}
 
 	}
 }

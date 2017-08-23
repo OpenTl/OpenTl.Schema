@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionDeleteMessage : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public IMessage Message {get; set;}
+       public OpenTl.Schema.IMessage Message {get; set;}
 
 	}
 }

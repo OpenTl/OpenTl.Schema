@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 
        int Now {get; set;}
 
-       TVector<TFutureSalt> Salts {get; set;}
+       TVector<OpenTl.Schema.TFutureSalt> Salts {get; set;}
 
     }
 }

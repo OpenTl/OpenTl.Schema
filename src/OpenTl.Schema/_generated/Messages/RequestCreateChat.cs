@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9cb126e)]
-    public class RequestCreateChat : IRequest<IUpdates>
+    public class RequestCreateChat : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public TVector<IInputUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputUser> Users {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}

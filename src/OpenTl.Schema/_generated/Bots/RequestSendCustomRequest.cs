@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Bots
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaa2769ed)]
-    public class RequestSendCustomRequest : IRequest<IDataJSON>
+    public class RequestSendCustomRequest : IRequest<OpenTl.Schema.IDataJSON>
     {
        [SerializationOrder(0)]
        public byte[] CustomMethodAsBinary { get => _CustomMethodAsBinary; set { _CustomMethod = Encoding.UTF8.GetString(value); _CustomMethodAsBinary = value; }}
@@ -19,7 +19,7 @@ namespace OpenTl.Schema.Bots
        public string CustomMethod { get => _CustomMethod; set { CustomMethodAsBinary = Encoding.UTF8.GetBytes(value); _CustomMethod = value; }}
 
        [SerializationOrder(1)]
-       public IDataJSON Params {get; set;}
+       public OpenTl.Schema.IDataJSON Params {get; set;}
 
     }
 }

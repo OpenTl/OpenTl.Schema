@@ -14,7 +14,7 @@ namespace OpenTl.Schema.Upload
        byte[] MimeTypeAsBinary {get; set;}
        string MimeType {get; set;}
 
-       Storage.IFileType FileType {get; set;}
+       OpenTl.Schema.Storage.IFileType FileType {get; set;}
 
        int Mtime {get; set;}
 

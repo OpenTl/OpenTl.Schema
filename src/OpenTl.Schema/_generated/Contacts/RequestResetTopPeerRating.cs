@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Contacts
     public class RequestResetTopPeerRating : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public ITopPeerCategory Category {get; set;}
+       public OpenTl.Schema.ITopPeerCategory Category {get; set;}
 
        [SerializationOrder(1)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
     }
 }

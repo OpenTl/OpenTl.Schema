@@ -46,7 +46,7 @@ namespace OpenTl.Schema
        public string Currency { get => _Currency; set { CurrencyAsBinary = Encoding.UTF8.GetBytes(value); _Currency = value; }}
 
        [SerializationOrder(8)]
-       public TVector<ILabeledPrice> Prices {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice> Prices {get; set;}
 
 	}
 }

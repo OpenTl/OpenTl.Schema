@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Contacts
 
     public interface IBlocked : IObject
     {
-       TVector<IContactBlocked> Blocked {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IContactBlocked> Blocked {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

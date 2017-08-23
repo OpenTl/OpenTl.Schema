@@ -27,7 +27,7 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
-       public TVector<IShippingOption> ShippingOptions {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IShippingOption> ShippingOptions {get; set;}
 
     }
 }

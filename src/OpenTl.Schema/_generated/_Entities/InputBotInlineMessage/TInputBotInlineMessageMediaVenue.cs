@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputGeoPoint GeoPoint {get; set;}
+       public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}
 
        [SerializationOrder(2)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
@@ -44,7 +44,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
 	}
 }

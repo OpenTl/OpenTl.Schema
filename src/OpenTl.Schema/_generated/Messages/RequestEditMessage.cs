@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xce91e4ca)]
-    public class RequestEditMessage : IRequest<IUpdates>
+    public class RequestEditMessage : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool NoWebpage {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(3)]
        public int Id {get; set;}
@@ -34,11 +34,11 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 3)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
     }
 }

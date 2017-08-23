@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface IStickerSetCovered : IObject
     {
-       IStickerSet Set {get; set;}
+       OpenTl.Schema.IStickerSet Set {get; set;}
 
     }
 }

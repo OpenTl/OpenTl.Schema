@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TCdnConfig : ICdnConfig
 	{
        [SerializationOrder(0)]
-       public TVector<ICdnPublicKey> PublicKeys {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ICdnPublicKey> PublicKeys {get; set;}
 
 	}
 }

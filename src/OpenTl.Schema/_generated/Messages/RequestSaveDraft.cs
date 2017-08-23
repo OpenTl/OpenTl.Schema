@@ -24,7 +24,7 @@ namespace OpenTl.Schema.Messages
        public int ReplyToMsgId {get; set;}
 
        [SerializationOrder(3)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(4)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
@@ -34,7 +34,7 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 3)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
     }
 }

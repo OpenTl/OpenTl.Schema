@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Pinned {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
     }
 }

@@ -31,10 +31,10 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
-       public IInlineBotSwitchPM SwitchPm {get; set;}
+       public OpenTl.Schema.IInlineBotSwitchPM SwitchPm {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<IBotInlineResult> Results {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IBotInlineResult> Results {get; set;}
 
        [SerializationOrder(6)]
        public int CacheTime {get; set;}

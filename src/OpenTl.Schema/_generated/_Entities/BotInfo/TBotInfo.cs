@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(2)]
-       public TVector<IBotCommand> Commands {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IBotCommand> Commands {get; set;}
 
 	}
 }

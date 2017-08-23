@@ -54,7 +54,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(11)]
        [CanSerialize("Flags", 2)]
-       public IMessageFwdHeader FwdFrom {get; set;}
+       public OpenTl.Schema.IMessageFwdHeader FwdFrom {get; set;}
 
        [SerializationOrder(12)]
        [CanSerialize("Flags", 11)]
@@ -66,7 +66,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(14)]
        [CanSerialize("Flags", 7)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
 	}
 }

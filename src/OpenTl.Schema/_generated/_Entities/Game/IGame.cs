@@ -24,9 +24,9 @@ namespace OpenTl.Schema
        byte[] DescriptionAsBinary {get; set;}
        string Description {get; set;}
 
-       IPhoto Photo {get; set;}
+       OpenTl.Schema.IPhoto Photo {get; set;}
 
-       IDocument Document {get; set;}
+       OpenTl.Schema.IDocument Document {get; set;}
 
     }
 }

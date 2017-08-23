@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockChannel : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IChat Channel {get; set;}
+       public OpenTl.Schema.IChat Channel {get; set;}
 
 	}
 }

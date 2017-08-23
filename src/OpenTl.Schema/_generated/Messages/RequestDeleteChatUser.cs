@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe0611f16)]
-    public class RequestDeleteChatUser : IRequest<IUpdates>
+    public class RequestDeleteChatUser : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public int ChatId {get; set;}
 
        [SerializationOrder(1)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
     }
 }

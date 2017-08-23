@@ -11,13 +11,13 @@ namespace OpenTl.Schema
     {
        int Id {get; set;}
 
-       IPhoto ChatPhoto {get; set;}
+       OpenTl.Schema.IPhoto ChatPhoto {get; set;}
 
-       IPeerNotifySettings NotifySettings {get; set;}
+       OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
-       IExportedChatInvite ExportedInvite {get; set;}
+       OpenTl.Schema.IExportedChatInvite ExportedInvite {get; set;}
 
-       TVector<IBotInfo> BotInfo {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IBotInfo> BotInfo {get; set;}
 
     }
 }

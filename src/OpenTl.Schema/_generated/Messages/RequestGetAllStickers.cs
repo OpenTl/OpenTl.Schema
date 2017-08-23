@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1c9618b1)]
-    public class RequestGetAllStickers : IRequest<Messages.IAllStickers>
+    public class RequestGetAllStickers : IRequest<OpenTl.Schema.Messages.IAllStickers>
     {
        [SerializationOrder(0)]
        public int Hash {get; set;}

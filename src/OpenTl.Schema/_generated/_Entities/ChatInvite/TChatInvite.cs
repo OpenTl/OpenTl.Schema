@@ -38,14 +38,14 @@ namespace OpenTl.Schema
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(6)]
-       public IChatPhoto Photo {get; set;}
+       public OpenTl.Schema.IChatPhoto Photo {get; set;}
 
        [SerializationOrder(7)]
        public int ParticipantsCount {get; set;}
 
        [SerializationOrder(8)]
        [CanSerialize("Flags", 4)]
-       public TVector<IUser> Participants {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Participants {get; set;}
 
 	}
 }

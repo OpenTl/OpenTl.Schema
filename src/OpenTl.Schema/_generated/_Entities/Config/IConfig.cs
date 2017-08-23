@@ -21,7 +21,7 @@ namespace OpenTl.Schema
 
        int ThisDc {get; set;}
 
-       TVector<IDcOption> DcOptions {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
 
        int ChatSizeMax {get; set;}
 
@@ -75,7 +75,7 @@ namespace OpenTl.Schema
 
        int LangPackVersion {get; set;}
 
-       TVector<IDisabledFeature> DisabledFeatures {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature> DisabledFeatures {get; set;}
 
     }
 }

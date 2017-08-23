@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMsgResendReq : IObject
 	{
        [SerializationOrder(0)]
-       public TVector<long> MsgIds {get; set;}
+       public OpenTl.Schema.TVector<long> MsgIds {get; set;}
 
 	}
 }

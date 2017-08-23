@@ -38,7 +38,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 3)]
-       public IPostAddress ShippingAddress {get; set;}
+       public OpenTl.Schema.IPostAddress ShippingAddress {get; set;}
 
 	}
 }

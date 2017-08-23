@@ -42,10 +42,10 @@ namespace OpenTl.Schema
        public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(5)]
-       public IInputDocument Document {get; set;}
+       public OpenTl.Schema.IInputDocument Document {get; set;}
 
        [SerializationOrder(6)]
-       public IInputBotInlineMessage SendMessage {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessage SendMessage {get; set;}
 
 	}
 }

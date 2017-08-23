@@ -13,13 +13,13 @@ namespace OpenTl.Schema.Contacts
 	public class TResolvedPeer : IResolvedPeer
 	{
        [SerializationOrder(0)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

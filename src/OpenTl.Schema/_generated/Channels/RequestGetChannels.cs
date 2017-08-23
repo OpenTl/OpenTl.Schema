@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa7f6bbb)]
-    public class RequestGetChannels : IRequest<Messages.IChats>
+    public class RequestGetChannels : IRequest<OpenTl.Schema.Messages.IChats>
     {
        [SerializationOrder(0)]
-       public TVector<IInputChannel> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputChannel> Id {get; set;}
 
     }
 }

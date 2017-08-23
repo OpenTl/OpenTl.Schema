@@ -9,13 +9,13 @@ namespace OpenTl.Schema.Contacts
 
     public interface IImportedContacts : IObject
     {
-       TVector<IImportedContact> Imported {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IImportedContact> Imported {get; set;}
 
-       TVector<IPopularContact> PopularInvites {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IPopularContact> PopularInvites {get; set;}
 
-       TVector<long> RetryContacts {get; set;}
+       OpenTl.Schema.TVector<long> RetryContacts {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 
     public interface IChats : IObject
     {
-       TVector<IChat> Chats {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
     }
 }

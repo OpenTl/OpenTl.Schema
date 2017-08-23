@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9cdf08cd)]
-    public class RequestGetSupport : IRequest<Help.ISupport>
+    public class RequestGetSupport : IRequest<OpenTl.Schema.Help.ISupport>
     {
 
     }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf57c350f)]
-    public class RequestGetBlocked : IRequest<Contacts.IBlocked>
+    public class RequestGetBlocked : IRequest<OpenTl.Schema.Contacts.IBlocked>
     {
        [SerializationOrder(0)]
        public int Offset {get; set;}

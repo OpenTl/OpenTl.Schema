@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Contacts
 	public class TContacts : IContacts
 	{
        [SerializationOrder(0)]
-       public TVector<IContact> Contacts {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IContact> Contacts {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

@@ -16,10 +16,10 @@ namespace OpenTl.Schema
        public long PhotoId {get; set;}
 
        [SerializationOrder(1)]
-       public IFileLocation PhotoSmall {get; set;}
+       public OpenTl.Schema.IFileLocation PhotoSmall {get; set;}
 
        [SerializationOrder(2)]
-       public IFileLocation PhotoBig {get; set;}
+       public OpenTl.Schema.IFileLocation PhotoBig {get; set;}
 
 	}
 }

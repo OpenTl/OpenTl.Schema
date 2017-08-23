@@ -25,7 +25,7 @@ namespace OpenTl.Schema
        public int Version {get; set;}
 
        [SerializationOrder(3)]
-       public TVector<ILangPackString> Strings {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ILangPackString> Strings {get; set;}
 
 	}
 }

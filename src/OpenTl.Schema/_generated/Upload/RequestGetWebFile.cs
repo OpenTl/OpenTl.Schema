@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x24e6818d)]
-    public class RequestGetWebFile : IRequest<Upload.IWebFile>
+    public class RequestGetWebFile : IRequest<OpenTl.Schema.Upload.IWebFile>
     {
        [SerializationOrder(0)]
-       public IInputWebFileLocation Location {get; set;}
+       public OpenTl.Schema.IInputWebFileLocation Location {get; set;}
 
        [SerializationOrder(1)]
        public int Offset {get; set;}

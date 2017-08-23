@@ -13,13 +13,13 @@ namespace OpenTl.Schema.Messages
 	public class TStickerSet : IStickerSet
 	{
        [SerializationOrder(0)]
-       public IStickerSet Set {get; set;}
+       public OpenTl.Schema.IStickerSet Set {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IStickerPack> Packs {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IStickerPack> Packs {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IDocument> Documents {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDocument> Documents {get; set;}
 
 	}
 }

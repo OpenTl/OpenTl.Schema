@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc04cfac2)]
-    public class RequestGetWallPapers : IRequest<TVector<IWallPaper>>
+    public class RequestGetWallPapers : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IWallPaper>>
     {
 
     }

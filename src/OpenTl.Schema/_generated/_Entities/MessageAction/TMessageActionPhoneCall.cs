@@ -20,7 +20,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 0)]
-       public IPhoneCallDiscardReason Reason {get; set;}
+       public OpenTl.Schema.IPhoneCallDiscardReason Reason {get; set;}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]

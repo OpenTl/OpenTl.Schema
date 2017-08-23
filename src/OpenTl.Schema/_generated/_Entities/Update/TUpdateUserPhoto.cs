@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(2)]
-       public IUserProfilePhoto Photo {get; set;}
+       public OpenTl.Schema.IUserProfilePhoto Photo {get; set;}
 
        [SerializationOrder(3)]
        public bool Previous {get; set;}

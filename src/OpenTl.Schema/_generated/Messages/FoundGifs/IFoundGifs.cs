@@ -11,7 +11,7 @@ namespace OpenTl.Schema.Messages
     {
        int NextOffset {get; set;}
 
-       TVector<IFoundGif> Results {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IFoundGif> Results {get; set;}
 
     }
 }

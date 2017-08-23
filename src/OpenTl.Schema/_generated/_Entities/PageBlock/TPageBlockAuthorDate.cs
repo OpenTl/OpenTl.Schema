@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockAuthorDate : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IRichText Author {get; set;}
+       public OpenTl.Schema.IRichText Author {get; set;}
 
        [SerializationOrder(1)]
        public int PublishedDate {get; set;}

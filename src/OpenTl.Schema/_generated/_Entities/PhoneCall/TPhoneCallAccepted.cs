@@ -31,7 +31,7 @@ namespace OpenTl.Schema
        public byte[] GB {get; set;}
 
        [SerializationOrder(6)]
-       public IPhoneCallProtocol Protocol {get; set;}
+       public OpenTl.Schema.IPhoneCallProtocol Protocol {get; set;}
 
 	}
 }

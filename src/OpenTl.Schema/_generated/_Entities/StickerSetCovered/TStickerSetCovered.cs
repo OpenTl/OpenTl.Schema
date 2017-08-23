@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TStickerSetCovered : IStickerSetCovered
 	{
        [SerializationOrder(0)]
-       public IStickerSet Set {get; set;}
+       public OpenTl.Schema.IStickerSet Set {get; set;}
 
        [SerializationOrder(1)]
-       public IDocument Cover {get; set;}
+       public OpenTl.Schema.IDocument Cover {get; set;}
 
 	}
 }

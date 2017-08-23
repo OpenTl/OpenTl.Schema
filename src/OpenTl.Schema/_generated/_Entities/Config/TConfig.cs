@@ -32,7 +32,7 @@ namespace OpenTl.Schema
        public int ThisDc {get; set;}
 
        [SerializationOrder(6)]
-       public TVector<IDcOption> DcOptions {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
 
        [SerializationOrder(7)]
        public int ChatSizeMax {get; set;}
@@ -119,7 +119,7 @@ namespace OpenTl.Schema
        public int LangPackVersion {get; set;}
 
        [SerializationOrder(32)]
-       public TVector<IDisabledFeature> DisabledFeatures {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature> DisabledFeatures {get; set;}
 
 	}
 }

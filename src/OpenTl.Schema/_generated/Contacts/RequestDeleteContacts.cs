@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Contacts
     public class RequestDeleteContacts : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public TVector<IInputUser> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputUser> Id {get; set;}
 
     }
 }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x810a9fec)]
-    public class RequestGetBotCallbackAnswer : IRequest<Messages.IBotCallbackAnswer>
+    public class RequestGetBotCallbackAnswer : IRequest<OpenTl.Schema.Messages.IBotCallbackAnswer>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Game {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(3)]
        public int MsgId {get; set;}

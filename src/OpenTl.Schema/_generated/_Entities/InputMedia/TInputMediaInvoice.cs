@@ -29,10 +29,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IInputWebDocument Photo {get; set;}
+       public OpenTl.Schema.IInputWebDocument Photo {get; set;}
 
        [SerializationOrder(4)]
-       public IInvoice Invoice {get; set;}
+       public OpenTl.Schema.IInvoice Invoice {get; set;}
 
        [SerializationOrder(5)]
        public byte[] Payload {get; set;}

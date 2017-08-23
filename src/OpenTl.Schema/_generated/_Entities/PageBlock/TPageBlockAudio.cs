@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public long AudioId {get; set;}
 
        [SerializationOrder(1)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

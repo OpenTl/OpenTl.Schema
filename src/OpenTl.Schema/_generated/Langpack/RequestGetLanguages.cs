@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Langpack
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x800fd57d)]
-    public class RequestGetLanguages : IRequest<TVector<TLangPackLanguage>>
+    public class RequestGetLanguages : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.TLangPackLanguage>>
     {
 
     }

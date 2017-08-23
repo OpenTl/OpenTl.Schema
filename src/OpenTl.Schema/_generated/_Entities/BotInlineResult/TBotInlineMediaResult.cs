@@ -29,11 +29,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
-       public IDocument Document {get; set;}
+       public OpenTl.Schema.IDocument Document {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
@@ -50,7 +50,7 @@ namespace OpenTl.Schema
        public string Description { get => _Description; set { DescriptionAsBinary = Encoding.UTF8.GetBytes(value); _Description = value; }}
 
        [SerializationOrder(7)]
-       public IBotInlineMessage SendMessage {get; set;}
+       public OpenTl.Schema.IBotInlineMessage SendMessage {get; set;}
 
 	}
 }

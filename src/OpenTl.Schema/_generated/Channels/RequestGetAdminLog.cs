@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x33ddf480)]
-    public class RequestGetAdminLog : IRequest<Channels.IAdminLogResults>
+    public class RequestGetAdminLog : IRequest<OpenTl.Schema.Channels.IAdminLogResults>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(2)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
@@ -26,11 +26,11 @@ namespace OpenTl.Schema.Channels
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IChannelAdminLogEventsFilter EventsFilter {get; set;}
+       public OpenTl.Schema.IChannelAdminLogEventsFilter EventsFilter {get; set;}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
-       public TVector<IInputUser> Admins {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputUser> Admins {get; set;}
 
        [SerializationOrder(5)]
        public long MaxId {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbc8d11bb)]
-    public class RequestGetPasswordSettings : IRequest<Account.IPasswordSettings>
+    public class RequestGetPasswordSettings : IRequest<OpenTl.Schema.Account.IPasswordSettings>
     {
        [SerializationOrder(0)]
        public byte[] CurrentPasswordHash {get; set;}

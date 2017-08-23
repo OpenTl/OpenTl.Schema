@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8e57deb)]
-    public class RequestSendChangePhoneCode : IRequest<Auth.ISentCode>
+    public class RequestSendChangePhoneCode : IRequest<OpenTl.Schema.Auth.ISentCode>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

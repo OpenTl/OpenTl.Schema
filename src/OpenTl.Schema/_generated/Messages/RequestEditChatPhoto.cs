@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xca4c79d8)]
-    public class RequestEditChatPhoto : IRequest<IUpdates>
+    public class RequestEditChatPhoto : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public int ChatId {get; set;}
 
        [SerializationOrder(1)]
-       public IInputChatPhoto Photo {get; set;}
+       public OpenTl.Schema.IInputChatPhoto Photo {get; set;}
 
     }
 }

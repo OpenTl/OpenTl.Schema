@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 
        bool Pinned {get; set;}
 
-       IPeer Peer {get; set;}
+       OpenTl.Schema.IPeer Peer {get; set;}
 
        int TopMessage {get; set;}
 
@@ -23,11 +23,11 @@ namespace OpenTl.Schema
 
        int UnreadCount {get; set;}
 
-       IPeerNotifySettings NotifySettings {get; set;}
+       OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        int Pts {get; set;}
 
-       IDraftMessage Draft {get; set;}
+       OpenTl.Schema.IDraftMessage Draft {get; set;}
 
     }
 }

@@ -16,10 +16,10 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(1)]
-       public IContactLink MyLink {get; set;}
+       public OpenTl.Schema.IContactLink MyLink {get; set;}
 
        [SerializationOrder(2)]
-       public IContactLink ForeignLink {get; set;}
+       public OpenTl.Schema.IContactLink ForeignLink {get; set;}
 
 	}
 }

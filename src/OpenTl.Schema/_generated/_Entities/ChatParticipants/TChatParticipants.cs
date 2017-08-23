@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public int ChatId {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IChatParticipant> Participants {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChatParticipant> Participants {get; set;}
 
        [SerializationOrder(2)]
        public int Version {get; set;}

@@ -16,7 +16,7 @@ namespace OpenTl.Schema
 
        int Version {get; set;}
 
-       TVector<ILangPackString> Strings {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.ILangPackString> Strings {get; set;}
 
     }
 }

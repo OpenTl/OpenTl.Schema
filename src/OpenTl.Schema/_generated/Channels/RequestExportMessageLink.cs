@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc846d22d)]
-    public class RequestExportMessageLink : IRequest<IExportedMessageLink>
+    public class RequestExportMessageLink : IRequest<OpenTl.Schema.IExportedMessageLink>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
        public int Id {get; set;}

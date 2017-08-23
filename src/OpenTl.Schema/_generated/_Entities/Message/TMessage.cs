@@ -43,11 +43,11 @@ namespace OpenTl.Schema
        public int FromId {get; set;}
 
        [SerializationOrder(8)]
-       public IPeer ToId {get; set;}
+       public OpenTl.Schema.IPeer ToId {get; set;}
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 2)]
-       public IMessageFwdHeader FwdFrom {get; set;}
+       public OpenTl.Schema.IMessageFwdHeader FwdFrom {get; set;}
 
        [SerializationOrder(10)]
        [CanSerialize("Flags", 11)]
@@ -68,15 +68,15 @@ namespace OpenTl.Schema
 
        [SerializationOrder(14)]
        [CanSerialize("Flags", 9)]
-       public IMessageMedia Media {get; set;}
+       public OpenTl.Schema.IMessageMedia Media {get; set;}
 
        [SerializationOrder(15)]
        [CanSerialize("Flags", 6)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 7)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
        [SerializationOrder(17)]
        [CanSerialize("Flags", 10)]

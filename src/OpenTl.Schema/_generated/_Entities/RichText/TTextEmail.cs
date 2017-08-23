@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TTextEmail : IRichText
 	{
        [SerializationOrder(0)]
-       public IRichText Text {get; set;}
+       public OpenTl.Schema.IRichText Text {get; set;}
 
        [SerializationOrder(1)]
        public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}

@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestSaveGif : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputDocument Id {get; set;}
+       public OpenTl.Schema.IInputDocument Id {get; set;}
 
        [SerializationOrder(1)]
        public bool Unsave {get; set;}

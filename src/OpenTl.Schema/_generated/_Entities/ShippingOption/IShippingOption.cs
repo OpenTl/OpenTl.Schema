@@ -15,7 +15,7 @@ namespace OpenTl.Schema
        byte[] TitleAsBinary {get; set;}
        string Title {get; set;}
 
-       TVector<ILabeledPrice> Prices {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice> Prices {get; set;}
 
     }
 }

@@ -17,7 +17,7 @@ namespace OpenTl.Schema
        byte[] MimeTypeAsBinary {get; set;}
        string MimeType {get; set;}
 
-       TVector<IDocumentAttribute> Attributes {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
     }
 }

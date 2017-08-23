@@ -17,18 +17,18 @@ namespace OpenTl.Schema
 
        bool PhoneCallsPrivate {get; set;}
 
-       IUser User {get; set;}
+       OpenTl.Schema.IUser User {get; set;}
 
        byte[] AboutAsBinary {get; set;}
        string About {get; set;}
 
-       Contacts.ILink Link {get; set;}
+       OpenTl.Schema.Contacts.ILink Link {get; set;}
 
-       IPhoto ProfilePhoto {get; set;}
+       OpenTl.Schema.IPhoto ProfilePhoto {get; set;}
 
-       IPeerNotifySettings NotifySettings {get; set;}
+       OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
-       IBotInfo BotInfo {get; set;}
+       OpenTl.Schema.IBotInfo BotInfo {get; set;}
 
        int CommonChatsCount {get; set;}
 

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputGameShortName : IInputGame
 	{
        [SerializationOrder(0)]
-       public IInputUser BotId {get; set;}
+       public OpenTl.Schema.IInputUser BotId {get; set;}
 
        [SerializationOrder(1)]
        public byte[] ShortNameAsBinary { get => _ShortNameAsBinary; set { _ShortName = Encoding.UTF8.GetString(value); _ShortNameAsBinary = value; }}

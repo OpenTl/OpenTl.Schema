@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 
     public interface ITopPeer : IObject
     {
-       IPeer Peer {get; set;}
+       OpenTl.Schema.IPeer Peer {get; set;}
 
        double Rating {get; set;}
 

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1c015b09)]
-    public class RequestDeleteHistory : IRequest<Messages.IAffectedHistory>
+    public class RequestDeleteHistory : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool JustClear {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(3)]
        public int MaxId {get; set;}

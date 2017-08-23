@@ -9,9 +9,9 @@ namespace OpenTl.Schema.Photos
 
     public interface IPhotos : IObject
     {
-       TVector<IPhoto> Photos {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IPhoto> Photos {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

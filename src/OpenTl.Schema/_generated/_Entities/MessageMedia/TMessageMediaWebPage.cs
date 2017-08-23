@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageMediaWebPage : IMessageMedia
 	{
        [SerializationOrder(0)]
-       public IWebPage Webpage {get; set;}
+       public OpenTl.Schema.IWebPage Webpage {get; set;}
 
 	}
 }

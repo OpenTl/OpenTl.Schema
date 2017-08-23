@@ -29,7 +29,7 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(5)]
-       public IChannelBannedRights BannedRights {get; set;}
+       public OpenTl.Schema.IChannelBannedRights BannedRights {get; set;}
 
 	}
 }

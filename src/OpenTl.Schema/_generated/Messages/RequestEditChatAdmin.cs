@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Messages
        public int ChatId {get; set;}
 
        [SerializationOrder(1)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(2)]
        public bool IsAdmin {get; set;}

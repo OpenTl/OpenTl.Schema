@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2619a90e)]
-    public class RequestGetStickerSet : IRequest<Messages.IStickerSet>
+    public class RequestGetStickerSet : IRequest<OpenTl.Schema.Messages.IStickerSet>
     {
        [SerializationOrder(0)]
-       public IInputStickerSet Stickerset {get; set;}
+       public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}
 
     }
 }

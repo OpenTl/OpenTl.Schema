@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(3)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(4)]
        public int MsgId {get; set;}

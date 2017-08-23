@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9a901b66)]
-    public class RequestSendEncryptedFile : IRequest<Messages.ISentEncryptedMessage>
+    public class RequestSendEncryptedFile : IRequest<OpenTl.Schema.Messages.ISentEncryptedMessage>
     {
        [SerializationOrder(0)]
-       public IInputEncryptedChat Peer {get; set;}
+       public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}
 
        [SerializationOrder(1)]
        public long RandomId {get; set;}
@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Messages
        public byte[] Data {get; set;}
 
        [SerializationOrder(3)]
-       public IInputEncryptedFile File {get; set;}
+       public OpenTl.Schema.IInputEncryptedFile File {get; set;}
 
     }
 }

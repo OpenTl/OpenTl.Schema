@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb16e06fe)]
-    public class RequestSendInlineBotResult : IRequest<IUpdates>
+    public class RequestSendInlineBotResult : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -28,7 +28,7 @@ namespace OpenTl.Schema.Messages
        public bool ClearDraft {get; set;}
 
        [SerializationOrder(4)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 0)]

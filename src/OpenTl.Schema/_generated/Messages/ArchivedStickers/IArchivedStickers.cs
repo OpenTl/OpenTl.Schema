@@ -11,7 +11,7 @@ namespace OpenTl.Schema.Messages
     {
        int Count {get; set;}
 
-       TVector<IStickerSetCovered> Sets {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered> Sets {get; set;}
 
     }
 }

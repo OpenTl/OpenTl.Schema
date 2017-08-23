@@ -12,7 +12,7 @@ namespace OpenTl.Schema
        byte[] TypeAsBinary {get; set;}
        string Type {get; set;}
 
-       IFileLocation Location {get; set;}
+       OpenTl.Schema.IFileLocation Location {get; set;}
 
        int W {get; set;}
 

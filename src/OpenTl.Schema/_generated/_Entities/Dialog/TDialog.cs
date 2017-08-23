@@ -20,7 +20,7 @@ namespace OpenTl.Schema
        public bool Pinned {get; set;}
 
        [SerializationOrder(2)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(3)]
        public int TopMessage {get; set;}
@@ -35,7 +35,7 @@ namespace OpenTl.Schema
        public int UnreadCount {get; set;}
 
        [SerializationOrder(7)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        [SerializationOrder(8)]
        [CanSerialize("Flags", 0)]
@@ -43,7 +43,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 1)]
-       public IDraftMessage Draft {get; set;}
+       public OpenTl.Schema.IDraftMessage Draft {get; set;}
 
 	}
 }

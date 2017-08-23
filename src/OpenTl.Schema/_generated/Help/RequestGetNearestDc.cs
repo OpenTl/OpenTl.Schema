@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1fb33026)]
-    public class RequestGetNearestDc : IRequest<INearestDc>
+    public class RequestGetNearestDc : IRequest<OpenTl.Schema.INearestDc>
     {
 
     }

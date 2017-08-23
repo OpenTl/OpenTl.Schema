@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc4f9186b)]
-    public class RequestGetConfig : IRequest<IConfig>
+    public class RequestGetConfig : IRequest<OpenTl.Schema.IConfig>
     {
 
     }

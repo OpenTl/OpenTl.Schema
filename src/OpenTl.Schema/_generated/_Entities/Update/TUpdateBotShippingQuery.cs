@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public byte[] Payload {get; set;}
 
        [SerializationOrder(3)]
-       public IPostAddress ShippingAddress {get; set;}
+       public OpenTl.Schema.IPostAddress ShippingAddress {get; set;}
 
 	}
 }

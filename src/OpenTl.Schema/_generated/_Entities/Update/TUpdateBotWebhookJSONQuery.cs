@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public long QueryId {get; set;}
 
        [SerializationOrder(1)]
-       public IDataJSON Data {get; set;}
+       public OpenTl.Schema.IDataJSON Data {get; set;}
 
        [SerializationOrder(2)]
        public int Timeout {get; set;}

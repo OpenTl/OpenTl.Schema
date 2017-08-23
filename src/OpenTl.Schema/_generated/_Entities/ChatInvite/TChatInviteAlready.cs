@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TChatInviteAlready : IChatInvite
 	{
        [SerializationOrder(0)]
-       public IChat Chat {get; set;}
+       public OpenTl.Schema.IChat Chat {get; set;}
 
 	}
 }

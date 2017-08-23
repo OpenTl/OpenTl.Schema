@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfa88427a)]
-    public class RequestSendMessage : IRequest<IUpdates>
+    public class RequestSendMessage : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -32,7 +32,7 @@ namespace OpenTl.Schema.Messages
        public bool ClearDraft {get; set;}
 
        [SerializationOrder(5)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 0)]
@@ -49,11 +49,11 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
        [SerializationOrder(10)]
        [CanSerialize("Flags", 3)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
     }
 }

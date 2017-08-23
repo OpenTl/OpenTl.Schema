@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputStickeredMediaPhoto : IInputStickeredMedia
 	{
        [SerializationOrder(0)]
-       public IInputPhoto Id {get; set;}
+       public OpenTl.Schema.IInputPhoto Id {get; set;}
 
 	}
 }

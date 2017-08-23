@@ -37,7 +37,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 0)]
-       public IWebDocument Photo {get; set;}
+       public OpenTl.Schema.IWebDocument Photo {get; set;}
 
        [SerializationOrder(6)]
        [CanSerialize("Flags", 2)]

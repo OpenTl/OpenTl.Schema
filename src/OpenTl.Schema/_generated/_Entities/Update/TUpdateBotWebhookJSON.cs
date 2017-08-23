@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateBotWebhookJSON : IUpdate
 	{
        [SerializationOrder(0)]
-       public IDataJSON Data {get; set;}
+       public OpenTl.Schema.IDataJSON Data {get; set;}
 
 	}
 }

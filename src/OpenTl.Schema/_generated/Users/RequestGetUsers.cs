@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Users
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd91a548)]
-    public class RequestGetUsers : IRequest<TVector<IUser>>
+    public class RequestGetUsers : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IUser>>
     {
        [SerializationOrder(0)]
-       public TVector<IInputUser> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputUser> Id {get; set;}
 
     }
 }

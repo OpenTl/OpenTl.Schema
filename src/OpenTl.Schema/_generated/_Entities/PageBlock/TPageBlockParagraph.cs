@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockParagraph : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IRichText Text {get; set;}
+       public OpenTl.Schema.IRichText Text {get; set;}
 
 	}
 }

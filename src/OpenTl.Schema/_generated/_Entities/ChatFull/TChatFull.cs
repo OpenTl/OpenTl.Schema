@@ -16,19 +16,19 @@ namespace OpenTl.Schema
        public int Id {get; set;}
 
        [SerializationOrder(1)]
-       public IChatParticipants Participants {get; set;}
+       public OpenTl.Schema.IChatParticipants Participants {get; set;}
 
        [SerializationOrder(2)]
-       public IPhoto ChatPhoto {get; set;}
+       public OpenTl.Schema.IPhoto ChatPhoto {get; set;}
 
        [SerializationOrder(3)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        [SerializationOrder(4)]
-       public IExportedChatInvite ExportedInvite {get; set;}
+       public OpenTl.Schema.IExportedChatInvite ExportedInvite {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<IBotInfo> BotInfo {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IBotInfo> BotInfo {get; set;}
 
 	}
 }

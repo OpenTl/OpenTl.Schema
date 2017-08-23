@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3eadb1bb)]
-    public class RequestCheckChatInvite : IRequest<IChatInvite>
+    public class RequestCheckChatInvite : IRequest<OpenTl.Schema.IChatInvite>
     {
        [SerializationOrder(0)]
        public byte[] HashAsBinary { get => _HashAsBinary; set { _Hash = Encoding.UTF8.GetString(value); _HashAsBinary = value; }}

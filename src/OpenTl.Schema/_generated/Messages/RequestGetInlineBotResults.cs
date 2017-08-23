@@ -10,20 +10,20 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x514e999d)]
-    public class RequestGetInlineBotResults : IRequest<Messages.IBotResults>
+    public class RequestGetInlineBotResults : IRequest<OpenTl.Schema.Messages.IBotResults>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputUser Bot {get; set;}
+       public OpenTl.Schema.IInputUser Bot {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IInputGeoPoint GeoPoint {get; set;}
+       public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}
 
        [SerializationOrder(4)]
        public byte[] QueryAsBinary { get => _QueryAsBinary; set { _Query = Encoding.UTF8.GetString(value); _QueryAsBinary = value; }}

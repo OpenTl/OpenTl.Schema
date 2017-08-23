@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputMediaGame : IInputMedia
 	{
        [SerializationOrder(0)]
-       public IInputGame Id {get; set;}
+       public OpenTl.Schema.IInputGame Id {get; set;}
 
 	}
 }

@@ -26,11 +26,11 @@ namespace OpenTl.Schema
        public string Alt { get => _Alt; set { AltAsBinary = Encoding.UTF8.GetBytes(value); _Alt = value; }}
 
        [SerializationOrder(3)]
-       public IInputStickerSet Stickerset {get; set;}
+       public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 0)]
-       public IMaskCoords MaskCoords {get; set;}
+       public OpenTl.Schema.IMaskCoords MaskCoords {get; set;}
 
 	}
 }

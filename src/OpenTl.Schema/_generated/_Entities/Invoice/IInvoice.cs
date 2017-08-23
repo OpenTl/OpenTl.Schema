@@ -26,7 +26,7 @@ namespace OpenTl.Schema
        byte[] CurrencyAsBinary {get; set;}
        string Currency {get; set;}
 
-       TVector<ILabeledPrice> Prices {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice> Prices {get; set;}
 
     }
 }

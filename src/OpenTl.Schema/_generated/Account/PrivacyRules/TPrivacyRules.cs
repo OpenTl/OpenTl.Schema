@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Account
 	public class TPrivacyRules : IPrivacyRules
 	{
        [SerializationOrder(0)]
-       public TVector<IPrivacyRule> Rules {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPrivacyRule> Rules {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

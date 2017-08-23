@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3dbc0415)]
-    public class RequestAcceptEncryption : IRequest<IEncryptedChat>
+    public class RequestAcceptEncryption : IRequest<OpenTl.Schema.IEncryptedChat>
     {
        [SerializationOrder(0)]
-       public IInputEncryptedChat Peer {get; set;}
+       public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}
 
        [SerializationOrder(1)]
        public byte[] GB {get; set;}

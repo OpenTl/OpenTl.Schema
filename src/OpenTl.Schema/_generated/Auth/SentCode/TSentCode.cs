@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Auth
        public bool PhoneRegistered {get; set;}
 
        [SerializationOrder(2)]
-       public Auth.ISentCodeType Type {get; set;}
+       public OpenTl.Schema.Auth.ISentCodeType Type {get; set;}
 
        [SerializationOrder(3)]
        public byte[] PhoneCodeHashAsBinary { get => _PhoneCodeHashAsBinary; set { _PhoneCodeHash = Encoding.UTF8.GetString(value); _PhoneCodeHashAsBinary = value; }}
@@ -30,7 +30,7 @@ namespace OpenTl.Schema.Auth
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
-       public Auth.ICodeType NextType {get; set;}
+       public OpenTl.Schema.Auth.ICodeType NextType {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]

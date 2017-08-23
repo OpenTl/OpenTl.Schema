@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9e3cacb0)]
-    public class RequestSearchGlobal : IRequest<Messages.IMessages>
+    public class RequestSearchGlobal : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Messages
        public int OffsetDate {get; set;}
 
        [SerializationOrder(2)]
-       public IInputPeer OffsetPeer {get; set;}
+       public OpenTl.Schema.IInputPeer OffsetPeer {get; set;}
 
        [SerializationOrder(3)]
        public int OffsetId {get; set;}

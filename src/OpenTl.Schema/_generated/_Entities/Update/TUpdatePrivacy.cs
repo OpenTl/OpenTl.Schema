@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TUpdatePrivacy : IUpdate
 	{
        [SerializationOrder(0)]
-       public IPrivacyKey Key {get; set;}
+       public OpenTl.Schema.IPrivacyKey Key {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IPrivacyRule> Rules {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPrivacyRule> Rules {get; set;}
 
 	}
 }

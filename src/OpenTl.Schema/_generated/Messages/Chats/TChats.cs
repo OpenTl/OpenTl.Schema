@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
 	public class TChats : IChats
 	{
        [SerializationOrder(0)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
 	}
 }

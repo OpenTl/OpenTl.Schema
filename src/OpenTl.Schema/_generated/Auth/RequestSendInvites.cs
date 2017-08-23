@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Auth
     public class RequestSendInvites : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public TVector<string> PhoneNumbers {get; set;}
+       public OpenTl.Schema.TVector<string> PhoneNumbers {get; set;}
 
        [SerializationOrder(1)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}

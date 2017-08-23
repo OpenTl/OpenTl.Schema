@@ -29,7 +29,7 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<IPhotoSize> Sizes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPhotoSize> Sizes {get; set;}
 
 	}
 }

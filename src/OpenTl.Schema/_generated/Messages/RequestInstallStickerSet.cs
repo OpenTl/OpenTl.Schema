@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc78fe460)]
-    public class RequestInstallStickerSet : IRequest<Messages.IStickerSetInstallResult>
+    public class RequestInstallStickerSet : IRequest<OpenTl.Schema.Messages.IStickerSetInstallResult>
     {
        [SerializationOrder(0)]
-       public IInputStickerSet Stickerset {get; set;}
+       public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}
 
        [SerializationOrder(1)]
        public bool Archived {get; set;}

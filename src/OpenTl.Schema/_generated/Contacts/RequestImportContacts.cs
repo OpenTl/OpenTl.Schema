@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xda30b32d)]
-    public class RequestImportContacts : IRequest<Contacts.IImportedContacts>
+    public class RequestImportContacts : IRequest<OpenTl.Schema.Contacts.IImportedContacts>
     {
        [SerializationOrder(0)]
-       public TVector<IInputContact> Contacts {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputContact> Contacts {get; set;}
 
        [SerializationOrder(1)]
        public bool Replace {get; set;}

@@ -25,7 +25,7 @@ namespace OpenTl.Schema
        public string ShortName { get => _ShortName; set { ShortNameAsBinary = Encoding.UTF8.GetBytes(value); _ShortName = value; }}
 
        [SerializationOrder(2)]
-       public IInputBotInlineMessage SendMessage {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessage SendMessage {get; set;}
 
 	}
 }

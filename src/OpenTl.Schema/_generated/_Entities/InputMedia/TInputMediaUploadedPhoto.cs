@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputFile File {get; set;}
+       public OpenTl.Schema.IInputFile File {get; set;}
 
        [SerializationOrder(2)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
@@ -26,7 +26,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public TVector<IInputDocument> Stickers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputDocument> Stickers {get; set;}
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]

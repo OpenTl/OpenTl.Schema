@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Channels
 	public class TChannelParticipant : IChannelParticipant
 	{
        [SerializationOrder(0)]
-       public IChannelParticipant Participant {get; set;}
+       public OpenTl.Schema.IChannelParticipant Participant {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

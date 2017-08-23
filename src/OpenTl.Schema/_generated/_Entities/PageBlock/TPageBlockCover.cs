@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TPageBlockCover : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IPageBlock Cover {get; set;}
+       public OpenTl.Schema.IPageBlock Cover {get; set;}
 
 	}
 }

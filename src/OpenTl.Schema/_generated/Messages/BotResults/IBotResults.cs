@@ -18,9 +18,9 @@ namespace OpenTl.Schema.Messages
        byte[] NextOffsetAsBinary {get; set;}
        string NextOffset {get; set;}
 
-       IInlineBotSwitchPM SwitchPm {get; set;}
+       OpenTl.Schema.IInlineBotSwitchPM SwitchPm {get; set;}
 
-       TVector<IBotInlineResult> Results {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IBotInlineResult> Results {get; set;}
 
        int CacheTime {get; set;}
 

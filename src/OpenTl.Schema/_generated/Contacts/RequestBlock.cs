@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Contacts
     public class RequestBlock : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputUser Id {get; set;}
+       public OpenTl.Schema.IInputUser Id {get; set;}
 
     }
 }

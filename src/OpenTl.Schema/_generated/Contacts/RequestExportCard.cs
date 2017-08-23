@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x84e53737)]
-    public class RequestExportCard : IRequest<TVector<int>>
+    public class RequestExportCard : IRequest<OpenTl.Schema.TVector<int>>
     {
 
     }

@@ -10,16 +10,16 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x78d413a6)]
-    public class RequestDiscardCall : IRequest<IUpdates>
+    public class RequestDiscardCall : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputPhoneCall Peer {get; set;}
+       public OpenTl.Schema.IInputPhoneCall Peer {get; set;}
 
        [SerializationOrder(1)]
        public int Duration {get; set;}
 
        [SerializationOrder(2)]
-       public IPhoneCallDiscardReason Reason {get; set;}
+       public OpenTl.Schema.IPhoneCallDiscardReason Reason {get; set;}
 
        [SerializationOrder(3)]
        public long ConnectionId {get; set;}

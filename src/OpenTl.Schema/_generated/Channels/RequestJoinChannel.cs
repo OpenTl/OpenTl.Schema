@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x24b524c5)]
-    public class RequestJoinChannel : IRequest<IUpdates>
+    public class RequestJoinChannel : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
     }
 }

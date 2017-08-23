@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Photos
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4f32c098)]
-    public class RequestUploadProfilePhoto : IRequest<Photos.IPhoto>
+    public class RequestUploadProfilePhoto : IRequest<OpenTl.Schema.Photos.IPhoto>
     {
        [SerializationOrder(0)]
-       public IInputFile File {get; set;}
+       public OpenTl.Schema.IInputFile File {get; set;}
 
     }
 }

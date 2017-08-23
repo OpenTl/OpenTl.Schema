@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
 	public class TStickerSetInstallResultArchive : IStickerSetInstallResult
 	{
        [SerializationOrder(0)]
-       public TVector<IStickerSetCovered> Sets {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered> Sets {get; set;}
 
 	}
 }

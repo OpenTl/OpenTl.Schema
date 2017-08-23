@@ -27,16 +27,16 @@ namespace OpenTl.Schema.Updates
        public int Timeout {get; set;}
 
        [SerializationOrder(4)]
-       public TVector<IMessage> NewMessages {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> NewMessages {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<IUpdate> OtherUpdates {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUpdate> OtherUpdates {get; set;}
 
        [SerializationOrder(6)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(7)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Channels
     public class RequestReadHistory : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
        public int MaxId {get; set;}

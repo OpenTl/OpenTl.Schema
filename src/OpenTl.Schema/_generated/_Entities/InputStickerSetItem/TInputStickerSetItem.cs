@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputDocument Document {get; set;}
+       public OpenTl.Schema.IInputDocument Document {get; set;}
 
        [SerializationOrder(2)]
        public byte[] EmojiAsBinary { get => _EmojiAsBinary; set { _Emoji = Encoding.UTF8.GetString(value); _EmojiAsBinary = value; }}
@@ -26,7 +26,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IMaskCoords MaskCoords {get; set;}
+       public OpenTl.Schema.IMaskCoords MaskCoords {get; set;}
 
 	}
 }

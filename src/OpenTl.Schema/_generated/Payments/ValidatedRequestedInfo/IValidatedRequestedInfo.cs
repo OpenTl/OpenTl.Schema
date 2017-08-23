@@ -14,7 +14,7 @@ namespace OpenTl.Schema.Payments
        byte[] IdAsBinary {get; set;}
        string Id {get; set;}
 
-       TVector<IShippingOption> ShippingOptions {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IShippingOption> ShippingOptions {get; set;}
 
     }
 }

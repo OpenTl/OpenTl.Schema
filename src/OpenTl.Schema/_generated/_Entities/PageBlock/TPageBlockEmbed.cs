@@ -48,7 +48,7 @@ namespace OpenTl.Schema
        public int H {get; set;}
 
        [SerializationOrder(8)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

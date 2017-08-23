@@ -27,7 +27,7 @@ namespace OpenTl.Schema
        public long VideoId {get; set;}
 
        [SerializationOrder(4)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

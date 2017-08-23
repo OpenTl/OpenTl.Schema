@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2d9776b9)]
-    public class RequestGetPeerDialogs : IRequest<Messages.IPeerDialogs>
+    public class RequestGetPeerDialogs : IRequest<OpenTl.Schema.Messages.IPeerDialogs>
     {
        [SerializationOrder(0)]
-       public TVector<IInputPeer> Peers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPeer> Peers {get; set;}
 
     }
 }

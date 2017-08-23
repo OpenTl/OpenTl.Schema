@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public bool Ordered {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IRichText> Items {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IRichText> Items {get; set;}
 
 	}
 }

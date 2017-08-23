@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        byte[] PqAsBinary {get; set;}
        string Pq {get; set;}
 
-       TVector<long> ServerPublicKeyFingerprints {get; set;}
+       OpenTl.Schema.TVector<long> ServerPublicKeyFingerprints {get; set;}
 
     }
 }

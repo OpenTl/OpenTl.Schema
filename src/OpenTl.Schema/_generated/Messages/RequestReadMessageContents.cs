@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x36a73f77)]
-    public class RequestReadMessageContents : IRequest<Messages.IAffectedMessages>
+    public class RequestReadMessageContents : IRequest<OpenTl.Schema.Messages.IAffectedMessages>
     {
        [SerializationOrder(0)]
-       public TVector<int> Id {get; set;}
+       public OpenTl.Schema.TVector<int> Id {get; set;}
 
     }
 }

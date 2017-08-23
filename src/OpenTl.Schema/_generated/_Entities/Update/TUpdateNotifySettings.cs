@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TUpdateNotifySettings : IUpdate
 	{
        [SerializationOrder(0)]
-       public INotifyPeer Peer {get; set;}
+       public OpenTl.Schema.INotifyPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
 	}
 }

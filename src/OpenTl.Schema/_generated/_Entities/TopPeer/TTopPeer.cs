@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TTopPeer : ITopPeer
 	{
        [SerializationOrder(0)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(1)]
        public double Rating {get; set;}

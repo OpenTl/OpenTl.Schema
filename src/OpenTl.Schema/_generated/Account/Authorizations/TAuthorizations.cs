@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Account
 	public class TAuthorizations : IAuthorizations
 	{
        [SerializationOrder(0)]
-       public TVector<IAuthorization> Authorizations {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IAuthorization> Authorizations {get; set;}
 
 	}
 }

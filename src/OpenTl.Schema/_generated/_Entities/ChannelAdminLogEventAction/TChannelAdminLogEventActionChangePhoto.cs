@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionChangePhoto : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public IChatPhoto PrevPhoto {get; set;}
+       public OpenTl.Schema.IChatPhoto PrevPhoto {get; set;}
 
        [SerializationOrder(1)]
-       public IChatPhoto NewPhoto {get; set;}
+       public OpenTl.Schema.IChatPhoto NewPhoto {get; set;}
 
 	}
 }

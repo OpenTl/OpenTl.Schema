@@ -26,7 +26,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
-       public IGeoPoint Geo {get; set;}
+       public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
        [SerializationOrder(4)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
@@ -36,7 +36,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
-       public IInputBotInlineMessageID MsgId {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessageID MsgId {get; set;}
 
 	}
 }

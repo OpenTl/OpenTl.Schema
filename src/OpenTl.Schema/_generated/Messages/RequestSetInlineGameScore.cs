@@ -24,10 +24,10 @@ namespace OpenTl.Schema.Messages
        public bool Force {get; set;}
 
        [SerializationOrder(3)]
-       public IInputBotInlineMessageID Id {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessageID Id {get; set;}
 
        [SerializationOrder(4)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(5)]
        public int Score {get; set;}

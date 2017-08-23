@@ -76,7 +76,7 @@ namespace OpenTl.Schema
        public string Username { get => _Username; set { UsernameAsBinary = Encoding.UTF8.GetBytes(value); _Username = value; }}
 
        [SerializationOrder(15)]
-       public IChatPhoto Photo {get; set;}
+       public OpenTl.Schema.IChatPhoto Photo {get; set;}
 
        [SerializationOrder(16)]
        public int Date {get; set;}
@@ -93,11 +93,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(19)]
        [CanSerialize("Flags", 14)]
-       public IChannelAdminRights AdminRights {get; set;}
+       public OpenTl.Schema.IChannelAdminRights AdminRights {get; set;}
 
        [SerializationOrder(20)]
        [CanSerialize("Flags", 15)]
-       public IChannelBannedRights BannedRights {get; set;}
+       public OpenTl.Schema.IChannelBannedRights BannedRights {get; set;}
 
 	}
 }

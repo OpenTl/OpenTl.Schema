@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Photos
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x87cf7f2f)]
-    public class RequestDeletePhotos : IRequest<TVector<long>>
+    public class RequestDeletePhotos : IRequest<OpenTl.Schema.TVector<long>>
     {
        [SerializationOrder(0)]
-       public TVector<IInputPhoto> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPhoto> Id {get; set;}
 
     }
 }

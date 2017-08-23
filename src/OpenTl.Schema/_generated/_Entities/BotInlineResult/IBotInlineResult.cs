@@ -17,7 +17,7 @@ namespace OpenTl.Schema
        byte[] TypeAsBinary {get; set;}
        string Type {get; set;}
 
-       IBotInlineMessage SendMessage {get; set;}
+       OpenTl.Schema.IBotInlineMessage SendMessage {get; set;}
 
     }
 }

@@ -25,7 +25,7 @@ namespace OpenTl.Schema
 
        int FromId {get; set;}
 
-       IPeer ToId {get; set;}
+       OpenTl.Schema.IPeer ToId {get; set;}
 
        int ReplyToMsgId {get; set;}
 

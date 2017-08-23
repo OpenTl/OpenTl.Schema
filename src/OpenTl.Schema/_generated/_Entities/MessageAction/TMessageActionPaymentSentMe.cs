@@ -29,7 +29,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 0)]
-       public IPaymentRequestedInfo Info {get; set;}
+       public OpenTl.Schema.IPaymentRequestedInfo Info {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
@@ -39,7 +39,7 @@ namespace OpenTl.Schema
        public string ShippingOptionId { get => _ShippingOptionId; set { ShippingOptionIdAsBinary = Encoding.UTF8.GetBytes(value); _ShippingOptionId = value; }}
 
        [SerializationOrder(6)]
-       public IPaymentCharge Charge {get; set;}
+       public OpenTl.Schema.IPaymentCharge Charge {get; set;}
 
 	}
 }

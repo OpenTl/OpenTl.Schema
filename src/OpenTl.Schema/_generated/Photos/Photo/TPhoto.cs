@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Photos
 	public class TPhoto : IPhoto
 	{
        [SerializationOrder(0)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

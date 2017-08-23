@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Auth
     public class RequestDropTempAuthKeys : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public TVector<long> ExceptAuthKeys {get; set;}
+       public OpenTl.Schema.TVector<long> ExceptAuthKeys {get; set;}
 
     }
 }

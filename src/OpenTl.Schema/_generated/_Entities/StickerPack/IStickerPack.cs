@@ -12,7 +12,7 @@ namespace OpenTl.Schema
        byte[] EmoticonAsBinary {get; set;}
        string Emoticon {get; set;}
 
-       TVector<long> Documents {get; set;}
+       OpenTl.Schema.TVector<long> Documents {get; set;}
 
     }
 }

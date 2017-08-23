@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xafa92846)]
-    public class RequestGetHistory : IRequest<Messages.IMessages>
+    public class RequestGetHistory : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(1)]
        public int OffsetId {get; set;}

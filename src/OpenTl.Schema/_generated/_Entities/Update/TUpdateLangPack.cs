@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateLangPack : IUpdate
 	{
        [SerializationOrder(0)]
-       public ILangPackDifference Difference {get; set;}
+       public OpenTl.Schema.ILangPackDifference Difference {get; set;}
 
 	}
 }

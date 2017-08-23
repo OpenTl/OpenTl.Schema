@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Messages
     public class RequestSetTyping : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public ISendMessageAction Action {get; set;}
+       public OpenTl.Schema.ISendMessageAction Action {get; set;}
 
     }
 }

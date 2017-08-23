@@ -27,7 +27,7 @@ namespace OpenTl.Schema
        public string Pq { get => _Pq; set { PqAsBinary = Encoding.UTF8.GetBytes(value); _Pq = value; }}
 
        [SerializationOrder(3)]
-       public TVector<long> ServerPublicKeyFingerprints {get; set;}
+       public OpenTl.Schema.TVector<long> ServerPublicKeyFingerprints {get; set;}
 
 	}
 }

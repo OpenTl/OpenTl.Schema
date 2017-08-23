@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Messages
        public int Hash {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IStickerSet> Sets {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IStickerSet> Sets {get; set;}
 
 	}
 }

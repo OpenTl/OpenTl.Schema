@@ -11,7 +11,7 @@ namespace OpenTl.Schema
     {
        BitArray Flags {get; set;}
 
-       IReplyMarkup ReplyMarkup {get; set;}
+       OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
     }
 }

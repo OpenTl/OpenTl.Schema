@@ -27,7 +27,7 @@ namespace OpenTl.Schema.Messages
        public long QueryId {get; set;}
 
        [SerializationOrder(4)]
-       public TVector<IInputBotInlineResult> Results {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputBotInlineResult> Results {get; set;}
 
        [SerializationOrder(5)]
        public int CacheTime {get; set;}
@@ -41,7 +41,7 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 3)]
-       public IInlineBotSwitchPM SwitchPm {get; set;}
+       public OpenTl.Schema.IInlineBotSwitchPM SwitchPm {get; set;}
 
     }
 }

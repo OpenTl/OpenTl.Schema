@@ -34,10 +34,10 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(5)]
-       public TVector<IPageBlock> Blocks {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock> Blocks {get; set;}
 
        [SerializationOrder(6)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

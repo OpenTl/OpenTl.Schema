@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3173d78)]
-    public class RequestGetChannelDifference : IRequest<Updates.IChannelDifference>
+    public class RequestGetChannelDifference : IRequest<OpenTl.Schema.Updates.IChannelDifference>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -20,10 +20,10 @@ namespace OpenTl.Schema.Updates
        public bool Force {get; set;}
 
        [SerializationOrder(2)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(3)]
-       public IChannelMessagesFilter Filter {get; set;}
+       public OpenTl.Schema.IChannelMessagesFilter Filter {get; set;}
 
        [SerializationOrder(4)]
        public int Pts {get; set;}

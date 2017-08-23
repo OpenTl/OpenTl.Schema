@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       public IInputPhoto Id {get; set;}
+       public OpenTl.Schema.IInputPhoto Id {get; set;}
 
        [SerializationOrder(2)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}

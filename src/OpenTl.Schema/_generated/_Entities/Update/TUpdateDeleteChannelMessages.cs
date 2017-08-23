@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public int ChannelId {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<int> Messages {get; set;}
+       public OpenTl.Schema.TVector<int> Messages {get; set;}
 
        [SerializationOrder(2)]
        public int Pts {get; set;}

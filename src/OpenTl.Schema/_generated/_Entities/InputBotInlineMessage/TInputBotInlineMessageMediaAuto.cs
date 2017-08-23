@@ -23,7 +23,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 2)]
-       public IReplyMarkup ReplyMarkup {get; set;}
+       public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 
 	}
 }

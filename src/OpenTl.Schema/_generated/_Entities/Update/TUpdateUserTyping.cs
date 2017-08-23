@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(1)]
-       public ISendMessageAction Action {get; set;}
+       public OpenTl.Schema.ISendMessageAction Action {get; set;}
 
 	}
 }

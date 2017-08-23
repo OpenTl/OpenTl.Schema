@@ -11,12 +11,12 @@ namespace OpenTl.Schema
     {
        BitArray Flags {get; set;}
 
-       IInputDocument Document {get; set;}
+       OpenTl.Schema.IInputDocument Document {get; set;}
 
        byte[] EmojiAsBinary {get; set;}
        string Emoji {get; set;}
 
-       IMaskCoords MaskCoords {get; set;}
+       OpenTl.Schema.IMaskCoords MaskCoords {get; set;}
 
     }
 }

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateWebPage : IUpdate
 	{
        [SerializationOrder(0)]
-       public IWebPage Webpage {get; set;}
+       public OpenTl.Schema.IWebPage Webpage {get; set;}
 
        [SerializationOrder(1)]
        public int Pts {get; set;}

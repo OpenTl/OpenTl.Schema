@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TUpdateDraftMessage : IUpdate
 	{
        [SerializationOrder(0)]
-       public IPeer Peer {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public IDraftMessage Draft {get; set;}
+       public OpenTl.Schema.IDraftMessage Draft {get; set;}
 
 	}
 }

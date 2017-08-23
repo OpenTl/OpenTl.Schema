@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateChatParticipants : IUpdate
 	{
        [SerializationOrder(0)]
-       public IChatParticipants Participants {get; set;}
+       public OpenTl.Schema.IChatParticipants Participants {get; set;}
 
 	}
 }

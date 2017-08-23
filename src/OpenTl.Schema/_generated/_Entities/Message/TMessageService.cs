@@ -43,7 +43,7 @@ namespace OpenTl.Schema
        public int FromId {get; set;}
 
        [SerializationOrder(8)]
-       public IPeer ToId {get; set;}
+       public OpenTl.Schema.IPeer ToId {get; set;}
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 3)]
@@ -53,7 +53,7 @@ namespace OpenTl.Schema
        public int Date {get; set;}
 
        [SerializationOrder(11)]
-       public IMessageAction Action {get; set;}
+       public OpenTl.Schema.IMessageAction Action {get; set;}
 
 	}
 }

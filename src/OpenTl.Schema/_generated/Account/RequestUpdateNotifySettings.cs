@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Account
     public class RequestUpdateNotifySettings : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputNotifyPeer Peer {get; set;}
+       public OpenTl.Schema.IInputNotifyPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public IInputPeerNotifySettings Settings {get; set;}
+       public OpenTl.Schema.IInputPeerNotifySettings Settings {get; set;}
 
     }
 }

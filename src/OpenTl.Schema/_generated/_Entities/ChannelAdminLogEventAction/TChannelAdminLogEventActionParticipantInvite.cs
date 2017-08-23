@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionParticipantInvite : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public IChannelParticipant Participant {get; set;}
+       public OpenTl.Schema.IChannelParticipant Participant {get; set;}
 
 	}
 }

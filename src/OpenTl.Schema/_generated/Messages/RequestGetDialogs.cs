@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x191ba9c5)]
-    public class RequestGetDialogs : IRequest<Messages.IDialogs>
+    public class RequestGetDialogs : IRequest<OpenTl.Schema.Messages.IDialogs>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -26,7 +26,7 @@ namespace OpenTl.Schema.Messages
        public int OffsetId {get; set;}
 
        [SerializationOrder(4)]
-       public IInputPeer OffsetPeer {get; set;}
+       public OpenTl.Schema.IInputPeer OffsetPeer {get; set;}
 
        [SerializationOrder(5)]
        public int Limit {get; set;}

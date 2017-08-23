@@ -10,16 +10,16 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbfd915cd)]
-    public class RequestEditBanned : IRequest<IUpdates>
+    public class RequestEditBanned : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputChannel Channel {get; set;}
+       public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(2)]
-       public IChannelBannedRights BannedRights {get; set;}
+       public OpenTl.Schema.IChannelBannedRights BannedRights {get; set;}
 
     }
 }

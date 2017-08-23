@@ -11,9 +11,9 @@ namespace OpenTl.Schema.Channels
     {
        int Count {get; set;}
 
-       TVector<IChannelParticipant> Participants {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IChannelParticipant> Participants {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

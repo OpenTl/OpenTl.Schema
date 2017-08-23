@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x12b3ad31)]
-    public class RequestGetNotifySettings : IRequest<IPeerNotifySettings>
+    public class RequestGetNotifySettings : IRequest<OpenTl.Schema.IPeerNotifySettings>
     {
        [SerializationOrder(0)]
-       public IInputNotifyPeer Peer {get; set;}
+       public OpenTl.Schema.IInputNotifyPeer Peer {get; set;}
 
     }
 }

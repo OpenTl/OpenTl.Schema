@@ -19,7 +19,7 @@ namespace OpenTl.Schema.Help
        public string PhoneNumber { get => _PhoneNumber; set { PhoneNumberAsBinary = Encoding.UTF8.GetBytes(value); _PhoneNumber = value; }}
 
        [SerializationOrder(1)]
-       public IUser User {get; set;}
+       public OpenTl.Schema.IUser User {get; set;}
 
 	}
 }

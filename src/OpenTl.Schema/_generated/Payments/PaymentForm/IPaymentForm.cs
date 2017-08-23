@@ -17,7 +17,7 @@ namespace OpenTl.Schema.Payments
 
        int BotId {get; set;}
 
-       IInvoice Invoice {get; set;}
+       OpenTl.Schema.IInvoice Invoice {get; set;}
 
        int ProviderId {get; set;}
 
@@ -27,13 +27,13 @@ namespace OpenTl.Schema.Payments
        byte[] NativeProviderAsBinary {get; set;}
        string NativeProvider {get; set;}
 
-       IDataJSON NativeParams {get; set;}
+       OpenTl.Schema.IDataJSON NativeParams {get; set;}
 
-       IPaymentRequestedInfo SavedInfo {get; set;}
+       OpenTl.Schema.IPaymentRequestedInfo SavedInfo {get; set;}
 
-       IPaymentSavedCredentials SavedCredentials {get; set;}
+       OpenTl.Schema.IPaymentSavedCredentials SavedCredentials {get; set;}
 
-       TVector<IUser> Users {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
     }
 }

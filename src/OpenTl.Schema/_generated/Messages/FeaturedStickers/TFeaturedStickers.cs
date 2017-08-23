@@ -16,10 +16,10 @@ namespace OpenTl.Schema.Messages
        public int Hash {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IStickerSetCovered> Sets {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered> Sets {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<long> Unread {get; set;}
+       public OpenTl.Schema.TVector<long> Unread {get; set;}
 
 	}
 }

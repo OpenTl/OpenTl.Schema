@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Bots
        public long QueryId {get; set;}
 
        [SerializationOrder(1)]
-       public IDataJSON Data {get; set;}
+       public OpenTl.Schema.IDataJSON Data {get; set;}
 
     }
 }

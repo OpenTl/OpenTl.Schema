@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Upload
        public string MimeType { get => _MimeType; set { MimeTypeAsBinary = Encoding.UTF8.GetBytes(value); _MimeType = value; }}
 
        [SerializationOrder(2)]
-       public Storage.IFileType FileType {get; set;}
+       public OpenTl.Schema.Storage.IFileType FileType {get; set;}
 
        [SerializationOrder(3)]
        public int Mtime {get; set;}

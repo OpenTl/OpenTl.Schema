@@ -21,7 +21,7 @@ namespace OpenTl.Schema.Payments
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 0)]
-       public IPaymentRequestedInfo SavedInfo {get; set;}
+       public OpenTl.Schema.IPaymentRequestedInfo SavedInfo {get; set;}
 
 	}
 }

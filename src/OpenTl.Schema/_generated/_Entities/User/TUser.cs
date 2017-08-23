@@ -96,11 +96,11 @@ namespace OpenTl.Schema
 
        [SerializationOrder(18)]
        [CanSerialize("Flags", 5)]
-       public IUserProfilePhoto Photo {get; set;}
+       public OpenTl.Schema.IUserProfilePhoto Photo {get; set;}
 
        [SerializationOrder(19)]
        [CanSerialize("Flags", 6)]
-       public IUserStatus Status {get; set;}
+       public OpenTl.Schema.IUserStatus Status {get; set;}
 
        [SerializationOrder(20)]
        [CanSerialize("Flags", 14)]

@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe306d3a)]
-    public class RequestReadHistory : IRequest<Messages.IAffectedMessages>
+    public class RequestReadHistory : IRequest<OpenTl.Schema.Messages.IAffectedMessages>
     {
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(1)]
        public int MaxId {get; set;}

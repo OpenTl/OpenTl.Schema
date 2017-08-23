@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd0a48c4)]
-    public class RequestGetCommonChats : IRequest<Messages.IChats>
+    public class RequestGetCommonChats : IRequest<OpenTl.Schema.Messages.IChats>
     {
        [SerializationOrder(0)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
        [SerializationOrder(1)]
        public int MaxId {get; set;}

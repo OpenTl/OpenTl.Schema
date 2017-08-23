@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public int Now {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<TFutureSalt> Salts {get; set;}
+       public TVector<OpenTl.Schema.TFutureSalt> Salts {get; set;}
 
 	}
 }

@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Phone
     public class RequestSaveCallDebug : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputPhoneCall Peer {get; set;}
+       public OpenTl.Schema.IInputPhoneCall Peer {get; set;}
 
        [SerializationOrder(1)]
-       public IDataJSON Debug {get; set;}
+       public OpenTl.Schema.IDataJSON Debug {get; set;}
 
     }
 }

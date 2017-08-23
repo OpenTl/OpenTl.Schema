@@ -13,10 +13,10 @@ namespace OpenTl.Schema.Account
     public class RequestReportPeer : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public IReportReason Reason {get; set;}
+       public OpenTl.Schema.IReportReason Reason {get; set;}
 
     }
 }

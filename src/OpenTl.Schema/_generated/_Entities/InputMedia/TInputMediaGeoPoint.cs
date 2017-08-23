@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputMediaGeoPoint : IInputMedia
 	{
        [SerializationOrder(0)]
-       public IInputGeoPoint GeoPoint {get; set;}
+       public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}
 
 	}
 }

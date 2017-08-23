@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x11f812d8)]
-    public class RequestSearch : IRequest<Contacts.IFound>
+    public class RequestSearch : IRequest<OpenTl.Schema.Contacts.IFound>
     {
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}

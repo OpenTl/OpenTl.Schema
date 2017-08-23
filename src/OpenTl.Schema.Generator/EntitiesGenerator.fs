@@ -77,7 +77,7 @@ let getFullNamespace (typeName: string) =
     | false -> defaultNamespace + "." + shortNamespace
 
 let getFullTypeName tlType typeName =
-    let typeNamespace = getShotNamespace tlType
+    let typeNamespace = getFullNamespace tlType
     match String.IsNullOrEmpty typeNamespace with
         | true -> typeName
         | false -> String.Join(".", typeNamespace, typeName)

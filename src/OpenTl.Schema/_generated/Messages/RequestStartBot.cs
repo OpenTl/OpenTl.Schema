@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe6df7378)]
-    public class RequestStartBot : IRequest<IUpdates>
+    public class RequestStartBot : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
-       public IInputUser Bot {get; set;}
+       public OpenTl.Schema.IInputUser Bot {get; set;}
 
        [SerializationOrder(1)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(2)]
        public long RandomId {get; set;}

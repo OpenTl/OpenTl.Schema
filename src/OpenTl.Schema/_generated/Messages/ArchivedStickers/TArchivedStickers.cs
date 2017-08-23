@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Messages
        public int Count {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IStickerSetCovered> Sets {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered> Sets {get; set;}
 
 	}
 }

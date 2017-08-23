@@ -20,7 +20,7 @@ namespace OpenTl.Schema
        public bool ExcludeNewMessages {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IMessageRange> Ranges {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageRange> Ranges {get; set;}
 
 	}
 }

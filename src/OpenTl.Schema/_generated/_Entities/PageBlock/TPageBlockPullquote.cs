@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TPageBlockPullquote : IPageBlock
 	{
        [SerializationOrder(0)]
-       public IRichText Text {get; set;}
+       public OpenTl.Schema.IRichText Text {get; set;}
 
        [SerializationOrder(1)]
-       public IRichText Caption {get; set;}
+       public OpenTl.Schema.IRichText Caption {get; set;}
 
 	}
 }

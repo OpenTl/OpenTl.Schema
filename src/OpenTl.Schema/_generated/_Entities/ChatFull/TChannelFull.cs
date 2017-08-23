@@ -58,16 +58,16 @@ namespace OpenTl.Schema
        public int UnreadCount {get; set;}
 
        [SerializationOrder(12)]
-       public IPhoto ChatPhoto {get; set;}
+       public OpenTl.Schema.IPhoto ChatPhoto {get; set;}
 
        [SerializationOrder(13)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        [SerializationOrder(14)]
-       public IExportedChatInvite ExportedInvite {get; set;}
+       public OpenTl.Schema.IExportedChatInvite ExportedInvite {get; set;}
 
        [SerializationOrder(15)]
-       public TVector<IBotInfo> BotInfo {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IBotInfo> BotInfo {get; set;}
 
        [SerializationOrder(16)]
        [CanSerialize("Flags", 4)]

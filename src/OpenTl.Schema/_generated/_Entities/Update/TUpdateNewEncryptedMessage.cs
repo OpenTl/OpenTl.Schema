@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateNewEncryptedMessage : IUpdate
 	{
        [SerializationOrder(0)]
-       public IEncryptedMessage Message {get; set;}
+       public OpenTl.Schema.IEncryptedMessage Message {get; set;}
 
        [SerializationOrder(1)]
        public int Qts {get; set;}

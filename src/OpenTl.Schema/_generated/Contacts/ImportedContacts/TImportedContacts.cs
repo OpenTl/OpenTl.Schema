@@ -13,16 +13,16 @@ namespace OpenTl.Schema.Contacts
 	public class TImportedContacts : IImportedContacts
 	{
        [SerializationOrder(0)]
-       public TVector<IImportedContact> Imported {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IImportedContact> Imported {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IPopularContact> PopularInvites {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPopularContact> PopularInvites {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<long> RetryContacts {get; set;}
+       public OpenTl.Schema.TVector<long> RetryContacts {get; set;}
 
        [SerializationOrder(3)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

@@ -13,13 +13,13 @@ namespace OpenTl.Schema
 	public class TTopPeerCategoryPeers : ITopPeerCategoryPeers
 	{
        [SerializationOrder(0)]
-       public ITopPeerCategory Category {get; set;}
+       public OpenTl.Schema.ITopPeerCategory Category {get; set;}
 
        [SerializationOrder(1)]
        public int Count {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<ITopPeer> Peers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.ITopPeer> Peers {get; set;}
 
 	}
 }

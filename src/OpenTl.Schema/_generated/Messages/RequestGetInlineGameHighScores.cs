@@ -10,13 +10,13 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf635e1b)]
-    public class RequestGetInlineGameHighScores : IRequest<Messages.IHighScores>
+    public class RequestGetInlineGameHighScores : IRequest<OpenTl.Schema.Messages.IHighScores>
     {
        [SerializationOrder(0)]
-       public IInputBotInlineMessageID Id {get; set;}
+       public OpenTl.Schema.IInputBotInlineMessageID Id {get; set;}
 
        [SerializationOrder(1)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
     }
 }

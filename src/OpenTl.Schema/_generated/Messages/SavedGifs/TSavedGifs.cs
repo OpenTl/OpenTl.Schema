@@ -16,7 +16,7 @@ namespace OpenTl.Schema.Messages
        public int Hash {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IDocument> Gifs {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDocument> Gifs {get; set;}
 
 	}
 }

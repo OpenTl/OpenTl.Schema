@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x350170f3)]
-    public class RequestGetTermsOfService : IRequest<Help.ITermsOfService>
+    public class RequestGetTermsOfService : IRequest<OpenTl.Schema.Help.ITermsOfService>
     {
 
     }

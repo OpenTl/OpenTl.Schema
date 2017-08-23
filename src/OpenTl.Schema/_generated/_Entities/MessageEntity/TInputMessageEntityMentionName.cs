@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public int Length {get; set;}
 
        [SerializationOrder(2)]
-       public IInputUser UserId {get; set;}
+       public OpenTl.Schema.IInputUser UserId {get; set;}
 
 	}
 }

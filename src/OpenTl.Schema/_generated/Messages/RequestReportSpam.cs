@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestReportSpam : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
     }
 }

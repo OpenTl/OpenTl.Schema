@@ -34,13 +34,13 @@ namespace OpenTl.Schema
        public long KeyFingerprint {get; set;}
 
        [SerializationOrder(7)]
-       public IPhoneCallProtocol Protocol {get; set;}
+       public OpenTl.Schema.IPhoneCallProtocol Protocol {get; set;}
 
        [SerializationOrder(8)]
-       public IPhoneConnection Connection {get; set;}
+       public OpenTl.Schema.IPhoneConnection Connection {get; set;}
 
        [SerializationOrder(9)]
-       public TVector<IPhoneConnection> AlternativeConnections {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPhoneConnection> AlternativeConnections {get; set;}
 
        [SerializationOrder(10)]
        public int StartDate {get; set;}

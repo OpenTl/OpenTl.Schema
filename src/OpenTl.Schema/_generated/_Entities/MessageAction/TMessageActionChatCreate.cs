@@ -19,7 +19,7 @@ namespace OpenTl.Schema
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(1)]
-       public TVector<int> Users {get; set;}
+       public OpenTl.Schema.TVector<int> Users {get; set;}
 
 	}
 }

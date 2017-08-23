@@ -31,7 +31,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(4)]
        [CanSerialize("Flags", 3)]
-       public TVector<IMessageEntity> Entities {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
 
        [SerializationOrder(5)]
        public int Date {get; set;}

@@ -82,7 +82,7 @@ namespace OpenTl.Schema
        public int Duration {get; set;}
 
        [SerializationOrder(12)]
-       public IBotInlineMessage SendMessage {get; set;}
+       public OpenTl.Schema.IBotInlineMessage SendMessage {get; set;}
 
 	}
 }

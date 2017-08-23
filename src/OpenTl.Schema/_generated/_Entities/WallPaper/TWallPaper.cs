@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
        [SerializationOrder(2)]
-       public TVector<IPhotoSize> Sizes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPhotoSize> Sizes {get; set;}
 
        [SerializationOrder(3)]
        public int Color {get; set;}

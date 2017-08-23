@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf3427b8c)]
-    public class RequestPingDelayDisconnect : IRequest<IPong>
+    public class RequestPingDelayDisconnect : IRequest<OpenTl.Schema.IPong>
     {
        [SerializationOrder(0)]
        public long PingId {get; set;}

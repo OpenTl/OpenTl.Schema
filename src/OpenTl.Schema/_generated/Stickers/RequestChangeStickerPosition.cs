@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xffb6d4ca)]
-    public class RequestChangeStickerPosition : IRequest<Messages.IStickerSet>
+    public class RequestChangeStickerPosition : IRequest<OpenTl.Schema.Messages.IStickerSet>
     {
        [SerializationOrder(0)]
-       public IInputDocument Sticker {get; set;}
+       public OpenTl.Schema.IInputDocument Sticker {get; set;}
 
        [SerializationOrder(1)]
        public int Position {get; set;}

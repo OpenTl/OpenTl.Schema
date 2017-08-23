@@ -22,7 +22,7 @@ namespace OpenTl.Schema.Help
        public int DcId {get; set;}
 
        [SerializationOrder(3)]
-       public TVector<TIpPort> IpPortList {get; set;}
+       public OpenTl.Schema.TVector<TIpPort> IpPortList {get; set;}
 
 	}
 }

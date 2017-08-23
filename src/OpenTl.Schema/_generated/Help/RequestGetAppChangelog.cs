@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9010ef6f)]
-    public class RequestGetAppChangelog : IRequest<IUpdates>
+    public class RequestGetAppChangelog : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public byte[] PrevAppVersionAsBinary { get => _PrevAppVersionAsBinary; set { _PrevAppVersion = Encoding.UTF8.GetString(value); _PrevAppVersionAsBinary = value; }}

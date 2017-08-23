@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x78515775)]
-    public class RequestUpdateProfile : IRequest<IUser>
+    public class RequestUpdateProfile : IRequest<OpenTl.Schema.IUser>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

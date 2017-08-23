@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(1)]
-       public IUserStatus Status {get; set;}
+       public OpenTl.Schema.IUserStatus Status {get; set;}
 
 	}
 }

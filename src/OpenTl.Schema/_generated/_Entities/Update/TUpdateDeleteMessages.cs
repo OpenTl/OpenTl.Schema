@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateDeleteMessages : IUpdate
 	{
        [SerializationOrder(0)]
-       public TVector<int> Messages {get; set;}
+       public OpenTl.Schema.TVector<int> Messages {get; set;}
 
        [SerializationOrder(1)]
        public int Pts {get; set;}

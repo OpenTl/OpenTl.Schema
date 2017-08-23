@@ -28,7 +28,7 @@ namespace OpenTl.Schema
        public bool PhoneCallsPrivate {get; set;}
 
        [SerializationOrder(4)]
-       public IUser User {get; set;}
+       public OpenTl.Schema.IUser User {get; set;}
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
@@ -38,18 +38,18 @@ namespace OpenTl.Schema
        public string About { get => _About; set { AboutAsBinary = Encoding.UTF8.GetBytes(value); _About = value; }}
 
        [SerializationOrder(6)]
-       public Contacts.ILink Link {get; set;}
+       public OpenTl.Schema.Contacts.ILink Link {get; set;}
 
        [SerializationOrder(7)]
        [CanSerialize("Flags", 2)]
-       public IPhoto ProfilePhoto {get; set;}
+       public OpenTl.Schema.IPhoto ProfilePhoto {get; set;}
 
        [SerializationOrder(8)]
-       public IPeerNotifySettings NotifySettings {get; set;}
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        [SerializationOrder(9)]
        [CanSerialize("Flags", 3)]
-       public IBotInfo BotInfo {get; set;}
+       public OpenTl.Schema.IBotInfo BotInfo {get; set;}
 
        [SerializationOrder(10)]
        public int CommonChatsCount {get; set;}

@@ -13,7 +13,7 @@ namespace OpenTl.Schema
     public class RequestInvokeAfterMsgs : IRequest<IObject>
     {
        [SerializationOrder(0)]
-       public TVector<long> MsgIds {get; set;}
+       public OpenTl.Schema.TVector<long> MsgIds {get; set;}
 
        [SerializationOrder(1)]
        public IObject Query {get; set;}

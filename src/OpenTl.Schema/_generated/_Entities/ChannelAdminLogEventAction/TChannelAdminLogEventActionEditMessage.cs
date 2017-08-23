@@ -13,10 +13,10 @@ namespace OpenTl.Schema
 	public class TChannelAdminLogEventActionEditMessage : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
-       public IMessage PrevMessage {get; set;}
+       public OpenTl.Schema.IMessage PrevMessage {get; set;}
 
        [SerializationOrder(1)]
-       public IMessage NewMessage {get; set;}
+       public OpenTl.Schema.IMessage NewMessage {get; set;}
 
 	}
 }

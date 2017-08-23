@@ -17,7 +17,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
-       public IPhoto Photo {get; set;}
+       public OpenTl.Schema.IPhoto Photo {get; set;}
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 1)]

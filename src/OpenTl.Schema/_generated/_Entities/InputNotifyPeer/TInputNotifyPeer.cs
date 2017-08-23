@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputNotifyPeer : IInputNotifyPeer
 	{
        [SerializationOrder(0)]
-       public IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputPeer Peer {get; set;}
 
 	}
 }

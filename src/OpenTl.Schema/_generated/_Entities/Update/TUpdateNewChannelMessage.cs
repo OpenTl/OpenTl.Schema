@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TUpdateNewChannelMessage : IUpdate
 	{
        [SerializationOrder(0)]
-       public IMessage Message {get; set;}
+       public OpenTl.Schema.IMessage Message {get; set;}
 
        [SerializationOrder(1)]
        public int Pts {get; set;}

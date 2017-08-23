@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Auth
        public int TmpSessions {get; set;}
 
        [SerializationOrder(2)]
-       public IUser User {get; set;}
+       public OpenTl.Schema.IUser User {get; set;}
 
 	}
 }

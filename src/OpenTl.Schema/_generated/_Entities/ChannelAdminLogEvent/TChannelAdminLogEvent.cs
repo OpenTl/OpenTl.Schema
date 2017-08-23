@@ -22,7 +22,7 @@ namespace OpenTl.Schema
        public int UserId {get; set;}
 
        [SerializationOrder(3)]
-       public IChannelAdminLogEventAction Action {get; set;}
+       public OpenTl.Schema.IChannelAdminLogEventAction Action {get; set;}
 
 	}
 }

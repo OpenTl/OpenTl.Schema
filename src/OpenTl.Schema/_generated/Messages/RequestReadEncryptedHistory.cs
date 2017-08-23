@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Messages
     public class RequestReadEncryptedHistory : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public IInputEncryptedChat Peer {get; set;}
+       public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}
 
        [SerializationOrder(1)]
        public int MaxDate {get; set;}

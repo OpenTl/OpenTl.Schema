@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TMessageMediaGeo : IMessageMedia
 	{
        [SerializationOrder(0)]
-       public IGeoPoint Geo {get; set;}
+       public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
 	}
 }

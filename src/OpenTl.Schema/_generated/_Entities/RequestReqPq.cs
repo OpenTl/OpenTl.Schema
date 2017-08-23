@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x60469778)]
-    public class RequestReqPq : IRequest<IResPQ>
+    public class RequestReqPq : IRequest<OpenTl.Schema.IResPQ>
     {
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

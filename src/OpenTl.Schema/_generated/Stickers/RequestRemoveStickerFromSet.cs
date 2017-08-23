@@ -10,10 +10,10 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf7760f51)]
-    public class RequestRemoveStickerFromSet : IRequest<Messages.IStickerSet>
+    public class RequestRemoveStickerFromSet : IRequest<OpenTl.Schema.Messages.IStickerSet>
     {
        [SerializationOrder(0)]
-       public IInputDocument Sticker {get; set;}
+       public OpenTl.Schema.IInputDocument Sticker {get; set;}
 
     }
 }

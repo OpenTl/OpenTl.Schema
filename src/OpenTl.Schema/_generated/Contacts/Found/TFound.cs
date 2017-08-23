@@ -13,13 +13,13 @@ namespace OpenTl.Schema.Contacts
 	public class TFound : IFound
 	{
        [SerializationOrder(0)]
-       public TVector<IPeer> Results {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Results {get; set;}
 
        [SerializationOrder(1)]
-       public TVector<IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
 
        [SerializationOrder(2)]
-       public TVector<IUser> Users {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

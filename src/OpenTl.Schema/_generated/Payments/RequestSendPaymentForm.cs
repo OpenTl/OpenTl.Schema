@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2b8879b3)]
-    public class RequestSendPaymentForm : IRequest<Payments.IPaymentResult>
+    public class RequestSendPaymentForm : IRequest<OpenTl.Schema.Payments.IPaymentResult>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
@@ -33,7 +33,7 @@ namespace OpenTl.Schema.Payments
        public string ShippingOptionId { get => _ShippingOptionId; set { ShippingOptionIdAsBinary = Encoding.UTF8.GetBytes(value); _ShippingOptionId = value; }}
 
        [SerializationOrder(4)]
-       public IInputPaymentCredentials Credentials {get; set;}
+       public OpenTl.Schema.IInputPaymentCredentials Credentials {get; set;}
 
     }
 }

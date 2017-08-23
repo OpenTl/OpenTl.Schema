@@ -13,7 +13,7 @@ namespace OpenTl.Schema
 	public class TInputMediaVenue : IInputMedia
 	{
        [SerializationOrder(0)]
-       public IInputGeoPoint GeoPoint {get; set;}
+       public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}
 
        [SerializationOrder(1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}

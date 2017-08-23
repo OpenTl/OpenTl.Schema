@@ -13,7 +13,7 @@ namespace OpenTl.Schema.Help
     public class RequestSaveAppLog : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public TVector<IInputAppEvent> Events {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputAppEvent> Events {get; set;}
 
     }
 }

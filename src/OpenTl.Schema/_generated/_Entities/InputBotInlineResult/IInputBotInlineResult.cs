@@ -12,7 +12,7 @@ namespace OpenTl.Schema
        byte[] IdAsBinary {get; set;}
        string Id {get; set;}
 
-       IInputBotInlineMessage SendMessage {get; set;}
+       OpenTl.Schema.IInputBotInlineMessage SendMessage {get; set;}
 
     }
 }
