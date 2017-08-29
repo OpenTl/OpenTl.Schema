@@ -6,6 +6,6 @@
     public class TMsgContainer: IObject
     {
         [SerializationOrder(0)]
-        public TVector<TContainerMessage> Messages { get; set; }
+        public TContainerMessage[] Messages { get; set; }
     }
 }

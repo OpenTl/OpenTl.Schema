@@ -4,7 +4,7 @@
     using OpenTl.Schema.Serialization.Attributes;
     
     [Serialize(0x1cb5c415)]
-    public class TVector<T> : IObject
+    public class TVector<T>: IObject
     {
         public TVector()
         {
