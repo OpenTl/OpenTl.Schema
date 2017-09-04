@@ -16,7 +16,7 @@ namespace OpenTl.Schema
        public long ReqMsgId {get; set;}
 
        [SerializationOrder(1)]
-       public IObject Result {get; set;}
+       public object Result {get; set;}
 
 	}
 }

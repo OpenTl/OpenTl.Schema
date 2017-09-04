@@ -8,7 +8,7 @@ using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
 namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
  {
-     internal class ObjectSerializer : ISerializator
+     internal class IObjectSerializer : ISerializator
      {
          public TypeInfo SupportedType { get; } = typeof(IObject).GetTypeInfo();
  
@@ -30,21 +30,28 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
 
          public object Deserialize(BinaryReader reader, SerializationMetadata metadata)
          {
-             var value =  Serializer.Deserialize(reader, metadata.PropertyTypeInfo);
+             var value =  Serializer.Deserialize(reader, metadata?.PropertyTypeInfo);
 
-             if (IsAssignableToGenericType(value.GetType().GetTypeInfo(), typeof(TVector<>)))
+             var valueType = value.GetType().GetTypeInfo();
+             
+             if (IsAssignableToGenericType(valueType, typeof(TVector<>)))
              {
                  var length = reader.ReadInt32();
                  var genParameter = metadata.PropertyTypeInfo.GenericTypeArguments[0];
                  var listType = typeof(List<>).MakeGenericType(genParameter);
-                 var children = (IList) Activator.CreateInstance(listType);
+                 var children = (IList)Activator.CreateInstance(listType);
                  for (var j = 0; j < length; j++)
                  {
                      var child = Serializer.Deserialize(reader, genParameter.GetTypeInfo());
                      children.Add(child);
                  }
 
-                 value.GetType().GetTypeInfo().GetProperty("Items").SetValue(value, children);
+                 valueType.GetProperty("Items").SetValue(value, children);
+             }
+
+             if (value is IBool)
+             {
+                 return value is TBoolTrue;
              }
 
              return value;
