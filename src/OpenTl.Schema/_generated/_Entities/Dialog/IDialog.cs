@@ -23,6 +23,8 @@ namespace OpenTl.Schema
 
        int UnreadCount {get; set;}
 
+       int UnreadMentionsCount {get; set;}
+
        OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
 
        int Pts {get; set;}

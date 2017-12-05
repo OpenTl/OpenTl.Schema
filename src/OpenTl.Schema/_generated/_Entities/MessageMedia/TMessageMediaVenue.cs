@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x7912b71f)]
+	[Serialize(0x2ec0533f)]
 	public class TMessageMediaVenue : IMessageMedia
 	{
        [SerializationOrder(0)]
@@ -38,6 +38,12 @@ namespace OpenTl.Schema
        private byte[] _VenueIdAsBinary;
        private string _VenueId;
        public string VenueId { get => _VenueId; set { VenueIdAsBinary = Encoding.UTF8.GetBytes(value); _VenueId = value; }}
+
+       [SerializationOrder(5)]
+       public byte[] VenueTypeAsBinary { get => _VenueTypeAsBinary; set { _VenueType = Encoding.UTF8.GetString(value); _VenueTypeAsBinary = value; }}
+       private byte[] _VenueTypeAsBinary;
+       private string _VenueType;
+       public string VenueType { get => _VenueType; set { VenueTypeAsBinary = Encoding.UTF8.GetBytes(value); _VenueType = value; }}
 
 	}
 }

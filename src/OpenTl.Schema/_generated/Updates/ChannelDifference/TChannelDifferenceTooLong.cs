@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x410dee07)]
+	[Serialize(0x6a9d7b35)]
 	public class TChannelDifferenceTooLong : IChannelDifference
 	{
        [SerializationOrder(0)]
@@ -39,12 +39,15 @@ namespace OpenTl.Schema.Updates
        public int UnreadCount {get; set;}
 
        [SerializationOrder(8)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}
+       public int UnreadMentionsCount {get; set;}
 
        [SerializationOrder(9)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}
 
        [SerializationOrder(10)]
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
+
+       [SerializationOrder(11)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x66ffba14)]
+	[Serialize(0xe4def5db)]
 	public class TDialog : IDialog
 	{
        [SerializationOrder(0)]
@@ -35,13 +35,16 @@ namespace OpenTl.Schema
        public int UnreadCount {get; set;}
 
        [SerializationOrder(7)]
-       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
+       public int UnreadMentionsCount {get; set;}
 
        [SerializationOrder(8)]
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
+
+       [SerializationOrder(9)]
        [CanSerialize("Flags", 0)]
        public int Pts {get; set;}
 
-       [SerializationOrder(9)]
+       [SerializationOrder(10)]
        [CanSerialize("Flags", 1)]
        public OpenTl.Schema.IDraftMessage Draft {get; set;}
 

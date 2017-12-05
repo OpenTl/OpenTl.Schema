@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x3a8fd8b8)]
+	[Serialize(0xb722de65)]
 	public class TBotInlineMessageMediaGeo : IBotInlineMessage
 	{
        [SerializationOrder(0)]
@@ -19,6 +19,9 @@ namespace OpenTl.Schema
        public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
        [SerializationOrder(2)]
+       public int Period {get; set;}
+
+       [SerializationOrder(3)]
        [CanSerialize("Flags", 2)]
        public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 

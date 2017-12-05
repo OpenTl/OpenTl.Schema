@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xccd3563d)]
+	[Serialize(0x947ca848)]
 	public class TBotResults : IBotResults
 	{
        [SerializationOrder(0)]
@@ -38,6 +38,9 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(6)]
        public int CacheTime {get; set;}
+
+       [SerializationOrder(7)]
+       public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}
 }

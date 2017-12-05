@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xf288a275)]
+	[Serialize(0x39e9ea0)]
     public class RequestSearch : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
@@ -38,13 +38,19 @@ namespace OpenTl.Schema.Messages
        public int MaxDate {get; set;}
 
        [SerializationOrder(7)]
-       public int Offset {get; set;}
+       public int OffsetId {get; set;}
 
        [SerializationOrder(8)]
-       public int MaxId {get; set;}
+       public int AddOffset {get; set;}
 
        [SerializationOrder(9)]
        public int Limit {get; set;}
+
+       [SerializationOrder(10)]
+       public int MaxId {get; set;}
+
+       [SerializationOrder(11)]
+       public int MinId {get; set;}
 
     }
 }

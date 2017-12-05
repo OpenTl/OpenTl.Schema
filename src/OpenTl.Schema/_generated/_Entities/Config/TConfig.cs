@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x7feec888)]
+	[Serialize(0x9c840964)]
 	public class TConfig : IConfig
 	{
        [SerializationOrder(0)]
@@ -83,42 +83,48 @@ namespace OpenTl.Schema
        public int StickersRecentLimit {get; set;}
 
        [SerializationOrder(23)]
+       public int StickersFavedLimit {get; set;}
+
+       [SerializationOrder(24)]
+       public int ChannelsReadMediaPeriod {get; set;}
+
+       [SerializationOrder(25)]
        [CanSerialize("Flags", 0)]
        public int TmpSessions {get; set;}
 
-       [SerializationOrder(24)]
+       [SerializationOrder(26)]
        public int PinnedDialogsCountMax {get; set;}
 
-       [SerializationOrder(25)]
+       [SerializationOrder(27)]
        public int CallReceiveTimeoutMs {get; set;}
 
-       [SerializationOrder(26)]
+       [SerializationOrder(28)]
        public int CallRingTimeoutMs {get; set;}
 
-       [SerializationOrder(27)]
+       [SerializationOrder(29)]
        public int CallConnectTimeoutMs {get; set;}
 
-       [SerializationOrder(28)]
+       [SerializationOrder(30)]
        public int CallPacketTimeoutMs {get; set;}
 
-       [SerializationOrder(29)]
+       [SerializationOrder(31)]
        public byte[] MeUrlPrefixAsBinary { get => _MeUrlPrefixAsBinary; set { _MeUrlPrefix = Encoding.UTF8.GetString(value); _MeUrlPrefixAsBinary = value; }}
        private byte[] _MeUrlPrefixAsBinary;
        private string _MeUrlPrefix;
        public string MeUrlPrefix { get => _MeUrlPrefix; set { MeUrlPrefixAsBinary = Encoding.UTF8.GetBytes(value); _MeUrlPrefix = value; }}
 
-       [SerializationOrder(30)]
+       [SerializationOrder(32)]
        [CanSerialize("Flags", 2)]
        public byte[] SuggestedLangCodeAsBinary { get => _SuggestedLangCodeAsBinary; set { _SuggestedLangCode = Encoding.UTF8.GetString(value); _SuggestedLangCodeAsBinary = value; }}
        private byte[] _SuggestedLangCodeAsBinary;
        private string _SuggestedLangCode;
        public string SuggestedLangCode { get => _SuggestedLangCode; set { SuggestedLangCodeAsBinary = Encoding.UTF8.GetBytes(value); _SuggestedLangCode = value; }}
 
-       [SerializationOrder(31)]
+       [SerializationOrder(33)]
        [CanSerialize("Flags", 2)]
        public int LangPackVersion {get; set;}
 
-       [SerializationOrder(32)]
+       [SerializationOrder(34)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature> DisabledFeatures {get; set;}
 
 	}

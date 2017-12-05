@@ -1,20 +1,16 @@
 ﻿<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TargetFramework>netcoreapp2</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="Models.fs" />
     <Compile Include="TlProcessor.fs" />
     <Compile Include="EntitiesGenerator.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
   <ItemGroup>
-    <PackageReference Include="FSharp.Core" Version="4.1.*" />
-    <PackageReference Include="FSharp.NET.Sdk" Version="1.0.*" PrivateAssets="All" />
+    <PackageReference Include="FSharp.Core" Version="4.2.3" />
+    <PackageReference Include="FSharp.NET.Sdk" Version="1.0.5" />
   </ItemGroup>
-
 </Project>

@@ -24,5 +24,7 @@ namespace OpenTl.Schema.Messages
 
        int CacheTime {get; set;}
 
+       OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
+
     }
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x24d98f92)]
+	[Serialize(0x123e05e9)]
     public class RequestGetParticipants : IRequest<OpenTl.Schema.Channels.IChannelParticipants>
     {
        [SerializationOrder(0)]
@@ -23,6 +23,9 @@ namespace OpenTl.Schema.Channels
 
        [SerializationOrder(3)]
        public int Limit {get; set;}
+
+       [SerializationOrder(4)]
+       public int Hash {get; set;}
 
     }
 }

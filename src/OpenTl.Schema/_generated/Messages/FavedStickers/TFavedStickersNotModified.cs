@@ -1,6 +1,6 @@
 ﻿// ReSharper disable All
 
-namespace OpenTl.Schema
+namespace OpenTl.Schema.Messages
 {
 	using System;
 	using System.Collections;
@@ -9,8 +9,8 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xd95e73bb)]
-	public class TInputMessagesFilterPhotoVideoDocuments : IMessagesFilter
+	[Serialize(0x9e8fa6d3)]
+	public class TFavedStickersNotModified : IFavedStickers
 	{
 
 	}

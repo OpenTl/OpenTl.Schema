@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xafa92846)]
+	[Serialize(0xdcbb8260)]
     public class RequestGetHistory : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
@@ -32,6 +32,9 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(6)]
        public int MinId {get; set;}
+
+       [SerializationOrder(7)]
+       public int Hash {get; set;}
 
     }
 }

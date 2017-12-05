@@ -24,20 +24,24 @@ namespace OpenTl.Schema.Messages
        public bool HasUrl {get; set;}
 
        [SerializationOrder(3)]
+       [FromFlag("Flags", 4)]
+       public bool NativeUi {get; set;}
+
+       [SerializationOrder(4)]
        [CanSerialize("Flags", 0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;
        private string _Message;
        public string Message { get => _Message; set { MessageAsBinary = Encoding.UTF8.GetBytes(value); _Message = value; }}
 
-       [SerializationOrder(4)]
+       [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;
        private string _Url;
        public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
-       [SerializationOrder(5)]
+       [SerializationOrder(6)]
        public int CacheTime {get; set;}
 
 	}

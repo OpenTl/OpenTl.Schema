@@ -15,6 +15,8 @@ namespace OpenTl.Schema.Messages
 
        bool HasUrl {get; set;}
 
+       bool NativeUi {get; set;}
+
        byte[] MessageAsBinary {get; set;}
        string Message {get; set;}
 

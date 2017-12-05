@@ -9,13 +9,16 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x6f8b8cb2)]
+	[Serialize(0xeae87e42)]
 	public class TContacts : IContacts
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IContact> Contacts {get; set;}
 
        [SerializationOrder(1)]
+       public int SavedCount {get; set;}
+
+       [SerializationOrder(2)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}

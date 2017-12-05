@@ -55,6 +55,10 @@ namespace OpenTl.Schema
 
        int StickersRecentLimit {get; set;}
 
+       int StickersFavedLimit {get; set;}
+
+       int ChannelsReadMediaPeriod {get; set;}
+
        int TmpSessions {get; set;}
 
        int PinnedDialogsCountMax {get; set;}

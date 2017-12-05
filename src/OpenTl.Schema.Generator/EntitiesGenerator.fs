@@ -8,7 +8,7 @@ open System.IO
 open System.Text
 open System.Text.RegularExpressions
 
-let (|EndWith|_|) pattern (input: string) =
+let (|EndWith|_|) (pattern:string) (input: string) =
   match input with
   | source when input.EndsWith(pattern) -> Some()
   | source -> None
