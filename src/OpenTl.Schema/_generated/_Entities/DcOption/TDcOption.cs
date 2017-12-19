@@ -38,6 +38,7 @@ namespace OpenTl.Schema
        [SerializationOrder(6)]
        public int Id {get; set;}
 
+       /// <summary>Binary representation for the 'IpAddress' property</summary>
        [SerializationOrder(7)]
        public byte[] IpAddressAsBinary { get => _IpAddressAsBinary; set { _IpAddress = Encoding.UTF8.GetString(value); _IpAddressAsBinary = value; }}
        private byte[] _IpAddressAsBinary;

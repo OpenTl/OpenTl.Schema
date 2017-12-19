@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xcb296bf8)]
 	public class TLabeledPrice : ILabeledPrice
 	{
+       /// <summary>Binary representation for the 'Label' property</summary>
        [SerializationOrder(0)]
        public byte[] LabelAsBinary { get => _LabelAsBinary; set { _Label = Encoding.UTF8.GetString(value); _LabelAsBinary = value; }}
        private byte[] _LabelAsBinary;

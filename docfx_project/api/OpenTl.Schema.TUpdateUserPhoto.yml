@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateUserPhoto
+  commentId: T:OpenTl.Schema.TUpdateUserPhoto
+  id: TUpdateUserPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateUserPhoto.Date
+  - OpenTl.Schema.TUpdateUserPhoto.Photo
+  - OpenTl.Schema.TUpdateUserPhoto.Previous
+  - OpenTl.Schema.TUpdateUserPhoto.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateUserPhoto
+  nameWithType: TUpdateUserPhoto
+  fullName: OpenTl.Schema.TUpdateUserPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateUserPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateUserPhoto : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateUserPhoto
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateUserPhoto.UserId
+  commentId: P:OpenTl.Schema.TUpdateUserPhoto.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateUserPhoto
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateUserPhoto.UserId
+  fullName: OpenTl.Schema.TUpdateUserPhoto.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateUserPhoto.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserPhoto.Date
+  commentId: P:OpenTl.Schema.TUpdateUserPhoto.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateUserPhoto
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateUserPhoto.Date
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateUserPhoto.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserPhoto.Photo
+  commentId: P:OpenTl.Schema.TUpdateUserPhoto.Photo
+  id: Photo
+  parent: OpenTl.Schema.TUpdateUserPhoto
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TUpdateUserPhoto.Photo
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IUserProfilePhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUserProfilePhoto
+    content.vb: Public Property Photo As IUserProfilePhoto
+  overload: OpenTl.Schema.TUpdateUserPhoto.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserPhoto.Previous
+  commentId: P:OpenTl.Schema.TUpdateUserPhoto.Previous
+  id: Previous
+  parent: OpenTl.Schema.TUpdateUserPhoto
+  langs:
+  - csharp
+  - vb
+  name: Previous
+  nameWithType: TUpdateUserPhoto.Previous
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Previous
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Previous
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhoto.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Previous { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Previous As Boolean
+  overload: OpenTl.Schema.TUpdateUserPhoto.Previous*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateUserPhoto.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhoto.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateUserPhoto.UserId
+  fullName: OpenTl.Schema.TUpdateUserPhoto.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateUserPhoto.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhoto.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateUserPhoto.Date
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Date
+- uid: OpenTl.Schema.TUpdateUserPhoto.Photo*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhoto.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TUpdateUserPhoto.Photo
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Photo
+- uid: OpenTl.Schema.IUserProfilePhoto
+  commentId: T:OpenTl.Schema.IUserProfilePhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserProfilePhoto
+  nameWithType: IUserProfilePhoto
+  fullName: OpenTl.Schema.IUserProfilePhoto
+- uid: OpenTl.Schema.TUpdateUserPhoto.Previous*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhoto.Previous
+  isExternal: false
+  name: Previous
+  nameWithType: TUpdateUserPhoto.Previous
+  fullName: OpenTl.Schema.TUpdateUserPhoto.Previous
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

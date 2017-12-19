@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputWebFileLocation
+  commentId: T:OpenTl.Schema.TInputWebFileLocation
+  id: TInputWebFileLocation
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputWebFileLocation.AccessHash
+  - OpenTl.Schema.TInputWebFileLocation.Url
+  - OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputWebFileLocation
+  nameWithType: TInputWebFileLocation
+  fullName: OpenTl.Schema.TInputWebFileLocation
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputWebFileLocation
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputWebFileLocation : object, IInputWebFileLocation, IObject'
+    content.vb: >-
+      Public Class TInputWebFileLocation
+
+          Inherits Object
+
+          Implements IInputWebFileLocation, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputWebFileLocation
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+  commentId: P:OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TInputWebFileLocation
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TInputWebFileLocation.UrlAsBinary
+  fullName: OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TInputWebFileLocation.UrlAsBinary*
+  implements:
+  - OpenTl.Schema.IInputWebFileLocation.UrlAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebFileLocation.Url
+  commentId: P:OpenTl.Schema.TInputWebFileLocation.Url
+  id: Url
+  parent: OpenTl.Schema.TInputWebFileLocation
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TInputWebFileLocation.Url
+  fullName: OpenTl.Schema.TInputWebFileLocation.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TInputWebFileLocation.Url*
+  implements:
+  - OpenTl.Schema.IInputWebFileLocation.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebFileLocation.AccessHash
+  commentId: P:OpenTl.Schema.TInputWebFileLocation.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputWebFileLocation
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputWebFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputWebFileLocation.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebFileLocation/TInputWebFileLocation.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputWebFileLocation.AccessHash*
+  implements:
+  - OpenTl.Schema.IInputWebFileLocation.AccessHash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputWebFileLocation
+  commentId: T:OpenTl.Schema.IInputWebFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputWebFileLocation
+  nameWithType: IInputWebFileLocation
+  fullName: OpenTl.Schema.IInputWebFileLocation
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputWebFileLocation.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TInputWebFileLocation.UrlAsBinary
+  fullName: OpenTl.Schema.TInputWebFileLocation.UrlAsBinary
+- uid: OpenTl.Schema.IInputWebFileLocation.UrlAsBinary
+  commentId: P:OpenTl.Schema.IInputWebFileLocation.UrlAsBinary
+  parent: OpenTl.Schema.IInputWebFileLocation
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IInputWebFileLocation.UrlAsBinary
+  fullName: OpenTl.Schema.IInputWebFileLocation.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputWebFileLocation.Url*
+  commentId: Overload:OpenTl.Schema.TInputWebFileLocation.Url
+  isExternal: false
+  name: Url
+  nameWithType: TInputWebFileLocation.Url
+  fullName: OpenTl.Schema.TInputWebFileLocation.Url
+- uid: OpenTl.Schema.IInputWebFileLocation.Url
+  commentId: P:OpenTl.Schema.IInputWebFileLocation.Url
+  parent: OpenTl.Schema.IInputWebFileLocation
+  isExternal: false
+  name: Url
+  nameWithType: IInputWebFileLocation.Url
+  fullName: OpenTl.Schema.IInputWebFileLocation.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputWebFileLocation.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputWebFileLocation.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputWebFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputWebFileLocation.AccessHash
+- uid: OpenTl.Schema.IInputWebFileLocation.AccessHash
+  commentId: P:OpenTl.Schema.IInputWebFileLocation.AccessHash
+  parent: OpenTl.Schema.IInputWebFileLocation
+  isExternal: false
+  name: AccessHash
+  nameWithType: IInputWebFileLocation.AccessHash
+  fullName: OpenTl.Schema.IInputWebFileLocation.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

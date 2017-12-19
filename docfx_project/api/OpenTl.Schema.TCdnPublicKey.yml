@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TCdnPublicKey
+  commentId: T:OpenTl.Schema.TCdnPublicKey
+  id: TCdnPublicKey
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TCdnPublicKey.DcId
+  - OpenTl.Schema.TCdnPublicKey.PublicKey
+  - OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TCdnPublicKey
+  nameWithType: TCdnPublicKey
+  fullName: OpenTl.Schema.TCdnPublicKey
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCdnPublicKey
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TCdnPublicKey : object, ICdnPublicKey, IObject'
+    content.vb: >-
+      Public Class TCdnPublicKey
+
+          Inherits Object
+
+          Implements ICdnPublicKey, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ICdnPublicKey
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TCdnPublicKey.DcId
+  commentId: P:OpenTl.Schema.TCdnPublicKey.DcId
+  id: DcId
+  parent: OpenTl.Schema.TCdnPublicKey
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TCdnPublicKey.DcId
+  fullName: OpenTl.Schema.TCdnPublicKey.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.TCdnPublicKey.DcId*
+  implements:
+  - OpenTl.Schema.ICdnPublicKey.DcId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+  commentId: P:OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+  id: PublicKeyAsBinary
+  parent: OpenTl.Schema.TCdnPublicKey
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyAsBinary
+  nameWithType: TCdnPublicKey.PublicKeyAsBinary
+  fullName: OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PublicKeyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PublicKey&apos; property
+  example: []
+  syntax:
+    content: public byte[] PublicKeyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PublicKeyAsBinary As Byte()
+  overload: OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary*
+  implements:
+  - OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TCdnPublicKey.PublicKey
+  commentId: P:OpenTl.Schema.TCdnPublicKey.PublicKey
+  id: PublicKey
+  parent: OpenTl.Schema.TCdnPublicKey
+  langs:
+  - csharp
+  - vb
+  name: PublicKey
+  nameWithType: TCdnPublicKey.PublicKey
+  fullName: OpenTl.Schema.TCdnPublicKey.PublicKey
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PublicKey
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnPublicKey/TCdnPublicKey.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PublicKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PublicKey As String
+  overload: OpenTl.Schema.TCdnPublicKey.PublicKey*
+  implements:
+  - OpenTl.Schema.ICdnPublicKey.PublicKey
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ICdnPublicKey
+  commentId: T:OpenTl.Schema.ICdnPublicKey
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ICdnPublicKey
+  nameWithType: ICdnPublicKey
+  fullName: OpenTl.Schema.ICdnPublicKey
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TCdnPublicKey.DcId*
+  commentId: Overload:OpenTl.Schema.TCdnPublicKey.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TCdnPublicKey.DcId
+  fullName: OpenTl.Schema.TCdnPublicKey.DcId
+- uid: OpenTl.Schema.ICdnPublicKey.DcId
+  commentId: P:OpenTl.Schema.ICdnPublicKey.DcId
+  parent: OpenTl.Schema.ICdnPublicKey
+  isExternal: false
+  name: DcId
+  nameWithType: ICdnPublicKey.DcId
+  fullName: OpenTl.Schema.ICdnPublicKey.DcId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary*
+  commentId: Overload:OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+  isExternal: false
+  name: PublicKeyAsBinary
+  nameWithType: TCdnPublicKey.PublicKeyAsBinary
+  fullName: OpenTl.Schema.TCdnPublicKey.PublicKeyAsBinary
+- uid: OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary
+  commentId: P:OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary
+  parent: OpenTl.Schema.ICdnPublicKey
+  isExternal: false
+  name: PublicKeyAsBinary
+  nameWithType: ICdnPublicKey.PublicKeyAsBinary
+  fullName: OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TCdnPublicKey.PublicKey*
+  commentId: Overload:OpenTl.Schema.TCdnPublicKey.PublicKey
+  isExternal: false
+  name: PublicKey
+  nameWithType: TCdnPublicKey.PublicKey
+  fullName: OpenTl.Schema.TCdnPublicKey.PublicKey
+- uid: OpenTl.Schema.ICdnPublicKey.PublicKey
+  commentId: P:OpenTl.Schema.ICdnPublicKey.PublicKey
+  parent: OpenTl.Schema.ICdnPublicKey
+  isExternal: false
+  name: PublicKey
+  nameWithType: ICdnPublicKey.PublicKey
+  fullName: OpenTl.Schema.ICdnPublicKey.PublicKey
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

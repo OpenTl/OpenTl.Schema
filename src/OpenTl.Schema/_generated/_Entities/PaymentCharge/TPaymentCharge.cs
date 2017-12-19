@@ -12,12 +12,14 @@ namespace OpenTl.Schema
 	[Serialize(0xea02c27e)]
 	public class TPaymentCharge : IPaymentCharge
 	{
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
        private byte[] _IdAsBinary;
        private string _Id;
        public string Id { get => _Id; set { IdAsBinary = Encoding.UTF8.GetBytes(value); _Id = value; }}
 
+       /// <summary>Binary representation for the 'ProviderChargeId' property</summary>
        [SerializationOrder(1)]
        public byte[] ProviderChargeIdAsBinary { get => _ProviderChargeIdAsBinary; set { _ProviderChargeId = Encoding.UTF8.GetString(value); _ProviderChargeIdAsBinary = value; }}
        private byte[] _ProviderChargeIdAsBinary;

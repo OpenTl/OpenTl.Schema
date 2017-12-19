@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.ISavedInfo
+  commentId: T:OpenTl.Schema.Payments.ISavedInfo
+  id: ISavedInfo
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.ISavedInfo.Flags
+  - OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  - OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  langs:
+  - csharp
+  - vb
+  name: ISavedInfo
+  nameWithType: ISavedInfo
+  fullName: OpenTl.Schema.Payments.ISavedInfo
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ISavedInfo
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public interface ISavedInfo : IObject'
+    content.vb: >-
+      Public Interface ISavedInfo
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.Payments.ISavedInfo.Flags
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.Flags
+  id: Flags
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: ISavedInfo.Flags
+  fullName: OpenTl.Schema.Payments.ISavedInfo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.Payments.ISavedInfo.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  id: HasSavedCredentials
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  langs:
+  - csharp
+  - vb
+  name: HasSavedCredentials
+  nameWithType: ISavedInfo.HasSavedCredentials
+  fullName: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: HasSavedCredentials
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: bool HasSavedCredentials { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property HasSavedCredentials As Boolean
+  overload: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  id: SavedInfo
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  langs:
+  - csharp
+  - vb
+  name: SavedInfo
+  nameWithType: ISavedInfo.SavedInfo
+  fullName: OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SavedInfo
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/ISavedInfo.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: IPaymentRequestedInfo SavedInfo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentRequestedInfo
+    content.vb: Property SavedInfo As IPaymentRequestedInfo
+  overload: OpenTl.Schema.Payments.ISavedInfo.SavedInfo*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.ISavedInfo.Flags*
+  commentId: Overload:OpenTl.Schema.Payments.ISavedInfo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: ISavedInfo.Flags
+  fullName: OpenTl.Schema.Payments.ISavedInfo.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials*
+  commentId: Overload:OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  isExternal: false
+  name: HasSavedCredentials
+  nameWithType: ISavedInfo.HasSavedCredentials
+  fullName: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Payments.ISavedInfo.SavedInfo*
+  commentId: Overload:OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  isExternal: false
+  name: SavedInfo
+  nameWithType: ISavedInfo.SavedInfo
+  fullName: OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo

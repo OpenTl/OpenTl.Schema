@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateShort
+  commentId: T:OpenTl.Schema.TUpdateShort
+  id: TUpdateShort
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateShort.Date
+  - OpenTl.Schema.TUpdateShort.Update
+  langs:
+  - csharp
+  - vb
+  name: TUpdateShort
+  nameWithType: TUpdateShort
+  fullName: OpenTl.Schema.TUpdateShort
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateShort
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateShort : object, IUpdates, IObject'
+    content.vb: >-
+      Public Class TUpdateShort
+
+          Inherits Object
+
+          Implements IUpdates, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdates
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateShort.Update
+  commentId: P:OpenTl.Schema.TUpdateShort.Update
+  id: Update
+  parent: OpenTl.Schema.TUpdateShort
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: TUpdateShort.Update
+  fullName: OpenTl.Schema.TUpdateShort.Update
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Update
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IUpdate Update { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUpdate
+    content.vb: Public Property Update As IUpdate
+  overload: OpenTl.Schema.TUpdateShort.Update*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShort.Date
+  commentId: P:OpenTl.Schema.TUpdateShort.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateShort
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateShort.Date
+  fullName: OpenTl.Schema.TUpdateShort.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShort.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateShort.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdates
+  commentId: T:OpenTl.Schema.IUpdates
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdates
+  nameWithType: IUpdates
+  fullName: OpenTl.Schema.IUpdates
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateShort.Update*
+  commentId: Overload:OpenTl.Schema.TUpdateShort.Update
+  isExternal: false
+  name: Update
+  nameWithType: TUpdateShort.Update
+  fullName: OpenTl.Schema.TUpdateShort.Update
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.TUpdateShort.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateShort.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateShort.Date
+  fullName: OpenTl.Schema.TUpdateShort.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

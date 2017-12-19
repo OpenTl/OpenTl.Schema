@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.THighScores
+  commentId: T:OpenTl.Schema.Messages.THighScores
+  id: THighScores
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.THighScores.Scores
+  - OpenTl.Schema.Messages.THighScores.Users
+  langs:
+  - csharp
+  - vb
+  name: THighScores
+  nameWithType: THighScores
+  fullName: OpenTl.Schema.Messages.THighScores
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: THighScores
+    path: ../src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class THighScores : object, IHighScores, IObject'
+    content.vb: >-
+      Public Class THighScores
+
+          Inherits Object
+
+          Implements IHighScores, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IHighScores
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.THighScores.Scores
+  commentId: P:OpenTl.Schema.Messages.THighScores.Scores
+  id: Scores
+  parent: OpenTl.Schema.Messages.THighScores
+  langs:
+  - csharp
+  - vb
+  name: Scores
+  nameWithType: THighScores.Scores
+  fullName: OpenTl.Schema.Messages.THighScores.Scores
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Scores
+    path: ../src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IHighScore> Scores { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IHighScore}
+    content.vb: Public Property Scores As TVector(Of IHighScore)
+  overload: OpenTl.Schema.Messages.THighScores.Scores*
+  implements:
+  - OpenTl.Schema.Messages.IHighScores.Scores
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.THighScores.Users
+  commentId: P:OpenTl.Schema.Messages.THighScores.Users
+  id: Users
+  parent: OpenTl.Schema.Messages.THighScores
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: THighScores.Users
+  fullName: OpenTl.Schema.Messages.THighScores.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Messages/HighScores/THighScores.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Messages.THighScores.Users*
+  implements:
+  - OpenTl.Schema.Messages.IHighScores.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IHighScores
+  commentId: T:OpenTl.Schema.Messages.IHighScores
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IHighScores
+  nameWithType: IHighScores
+  fullName: OpenTl.Schema.Messages.IHighScores
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.THighScores.Scores*
+  commentId: Overload:OpenTl.Schema.Messages.THighScores.Scores
+  isExternal: false
+  name: Scores
+  nameWithType: THighScores.Scores
+  fullName: OpenTl.Schema.Messages.THighScores.Scores
+- uid: OpenTl.Schema.Messages.IHighScores.Scores
+  commentId: P:OpenTl.Schema.Messages.IHighScores.Scores
+  parent: OpenTl.Schema.Messages.IHighScores
+  isExternal: false
+  name: Scores
+  nameWithType: IHighScores.Scores
+  fullName: OpenTl.Schema.Messages.IHighScores.Scores
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IHighScore}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IHighScore}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IHighScore>
+  nameWithType: TVector<IHighScore>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IHighScore>
+  nameWithType.vb: TVector(Of IHighScore)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IHighScore)
+  name.vb: TVector(Of IHighScore)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IHighScore
+    name: IHighScore
+    nameWithType: IHighScore
+    fullName: OpenTl.Schema.IHighScore
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IHighScore
+    name: IHighScore
+    nameWithType: IHighScore
+    fullName: OpenTl.Schema.IHighScore
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.THighScores.Users*
+  commentId: Overload:OpenTl.Schema.Messages.THighScores.Users
+  isExternal: false
+  name: Users
+  nameWithType: THighScores.Users
+  fullName: OpenTl.Schema.Messages.THighScores.Users
+- uid: OpenTl.Schema.Messages.IHighScores.Users
+  commentId: P:OpenTl.Schema.Messages.IHighScores.Users
+  parent: OpenTl.Schema.Messages.IHighScores
+  isExternal: false
+  name: Users
+  nameWithType: IHighScores.Users
+  fullName: OpenTl.Schema.Messages.IHighScores.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

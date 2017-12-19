@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice
+  commentId: T:OpenTl.Schema.Account.RequestUnregisterDevice
+  id: RequestUnregisterDevice
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestUnregisterDevice.Token
+  - OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+  - OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+  langs:
+  - csharp
+  - vb
+  name: RequestUnregisterDevice
+  nameWithType: RequestUnregisterDevice
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestUnregisterDevice
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestUnregisterDevice : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestUnregisterDevice
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+  commentId: P:OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+  id: TokenType
+  parent: OpenTl.Schema.Account.RequestUnregisterDevice
+  langs:
+  - csharp
+  - vb
+  name: TokenType
+  nameWithType: RequestUnregisterDevice.TokenType
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TokenType
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public int TokenType { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TokenType As Integer
+  overload: OpenTl.Schema.Account.RequestUnregisterDevice.TokenType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+  id: TokenAsBinary
+  parent: OpenTl.Schema.Account.RequestUnregisterDevice
+  langs:
+  - csharp
+  - vb
+  name: TokenAsBinary
+  nameWithType: RequestUnregisterDevice.TokenAsBinary
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TokenAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;Token&apos; property
+  example: []
+  syntax:
+    content: public byte[] TokenAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TokenAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.Token
+  commentId: P:OpenTl.Schema.Account.RequestUnregisterDevice.Token
+  id: Token
+  parent: OpenTl.Schema.Account.RequestUnregisterDevice
+  langs:
+  - csharp
+  - vb
+  name: Token
+  nameWithType: RequestUnregisterDevice.Token
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.Token
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Token
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUnregisterDevice.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string Token { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Token As String
+  overload: OpenTl.Schema.Account.RequestUnregisterDevice.Token*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.TokenType*
+  commentId: Overload:OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+  isExternal: false
+  name: TokenType
+  nameWithType: RequestUnregisterDevice.TokenType
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.TokenType
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+  isExternal: false
+  name: TokenAsBinary
+  nameWithType: RequestUnregisterDevice.TokenAsBinary
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.TokenAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Account.RequestUnregisterDevice.Token*
+  commentId: Overload:OpenTl.Schema.Account.RequestUnregisterDevice.Token
+  isExternal: false
+  name: Token
+  nameWithType: RequestUnregisterDevice.Token
+  fullName: OpenTl.Schema.Account.RequestUnregisterDevice.Token
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRpcAnswerUnknown
+  commentId: T:OpenTl.Schema.TRpcAnswerUnknown
+  id: TRpcAnswerUnknown
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TRpcAnswerUnknown
+  nameWithType: TRpcAnswerUnknown
+  fullName: OpenTl.Schema.TRpcAnswerUnknown
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerUnknown.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRpcAnswerUnknown
+    path: ../src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerUnknown.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRpcAnswerUnknown : object, IRpcDropAnswer, IObject'
+    content.vb: >-
+      Public Class TRpcAnswerUnknown
+
+          Inherits Object
+
+          Implements IRpcDropAnswer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRpcDropAnswer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRpcDropAnswer
+  commentId: T:OpenTl.Schema.IRpcDropAnswer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRpcDropAnswer
+  nameWithType: IRpcDropAnswer
+  fullName: OpenTl.Schema.IRpcDropAnswer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

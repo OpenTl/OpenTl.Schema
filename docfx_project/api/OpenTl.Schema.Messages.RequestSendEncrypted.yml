@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted
+  commentId: T:OpenTl.Schema.Messages.RequestSendEncrypted
+  id: RequestSendEncrypted
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSendEncrypted.Data
+  - OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+  - OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+  langs:
+  - csharp
+  - vb
+  name: RequestSendEncrypted
+  nameWithType: RequestSendEncrypted
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSendEncrypted
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSendEncrypted : object, IRequest<ISentEncryptedMessage>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSendEncrypted
+
+          Inherits Object
+
+          Implements IRequest(Of ISentEncryptedMessage), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.ISentEncryptedMessage}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestSendEncrypted
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSendEncrypted.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputEncryptedChat Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputEncryptedChat
+    content.vb: Public Property Peer As IInputEncryptedChat
+  overload: OpenTl.Schema.Messages.RequestSendEncrypted.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+  commentId: P:OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+  id: RandomId
+  parent: OpenTl.Schema.Messages.RequestSendEncrypted
+  langs:
+  - csharp
+  - vb
+  name: RandomId
+  nameWithType: RequestSendEncrypted.RandomId
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RandomId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public long RandomId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RandomId As Long
+  overload: OpenTl.Schema.Messages.RequestSendEncrypted.RandomId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.Data
+  commentId: P:OpenTl.Schema.Messages.RequestSendEncrypted.Data
+  id: Data
+  parent: OpenTl.Schema.Messages.RequestSendEncrypted
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: RequestSendEncrypted.Data
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendEncrypted.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public byte[] Data { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: OpenTl.Schema.Messages.RequestSendEncrypted.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.ISentEncryptedMessage}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.ISentEncryptedMessage}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ISentEncryptedMessage>
+  nameWithType: IRequest<ISentEncryptedMessage>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.ISentEncryptedMessage>
+  nameWithType.vb: IRequest(Of ISentEncryptedMessage)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.ISentEncryptedMessage)
+  name.vb: IRequest(Of ISentEncryptedMessage)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.ISentEncryptedMessage
+    name: ISentEncryptedMessage
+    nameWithType: ISentEncryptedMessage
+    fullName: OpenTl.Schema.Messages.ISentEncryptedMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.ISentEncryptedMessage
+    name: ISentEncryptedMessage
+    nameWithType: ISentEncryptedMessage
+    fullName: OpenTl.Schema.Messages.ISentEncryptedMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSendEncrypted.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.Peer
+- uid: OpenTl.Schema.IInputEncryptedChat
+  commentId: T:OpenTl.Schema.IInputEncryptedChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputEncryptedChat
+  nameWithType: IInputEncryptedChat
+  fullName: OpenTl.Schema.IInputEncryptedChat
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.RandomId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+  isExternal: false
+  name: RandomId
+  nameWithType: RequestSendEncrypted.RandomId
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.RandomId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Messages.RequestSendEncrypted.Data*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendEncrypted.Data
+  isExternal: false
+  name: Data
+  nameWithType: RequestSendEncrypted.Data
+  fullName: OpenTl.Schema.Messages.RequestSendEncrypted.Data
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

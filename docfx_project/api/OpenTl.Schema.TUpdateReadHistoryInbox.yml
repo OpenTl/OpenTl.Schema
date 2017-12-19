@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox
+  commentId: T:OpenTl.Schema.TUpdateReadHistoryInbox
+  id: TUpdateReadHistoryInbox
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+  - OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+  - OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+  - OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount
+  langs:
+  - csharp
+  - vb
+  name: TUpdateReadHistoryInbox
+  nameWithType: TUpdateReadHistoryInbox
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateReadHistoryInbox
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateReadHistoryInbox : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateReadHistoryInbox
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+  commentId: P:OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+  id: Peer
+  parent: OpenTl.Schema.TUpdateReadHistoryInbox
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TUpdateReadHistoryInbox.Peer
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TUpdateReadHistoryInbox.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+  commentId: P:OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.TUpdateReadHistoryInbox
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: TUpdateReadHistoryInbox.MaxId
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.TUpdateReadHistoryInbox.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+  commentId: P:OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateReadHistoryInbox
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateReadHistoryInbox.Pts
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateReadHistoryInbox.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateReadHistoryInbox
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateReadHistoryInbox.PtsCount
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadHistoryInbox.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.Peer*
+  commentId: Overload:OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TUpdateReadHistoryInbox.Peer
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.MaxId*
+  commentId: Overload:OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: TUpdateReadHistoryInbox.MaxId
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.MaxId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateReadHistoryInbox.Pts
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.Pts
+- uid: OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateReadHistoryInbox.PtsCount
+  fullName: OpenTl.Schema.TUpdateReadHistoryInbox.PtsCount

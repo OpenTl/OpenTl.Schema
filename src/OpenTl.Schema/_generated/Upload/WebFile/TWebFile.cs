@@ -15,6 +15,7 @@ namespace OpenTl.Schema.Upload
        [SerializationOrder(0)]
        public int Size {get; set;}
 
+       /// <summary>Binary representation for the 'MimeType' property</summary>
        [SerializationOrder(1)]
        public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
        private byte[] _MimeTypeAsBinary;

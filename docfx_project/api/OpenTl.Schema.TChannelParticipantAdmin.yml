@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelParticipantAdmin
+  commentId: T:OpenTl.Schema.TChannelParticipantAdmin
+  id: TChannelParticipantAdmin
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+  - OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+  - OpenTl.Schema.TChannelParticipantAdmin.Date
+  - OpenTl.Schema.TChannelParticipantAdmin.Flags
+  - OpenTl.Schema.TChannelParticipantAdmin.InviterId
+  - OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+  - OpenTl.Schema.TChannelParticipantAdmin.UserId
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipantAdmin
+  nameWithType: TChannelParticipantAdmin
+  fullName: OpenTl.Schema.TChannelParticipantAdmin
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipantAdmin
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelParticipantAdmin : object, IChannelParticipant, IObject'
+    content.vb: >-
+      Public Class TChannelParticipantAdmin
+
+          Inherits Object
+
+          Implements IChannelParticipant, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelParticipant
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelParticipantAdmin.Flags
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelParticipantAdmin.Flags
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelParticipantAdmin.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+  id: CanEdit
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: CanEdit
+  nameWithType: TChannelParticipantAdmin.CanEdit
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CanEdit
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool CanEdit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CanEdit As Boolean
+  overload: OpenTl.Schema.TChannelParticipantAdmin.CanEdit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.UserId
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.UserId
+  id: UserId
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TChannelParticipantAdmin.UserId
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TChannelParticipantAdmin.UserId*
+  implements:
+  - OpenTl.Schema.IChannelParticipant.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.InviterId
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.InviterId
+  id: InviterId
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: InviterId
+  nameWithType: TChannelParticipantAdmin.InviterId
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.InviterId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviterId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int InviterId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InviterId As Integer
+  overload: OpenTl.Schema.TChannelParticipantAdmin.InviterId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+  id: PromotedBy
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: PromotedBy
+  nameWithType: TChannelParticipantAdmin.PromotedBy
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PromotedBy
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PromotedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PromotedBy As Integer
+  overload: OpenTl.Schema.TChannelParticipantAdmin.PromotedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.Date
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.Date
+  id: Date
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TChannelParticipantAdmin.Date
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TChannelParticipantAdmin.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+  commentId: P:OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+  id: AdminRights
+  parent: OpenTl.Schema.TChannelParticipantAdmin
+  langs:
+  - csharp
+  - vb
+  name: AdminRights
+  nameWithType: TChannelParticipantAdmin.AdminRights
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AdminRights
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantAdmin.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChannelAdminRights AdminRights { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelAdminRights
+    content.vb: Public Property AdminRights As IChannelAdminRights
+  overload: OpenTl.Schema.TChannelParticipantAdmin.AdminRights*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelParticipant
+  commentId: T:OpenTl.Schema.IChannelParticipant
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipant
+  nameWithType: IChannelParticipant
+  fullName: OpenTl.Schema.IChannelParticipant
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelParticipantAdmin.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelParticipantAdmin.Flags
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelParticipantAdmin.CanEdit*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+  isExternal: false
+  name: CanEdit
+  nameWithType: TChannelParticipantAdmin.CanEdit
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.CanEdit
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelParticipantAdmin.UserId*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TChannelParticipantAdmin.UserId
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.UserId
+- uid: OpenTl.Schema.IChannelParticipant.UserId
+  commentId: P:OpenTl.Schema.IChannelParticipant.UserId
+  parent: OpenTl.Schema.IChannelParticipant
+  isExternal: false
+  name: UserId
+  nameWithType: IChannelParticipant.UserId
+  fullName: OpenTl.Schema.IChannelParticipant.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChannelParticipantAdmin.InviterId*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.InviterId
+  isExternal: false
+  name: InviterId
+  nameWithType: TChannelParticipantAdmin.InviterId
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.InviterId
+- uid: OpenTl.Schema.TChannelParticipantAdmin.PromotedBy*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+  isExternal: false
+  name: PromotedBy
+  nameWithType: TChannelParticipantAdmin.PromotedBy
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.PromotedBy
+- uid: OpenTl.Schema.TChannelParticipantAdmin.Date*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.Date
+  isExternal: false
+  name: Date
+  nameWithType: TChannelParticipantAdmin.Date
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.Date
+- uid: OpenTl.Schema.TChannelParticipantAdmin.AdminRights*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+  isExternal: false
+  name: AdminRights
+  nameWithType: TChannelParticipantAdmin.AdminRights
+  fullName: OpenTl.Schema.TChannelParticipantAdmin.AdminRights
+- uid: OpenTl.Schema.IChannelAdminRights
+  commentId: T:OpenTl.Schema.IChannelAdminRights
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminRights
+  nameWithType: IChannelAdminRights
+  fullName: OpenTl.Schema.IChannelAdminRights

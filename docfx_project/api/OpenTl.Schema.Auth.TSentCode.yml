@@ -1,0 +1,494 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TSentCode
+  commentId: T:OpenTl.Schema.Auth.TSentCode
+  id: TSentCode
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TSentCode.Flags
+  - OpenTl.Schema.Auth.TSentCode.NextType
+  - OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+  - OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+  - OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+  - OpenTl.Schema.Auth.TSentCode.Timeout
+  - OpenTl.Schema.Auth.TSentCode.Type
+  langs:
+  - csharp
+  - vb
+  name: TSentCode
+  nameWithType: TSentCode
+  fullName: OpenTl.Schema.Auth.TSentCode
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSentCode
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TSentCode : object, ISentCode, IObject'
+    content.vb: >-
+      Public Class TSentCode
+
+          Inherits Object
+
+          Implements ISentCode, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.ISentCode
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TSentCode.Flags
+  commentId: P:OpenTl.Schema.Auth.TSentCode.Flags
+  id: Flags
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TSentCode.Flags
+  fullName: OpenTl.Schema.Auth.TSentCode.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Auth.TSentCode.Flags*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+  commentId: P:OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+  id: PhoneRegistered
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneRegistered
+  nameWithType: TSentCode.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneRegistered
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public bool PhoneRegistered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneRegistered As Boolean
+  overload: OpenTl.Schema.Auth.TSentCode.PhoneRegistered*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.PhoneRegistered
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.Type
+  commentId: P:OpenTl.Schema.Auth.TSentCode.Type
+  id: Type
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TSentCode.Type
+  fullName: OpenTl.Schema.Auth.TSentCode.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public ISentCodeType Type { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Auth.ISentCodeType
+    content.vb: Public Property Type As ISentCodeType
+  overload: OpenTl.Schema.Auth.TSentCode.Type*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+  commentId: P:OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+  id: PhoneCodeHashAsBinary
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHashAsBinary
+  nameWithType: TSentCode.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHashAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneCodeHash&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeHashAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeHashAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.PhoneCodeHashAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+  commentId: P:OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+  id: PhoneCodeHash
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHash
+  nameWithType: TSentCode.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHash
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneCodeHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCodeHash As String
+  overload: OpenTl.Schema.Auth.TSentCode.PhoneCodeHash*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.PhoneCodeHash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.NextType
+  commentId: P:OpenTl.Schema.Auth.TSentCode.NextType
+  id: NextType
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: NextType
+  nameWithType: TSentCode.NextType
+  fullName: OpenTl.Schema.Auth.TSentCode.NextType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NextType
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public ICodeType NextType { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Auth.ICodeType
+    content.vb: Public Property NextType As ICodeType
+  overload: OpenTl.Schema.Auth.TSentCode.NextType*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.NextType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCode.Timeout
+  commentId: P:OpenTl.Schema.Auth.TSentCode.Timeout
+  id: Timeout
+  parent: OpenTl.Schema.Auth.TSentCode
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: TSentCode.Timeout
+  fullName: OpenTl.Schema.Auth.TSentCode.Timeout
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Timeout
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCode/TSentCode.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: OpenTl.Schema.Auth.TSentCode.Timeout*
+  implements:
+  - OpenTl.Schema.Auth.ISentCode.Timeout
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.ISentCode
+  commentId: T:OpenTl.Schema.Auth.ISentCode
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ISentCode
+  nameWithType: ISentCode
+  fullName: OpenTl.Schema.Auth.ISentCode
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TSentCode.Flags*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TSentCode.Flags
+  fullName: OpenTl.Schema.Auth.TSentCode.Flags
+- uid: OpenTl.Schema.Auth.ISentCode.Flags
+  commentId: P:OpenTl.Schema.Auth.ISentCode.Flags
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: Flags
+  nameWithType: ISentCode.Flags
+  fullName: OpenTl.Schema.Auth.ISentCode.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneRegistered*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+  isExternal: false
+  name: PhoneRegistered
+  nameWithType: TSentCode.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneRegistered
+- uid: OpenTl.Schema.Auth.ISentCode.PhoneRegistered
+  commentId: P:OpenTl.Schema.Auth.ISentCode.PhoneRegistered
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: PhoneRegistered
+  nameWithType: ISentCode.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.ISentCode.PhoneRegistered
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Auth.TSentCode.Type*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.Type
+  isExternal: false
+  name: Type
+  nameWithType: TSentCode.Type
+  fullName: OpenTl.Schema.Auth.TSentCode.Type
+- uid: OpenTl.Schema.Auth.ISentCode.Type
+  commentId: P:OpenTl.Schema.Auth.ISentCode.Type
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: Type
+  nameWithType: ISentCode.Type
+  fullName: OpenTl.Schema.Auth.ISentCode.Type
+- uid: OpenTl.Schema.Auth.ISentCodeType
+  commentId: T:OpenTl.Schema.Auth.ISentCodeType
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ISentCodeType
+  nameWithType: ISentCodeType
+  fullName: OpenTl.Schema.Auth.ISentCodeType
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+  isExternal: false
+  name: PhoneCodeHashAsBinary
+  nameWithType: TSentCode.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneCodeHashAsBinary
+- uid: OpenTl.Schema.Auth.ISentCode.PhoneCodeHashAsBinary
+  commentId: P:OpenTl.Schema.Auth.ISentCode.PhoneCodeHashAsBinary
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: PhoneCodeHashAsBinary
+  nameWithType: ISentCode.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.ISentCode.PhoneCodeHashAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Auth.TSentCode.PhoneCodeHash*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+  isExternal: false
+  name: PhoneCodeHash
+  nameWithType: TSentCode.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.TSentCode.PhoneCodeHash
+- uid: OpenTl.Schema.Auth.ISentCode.PhoneCodeHash
+  commentId: P:OpenTl.Schema.Auth.ISentCode.PhoneCodeHash
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: PhoneCodeHash
+  nameWithType: ISentCode.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.ISentCode.PhoneCodeHash
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Auth.TSentCode.NextType*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.NextType
+  isExternal: false
+  name: NextType
+  nameWithType: TSentCode.NextType
+  fullName: OpenTl.Schema.Auth.TSentCode.NextType
+- uid: OpenTl.Schema.Auth.ISentCode.NextType
+  commentId: P:OpenTl.Schema.Auth.ISentCode.NextType
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: NextType
+  nameWithType: ISentCode.NextType
+  fullName: OpenTl.Schema.Auth.ISentCode.NextType
+- uid: OpenTl.Schema.Auth.ICodeType
+  commentId: T:OpenTl.Schema.Auth.ICodeType
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ICodeType
+  nameWithType: ICodeType
+  fullName: OpenTl.Schema.Auth.ICodeType
+- uid: OpenTl.Schema.Auth.TSentCode.Timeout*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCode.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: TSentCode.Timeout
+  fullName: OpenTl.Schema.Auth.TSentCode.Timeout
+- uid: OpenTl.Schema.Auth.ISentCode.Timeout
+  commentId: P:OpenTl.Schema.Auth.ISentCode.Timeout
+  parent: OpenTl.Schema.Auth.ISentCode
+  isExternal: false
+  name: Timeout
+  nameWithType: ISentCode.Timeout
+  fullName: OpenTl.Schema.Auth.ISentCode.Timeout
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

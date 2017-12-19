@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public double Time {get; set;}
 
+       /// <summary>Binary representation for the 'Type' property</summary>
        [SerializationOrder(1)]
        public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
        private byte[] _TypeAsBinary;
@@ -24,6 +25,7 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public long Peer {get; set;}
 
+       /// <summary>Binary representation for the 'Data' property</summary>
        [SerializationOrder(3)]
        public byte[] DataAsBinary { get => _DataAsBinary; set { _Data = Encoding.UTF8.GetString(value); _DataAsBinary = value; }}
        private byte[] _DataAsBinary;

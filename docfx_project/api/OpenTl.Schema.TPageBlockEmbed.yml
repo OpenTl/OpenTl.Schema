@@ -1,0 +1,593 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockEmbed
+  commentId: T:OpenTl.Schema.TPageBlockEmbed
+  id: TPageBlockEmbed
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+  - OpenTl.Schema.TPageBlockEmbed.Caption
+  - OpenTl.Schema.TPageBlockEmbed.Flags
+  - OpenTl.Schema.TPageBlockEmbed.FullWidth
+  - OpenTl.Schema.TPageBlockEmbed.H
+  - OpenTl.Schema.TPageBlockEmbed.Html
+  - OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+  - OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+  - OpenTl.Schema.TPageBlockEmbed.Url
+  - OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+  - OpenTl.Schema.TPageBlockEmbed.W
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockEmbed
+  nameWithType: TPageBlockEmbed
+  fullName: OpenTl.Schema.TPageBlockEmbed
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockEmbed
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockEmbed : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockEmbed
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockEmbed.Flags
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPageBlockEmbed.Flags
+  fullName: OpenTl.Schema.TPageBlockEmbed.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPageBlockEmbed.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.FullWidth
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.FullWidth
+  id: FullWidth
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: FullWidth
+  nameWithType: TPageBlockEmbed.FullWidth
+  fullName: OpenTl.Schema.TPageBlockEmbed.FullWidth
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FullWidth
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool FullWidth { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property FullWidth As Boolean
+  overload: OpenTl.Schema.TPageBlockEmbed.FullWidth*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+  id: AllowScrolling
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: AllowScrolling
+  nameWithType: TPageBlockEmbed.AllowScrolling
+  fullName: OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AllowScrolling
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool AllowScrolling { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowScrolling As Boolean
+  overload: OpenTl.Schema.TPageBlockEmbed.AllowScrolling*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TPageBlockEmbed.UrlAsBinary
+  fullName: OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TPageBlockEmbed.UrlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.Url
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.Url
+  id: Url
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TPageBlockEmbed.Url
+  fullName: OpenTl.Schema.TPageBlockEmbed.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TPageBlockEmbed.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+  id: HtmlAsBinary
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: HtmlAsBinary
+  nameWithType: TPageBlockEmbed.HtmlAsBinary
+  fullName: OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: HtmlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Html&apos; property
+  example: []
+  syntax:
+    content: public byte[] HtmlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property HtmlAsBinary As Byte()
+  overload: OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.Html
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.Html
+  id: Html
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: Html
+  nameWithType: TPageBlockEmbed.Html
+  fullName: OpenTl.Schema.TPageBlockEmbed.Html
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Html
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Html { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Html As String
+  overload: OpenTl.Schema.TPageBlockEmbed.Html*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+  id: PosterPhotoId
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: PosterPhotoId
+  nameWithType: TPageBlockEmbed.PosterPhotoId
+  fullName: OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PosterPhotoId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PosterPhotoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PosterPhotoId As Long
+  overload: OpenTl.Schema.TPageBlockEmbed.PosterPhotoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.W
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.W
+  id: W
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: TPageBlockEmbed.W
+  fullName: OpenTl.Schema.TPageBlockEmbed.W
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: W
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int W { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property W As Integer
+  overload: OpenTl.Schema.TPageBlockEmbed.W*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.H
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.H
+  id: H
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: TPageBlockEmbed.H
+  fullName: OpenTl.Schema.TPageBlockEmbed.H
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: H
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 48
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int H { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property H As Integer
+  overload: OpenTl.Schema.TPageBlockEmbed.H*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockEmbed.Caption
+  commentId: P:OpenTl.Schema.TPageBlockEmbed.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockEmbed
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockEmbed.Caption
+  fullName: OpenTl.Schema.TPageBlockEmbed.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockEmbed.cs
+    startLine: 51
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockEmbed.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockEmbed.Flags*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPageBlockEmbed.Flags
+  fullName: OpenTl.Schema.TPageBlockEmbed.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPageBlockEmbed.FullWidth*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.FullWidth
+  isExternal: false
+  name: FullWidth
+  nameWithType: TPageBlockEmbed.FullWidth
+  fullName: OpenTl.Schema.TPageBlockEmbed.FullWidth
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TPageBlockEmbed.AllowScrolling*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+  isExternal: false
+  name: AllowScrolling
+  nameWithType: TPageBlockEmbed.AllowScrolling
+  fullName: OpenTl.Schema.TPageBlockEmbed.AllowScrolling
+- uid: OpenTl.Schema.TPageBlockEmbed.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TPageBlockEmbed.UrlAsBinary
+  fullName: OpenTl.Schema.TPageBlockEmbed.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPageBlockEmbed.Url*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.Url
+  isExternal: false
+  name: Url
+  nameWithType: TPageBlockEmbed.Url
+  fullName: OpenTl.Schema.TPageBlockEmbed.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+  isExternal: false
+  name: HtmlAsBinary
+  nameWithType: TPageBlockEmbed.HtmlAsBinary
+  fullName: OpenTl.Schema.TPageBlockEmbed.HtmlAsBinary
+- uid: OpenTl.Schema.TPageBlockEmbed.Html*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.Html
+  isExternal: false
+  name: Html
+  nameWithType: TPageBlockEmbed.Html
+  fullName: OpenTl.Schema.TPageBlockEmbed.Html
+- uid: OpenTl.Schema.TPageBlockEmbed.PosterPhotoId*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+  isExternal: false
+  name: PosterPhotoId
+  nameWithType: TPageBlockEmbed.PosterPhotoId
+  fullName: OpenTl.Schema.TPageBlockEmbed.PosterPhotoId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPageBlockEmbed.W*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.W
+  isExternal: false
+  name: W
+  nameWithType: TPageBlockEmbed.W
+  fullName: OpenTl.Schema.TPageBlockEmbed.W
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPageBlockEmbed.H*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.H
+  isExternal: false
+  name: H
+  nameWithType: TPageBlockEmbed.H
+  fullName: OpenTl.Schema.TPageBlockEmbed.H
+- uid: OpenTl.Schema.TPageBlockEmbed.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockEmbed.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockEmbed.Caption
+  fullName: OpenTl.Schema.TPageBlockEmbed.Caption
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestResetTopPeerRating
+  commentId: T:OpenTl.Schema.Contacts.RequestResetTopPeerRating
+  id: RequestResetTopPeerRating
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+  - OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+  langs:
+  - csharp
+  - vb
+  name: RequestResetTopPeerRating
+  nameWithType: RequestResetTopPeerRating
+  fullName: OpenTl.Schema.Contacts.RequestResetTopPeerRating
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestResetTopPeerRating
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestResetTopPeerRating : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestResetTopPeerRating
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+  commentId: P:OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+  id: Category
+  parent: OpenTl.Schema.Contacts.RequestResetTopPeerRating
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: RequestResetTopPeerRating.Category
+  fullName: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Category
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public ITopPeerCategory Category { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.ITopPeerCategory
+    content.vb: Public Property Category As ITopPeerCategory
+  overload: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+  commentId: P:OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+  id: Peer
+  parent: OpenTl.Schema.Contacts.RequestResetTopPeerRating
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestResetTopPeerRating.Peer
+  fullName: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResetTopPeerRating.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+  isExternal: false
+  name: Category
+  nameWithType: RequestResetTopPeerRating.Category
+  fullName: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Category
+- uid: OpenTl.Schema.ITopPeerCategory
+  commentId: T:OpenTl.Schema.ITopPeerCategory
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ITopPeerCategory
+  nameWithType: ITopPeerCategory
+  fullName: OpenTl.Schema.ITopPeerCategory
+- uid: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestResetTopPeerRating.Peer
+  fullName: OpenTl.Schema.Contacts.RequestResetTopPeerRating.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer

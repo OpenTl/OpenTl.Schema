@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionToggleInvites
+  id: TChannelAdminLogEventActionToggleInvites
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionToggleInvites
+  nameWithType: TChannelAdminLogEventActionToggleInvites
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionToggleInvites.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionToggleInvites
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionToggleInvites.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionToggleInvites : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionToggleInvites
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+  id: NewValue
+  parent: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites
+  langs:
+  - csharp
+  - vb
+  name: NewValue
+  nameWithType: TChannelAdminLogEventActionToggleInvites.NewValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionToggleInvites.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionToggleInvites.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool NewValue { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NewValue As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+  isExternal: false
+  name: NewValue
+  nameWithType: TChannelAdminLogEventActionToggleInvites.NewValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionToggleInvites.NewValue
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

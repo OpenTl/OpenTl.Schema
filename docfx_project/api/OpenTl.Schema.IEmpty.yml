@@ -1,0 +1,41 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  id: IEmpty
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/IEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IEmpty
+    path: ../src/OpenTl.Schema/IEmpty.cs
+    startLine: 2
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public interface IEmpty
+    content.vb: Public Interface IEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

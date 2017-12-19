@@ -1,0 +1,367 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TReplyKeyboardMarkup
+  commentId: T:OpenTl.Schema.TReplyKeyboardMarkup
+  id: TReplyKeyboardMarkup
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TReplyKeyboardMarkup.Flags
+  - OpenTl.Schema.TReplyKeyboardMarkup.Resize
+  - OpenTl.Schema.TReplyKeyboardMarkup.Rows
+  - OpenTl.Schema.TReplyKeyboardMarkup.Selective
+  - OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+  langs:
+  - csharp
+  - vb
+  name: TReplyKeyboardMarkup
+  nameWithType: TReplyKeyboardMarkup
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TReplyKeyboardMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TReplyKeyboardMarkup : object, IReplyMarkup, IObject'
+    content.vb: >-
+      Public Class TReplyKeyboardMarkup
+
+          Inherits Object
+
+          Implements IReplyMarkup, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IReplyMarkup
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Flags
+  commentId: P:OpenTl.Schema.TReplyKeyboardMarkup.Flags
+  id: Flags
+  parent: OpenTl.Schema.TReplyKeyboardMarkup
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TReplyKeyboardMarkup.Flags
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TReplyKeyboardMarkup.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Resize
+  commentId: P:OpenTl.Schema.TReplyKeyboardMarkup.Resize
+  id: Resize
+  parent: OpenTl.Schema.TReplyKeyboardMarkup
+  langs:
+  - csharp
+  - vb
+  name: Resize
+  nameWithType: TReplyKeyboardMarkup.Resize
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Resize
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Resize
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Resize { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Resize As Boolean
+  overload: OpenTl.Schema.TReplyKeyboardMarkup.Resize*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+  commentId: P:OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+  id: SingleUse
+  parent: OpenTl.Schema.TReplyKeyboardMarkup
+  langs:
+  - csharp
+  - vb
+  name: SingleUse
+  nameWithType: TReplyKeyboardMarkup.SingleUse
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SingleUse
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool SingleUse { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SingleUse As Boolean
+  overload: OpenTl.Schema.TReplyKeyboardMarkup.SingleUse*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Selective
+  commentId: P:OpenTl.Schema.TReplyKeyboardMarkup.Selective
+  id: Selective
+  parent: OpenTl.Schema.TReplyKeyboardMarkup
+  langs:
+  - csharp
+  - vb
+  name: Selective
+  nameWithType: TReplyKeyboardMarkup.Selective
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Selective
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Selective
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Selective { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Selective As Boolean
+  overload: OpenTl.Schema.TReplyKeyboardMarkup.Selective*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Rows
+  commentId: P:OpenTl.Schema.TReplyKeyboardMarkup.Rows
+  id: Rows
+  parent: OpenTl.Schema.TReplyKeyboardMarkup
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: TReplyKeyboardMarkup.Rows
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Rows
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rows
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyKeyboardMarkup.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IKeyboardButtonRow> Rows { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+    content.vb: Public Property Rows As TVector(Of IKeyboardButtonRow)
+  overload: OpenTl.Schema.TReplyKeyboardMarkup.Rows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Flags*
+  commentId: Overload:OpenTl.Schema.TReplyKeyboardMarkup.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TReplyKeyboardMarkup.Flags
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Resize*
+  commentId: Overload:OpenTl.Schema.TReplyKeyboardMarkup.Resize
+  isExternal: false
+  name: Resize
+  nameWithType: TReplyKeyboardMarkup.Resize
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Resize
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.SingleUse*
+  commentId: Overload:OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+  isExternal: false
+  name: SingleUse
+  nameWithType: TReplyKeyboardMarkup.SingleUse
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.SingleUse
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Selective*
+  commentId: Overload:OpenTl.Schema.TReplyKeyboardMarkup.Selective
+  isExternal: false
+  name: Selective
+  nameWithType: TReplyKeyboardMarkup.Selective
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Selective
+- uid: OpenTl.Schema.TReplyKeyboardMarkup.Rows*
+  commentId: Overload:OpenTl.Schema.TReplyKeyboardMarkup.Rows
+  isExternal: false
+  name: Rows
+  nameWithType: TReplyKeyboardMarkup.Rows
+  fullName: OpenTl.Schema.TReplyKeyboardMarkup.Rows
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IKeyboardButtonRow>
+  nameWithType: TVector<IKeyboardButtonRow>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButtonRow>
+  nameWithType.vb: TVector(Of IKeyboardButtonRow)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IKeyboardButtonRow)
+  name.vb: TVector(Of IKeyboardButtonRow)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IKeyboardButtonRow
+    name: IKeyboardButtonRow
+    nameWithType: IKeyboardButtonRow
+    fullName: OpenTl.Schema.IKeyboardButtonRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IKeyboardButtonRow
+    name: IKeyboardButtonRow
+    nameWithType: IKeyboardButtonRow
+    fullName: OpenTl.Schema.IKeyboardButtonRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

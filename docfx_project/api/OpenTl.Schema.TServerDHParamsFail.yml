@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TServerDHParamsFail
+  commentId: T:OpenTl.Schema.TServerDHParamsFail
+  id: TServerDHParamsFail
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TServerDHParamsFail.NewNonceHash
+  - OpenTl.Schema.TServerDHParamsFail.Nonce
+  - OpenTl.Schema.TServerDHParamsFail.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TServerDHParamsFail
+  nameWithType: TServerDHParamsFail
+  fullName: OpenTl.Schema.TServerDHParamsFail
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TServerDHParamsFail
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TServerDHParamsFail : object, IServerDHParams, IObject'
+    content.vb: >-
+      Public Class TServerDHParamsFail
+
+          Inherits Object
+
+          Implements IServerDHParams, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IServerDHParams
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TServerDHParamsFail.Nonce
+  commentId: P:OpenTl.Schema.TServerDHParamsFail.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TServerDHParamsFail
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TServerDHParamsFail.Nonce
+  fullName: OpenTl.Schema.TServerDHParamsFail.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TServerDHParamsFail.Nonce*
+  implements:
+  - OpenTl.Schema.IServerDHParams.Nonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TServerDHParamsFail.ServerNonce
+  commentId: P:OpenTl.Schema.TServerDHParamsFail.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TServerDHParamsFail
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TServerDHParamsFail.ServerNonce
+  fullName: OpenTl.Schema.TServerDHParamsFail.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TServerDHParamsFail.ServerNonce*
+  implements:
+  - OpenTl.Schema.IServerDHParams.ServerNonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TServerDHParamsFail.NewNonceHash
+  commentId: P:OpenTl.Schema.TServerDHParamsFail.NewNonceHash
+  id: NewNonceHash
+  parent: OpenTl.Schema.TServerDHParamsFail
+  langs:
+  - csharp
+  - vb
+  name: NewNonceHash
+  nameWithType: TServerDHParamsFail.NewNonceHash
+  fullName: OpenTl.Schema.TServerDHParamsFail.NewNonceHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewNonceHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsFail.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] NewNonceHash { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NewNonceHash As Byte()
+  overload: OpenTl.Schema.TServerDHParamsFail.NewNonceHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IServerDHParams
+  commentId: T:OpenTl.Schema.IServerDHParams
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IServerDHParams
+  nameWithType: IServerDHParams
+  fullName: OpenTl.Schema.IServerDHParams
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TServerDHParamsFail.Nonce*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsFail.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TServerDHParamsFail.Nonce
+  fullName: OpenTl.Schema.TServerDHParamsFail.Nonce
+- uid: OpenTl.Schema.IServerDHParams.Nonce
+  commentId: P:OpenTl.Schema.IServerDHParams.Nonce
+  parent: OpenTl.Schema.IServerDHParams
+  isExternal: false
+  name: Nonce
+  nameWithType: IServerDHParams.Nonce
+  fullName: OpenTl.Schema.IServerDHParams.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TServerDHParamsFail.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsFail.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TServerDHParamsFail.ServerNonce
+  fullName: OpenTl.Schema.TServerDHParamsFail.ServerNonce
+- uid: OpenTl.Schema.IServerDHParams.ServerNonce
+  commentId: P:OpenTl.Schema.IServerDHParams.ServerNonce
+  parent: OpenTl.Schema.IServerDHParams
+  isExternal: false
+  name: ServerNonce
+  nameWithType: IServerDHParams.ServerNonce
+  fullName: OpenTl.Schema.IServerDHParams.ServerNonce
+- uid: OpenTl.Schema.TServerDHParamsFail.NewNonceHash*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsFail.NewNonceHash
+  isExternal: false
+  name: NewNonceHash
+  nameWithType: TServerDHParamsFail.NewNonceHash
+  fullName: OpenTl.Schema.TServerDHParamsFail.NewNonceHash

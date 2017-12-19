@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TReplyInlineMarkup
+  commentId: T:OpenTl.Schema.TReplyInlineMarkup
+  id: TReplyInlineMarkup
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TReplyInlineMarkup.Rows
+  langs:
+  - csharp
+  - vb
+  name: TReplyInlineMarkup
+  nameWithType: TReplyInlineMarkup
+  fullName: OpenTl.Schema.TReplyInlineMarkup
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyInlineMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TReplyInlineMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyInlineMarkup.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TReplyInlineMarkup : object, IReplyMarkup, IObject'
+    content.vb: >-
+      Public Class TReplyInlineMarkup
+
+          Inherits Object
+
+          Implements IReplyMarkup, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IReplyMarkup
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TReplyInlineMarkup.Rows
+  commentId: P:OpenTl.Schema.TReplyInlineMarkup.Rows
+  id: Rows
+  parent: OpenTl.Schema.TReplyInlineMarkup
+  langs:
+  - csharp
+  - vb
+  name: Rows
+  nameWithType: TReplyInlineMarkup.Rows
+  fullName: OpenTl.Schema.TReplyInlineMarkup.Rows
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyInlineMarkup.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rows
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReplyMarkup/TReplyInlineMarkup.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IKeyboardButtonRow> Rows { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+    content.vb: Public Property Rows As TVector(Of IKeyboardButtonRow)
+  overload: OpenTl.Schema.TReplyInlineMarkup.Rows*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TReplyInlineMarkup.Rows*
+  commentId: Overload:OpenTl.Schema.TReplyInlineMarkup.Rows
+  isExternal: false
+  name: Rows
+  nameWithType: TReplyInlineMarkup.Rows
+  fullName: OpenTl.Schema.TReplyInlineMarkup.Rows
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButtonRow}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IKeyboardButtonRow>
+  nameWithType: TVector<IKeyboardButtonRow>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButtonRow>
+  nameWithType.vb: TVector(Of IKeyboardButtonRow)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IKeyboardButtonRow)
+  name.vb: TVector(Of IKeyboardButtonRow)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IKeyboardButtonRow
+    name: IKeyboardButtonRow
+    nameWithType: IKeyboardButtonRow
+    fullName: OpenTl.Schema.IKeyboardButtonRow
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IKeyboardButtonRow
+    name: IKeyboardButtonRow
+    nameWithType: IKeyboardButtonRow
+    fullName: OpenTl.Schema.IKeyboardButtonRow
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

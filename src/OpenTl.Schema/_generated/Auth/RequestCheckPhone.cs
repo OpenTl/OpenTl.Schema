@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Auth
 	[Serialize(0x6fe51dfb)]
     public class RequestCheckPhone : IRequest<OpenTl.Schema.Auth.ICheckedPhone>
     {
+       /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]
        public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
        private byte[] _PhoneNumberAsBinary;

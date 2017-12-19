@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  commentId: T:OpenTl.Schema.Messages.RequestGetDocumentByHash
+  id: RequestGetDocumentByHash
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+  - OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+  - OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+  - OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+  langs:
+  - csharp
+  - vb
+  name: RequestGetDocumentByHash
+  nameWithType: RequestGetDocumentByHash
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetDocumentByHash
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestGetDocumentByHash : object, IRequest<IDocument>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetDocumentByHash
+
+          Inherits Object
+
+          Implements IRequest(Of IDocument), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IDocument}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+  commentId: P:OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+  id: Sha256
+  parent: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  langs:
+  - csharp
+  - vb
+  name: Sha256
+  nameWithType: RequestGetDocumentByHash.Sha256
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sha256
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public byte[] Sha256 { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Sha256 As Byte()
+  overload: OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+  commentId: P:OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+  id: Size
+  parent: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: RequestGetDocumentByHash.Size
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Size As Integer
+  overload: OpenTl.Schema.Messages.RequestGetDocumentByHash.Size*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+  id: MimeTypeAsBinary
+  parent: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeAsBinary
+  nameWithType: RequestGetDocumentByHash.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  summary: Binary representation for the &apos;MimeType&apos; property
+  example: []
+  syntax:
+    content: public byte[] MimeTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MimeTypeAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+  commentId: P:OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+  id: MimeType
+  parent: OpenTl.Schema.Messages.RequestGetDocumentByHash
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: RequestGetDocumentByHash.MimeType
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeType
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetDocumentByHash.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IDocument}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IDocument>
+  nameWithType: IRequest<IDocument>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IDocument>
+  nameWithType.vb: IRequest(Of IDocument)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IDocument)
+  name.vb: IRequest(Of IDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+  isExternal: false
+  name: Sha256
+  nameWithType: RequestGetDocumentByHash.Sha256
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.Sha256
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.Size*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+  isExternal: false
+  name: Size
+  nameWithType: RequestGetDocumentByHash.Size
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: RequestGetDocumentByHash.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeTypeAsBinary
+- uid: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+  isExternal: false
+  name: MimeType
+  nameWithType: RequestGetDocumentByHash.MimeType
+  fullName: OpenTl.Schema.Messages.RequestGetDocumentByHash.MimeType
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateDraftMessage
+  commentId: T:OpenTl.Schema.TUpdateDraftMessage
+  id: TUpdateDraftMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateDraftMessage.Draft
+  - OpenTl.Schema.TUpdateDraftMessage.Peer
+  langs:
+  - csharp
+  - vb
+  name: TUpdateDraftMessage
+  nameWithType: TUpdateDraftMessage
+  fullName: OpenTl.Schema.TUpdateDraftMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateDraftMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateDraftMessage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateDraftMessage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateDraftMessage.Peer
+  commentId: P:OpenTl.Schema.TUpdateDraftMessage.Peer
+  id: Peer
+  parent: OpenTl.Schema.TUpdateDraftMessage
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TUpdateDraftMessage.Peer
+  fullName: OpenTl.Schema.TUpdateDraftMessage.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TUpdateDraftMessage.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDraftMessage.Draft
+  commentId: P:OpenTl.Schema.TUpdateDraftMessage.Draft
+  id: Draft
+  parent: OpenTl.Schema.TUpdateDraftMessage
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: TUpdateDraftMessage.Draft
+  fullName: OpenTl.Schema.TUpdateDraftMessage.Draft
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Draft
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDraftMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDraftMessage Draft { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDraftMessage
+    content.vb: Public Property Draft As IDraftMessage
+  overload: OpenTl.Schema.TUpdateDraftMessage.Draft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateDraftMessage.Peer*
+  commentId: Overload:OpenTl.Schema.TUpdateDraftMessage.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TUpdateDraftMessage.Peer
+  fullName: OpenTl.Schema.TUpdateDraftMessage.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.TUpdateDraftMessage.Draft*
+  commentId: Overload:OpenTl.Schema.TUpdateDraftMessage.Draft
+  isExternal: false
+  name: Draft
+  nameWithType: TUpdateDraftMessage.Draft
+  fullName: OpenTl.Schema.TUpdateDraftMessage.Draft
+- uid: OpenTl.Schema.IDraftMessage
+  commentId: T:OpenTl.Schema.IDraftMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDraftMessage
+  nameWithType: IDraftMessage
+  fullName: OpenTl.Schema.IDraftMessage

@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineMessageID
+  commentId: T:OpenTl.Schema.TInputBotInlineMessageID
+  id: TInputBotInlineMessageID
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+  - OpenTl.Schema.TInputBotInlineMessageID.DcId
+  - OpenTl.Schema.TInputBotInlineMessageID.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineMessageID
+  nameWithType: TInputBotInlineMessageID
+  fullName: OpenTl.Schema.TInputBotInlineMessageID
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineMessageID
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineMessageID : object, IInputBotInlineMessageID, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineMessageID
+
+          Inherits Object
+
+          Implements IInputBotInlineMessageID, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessageID
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineMessageID.DcId
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageID.DcId
+  id: DcId
+  parent: OpenTl.Schema.TInputBotInlineMessageID
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TInputBotInlineMessageID.DcId
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.TInputBotInlineMessageID.DcId*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessageID.DcId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageID.Id
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageID.Id
+  id: Id
+  parent: OpenTl.Schema.TInputBotInlineMessageID
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputBotInlineMessageID.Id
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputBotInlineMessageID.Id*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessageID.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputBotInlineMessageID
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputBotInlineMessageID.AccessHash
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessageID/TInputBotInlineMessageID.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputBotInlineMessageID.AccessHash*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessageID.AccessHash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineMessageID
+  commentId: T:OpenTl.Schema.IInputBotInlineMessageID
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessageID
+  nameWithType: IInputBotInlineMessageID
+  fullName: OpenTl.Schema.IInputBotInlineMessageID
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineMessageID.DcId*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageID.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TInputBotInlineMessageID.DcId
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.DcId
+- uid: OpenTl.Schema.IInputBotInlineMessageID.DcId
+  commentId: P:OpenTl.Schema.IInputBotInlineMessageID.DcId
+  parent: OpenTl.Schema.IInputBotInlineMessageID
+  isExternal: false
+  name: DcId
+  nameWithType: IInputBotInlineMessageID.DcId
+  fullName: OpenTl.Schema.IInputBotInlineMessageID.DcId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputBotInlineMessageID.Id*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageID.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputBotInlineMessageID.Id
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.Id
+- uid: OpenTl.Schema.IInputBotInlineMessageID.Id
+  commentId: P:OpenTl.Schema.IInputBotInlineMessageID.Id
+  parent: OpenTl.Schema.IInputBotInlineMessageID
+  isExternal: false
+  name: Id
+  nameWithType: IInputBotInlineMessageID.Id
+  fullName: OpenTl.Schema.IInputBotInlineMessageID.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputBotInlineMessageID.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputBotInlineMessageID.AccessHash
+  fullName: OpenTl.Schema.TInputBotInlineMessageID.AccessHash
+- uid: OpenTl.Schema.IInputBotInlineMessageID.AccessHash
+  commentId: P:OpenTl.Schema.IInputBotInlineMessageID.AccessHash
+  parent: OpenTl.Schema.IInputBotInlineMessageID
+  isExternal: false
+  name: AccessHash
+  nameWithType: IInputBotInlineMessageID.AccessHash
+  fullName: OpenTl.Schema.IInputBotInlineMessageID.AccessHash

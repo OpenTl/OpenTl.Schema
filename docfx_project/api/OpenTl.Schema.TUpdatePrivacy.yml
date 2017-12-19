@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdatePrivacy
+  commentId: T:OpenTl.Schema.TUpdatePrivacy
+  id: TUpdatePrivacy
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdatePrivacy.Key
+  - OpenTl.Schema.TUpdatePrivacy.Rules
+  langs:
+  - csharp
+  - vb
+  name: TUpdatePrivacy
+  nameWithType: TUpdatePrivacy
+  fullName: OpenTl.Schema.TUpdatePrivacy
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdatePrivacy
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdatePrivacy : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdatePrivacy
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdatePrivacy.Key
+  commentId: P:OpenTl.Schema.TUpdatePrivacy.Key
+  id: Key
+  parent: OpenTl.Schema.TUpdatePrivacy
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: TUpdatePrivacy.Key
+  fullName: OpenTl.Schema.TUpdatePrivacy.Key
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Key
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPrivacyKey Key { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPrivacyKey
+    content.vb: Public Property Key As IPrivacyKey
+  overload: OpenTl.Schema.TUpdatePrivacy.Key*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdatePrivacy.Rules
+  commentId: P:OpenTl.Schema.TUpdatePrivacy.Rules
+  id: Rules
+  parent: OpenTl.Schema.TUpdatePrivacy
+  langs:
+  - csharp
+  - vb
+  name: Rules
+  nameWithType: TUpdatePrivacy.Rules
+  fullName: OpenTl.Schema.TUpdatePrivacy.Rules
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rules
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePrivacy.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IPrivacyRule> Rules { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+    content.vb: Public Property Rules As TVector(Of IPrivacyRule)
+  overload: OpenTl.Schema.TUpdatePrivacy.Rules*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdatePrivacy.Key*
+  commentId: Overload:OpenTl.Schema.TUpdatePrivacy.Key
+  isExternal: false
+  name: Key
+  nameWithType: TUpdatePrivacy.Key
+  fullName: OpenTl.Schema.TUpdatePrivacy.Key
+- uid: OpenTl.Schema.IPrivacyKey
+  commentId: T:OpenTl.Schema.IPrivacyKey
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPrivacyKey
+  nameWithType: IPrivacyKey
+  fullName: OpenTl.Schema.IPrivacyKey
+- uid: OpenTl.Schema.TUpdatePrivacy.Rules*
+  commentId: Overload:OpenTl.Schema.TUpdatePrivacy.Rules
+  isExternal: false
+  name: Rules
+  nameWithType: TUpdatePrivacy.Rules
+  fullName: OpenTl.Schema.TUpdatePrivacy.Rules
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPrivacyRule>
+  nameWithType: TVector<IPrivacyRule>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPrivacyRule>
+  nameWithType.vb: TVector(Of IPrivacyRule)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPrivacyRule)
+  name.vb: TVector(Of IPrivacyRule)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPrivacyRule
+    name: IPrivacyRule
+    nameWithType: IPrivacyRule
+    fullName: OpenTl.Schema.IPrivacyRule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPrivacyRule
+    name: IPrivacyRule
+    nameWithType: IPrivacyRule
+    fullName: OpenTl.Schema.IPrivacyRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

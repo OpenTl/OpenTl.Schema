@@ -21,6 +21,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(2)]
        public long RandomId {get; set;}
 
+       /// <summary>Binary representation for the 'StartParam' property</summary>
        [SerializationOrder(3)]
        public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
        private byte[] _StartParamAsBinary;

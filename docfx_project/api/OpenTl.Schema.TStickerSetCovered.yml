@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TStickerSetCovered
+  commentId: T:OpenTl.Schema.TStickerSetCovered
+  id: TStickerSetCovered
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TStickerSetCovered.Cover
+  - OpenTl.Schema.TStickerSetCovered.Set
+  langs:
+  - csharp
+  - vb
+  name: TStickerSetCovered
+  nameWithType: TStickerSetCovered
+  fullName: OpenTl.Schema.TStickerSetCovered
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TStickerSetCovered
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TStickerSetCovered : object, IStickerSetCovered, IObject'
+    content.vb: >-
+      Public Class TStickerSetCovered
+
+          Inherits Object
+
+          Implements IStickerSetCovered, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IStickerSetCovered
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TStickerSetCovered.Set
+  commentId: P:OpenTl.Schema.TStickerSetCovered.Set
+  id: Set
+  parent: OpenTl.Schema.TStickerSetCovered
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: TStickerSetCovered.Set
+  fullName: OpenTl.Schema.TStickerSetCovered.Set
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Set
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IStickerSet Set { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IStickerSet
+    content.vb: Public Property Set As IStickerSet
+  overload: OpenTl.Schema.TStickerSetCovered.Set*
+  implements:
+  - OpenTl.Schema.IStickerSetCovered.Set
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TStickerSetCovered.Cover
+  commentId: P:OpenTl.Schema.TStickerSetCovered.Cover
+  id: Cover
+  parent: OpenTl.Schema.TStickerSetCovered
+  langs:
+  - csharp
+  - vb
+  name: Cover
+  nameWithType: TStickerSetCovered.Cover
+  fullName: OpenTl.Schema.TStickerSetCovered.Cover
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Cover
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSetCovered/TStickerSetCovered.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDocument Cover { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDocument
+    content.vb: Public Property Cover As IDocument
+  overload: OpenTl.Schema.TStickerSetCovered.Cover*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IStickerSetCovered
+  commentId: T:OpenTl.Schema.IStickerSetCovered
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IStickerSetCovered
+  nameWithType: IStickerSetCovered
+  fullName: OpenTl.Schema.IStickerSetCovered
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TStickerSetCovered.Set*
+  commentId: Overload:OpenTl.Schema.TStickerSetCovered.Set
+  isExternal: false
+  name: Set
+  nameWithType: TStickerSetCovered.Set
+  fullName: OpenTl.Schema.TStickerSetCovered.Set
+- uid: OpenTl.Schema.IStickerSetCovered.Set
+  commentId: P:OpenTl.Schema.IStickerSetCovered.Set
+  parent: OpenTl.Schema.IStickerSetCovered
+  isExternal: false
+  name: Set
+  nameWithType: IStickerSetCovered.Set
+  fullName: OpenTl.Schema.IStickerSetCovered.Set
+- uid: OpenTl.Schema.IStickerSet
+  commentId: T:OpenTl.Schema.IStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IStickerSet
+  nameWithType: IStickerSet
+  fullName: OpenTl.Schema.IStickerSet
+- uid: OpenTl.Schema.TStickerSetCovered.Cover*
+  commentId: Overload:OpenTl.Schema.TStickerSetCovered.Cover
+  isExternal: false
+  name: Cover
+  nameWithType: TStickerSetCovered.Cover
+  fullName: OpenTl.Schema.TStickerSetCovered.Cover
+- uid: OpenTl.Schema.IDocument
+  commentId: T:OpenTl.Schema.IDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocument
+  nameWithType: IDocument
+  fullName: OpenTl.Schema.IDocument

@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TStickerPack
+  commentId: T:OpenTl.Schema.TStickerPack
+  id: TStickerPack
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TStickerPack.Documents
+  - OpenTl.Schema.TStickerPack.Emoticon
+  - OpenTl.Schema.TStickerPack.EmoticonAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TStickerPack
+  nameWithType: TStickerPack
+  fullName: OpenTl.Schema.TStickerPack
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TStickerPack
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TStickerPack : object, IStickerPack, IObject'
+    content.vb: >-
+      Public Class TStickerPack
+
+          Inherits Object
+
+          Implements IStickerPack, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IStickerPack
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TStickerPack.EmoticonAsBinary
+  commentId: P:OpenTl.Schema.TStickerPack.EmoticonAsBinary
+  id: EmoticonAsBinary
+  parent: OpenTl.Schema.TStickerPack
+  langs:
+  - csharp
+  - vb
+  name: EmoticonAsBinary
+  nameWithType: TStickerPack.EmoticonAsBinary
+  fullName: OpenTl.Schema.TStickerPack.EmoticonAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmoticonAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Emoticon&apos; property
+  example: []
+  syntax:
+    content: public byte[] EmoticonAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EmoticonAsBinary As Byte()
+  overload: OpenTl.Schema.TStickerPack.EmoticonAsBinary*
+  implements:
+  - OpenTl.Schema.IStickerPack.EmoticonAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TStickerPack.Emoticon
+  commentId: P:OpenTl.Schema.TStickerPack.Emoticon
+  id: Emoticon
+  parent: OpenTl.Schema.TStickerPack
+  langs:
+  - csharp
+  - vb
+  name: Emoticon
+  nameWithType: TStickerPack.Emoticon
+  fullName: OpenTl.Schema.TStickerPack.Emoticon
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Emoticon
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Emoticon { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Emoticon As String
+  overload: OpenTl.Schema.TStickerPack.Emoticon*
+  implements:
+  - OpenTl.Schema.IStickerPack.Emoticon
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TStickerPack.Documents
+  commentId: P:OpenTl.Schema.TStickerPack.Documents
+  id: Documents
+  parent: OpenTl.Schema.TStickerPack
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: TStickerPack.Documents
+  fullName: OpenTl.Schema.TStickerPack.Documents
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Documents
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerPack/TStickerPack.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<long> Documents { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property Documents As TVector(Of Long)
+  overload: OpenTl.Schema.TStickerPack.Documents*
+  implements:
+  - OpenTl.Schema.IStickerPack.Documents
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IStickerPack
+  commentId: T:OpenTl.Schema.IStickerPack
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IStickerPack
+  nameWithType: IStickerPack
+  fullName: OpenTl.Schema.IStickerPack
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TStickerPack.EmoticonAsBinary*
+  commentId: Overload:OpenTl.Schema.TStickerPack.EmoticonAsBinary
+  isExternal: false
+  name: EmoticonAsBinary
+  nameWithType: TStickerPack.EmoticonAsBinary
+  fullName: OpenTl.Schema.TStickerPack.EmoticonAsBinary
+- uid: OpenTl.Schema.IStickerPack.EmoticonAsBinary
+  commentId: P:OpenTl.Schema.IStickerPack.EmoticonAsBinary
+  parent: OpenTl.Schema.IStickerPack
+  isExternal: false
+  name: EmoticonAsBinary
+  nameWithType: IStickerPack.EmoticonAsBinary
+  fullName: OpenTl.Schema.IStickerPack.EmoticonAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TStickerPack.Emoticon*
+  commentId: Overload:OpenTl.Schema.TStickerPack.Emoticon
+  isExternal: false
+  name: Emoticon
+  nameWithType: TStickerPack.Emoticon
+  fullName: OpenTl.Schema.TStickerPack.Emoticon
+- uid: OpenTl.Schema.IStickerPack.Emoticon
+  commentId: P:OpenTl.Schema.IStickerPack.Emoticon
+  parent: OpenTl.Schema.IStickerPack
+  isExternal: false
+  name: Emoticon
+  nameWithType: IStickerPack.Emoticon
+  fullName: OpenTl.Schema.IStickerPack.Emoticon
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TStickerPack.Documents*
+  commentId: Overload:OpenTl.Schema.TStickerPack.Documents
+  isExternal: false
+  name: Documents
+  nameWithType: TStickerPack.Documents
+  fullName: OpenTl.Schema.TStickerPack.Documents
+- uid: OpenTl.Schema.IStickerPack.Documents
+  commentId: P:OpenTl.Schema.IStickerPack.Documents
+  parent: OpenTl.Schema.IStickerPack
+  isExternal: false
+  name: Documents
+  nameWithType: IStickerPack.Documents
+  fullName: OpenTl.Schema.IStickerPack.Documents
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

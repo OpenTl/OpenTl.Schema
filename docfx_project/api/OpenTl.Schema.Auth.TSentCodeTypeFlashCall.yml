@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TSentCodeTypeFlashCall
+  commentId: T:OpenTl.Schema.Auth.TSentCodeTypeFlashCall
+  id: TSentCodeTypeFlashCall
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+  - OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TSentCodeTypeFlashCall
+  nameWithType: TSentCodeTypeFlashCall
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeFlashCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSentCodeTypeFlashCall
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TSentCodeTypeFlashCall : object, ISentCodeType, IObject'
+    content.vb: >-
+      Public Class TSentCodeTypeFlashCall
+
+          Inherits Object
+
+          Implements ISentCodeType, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.ISentCodeType
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+  commentId: P:OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+  id: PatternAsBinary
+  parent: OpenTl.Schema.Auth.TSentCodeTypeFlashCall
+  langs:
+  - csharp
+  - vb
+  name: PatternAsBinary
+  nameWithType: TSentCodeTypeFlashCall.PatternAsBinary
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PatternAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;Pattern&apos; property
+  example: []
+  syntax:
+    content: public byte[] PatternAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PatternAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+  commentId: P:OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+  id: Pattern
+  parent: OpenTl.Schema.Auth.TSentCodeTypeFlashCall
+  langs:
+  - csharp
+  - vb
+  name: Pattern
+  nameWithType: TSentCodeTypeFlashCall.Pattern
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pattern
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeFlashCall.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string Pattern { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pattern As String
+  overload: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.ISentCodeType
+  commentId: T:OpenTl.Schema.Auth.ISentCodeType
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ISentCodeType
+  nameWithType: ISentCodeType
+  fullName: OpenTl.Schema.Auth.ISentCodeType
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+  isExternal: false
+  name: PatternAsBinary
+  nameWithType: TSentCodeTypeFlashCall.PatternAsBinary
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.PatternAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+  isExternal: false
+  name: Pattern
+  nameWithType: TSentCodeTypeFlashCall.Pattern
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeFlashCall.Pattern
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

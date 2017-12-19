@@ -12,12 +12,14 @@ namespace OpenTl.Schema
 	[Serialize(0xc27ac8c7)]
 	public class TBotCommand : IBotCommand
 	{
+       /// <summary>Binary representation for the 'Command' property</summary>
        [SerializationOrder(0)]
        public byte[] CommandAsBinary { get => _CommandAsBinary; set { _Command = Encoding.UTF8.GetString(value); _CommandAsBinary = value; }}
        private byte[] _CommandAsBinary;
        private string _Command;
        public string Command { get => _Command; set { CommandAsBinary = Encoding.UTF8.GetBytes(value); _Command = value; }}
 
+       /// <summary>Binary representation for the 'Description' property</summary>
        [SerializationOrder(1)]
        public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}
        private byte[] _DescriptionAsBinary;

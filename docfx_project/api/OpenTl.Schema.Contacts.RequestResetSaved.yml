@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestResetSaved
+  commentId: T:OpenTl.Schema.Contacts.RequestResetSaved
+  id: RequestResetSaved
+  parent: OpenTl.Schema.Contacts
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RequestResetSaved
+  nameWithType: RequestResetSaved
+  fullName: OpenTl.Schema.Contacts.RequestResetSaved
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResetSaved.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestResetSaved
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResetSaved.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestResetSaved : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestResetSaved
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

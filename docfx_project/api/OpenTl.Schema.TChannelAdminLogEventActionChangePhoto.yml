@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionChangePhoto
+  id: TChannelAdminLogEventActionChangePhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto
+  - OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionChangePhoto
+  nameWithType: TChannelAdminLogEventActionChangePhoto
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionChangePhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionChangePhoto : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionChangePhoto
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  id: PrevPhoto
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto
+  langs:
+  - csharp
+  - vb
+  name: PrevPhoto
+  nameWithType: TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PrevPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChatPhoto PrevPhoto { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChatPhoto
+    content.vb: Public Property PrevPhoto As IChatPhoto
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto
+  id: NewPhoto
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto
+  langs:
+  - csharp
+  - vb
+  name: NewPhoto
+  nameWithType: TChannelAdminLogEventActionChangePhoto.NewPhoto
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangePhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChatPhoto NewPhoto { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChatPhoto
+    content.vb: Public Property NewPhoto As IChatPhoto
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  isExternal: false
+  name: PrevPhoto
+  nameWithType: TChannelAdminLogEventActionChangePhoto.PrevPhoto
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.PrevPhoto
+- uid: OpenTl.Schema.IChatPhoto
+  commentId: T:OpenTl.Schema.IChatPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatPhoto
+  nameWithType: IChatPhoto
+  fullName: OpenTl.Schema.IChatPhoto
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto
+  isExternal: false
+  name: NewPhoto
+  nameWithType: TChannelAdminLogEventActionChangePhoto.NewPhoto
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangePhoto.NewPhoto

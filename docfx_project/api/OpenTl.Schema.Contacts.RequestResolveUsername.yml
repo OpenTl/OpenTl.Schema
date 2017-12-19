@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestResolveUsername
+  commentId: T:OpenTl.Schema.Contacts.RequestResolveUsername
+  id: RequestResolveUsername
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestResolveUsername.Username
+  - OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestResolveUsername
+  nameWithType: RequestResolveUsername
+  fullName: OpenTl.Schema.Contacts.RequestResolveUsername
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestResolveUsername
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestResolveUsername : object, IRequest<IResolvedPeer>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestResolveUsername
+
+          Inherits Object
+
+          Implements IRequest(Of IResolvedPeer), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IResolvedPeer}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+  commentId: P:OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+  id: UsernameAsBinary
+  parent: OpenTl.Schema.Contacts.RequestResolveUsername
+  langs:
+  - csharp
+  - vb
+  name: UsernameAsBinary
+  nameWithType: RequestResolveUsername.UsernameAsBinary
+  fullName: OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UsernameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  summary: Binary representation for the &apos;Username&apos; property
+  example: []
+  syntax:
+    content: public byte[] UsernameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UsernameAsBinary As Byte()
+  overload: OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestResolveUsername.Username
+  commentId: P:OpenTl.Schema.Contacts.RequestResolveUsername.Username
+  id: Username
+  parent: OpenTl.Schema.Contacts.RequestResolveUsername
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: RequestResolveUsername.Username
+  fullName: OpenTl.Schema.Contacts.RequestResolveUsername.Username
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Username
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestResolveUsername.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: OpenTl.Schema.Contacts.RequestResolveUsername.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IResolvedPeer}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IResolvedPeer}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IResolvedPeer>
+  nameWithType: IRequest<IResolvedPeer>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Contacts.IResolvedPeer>
+  nameWithType.vb: IRequest(Of IResolvedPeer)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Contacts.IResolvedPeer)
+  name.vb: IRequest(Of IResolvedPeer)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Contacts.IResolvedPeer
+    name: IResolvedPeer
+    nameWithType: IResolvedPeer
+    fullName: OpenTl.Schema.Contacts.IResolvedPeer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Contacts.IResolvedPeer
+    name: IResolvedPeer
+    nameWithType: IResolvedPeer
+    fullName: OpenTl.Schema.Contacts.IResolvedPeer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+  isExternal: false
+  name: UsernameAsBinary
+  nameWithType: RequestResolveUsername.UsernameAsBinary
+  fullName: OpenTl.Schema.Contacts.RequestResolveUsername.UsernameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Contacts.RequestResolveUsername.Username*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestResolveUsername.Username
+  isExternal: false
+  name: Username
+  nameWithType: RequestResolveUsername.Username
+  fullName: OpenTl.Schema.Contacts.RequestResolveUsername.Username
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

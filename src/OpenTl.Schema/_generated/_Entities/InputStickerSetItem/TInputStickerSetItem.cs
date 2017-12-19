@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public OpenTl.Schema.IInputDocument Document {get; set;}
 
+       /// <summary>Binary representation for the 'Emoji' property</summary>
        [SerializationOrder(2)]
        public byte[] EmojiAsBinary { get => _EmojiAsBinary; set { _Emoji = Encoding.UTF8.GetString(value); _EmojiAsBinary = value; }}
        private byte[] _EmojiAsBinary;

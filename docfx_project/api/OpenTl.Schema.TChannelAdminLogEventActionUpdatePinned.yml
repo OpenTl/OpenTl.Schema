@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned
+  id: TChannelAdminLogEventActionUpdatePinned
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionUpdatePinned
+  nameWithType: TChannelAdminLogEventActionUpdatePinned
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionUpdatePinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionUpdatePinned
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionUpdatePinned.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionUpdatePinned : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionUpdatePinned
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+  id: Message
+  parent: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TChannelAdminLogEventActionUpdatePinned.Message
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionUpdatePinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionUpdatePinned.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessage Message { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessage
+    content.vb: Public Property Message As IMessage
+  overload: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+  isExternal: false
+  name: Message
+  nameWithType: TChannelAdminLogEventActionUpdatePinned.Message
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionUpdatePinned.Message
+- uid: OpenTl.Schema.IMessage
+  commentId: T:OpenTl.Schema.IMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessage
+  nameWithType: IMessage
+  fullName: OpenTl.Schema.IMessage

@@ -23,6 +23,7 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 3)]
        public bool AllowScrolling {get; set;}
 
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
@@ -30,6 +31,7 @@ namespace OpenTl.Schema
        private string _Url;
        public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
+       /// <summary>Binary representation for the 'Html' property</summary>
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
        public byte[] HtmlAsBinary { get => _HtmlAsBinary; set { _Html = Encoding.UTF8.GetString(value); _HtmlAsBinary = value; }}

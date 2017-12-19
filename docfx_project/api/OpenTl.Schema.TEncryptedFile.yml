@@ -1,0 +1,290 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TEncryptedFile
+  commentId: T:OpenTl.Schema.TEncryptedFile
+  id: TEncryptedFile
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TEncryptedFile.AccessHash
+  - OpenTl.Schema.TEncryptedFile.DcId
+  - OpenTl.Schema.TEncryptedFile.Id
+  - OpenTl.Schema.TEncryptedFile.KeyFingerprint
+  - OpenTl.Schema.TEncryptedFile.Size
+  langs:
+  - csharp
+  - vb
+  name: TEncryptedFile
+  nameWithType: TEncryptedFile
+  fullName: OpenTl.Schema.TEncryptedFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TEncryptedFile
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TEncryptedFile : object, IEncryptedFile, IObject'
+    content.vb: >-
+      Public Class TEncryptedFile
+
+          Inherits Object
+
+          Implements IEncryptedFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IEncryptedFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TEncryptedFile.Id
+  commentId: P:OpenTl.Schema.TEncryptedFile.Id
+  id: Id
+  parent: OpenTl.Schema.TEncryptedFile
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TEncryptedFile.Id
+  fullName: OpenTl.Schema.TEncryptedFile.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TEncryptedFile.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedFile.AccessHash
+  commentId: P:OpenTl.Schema.TEncryptedFile.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TEncryptedFile
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TEncryptedFile.AccessHash
+  fullName: OpenTl.Schema.TEncryptedFile.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TEncryptedFile.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedFile.Size
+  commentId: P:OpenTl.Schema.TEncryptedFile.Size
+  id: Size
+  parent: OpenTl.Schema.TEncryptedFile
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: TEncryptedFile.Size
+  fullName: OpenTl.Schema.TEncryptedFile.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Size As Integer
+  overload: OpenTl.Schema.TEncryptedFile.Size*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedFile.DcId
+  commentId: P:OpenTl.Schema.TEncryptedFile.DcId
+  id: DcId
+  parent: OpenTl.Schema.TEncryptedFile
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TEncryptedFile.DcId
+  fullName: OpenTl.Schema.TEncryptedFile.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.TEncryptedFile.DcId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedFile.KeyFingerprint
+  commentId: P:OpenTl.Schema.TEncryptedFile.KeyFingerprint
+  id: KeyFingerprint
+  parent: OpenTl.Schema.TEncryptedFile
+  langs:
+  - csharp
+  - vb
+  name: KeyFingerprint
+  nameWithType: TEncryptedFile.KeyFingerprint
+  fullName: OpenTl.Schema.TEncryptedFile.KeyFingerprint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KeyFingerprint
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFile.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int KeyFingerprint { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property KeyFingerprint As Integer
+  overload: OpenTl.Schema.TEncryptedFile.KeyFingerprint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IEncryptedFile
+  commentId: T:OpenTl.Schema.IEncryptedFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedFile
+  nameWithType: IEncryptedFile
+  fullName: OpenTl.Schema.IEncryptedFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TEncryptedFile.Id*
+  commentId: Overload:OpenTl.Schema.TEncryptedFile.Id
+  isExternal: false
+  name: Id
+  nameWithType: TEncryptedFile.Id
+  fullName: OpenTl.Schema.TEncryptedFile.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TEncryptedFile.AccessHash*
+  commentId: Overload:OpenTl.Schema.TEncryptedFile.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TEncryptedFile.AccessHash
+  fullName: OpenTl.Schema.TEncryptedFile.AccessHash
+- uid: OpenTl.Schema.TEncryptedFile.Size*
+  commentId: Overload:OpenTl.Schema.TEncryptedFile.Size
+  isExternal: false
+  name: Size
+  nameWithType: TEncryptedFile.Size
+  fullName: OpenTl.Schema.TEncryptedFile.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TEncryptedFile.DcId*
+  commentId: Overload:OpenTl.Schema.TEncryptedFile.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TEncryptedFile.DcId
+  fullName: OpenTl.Schema.TEncryptedFile.DcId
+- uid: OpenTl.Schema.TEncryptedFile.KeyFingerprint*
+  commentId: Overload:OpenTl.Schema.TEncryptedFile.KeyFingerprint
+  isExternal: false
+  name: KeyFingerprint
+  nameWithType: TEncryptedFile.KeyFingerprint
+  fullName: OpenTl.Schema.TEncryptedFile.KeyFingerprint

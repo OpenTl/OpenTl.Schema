@@ -15,12 +15,14 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public long Id {get; set;}
 
+       /// <summary>Binary representation for the 'Ip' property</summary>
        [SerializationOrder(1)]
        public byte[] IpAsBinary { get => _IpAsBinary; set { _Ip = Encoding.UTF8.GetString(value); _IpAsBinary = value; }}
        private byte[] _IpAsBinary;
        private string _Ip;
        public string Ip { get => _Ip; set { IpAsBinary = Encoding.UTF8.GetBytes(value); _Ip = value; }}
 
+       /// <summary>Binary representation for the 'Ipv6' property</summary>
        [SerializationOrder(2)]
        public byte[] Ipv6AsBinary { get => _Ipv6AsBinary; set { _Ipv6 = Encoding.UTF8.GetString(value); _Ipv6AsBinary = value; }}
        private byte[] _Ipv6AsBinary;

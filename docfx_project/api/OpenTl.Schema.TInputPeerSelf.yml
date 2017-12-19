@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPeerSelf
+  commentId: T:OpenTl.Schema.TInputPeerSelf
+  id: TInputPeerSelf
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputPeerSelf
+  nameWithType: TInputPeerSelf
+  fullName: OpenTl.Schema.TInputPeerSelf
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerSelf.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPeerSelf
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerSelf.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPeerSelf : object, IInputPeer, IObject'
+    content.vb: >-
+      Public Class TInputPeerSelf
+
+          Inherits Object
+
+          Implements IInputPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

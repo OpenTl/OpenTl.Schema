@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUserStatusOnline
+  commentId: T:OpenTl.Schema.TUserStatusOnline
+  id: TUserStatusOnline
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUserStatusOnline.Expires
+  langs:
+  - csharp
+  - vb
+  name: TUserStatusOnline
+  nameWithType: TUserStatusOnline
+  fullName: OpenTl.Schema.TUserStatusOnline
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOnline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUserStatusOnline
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOnline.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUserStatusOnline : object, IUserStatus, IObject'
+    content.vb: >-
+      Public Class TUserStatusOnline
+
+          Inherits Object
+
+          Implements IUserStatus, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUserStatus
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUserStatusOnline.Expires
+  commentId: P:OpenTl.Schema.TUserStatusOnline.Expires
+  id: Expires
+  parent: OpenTl.Schema.TUserStatusOnline
+  langs:
+  - csharp
+  - vb
+  name: Expires
+  nameWithType: TUserStatusOnline.Expires
+  fullName: OpenTl.Schema.TUserStatusOnline.Expires
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOnline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Expires
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOnline.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Expires { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Expires As Integer
+  overload: OpenTl.Schema.TUserStatusOnline.Expires*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUserStatus
+  commentId: T:OpenTl.Schema.IUserStatus
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserStatus
+  nameWithType: IUserStatus
+  fullName: OpenTl.Schema.IUserStatus
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUserStatusOnline.Expires*
+  commentId: Overload:OpenTl.Schema.TUserStatusOnline.Expires
+  isExternal: false
+  name: Expires
+  nameWithType: TUserStatusOnline.Expires
+  fullName: OpenTl.Schema.TUserStatusOnline.Expires
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

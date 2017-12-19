@@ -1,0 +1,418 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  commentId: T:OpenTl.Schema.Messages.RequestGetUnreadMentions
+  id: RequestGetUnreadMentions
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+  - OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+  langs:
+  - csharp
+  - vb
+  name: RequestGetUnreadMentions
+  nameWithType: RequestGetUnreadMentions
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetUnreadMentions
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestGetUnreadMentions : object, IRequest<IMessages>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetUnreadMentions
+
+          Inherits Object
+
+          Implements IRequest(Of IMessages), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestGetUnreadMentions.Peer
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+  id: OffsetId
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: OffsetId
+  nameWithType: RequestGetUnreadMentions.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OffsetId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int OffsetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OffsetId As Integer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+  id: AddOffset
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: AddOffset
+  nameWithType: RequestGetUnreadMentions.AddOffset
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AddOffset
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int AddOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AddOffset As Integer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+  id: Limit
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetUnreadMentions.Limit
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: RequestGetUnreadMentions.MaxId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId
+  commentId: P:OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId
+  id: MinId
+  parent: OpenTl.Schema.Messages.RequestGetUnreadMentions
+  langs:
+  - csharp
+  - vb
+  name: MinId
+  nameWithType: RequestGetUnreadMentions.MinId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetUnreadMentions.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MinId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinId As Integer
+  overload: OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IMessages>
+  nameWithType: IRequest<IMessages>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IMessages>
+  nameWithType.vb: IRequest(Of IMessages)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IMessages)
+  name.vb: IRequest(Of IMessages)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IMessages
+    name: IMessages
+    nameWithType: IMessages
+    fullName: OpenTl.Schema.Messages.IMessages
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IMessages
+    name: IMessages
+    nameWithType: IMessages
+    fullName: OpenTl.Schema.Messages.IMessages
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestGetUnreadMentions.Peer
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+  isExternal: false
+  name: OffsetId
+  nameWithType: RequestGetUnreadMentions.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.OffsetId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+  isExternal: false
+  name: AddOffset
+  nameWithType: RequestGetUnreadMentions.AddOffset
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.AddOffset
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetUnreadMentions.Limit
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.Limit
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: RequestGetUnreadMentions.MaxId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.MaxId
+- uid: OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId
+  isExternal: false
+  name: MinId
+  nameWithType: RequestGetUnreadMentions.MinId
+  fullName: OpenTl.Schema.Messages.RequestGetUnreadMentions.MinId

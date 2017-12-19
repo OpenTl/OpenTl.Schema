@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDhGenRetry
+  commentId: T:OpenTl.Schema.TDhGenRetry
+  id: TDhGenRetry
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDhGenRetry.NewNonceHash2
+  - OpenTl.Schema.TDhGenRetry.Nonce
+  - OpenTl.Schema.TDhGenRetry.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TDhGenRetry
+  nameWithType: TDhGenRetry
+  fullName: OpenTl.Schema.TDhGenRetry
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDhGenRetry
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDhGenRetry : object, ISetClientDHParamsAnswer, IObject'
+    content.vb: >-
+      Public Class TDhGenRetry
+
+          Inherits Object
+
+          Implements ISetClientDHParamsAnswer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDhGenRetry.Nonce
+  commentId: P:OpenTl.Schema.TDhGenRetry.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TDhGenRetry
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TDhGenRetry.Nonce
+  fullName: OpenTl.Schema.TDhGenRetry.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TDhGenRetry.Nonce*
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDhGenRetry.ServerNonce
+  commentId: P:OpenTl.Schema.TDhGenRetry.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TDhGenRetry
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TDhGenRetry.ServerNonce
+  fullName: OpenTl.Schema.TDhGenRetry.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TDhGenRetry.ServerNonce*
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDhGenRetry.NewNonceHash2
+  commentId: P:OpenTl.Schema.TDhGenRetry.NewNonceHash2
+  id: NewNonceHash2
+  parent: OpenTl.Schema.TDhGenRetry
+  langs:
+  - csharp
+  - vb
+  name: NewNonceHash2
+  nameWithType: TDhGenRetry.NewNonceHash2
+  fullName: OpenTl.Schema.TDhGenRetry.NewNonceHash2
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewNonceHash2
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenRetry.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] NewNonceHash2 { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NewNonceHash2 As Byte()
+  overload: OpenTl.Schema.TDhGenRetry.NewNonceHash2*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer
+  commentId: T:OpenTl.Schema.ISetClientDHParamsAnswer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISetClientDHParamsAnswer
+  nameWithType: ISetClientDHParamsAnswer
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDhGenRetry.Nonce*
+  commentId: Overload:OpenTl.Schema.TDhGenRetry.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TDhGenRetry.Nonce
+  fullName: OpenTl.Schema.TDhGenRetry.Nonce
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  commentId: P:OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  parent: OpenTl.Schema.ISetClientDHParamsAnswer
+  isExternal: false
+  name: Nonce
+  nameWithType: ISetClientDHParamsAnswer.Nonce
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDhGenRetry.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TDhGenRetry.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TDhGenRetry.ServerNonce
+  fullName: OpenTl.Schema.TDhGenRetry.ServerNonce
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  commentId: P:OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  parent: OpenTl.Schema.ISetClientDHParamsAnswer
+  isExternal: false
+  name: ServerNonce
+  nameWithType: ISetClientDHParamsAnswer.ServerNonce
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+- uid: OpenTl.Schema.TDhGenRetry.NewNonceHash2*
+  commentId: Overload:OpenTl.Schema.TDhGenRetry.NewNonceHash2
+  isExternal: false
+  name: NewNonceHash2
+  nameWithType: TDhGenRetry.NewNonceHash2
+  fullName: OpenTl.Schema.TDhGenRetry.NewNonceHash2

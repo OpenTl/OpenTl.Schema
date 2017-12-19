@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionChatEditPhoto
+  commentId: T:OpenTl.Schema.TMessageActionChatEditPhoto
+  id: TMessageActionChatEditPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionChatEditPhoto
+  nameWithType: TMessageActionChatEditPhoto
+  fullName: OpenTl.Schema.TMessageActionChatEditPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionChatEditPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionChatEditPhoto : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionChatEditPhoto
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+  commentId: P:OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+  id: Photo
+  parent: OpenTl.Schema.TMessageActionChatEditPhoto
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TMessageActionChatEditPhoto.Photo
+  fullName: OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property Photo As IPhoto
+  overload: OpenTl.Schema.TMessageActionChatEditPhoto.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionChatEditPhoto.Photo*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TMessageActionChatEditPhoto.Photo
+  fullName: OpenTl.Schema.TMessageActionChatEditPhoto.Photo
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto

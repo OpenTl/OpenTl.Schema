@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xf385c1f6)]
 	public class TLangPackDifference : ILangPackDifference
 	{
+       /// <summary>Binary representation for the 'LangCode' property</summary>
        [SerializationOrder(0)]
        public byte[] LangCodeAsBinary { get => _LangCodeAsBinary; set { _LangCode = Encoding.UTF8.GetString(value); _LangCodeAsBinary = value; }}
        private byte[] _LangCodeAsBinary;

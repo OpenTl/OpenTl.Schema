@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTextUrl
+  commentId: T:OpenTl.Schema.TTextUrl
+  id: TTextUrl
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTextUrl.Text
+  - OpenTl.Schema.TTextUrl.Url
+  - OpenTl.Schema.TTextUrl.UrlAsBinary
+  - OpenTl.Schema.TTextUrl.WebpageId
+  langs:
+  - csharp
+  - vb
+  name: TTextUrl
+  nameWithType: TTextUrl
+  fullName: OpenTl.Schema.TTextUrl
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTextUrl
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTextUrl : object, IRichText, IObject'
+    content.vb: >-
+      Public Class TTextUrl
+
+          Inherits Object
+
+          Implements IRichText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRichText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTextUrl.Text
+  commentId: P:OpenTl.Schema.TTextUrl.Text
+  id: Text
+  parent: OpenTl.Schema.TTextUrl
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TTextUrl.Text
+  fullName: OpenTl.Schema.TTextUrl.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TTextUrl.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTextUrl.UrlAsBinary
+  commentId: P:OpenTl.Schema.TTextUrl.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TTextUrl
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TTextUrl.UrlAsBinary
+  fullName: OpenTl.Schema.TTextUrl.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TTextUrl.UrlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTextUrl.Url
+  commentId: P:OpenTl.Schema.TTextUrl.Url
+  id: Url
+  parent: OpenTl.Schema.TTextUrl
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TTextUrl.Url
+  fullName: OpenTl.Schema.TTextUrl.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TTextUrl.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTextUrl.WebpageId
+  commentId: P:OpenTl.Schema.TTextUrl.WebpageId
+  id: WebpageId
+  parent: OpenTl.Schema.TTextUrl
+  langs:
+  - csharp
+  - vb
+  name: WebpageId
+  nameWithType: TTextUrl.WebpageId
+  fullName: OpenTl.Schema.TTextUrl.WebpageId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: WebpageId
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextUrl.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long WebpageId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property WebpageId As Long
+  overload: OpenTl.Schema.TTextUrl.WebpageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTextUrl.Text*
+  commentId: Overload:OpenTl.Schema.TTextUrl.Text
+  isExternal: false
+  name: Text
+  nameWithType: TTextUrl.Text
+  fullName: OpenTl.Schema.TTextUrl.Text
+- uid: OpenTl.Schema.TTextUrl.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TTextUrl.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TTextUrl.UrlAsBinary
+  fullName: OpenTl.Schema.TTextUrl.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TTextUrl.Url*
+  commentId: Overload:OpenTl.Schema.TTextUrl.Url
+  isExternal: false
+  name: Url
+  nameWithType: TTextUrl.Url
+  fullName: OpenTl.Schema.TTextUrl.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TTextUrl.WebpageId*
+  commentId: Overload:OpenTl.Schema.TTextUrl.WebpageId
+  isExternal: false
+  name: WebpageId
+  nameWithType: TTextUrl.WebpageId
+  fullName: OpenTl.Schema.TTextUrl.WebpageId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

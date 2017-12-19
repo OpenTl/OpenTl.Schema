@@ -32,6 +32,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(5)]
        public int CacheTime {get; set;}
 
+       /// <summary>Binary representation for the 'NextOffset' property</summary>
        [SerializationOrder(6)]
        [CanSerialize("Flags", 2)]
        public byte[] NextOffsetAsBinary { get => _NextOffsetAsBinary; set { _NextOffset = Encoding.UTF8.GetString(value); _NextOffsetAsBinary = value; }}

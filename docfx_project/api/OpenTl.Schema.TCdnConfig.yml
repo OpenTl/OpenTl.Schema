@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TCdnConfig
+  commentId: T:OpenTl.Schema.TCdnConfig
+  id: TCdnConfig
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TCdnConfig.PublicKeys
+  langs:
+  - csharp
+  - vb
+  name: TCdnConfig
+  nameWithType: TCdnConfig
+  fullName: OpenTl.Schema.TCdnConfig
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnConfig/TCdnConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCdnConfig
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnConfig/TCdnConfig.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TCdnConfig : object, ICdnConfig, IObject'
+    content.vb: >-
+      Public Class TCdnConfig
+
+          Inherits Object
+
+          Implements ICdnConfig, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ICdnConfig
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TCdnConfig.PublicKeys
+  commentId: P:OpenTl.Schema.TCdnConfig.PublicKeys
+  id: PublicKeys
+  parent: OpenTl.Schema.TCdnConfig
+  langs:
+  - csharp
+  - vb
+  name: PublicKeys
+  nameWithType: TCdnConfig.PublicKeys
+  fullName: OpenTl.Schema.TCdnConfig.PublicKeys
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnConfig/TCdnConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PublicKeys
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnConfig/TCdnConfig.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<ICdnPublicKey> PublicKeys { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ICdnPublicKey}
+    content.vb: Public Property PublicKeys As TVector(Of ICdnPublicKey)
+  overload: OpenTl.Schema.TCdnConfig.PublicKeys*
+  implements:
+  - OpenTl.Schema.ICdnConfig.PublicKeys
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ICdnConfig
+  commentId: T:OpenTl.Schema.ICdnConfig
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ICdnConfig
+  nameWithType: ICdnConfig
+  fullName: OpenTl.Schema.ICdnConfig
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TCdnConfig.PublicKeys*
+  commentId: Overload:OpenTl.Schema.TCdnConfig.PublicKeys
+  isExternal: false
+  name: PublicKeys
+  nameWithType: TCdnConfig.PublicKeys
+  fullName: OpenTl.Schema.TCdnConfig.PublicKeys
+- uid: OpenTl.Schema.ICdnConfig.PublicKeys
+  commentId: P:OpenTl.Schema.ICdnConfig.PublicKeys
+  parent: OpenTl.Schema.ICdnConfig
+  isExternal: false
+  name: PublicKeys
+  nameWithType: ICdnConfig.PublicKeys
+  fullName: OpenTl.Schema.ICdnConfig.PublicKeys
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ICdnPublicKey}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ICdnPublicKey}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ICdnPublicKey>
+  nameWithType: TVector<ICdnPublicKey>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ICdnPublicKey>
+  nameWithType.vb: TVector(Of ICdnPublicKey)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ICdnPublicKey)
+  name.vb: TVector(Of ICdnPublicKey)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ICdnPublicKey
+    name: ICdnPublicKey
+    nameWithType: ICdnPublicKey
+    fullName: OpenTl.Schema.ICdnPublicKey
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ICdnPublicKey
+    name: ICdnPublicKey
+    nameWithType: ICdnPublicKey
+    fullName: OpenTl.Schema.ICdnPublicKey
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

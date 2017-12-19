@@ -15,6 +15,7 @@ namespace OpenTl.Schema.Auth
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<string> PhoneNumbers {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(1)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

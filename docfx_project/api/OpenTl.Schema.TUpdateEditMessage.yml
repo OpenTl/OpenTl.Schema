@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateEditMessage
+  commentId: T:OpenTl.Schema.TUpdateEditMessage
+  id: TUpdateEditMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateEditMessage.Message
+  - OpenTl.Schema.TUpdateEditMessage.Pts
+  - OpenTl.Schema.TUpdateEditMessage.PtsCount
+  langs:
+  - csharp
+  - vb
+  name: TUpdateEditMessage
+  nameWithType: TUpdateEditMessage
+  fullName: OpenTl.Schema.TUpdateEditMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateEditMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateEditMessage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateEditMessage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateEditMessage.Message
+  commentId: P:OpenTl.Schema.TUpdateEditMessage.Message
+  id: Message
+  parent: OpenTl.Schema.TUpdateEditMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TUpdateEditMessage.Message
+  fullName: OpenTl.Schema.TUpdateEditMessage.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessage Message { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessage
+    content.vb: Public Property Message As IMessage
+  overload: OpenTl.Schema.TUpdateEditMessage.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEditMessage.Pts
+  commentId: P:OpenTl.Schema.TUpdateEditMessage.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateEditMessage
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateEditMessage.Pts
+  fullName: OpenTl.Schema.TUpdateEditMessage.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateEditMessage.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEditMessage.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateEditMessage.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateEditMessage
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateEditMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateEditMessage.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditMessage.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateEditMessage.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateEditMessage.Message*
+  commentId: Overload:OpenTl.Schema.TUpdateEditMessage.Message
+  isExternal: false
+  name: Message
+  nameWithType: TUpdateEditMessage.Message
+  fullName: OpenTl.Schema.TUpdateEditMessage.Message
+- uid: OpenTl.Schema.IMessage
+  commentId: T:OpenTl.Schema.IMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessage
+  nameWithType: IMessage
+  fullName: OpenTl.Schema.IMessage
+- uid: OpenTl.Schema.TUpdateEditMessage.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateEditMessage.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateEditMessage.Pts
+  fullName: OpenTl.Schema.TUpdateEditMessage.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateEditMessage.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateEditMessage.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateEditMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateEditMessage.PtsCount

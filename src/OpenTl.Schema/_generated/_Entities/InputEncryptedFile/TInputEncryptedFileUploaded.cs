@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int Parts {get; set;}
 
+       /// <summary>Binary representation for the 'Md5Checksum' property</summary>
        [SerializationOrder(2)]
        public byte[] Md5ChecksumAsBinary { get => _Md5ChecksumAsBinary; set { _Md5Checksum = Encoding.UTF8.GetString(value); _Md5ChecksumAsBinary = value; }}
        private byte[] _Md5ChecksumAsBinary;

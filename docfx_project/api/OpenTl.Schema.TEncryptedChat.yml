@@ -1,0 +1,399 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TEncryptedChat
+  commentId: T:OpenTl.Schema.TEncryptedChat
+  id: TEncryptedChat
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TEncryptedChat.AccessHash
+  - OpenTl.Schema.TEncryptedChat.AdminId
+  - OpenTl.Schema.TEncryptedChat.Date
+  - OpenTl.Schema.TEncryptedChat.GAOrB
+  - OpenTl.Schema.TEncryptedChat.Id
+  - OpenTl.Schema.TEncryptedChat.KeyFingerprint
+  - OpenTl.Schema.TEncryptedChat.ParticipantId
+  langs:
+  - csharp
+  - vb
+  name: TEncryptedChat
+  nameWithType: TEncryptedChat
+  fullName: OpenTl.Schema.TEncryptedChat
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TEncryptedChat
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TEncryptedChat : object, IEncryptedChat, IObject'
+    content.vb: >-
+      Public Class TEncryptedChat
+
+          Inherits Object
+
+          Implements IEncryptedChat, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IEncryptedChat
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TEncryptedChat.Id
+  commentId: P:OpenTl.Schema.TEncryptedChat.Id
+  id: Id
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TEncryptedChat.Id
+  fullName: OpenTl.Schema.TEncryptedChat.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TEncryptedChat.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.AccessHash
+  commentId: P:OpenTl.Schema.TEncryptedChat.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TEncryptedChat.AccessHash
+  fullName: OpenTl.Schema.TEncryptedChat.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TEncryptedChat.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.Date
+  commentId: P:OpenTl.Schema.TEncryptedChat.Date
+  id: Date
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TEncryptedChat.Date
+  fullName: OpenTl.Schema.TEncryptedChat.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TEncryptedChat.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.AdminId
+  commentId: P:OpenTl.Schema.TEncryptedChat.AdminId
+  id: AdminId
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: AdminId
+  nameWithType: TEncryptedChat.AdminId
+  fullName: OpenTl.Schema.TEncryptedChat.AdminId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AdminId
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int AdminId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AdminId As Integer
+  overload: OpenTl.Schema.TEncryptedChat.AdminId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.ParticipantId
+  commentId: P:OpenTl.Schema.TEncryptedChat.ParticipantId
+  id: ParticipantId
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: ParticipantId
+  nameWithType: TEncryptedChat.ParticipantId
+  fullName: OpenTl.Schema.TEncryptedChat.ParticipantId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ParticipantId
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ParticipantId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ParticipantId As Integer
+  overload: OpenTl.Schema.TEncryptedChat.ParticipantId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.GAOrB
+  commentId: P:OpenTl.Schema.TEncryptedChat.GAOrB
+  id: GAOrB
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: GAOrB
+  nameWithType: TEncryptedChat.GAOrB
+  fullName: OpenTl.Schema.TEncryptedChat.GAOrB
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GAOrB
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] GAOrB { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property GAOrB As Byte()
+  overload: OpenTl.Schema.TEncryptedChat.GAOrB*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedChat.KeyFingerprint
+  commentId: P:OpenTl.Schema.TEncryptedChat.KeyFingerprint
+  id: KeyFingerprint
+  parent: OpenTl.Schema.TEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: KeyFingerprint
+  nameWithType: TEncryptedChat.KeyFingerprint
+  fullName: OpenTl.Schema.TEncryptedChat.KeyFingerprint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KeyFingerprint
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChat.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long KeyFingerprint { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property KeyFingerprint As Long
+  overload: OpenTl.Schema.TEncryptedChat.KeyFingerprint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IEncryptedChat
+  commentId: T:OpenTl.Schema.IEncryptedChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedChat
+  nameWithType: IEncryptedChat
+  fullName: OpenTl.Schema.IEncryptedChat
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TEncryptedChat.Id*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.Id
+  isExternal: false
+  name: Id
+  nameWithType: TEncryptedChat.Id
+  fullName: OpenTl.Schema.TEncryptedChat.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TEncryptedChat.AccessHash*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TEncryptedChat.AccessHash
+  fullName: OpenTl.Schema.TEncryptedChat.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TEncryptedChat.Date*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.Date
+  isExternal: false
+  name: Date
+  nameWithType: TEncryptedChat.Date
+  fullName: OpenTl.Schema.TEncryptedChat.Date
+- uid: OpenTl.Schema.TEncryptedChat.AdminId*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.AdminId
+  isExternal: false
+  name: AdminId
+  nameWithType: TEncryptedChat.AdminId
+  fullName: OpenTl.Schema.TEncryptedChat.AdminId
+- uid: OpenTl.Schema.TEncryptedChat.ParticipantId*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.ParticipantId
+  isExternal: false
+  name: ParticipantId
+  nameWithType: TEncryptedChat.ParticipantId
+  fullName: OpenTl.Schema.TEncryptedChat.ParticipantId
+- uid: OpenTl.Schema.TEncryptedChat.GAOrB*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.GAOrB
+  isExternal: false
+  name: GAOrB
+  nameWithType: TEncryptedChat.GAOrB
+  fullName: OpenTl.Schema.TEncryptedChat.GAOrB
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TEncryptedChat.KeyFingerprint*
+  commentId: Overload:OpenTl.Schema.TEncryptedChat.KeyFingerprint
+  isExternal: false
+  name: KeyFingerprint
+  nameWithType: TEncryptedChat.KeyFingerprint
+  fullName: OpenTl.Schema.TEncryptedChat.KeyFingerprint

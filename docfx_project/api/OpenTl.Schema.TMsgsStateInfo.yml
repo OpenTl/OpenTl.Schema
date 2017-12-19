@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMsgsStateInfo
+  commentId: T:OpenTl.Schema.TMsgsStateInfo
+  id: TMsgsStateInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMsgsStateInfo.Info
+  - OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+  - OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+  langs:
+  - csharp
+  - vb
+  name: TMsgsStateInfo
+  nameWithType: TMsgsStateInfo
+  fullName: OpenTl.Schema.TMsgsStateInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMsgsStateInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMsgsStateInfo : object, IObject'
+    content.vb: >-
+      Public Class TMsgsStateInfo
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+  commentId: P:OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+  id: ReqMsgId
+  parent: OpenTl.Schema.TMsgsStateInfo
+  langs:
+  - csharp
+  - vb
+  name: ReqMsgId
+  nameWithType: TMsgsStateInfo.ReqMsgId
+  fullName: OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReqMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ReqMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReqMsgId As Long
+  overload: OpenTl.Schema.TMsgsStateInfo.ReqMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+  commentId: P:OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+  id: InfoAsBinary
+  parent: OpenTl.Schema.TMsgsStateInfo
+  langs:
+  - csharp
+  - vb
+  name: InfoAsBinary
+  nameWithType: TMsgsStateInfo.InfoAsBinary
+  fullName: OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InfoAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Info&apos; property
+  example: []
+  syntax:
+    content: public byte[] InfoAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property InfoAsBinary As Byte()
+  overload: OpenTl.Schema.TMsgsStateInfo.InfoAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgsStateInfo.Info
+  commentId: P:OpenTl.Schema.TMsgsStateInfo.Info
+  id: Info
+  parent: OpenTl.Schema.TMsgsStateInfo
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TMsgsStateInfo.Info
+  fullName: OpenTl.Schema.TMsgsStateInfo.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsStateInfo.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Info { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Info As String
+  overload: OpenTl.Schema.TMsgsStateInfo.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMsgsStateInfo.ReqMsgId*
+  commentId: Overload:OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+  isExternal: false
+  name: ReqMsgId
+  nameWithType: TMsgsStateInfo.ReqMsgId
+  fullName: OpenTl.Schema.TMsgsStateInfo.ReqMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMsgsStateInfo.InfoAsBinary*
+  commentId: Overload:OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+  isExternal: false
+  name: InfoAsBinary
+  nameWithType: TMsgsStateInfo.InfoAsBinary
+  fullName: OpenTl.Schema.TMsgsStateInfo.InfoAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMsgsStateInfo.Info*
+  commentId: Overload:OpenTl.Schema.TMsgsStateInfo.Info
+  isExternal: false
+  name: Info
+  nameWithType: TMsgsStateInfo.Info
+  fullName: OpenTl.Schema.TMsgsStateInfo.Info
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

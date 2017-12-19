@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateDcOptions
+  commentId: T:OpenTl.Schema.TUpdateDcOptions
+  id: TUpdateDcOptions
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateDcOptions.DcOptions
+  langs:
+  - csharp
+  - vb
+  name: TUpdateDcOptions
+  nameWithType: TUpdateDcOptions
+  fullName: OpenTl.Schema.TUpdateDcOptions
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDcOptions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateDcOptions
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDcOptions.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateDcOptions : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateDcOptions
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateDcOptions.DcOptions
+  commentId: P:OpenTl.Schema.TUpdateDcOptions.DcOptions
+  id: DcOptions
+  parent: OpenTl.Schema.TUpdateDcOptions
+  langs:
+  - csharp
+  - vb
+  name: DcOptions
+  nameWithType: TUpdateDcOptions.DcOptions
+  fullName: OpenTl.Schema.TUpdateDcOptions.DcOptions
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDcOptions.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcOptions
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDcOptions.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IDcOption> DcOptions { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+    content.vb: Public Property DcOptions As TVector(Of IDcOption)
+  overload: OpenTl.Schema.TUpdateDcOptions.DcOptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateDcOptions.DcOptions*
+  commentId: Overload:OpenTl.Schema.TUpdateDcOptions.DcOptions
+  isExternal: false
+  name: DcOptions
+  nameWithType: TUpdateDcOptions.DcOptions
+  fullName: OpenTl.Schema.TUpdateDcOptions.DcOptions
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDcOption>
+  nameWithType: TVector<IDcOption>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDcOption>
+  nameWithType.vb: TVector(Of IDcOption)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDcOption)
+  name.vb: TVector(Of IDcOption)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDcOption
+    name: IDcOption
+    nameWithType: IDcOption
+    fullName: OpenTl.Schema.IDcOption
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDcOption
+    name: IDcOption
+    nameWithType: IDcOption
+    fullName: OpenTl.Schema.IDcOption
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

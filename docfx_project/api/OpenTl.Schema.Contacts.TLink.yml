@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.TLink
+  commentId: T:OpenTl.Schema.Contacts.TLink
+  id: TLink
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.TLink.ForeignLink
+  - OpenTl.Schema.Contacts.TLink.MyLink
+  - OpenTl.Schema.Contacts.TLink.User
+  langs:
+  - csharp
+  - vb
+  name: TLink
+  nameWithType: TLink
+  fullName: OpenTl.Schema.Contacts.TLink
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLink
+    path: ../src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class TLink : object, ILink, IObject'
+    content.vb: >-
+      Public Class TLink
+
+          Inherits Object
+
+          Implements ILink, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Contacts.ILink
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.TLink.MyLink
+  commentId: P:OpenTl.Schema.Contacts.TLink.MyLink
+  id: MyLink
+  parent: OpenTl.Schema.Contacts.TLink
+  langs:
+  - csharp
+  - vb
+  name: MyLink
+  nameWithType: TLink.MyLink
+  fullName: OpenTl.Schema.Contacts.TLink.MyLink
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MyLink
+    path: ../src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public IContactLink MyLink { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IContactLink
+    content.vb: Public Property MyLink As IContactLink
+  overload: OpenTl.Schema.Contacts.TLink.MyLink*
+  implements:
+  - OpenTl.Schema.Contacts.ILink.MyLink
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TLink.ForeignLink
+  commentId: P:OpenTl.Schema.Contacts.TLink.ForeignLink
+  id: ForeignLink
+  parent: OpenTl.Schema.Contacts.TLink
+  langs:
+  - csharp
+  - vb
+  name: ForeignLink
+  nameWithType: TLink.ForeignLink
+  fullName: OpenTl.Schema.Contacts.TLink.ForeignLink
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ForeignLink
+    path: ../src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public IContactLink ForeignLink { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IContactLink
+    content.vb: Public Property ForeignLink As IContactLink
+  overload: OpenTl.Schema.Contacts.TLink.ForeignLink*
+  implements:
+  - OpenTl.Schema.Contacts.ILink.ForeignLink
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TLink.User
+  commentId: P:OpenTl.Schema.Contacts.TLink.User
+  id: User
+  parent: OpenTl.Schema.Contacts.TLink
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: TLink.User
+  fullName: OpenTl.Schema.Contacts.TLink.User
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: User
+    path: ../src/OpenTl.Schema/_generated/Contacts/Link/TLink.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public IUser User { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUser
+    content.vb: Public Property User As IUser
+  overload: OpenTl.Schema.Contacts.TLink.User*
+  implements:
+  - OpenTl.Schema.Contacts.ILink.User
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Contacts.ILink
+  commentId: T:OpenTl.Schema.Contacts.ILink
+  parent: OpenTl.Schema.Contacts
+  isExternal: false
+  name: ILink
+  nameWithType: ILink
+  fullName: OpenTl.Schema.Contacts.ILink
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.TLink.MyLink*
+  commentId: Overload:OpenTl.Schema.Contacts.TLink.MyLink
+  isExternal: false
+  name: MyLink
+  nameWithType: TLink.MyLink
+  fullName: OpenTl.Schema.Contacts.TLink.MyLink
+- uid: OpenTl.Schema.Contacts.ILink.MyLink
+  commentId: P:OpenTl.Schema.Contacts.ILink.MyLink
+  parent: OpenTl.Schema.Contacts.ILink
+  isExternal: false
+  name: MyLink
+  nameWithType: ILink.MyLink
+  fullName: OpenTl.Schema.Contacts.ILink.MyLink
+- uid: OpenTl.Schema.IContactLink
+  commentId: T:OpenTl.Schema.IContactLink
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IContactLink
+  nameWithType: IContactLink
+  fullName: OpenTl.Schema.IContactLink
+- uid: OpenTl.Schema.Contacts.TLink.ForeignLink*
+  commentId: Overload:OpenTl.Schema.Contacts.TLink.ForeignLink
+  isExternal: false
+  name: ForeignLink
+  nameWithType: TLink.ForeignLink
+  fullName: OpenTl.Schema.Contacts.TLink.ForeignLink
+- uid: OpenTl.Schema.Contacts.ILink.ForeignLink
+  commentId: P:OpenTl.Schema.Contacts.ILink.ForeignLink
+  parent: OpenTl.Schema.Contacts.ILink
+  isExternal: false
+  name: ForeignLink
+  nameWithType: ILink.ForeignLink
+  fullName: OpenTl.Schema.Contacts.ILink.ForeignLink
+- uid: OpenTl.Schema.Contacts.TLink.User*
+  commentId: Overload:OpenTl.Schema.Contacts.TLink.User
+  isExternal: false
+  name: User
+  nameWithType: TLink.User
+  fullName: OpenTl.Schema.Contacts.TLink.User
+- uid: OpenTl.Schema.Contacts.ILink.User
+  commentId: P:OpenTl.Schema.Contacts.ILink.User
+  parent: OpenTl.Schema.Contacts.ILink
+  isExternal: false
+  name: User
+  nameWithType: ILink.User
+  fullName: OpenTl.Schema.Contacts.ILink.User
+- uid: OpenTl.Schema.IUser
+  commentId: T:OpenTl.Schema.IUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUser
+  nameWithType: IUser
+  fullName: OpenTl.Schema.IUser

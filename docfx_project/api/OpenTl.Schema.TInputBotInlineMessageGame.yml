@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineMessageGame
+  commentId: T:OpenTl.Schema.TInputBotInlineMessageGame
+  id: TInputBotInlineMessageGame
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineMessageGame.Flags
+  - OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineMessageGame
+  nameWithType: TInputBotInlineMessageGame
+  fullName: OpenTl.Schema.TInputBotInlineMessageGame
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineMessageGame
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineMessageGame : object, IInputBotInlineMessage, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineMessageGame
+
+          Inherits Object
+
+          Implements IInputBotInlineMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineMessageGame.Flags
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageGame.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputBotInlineMessageGame
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputBotInlineMessageGame.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageGame.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputBotInlineMessageGame.Flags*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.TInputBotInlineMessageGame
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageGame.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageGame.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineMessageGame.Flags*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageGame.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputBotInlineMessageGame.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageGame.Flags
+- uid: OpenTl.Schema.IInputBotInlineMessage.Flags
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.Flags
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: Flags
+  nameWithType: IInputBotInlineMessage.Flags
+  fullName: OpenTl.Schema.IInputBotInlineMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageGame.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageGame.ReplyMarkup
+- uid: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: IInputBotInlineMessage.ReplyMarkup
+  fullName: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

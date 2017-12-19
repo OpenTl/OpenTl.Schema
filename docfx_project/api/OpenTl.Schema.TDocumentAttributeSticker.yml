@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeSticker
+  commentId: T:OpenTl.Schema.TDocumentAttributeSticker
+  id: TDocumentAttributeSticker
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDocumentAttributeSticker.Alt
+  - OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+  - OpenTl.Schema.TDocumentAttributeSticker.Flags
+  - OpenTl.Schema.TDocumentAttributeSticker.Mask
+  - OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+  - OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeSticker
+  nameWithType: TDocumentAttributeSticker
+  fullName: OpenTl.Schema.TDocumentAttributeSticker
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeSticker
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeSticker : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeSticker
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Flags
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.Flags
+  id: Flags
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TDocumentAttributeSticker.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TDocumentAttributeSticker.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Mask
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.Mask
+  id: Mask
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: Mask
+  nameWithType: TDocumentAttributeSticker.Mask
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Mask
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mask
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Mask { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mask As Boolean
+  overload: OpenTl.Schema.TDocumentAttributeSticker.Mask*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+  id: AltAsBinary
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: AltAsBinary
+  nameWithType: TDocumentAttributeSticker.AltAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AltAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Alt&apos; property
+  example: []
+  syntax:
+    content: public byte[] AltAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property AltAsBinary As Byte()
+  overload: OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Alt
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.Alt
+  id: Alt
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: Alt
+  nameWithType: TDocumentAttributeSticker.Alt
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Alt
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Alt
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Alt { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Alt As String
+  overload: OpenTl.Schema.TDocumentAttributeSticker.Alt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+  id: Stickerset
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: Stickerset
+  nameWithType: TDocumentAttributeSticker.Stickerset
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickerset
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputStickerSet Stickerset { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputStickerSet
+    content.vb: Public Property Stickerset As IInputStickerSet
+  overload: OpenTl.Schema.TDocumentAttributeSticker.Stickerset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+  commentId: P:OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+  id: MaskCoords
+  parent: OpenTl.Schema.TDocumentAttributeSticker
+  langs:
+  - csharp
+  - vb
+  name: MaskCoords
+  nameWithType: TDocumentAttributeSticker.MaskCoords
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaskCoords
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeSticker.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMaskCoords MaskCoords { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMaskCoords
+    content.vb: Public Property MaskCoords As IMaskCoords
+  overload: OpenTl.Schema.TDocumentAttributeSticker.MaskCoords*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Flags*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TDocumentAttributeSticker.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Mask*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.Mask
+  isExternal: false
+  name: Mask
+  nameWithType: TDocumentAttributeSticker.Mask
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Mask
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+  isExternal: false
+  name: AltAsBinary
+  nameWithType: TDocumentAttributeSticker.AltAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.AltAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Alt*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.Alt
+  isExternal: false
+  name: Alt
+  nameWithType: TDocumentAttributeSticker.Alt
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Alt
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TDocumentAttributeSticker.Stickerset*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+  isExternal: false
+  name: Stickerset
+  nameWithType: TDocumentAttributeSticker.Stickerset
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.Stickerset
+- uid: OpenTl.Schema.IInputStickerSet
+  commentId: T:OpenTl.Schema.IInputStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSet
+  nameWithType: IInputStickerSet
+  fullName: OpenTl.Schema.IInputStickerSet
+- uid: OpenTl.Schema.TDocumentAttributeSticker.MaskCoords*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+  isExternal: false
+  name: MaskCoords
+  nameWithType: TDocumentAttributeSticker.MaskCoords
+  fullName: OpenTl.Schema.TDocumentAttributeSticker.MaskCoords
+- uid: OpenTl.Schema.IMaskCoords
+  commentId: T:OpenTl.Schema.IMaskCoords
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMaskCoords
+  nameWithType: IMaskCoords
+  fullName: OpenTl.Schema.IMaskCoords

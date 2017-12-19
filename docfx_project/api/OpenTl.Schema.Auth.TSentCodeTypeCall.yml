@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TSentCodeTypeCall
+  commentId: T:OpenTl.Schema.Auth.TSentCodeTypeCall
+  id: TSentCodeTypeCall
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+  langs:
+  - csharp
+  - vb
+  name: TSentCodeTypeCall
+  nameWithType: TSentCodeTypeCall
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSentCodeTypeCall
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TSentCodeTypeCall : object, ISentCodeType, IObject'
+    content.vb: >-
+      Public Class TSentCodeTypeCall
+
+          Inherits Object
+
+          Implements ISentCodeType, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.ISentCodeType
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+  commentId: P:OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+  id: Length
+  parent: OpenTl.Schema.Auth.TSentCodeTypeCall
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: TSentCodeTypeCall.Length
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Length
+    path: ../src/OpenTl.Schema/_generated/Auth/SentCodeType/TSentCodeTypeCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int Length { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: OpenTl.Schema.Auth.TSentCodeTypeCall.Length*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.ISentCodeType
+  commentId: T:OpenTl.Schema.Auth.ISentCodeType
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ISentCodeType
+  nameWithType: ISentCodeType
+  fullName: OpenTl.Schema.Auth.ISentCodeType
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TSentCodeTypeCall.Length*
+  commentId: Overload:OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+  isExternal: false
+  name: Length
+  nameWithType: TSentCodeTypeCall.Length
+  fullName: OpenTl.Schema.Auth.TSentCodeTypeCall.Length
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

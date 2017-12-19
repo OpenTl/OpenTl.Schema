@@ -1,0 +1,472 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  commentId: T:OpenTl.Schema.TInputBotInlineMessageMediaContact
+  id: TInputBotInlineMessageMediaContact
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  - OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineMessageMediaContact
+  nameWithType: TInputBotInlineMessageMediaContact
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineMessageMediaContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineMessageMediaContact : object, IInputBotInlineMessage, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineMessageMediaContact
+
+          Inherits Object
+
+          Implements IInputBotInlineMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputBotInlineMessageMediaContact.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: TInputBotInlineMessageMediaContact.PhoneNumber
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  id: FirstNameAsBinary
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: FirstNameAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;FirstName&apos; property
+  example: []
+  syntax:
+    content: public byte[] FirstNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FirstNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+  id: FirstName
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: TInputBotInlineMessageMediaContact.FirstName
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+  id: LastNameAsBinary
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: LastNameAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.LastNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;LastName&apos; property
+  example: []
+  syntax:
+    content: public byte[] LastNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LastNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+  id: LastName
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: TInputBotInlineMessageMediaContact.LastName
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaContact
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageMediaContact.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaContact.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputBotInlineMessageMediaContact.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.Flags
+- uid: OpenTl.Schema.IInputBotInlineMessage.Flags
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.Flags
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: Flags
+  nameWithType: IInputBotInlineMessage.Flags
+  fullName: OpenTl.Schema.IInputBotInlineMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: TInputBotInlineMessageMediaContact.PhoneNumber
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  isExternal: false
+  name: FirstNameAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.FirstNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstNameAsBinary
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+  isExternal: false
+  name: FirstName
+  nameWithType: TInputBotInlineMessageMediaContact.FirstName
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.FirstName
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+  isExternal: false
+  name: LastNameAsBinary
+  nameWithType: TInputBotInlineMessageMediaContact.LastNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastNameAsBinary
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+  isExternal: false
+  name: LastName
+  nameWithType: TInputBotInlineMessageMediaContact.LastName
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.LastName
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageMediaContact.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaContact.ReplyMarkup
+- uid: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: IInputBotInlineMessage.ReplyMarkup
+  fullName: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMediaDocumentExternal
+  commentId: T:OpenTl.Schema.TInputMediaDocumentExternal
+  id: TInputMediaDocumentExternal
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputMediaDocumentExternal.Caption
+  - OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+  - OpenTl.Schema.TInputMediaDocumentExternal.Flags
+  - OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+  - OpenTl.Schema.TInputMediaDocumentExternal.Url
+  - OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputMediaDocumentExternal
+  nameWithType: TInputMediaDocumentExternal
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMediaDocumentExternal
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMediaDocumentExternal : object, IInputMedia, IObject'
+    content.vb: >-
+      Public Class TInputMediaDocumentExternal
+
+          Inherits Object
+
+          Implements IInputMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Flags
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputMediaDocumentExternal.Flags
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TInputMediaDocumentExternal.UrlAsBinary
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Url
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.Url
+  id: Url
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TInputMediaDocumentExternal.Url
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+  id: CaptionAsBinary
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: CaptionAsBinary
+  nameWithType: TInputMediaDocumentExternal.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CaptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Caption&apos; property
+  example: []
+  syntax:
+    content: public byte[] CaptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CaptionAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Caption
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.Caption
+  id: Caption
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TInputMediaDocumentExternal.Caption
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+  commentId: P:OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+  id: TtlSeconds
+  parent: OpenTl.Schema.TInputMediaDocumentExternal
+  langs:
+  - csharp
+  - vb
+  name: TtlSeconds
+  nameWithType: TInputMediaDocumentExternal.TtlSeconds
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TtlSeconds
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaDocumentExternal.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int TtlSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TtlSeconds As Integer
+  overload: OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputMedia
+  commentId: T:OpenTl.Schema.IInputMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputMedia
+  nameWithType: IInputMedia
+  fullName: OpenTl.Schema.IInputMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Flags*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputMediaDocumentExternal.Flags
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TInputMediaDocumentExternal.UrlAsBinary
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Url*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.Url
+  isExternal: false
+  name: Url
+  nameWithType: TInputMediaDocumentExternal.Url
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+  isExternal: false
+  name: CaptionAsBinary
+  nameWithType: TInputMediaDocumentExternal.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.CaptionAsBinary
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.Caption*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TInputMediaDocumentExternal.Caption
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.Caption
+- uid: OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds*
+  commentId: Overload:OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+  isExternal: false
+  name: TtlSeconds
+  nameWithType: TInputMediaDocumentExternal.TtlSeconds
+  fullName: OpenTl.Schema.TInputMediaDocumentExternal.TtlSeconds
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

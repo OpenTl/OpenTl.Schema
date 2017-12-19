@@ -23,6 +23,7 @@ namespace OpenTl.Schema.Account
        [CanSerialize("Flags", 0)]
        public byte[] NewPasswordHash {get; set;}
 
+       /// <summary>Binary representation for the 'Hint' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
        public byte[] HintAsBinary { get => _HintAsBinary; set { _Hint = Encoding.UTF8.GetString(value); _HintAsBinary = value; }}
@@ -30,6 +31,7 @@ namespace OpenTl.Schema.Account
        private string _Hint;
        public string Hint { get => _Hint; set { HintAsBinary = Encoding.UTF8.GetBytes(value); _Hint = value; }}
 
+       /// <summary>Binary representation for the 'Email' property</summary>
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
        public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}

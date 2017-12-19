@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.RequestInvokeWithLayer
+  commentId: T:OpenTl.Schema.RequestInvokeWithLayer
+  id: RequestInvokeWithLayer
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.RequestInvokeWithLayer.Layer
+  - OpenTl.Schema.RequestInvokeWithLayer.Query
+  langs:
+  - csharp
+  - vb
+  name: RequestInvokeWithLayer
+  nameWithType: RequestInvokeWithLayer
+  fullName: OpenTl.Schema.RequestInvokeWithLayer
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestInvokeWithLayer
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class RequestInvokeWithLayer : object, IRequest<IObject>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestInvokeWithLayer
+
+          Inherits Object
+
+          Implements IRequest(Of IObject), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IObject}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.RequestInvokeWithLayer.Layer
+  commentId: P:OpenTl.Schema.RequestInvokeWithLayer.Layer
+  id: Layer
+  parent: OpenTl.Schema.RequestInvokeWithLayer
+  langs:
+  - csharp
+  - vb
+  name: Layer
+  nameWithType: RequestInvokeWithLayer.Layer
+  fullName: OpenTl.Schema.RequestInvokeWithLayer.Layer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Layer
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Layer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Layer As Integer
+  overload: OpenTl.Schema.RequestInvokeWithLayer.Layer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestInvokeWithLayer.Query
+  commentId: P:OpenTl.Schema.RequestInvokeWithLayer.Query
+  id: Query
+  parent: OpenTl.Schema.RequestInvokeWithLayer
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: RequestInvokeWithLayer.Query
+  fullName: OpenTl.Schema.RequestInvokeWithLayer.Query
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Query
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestInvokeWithLayer.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IObject Query { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IObject
+    content.vb: Public Property Query As IObject
+  overload: OpenTl.Schema.RequestInvokeWithLayer.Query*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IObject}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IObject}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IObject>
+  nameWithType: IRequest<IObject>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IObject>
+  nameWithType.vb: IRequest(Of IObject)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IObject)
+  name.vb: IRequest(Of IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.RequestInvokeWithLayer.Layer*
+  commentId: Overload:OpenTl.Schema.RequestInvokeWithLayer.Layer
+  isExternal: false
+  name: Layer
+  nameWithType: RequestInvokeWithLayer.Layer
+  fullName: OpenTl.Schema.RequestInvokeWithLayer.Layer
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.RequestInvokeWithLayer.Query*
+  commentId: Overload:OpenTl.Schema.RequestInvokeWithLayer.Query
+  isExternal: false
+  name: Query
+  nameWithType: RequestInvokeWithLayer.Query
+  fullName: OpenTl.Schema.RequestInvokeWithLayer.Query

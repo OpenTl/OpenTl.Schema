@@ -1,0 +1,287 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatParticipants
+  commentId: T:OpenTl.Schema.TChatParticipants
+  id: TChatParticipants
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatParticipants.ChatId
+  - OpenTl.Schema.TChatParticipants.Participants
+  - OpenTl.Schema.TChatParticipants.Version
+  langs:
+  - csharp
+  - vb
+  name: TChatParticipants
+  nameWithType: TChatParticipants
+  fullName: OpenTl.Schema.TChatParticipants
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatParticipants
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatParticipants : object, IChatParticipants, IObject'
+    content.vb: >-
+      Public Class TChatParticipants
+
+          Inherits Object
+
+          Implements IChatParticipants, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChatParticipants
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatParticipants.ChatId
+  commentId: P:OpenTl.Schema.TChatParticipants.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TChatParticipants
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TChatParticipants.ChatId
+  fullName: OpenTl.Schema.TChatParticipants.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TChatParticipants.ChatId*
+  implements:
+  - OpenTl.Schema.IChatParticipants.ChatId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatParticipants.Participants
+  commentId: P:OpenTl.Schema.TChatParticipants.Participants
+  id: Participants
+  parent: OpenTl.Schema.TChatParticipants
+  langs:
+  - csharp
+  - vb
+  name: Participants
+  nameWithType: TChatParticipants.Participants
+  fullName: OpenTl.Schema.TChatParticipants.Participants
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Participants
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IChatParticipant> Participants { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChatParticipant}
+    content.vb: Public Property Participants As TVector(Of IChatParticipant)
+  overload: OpenTl.Schema.TChatParticipants.Participants*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatParticipants.Version
+  commentId: P:OpenTl.Schema.TChatParticipants.Version
+  id: Version
+  parent: OpenTl.Schema.TChatParticipants
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TChatParticipants.Version
+  fullName: OpenTl.Schema.TChatParticipants.Version
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Version
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipants.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: OpenTl.Schema.TChatParticipants.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChatParticipants
+  commentId: T:OpenTl.Schema.IChatParticipants
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatParticipants
+  nameWithType: IChatParticipants
+  fullName: OpenTl.Schema.IChatParticipants
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatParticipants.ChatId*
+  commentId: Overload:OpenTl.Schema.TChatParticipants.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TChatParticipants.ChatId
+  fullName: OpenTl.Schema.TChatParticipants.ChatId
+- uid: OpenTl.Schema.IChatParticipants.ChatId
+  commentId: P:OpenTl.Schema.IChatParticipants.ChatId
+  parent: OpenTl.Schema.IChatParticipants
+  isExternal: false
+  name: ChatId
+  nameWithType: IChatParticipants.ChatId
+  fullName: OpenTl.Schema.IChatParticipants.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChatParticipants.Participants*
+  commentId: Overload:OpenTl.Schema.TChatParticipants.Participants
+  isExternal: false
+  name: Participants
+  nameWithType: TChatParticipants.Participants
+  fullName: OpenTl.Schema.TChatParticipants.Participants
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChatParticipant}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChatParticipant}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChatParticipant>
+  nameWithType: TVector<IChatParticipant>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChatParticipant>
+  nameWithType.vb: TVector(Of IChatParticipant)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChatParticipant)
+  name.vb: TVector(Of IChatParticipant)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChatParticipant
+    name: IChatParticipant
+    nameWithType: IChatParticipant
+    fullName: OpenTl.Schema.IChatParticipant
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChatParticipant
+    name: IChatParticipant
+    nameWithType: IChatParticipant
+    fullName: OpenTl.Schema.IChatParticipant
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TChatParticipants.Version*
+  commentId: Overload:OpenTl.Schema.TChatParticipants.Version
+  isExternal: false
+  name: Version
+  nameWithType: TChatParticipants.Version
+  fullName: OpenTl.Schema.TChatParticipants.Version

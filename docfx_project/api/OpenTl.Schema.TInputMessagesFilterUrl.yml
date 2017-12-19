@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMessagesFilterUrl
+  commentId: T:OpenTl.Schema.TInputMessagesFilterUrl
+  id: TInputMessagesFilterUrl
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputMessagesFilterUrl
+  nameWithType: TInputMessagesFilterUrl
+  fullName: OpenTl.Schema.TInputMessagesFilterUrl
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterUrl.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMessagesFilterUrl
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterUrl.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMessagesFilterUrl : object, IMessagesFilter, IObject'
+    content.vb: >-
+      Public Class TInputMessagesFilterUrl
+
+          Inherits Object
+
+          Implements IMessagesFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessagesFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessagesFilter
+  commentId: T:OpenTl.Schema.IMessagesFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessagesFilter
+  nameWithType: IMessagesFilter
+  fullName: OpenTl.Schema.IMessagesFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

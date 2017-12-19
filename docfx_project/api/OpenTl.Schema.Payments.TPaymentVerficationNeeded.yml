@@ -1,0 +1,192 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.TPaymentVerficationNeeded
+  commentId: T:OpenTl.Schema.Payments.TPaymentVerficationNeeded
+  id: TPaymentVerficationNeeded
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+  - OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPaymentVerficationNeeded
+  nameWithType: TPaymentVerficationNeeded
+  fullName: OpenTl.Schema.Payments.TPaymentVerficationNeeded
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPaymentVerficationNeeded
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class TPaymentVerficationNeeded : object, IPaymentResult, IObject'
+    content.vb: >-
+      Public Class TPaymentVerficationNeeded
+
+          Inherits Object
+
+          Implements IPaymentResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Payments.IPaymentResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+  commentId: P:OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.Payments.TPaymentVerficationNeeded
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TPaymentVerficationNeeded.UrlAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+  commentId: P:OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+  id: Url
+  parent: OpenTl.Schema.Payments.TPaymentVerficationNeeded
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TPaymentVerficationNeeded.Url
+  fullName: OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentVerficationNeeded.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Payments.IPaymentResult
+  commentId: T:OpenTl.Schema.Payments.IPaymentResult
+  parent: OpenTl.Schema.Payments
+  isExternal: false
+  name: IPaymentResult
+  nameWithType: IPaymentResult
+  fullName: OpenTl.Schema.Payments.IPaymentResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TPaymentVerficationNeeded.UrlAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentVerficationNeeded.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+  isExternal: false
+  name: Url
+  nameWithType: TPaymentVerficationNeeded.Url
+  fullName: OpenTl.Schema.Payments.TPaymentVerficationNeeded.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

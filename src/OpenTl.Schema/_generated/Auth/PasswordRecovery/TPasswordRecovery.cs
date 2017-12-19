@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Auth
 	[Serialize(0x137948a5)]
 	public class TPasswordRecovery : IPasswordRecovery
 	{
+       /// <summary>Binary representation for the 'EmailPattern' property</summary>
        [SerializationOrder(0)]
        public byte[] EmailPatternAsBinary { get => _EmailPatternAsBinary; set { _EmailPattern = Encoding.UTF8.GetString(value); _EmailPatternAsBinary = value; }}
        private byte[] _EmailPatternAsBinary;

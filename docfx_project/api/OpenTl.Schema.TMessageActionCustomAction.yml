@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionCustomAction
+  commentId: T:OpenTl.Schema.TMessageActionCustomAction
+  id: TMessageActionCustomAction
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionCustomAction.Message
+  - OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionCustomAction
+  nameWithType: TMessageActionCustomAction
+  fullName: OpenTl.Schema.TMessageActionCustomAction
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionCustomAction
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionCustomAction : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionCustomAction
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.TMessageActionCustomAction
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: TMessageActionCustomAction.MessageAsBinary
+  fullName: OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionCustomAction.Message
+  commentId: P:OpenTl.Schema.TMessageActionCustomAction.Message
+  id: Message
+  parent: OpenTl.Schema.TMessageActionCustomAction
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TMessageActionCustomAction.Message
+  fullName: OpenTl.Schema.TMessageActionCustomAction.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionCustomAction.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.TMessageActionCustomAction.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: TMessageActionCustomAction.MessageAsBinary
+  fullName: OpenTl.Schema.TMessageActionCustomAction.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageActionCustomAction.Message*
+  commentId: Overload:OpenTl.Schema.TMessageActionCustomAction.Message
+  isExternal: false
+  name: Message
+  nameWithType: TMessageActionCustomAction.Message
+  fullName: OpenTl.Schema.TMessageActionCustomAction.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

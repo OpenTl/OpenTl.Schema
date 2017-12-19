@@ -1,0 +1,448 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto
+  commentId: T:OpenTl.Schema.TInputMediaUploadedPhoto
+  id: TInputMediaUploadedPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+  - OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+  - OpenTl.Schema.TInputMediaUploadedPhoto.File
+  - OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+  - OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+  - OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+  langs:
+  - csharp
+  - vb
+  name: TInputMediaUploadedPhoto
+  nameWithType: TInputMediaUploadedPhoto
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMediaUploadedPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMediaUploadedPhoto : object, IInputMedia, IObject'
+    content.vb: >-
+      Public Class TInputMediaUploadedPhoto
+
+          Inherits Object
+
+          Implements IInputMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputMediaUploadedPhoto.Flags
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.File
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.File
+  id: File
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: TInputMediaUploadedPhoto.File
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.File
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: File
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputFile File { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputFile
+    content.vb: Public Property File As IInputFile
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.File*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+  id: CaptionAsBinary
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: CaptionAsBinary
+  nameWithType: TInputMediaUploadedPhoto.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CaptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Caption&apos; property
+  example: []
+  syntax:
+    content: public byte[] CaptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CaptionAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+  id: Caption
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TInputMediaUploadedPhoto.Caption
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+  id: Stickers
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: Stickers
+  nameWithType: TInputMediaUploadedPhoto.Stickers
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickers
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IInputDocument> Stickers { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IInputDocument}
+    content.vb: Public Property Stickers As TVector(Of IInputDocument)
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.Stickers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+  commentId: P:OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+  id: TtlSeconds
+  parent: OpenTl.Schema.TInputMediaUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: TtlSeconds
+  nameWithType: TInputMediaUploadedPhoto.TtlSeconds
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TtlSeconds
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaUploadedPhoto.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int TtlSeconds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TtlSeconds As Integer
+  overload: OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputMedia
+  commentId: T:OpenTl.Schema.IInputMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputMedia
+  nameWithType: IInputMedia
+  fullName: OpenTl.Schema.IInputMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Flags*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputMediaUploadedPhoto.Flags
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.File*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.File
+  isExternal: false
+  name: File
+  nameWithType: TInputMediaUploadedPhoto.File
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.File
+- uid: OpenTl.Schema.IInputFile
+  commentId: T:OpenTl.Schema.IInputFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFile
+  nameWithType: IInputFile
+  fullName: OpenTl.Schema.IInputFile
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+  isExternal: false
+  name: CaptionAsBinary
+  nameWithType: TInputMediaUploadedPhoto.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.CaptionAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Caption*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TInputMediaUploadedPhoto.Caption
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Caption
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.Stickers*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+  isExternal: false
+  name: Stickers
+  nameWithType: TInputMediaUploadedPhoto.Stickers
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.Stickers
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IInputDocument}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IInputDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IInputDocument>
+  nameWithType: TVector<IInputDocument>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IInputDocument>
+  nameWithType.vb: TVector(Of IInputDocument)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IInputDocument)
+  name.vb: TVector(Of IInputDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IInputDocument
+    name: IInputDocument
+    nameWithType: IInputDocument
+    fullName: OpenTl.Schema.IInputDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IInputDocument
+    name: IInputDocument
+    nameWithType: IInputDocument
+    fullName: OpenTl.Schema.IInputDocument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds*
+  commentId: Overload:OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+  isExternal: false
+  name: TtlSeconds
+  nameWithType: TInputMediaUploadedPhoto.TtlSeconds
+  fullName: OpenTl.Schema.TInputMediaUploadedPhoto.TtlSeconds
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

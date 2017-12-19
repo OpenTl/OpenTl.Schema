@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockPreformatted
+  commentId: T:OpenTl.Schema.TPageBlockPreformatted
+  id: TPageBlockPreformatted
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockPreformatted.Language
+  - OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+  - OpenTl.Schema.TPageBlockPreformatted.Text
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockPreformatted
+  nameWithType: TPageBlockPreformatted
+  fullName: OpenTl.Schema.TPageBlockPreformatted
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockPreformatted
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockPreformatted : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockPreformatted
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockPreformatted.Text
+  commentId: P:OpenTl.Schema.TPageBlockPreformatted.Text
+  id: Text
+  parent: OpenTl.Schema.TPageBlockPreformatted
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TPageBlockPreformatted.Text
+  fullName: OpenTl.Schema.TPageBlockPreformatted.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TPageBlockPreformatted.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+  commentId: P:OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+  id: LanguageAsBinary
+  parent: OpenTl.Schema.TPageBlockPreformatted
+  langs:
+  - csharp
+  - vb
+  name: LanguageAsBinary
+  nameWithType: TPageBlockPreformatted.LanguageAsBinary
+  fullName: OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LanguageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Language&apos; property
+  example: []
+  syntax:
+    content: public byte[] LanguageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LanguageAsBinary As Byte()
+  overload: OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockPreformatted.Language
+  commentId: P:OpenTl.Schema.TPageBlockPreformatted.Language
+  id: Language
+  parent: OpenTl.Schema.TPageBlockPreformatted
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TPageBlockPreformatted.Language
+  fullName: OpenTl.Schema.TPageBlockPreformatted.Language
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Language
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPreformatted.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: OpenTl.Schema.TPageBlockPreformatted.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockPreformatted.Text*
+  commentId: Overload:OpenTl.Schema.TPageBlockPreformatted.Text
+  isExternal: false
+  name: Text
+  nameWithType: TPageBlockPreformatted.Text
+  fullName: OpenTl.Schema.TPageBlockPreformatted.Text
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary*
+  commentId: Overload:OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+  isExternal: false
+  name: LanguageAsBinary
+  nameWithType: TPageBlockPreformatted.LanguageAsBinary
+  fullName: OpenTl.Schema.TPageBlockPreformatted.LanguageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPageBlockPreformatted.Language*
+  commentId: Overload:OpenTl.Schema.TPageBlockPreformatted.Language
+  isExternal: false
+  name: Language
+  nameWithType: TPageBlockPreformatted.Language
+  fullName: OpenTl.Schema.TPageBlockPreformatted.Language
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhoneCallAccepted
+  commentId: T:OpenTl.Schema.TPhoneCallAccepted
+  id: TPhoneCallAccepted
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPhoneCallAccepted.AccessHash
+  - OpenTl.Schema.TPhoneCallAccepted.AdminId
+  - OpenTl.Schema.TPhoneCallAccepted.Date
+  - OpenTl.Schema.TPhoneCallAccepted.GB
+  - OpenTl.Schema.TPhoneCallAccepted.Id
+  - OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+  - OpenTl.Schema.TPhoneCallAccepted.Protocol
+  langs:
+  - csharp
+  - vb
+  name: TPhoneCallAccepted
+  nameWithType: TPhoneCallAccepted
+  fullName: OpenTl.Schema.TPhoneCallAccepted
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoneCallAccepted
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhoneCallAccepted : object, IPhoneCall, IObject'
+    content.vb: >-
+      Public Class TPhoneCallAccepted
+
+          Inherits Object
+
+          Implements IPhoneCall, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhoneCall
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPhoneCallAccepted.Id
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.Id
+  id: Id
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TPhoneCallAccepted.Id
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TPhoneCallAccepted.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.AccessHash
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TPhoneCallAccepted.AccessHash
+  fullName: OpenTl.Schema.TPhoneCallAccepted.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TPhoneCallAccepted.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.Date
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.Date
+  id: Date
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TPhoneCallAccepted.Date
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TPhoneCallAccepted.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.AdminId
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.AdminId
+  id: AdminId
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: AdminId
+  nameWithType: TPhoneCallAccepted.AdminId
+  fullName: OpenTl.Schema.TPhoneCallAccepted.AdminId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AdminId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int AdminId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AdminId As Integer
+  overload: OpenTl.Schema.TPhoneCallAccepted.AdminId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+  id: ParticipantId
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: ParticipantId
+  nameWithType: TPhoneCallAccepted.ParticipantId
+  fullName: OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ParticipantId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ParticipantId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ParticipantId As Integer
+  overload: OpenTl.Schema.TPhoneCallAccepted.ParticipantId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.GB
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.GB
+  id: GB
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: GB
+  nameWithType: TPhoneCallAccepted.GB
+  fullName: OpenTl.Schema.TPhoneCallAccepted.GB
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GB
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] GB { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property GB As Byte()
+  overload: OpenTl.Schema.TPhoneCallAccepted.GB*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallAccepted.Protocol
+  commentId: P:OpenTl.Schema.TPhoneCallAccepted.Protocol
+  id: Protocol
+  parent: OpenTl.Schema.TPhoneCallAccepted
+  langs:
+  - csharp
+  - vb
+  name: Protocol
+  nameWithType: TPhoneCallAccepted.Protocol
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Protocol
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Protocol
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCall/TPhoneCallAccepted.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoneCallProtocol Protocol { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoneCallProtocol
+    content.vb: Public Property Protocol As IPhoneCallProtocol
+  overload: OpenTl.Schema.TPhoneCallAccepted.Protocol*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhoneCall
+  commentId: T:OpenTl.Schema.IPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCall
+  nameWithType: IPhoneCall
+  fullName: OpenTl.Schema.IPhoneCall
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPhoneCallAccepted.Id*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.Id
+  isExternal: false
+  name: Id
+  nameWithType: TPhoneCallAccepted.Id
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPhoneCallAccepted.AccessHash*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TPhoneCallAccepted.AccessHash
+  fullName: OpenTl.Schema.TPhoneCallAccepted.AccessHash
+- uid: OpenTl.Schema.TPhoneCallAccepted.Date*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.Date
+  isExternal: false
+  name: Date
+  nameWithType: TPhoneCallAccepted.Date
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPhoneCallAccepted.AdminId*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.AdminId
+  isExternal: false
+  name: AdminId
+  nameWithType: TPhoneCallAccepted.AdminId
+  fullName: OpenTl.Schema.TPhoneCallAccepted.AdminId
+- uid: OpenTl.Schema.TPhoneCallAccepted.ParticipantId*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+  isExternal: false
+  name: ParticipantId
+  nameWithType: TPhoneCallAccepted.ParticipantId
+  fullName: OpenTl.Schema.TPhoneCallAccepted.ParticipantId
+- uid: OpenTl.Schema.TPhoneCallAccepted.GB*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.GB
+  isExternal: false
+  name: GB
+  nameWithType: TPhoneCallAccepted.GB
+  fullName: OpenTl.Schema.TPhoneCallAccepted.GB
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPhoneCallAccepted.Protocol*
+  commentId: Overload:OpenTl.Schema.TPhoneCallAccepted.Protocol
+  isExternal: false
+  name: Protocol
+  nameWithType: TPhoneCallAccepted.Protocol
+  fullName: OpenTl.Schema.TPhoneCallAccepted.Protocol
+- uid: OpenTl.Schema.IPhoneCallProtocol
+  commentId: T:OpenTl.Schema.IPhoneCallProtocol
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCallProtocol
+  nameWithType: IPhoneCallProtocol
+  fullName: OpenTl.Schema.IPhoneCallProtocol

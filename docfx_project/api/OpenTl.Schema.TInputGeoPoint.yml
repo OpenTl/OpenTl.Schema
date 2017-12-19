@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputGeoPoint
+  commentId: T:OpenTl.Schema.TInputGeoPoint
+  id: TInputGeoPoint
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputGeoPoint.Lat
+  - OpenTl.Schema.TInputGeoPoint.Long
+  langs:
+  - csharp
+  - vb
+  name: TInputGeoPoint
+  nameWithType: TInputGeoPoint
+  fullName: OpenTl.Schema.TInputGeoPoint
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputGeoPoint
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputGeoPoint : object, IInputGeoPoint, IObject'
+    content.vb: >-
+      Public Class TInputGeoPoint
+
+          Inherits Object
+
+          Implements IInputGeoPoint, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputGeoPoint
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputGeoPoint.Lat
+  commentId: P:OpenTl.Schema.TInputGeoPoint.Lat
+  id: Lat
+  parent: OpenTl.Schema.TInputGeoPoint
+  langs:
+  - csharp
+  - vb
+  name: Lat
+  nameWithType: TInputGeoPoint.Lat
+  fullName: OpenTl.Schema.TInputGeoPoint.Lat
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Lat
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Lat { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Lat As Double
+  overload: OpenTl.Schema.TInputGeoPoint.Lat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputGeoPoint.Long
+  commentId: P:OpenTl.Schema.TInputGeoPoint.Long
+  id: Long
+  parent: OpenTl.Schema.TInputGeoPoint
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: TInputGeoPoint.Long
+  fullName: OpenTl.Schema.TInputGeoPoint.Long
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Long
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPoint.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Long { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Long As Double
+  overload: OpenTl.Schema.TInputGeoPoint.Long*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputGeoPoint
+  commentId: T:OpenTl.Schema.IInputGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputGeoPoint
+  nameWithType: IInputGeoPoint
+  fullName: OpenTl.Schema.IInputGeoPoint
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputGeoPoint.Lat*
+  commentId: Overload:OpenTl.Schema.TInputGeoPoint.Lat
+  isExternal: false
+  name: Lat
+  nameWithType: TInputGeoPoint.Lat
+  fullName: OpenTl.Schema.TInputGeoPoint.Lat
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: OpenTl.Schema.TInputGeoPoint.Long*
+  commentId: Overload:OpenTl.Schema.TInputGeoPoint.Long
+  isExternal: false
+  name: Long
+  nameWithType: TInputGeoPoint.Long
+  fullName: OpenTl.Schema.TInputGeoPoint.Long

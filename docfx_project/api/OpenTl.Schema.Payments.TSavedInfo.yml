@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.TSavedInfo
+  commentId: T:OpenTl.Schema.Payments.TSavedInfo
+  id: TSavedInfo
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.TSavedInfo.Flags
+  - OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+  - OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+  langs:
+  - csharp
+  - vb
+  name: TSavedInfo
+  nameWithType: TSavedInfo
+  fullName: OpenTl.Schema.Payments.TSavedInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSavedInfo
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class TSavedInfo : object, ISavedInfo, IObject'
+    content.vb: >-
+      Public Class TSavedInfo
+
+          Inherits Object
+
+          Implements ISavedInfo, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Payments.ISavedInfo
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.TSavedInfo.Flags
+  commentId: P:OpenTl.Schema.Payments.TSavedInfo.Flags
+  id: Flags
+  parent: OpenTl.Schema.Payments.TSavedInfo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TSavedInfo.Flags
+  fullName: OpenTl.Schema.Payments.TSavedInfo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Payments.TSavedInfo.Flags*
+  implements:
+  - OpenTl.Schema.Payments.ISavedInfo.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+  commentId: P:OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+  id: HasSavedCredentials
+  parent: OpenTl.Schema.Payments.TSavedInfo
+  langs:
+  - csharp
+  - vb
+  name: HasSavedCredentials
+  nameWithType: TSavedInfo.HasSavedCredentials
+  fullName: OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: HasSavedCredentials
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public bool HasSavedCredentials { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property HasSavedCredentials As Boolean
+  overload: OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials*
+  implements:
+  - OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+  commentId: P:OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+  id: SavedInfo
+  parent: OpenTl.Schema.Payments.TSavedInfo
+  langs:
+  - csharp
+  - vb
+  name: SavedInfo
+  nameWithType: TSavedInfo.SavedInfo
+  fullName: OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SavedInfo
+    path: ../src/OpenTl.Schema/_generated/Payments/SavedInfo/TSavedInfo.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IPaymentRequestedInfo SavedInfo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentRequestedInfo
+    content.vb: Public Property SavedInfo As IPaymentRequestedInfo
+  overload: OpenTl.Schema.Payments.TSavedInfo.SavedInfo*
+  implements:
+  - OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Payments.ISavedInfo
+  commentId: T:OpenTl.Schema.Payments.ISavedInfo
+  parent: OpenTl.Schema.Payments
+  isExternal: false
+  name: ISavedInfo
+  nameWithType: ISavedInfo
+  fullName: OpenTl.Schema.Payments.ISavedInfo
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.TSavedInfo.Flags*
+  commentId: Overload:OpenTl.Schema.Payments.TSavedInfo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TSavedInfo.Flags
+  fullName: OpenTl.Schema.Payments.TSavedInfo.Flags
+- uid: OpenTl.Schema.Payments.ISavedInfo.Flags
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.Flags
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  isExternal: false
+  name: Flags
+  nameWithType: ISavedInfo.Flags
+  fullName: OpenTl.Schema.Payments.ISavedInfo.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials*
+  commentId: Overload:OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+  isExternal: false
+  name: HasSavedCredentials
+  nameWithType: TSavedInfo.HasSavedCredentials
+  fullName: OpenTl.Schema.Payments.TSavedInfo.HasSavedCredentials
+- uid: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  isExternal: false
+  name: HasSavedCredentials
+  nameWithType: ISavedInfo.HasSavedCredentials
+  fullName: OpenTl.Schema.Payments.ISavedInfo.HasSavedCredentials
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Payments.TSavedInfo.SavedInfo*
+  commentId: Overload:OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+  isExternal: false
+  name: SavedInfo
+  nameWithType: TSavedInfo.SavedInfo
+  fullName: OpenTl.Schema.Payments.TSavedInfo.SavedInfo
+- uid: OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  commentId: P:OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+  parent: OpenTl.Schema.Payments.ISavedInfo
+  isExternal: false
+  name: SavedInfo
+  nameWithType: ISavedInfo.SavedInfo
+  fullName: OpenTl.Schema.Payments.ISavedInfo.SavedInfo
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo

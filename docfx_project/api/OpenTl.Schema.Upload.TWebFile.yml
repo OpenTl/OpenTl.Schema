@@ -1,0 +1,432 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.TWebFile
+  commentId: T:OpenTl.Schema.Upload.TWebFile
+  id: TWebFile
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.TWebFile.Bytes
+  - OpenTl.Schema.Upload.TWebFile.FileType
+  - OpenTl.Schema.Upload.TWebFile.MimeType
+  - OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+  - OpenTl.Schema.Upload.TWebFile.Mtime
+  - OpenTl.Schema.Upload.TWebFile.Size
+  langs:
+  - csharp
+  - vb
+  name: TWebFile
+  nameWithType: TWebFile
+  fullName: OpenTl.Schema.Upload.TWebFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TWebFile
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class TWebFile : object, IWebFile, IObject'
+    content.vb: >-
+      Public Class TWebFile
+
+          Inherits Object
+
+          Implements IWebFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Upload.IWebFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.TWebFile.Size
+  commentId: P:OpenTl.Schema.Upload.TWebFile.Size
+  id: Size
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: TWebFile.Size
+  fullName: OpenTl.Schema.Upload.TWebFile.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Size As Integer
+  overload: OpenTl.Schema.Upload.TWebFile.Size*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.Size
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+  id: MimeTypeAsBinary
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeAsBinary
+  nameWithType: TWebFile.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  summary: Binary representation for the &apos;MimeType&apos; property
+  example: []
+  syntax:
+    content: public byte[] MimeTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MimeTypeAsBinary As Byte()
+  overload: OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TWebFile.MimeType
+  commentId: P:OpenTl.Schema.Upload.TWebFile.MimeType
+  id: MimeType
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: TWebFile.MimeType
+  fullName: OpenTl.Schema.Upload.TWebFile.MimeType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeType
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: OpenTl.Schema.Upload.TWebFile.MimeType*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.MimeType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TWebFile.FileType
+  commentId: P:OpenTl.Schema.Upload.TWebFile.FileType
+  id: FileType
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: FileType
+  nameWithType: TWebFile.FileType
+  fullName: OpenTl.Schema.Upload.TWebFile.FileType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileType
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public IFileType FileType { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Storage.IFileType
+    content.vb: Public Property FileType As IFileType
+  overload: OpenTl.Schema.Upload.TWebFile.FileType*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.FileType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TWebFile.Mtime
+  commentId: P:OpenTl.Schema.Upload.TWebFile.Mtime
+  id: Mtime
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: Mtime
+  nameWithType: TWebFile.Mtime
+  fullName: OpenTl.Schema.Upload.TWebFile.Mtime
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mtime
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Mtime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Mtime As Integer
+  overload: OpenTl.Schema.Upload.TWebFile.Mtime*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.Mtime
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TWebFile.Bytes
+  commentId: P:OpenTl.Schema.Upload.TWebFile.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.Upload.TWebFile
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TWebFile.Bytes
+  fullName: OpenTl.Schema.Upload.TWebFile.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/TWebFile.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.Upload.TWebFile.Bytes*
+  implements:
+  - OpenTl.Schema.Upload.IWebFile.Bytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Upload.IWebFile
+  commentId: T:OpenTl.Schema.Upload.IWebFile
+  parent: OpenTl.Schema.Upload
+  isExternal: false
+  name: IWebFile
+  nameWithType: IWebFile
+  fullName: OpenTl.Schema.Upload.IWebFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.TWebFile.Size*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.Size
+  isExternal: false
+  name: Size
+  nameWithType: TWebFile.Size
+  fullName: OpenTl.Schema.Upload.TWebFile.Size
+- uid: OpenTl.Schema.Upload.IWebFile.Size
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Size
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: Size
+  nameWithType: IWebFile.Size
+  fullName: OpenTl.Schema.Upload.IWebFile.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: TWebFile.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Upload.TWebFile.MimeTypeAsBinary
+- uid: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: IWebFile.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Upload.TWebFile.MimeType*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.MimeType
+  isExternal: false
+  name: MimeType
+  nameWithType: TWebFile.MimeType
+  fullName: OpenTl.Schema.Upload.TWebFile.MimeType
+- uid: OpenTl.Schema.Upload.IWebFile.MimeType
+  commentId: P:OpenTl.Schema.Upload.IWebFile.MimeType
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: MimeType
+  nameWithType: IWebFile.MimeType
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeType
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Upload.TWebFile.FileType*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.FileType
+  isExternal: false
+  name: FileType
+  nameWithType: TWebFile.FileType
+  fullName: OpenTl.Schema.Upload.TWebFile.FileType
+- uid: OpenTl.Schema.Upload.IWebFile.FileType
+  commentId: P:OpenTl.Schema.Upload.IWebFile.FileType
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: FileType
+  nameWithType: IWebFile.FileType
+  fullName: OpenTl.Schema.Upload.IWebFile.FileType
+- uid: OpenTl.Schema.Storage.IFileType
+  commentId: T:OpenTl.Schema.Storage.IFileType
+  parent: OpenTl.Schema.Storage
+  isExternal: false
+  name: IFileType
+  nameWithType: IFileType
+  fullName: OpenTl.Schema.Storage.IFileType
+- uid: OpenTl.Schema.Storage
+  commentId: N:OpenTl.Schema.Storage
+  isExternal: false
+  name: OpenTl.Schema.Storage
+  nameWithType: OpenTl.Schema.Storage
+  fullName: OpenTl.Schema.Storage
+- uid: OpenTl.Schema.Upload.TWebFile.Mtime*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.Mtime
+  isExternal: false
+  name: Mtime
+  nameWithType: TWebFile.Mtime
+  fullName: OpenTl.Schema.Upload.TWebFile.Mtime
+- uid: OpenTl.Schema.Upload.IWebFile.Mtime
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Mtime
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: Mtime
+  nameWithType: IWebFile.Mtime
+  fullName: OpenTl.Schema.Upload.IWebFile.Mtime
+- uid: OpenTl.Schema.Upload.TWebFile.Bytes*
+  commentId: Overload:OpenTl.Schema.Upload.TWebFile.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TWebFile.Bytes
+  fullName: OpenTl.Schema.Upload.TWebFile.Bytes
+- uid: OpenTl.Schema.Upload.IWebFile.Bytes
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Bytes
+  parent: OpenTl.Schema.Upload.IWebFile
+  isExternal: false
+  name: Bytes
+  nameWithType: IWebFile.Bytes
+  fullName: OpenTl.Schema.Upload.IWebFile.Bytes

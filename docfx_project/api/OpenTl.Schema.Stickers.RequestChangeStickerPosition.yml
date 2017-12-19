@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Stickers.RequestChangeStickerPosition
+  commentId: T:OpenTl.Schema.Stickers.RequestChangeStickerPosition
+  id: RequestChangeStickerPosition
+  parent: OpenTl.Schema.Stickers
+  children:
+  - OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+  - OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+  langs:
+  - csharp
+  - vb
+  name: RequestChangeStickerPosition
+  nameWithType: RequestChangeStickerPosition
+  fullName: OpenTl.Schema.Stickers.RequestChangeStickerPosition
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestChangeStickerPosition
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: 'public class RequestChangeStickerPosition : object, IRequest<IStickerSet>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestChangeStickerPosition
+
+          Inherits Object
+
+          Implements IRequest(Of IStickerSet), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+  commentId: P:OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+  id: Sticker
+  parent: OpenTl.Schema.Stickers.RequestChangeStickerPosition
+  langs:
+  - csharp
+  - vb
+  name: Sticker
+  nameWithType: RequestChangeStickerPosition.Sticker
+  fullName: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sticker
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: public IInputDocument Sticker { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputDocument
+    content.vb: Public Property Sticker As IInputDocument
+  overload: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+  commentId: P:OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+  id: Position
+  parent: OpenTl.Schema.Stickers.RequestChangeStickerPosition
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: RequestChangeStickerPosition.Position
+  fullName: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Position
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestChangeStickerPosition.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: public int Position { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Position As Integer
+  overload: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Stickers
+  commentId: N:OpenTl.Schema.Stickers
+  isExternal: false
+  name: OpenTl.Schema.Stickers
+  nameWithType: OpenTl.Schema.Stickers
+  fullName: OpenTl.Schema.Stickers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IStickerSet>
+  nameWithType: IRequest<IStickerSet>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IStickerSet>
+  nameWithType.vb: IRequest(Of IStickerSet)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IStickerSet)
+  name.vb: IRequest(Of IStickerSet)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IStickerSet
+    name: IStickerSet
+    nameWithType: IStickerSet
+    fullName: OpenTl.Schema.Messages.IStickerSet
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IStickerSet
+    name: IStickerSet
+    nameWithType: IStickerSet
+    fullName: OpenTl.Schema.Messages.IStickerSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker*
+  commentId: Overload:OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+  isExternal: false
+  name: Sticker
+  nameWithType: RequestChangeStickerPosition.Sticker
+  fullName: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Sticker
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument
+- uid: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position*
+  commentId: Overload:OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+  isExternal: false
+  name: Position
+  nameWithType: RequestChangeStickerPosition.Position
+  fullName: OpenTl.Schema.Stickers.RequestChangeStickerPosition.Position
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

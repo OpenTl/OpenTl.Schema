@@ -21,6 +21,7 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public int Date {get; set;}
 
+       /// <summary>Binary representation for the 'MimeType' property</summary>
        [SerializationOrder(3)]
        public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
        private byte[] _MimeTypeAsBinary;

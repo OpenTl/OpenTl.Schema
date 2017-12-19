@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.TAuthorizations
+  commentId: T:OpenTl.Schema.Account.TAuthorizations
+  id: TAuthorizations
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.TAuthorizations.Authorizations
+  langs:
+  - csharp
+  - vb
+  name: TAuthorizations
+  nameWithType: TAuthorizations
+  fullName: OpenTl.Schema.Account.TAuthorizations
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/Authorizations/TAuthorizations.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TAuthorizations
+    path: ../src/OpenTl.Schema/_generated/Account/Authorizations/TAuthorizations.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class TAuthorizations : object, IAuthorizations, IObject'
+    content.vb: >-
+      Public Class TAuthorizations
+
+          Inherits Object
+
+          Implements IAuthorizations, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Account.IAuthorizations
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.TAuthorizations.Authorizations
+  commentId: P:OpenTl.Schema.Account.TAuthorizations.Authorizations
+  id: Authorizations
+  parent: OpenTl.Schema.Account.TAuthorizations
+  langs:
+  - csharp
+  - vb
+  name: Authorizations
+  nameWithType: TAuthorizations.Authorizations
+  fullName: OpenTl.Schema.Account.TAuthorizations.Authorizations
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/Authorizations/TAuthorizations.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Authorizations
+    path: ../src/OpenTl.Schema/_generated/Account/Authorizations/TAuthorizations.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public TVector<IAuthorization> Authorizations { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IAuthorization}
+    content.vb: Public Property Authorizations As TVector(Of IAuthorization)
+  overload: OpenTl.Schema.Account.TAuthorizations.Authorizations*
+  implements:
+  - OpenTl.Schema.Account.IAuthorizations.Authorizations
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Account.IAuthorizations
+  commentId: T:OpenTl.Schema.Account.IAuthorizations
+  parent: OpenTl.Schema.Account
+  isExternal: false
+  name: IAuthorizations
+  nameWithType: IAuthorizations
+  fullName: OpenTl.Schema.Account.IAuthorizations
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.TAuthorizations.Authorizations*
+  commentId: Overload:OpenTl.Schema.Account.TAuthorizations.Authorizations
+  isExternal: false
+  name: Authorizations
+  nameWithType: TAuthorizations.Authorizations
+  fullName: OpenTl.Schema.Account.TAuthorizations.Authorizations
+- uid: OpenTl.Schema.Account.IAuthorizations.Authorizations
+  commentId: P:OpenTl.Schema.Account.IAuthorizations.Authorizations
+  parent: OpenTl.Schema.Account.IAuthorizations
+  isExternal: false
+  name: Authorizations
+  nameWithType: IAuthorizations.Authorizations
+  fullName: OpenTl.Schema.Account.IAuthorizations.Authorizations
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IAuthorization}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IAuthorization}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IAuthorization>
+  nameWithType: TVector<IAuthorization>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IAuthorization>
+  nameWithType.vb: TVector(Of IAuthorization)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IAuthorization)
+  name.vb: TVector(Of IAuthorization)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.IAuthorization
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.IAuthorization
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

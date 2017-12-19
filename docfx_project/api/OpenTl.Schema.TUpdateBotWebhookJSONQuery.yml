@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  commentId: T:OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  id: TUpdateBotWebhookJSONQuery
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+  - OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+  - OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+  langs:
+  - csharp
+  - vb
+  name: TUpdateBotWebhookJSONQuery
+  nameWithType: TUpdateBotWebhookJSONQuery
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateBotWebhookJSONQuery
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateBotWebhookJSONQuery : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateBotWebhookJSONQuery
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+  commentId: P:OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: TUpdateBotWebhookJSONQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+  commentId: P:OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+  id: Data
+  parent: OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TUpdateBotWebhookJSONQuery.Data
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDataJSON Data { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDataJSON
+    content.vb: Public Property Data As IDataJSON
+  overload: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+  commentId: P:OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+  id: Timeout
+  parent: OpenTl.Schema.TUpdateBotWebhookJSONQuery
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: TUpdateBotWebhookJSONQuery.Timeout
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Timeout
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSONQuery.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: TUpdateBotWebhookJSONQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data*
+  commentId: Overload:OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+  isExternal: false
+  name: Data
+  nameWithType: TUpdateBotWebhookJSONQuery.Data
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Data
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON
+- uid: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout*
+  commentId: Overload:OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: TUpdateBotWebhookJSONQuery.Timeout
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSONQuery.Timeout
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

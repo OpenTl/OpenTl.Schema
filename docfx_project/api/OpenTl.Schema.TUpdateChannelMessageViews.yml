@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChannelMessageViews
+  commentId: T:OpenTl.Schema.TUpdateChannelMessageViews
+  id: TUpdateChannelMessageViews
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+  - OpenTl.Schema.TUpdateChannelMessageViews.Id
+  - OpenTl.Schema.TUpdateChannelMessageViews.Views
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChannelMessageViews
+  nameWithType: TUpdateChannelMessageViews
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChannelMessageViews
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChannelMessageViews : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChannelMessageViews
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateChannelMessageViews
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateChannelMessageViews.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateChannelMessageViews.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.Id
+  commentId: P:OpenTl.Schema.TUpdateChannelMessageViews.Id
+  id: Id
+  parent: OpenTl.Schema.TUpdateChannelMessageViews
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TUpdateChannelMessageViews.Id
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TUpdateChannelMessageViews.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.Views
+  commentId: P:OpenTl.Schema.TUpdateChannelMessageViews.Views
+  id: Views
+  parent: OpenTl.Schema.TUpdateChannelMessageViews
+  langs:
+  - csharp
+  - vb
+  name: Views
+  nameWithType: TUpdateChannelMessageViews.Views
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.Views
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Views
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelMessageViews.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Views { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Views As Integer
+  overload: OpenTl.Schema.TUpdateChannelMessageViews.Views*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateChannelMessageViews.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.Id*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelMessageViews.Id
+  isExternal: false
+  name: Id
+  nameWithType: TUpdateChannelMessageViews.Id
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.Id
+- uid: OpenTl.Schema.TUpdateChannelMessageViews.Views*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelMessageViews.Views
+  isExternal: false
+  name: Views
+  nameWithType: TUpdateChannelMessageViews.Views
+  fullName: OpenTl.Schema.TUpdateChannelMessageViews.Views

@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.TPaymentResult
+  commentId: T:OpenTl.Schema.Payments.TPaymentResult
+  id: TPaymentResult
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.TPaymentResult.Updates
+  langs:
+  - csharp
+  - vb
+  name: TPaymentResult
+  nameWithType: TPaymentResult
+  fullName: OpenTl.Schema.Payments.TPaymentResult
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPaymentResult
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentResult.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class TPaymentResult : object, IPaymentResult, IObject'
+    content.vb: >-
+      Public Class TPaymentResult
+
+          Inherits Object
+
+          Implements IPaymentResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Payments.IPaymentResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.TPaymentResult.Updates
+  commentId: P:OpenTl.Schema.Payments.TPaymentResult.Updates
+  id: Updates
+  parent: OpenTl.Schema.Payments.TPaymentResult
+  langs:
+  - csharp
+  - vb
+  name: Updates
+  nameWithType: TPaymentResult.Updates
+  fullName: OpenTl.Schema.Payments.TPaymentResult.Updates
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Updates
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentResult/TPaymentResult.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IUpdates Updates { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUpdates
+    content.vb: Public Property Updates As IUpdates
+  overload: OpenTl.Schema.Payments.TPaymentResult.Updates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Payments.IPaymentResult
+  commentId: T:OpenTl.Schema.Payments.IPaymentResult
+  parent: OpenTl.Schema.Payments
+  isExternal: false
+  name: IPaymentResult
+  nameWithType: IPaymentResult
+  fullName: OpenTl.Schema.Payments.IPaymentResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.TPaymentResult.Updates*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentResult.Updates
+  isExternal: false
+  name: Updates
+  nameWithType: TPaymentResult.Updates
+  fullName: OpenTl.Schema.Payments.TPaymentResult.Updates
+- uid: OpenTl.Schema.IUpdates
+  commentId: T:OpenTl.Schema.IUpdates
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdates
+  nameWithType: IUpdates
+  fullName: OpenTl.Schema.IUpdates

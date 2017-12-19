@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.RequestGetCdnFileHashes
+  commentId: T:OpenTl.Schema.Upload.RequestGetCdnFileHashes
+  id: RequestGetCdnFileHashes
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+  - OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+  langs:
+  - csharp
+  - vb
+  name: RequestGetCdnFileHashes
+  nameWithType: RequestGetCdnFileHashes
+  fullName: OpenTl.Schema.Upload.RequestGetCdnFileHashes
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetCdnFileHashes
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class RequestGetCdnFileHashes : object, IRequest<TVector<ICdnFileHash>>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetCdnFileHashes
+
+          Inherits Object
+
+          Implements IRequest(Of TVector(Of ICdnFileHash)), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+  commentId: P:OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+  id: FileToken
+  parent: OpenTl.Schema.Upload.RequestGetCdnFileHashes
+  langs:
+  - csharp
+  - vb
+  name: FileToken
+  nameWithType: RequestGetCdnFileHashes.FileToken
+  fullName: OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileToken
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] FileToken { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FileToken As Byte()
+  overload: OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+  commentId: P:OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+  id: Offset
+  parent: OpenTl.Schema.Upload.RequestGetCdnFileHashes
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: RequestGetCdnFileHashes.Offset
+  fullName: OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetCdnFileHashes.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<TVector<ICdnFileHash>>
+  nameWithType: IRequest<TVector<ICdnFileHash>>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.TVector<OpenTl.Schema.ICdnFileHash>>
+  nameWithType.vb: IRequest(Of TVector(Of ICdnFileHash))
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.TVector(Of OpenTl.Schema.ICdnFileHash))
+  name.vb: IRequest(Of TVector(Of ICdnFileHash))
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ICdnFileHash
+    name: ICdnFileHash
+    nameWithType: ICdnFileHash
+    fullName: OpenTl.Schema.ICdnFileHash
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ICdnFileHash
+    name: ICdnFileHash
+    nameWithType: ICdnFileHash
+    fullName: OpenTl.Schema.ICdnFileHash
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken*
+  commentId: Overload:OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+  isExternal: false
+  name: FileToken
+  nameWithType: RequestGetCdnFileHashes.FileToken
+  fullName: OpenTl.Schema.Upload.RequestGetCdnFileHashes.FileToken
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset*
+  commentId: Overload:OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: RequestGetCdnFileHashes.Offset
+  fullName: OpenTl.Schema.Upload.RequestGetCdnFileHashes.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

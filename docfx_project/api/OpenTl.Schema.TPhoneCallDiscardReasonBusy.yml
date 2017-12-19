@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhoneCallDiscardReasonBusy
+  commentId: T:OpenTl.Schema.TPhoneCallDiscardReasonBusy
+  id: TPhoneCallDiscardReasonBusy
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TPhoneCallDiscardReasonBusy
+  nameWithType: TPhoneCallDiscardReasonBusy
+  fullName: OpenTl.Schema.TPhoneCallDiscardReasonBusy
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallDiscardReason/TPhoneCallDiscardReasonBusy.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoneCallDiscardReasonBusy
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallDiscardReason/TPhoneCallDiscardReasonBusy.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhoneCallDiscardReasonBusy : object, IPhoneCallDiscardReason, IObject'
+    content.vb: >-
+      Public Class TPhoneCallDiscardReasonBusy
+
+          Inherits Object
+
+          Implements IPhoneCallDiscardReason, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhoneCallDiscardReason
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhoneCallDiscardReason
+  commentId: T:OpenTl.Schema.IPhoneCallDiscardReason
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCallDiscardReason
+  nameWithType: IPhoneCallDiscardReason
+  fullName: OpenTl.Schema.IPhoneCallDiscardReason
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

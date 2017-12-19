@@ -1,0 +1,526 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.TPaymentRequestedInfo
+  id: TPaymentRequestedInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPaymentRequestedInfo.Email
+  - OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+  - OpenTl.Schema.TPaymentRequestedInfo.Flags
+  - OpenTl.Schema.TPaymentRequestedInfo.Name
+  - OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+  - OpenTl.Schema.TPaymentRequestedInfo.Phone
+  - OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+  - OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+  langs:
+  - csharp
+  - vb
+  name: TPaymentRequestedInfo
+  nameWithType: TPaymentRequestedInfo
+  fullName: OpenTl.Schema.TPaymentRequestedInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPaymentRequestedInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPaymentRequestedInfo : object, IPaymentRequestedInfo, IObject'
+    content.vb: >-
+      Public Class TPaymentRequestedInfo
+
+          Inherits Object
+
+          Implements IPaymentRequestedInfo, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Flags
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPaymentRequestedInfo.Flags
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPaymentRequestedInfo.Flags*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+  id: NameAsBinary
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: NameAsBinary
+  nameWithType: TPaymentRequestedInfo.NameAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Name&apos; property
+  example: []
+  syntax:
+    content: public byte[] NameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NameAsBinary As Byte()
+  overload: OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.NameAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Name
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.Name
+  id: Name
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TPaymentRequestedInfo.Name
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Name
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Name
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: OpenTl.Schema.TPaymentRequestedInfo.Name*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+  id: PhoneAsBinary
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: PhoneAsBinary
+  nameWithType: TPaymentRequestedInfo.PhoneAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Phone&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneAsBinary As Byte()
+  overload: OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.PhoneAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Phone
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.Phone
+  id: Phone
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: TPaymentRequestedInfo.Phone
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Phone
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Phone
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Phone As String
+  overload: OpenTl.Schema.TPaymentRequestedInfo.Phone*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.Phone
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+  id: EmailAsBinary
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: EmailAsBinary
+  nameWithType: TPaymentRequestedInfo.EmailAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmailAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Email&apos; property
+  example: []
+  syntax:
+    content: public byte[] EmailAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EmailAsBinary As Byte()
+  overload: OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.EmailAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Email
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.Email
+  id: Email
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: TPaymentRequestedInfo.Email
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Email
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Email
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: OpenTl.Schema.TPaymentRequestedInfo.Email*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.Email
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+  commentId: P:OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+  id: ShippingAddress
+  parent: OpenTl.Schema.TPaymentRequestedInfo
+  langs:
+  - csharp
+  - vb
+  name: ShippingAddress
+  nameWithType: TPaymentRequestedInfo.ShippingAddress
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingAddress
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentRequestedInfo/TPaymentRequestedInfo.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPostAddress ShippingAddress { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPostAddress
+    content.vb: Public Property ShippingAddress As IPostAddress
+  overload: OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress*
+  implements:
+  - OpenTl.Schema.IPaymentRequestedInfo.ShippingAddress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Flags*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPaymentRequestedInfo.Flags
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Flags
+- uid: OpenTl.Schema.IPaymentRequestedInfo.Flags
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.Flags
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: Flags
+  nameWithType: IPaymentRequestedInfo.Flags
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: TPaymentRequestedInfo.NameAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.NameAsBinary
+- uid: OpenTl.Schema.IPaymentRequestedInfo.NameAsBinary
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.NameAsBinary
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: IPaymentRequestedInfo.NameAsBinary
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.NameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Name*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.Name
+  isExternal: false
+  name: Name
+  nameWithType: TPaymentRequestedInfo.Name
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Name
+- uid: OpenTl.Schema.IPaymentRequestedInfo.Name
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.Name
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: Name
+  nameWithType: IPaymentRequestedInfo.Name
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.Name
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+  isExternal: false
+  name: PhoneAsBinary
+  nameWithType: TPaymentRequestedInfo.PhoneAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.PhoneAsBinary
+- uid: OpenTl.Schema.IPaymentRequestedInfo.PhoneAsBinary
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.PhoneAsBinary
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: PhoneAsBinary
+  nameWithType: IPaymentRequestedInfo.PhoneAsBinary
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.PhoneAsBinary
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Phone*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.Phone
+  isExternal: false
+  name: Phone
+  nameWithType: TPaymentRequestedInfo.Phone
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Phone
+- uid: OpenTl.Schema.IPaymentRequestedInfo.Phone
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.Phone
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: Phone
+  nameWithType: IPaymentRequestedInfo.Phone
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.Phone
+- uid: OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+  isExternal: false
+  name: EmailAsBinary
+  nameWithType: TPaymentRequestedInfo.EmailAsBinary
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.EmailAsBinary
+- uid: OpenTl.Schema.IPaymentRequestedInfo.EmailAsBinary
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.EmailAsBinary
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: EmailAsBinary
+  nameWithType: IPaymentRequestedInfo.EmailAsBinary
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.EmailAsBinary
+- uid: OpenTl.Schema.TPaymentRequestedInfo.Email*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.Email
+  isExternal: false
+  name: Email
+  nameWithType: TPaymentRequestedInfo.Email
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.Email
+- uid: OpenTl.Schema.IPaymentRequestedInfo.Email
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.Email
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: Email
+  nameWithType: IPaymentRequestedInfo.Email
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.Email
+- uid: OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress*
+  commentId: Overload:OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+  isExternal: false
+  name: ShippingAddress
+  nameWithType: TPaymentRequestedInfo.ShippingAddress
+  fullName: OpenTl.Schema.TPaymentRequestedInfo.ShippingAddress
+- uid: OpenTl.Schema.IPaymentRequestedInfo.ShippingAddress
+  commentId: P:OpenTl.Schema.IPaymentRequestedInfo.ShippingAddress
+  parent: OpenTl.Schema.IPaymentRequestedInfo
+  isExternal: false
+  name: ShippingAddress
+  nameWithType: IPaymentRequestedInfo.ShippingAddress
+  fullName: OpenTl.Schema.IPaymentRequestedInfo.ShippingAddress
+- uid: OpenTl.Schema.IPostAddress
+  commentId: T:OpenTl.Schema.IPostAddress
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPostAddress
+  nameWithType: IPostAddress
+  fullName: OpenTl.Schema.IPostAddress

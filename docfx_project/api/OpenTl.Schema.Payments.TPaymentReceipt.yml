@@ -1,0 +1,886 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.TPaymentReceipt
+  commentId: T:OpenTl.Schema.Payments.TPaymentReceipt
+  id: TPaymentReceipt
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.TPaymentReceipt.BotId
+  - OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+  - OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+  - OpenTl.Schema.Payments.TPaymentReceipt.Currency
+  - OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+  - OpenTl.Schema.Payments.TPaymentReceipt.Date
+  - OpenTl.Schema.Payments.TPaymentReceipt.Flags
+  - OpenTl.Schema.Payments.TPaymentReceipt.Info
+  - OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+  - OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+  - OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+  - OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+  - OpenTl.Schema.Payments.TPaymentReceipt.Users
+  langs:
+  - csharp
+  - vb
+  name: TPaymentReceipt
+  nameWithType: TPaymentReceipt
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPaymentReceipt
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class TPaymentReceipt : object, IPaymentReceipt, IObject'
+    content.vb: >-
+      Public Class TPaymentReceipt
+
+          Inherits Object
+
+          Implements IPaymentReceipt, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Flags
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Flags
+  id: Flags
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPaymentReceipt.Flags
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Flags*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Date
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Date
+  id: Date
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TPaymentReceipt.Date
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Date*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.BotId
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.BotId
+  id: BotId
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: BotId
+  nameWithType: TPaymentReceipt.BotId
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.BotId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotId
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public int BotId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BotId As Integer
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.BotId*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.BotId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+  id: Invoice
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Invoice
+  nameWithType: TPaymentReceipt.Invoice
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Invoice
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IInvoice Invoice { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInvoice
+    content.vb: Public Property Invoice As IInvoice
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Invoice*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Invoice
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+  id: ProviderId
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: ProviderId
+  nameWithType: TPaymentReceipt.ProviderId
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ProviderId
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public int ProviderId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ProviderId As Integer
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.ProviderId*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.ProviderId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Info
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Info
+  id: Info
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TPaymentReceipt.Info
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IPaymentRequestedInfo Info { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentRequestedInfo
+    content.vb: Public Property Info As IPaymentRequestedInfo
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Info*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Info
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+  id: Shipping
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Shipping
+  nameWithType: TPaymentReceipt.Shipping
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Shipping
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IShippingOption Shipping { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IShippingOption
+    content.vb: Public Property Shipping As IShippingOption
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Shipping*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Shipping
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+  id: CurrencyAsBinary
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAsBinary
+  nameWithType: TPaymentReceipt.CurrencyAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrencyAsBinary
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  summary: Binary representation for the &apos;Currency&apos; property
+  example: []
+  syntax:
+    content: public byte[] CurrencyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrencyAsBinary As Byte()
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.CurrencyAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Currency
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Currency
+  id: Currency
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TPaymentReceipt.Currency
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Currency
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Currency
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Currency*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Currency
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+  id: TotalAmount
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: TotalAmount
+  nameWithType: TPaymentReceipt.TotalAmount
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TotalAmount
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 44
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public long TotalAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalAmount As Long
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.TotalAmount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+  id: CredentialsTitleAsBinary
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: CredentialsTitleAsBinary
+  nameWithType: TPaymentReceipt.CredentialsTitleAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CredentialsTitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 48
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  summary: Binary representation for the &apos;CredentialsTitle&apos; property
+  example: []
+  syntax:
+    content: public byte[] CredentialsTitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CredentialsTitleAsBinary As Byte()
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitleAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+  id: CredentialsTitle
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: CredentialsTitle
+  nameWithType: TPaymentReceipt.CredentialsTitle
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CredentialsTitle
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 52
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public string CredentialsTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CredentialsTitle As String
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitle
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Users
+  commentId: P:OpenTl.Schema.Payments.TPaymentReceipt.Users
+  id: Users
+  parent: OpenTl.Schema.Payments.TPaymentReceipt
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TPaymentReceipt.Users
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Payments/PaymentReceipt/TPaymentReceipt.cs
+    startLine: 54
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Payments.TPaymentReceipt.Users*
+  implements:
+  - OpenTl.Schema.Payments.IPaymentReceipt.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Payments.IPaymentReceipt
+  commentId: T:OpenTl.Schema.Payments.IPaymentReceipt
+  parent: OpenTl.Schema.Payments
+  isExternal: false
+  name: IPaymentReceipt
+  nameWithType: IPaymentReceipt
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Flags*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPaymentReceipt.Flags
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Flags
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Flags
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Flags
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Flags
+  nameWithType: IPaymentReceipt.Flags
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Date*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Date
+  isExternal: false
+  name: Date
+  nameWithType: TPaymentReceipt.Date
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Date
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Date
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Date
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Date
+  nameWithType: IPaymentReceipt.Date
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.BotId*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.BotId
+  isExternal: false
+  name: BotId
+  nameWithType: TPaymentReceipt.BotId
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.BotId
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.BotId
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.BotId
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: BotId
+  nameWithType: IPaymentReceipt.BotId
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.BotId
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Invoice*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+  isExternal: false
+  name: Invoice
+  nameWithType: TPaymentReceipt.Invoice
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Invoice
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Invoice
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Invoice
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Invoice
+  nameWithType: IPaymentReceipt.Invoice
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Invoice
+- uid: OpenTl.Schema.IInvoice
+  commentId: T:OpenTl.Schema.IInvoice
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInvoice
+  nameWithType: IInvoice
+  fullName: OpenTl.Schema.IInvoice
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.ProviderId*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+  isExternal: false
+  name: ProviderId
+  nameWithType: TPaymentReceipt.ProviderId
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.ProviderId
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.ProviderId
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.ProviderId
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: ProviderId
+  nameWithType: IPaymentReceipt.ProviderId
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.ProviderId
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Info*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Info
+  isExternal: false
+  name: Info
+  nameWithType: TPaymentReceipt.Info
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Info
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Info
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Info
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Info
+  nameWithType: IPaymentReceipt.Info
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Info
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Shipping*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+  isExternal: false
+  name: Shipping
+  nameWithType: TPaymentReceipt.Shipping
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Shipping
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Shipping
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Shipping
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Shipping
+  nameWithType: IPaymentReceipt.Shipping
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Shipping
+- uid: OpenTl.Schema.IShippingOption
+  commentId: T:OpenTl.Schema.IShippingOption
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IShippingOption
+  nameWithType: IShippingOption
+  fullName: OpenTl.Schema.IShippingOption
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: TPaymentReceipt.CurrencyAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CurrencyAsBinary
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.CurrencyAsBinary
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: IPaymentReceipt.CurrencyAsBinary
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.CurrencyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Currency*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: TPaymentReceipt.Currency
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Currency
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Currency
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Currency
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Currency
+  nameWithType: IPaymentReceipt.Currency
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Currency
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+  isExternal: false
+  name: TotalAmount
+  nameWithType: TPaymentReceipt.TotalAmount
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.TotalAmount
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.TotalAmount
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.TotalAmount
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: TotalAmount
+  nameWithType: IPaymentReceipt.TotalAmount
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.TotalAmount
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+  isExternal: false
+  name: CredentialsTitleAsBinary
+  nameWithType: TPaymentReceipt.CredentialsTitleAsBinary
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitleAsBinary
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitleAsBinary
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitleAsBinary
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: CredentialsTitleAsBinary
+  nameWithType: IPaymentReceipt.CredentialsTitleAsBinary
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitleAsBinary
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+  isExternal: false
+  name: CredentialsTitle
+  nameWithType: TPaymentReceipt.CredentialsTitle
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.CredentialsTitle
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitle
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitle
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: CredentialsTitle
+  nameWithType: IPaymentReceipt.CredentialsTitle
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.CredentialsTitle
+- uid: OpenTl.Schema.Payments.TPaymentReceipt.Users*
+  commentId: Overload:OpenTl.Schema.Payments.TPaymentReceipt.Users
+  isExternal: false
+  name: Users
+  nameWithType: TPaymentReceipt.Users
+  fullName: OpenTl.Schema.Payments.TPaymentReceipt.Users
+- uid: OpenTl.Schema.Payments.IPaymentReceipt.Users
+  commentId: P:OpenTl.Schema.Payments.IPaymentReceipt.Users
+  parent: OpenTl.Schema.Payments.IPaymentReceipt
+  isExternal: false
+  name: Users
+  nameWithType: IPaymentReceipt.Users
+  fullName: OpenTl.Schema.Payments.IPaymentReceipt.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

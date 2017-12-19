@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateLangPack
+  commentId: T:OpenTl.Schema.TUpdateLangPack
+  id: TUpdateLangPack
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateLangPack.Difference
+  langs:
+  - csharp
+  - vb
+  name: TUpdateLangPack
+  nameWithType: TUpdateLangPack
+  fullName: OpenTl.Schema.TUpdateLangPack
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateLangPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateLangPack
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateLangPack.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateLangPack : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateLangPack
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateLangPack.Difference
+  commentId: P:OpenTl.Schema.TUpdateLangPack.Difference
+  id: Difference
+  parent: OpenTl.Schema.TUpdateLangPack
+  langs:
+  - csharp
+  - vb
+  name: Difference
+  nameWithType: TUpdateLangPack.Difference
+  fullName: OpenTl.Schema.TUpdateLangPack.Difference
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateLangPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Difference
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateLangPack.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public ILangPackDifference Difference { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.ILangPackDifference
+    content.vb: Public Property Difference As ILangPackDifference
+  overload: OpenTl.Schema.TUpdateLangPack.Difference*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateLangPack.Difference*
+  commentId: Overload:OpenTl.Schema.TUpdateLangPack.Difference
+  isExternal: false
+  name: Difference
+  nameWithType: TUpdateLangPack.Difference
+  fullName: OpenTl.Schema.TUpdateLangPack.Difference
+- uid: OpenTl.Schema.ILangPackDifference
+  commentId: T:OpenTl.Schema.ILangPackDifference
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ILangPackDifference
+  nameWithType: ILangPackDifference
+  fullName: OpenTl.Schema.ILangPackDifference

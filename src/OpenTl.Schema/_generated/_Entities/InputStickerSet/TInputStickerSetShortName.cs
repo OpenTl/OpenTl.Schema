@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x861cc8a0)]
 	public class TInputStickerSetShortName : IInputStickerSet
 	{
+       /// <summary>Binary representation for the 'ShortName' property</summary>
        [SerializationOrder(0)]
        public byte[] ShortNameAsBinary { get => _ShortNameAsBinary; set { _ShortName = Encoding.UTF8.GetString(value); _ShortNameAsBinary = value; }}
        private byte[] _ShortNameAsBinary;

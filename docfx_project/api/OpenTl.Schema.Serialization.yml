@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Serialization
+  commentId: N:OpenTl.Schema.Serialization
+  id: OpenTl.Schema.Serialization
+  children:
+  - OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: OpenTl.Schema.Serialization
+  nameWithType: OpenTl.Schema.Serialization
+  fullName: OpenTl.Schema.Serialization
+  type: Namespace
+  assemblies:
+  - OpenTl.Schema
+references:
+- uid: OpenTl.Schema.Serialization.Serializer
+  commentId: T:OpenTl.Schema.Serialization.Serializer
+  isExternal: false
+  name: Serializer
+  nameWithType: Serializer
+  fullName: OpenTl.Schema.Serialization.Serializer

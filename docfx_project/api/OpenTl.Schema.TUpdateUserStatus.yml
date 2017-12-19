@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateUserStatus
+  commentId: T:OpenTl.Schema.TUpdateUserStatus
+  id: TUpdateUserStatus
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateUserStatus.Status
+  - OpenTl.Schema.TUpdateUserStatus.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateUserStatus
+  nameWithType: TUpdateUserStatus
+  fullName: OpenTl.Schema.TUpdateUserStatus
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateUserStatus
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateUserStatus : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateUserStatus
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateUserStatus.UserId
+  commentId: P:OpenTl.Schema.TUpdateUserStatus.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateUserStatus
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateUserStatus.UserId
+  fullName: OpenTl.Schema.TUpdateUserStatus.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateUserStatus.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserStatus.Status
+  commentId: P:OpenTl.Schema.TUpdateUserStatus.Status
+  id: Status
+  parent: OpenTl.Schema.TUpdateUserStatus
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TUpdateUserStatus.Status
+  fullName: OpenTl.Schema.TUpdateUserStatus.Status
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Status
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserStatus.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IUserStatus Status { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUserStatus
+    content.vb: Public Property Status As IUserStatus
+  overload: OpenTl.Schema.TUpdateUserStatus.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateUserStatus.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateUserStatus.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateUserStatus.UserId
+  fullName: OpenTl.Schema.TUpdateUserStatus.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateUserStatus.Status*
+  commentId: Overload:OpenTl.Schema.TUpdateUserStatus.Status
+  isExternal: false
+  name: Status
+  nameWithType: TUpdateUserStatus.Status
+  fullName: OpenTl.Schema.TUpdateUserStatus.Status
+- uid: OpenTl.Schema.IUserStatus
+  commentId: T:OpenTl.Schema.IUserStatus
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserStatus
+  nameWithType: IUserStatus
+  fullName: OpenTl.Schema.IUserStatus

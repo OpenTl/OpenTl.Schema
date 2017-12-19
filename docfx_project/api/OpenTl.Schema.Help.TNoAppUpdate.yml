@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TNoAppUpdate
+  commentId: T:OpenTl.Schema.Help.TNoAppUpdate
+  id: TNoAppUpdate
+  parent: OpenTl.Schema.Help
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TNoAppUpdate
+  nameWithType: TNoAppUpdate
+  fullName: OpenTl.Schema.Help.TNoAppUpdate
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TNoAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TNoAppUpdate
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TNoAppUpdate.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TNoAppUpdate : object, IAppUpdate, IObject'
+    content.vb: >-
+      Public Class TNoAppUpdate
+
+          Inherits Object
+
+          Implements IAppUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.IAppUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.IAppUpdate
+  commentId: T:OpenTl.Schema.Help.IAppUpdate
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: IAppUpdate
+  nameWithType: IAppUpdate
+  fullName: OpenTl.Schema.Help.IAppUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

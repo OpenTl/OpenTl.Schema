@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.TBlockedSlice
+  commentId: T:OpenTl.Schema.Contacts.TBlockedSlice
+  id: TBlockedSlice
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+  - OpenTl.Schema.Contacts.TBlockedSlice.Count
+  - OpenTl.Schema.Contacts.TBlockedSlice.Users
+  langs:
+  - csharp
+  - vb
+  name: TBlockedSlice
+  nameWithType: TBlockedSlice
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBlockedSlice
+    path: ../src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class TBlockedSlice : object, IBlocked, IObject'
+    content.vb: >-
+      Public Class TBlockedSlice
+
+          Inherits Object
+
+          Implements IBlocked, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Contacts.IBlocked
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Count
+  commentId: P:OpenTl.Schema.Contacts.TBlockedSlice.Count
+  id: Count
+  parent: OpenTl.Schema.Contacts.TBlockedSlice
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TBlockedSlice.Count
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: OpenTl.Schema.Contacts.TBlockedSlice.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+  commentId: P:OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+  id: Blocked
+  parent: OpenTl.Schema.Contacts.TBlockedSlice
+  langs:
+  - csharp
+  - vb
+  name: Blocked
+  nameWithType: TBlockedSlice.Blocked
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Blocked
+    path: ../src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<IContactBlocked> Blocked { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IContactBlocked}
+    content.vb: Public Property Blocked As TVector(Of IContactBlocked)
+  overload: OpenTl.Schema.Contacts.TBlockedSlice.Blocked*
+  implements:
+  - OpenTl.Schema.Contacts.IBlocked.Blocked
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Users
+  commentId: P:OpenTl.Schema.Contacts.TBlockedSlice.Users
+  id: Users
+  parent: OpenTl.Schema.Contacts.TBlockedSlice
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TBlockedSlice.Users
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Contacts/Blocked/TBlockedSlice.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Contacts.TBlockedSlice.Users*
+  implements:
+  - OpenTl.Schema.Contacts.IBlocked.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Contacts.IBlocked
+  commentId: T:OpenTl.Schema.Contacts.IBlocked
+  parent: OpenTl.Schema.Contacts
+  isExternal: false
+  name: IBlocked
+  nameWithType: IBlocked
+  fullName: OpenTl.Schema.Contacts.IBlocked
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Count*
+  commentId: Overload:OpenTl.Schema.Contacts.TBlockedSlice.Count
+  isExternal: false
+  name: Count
+  nameWithType: TBlockedSlice.Count
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Blocked*
+  commentId: Overload:OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+  isExternal: false
+  name: Blocked
+  nameWithType: TBlockedSlice.Blocked
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Blocked
+- uid: OpenTl.Schema.Contacts.IBlocked.Blocked
+  commentId: P:OpenTl.Schema.Contacts.IBlocked.Blocked
+  parent: OpenTl.Schema.Contacts.IBlocked
+  isExternal: false
+  name: Blocked
+  nameWithType: IBlocked.Blocked
+  fullName: OpenTl.Schema.Contacts.IBlocked.Blocked
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IContactBlocked}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IContactBlocked}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IContactBlocked>
+  nameWithType: TVector<IContactBlocked>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IContactBlocked>
+  nameWithType.vb: TVector(Of IContactBlocked)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IContactBlocked)
+  name.vb: TVector(Of IContactBlocked)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IContactBlocked
+    name: IContactBlocked
+    nameWithType: IContactBlocked
+    fullName: OpenTl.Schema.IContactBlocked
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IContactBlocked
+    name: IContactBlocked
+    nameWithType: IContactBlocked
+    fullName: OpenTl.Schema.IContactBlocked
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Contacts.TBlockedSlice.Users*
+  commentId: Overload:OpenTl.Schema.Contacts.TBlockedSlice.Users
+  isExternal: false
+  name: Users
+  nameWithType: TBlockedSlice.Users
+  fullName: OpenTl.Schema.Contacts.TBlockedSlice.Users
+- uid: OpenTl.Schema.Contacts.IBlocked.Users
+  commentId: P:OpenTl.Schema.Contacts.IBlocked.Users
+  parent: OpenTl.Schema.Contacts.IBlocked
+  isExternal: false
+  name: Users
+  nameWithType: IBlocked.Users
+  fullName: OpenTl.Schema.Contacts.IBlocked.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

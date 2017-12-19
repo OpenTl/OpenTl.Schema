@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateBotWebhookJSON
+  commentId: T:OpenTl.Schema.TUpdateBotWebhookJSON
+  id: TUpdateBotWebhookJSON
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateBotWebhookJSON.Data
+  langs:
+  - csharp
+  - vb
+  name: TUpdateBotWebhookJSON
+  nameWithType: TUpdateBotWebhookJSON
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSON
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSON.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateBotWebhookJSON
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSON.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateBotWebhookJSON : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateBotWebhookJSON
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateBotWebhookJSON.Data
+  commentId: P:OpenTl.Schema.TUpdateBotWebhookJSON.Data
+  id: Data
+  parent: OpenTl.Schema.TUpdateBotWebhookJSON
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TUpdateBotWebhookJSON.Data
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSON.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSON.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotWebhookJSON.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDataJSON Data { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDataJSON
+    content.vb: Public Property Data As IDataJSON
+  overload: OpenTl.Schema.TUpdateBotWebhookJSON.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateBotWebhookJSON.Data*
+  commentId: Overload:OpenTl.Schema.TUpdateBotWebhookJSON.Data
+  isExternal: false
+  name: Data
+  nameWithType: TUpdateBotWebhookJSON.Data
+  fullName: OpenTl.Schema.TUpdateBotWebhookJSON.Data
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON

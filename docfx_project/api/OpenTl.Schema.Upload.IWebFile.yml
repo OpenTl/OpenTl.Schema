@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.IWebFile
+  commentId: T:OpenTl.Schema.Upload.IWebFile
+  id: IWebFile
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.IWebFile.Bytes
+  - OpenTl.Schema.Upload.IWebFile.FileType
+  - OpenTl.Schema.Upload.IWebFile.MimeType
+  - OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  - OpenTl.Schema.Upload.IWebFile.Mtime
+  - OpenTl.Schema.Upload.IWebFile.Size
+  langs:
+  - csharp
+  - vb
+  name: IWebFile
+  nameWithType: IWebFile
+  fullName: OpenTl.Schema.Upload.IWebFile
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IWebFile
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public interface IWebFile : IObject'
+    content.vb: >-
+      Public Interface IWebFile
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.Upload.IWebFile.Size
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Size
+  id: Size
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: IWebFile.Size
+  fullName: OpenTl.Schema.Upload.IWebFile.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Size As Integer
+  overload: OpenTl.Schema.Upload.IWebFile.Size*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  id: MimeTypeAsBinary
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeAsBinary
+  nameWithType: IWebFile.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: byte[] MimeTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property MimeTypeAsBinary As Byte()
+  overload: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Upload.IWebFile.MimeType
+  commentId: P:OpenTl.Schema.Upload.IWebFile.MimeType
+  id: MimeType
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: IWebFile.MimeType
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeType
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MimeType As String
+  overload: OpenTl.Schema.Upload.IWebFile.MimeType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Upload.IWebFile.FileType
+  commentId: P:OpenTl.Schema.Upload.IWebFile.FileType
+  id: FileType
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: FileType
+  nameWithType: IWebFile.FileType
+  fullName: OpenTl.Schema.Upload.IWebFile.FileType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileType
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 16
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: IFileType FileType { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Storage.IFileType
+    content.vb: Property FileType As IFileType
+  overload: OpenTl.Schema.Upload.IWebFile.FileType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Upload.IWebFile.Mtime
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Mtime
+  id: Mtime
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: Mtime
+  nameWithType: IWebFile.Mtime
+  fullName: OpenTl.Schema.Upload.IWebFile.Mtime
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mtime
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: int Mtime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Mtime As Integer
+  overload: OpenTl.Schema.Upload.IWebFile.Mtime*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Upload.IWebFile.Bytes
+  commentId: P:OpenTl.Schema.Upload.IWebFile.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.Upload.IWebFile
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: IWebFile.Bytes
+  fullName: OpenTl.Schema.Upload.IWebFile.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/Upload/WebFile/IWebFile.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property Bytes As Byte()
+  overload: OpenTl.Schema.Upload.IWebFile.Bytes*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.IWebFile.Size*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.Size
+  isExternal: false
+  name: Size
+  nameWithType: IWebFile.Size
+  fullName: OpenTl.Schema.Upload.IWebFile.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: IWebFile.MimeTypeAsBinary
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Upload.IWebFile.MimeType*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.MimeType
+  isExternal: false
+  name: MimeType
+  nameWithType: IWebFile.MimeType
+  fullName: OpenTl.Schema.Upload.IWebFile.MimeType
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Upload.IWebFile.FileType*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.FileType
+  isExternal: false
+  name: FileType
+  nameWithType: IWebFile.FileType
+  fullName: OpenTl.Schema.Upload.IWebFile.FileType
+- uid: OpenTl.Schema.Storage.IFileType
+  commentId: T:OpenTl.Schema.Storage.IFileType
+  parent: OpenTl.Schema.Storage
+  isExternal: false
+  name: IFileType
+  nameWithType: IFileType
+  fullName: OpenTl.Schema.Storage.IFileType
+- uid: OpenTl.Schema.Storage
+  commentId: N:OpenTl.Schema.Storage
+  isExternal: false
+  name: OpenTl.Schema.Storage
+  nameWithType: OpenTl.Schema.Storage
+  fullName: OpenTl.Schema.Storage
+- uid: OpenTl.Schema.Upload.IWebFile.Mtime*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.Mtime
+  isExternal: false
+  name: Mtime
+  nameWithType: IWebFile.Mtime
+  fullName: OpenTl.Schema.Upload.IWebFile.Mtime
+- uid: OpenTl.Schema.Upload.IWebFile.Bytes*
+  commentId: Overload:OpenTl.Schema.Upload.IWebFile.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: IWebFile.Bytes
+  fullName: OpenTl.Schema.Upload.IWebFile.Bytes

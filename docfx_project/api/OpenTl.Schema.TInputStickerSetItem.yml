@@ -1,0 +1,376 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputStickerSetItem
+  commentId: T:OpenTl.Schema.TInputStickerSetItem
+  id: TInputStickerSetItem
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputStickerSetItem.Document
+  - OpenTl.Schema.TInputStickerSetItem.Emoji
+  - OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+  - OpenTl.Schema.TInputStickerSetItem.Flags
+  - OpenTl.Schema.TInputStickerSetItem.MaskCoords
+  langs:
+  - csharp
+  - vb
+  name: TInputStickerSetItem
+  nameWithType: TInputStickerSetItem
+  fullName: OpenTl.Schema.TInputStickerSetItem
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputStickerSetItem
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputStickerSetItem : object, IInputStickerSetItem, IObject'
+    content.vb: >-
+      Public Class TInputStickerSetItem
+
+          Inherits Object
+
+          Implements IInputStickerSetItem, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputStickerSetItem.Flags
+  commentId: P:OpenTl.Schema.TInputStickerSetItem.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputStickerSetItem
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputStickerSetItem.Flags
+  fullName: OpenTl.Schema.TInputStickerSetItem.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputStickerSetItem.Flags*
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetItem.Document
+  commentId: P:OpenTl.Schema.TInputStickerSetItem.Document
+  id: Document
+  parent: OpenTl.Schema.TInputStickerSetItem
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: TInputStickerSetItem.Document
+  fullName: OpenTl.Schema.TInputStickerSetItem.Document
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Document
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputDocument Document { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputDocument
+    content.vb: Public Property Document As IInputDocument
+  overload: OpenTl.Schema.TInputStickerSetItem.Document*
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem.Document
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+  commentId: P:OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+  id: EmojiAsBinary
+  parent: OpenTl.Schema.TInputStickerSetItem
+  langs:
+  - csharp
+  - vb
+  name: EmojiAsBinary
+  nameWithType: TInputStickerSetItem.EmojiAsBinary
+  fullName: OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmojiAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Emoji&apos; property
+  example: []
+  syntax:
+    content: public byte[] EmojiAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EmojiAsBinary As Byte()
+  overload: OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary*
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem.EmojiAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetItem.Emoji
+  commentId: P:OpenTl.Schema.TInputStickerSetItem.Emoji
+  id: Emoji
+  parent: OpenTl.Schema.TInputStickerSetItem
+  langs:
+  - csharp
+  - vb
+  name: Emoji
+  nameWithType: TInputStickerSetItem.Emoji
+  fullName: OpenTl.Schema.TInputStickerSetItem.Emoji
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Emoji
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Emoji { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Emoji As String
+  overload: OpenTl.Schema.TInputStickerSetItem.Emoji*
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem.Emoji
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetItem.MaskCoords
+  commentId: P:OpenTl.Schema.TInputStickerSetItem.MaskCoords
+  id: MaskCoords
+  parent: OpenTl.Schema.TInputStickerSetItem
+  langs:
+  - csharp
+  - vb
+  name: MaskCoords
+  nameWithType: TInputStickerSetItem.MaskCoords
+  fullName: OpenTl.Schema.TInputStickerSetItem.MaskCoords
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaskCoords
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSetItem/TInputStickerSetItem.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMaskCoords MaskCoords { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMaskCoords
+    content.vb: Public Property MaskCoords As IMaskCoords
+  overload: OpenTl.Schema.TInputStickerSetItem.MaskCoords*
+  implements:
+  - OpenTl.Schema.IInputStickerSetItem.MaskCoords
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputStickerSetItem
+  commentId: T:OpenTl.Schema.IInputStickerSetItem
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSetItem
+  nameWithType: IInputStickerSetItem
+  fullName: OpenTl.Schema.IInputStickerSetItem
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputStickerSetItem.Flags*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetItem.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputStickerSetItem.Flags
+  fullName: OpenTl.Schema.TInputStickerSetItem.Flags
+- uid: OpenTl.Schema.IInputStickerSetItem.Flags
+  commentId: P:OpenTl.Schema.IInputStickerSetItem.Flags
+  parent: OpenTl.Schema.IInputStickerSetItem
+  isExternal: false
+  name: Flags
+  nameWithType: IInputStickerSetItem.Flags
+  fullName: OpenTl.Schema.IInputStickerSetItem.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputStickerSetItem.Document*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetItem.Document
+  isExternal: false
+  name: Document
+  nameWithType: TInputStickerSetItem.Document
+  fullName: OpenTl.Schema.TInputStickerSetItem.Document
+- uid: OpenTl.Schema.IInputStickerSetItem.Document
+  commentId: P:OpenTl.Schema.IInputStickerSetItem.Document
+  parent: OpenTl.Schema.IInputStickerSetItem
+  isExternal: false
+  name: Document
+  nameWithType: IInputStickerSetItem.Document
+  fullName: OpenTl.Schema.IInputStickerSetItem.Document
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument
+- uid: OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+  isExternal: false
+  name: EmojiAsBinary
+  nameWithType: TInputStickerSetItem.EmojiAsBinary
+  fullName: OpenTl.Schema.TInputStickerSetItem.EmojiAsBinary
+- uid: OpenTl.Schema.IInputStickerSetItem.EmojiAsBinary
+  commentId: P:OpenTl.Schema.IInputStickerSetItem.EmojiAsBinary
+  parent: OpenTl.Schema.IInputStickerSetItem
+  isExternal: false
+  name: EmojiAsBinary
+  nameWithType: IInputStickerSetItem.EmojiAsBinary
+  fullName: OpenTl.Schema.IInputStickerSetItem.EmojiAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputStickerSetItem.Emoji*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetItem.Emoji
+  isExternal: false
+  name: Emoji
+  nameWithType: TInputStickerSetItem.Emoji
+  fullName: OpenTl.Schema.TInputStickerSetItem.Emoji
+- uid: OpenTl.Schema.IInputStickerSetItem.Emoji
+  commentId: P:OpenTl.Schema.IInputStickerSetItem.Emoji
+  parent: OpenTl.Schema.IInputStickerSetItem
+  isExternal: false
+  name: Emoji
+  nameWithType: IInputStickerSetItem.Emoji
+  fullName: OpenTl.Schema.IInputStickerSetItem.Emoji
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputStickerSetItem.MaskCoords*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetItem.MaskCoords
+  isExternal: false
+  name: MaskCoords
+  nameWithType: TInputStickerSetItem.MaskCoords
+  fullName: OpenTl.Schema.TInputStickerSetItem.MaskCoords
+- uid: OpenTl.Schema.IInputStickerSetItem.MaskCoords
+  commentId: P:OpenTl.Schema.IInputStickerSetItem.MaskCoords
+  parent: OpenTl.Schema.IInputStickerSetItem
+  isExternal: false
+  name: MaskCoords
+  nameWithType: IInputStickerSetItem.MaskCoords
+  fullName: OpenTl.Schema.IInputStickerSetItem.MaskCoords
+- uid: OpenTl.Schema.IMaskCoords
+  commentId: T:OpenTl.Schema.IMaskCoords
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMaskCoords
+  nameWithType: IMaskCoords
+  fullName: OpenTl.Schema.IMaskCoords

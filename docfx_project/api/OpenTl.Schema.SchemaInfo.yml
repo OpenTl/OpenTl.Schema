@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.SchemaInfo
+  commentId: T:OpenTl.Schema.SchemaInfo
+  id: SchemaInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.SchemaInfo.SchemaVersion
+  langs:
+  - csharp
+  - vb
+  name: SchemaInfo
+  nameWithType: SchemaInfo
+  fullName: OpenTl.Schema.SchemaInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/SchemaInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SchemaInfo
+    path: ../src/OpenTl.Schema/SchemaInfo.cs
+    startLine: 2
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public static class SchemaInfo : object'
+    content.vb: >-
+      Public Module SchemaInfo
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: OpenTl.Schema.SchemaInfo.SchemaVersion
+  commentId: P:OpenTl.Schema.SchemaInfo.SchemaVersion
+  id: SchemaVersion
+  parent: OpenTl.Schema.SchemaInfo
+  langs:
+  - csharp
+  - vb
+  name: SchemaVersion
+  nameWithType: SchemaInfo.SchemaVersion
+  fullName: OpenTl.Schema.SchemaInfo.SchemaVersion
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/SchemaInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SchemaVersion
+    path: ../src/OpenTl.Schema/SchemaInfo.cs
+    startLine: 4
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public static int SchemaVersion { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly Property SchemaVersion As Integer
+  overload: OpenTl.Schema.SchemaInfo.SchemaVersion*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.SchemaInfo.SchemaVersion*
+  commentId: Overload:OpenTl.Schema.SchemaInfo.SchemaVersion
+  isExternal: false
+  name: SchemaVersion
+  nameWithType: SchemaInfo.SchemaVersion
+  fullName: OpenTl.Schema.SchemaInfo.SchemaVersion
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

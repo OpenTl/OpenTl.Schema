@@ -1,0 +1,664 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer
+  commentId: T:OpenTl.Schema.Messages.IBotCallbackAnswer
+  id: IBotCallbackAnswer
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+  - OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IBotCallbackAnswer
+  nameWithType: IBotCallbackAnswer
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IBotCallbackAnswer
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public interface IBotCallbackAnswer : IObject'
+    content.vb: >-
+      Public Interface IBotCallbackAnswer
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IBotCallbackAnswer.Flags
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+  id: Alert
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: Alert
+  nameWithType: IBotCallbackAnswer.Alert
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Alert
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: bool Alert { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Alert As Boolean
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.Alert*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+  id: HasUrl
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: HasUrl
+  nameWithType: IBotCallbackAnswer.HasUrl
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: HasUrl
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: bool HasUrl { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property HasUrl As Boolean
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+  id: NativeUi
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: NativeUi
+  nameWithType: IBotCallbackAnswer.NativeUi
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NativeUi
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: bool NativeUi { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property NativeUi As Boolean
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: IBotCallbackAnswer.MessageAsBinary
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+  id: Message
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: IBotCallbackAnswer.Message
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Message As String
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.Message*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: IBotCallbackAnswer.UrlAsBinary
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+  id: Url
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IBotCallbackAnswer.Url
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Url As String
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.Url*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+  commentId: P:OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+  id: CacheTime
+  parent: OpenTl.Schema.Messages.IBotCallbackAnswer
+  langs:
+  - csharp
+  - vb
+  name: CacheTime
+  nameWithType: IBotCallbackAnswer.CacheTime
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CacheTime
+    path: ../src/OpenTl.Schema/_generated/Messages/BotCallbackAnswer/IBotCallbackAnswer.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: int CacheTime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CacheTime As Integer
+  overload: OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IBotCallbackAnswer.Flags
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Alert*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+  isExternal: false
+  name: Alert
+  nameWithType: IBotCallbackAnswer.Alert
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Alert
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+  isExternal: false
+  name: HasUrl
+  nameWithType: IBotCallbackAnswer.HasUrl
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.HasUrl
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+  isExternal: false
+  name: NativeUi
+  nameWithType: IBotCallbackAnswer.NativeUi
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.NativeUi
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: IBotCallbackAnswer.MessageAsBinary
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Message*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+  isExternal: false
+  name: Message
+  nameWithType: IBotCallbackAnswer.Message
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IBotCallbackAnswer.UrlAsBinary
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.UrlAsBinary
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.Url*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+  isExternal: false
+  name: Url
+  nameWithType: IBotCallbackAnswer.Url
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.Url
+- uid: OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime*
+  commentId: Overload:OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+  isExternal: false
+  name: CacheTime
+  nameWithType: IBotCallbackAnswer.CacheTime
+  fullName: OpenTl.Schema.Messages.IBotCallbackAnswer.CacheTime
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

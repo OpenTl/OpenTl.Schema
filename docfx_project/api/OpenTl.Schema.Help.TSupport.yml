@@ -1,0 +1,268 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TSupport
+  commentId: T:OpenTl.Schema.Help.TSupport
+  id: TSupport
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TSupport.PhoneNumber
+  - OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+  - OpenTl.Schema.Help.TSupport.User
+  langs:
+  - csharp
+  - vb
+  name: TSupport
+  nameWithType: TSupport
+  fullName: OpenTl.Schema.Help.TSupport
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSupport
+    path: ../src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TSupport : object, ISupport, IObject'
+    content.vb: >-
+      Public Class TSupport
+
+          Inherits Object
+
+          Implements ISupport, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.ISupport
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.Help.TSupport
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: TSupport.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary*
+  implements:
+  - OpenTl.Schema.Help.ISupport.PhoneNumberAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TSupport.PhoneNumber
+  commentId: P:OpenTl.Schema.Help.TSupport.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.Help.TSupport
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: TSupport.PhoneNumber
+  fullName: OpenTl.Schema.Help.TSupport.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.Help.TSupport.PhoneNumber*
+  implements:
+  - OpenTl.Schema.Help.ISupport.PhoneNumber
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TSupport.User
+  commentId: P:OpenTl.Schema.Help.TSupport.User
+  id: User
+  parent: OpenTl.Schema.Help.TSupport
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: TSupport.User
+  fullName: OpenTl.Schema.Help.TSupport.User
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: User
+    path: ../src/OpenTl.Schema/_generated/Help/Support/TSupport.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public IUser User { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUser
+    content.vb: Public Property User As IUser
+  overload: OpenTl.Schema.Help.TSupport.User*
+  implements:
+  - OpenTl.Schema.Help.ISupport.User
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.ISupport
+  commentId: T:OpenTl.Schema.Help.ISupport
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: ISupport
+  nameWithType: ISupport
+  fullName: OpenTl.Schema.Help.ISupport
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: TSupport.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Help.TSupport.PhoneNumberAsBinary
+- uid: OpenTl.Schema.Help.ISupport.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.Help.ISupport.PhoneNumberAsBinary
+  parent: OpenTl.Schema.Help.ISupport
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: ISupport.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Help.ISupport.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Help.TSupport.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.Help.TSupport.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: TSupport.PhoneNumber
+  fullName: OpenTl.Schema.Help.TSupport.PhoneNumber
+- uid: OpenTl.Schema.Help.ISupport.PhoneNumber
+  commentId: P:OpenTl.Schema.Help.ISupport.PhoneNumber
+  parent: OpenTl.Schema.Help.ISupport
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: ISupport.PhoneNumber
+  fullName: OpenTl.Schema.Help.ISupport.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Help.TSupport.User*
+  commentId: Overload:OpenTl.Schema.Help.TSupport.User
+  isExternal: false
+  name: User
+  nameWithType: TSupport.User
+  fullName: OpenTl.Schema.Help.TSupport.User
+- uid: OpenTl.Schema.Help.ISupport.User
+  commentId: P:OpenTl.Schema.Help.ISupport.User
+  parent: OpenTl.Schema.Help.ISupport
+  isExternal: false
+  name: User
+  nameWithType: ISupport.User
+  fullName: OpenTl.Schema.Help.ISupport.User
+- uid: OpenTl.Schema.IUser
+  commentId: T:OpenTl.Schema.IUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUser
+  nameWithType: IUser
+  fullName: OpenTl.Schema.IUser

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateMessageID
+  commentId: T:OpenTl.Schema.TUpdateMessageID
+  id: TUpdateMessageID
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateMessageID.Id
+  - OpenTl.Schema.TUpdateMessageID.RandomId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateMessageID
+  nameWithType: TUpdateMessageID
+  fullName: OpenTl.Schema.TUpdateMessageID
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateMessageID
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateMessageID : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateMessageID
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateMessageID.Id
+  commentId: P:OpenTl.Schema.TUpdateMessageID.Id
+  id: Id
+  parent: OpenTl.Schema.TUpdateMessageID
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TUpdateMessageID.Id
+  fullName: OpenTl.Schema.TUpdateMessageID.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TUpdateMessageID.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateMessageID.RandomId
+  commentId: P:OpenTl.Schema.TUpdateMessageID.RandomId
+  id: RandomId
+  parent: OpenTl.Schema.TUpdateMessageID
+  langs:
+  - csharp
+  - vb
+  name: RandomId
+  nameWithType: TUpdateMessageID.RandomId
+  fullName: OpenTl.Schema.TUpdateMessageID.RandomId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RandomId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateMessageID.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long RandomId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RandomId As Long
+  overload: OpenTl.Schema.TUpdateMessageID.RandomId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateMessageID.Id*
+  commentId: Overload:OpenTl.Schema.TUpdateMessageID.Id
+  isExternal: false
+  name: Id
+  nameWithType: TUpdateMessageID.Id
+  fullName: OpenTl.Schema.TUpdateMessageID.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateMessageID.RandomId*
+  commentId: Overload:OpenTl.Schema.TUpdateMessageID.RandomId
+  isExternal: false
+  name: RandomId
+  nameWithType: TUpdateMessageID.RandomId
+  fullName: OpenTl.Schema.TUpdateMessageID.RandomId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

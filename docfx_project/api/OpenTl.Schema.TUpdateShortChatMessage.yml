@@ -1,0 +1,915 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateShortChatMessage
+  commentId: T:OpenTl.Schema.TUpdateShortChatMessage
+  id: TUpdateShortChatMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateShortChatMessage.ChatId
+  - OpenTl.Schema.TUpdateShortChatMessage.Date
+  - OpenTl.Schema.TUpdateShortChatMessage.Entities
+  - OpenTl.Schema.TUpdateShortChatMessage.Flags
+  - OpenTl.Schema.TUpdateShortChatMessage.FromId
+  - OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+  - OpenTl.Schema.TUpdateShortChatMessage.Id
+  - OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+  - OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+  - OpenTl.Schema.TUpdateShortChatMessage.Message
+  - OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+  - OpenTl.Schema.TUpdateShortChatMessage.Out
+  - OpenTl.Schema.TUpdateShortChatMessage.Pts
+  - OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+  - OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+  - OpenTl.Schema.TUpdateShortChatMessage.Silent
+  - OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateShortChatMessage
+  nameWithType: TUpdateShortChatMessage
+  fullName: OpenTl.Schema.TUpdateShortChatMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateShortChatMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateShortChatMessage : object, IUpdates, IObject'
+    content.vb: >-
+      Public Class TUpdateShortChatMessage
+
+          Inherits Object
+
+          Implements IUpdates, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdates
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Flags
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateShortChatMessage.Flags
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Out
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Out
+  id: Out
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Out
+  nameWithType: TUpdateShortChatMessage.Out
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Out
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Out
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Out { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Out As Boolean
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Out*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+  id: Mentioned
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Mentioned
+  nameWithType: TUpdateShortChatMessage.Mentioned
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mentioned
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Mentioned { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mentioned As Boolean
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Mentioned*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+  id: MediaUnread
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: MediaUnread
+  nameWithType: TUpdateShortChatMessage.MediaUnread
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MediaUnread
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool MediaUnread { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MediaUnread As Boolean
+  overload: OpenTl.Schema.TUpdateShortChatMessage.MediaUnread*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Silent
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Silent
+  id: Silent
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: TUpdateShortChatMessage.Silent
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Silent As Boolean
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Silent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Id
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Id
+  id: Id
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TUpdateShortChatMessage.Id
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.FromId
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.FromId
+  id: FromId
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: FromId
+  nameWithType: TUpdateShortChatMessage.FromId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.FromId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FromId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int FromId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FromId As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.FromId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ChatId
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateShortChatMessage.ChatId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: TUpdateShortChatMessage.MessageAsBinary
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Message
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Message
+  id: Message
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TUpdateShortChatMessage.Message
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Pts
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateShortChatMessage.Pts
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateShortChatMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 52
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Date
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateShortChatMessage.Date
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 55
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+  id: FwdFrom
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: FwdFrom
+  nameWithType: TUpdateShortChatMessage.FwdFrom
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FwdFrom
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 58
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessageFwdHeader FwdFrom { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessageFwdHeader
+    content.vb: Public Property FwdFrom As IMessageFwdHeader
+  overload: OpenTl.Schema.TUpdateShortChatMessage.FwdFrom*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+  id: ViaBotId
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ViaBotId
+  nameWithType: TUpdateShortChatMessage.ViaBotId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ViaBotId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 62
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ViaBotId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ViaBotId As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.ViaBotId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+  id: ReplyToMsgId
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: ReplyToMsgId
+  nameWithType: TUpdateShortChatMessage.ReplyToMsgId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyToMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 66
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ReplyToMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplyToMsgId As Integer
+  overload: OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Entities
+  commentId: P:OpenTl.Schema.TUpdateShortChatMessage.Entities
+  id: Entities
+  parent: OpenTl.Schema.TUpdateShortChatMessage
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: TUpdateShortChatMessage.Entities
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Entities
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Entities
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdateShortChatMessage.cs
+    startLine: 70
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IMessageEntity> Entities { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+    content.vb: Public Property Entities As TVector(Of IMessageEntity)
+  overload: OpenTl.Schema.TUpdateShortChatMessage.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdates
+  commentId: T:OpenTl.Schema.IUpdates
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdates
+  nameWithType: IUpdates
+  fullName: OpenTl.Schema.IUpdates
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateShortChatMessage.Flags
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Out*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Out
+  isExternal: false
+  name: Out
+  nameWithType: TUpdateShortChatMessage.Out
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Out
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Mentioned*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+  isExternal: false
+  name: Mentioned
+  nameWithType: TUpdateShortChatMessage.Mentioned
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Mentioned
+- uid: OpenTl.Schema.TUpdateShortChatMessage.MediaUnread*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+  isExternal: false
+  name: MediaUnread
+  nameWithType: TUpdateShortChatMessage.MediaUnread
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.MediaUnread
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Silent*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: TUpdateShortChatMessage.Silent
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Silent
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Id*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Id
+  isExternal: false
+  name: Id
+  nameWithType: TUpdateShortChatMessage.Id
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateShortChatMessage.FromId*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.FromId
+  isExternal: false
+  name: FromId
+  nameWithType: TUpdateShortChatMessage.FromId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.FromId
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateShortChatMessage.ChatId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ChatId
+- uid: OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: TUpdateShortChatMessage.MessageAsBinary
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Message*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Message
+  isExternal: false
+  name: Message
+  nameWithType: TUpdateShortChatMessage.Message
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateShortChatMessage.Pts
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Pts
+- uid: OpenTl.Schema.TUpdateShortChatMessage.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateShortChatMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.PtsCount
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateShortChatMessage.Date
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Date
+- uid: OpenTl.Schema.TUpdateShortChatMessage.FwdFrom*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+  isExternal: false
+  name: FwdFrom
+  nameWithType: TUpdateShortChatMessage.FwdFrom
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.FwdFrom
+- uid: OpenTl.Schema.IMessageFwdHeader
+  commentId: T:OpenTl.Schema.IMessageFwdHeader
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageFwdHeader
+  nameWithType: IMessageFwdHeader
+  fullName: OpenTl.Schema.IMessageFwdHeader
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ViaBotId*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+  isExternal: false
+  name: ViaBotId
+  nameWithType: TUpdateShortChatMessage.ViaBotId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ViaBotId
+- uid: OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+  isExternal: false
+  name: ReplyToMsgId
+  nameWithType: TUpdateShortChatMessage.ReplyToMsgId
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.ReplyToMsgId
+- uid: OpenTl.Schema.TUpdateShortChatMessage.Entities*
+  commentId: Overload:OpenTl.Schema.TUpdateShortChatMessage.Entities
+  isExternal: false
+  name: Entities
+  nameWithType: TUpdateShortChatMessage.Entities
+  fullName: OpenTl.Schema.TUpdateShortChatMessage.Entities
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessageEntity>
+  nameWithType: TVector<IMessageEntity>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity>
+  nameWithType.vb: TVector(Of IMessageEntity)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessageEntity)
+  name.vb: TVector(Of IMessageEntity)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TWebPagePending
+  commentId: T:OpenTl.Schema.TWebPagePending
+  id: TWebPagePending
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TWebPagePending.Date
+  - OpenTl.Schema.TWebPagePending.Id
+  langs:
+  - csharp
+  - vb
+  name: TWebPagePending
+  nameWithType: TWebPagePending
+  fullName: OpenTl.Schema.TWebPagePending
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TWebPagePending
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TWebPagePending : object, IWebPage, IObject'
+    content.vb: >-
+      Public Class TWebPagePending
+
+          Inherits Object
+
+          Implements IWebPage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IWebPage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TWebPagePending.Id
+  commentId: P:OpenTl.Schema.TWebPagePending.Id
+  id: Id
+  parent: OpenTl.Schema.TWebPagePending
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TWebPagePending.Id
+  fullName: OpenTl.Schema.TWebPagePending.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TWebPagePending.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TWebPagePending.Date
+  commentId: P:OpenTl.Schema.TWebPagePending.Date
+  id: Date
+  parent: OpenTl.Schema.TWebPagePending
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TWebPagePending.Date
+  fullName: OpenTl.Schema.TWebPagePending.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPagePending.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TWebPagePending.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IWebPage
+  commentId: T:OpenTl.Schema.IWebPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebPage
+  nameWithType: IWebPage
+  fullName: OpenTl.Schema.IWebPage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TWebPagePending.Id*
+  commentId: Overload:OpenTl.Schema.TWebPagePending.Id
+  isExternal: false
+  name: Id
+  nameWithType: TWebPagePending.Id
+  fullName: OpenTl.Schema.TWebPagePending.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TWebPagePending.Date*
+  commentId: Overload:OpenTl.Schema.TWebPagePending.Date
+  isExternal: false
+  name: Date
+  nameWithType: TWebPagePending.Date
+  fullName: OpenTl.Schema.TWebPagePending.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

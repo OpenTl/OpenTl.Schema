@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDialog
+  commentId: T:OpenTl.Schema.TDialog
+  id: TDialog
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDialog.Draft
+  - OpenTl.Schema.TDialog.Flags
+  - OpenTl.Schema.TDialog.NotifySettings
+  - OpenTl.Schema.TDialog.Peer
+  - OpenTl.Schema.TDialog.Pinned
+  - OpenTl.Schema.TDialog.Pts
+  - OpenTl.Schema.TDialog.ReadInboxMaxId
+  - OpenTl.Schema.TDialog.ReadOutboxMaxId
+  - OpenTl.Schema.TDialog.TopMessage
+  - OpenTl.Schema.TDialog.UnreadCount
+  - OpenTl.Schema.TDialog.UnreadMentionsCount
+  langs:
+  - csharp
+  - vb
+  name: TDialog
+  nameWithType: TDialog
+  fullName: OpenTl.Schema.TDialog
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDialog
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDialog : object, IDialog, IObject'
+    content.vb: >-
+      Public Class TDialog
+
+          Inherits Object
+
+          Implements IDialog, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDialog
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDialog.Flags
+  commentId: P:OpenTl.Schema.TDialog.Flags
+  id: Flags
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TDialog.Flags
+  fullName: OpenTl.Schema.TDialog.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TDialog.Flags*
+  implements:
+  - OpenTl.Schema.IDialog.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.Pinned
+  commentId: P:OpenTl.Schema.TDialog.Pinned
+  id: Pinned
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: Pinned
+  nameWithType: TDialog.Pinned
+  fullName: OpenTl.Schema.TDialog.Pinned
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pinned
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Pinned { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Pinned As Boolean
+  overload: OpenTl.Schema.TDialog.Pinned*
+  implements:
+  - OpenTl.Schema.IDialog.Pinned
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.Peer
+  commentId: P:OpenTl.Schema.TDialog.Peer
+  id: Peer
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TDialog.Peer
+  fullName: OpenTl.Schema.TDialog.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TDialog.Peer*
+  implements:
+  - OpenTl.Schema.IDialog.Peer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.TopMessage
+  commentId: P:OpenTl.Schema.TDialog.TopMessage
+  id: TopMessage
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: TopMessage
+  nameWithType: TDialog.TopMessage
+  fullName: OpenTl.Schema.TDialog.TopMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TopMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int TopMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TopMessage As Integer
+  overload: OpenTl.Schema.TDialog.TopMessage*
+  implements:
+  - OpenTl.Schema.IDialog.TopMessage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.ReadInboxMaxId
+  commentId: P:OpenTl.Schema.TDialog.ReadInboxMaxId
+  id: ReadInboxMaxId
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: ReadInboxMaxId
+  nameWithType: TDialog.ReadInboxMaxId
+  fullName: OpenTl.Schema.TDialog.ReadInboxMaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReadInboxMaxId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ReadInboxMaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReadInboxMaxId As Integer
+  overload: OpenTl.Schema.TDialog.ReadInboxMaxId*
+  implements:
+  - OpenTl.Schema.IDialog.ReadInboxMaxId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.ReadOutboxMaxId
+  commentId: P:OpenTl.Schema.TDialog.ReadOutboxMaxId
+  id: ReadOutboxMaxId
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: ReadOutboxMaxId
+  nameWithType: TDialog.ReadOutboxMaxId
+  fullName: OpenTl.Schema.TDialog.ReadOutboxMaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReadOutboxMaxId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ReadOutboxMaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReadOutboxMaxId As Integer
+  overload: OpenTl.Schema.TDialog.ReadOutboxMaxId*
+  implements:
+  - OpenTl.Schema.IDialog.ReadOutboxMaxId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.UnreadCount
+  commentId: P:OpenTl.Schema.TDialog.UnreadCount
+  id: UnreadCount
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: UnreadCount
+  nameWithType: TDialog.UnreadCount
+  fullName: OpenTl.Schema.TDialog.UnreadCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UnreadCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UnreadCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UnreadCount As Integer
+  overload: OpenTl.Schema.TDialog.UnreadCount*
+  implements:
+  - OpenTl.Schema.IDialog.UnreadCount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.UnreadMentionsCount
+  commentId: P:OpenTl.Schema.TDialog.UnreadMentionsCount
+  id: UnreadMentionsCount
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: UnreadMentionsCount
+  nameWithType: TDialog.UnreadMentionsCount
+  fullName: OpenTl.Schema.TDialog.UnreadMentionsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UnreadMentionsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UnreadMentionsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UnreadMentionsCount As Integer
+  overload: OpenTl.Schema.TDialog.UnreadMentionsCount*
+  implements:
+  - OpenTl.Schema.IDialog.UnreadMentionsCount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.NotifySettings
+  commentId: P:OpenTl.Schema.TDialog.NotifySettings
+  id: NotifySettings
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: NotifySettings
+  nameWithType: TDialog.NotifySettings
+  fullName: OpenTl.Schema.TDialog.NotifySettings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeerNotifySettings NotifySettings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeerNotifySettings
+    content.vb: Public Property NotifySettings As IPeerNotifySettings
+  overload: OpenTl.Schema.TDialog.NotifySettings*
+  implements:
+  - OpenTl.Schema.IDialog.NotifySettings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.Pts
+  commentId: P:OpenTl.Schema.TDialog.Pts
+  id: Pts
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TDialog.Pts
+  fullName: OpenTl.Schema.TDialog.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TDialog.Pts*
+  implements:
+  - OpenTl.Schema.IDialog.Pts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDialog.Draft
+  commentId: P:OpenTl.Schema.TDialog.Draft
+  id: Draft
+  parent: OpenTl.Schema.TDialog
+  langs:
+  - csharp
+  - vb
+  name: Draft
+  nameWithType: TDialog.Draft
+  fullName: OpenTl.Schema.TDialog.Draft
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Draft
+    path: ../src/OpenTl.Schema/_generated/_Entities/Dialog/TDialog.cs
+    startLine: 46
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDraftMessage Draft { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDraftMessage
+    content.vb: Public Property Draft As IDraftMessage
+  overload: OpenTl.Schema.TDialog.Draft*
+  implements:
+  - OpenTl.Schema.IDialog.Draft
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDialog
+  commentId: T:OpenTl.Schema.IDialog
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDialog
+  nameWithType: IDialog
+  fullName: OpenTl.Schema.IDialog
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDialog.Flags*
+  commentId: Overload:OpenTl.Schema.TDialog.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TDialog.Flags
+  fullName: OpenTl.Schema.TDialog.Flags
+- uid: OpenTl.Schema.IDialog.Flags
+  commentId: P:OpenTl.Schema.IDialog.Flags
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: Flags
+  nameWithType: IDialog.Flags
+  fullName: OpenTl.Schema.IDialog.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TDialog.Pinned*
+  commentId: Overload:OpenTl.Schema.TDialog.Pinned
+  isExternal: false
+  name: Pinned
+  nameWithType: TDialog.Pinned
+  fullName: OpenTl.Schema.TDialog.Pinned
+- uid: OpenTl.Schema.IDialog.Pinned
+  commentId: P:OpenTl.Schema.IDialog.Pinned
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: Pinned
+  nameWithType: IDialog.Pinned
+  fullName: OpenTl.Schema.IDialog.Pinned
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TDialog.Peer*
+  commentId: Overload:OpenTl.Schema.TDialog.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TDialog.Peer
+  fullName: OpenTl.Schema.TDialog.Peer
+- uid: OpenTl.Schema.IDialog.Peer
+  commentId: P:OpenTl.Schema.IDialog.Peer
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: Peer
+  nameWithType: IDialog.Peer
+  fullName: OpenTl.Schema.IDialog.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.TDialog.TopMessage*
+  commentId: Overload:OpenTl.Schema.TDialog.TopMessage
+  isExternal: false
+  name: TopMessage
+  nameWithType: TDialog.TopMessage
+  fullName: OpenTl.Schema.TDialog.TopMessage
+- uid: OpenTl.Schema.IDialog.TopMessage
+  commentId: P:OpenTl.Schema.IDialog.TopMessage
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: TopMessage
+  nameWithType: IDialog.TopMessage
+  fullName: OpenTl.Schema.IDialog.TopMessage
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TDialog.ReadInboxMaxId*
+  commentId: Overload:OpenTl.Schema.TDialog.ReadInboxMaxId
+  isExternal: false
+  name: ReadInboxMaxId
+  nameWithType: TDialog.ReadInboxMaxId
+  fullName: OpenTl.Schema.TDialog.ReadInboxMaxId
+- uid: OpenTl.Schema.IDialog.ReadInboxMaxId
+  commentId: P:OpenTl.Schema.IDialog.ReadInboxMaxId
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: ReadInboxMaxId
+  nameWithType: IDialog.ReadInboxMaxId
+  fullName: OpenTl.Schema.IDialog.ReadInboxMaxId
+- uid: OpenTl.Schema.TDialog.ReadOutboxMaxId*
+  commentId: Overload:OpenTl.Schema.TDialog.ReadOutboxMaxId
+  isExternal: false
+  name: ReadOutboxMaxId
+  nameWithType: TDialog.ReadOutboxMaxId
+  fullName: OpenTl.Schema.TDialog.ReadOutboxMaxId
+- uid: OpenTl.Schema.IDialog.ReadOutboxMaxId
+  commentId: P:OpenTl.Schema.IDialog.ReadOutboxMaxId
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: ReadOutboxMaxId
+  nameWithType: IDialog.ReadOutboxMaxId
+  fullName: OpenTl.Schema.IDialog.ReadOutboxMaxId
+- uid: OpenTl.Schema.TDialog.UnreadCount*
+  commentId: Overload:OpenTl.Schema.TDialog.UnreadCount
+  isExternal: false
+  name: UnreadCount
+  nameWithType: TDialog.UnreadCount
+  fullName: OpenTl.Schema.TDialog.UnreadCount
+- uid: OpenTl.Schema.IDialog.UnreadCount
+  commentId: P:OpenTl.Schema.IDialog.UnreadCount
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: UnreadCount
+  nameWithType: IDialog.UnreadCount
+  fullName: OpenTl.Schema.IDialog.UnreadCount
+- uid: OpenTl.Schema.TDialog.UnreadMentionsCount*
+  commentId: Overload:OpenTl.Schema.TDialog.UnreadMentionsCount
+  isExternal: false
+  name: UnreadMentionsCount
+  nameWithType: TDialog.UnreadMentionsCount
+  fullName: OpenTl.Schema.TDialog.UnreadMentionsCount
+- uid: OpenTl.Schema.IDialog.UnreadMentionsCount
+  commentId: P:OpenTl.Schema.IDialog.UnreadMentionsCount
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: UnreadMentionsCount
+  nameWithType: IDialog.UnreadMentionsCount
+  fullName: OpenTl.Schema.IDialog.UnreadMentionsCount
+- uid: OpenTl.Schema.TDialog.NotifySettings*
+  commentId: Overload:OpenTl.Schema.TDialog.NotifySettings
+  isExternal: false
+  name: NotifySettings
+  nameWithType: TDialog.NotifySettings
+  fullName: OpenTl.Schema.TDialog.NotifySettings
+- uid: OpenTl.Schema.IDialog.NotifySettings
+  commentId: P:OpenTl.Schema.IDialog.NotifySettings
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: NotifySettings
+  nameWithType: IDialog.NotifySettings
+  fullName: OpenTl.Schema.IDialog.NotifySettings
+- uid: OpenTl.Schema.IPeerNotifySettings
+  commentId: T:OpenTl.Schema.IPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifySettings
+  nameWithType: IPeerNotifySettings
+  fullName: OpenTl.Schema.IPeerNotifySettings
+- uid: OpenTl.Schema.TDialog.Pts*
+  commentId: Overload:OpenTl.Schema.TDialog.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TDialog.Pts
+  fullName: OpenTl.Schema.TDialog.Pts
+- uid: OpenTl.Schema.IDialog.Pts
+  commentId: P:OpenTl.Schema.IDialog.Pts
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: Pts
+  nameWithType: IDialog.Pts
+  fullName: OpenTl.Schema.IDialog.Pts
+- uid: OpenTl.Schema.TDialog.Draft*
+  commentId: Overload:OpenTl.Schema.TDialog.Draft
+  isExternal: false
+  name: Draft
+  nameWithType: TDialog.Draft
+  fullName: OpenTl.Schema.TDialog.Draft
+- uid: OpenTl.Schema.IDialog.Draft
+  commentId: P:OpenTl.Schema.IDialog.Draft
+  parent: OpenTl.Schema.IDialog
+  isExternal: false
+  name: Draft
+  nameWithType: IDialog.Draft
+  fullName: OpenTl.Schema.IDialog.Draft
+- uid: OpenTl.Schema.IDraftMessage
+  commentId: T:OpenTl.Schema.IDraftMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDraftMessage
+  nameWithType: IDraftMessage
+  fullName: OpenTl.Schema.IDraftMessage

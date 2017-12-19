@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TSentEncryptedMessage
+  commentId: T:OpenTl.Schema.Messages.TSentEncryptedMessage
+  id: TSentEncryptedMessage
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+  langs:
+  - csharp
+  - vb
+  name: TSentEncryptedMessage
+  nameWithType: TSentEncryptedMessage
+  fullName: OpenTl.Schema.Messages.TSentEncryptedMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/SentEncryptedMessage/TSentEncryptedMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSentEncryptedMessage
+    path: ../src/OpenTl.Schema/_generated/Messages/SentEncryptedMessage/TSentEncryptedMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TSentEncryptedMessage : object, ISentEncryptedMessage, IObject'
+    content.vb: >-
+      Public Class TSentEncryptedMessage
+
+          Inherits Object
+
+          Implements ISentEncryptedMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.ISentEncryptedMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+  commentId: P:OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+  id: Date
+  parent: OpenTl.Schema.Messages.TSentEncryptedMessage
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TSentEncryptedMessage.Date
+  fullName: OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/SentEncryptedMessage/TSentEncryptedMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Messages/SentEncryptedMessage/TSentEncryptedMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Messages.TSentEncryptedMessage.Date*
+  implements:
+  - OpenTl.Schema.Messages.ISentEncryptedMessage.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.ISentEncryptedMessage
+  commentId: T:OpenTl.Schema.Messages.ISentEncryptedMessage
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: ISentEncryptedMessage
+  nameWithType: ISentEncryptedMessage
+  fullName: OpenTl.Schema.Messages.ISentEncryptedMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TSentEncryptedMessage.Date*
+  commentId: Overload:OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+  isExternal: false
+  name: Date
+  nameWithType: TSentEncryptedMessage.Date
+  fullName: OpenTl.Schema.Messages.TSentEncryptedMessage.Date
+- uid: OpenTl.Schema.Messages.ISentEncryptedMessage.Date
+  commentId: P:OpenTl.Schema.Messages.ISentEncryptedMessage.Date
+  parent: OpenTl.Schema.Messages.ISentEncryptedMessage
+  isExternal: false
+  name: Date
+  nameWithType: ISentEncryptedMessage.Date
+  fullName: OpenTl.Schema.Messages.ISentEncryptedMessage.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

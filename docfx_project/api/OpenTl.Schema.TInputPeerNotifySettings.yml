@@ -1,0 +1,423 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPeerNotifySettings
+  commentId: T:OpenTl.Schema.TInputPeerNotifySettings
+  id: TInputPeerNotifySettings
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputPeerNotifySettings.Flags
+  - OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+  - OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+  - OpenTl.Schema.TInputPeerNotifySettings.Silent
+  - OpenTl.Schema.TInputPeerNotifySettings.Sound
+  - OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputPeerNotifySettings
+  nameWithType: TInputPeerNotifySettings
+  fullName: OpenTl.Schema.TInputPeerNotifySettings
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPeerNotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPeerNotifySettings : object, IInputPeerNotifySettings, IObject'
+    content.vb: >-
+      Public Class TInputPeerNotifySettings
+
+          Inherits Object
+
+          Implements IInputPeerNotifySettings, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Flags
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputPeerNotifySettings.Flags*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+  id: ShowPreviews
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: ShowPreviews
+  nameWithType: TInputPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShowPreviews
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ShowPreviews { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowPreviews As Boolean
+  overload: OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Silent
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.Silent
+  id: Silent
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: TInputPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Silent As Boolean
+  overload: OpenTl.Schema.TInputPeerNotifySettings.Silent*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.Silent
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+  id: MuteUntil
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: MuteUntil
+  nameWithType: TInputPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MuteUntil
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MuteUntil { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MuteUntil As Integer
+  overload: OpenTl.Schema.TInputPeerNotifySettings.MuteUntil*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+  id: SoundAsBinary
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: SoundAsBinary
+  nameWithType: TInputPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SoundAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Sound&apos; property
+  example: []
+  syntax:
+    content: public byte[] SoundAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property SoundAsBinary As Byte()
+  overload: OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Sound
+  commentId: P:OpenTl.Schema.TInputPeerNotifySettings.Sound
+  id: Sound
+  parent: OpenTl.Schema.TInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: TInputPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Sound
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sound
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/TInputPeerNotifySettings.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Sound { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sound As String
+  overload: OpenTl.Schema.TInputPeerNotifySettings.Sound*
+  implements:
+  - OpenTl.Schema.IInputPeerNotifySettings.Sound
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPeerNotifySettings
+  commentId: T:OpenTl.Schema.IInputPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeerNotifySettings
+  nameWithType: IInputPeerNotifySettings
+  fullName: OpenTl.Schema.IInputPeerNotifySettings
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Flags*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Flags
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Flags
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Flags
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: Flags
+  nameWithType: IInputPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+  isExternal: false
+  name: ShowPreviews
+  nameWithType: TInputPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.ShowPreviews
+- uid: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: ShowPreviews
+  nameWithType: IInputPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Silent*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: TInputPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Silent
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Silent
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Silent
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: Silent
+  nameWithType: IInputPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Silent
+- uid: OpenTl.Schema.TInputPeerNotifySettings.MuteUntil*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+  isExternal: false
+  name: MuteUntil
+  nameWithType: TInputPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.MuteUntil
+- uid: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: MuteUntil
+  nameWithType: IInputPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+  isExternal: false
+  name: SoundAsBinary
+  nameWithType: TInputPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.SoundAsBinary
+- uid: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: SoundAsBinary
+  nameWithType: IInputPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputPeerNotifySettings.Sound*
+  commentId: Overload:OpenTl.Schema.TInputPeerNotifySettings.Sound
+  isExternal: false
+  name: Sound
+  nameWithType: TInputPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.TInputPeerNotifySettings.Sound
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Sound
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Sound
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  isExternal: false
+  name: Sound
+  nameWithType: IInputPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Sound
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

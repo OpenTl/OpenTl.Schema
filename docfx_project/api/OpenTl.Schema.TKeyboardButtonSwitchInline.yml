@@ -1,0 +1,384 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline
+  commentId: T:OpenTl.Schema.TKeyboardButtonSwitchInline
+  id: TKeyboardButtonSwitchInline
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.Query
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+  - OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TKeyboardButtonSwitchInline
+  nameWithType: TKeyboardButtonSwitchInline
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TKeyboardButtonSwitchInline
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TKeyboardButtonSwitchInline : object, IKeyboardButton, IObject'
+    content.vb: >-
+      Public Class TKeyboardButtonSwitchInline
+
+          Inherits Object
+
+          Implements IKeyboardButton, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IKeyboardButton
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+  id: Flags
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TKeyboardButtonSwitchInline.Flags
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+  id: SamePeer
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: SamePeer
+  nameWithType: TKeyboardButtonSwitchInline.SamePeer
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SamePeer
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool SamePeer { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property SamePeer As Boolean
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonSwitchInline.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.TextAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+  id: Text
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TKeyboardButtonSwitchInline.Text
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.Text*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+  id: QueryAsBinary
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: QueryAsBinary
+  nameWithType: TKeyboardButtonSwitchInline.QueryAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Query&apos; property
+  example: []
+  syntax:
+    content: public byte[] QueryAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QueryAsBinary As Byte()
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Query
+  commentId: P:OpenTl.Schema.TKeyboardButtonSwitchInline.Query
+  id: Query
+  parent: OpenTl.Schema.TKeyboardButtonSwitchInline
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: TKeyboardButtonSwitchInline.Query
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Query
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Query
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonSwitchInline.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Query As String
+  overload: OpenTl.Schema.TKeyboardButtonSwitchInline.Query*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IKeyboardButton
+  commentId: T:OpenTl.Schema.IKeyboardButton
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IKeyboardButton
+  nameWithType: IKeyboardButton
+  fullName: OpenTl.Schema.IKeyboardButton
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Flags*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TKeyboardButtonSwitchInline.Flags
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+  isExternal: false
+  name: SamePeer
+  nameWithType: TKeyboardButtonSwitchInline.SamePeer
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.SamePeer
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonSwitchInline.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.TextAsBinary
+- uid: OpenTl.Schema.IKeyboardButton.TextAsBinary
+  commentId: P:OpenTl.Schema.IKeyboardButton.TextAsBinary
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: IKeyboardButton.TextAsBinary
+  fullName: OpenTl.Schema.IKeyboardButton.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Text*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+  isExternal: false
+  name: Text
+  nameWithType: TKeyboardButtonSwitchInline.Text
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Text
+- uid: OpenTl.Schema.IKeyboardButton.Text
+  commentId: P:OpenTl.Schema.IKeyboardButton.Text
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: Text
+  nameWithType: IKeyboardButton.Text
+  fullName: OpenTl.Schema.IKeyboardButton.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+  isExternal: false
+  name: QueryAsBinary
+  nameWithType: TKeyboardButtonSwitchInline.QueryAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.QueryAsBinary
+- uid: OpenTl.Schema.TKeyboardButtonSwitchInline.Query*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonSwitchInline.Query
+  isExternal: false
+  name: Query
+  nameWithType: TKeyboardButtonSwitchInline.Query
+  fullName: OpenTl.Schema.TKeyboardButtonSwitchInline.Query

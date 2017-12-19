@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.TCdnFileReuploadNeeded
+  commentId: T:OpenTl.Schema.Upload.TCdnFileReuploadNeeded
+  id: TCdnFileReuploadNeeded
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+  langs:
+  - csharp
+  - vb
+  name: TCdnFileReuploadNeeded
+  nameWithType: TCdnFileReuploadNeeded
+  fullName: OpenTl.Schema.Upload.TCdnFileReuploadNeeded
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFileReuploadNeeded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCdnFileReuploadNeeded
+    path: ../src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFileReuploadNeeded.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class TCdnFileReuploadNeeded : object, ICdnFile, IObject'
+    content.vb: >-
+      Public Class TCdnFileReuploadNeeded
+
+          Inherits Object
+
+          Implements ICdnFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Upload.ICdnFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+  commentId: P:OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+  id: RequestToken
+  parent: OpenTl.Schema.Upload.TCdnFileReuploadNeeded
+  langs:
+  - csharp
+  - vb
+  name: RequestToken
+  nameWithType: TCdnFileReuploadNeeded.RequestToken
+  fullName: OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFileReuploadNeeded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestToken
+    path: ../src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFileReuploadNeeded.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] RequestToken { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property RequestToken As Byte()
+  overload: OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Upload.ICdnFile
+  commentId: T:OpenTl.Schema.Upload.ICdnFile
+  parent: OpenTl.Schema.Upload
+  isExternal: false
+  name: ICdnFile
+  nameWithType: ICdnFile
+  fullName: OpenTl.Schema.Upload.ICdnFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken*
+  commentId: Overload:OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+  isExternal: false
+  name: RequestToken
+  nameWithType: TCdnFileReuploadNeeded.RequestToken
+  fullName: OpenTl.Schema.Upload.TCdnFileReuploadNeeded.RequestToken
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

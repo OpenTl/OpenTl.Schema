@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.TFile
+  commentId: T:OpenTl.Schema.Upload.TFile
+  id: TFile
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.TFile.Bytes
+  - OpenTl.Schema.Upload.TFile.Mtime
+  - OpenTl.Schema.Upload.TFile.Type
+  langs:
+  - csharp
+  - vb
+  name: TFile
+  nameWithType: TFile
+  fullName: OpenTl.Schema.Upload.TFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFile
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class TFile : object, IFile, IObject'
+    content.vb: >-
+      Public Class TFile
+
+          Inherits Object
+
+          Implements IFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Upload.IFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.TFile.Type
+  commentId: P:OpenTl.Schema.Upload.TFile.Type
+  id: Type
+  parent: OpenTl.Schema.Upload.TFile
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TFile.Type
+  fullName: OpenTl.Schema.Upload.TFile.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public IFileType Type { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Storage.IFileType
+    content.vb: Public Property Type As IFileType
+  overload: OpenTl.Schema.Upload.TFile.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFile.Mtime
+  commentId: P:OpenTl.Schema.Upload.TFile.Mtime
+  id: Mtime
+  parent: OpenTl.Schema.Upload.TFile
+  langs:
+  - csharp
+  - vb
+  name: Mtime
+  nameWithType: TFile.Mtime
+  fullName: OpenTl.Schema.Upload.TFile.Mtime
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mtime
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Mtime { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Mtime As Integer
+  overload: OpenTl.Schema.Upload.TFile.Mtime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFile.Bytes
+  commentId: P:OpenTl.Schema.Upload.TFile.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.Upload.TFile
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TFile.Bytes
+  fullName: OpenTl.Schema.Upload.TFile.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFile.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.Upload.TFile.Bytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Upload.IFile
+  commentId: T:OpenTl.Schema.Upload.IFile
+  parent: OpenTl.Schema.Upload
+  isExternal: false
+  name: IFile
+  nameWithType: IFile
+  fullName: OpenTl.Schema.Upload.IFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.TFile.Type*
+  commentId: Overload:OpenTl.Schema.Upload.TFile.Type
+  isExternal: false
+  name: Type
+  nameWithType: TFile.Type
+  fullName: OpenTl.Schema.Upload.TFile.Type
+- uid: OpenTl.Schema.Storage.IFileType
+  commentId: T:OpenTl.Schema.Storage.IFileType
+  parent: OpenTl.Schema.Storage
+  isExternal: false
+  name: IFileType
+  nameWithType: IFileType
+  fullName: OpenTl.Schema.Storage.IFileType
+- uid: OpenTl.Schema.Storage
+  commentId: N:OpenTl.Schema.Storage
+  isExternal: false
+  name: OpenTl.Schema.Storage
+  nameWithType: OpenTl.Schema.Storage
+  fullName: OpenTl.Schema.Storage
+- uid: OpenTl.Schema.Upload.TFile.Mtime*
+  commentId: Overload:OpenTl.Schema.Upload.TFile.Mtime
+  isExternal: false
+  name: Mtime
+  nameWithType: TFile.Mtime
+  fullName: OpenTl.Schema.Upload.TFile.Mtime
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Upload.TFile.Bytes*
+  commentId: Overload:OpenTl.Schema.Upload.TFile.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TFile.Bytes
+  fullName: OpenTl.Schema.Upload.TFile.Bytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

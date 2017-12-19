@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd
+  commentId: T:OpenTl.Schema.TUpdateChatParticipantAdd
+  id: TUpdateChatParticipantAdd
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+  - OpenTl.Schema.TUpdateChatParticipantAdd.Date
+  - OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+  - OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+  - OpenTl.Schema.TUpdateChatParticipantAdd.Version
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChatParticipantAdd
+  nameWithType: TUpdateChatParticipantAdd
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChatParticipantAdd
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChatParticipantAdd : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChatParticipantAdd
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateChatParticipantAdd
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateChatParticipantAdd.ChatId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantAdd.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateChatParticipantAdd
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateChatParticipantAdd.UserId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantAdd.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+  id: InviterId
+  parent: OpenTl.Schema.TUpdateChatParticipantAdd
+  langs:
+  - csharp
+  - vb
+  name: InviterId
+  nameWithType: TUpdateChatParticipantAdd.InviterId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviterId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int InviterId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InviterId As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantAdd.InviterId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.Date
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantAdd.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateChatParticipantAdd
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateChatParticipantAdd.Date
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantAdd.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.Version
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantAdd.Version
+  id: Version
+  parent: OpenTl.Schema.TUpdateChatParticipantAdd
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TUpdateChatParticipantAdd.Version
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.Version
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Version
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantAdd.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantAdd.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateChatParticipantAdd.ChatId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateChatParticipantAdd.UserId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.UserId
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.InviterId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+  isExternal: false
+  name: InviterId
+  nameWithType: TUpdateChatParticipantAdd.InviterId
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.InviterId
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantAdd.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateChatParticipantAdd.Date
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.Date
+- uid: OpenTl.Schema.TUpdateChatParticipantAdd.Version*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantAdd.Version
+  isExternal: false
+  name: Version
+  nameWithType: TUpdateChatParticipantAdd.Version
+  fullName: OpenTl.Schema.TUpdateChatParticipantAdd.Version

@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TEncryptedMessageService
+  commentId: T:OpenTl.Schema.TEncryptedMessageService
+  id: TEncryptedMessageService
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TEncryptedMessageService.Bytes
+  - OpenTl.Schema.TEncryptedMessageService.ChatId
+  - OpenTl.Schema.TEncryptedMessageService.Date
+  - OpenTl.Schema.TEncryptedMessageService.RandomId
+  langs:
+  - csharp
+  - vb
+  name: TEncryptedMessageService
+  nameWithType: TEncryptedMessageService
+  fullName: OpenTl.Schema.TEncryptedMessageService
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TEncryptedMessageService
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TEncryptedMessageService : object, IEncryptedMessage, IObject'
+    content.vb: >-
+      Public Class TEncryptedMessageService
+
+          Inherits Object
+
+          Implements IEncryptedMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IEncryptedMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TEncryptedMessageService.RandomId
+  commentId: P:OpenTl.Schema.TEncryptedMessageService.RandomId
+  id: RandomId
+  parent: OpenTl.Schema.TEncryptedMessageService
+  langs:
+  - csharp
+  - vb
+  name: RandomId
+  nameWithType: TEncryptedMessageService.RandomId
+  fullName: OpenTl.Schema.TEncryptedMessageService.RandomId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RandomId
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long RandomId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RandomId As Long
+  overload: OpenTl.Schema.TEncryptedMessageService.RandomId*
+  implements:
+  - OpenTl.Schema.IEncryptedMessage.RandomId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedMessageService.ChatId
+  commentId: P:OpenTl.Schema.TEncryptedMessageService.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TEncryptedMessageService
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TEncryptedMessageService.ChatId
+  fullName: OpenTl.Schema.TEncryptedMessageService.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TEncryptedMessageService.ChatId*
+  implements:
+  - OpenTl.Schema.IEncryptedMessage.ChatId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedMessageService.Date
+  commentId: P:OpenTl.Schema.TEncryptedMessageService.Date
+  id: Date
+  parent: OpenTl.Schema.TEncryptedMessageService
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TEncryptedMessageService.Date
+  fullName: OpenTl.Schema.TEncryptedMessageService.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TEncryptedMessageService.Date*
+  implements:
+  - OpenTl.Schema.IEncryptedMessage.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TEncryptedMessageService.Bytes
+  commentId: P:OpenTl.Schema.TEncryptedMessageService.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TEncryptedMessageService
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TEncryptedMessageService.Bytes
+  fullName: OpenTl.Schema.TEncryptedMessageService.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedMessage/TEncryptedMessageService.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.TEncryptedMessageService.Bytes*
+  implements:
+  - OpenTl.Schema.IEncryptedMessage.Bytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IEncryptedMessage
+  commentId: T:OpenTl.Schema.IEncryptedMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedMessage
+  nameWithType: IEncryptedMessage
+  fullName: OpenTl.Schema.IEncryptedMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TEncryptedMessageService.RandomId*
+  commentId: Overload:OpenTl.Schema.TEncryptedMessageService.RandomId
+  isExternal: false
+  name: RandomId
+  nameWithType: TEncryptedMessageService.RandomId
+  fullName: OpenTl.Schema.TEncryptedMessageService.RandomId
+- uid: OpenTl.Schema.IEncryptedMessage.RandomId
+  commentId: P:OpenTl.Schema.IEncryptedMessage.RandomId
+  parent: OpenTl.Schema.IEncryptedMessage
+  isExternal: false
+  name: RandomId
+  nameWithType: IEncryptedMessage.RandomId
+  fullName: OpenTl.Schema.IEncryptedMessage.RandomId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TEncryptedMessageService.ChatId*
+  commentId: Overload:OpenTl.Schema.TEncryptedMessageService.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TEncryptedMessageService.ChatId
+  fullName: OpenTl.Schema.TEncryptedMessageService.ChatId
+- uid: OpenTl.Schema.IEncryptedMessage.ChatId
+  commentId: P:OpenTl.Schema.IEncryptedMessage.ChatId
+  parent: OpenTl.Schema.IEncryptedMessage
+  isExternal: false
+  name: ChatId
+  nameWithType: IEncryptedMessage.ChatId
+  fullName: OpenTl.Schema.IEncryptedMessage.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TEncryptedMessageService.Date*
+  commentId: Overload:OpenTl.Schema.TEncryptedMessageService.Date
+  isExternal: false
+  name: Date
+  nameWithType: TEncryptedMessageService.Date
+  fullName: OpenTl.Schema.TEncryptedMessageService.Date
+- uid: OpenTl.Schema.IEncryptedMessage.Date
+  commentId: P:OpenTl.Schema.IEncryptedMessage.Date
+  parent: OpenTl.Schema.IEncryptedMessage
+  isExternal: false
+  name: Date
+  nameWithType: IEncryptedMessage.Date
+  fullName: OpenTl.Schema.IEncryptedMessage.Date
+- uid: OpenTl.Schema.TEncryptedMessageService.Bytes*
+  commentId: Overload:OpenTl.Schema.TEncryptedMessageService.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TEncryptedMessageService.Bytes
+  fullName: OpenTl.Schema.TEncryptedMessageService.Bytes
+- uid: OpenTl.Schema.IEncryptedMessage.Bytes
+  commentId: P:OpenTl.Schema.IEncryptedMessage.Bytes
+  parent: OpenTl.Schema.IEncryptedMessage
+  isExternal: false
+  name: Bytes
+  nameWithType: IEncryptedMessage.Bytes
+  fullName: OpenTl.Schema.IEncryptedMessage.Bytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

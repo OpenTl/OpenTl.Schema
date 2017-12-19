@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TError
+  commentId: T:OpenTl.Schema.TError
+  id: TError
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TError.Code
+  - OpenTl.Schema.TError.Text
+  - OpenTl.Schema.TError.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TError
+  nameWithType: TError
+  fullName: OpenTl.Schema.TError
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TError
+    path: ../src/OpenTl.Schema/_generated/_Entities/TError.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TError : object, IObject'
+    content.vb: >-
+      Public Class TError
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TError.Code
+  commentId: P:OpenTl.Schema.TError.Code
+  id: Code
+  parent: OpenTl.Schema.TError
+  langs:
+  - csharp
+  - vb
+  name: Code
+  nameWithType: TError.Code
+  fullName: OpenTl.Schema.TError.Code
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Code
+    path: ../src/OpenTl.Schema/_generated/_Entities/TError.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Code { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Code As Integer
+  overload: OpenTl.Schema.TError.Code*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TError.TextAsBinary
+  commentId: P:OpenTl.Schema.TError.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.TError
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TError.TextAsBinary
+  fullName: OpenTl.Schema.TError.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TError.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.TError.TextAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TError.Text
+  commentId: P:OpenTl.Schema.TError.Text
+  id: Text
+  parent: OpenTl.Schema.TError
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TError.Text
+  fullName: OpenTl.Schema.TError.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/TError.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.TError.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TError.Code*
+  commentId: Overload:OpenTl.Schema.TError.Code
+  isExternal: false
+  name: Code
+  nameWithType: TError.Code
+  fullName: OpenTl.Schema.TError.Code
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TError.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.TError.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TError.TextAsBinary
+  fullName: OpenTl.Schema.TError.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TError.Text*
+  commentId: Overload:OpenTl.Schema.TError.Text
+  isExternal: false
+  name: Text
+  nameWithType: TError.Text
+  fullName: OpenTl.Schema.TError.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

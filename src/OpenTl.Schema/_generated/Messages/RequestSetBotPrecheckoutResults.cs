@@ -22,6 +22,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(2)]
        public long QueryId {get; set;}
 
+       /// <summary>Binary representation for the 'Error' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
        public byte[] ErrorAsBinary { get => _ErrorAsBinary; set { _Error = Encoding.UTF8.GetString(value); _ErrorAsBinary = value; }}

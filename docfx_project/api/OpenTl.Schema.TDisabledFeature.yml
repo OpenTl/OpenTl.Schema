@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDisabledFeature
+  commentId: T:OpenTl.Schema.TDisabledFeature
+  id: TDisabledFeature
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDisabledFeature.Description
+  - OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+  - OpenTl.Schema.TDisabledFeature.Feature
+  - OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TDisabledFeature
+  nameWithType: TDisabledFeature
+  fullName: OpenTl.Schema.TDisabledFeature
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDisabledFeature
+    path: ../src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDisabledFeature : object, IDisabledFeature, IObject'
+    content.vb: >-
+      Public Class TDisabledFeature
+
+          Inherits Object
+
+          Implements IDisabledFeature, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDisabledFeature
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+  commentId: P:OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+  id: FeatureAsBinary
+  parent: OpenTl.Schema.TDisabledFeature
+  langs:
+  - csharp
+  - vb
+  name: FeatureAsBinary
+  nameWithType: TDisabledFeature.FeatureAsBinary
+  fullName: OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FeatureAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Feature&apos; property
+  example: []
+  syntax:
+    content: public byte[] FeatureAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FeatureAsBinary As Byte()
+  overload: OpenTl.Schema.TDisabledFeature.FeatureAsBinary*
+  implements:
+  - OpenTl.Schema.IDisabledFeature.FeatureAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDisabledFeature.Feature
+  commentId: P:OpenTl.Schema.TDisabledFeature.Feature
+  id: Feature
+  parent: OpenTl.Schema.TDisabledFeature
+  langs:
+  - csharp
+  - vb
+  name: Feature
+  nameWithType: TDisabledFeature.Feature
+  fullName: OpenTl.Schema.TDisabledFeature.Feature
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Feature
+    path: ../src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Feature { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Feature As String
+  overload: OpenTl.Schema.TDisabledFeature.Feature*
+  implements:
+  - OpenTl.Schema.IDisabledFeature.Feature
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TDisabledFeature
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TDisabledFeature.DescriptionAsBinary
+  fullName: OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TDisabledFeature.DescriptionAsBinary*
+  implements:
+  - OpenTl.Schema.IDisabledFeature.DescriptionAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDisabledFeature.Description
+  commentId: P:OpenTl.Schema.TDisabledFeature.Description
+  id: Description
+  parent: OpenTl.Schema.TDisabledFeature
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TDisabledFeature.Description
+  fullName: OpenTl.Schema.TDisabledFeature.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/DisabledFeature/TDisabledFeature.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TDisabledFeature.Description*
+  implements:
+  - OpenTl.Schema.IDisabledFeature.Description
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDisabledFeature
+  commentId: T:OpenTl.Schema.IDisabledFeature
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDisabledFeature
+  nameWithType: IDisabledFeature
+  fullName: OpenTl.Schema.IDisabledFeature
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDisabledFeature.FeatureAsBinary*
+  commentId: Overload:OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+  isExternal: false
+  name: FeatureAsBinary
+  nameWithType: TDisabledFeature.FeatureAsBinary
+  fullName: OpenTl.Schema.TDisabledFeature.FeatureAsBinary
+- uid: OpenTl.Schema.IDisabledFeature.FeatureAsBinary
+  commentId: P:OpenTl.Schema.IDisabledFeature.FeatureAsBinary
+  parent: OpenTl.Schema.IDisabledFeature
+  isExternal: false
+  name: FeatureAsBinary
+  nameWithType: IDisabledFeature.FeatureAsBinary
+  fullName: OpenTl.Schema.IDisabledFeature.FeatureAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDisabledFeature.Feature*
+  commentId: Overload:OpenTl.Schema.TDisabledFeature.Feature
+  isExternal: false
+  name: Feature
+  nameWithType: TDisabledFeature.Feature
+  fullName: OpenTl.Schema.TDisabledFeature.Feature
+- uid: OpenTl.Schema.IDisabledFeature.Feature
+  commentId: P:OpenTl.Schema.IDisabledFeature.Feature
+  parent: OpenTl.Schema.IDisabledFeature
+  isExternal: false
+  name: Feature
+  nameWithType: IDisabledFeature.Feature
+  fullName: OpenTl.Schema.IDisabledFeature.Feature
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TDisabledFeature.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TDisabledFeature.DescriptionAsBinary
+  fullName: OpenTl.Schema.TDisabledFeature.DescriptionAsBinary
+- uid: OpenTl.Schema.IDisabledFeature.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.IDisabledFeature.DescriptionAsBinary
+  parent: OpenTl.Schema.IDisabledFeature
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: IDisabledFeature.DescriptionAsBinary
+  fullName: OpenTl.Schema.IDisabledFeature.DescriptionAsBinary
+- uid: OpenTl.Schema.TDisabledFeature.Description*
+  commentId: Overload:OpenTl.Schema.TDisabledFeature.Description
+  isExternal: false
+  name: Description
+  nameWithType: TDisabledFeature.Description
+  fullName: OpenTl.Schema.TDisabledFeature.Description
+- uid: OpenTl.Schema.IDisabledFeature.Description
+  commentId: P:OpenTl.Schema.IDisabledFeature.Description
+  parent: OpenTl.Schema.IDisabledFeature
+  isExternal: false
+  name: Description
+  nameWithType: IDisabledFeature.Description
+  fullName: OpenTl.Schema.IDisabledFeature.Description

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockChannel
+  commentId: T:OpenTl.Schema.TPageBlockChannel
+  id: TPageBlockChannel
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockChannel.Channel
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockChannel
+  nameWithType: TPageBlockChannel
+  fullName: OpenTl.Schema.TPageBlockChannel
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockChannel.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockChannel
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockChannel.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockChannel : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockChannel
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockChannel.Channel
+  commentId: P:OpenTl.Schema.TPageBlockChannel.Channel
+  id: Channel
+  parent: OpenTl.Schema.TPageBlockChannel
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: TPageBlockChannel.Channel
+  fullName: OpenTl.Schema.TPageBlockChannel.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockChannel.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockChannel.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChat Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChat
+    content.vb: Public Property Channel As IChat
+  overload: OpenTl.Schema.TPageBlockChannel.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockChannel.Channel*
+  commentId: Overload:OpenTl.Schema.TPageBlockChannel.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: TPageBlockChannel.Channel
+  fullName: OpenTl.Schema.TPageBlockChannel.Channel
+- uid: OpenTl.Schema.IChat
+  commentId: T:OpenTl.Schema.IChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChat
+  nameWithType: IChat
+  fullName: OpenTl.Schema.IChat

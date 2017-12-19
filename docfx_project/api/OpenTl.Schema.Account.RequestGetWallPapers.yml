@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestGetWallPapers
+  commentId: T:OpenTl.Schema.Account.RequestGetWallPapers
+  id: RequestGetWallPapers
+  parent: OpenTl.Schema.Account
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RequestGetWallPapers
+  nameWithType: RequestGetWallPapers
+  fullName: OpenTl.Schema.Account.RequestGetWallPapers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestGetWallPapers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetWallPapers
+    path: ../src/OpenTl.Schema/_generated/Account/RequestGetWallPapers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestGetWallPapers : object, IRequest<TVector<IWallPaper>>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetWallPapers
+
+          Inherits Object
+
+          Implements IRequest(Of TVector(Of IWallPaper)), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.IWallPaper}}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.IWallPaper}}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.IWallPaper}}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<TVector<IWallPaper>>
+  nameWithType: IRequest<TVector<IWallPaper>>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IWallPaper>>
+  nameWithType.vb: IRequest(Of TVector(Of IWallPaper))
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.TVector(Of OpenTl.Schema.IWallPaper))
+  name.vb: IRequest(Of TVector(Of IWallPaper))
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IWallPaper
+    name: IWallPaper
+    nameWithType: IWallPaper
+    fullName: OpenTl.Schema.IWallPaper
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IWallPaper
+    name: IWallPaper
+    nameWithType: IWallPaper
+    fullName: OpenTl.Schema.IWallPaper
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

@@ -22,6 +22,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(2)]
        public long QueryId {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
@@ -29,6 +30,7 @@ namespace OpenTl.Schema.Messages
        private string _Message;
        public string Message { get => _Message; set { MessageAsBinary = Encoding.UTF8.GetBytes(value); _Message = value; }}
 
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}

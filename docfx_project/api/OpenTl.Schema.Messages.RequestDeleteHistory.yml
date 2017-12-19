@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory
+  commentId: T:OpenTl.Schema.Messages.RequestDeleteHistory
+  id: RequestDeleteHistory
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+  - OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+  - OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+  - OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+  langs:
+  - csharp
+  - vb
+  name: RequestDeleteHistory
+  nameWithType: RequestDeleteHistory
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestDeleteHistory
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestDeleteHistory : object, IRequest<IAffectedHistory>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestDeleteHistory
+
+          Inherits Object
+
+          Implements IRequest(Of IAffectedHistory), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IAffectedHistory}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestDeleteHistory
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestDeleteHistory.Flags
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestDeleteHistory.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+  commentId: P:OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+  id: JustClear
+  parent: OpenTl.Schema.Messages.RequestDeleteHistory
+  langs:
+  - csharp
+  - vb
+  name: JustClear
+  nameWithType: RequestDeleteHistory.JustClear
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: JustClear
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool JustClear { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property JustClear As Boolean
+  overload: OpenTl.Schema.Messages.RequestDeleteHistory.JustClear*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestDeleteHistory
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestDeleteHistory.Peer
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestDeleteHistory.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+  commentId: P:OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.Messages.RequestDeleteHistory
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: RequestDeleteHistory.MaxId
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestDeleteHistory.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.Messages.RequestDeleteHistory.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IAffectedHistory}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IAffectedHistory}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IAffectedHistory>
+  nameWithType: IRequest<IAffectedHistory>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IAffectedHistory>
+  nameWithType.vb: IRequest(Of IAffectedHistory)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IAffectedHistory)
+  name.vb: IRequest(Of IAffectedHistory)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IAffectedHistory
+    name: IAffectedHistory
+    nameWithType: IAffectedHistory
+    fullName: OpenTl.Schema.Messages.IAffectedHistory
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IAffectedHistory
+    name: IAffectedHistory
+    nameWithType: IAffectedHistory
+    fullName: OpenTl.Schema.Messages.IAffectedHistory
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestDeleteHistory.Flags
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.JustClear*
+  commentId: Overload:OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+  isExternal: false
+  name: JustClear
+  nameWithType: RequestDeleteHistory.JustClear
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.JustClear
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestDeleteHistory.Peer
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestDeleteHistory.MaxId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: RequestDeleteHistory.MaxId
+  fullName: OpenTl.Schema.Messages.RequestDeleteHistory.MaxId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

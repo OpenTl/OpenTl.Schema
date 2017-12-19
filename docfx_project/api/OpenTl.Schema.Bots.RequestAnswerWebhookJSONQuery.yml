@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  commentId: T:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  id: RequestAnswerWebhookJSONQuery
+  parent: OpenTl.Schema.Bots
+  children:
+  - OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+  - OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+  langs:
+  - csharp
+  - vb
+  name: RequestAnswerWebhookJSONQuery
+  nameWithType: RequestAnswerWebhookJSONQuery
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestAnswerWebhookJSONQuery
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: 'public class RequestAnswerWebhookJSONQuery : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestAnswerWebhookJSONQuery
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+  commentId: P:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: RequestAnswerWebhookJSONQuery.QueryId
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+  commentId: P:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+  id: Data
+  parent: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: RequestAnswerWebhookJSONQuery.Data
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestAnswerWebhookJSONQuery.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: public IDataJSON Data { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDataJSON
+    content.vb: Public Property Data As IDataJSON
+  overload: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Bots
+  commentId: N:OpenTl.Schema.Bots
+  isExternal: false
+  name: OpenTl.Schema.Bots
+  nameWithType: OpenTl.Schema.Bots
+  fullName: OpenTl.Schema.Bots
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId*
+  commentId: Overload:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: RequestAnswerWebhookJSONQuery.QueryId
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data*
+  commentId: Overload:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+  isExternal: false
+  name: Data
+  nameWithType: RequestAnswerWebhookJSONQuery.Data
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery.Data
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON

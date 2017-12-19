@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUserStatusOffline
+  commentId: T:OpenTl.Schema.TUserStatusOffline
+  id: TUserStatusOffline
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUserStatusOffline.WasOnline
+  langs:
+  - csharp
+  - vb
+  name: TUserStatusOffline
+  nameWithType: TUserStatusOffline
+  fullName: OpenTl.Schema.TUserStatusOffline
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOffline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUserStatusOffline
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOffline.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUserStatusOffline : object, IUserStatus, IObject'
+    content.vb: >-
+      Public Class TUserStatusOffline
+
+          Inherits Object
+
+          Implements IUserStatus, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUserStatus
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUserStatusOffline.WasOnline
+  commentId: P:OpenTl.Schema.TUserStatusOffline.WasOnline
+  id: WasOnline
+  parent: OpenTl.Schema.TUserStatusOffline
+  langs:
+  - csharp
+  - vb
+  name: WasOnline
+  nameWithType: TUserStatusOffline.WasOnline
+  fullName: OpenTl.Schema.TUserStatusOffline.WasOnline
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOffline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: WasOnline
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusOffline.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int WasOnline { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WasOnline As Integer
+  overload: OpenTl.Schema.TUserStatusOffline.WasOnline*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUserStatus
+  commentId: T:OpenTl.Schema.IUserStatus
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserStatus
+  nameWithType: IUserStatus
+  fullName: OpenTl.Schema.IUserStatus
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUserStatusOffline.WasOnline*
+  commentId: Overload:OpenTl.Schema.TUserStatusOffline.WasOnline
+  isExternal: false
+  name: WasOnline
+  nameWithType: TUserStatusOffline.WasOnline
+  fullName: OpenTl.Schema.TUserStatusOffline.WasOnline
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

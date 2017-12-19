@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.RequestDestroySession
+  commentId: T:OpenTl.Schema.RequestDestroySession
+  id: RequestDestroySession
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.RequestDestroySession.SessionId
+  langs:
+  - csharp
+  - vb
+  name: RequestDestroySession
+  nameWithType: RequestDestroySession
+  fullName: OpenTl.Schema.RequestDestroySession
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestDestroySession.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestDestroySession
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestDestroySession.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class RequestDestroySession : object, IRequest<IDestroySessionRes>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestDestroySession
+
+          Inherits Object
+
+          Implements IRequest(Of IDestroySessionRes), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IDestroySessionRes}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.RequestDestroySession.SessionId
+  commentId: P:OpenTl.Schema.RequestDestroySession.SessionId
+  id: SessionId
+  parent: OpenTl.Schema.RequestDestroySession
+  langs:
+  - csharp
+  - vb
+  name: SessionId
+  nameWithType: RequestDestroySession.SessionId
+  fullName: OpenTl.Schema.RequestDestroySession.SessionId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestDestroySession.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SessionId
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestDestroySession.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long SessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SessionId As Long
+  overload: OpenTl.Schema.RequestDestroySession.SessionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IDestroySessionRes}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IDestroySessionRes}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IDestroySessionRes>
+  nameWithType: IRequest<IDestroySessionRes>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IDestroySessionRes>
+  nameWithType.vb: IRequest(Of IDestroySessionRes)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IDestroySessionRes)
+  name.vb: IRequest(Of IDestroySessionRes)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDestroySessionRes
+    name: IDestroySessionRes
+    nameWithType: IDestroySessionRes
+    fullName: OpenTl.Schema.IDestroySessionRes
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDestroySessionRes
+    name: IDestroySessionRes
+    nameWithType: IDestroySessionRes
+    fullName: OpenTl.Schema.IDestroySessionRes
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.RequestDestroySession.SessionId*
+  commentId: Overload:OpenTl.Schema.RequestDestroySession.SessionId
+  isExternal: false
+  name: SessionId
+  nameWithType: RequestDestroySession.SessionId
+  fullName: OpenTl.Schema.RequestDestroySession.SessionId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

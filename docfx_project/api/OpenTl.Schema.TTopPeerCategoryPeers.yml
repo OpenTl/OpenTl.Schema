@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTopPeerCategoryPeers
+  commentId: T:OpenTl.Schema.TTopPeerCategoryPeers
+  id: TTopPeerCategoryPeers
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTopPeerCategoryPeers.Category
+  - OpenTl.Schema.TTopPeerCategoryPeers.Count
+  - OpenTl.Schema.TTopPeerCategoryPeers.Peers
+  langs:
+  - csharp
+  - vb
+  name: TTopPeerCategoryPeers
+  nameWithType: TTopPeerCategoryPeers
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTopPeerCategoryPeers
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTopPeerCategoryPeers : object, ITopPeerCategoryPeers, IObject'
+    content.vb: >-
+      Public Class TTopPeerCategoryPeers
+
+          Inherits Object
+
+          Implements ITopPeerCategoryPeers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ITopPeerCategoryPeers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Category
+  commentId: P:OpenTl.Schema.TTopPeerCategoryPeers.Category
+  id: Category
+  parent: OpenTl.Schema.TTopPeerCategoryPeers
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: TTopPeerCategoryPeers.Category
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Category
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Category
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public ITopPeerCategory Category { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.ITopPeerCategory
+    content.vb: Public Property Category As ITopPeerCategory
+  overload: OpenTl.Schema.TTopPeerCategoryPeers.Category*
+  implements:
+  - OpenTl.Schema.ITopPeerCategoryPeers.Category
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Count
+  commentId: P:OpenTl.Schema.TTopPeerCategoryPeers.Count
+  id: Count
+  parent: OpenTl.Schema.TTopPeerCategoryPeers
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TTopPeerCategoryPeers.Count
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: OpenTl.Schema.TTopPeerCategoryPeers.Count*
+  implements:
+  - OpenTl.Schema.ITopPeerCategoryPeers.Count
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Peers
+  commentId: P:OpenTl.Schema.TTopPeerCategoryPeers.Peers
+  id: Peers
+  parent: OpenTl.Schema.TTopPeerCategoryPeers
+  langs:
+  - csharp
+  - vb
+  name: Peers
+  nameWithType: TTopPeerCategoryPeers.Peers
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Peers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peers
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeerCategoryPeers/TTopPeerCategoryPeers.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<ITopPeer> Peers { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ITopPeer}
+    content.vb: Public Property Peers As TVector(Of ITopPeer)
+  overload: OpenTl.Schema.TTopPeerCategoryPeers.Peers*
+  implements:
+  - OpenTl.Schema.ITopPeerCategoryPeers.Peers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ITopPeerCategoryPeers
+  commentId: T:OpenTl.Schema.ITopPeerCategoryPeers
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ITopPeerCategoryPeers
+  nameWithType: ITopPeerCategoryPeers
+  fullName: OpenTl.Schema.ITopPeerCategoryPeers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Category*
+  commentId: Overload:OpenTl.Schema.TTopPeerCategoryPeers.Category
+  isExternal: false
+  name: Category
+  nameWithType: TTopPeerCategoryPeers.Category
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Category
+- uid: OpenTl.Schema.ITopPeerCategoryPeers.Category
+  commentId: P:OpenTl.Schema.ITopPeerCategoryPeers.Category
+  parent: OpenTl.Schema.ITopPeerCategoryPeers
+  isExternal: false
+  name: Category
+  nameWithType: ITopPeerCategoryPeers.Category
+  fullName: OpenTl.Schema.ITopPeerCategoryPeers.Category
+- uid: OpenTl.Schema.ITopPeerCategory
+  commentId: T:OpenTl.Schema.ITopPeerCategory
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ITopPeerCategory
+  nameWithType: ITopPeerCategory
+  fullName: OpenTl.Schema.ITopPeerCategory
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Count*
+  commentId: Overload:OpenTl.Schema.TTopPeerCategoryPeers.Count
+  isExternal: false
+  name: Count
+  nameWithType: TTopPeerCategoryPeers.Count
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Count
+- uid: OpenTl.Schema.ITopPeerCategoryPeers.Count
+  commentId: P:OpenTl.Schema.ITopPeerCategoryPeers.Count
+  parent: OpenTl.Schema.ITopPeerCategoryPeers
+  isExternal: false
+  name: Count
+  nameWithType: ITopPeerCategoryPeers.Count
+  fullName: OpenTl.Schema.ITopPeerCategoryPeers.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TTopPeerCategoryPeers.Peers*
+  commentId: Overload:OpenTl.Schema.TTopPeerCategoryPeers.Peers
+  isExternal: false
+  name: Peers
+  nameWithType: TTopPeerCategoryPeers.Peers
+  fullName: OpenTl.Schema.TTopPeerCategoryPeers.Peers
+- uid: OpenTl.Schema.ITopPeerCategoryPeers.Peers
+  commentId: P:OpenTl.Schema.ITopPeerCategoryPeers.Peers
+  parent: OpenTl.Schema.ITopPeerCategoryPeers
+  isExternal: false
+  name: Peers
+  nameWithType: ITopPeerCategoryPeers.Peers
+  fullName: OpenTl.Schema.ITopPeerCategoryPeers.Peers
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ITopPeer}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ITopPeer}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ITopPeer>
+  nameWithType: TVector<ITopPeer>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ITopPeer>
+  nameWithType.vb: TVector(Of ITopPeer)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ITopPeer)
+  name.vb: TVector(Of ITopPeer)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ITopPeer
+    name: ITopPeer
+    nameWithType: ITopPeer
+    fullName: OpenTl.Schema.ITopPeer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ITopPeer
+    name: ITopPeer
+    nameWithType: ITopPeer
+    fullName: OpenTl.Schema.ITopPeer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputGeoPointEmpty
+  commentId: T:OpenTl.Schema.TInputGeoPointEmpty
+  id: TInputGeoPointEmpty
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputGeoPointEmpty
+  nameWithType: TInputGeoPointEmpty
+  fullName: OpenTl.Schema.TInputGeoPointEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPointEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputGeoPointEmpty
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGeoPoint/TInputGeoPointEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputGeoPointEmpty : object, IInputGeoPoint, IObject, IEmpty'
+    content.vb: >-
+      Public Class TInputGeoPointEmpty
+
+          Inherits Object
+
+          Implements IInputGeoPoint, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputGeoPoint
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputGeoPoint
+  commentId: T:OpenTl.Schema.IInputGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputGeoPoint
+  nameWithType: IInputGeoPoint
+  fullName: OpenTl.Schema.IInputGeoPoint
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty

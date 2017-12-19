@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRpcAnswerDropped
+  commentId: T:OpenTl.Schema.TRpcAnswerDropped
+  id: TRpcAnswerDropped
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRpcAnswerDropped.Bytes
+  - OpenTl.Schema.TRpcAnswerDropped.MsgId
+  - OpenTl.Schema.TRpcAnswerDropped.SeqNo
+  langs:
+  - csharp
+  - vb
+  name: TRpcAnswerDropped
+  nameWithType: TRpcAnswerDropped
+  fullName: OpenTl.Schema.TRpcAnswerDropped
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRpcAnswerDropped
+    path: ../src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRpcAnswerDropped : object, IRpcDropAnswer, IObject'
+    content.vb: >-
+      Public Class TRpcAnswerDropped
+
+          Inherits Object
+
+          Implements IRpcDropAnswer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRpcDropAnswer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRpcAnswerDropped.MsgId
+  commentId: P:OpenTl.Schema.TRpcAnswerDropped.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.TRpcAnswerDropped
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: TRpcAnswerDropped.MsgId
+  fullName: OpenTl.Schema.TRpcAnswerDropped.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MsgId As Long
+  overload: OpenTl.Schema.TRpcAnswerDropped.MsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRpcAnswerDropped.SeqNo
+  commentId: P:OpenTl.Schema.TRpcAnswerDropped.SeqNo
+  id: SeqNo
+  parent: OpenTl.Schema.TRpcAnswerDropped
+  langs:
+  - csharp
+  - vb
+  name: SeqNo
+  nameWithType: TRpcAnswerDropped.SeqNo
+  fullName: OpenTl.Schema.TRpcAnswerDropped.SeqNo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SeqNo
+    path: ../src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int SeqNo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SeqNo As Integer
+  overload: OpenTl.Schema.TRpcAnswerDropped.SeqNo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRpcAnswerDropped.Bytes
+  commentId: P:OpenTl.Schema.TRpcAnswerDropped.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TRpcAnswerDropped
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TRpcAnswerDropped.Bytes
+  fullName: OpenTl.Schema.TRpcAnswerDropped.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/_Entities/RpcDropAnswer/TRpcAnswerDropped.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Bytes As Integer
+  overload: OpenTl.Schema.TRpcAnswerDropped.Bytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRpcDropAnswer
+  commentId: T:OpenTl.Schema.IRpcDropAnswer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRpcDropAnswer
+  nameWithType: IRpcDropAnswer
+  fullName: OpenTl.Schema.IRpcDropAnswer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TRpcAnswerDropped.MsgId*
+  commentId: Overload:OpenTl.Schema.TRpcAnswerDropped.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: TRpcAnswerDropped.MsgId
+  fullName: OpenTl.Schema.TRpcAnswerDropped.MsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TRpcAnswerDropped.SeqNo*
+  commentId: Overload:OpenTl.Schema.TRpcAnswerDropped.SeqNo
+  isExternal: false
+  name: SeqNo
+  nameWithType: TRpcAnswerDropped.SeqNo
+  fullName: OpenTl.Schema.TRpcAnswerDropped.SeqNo
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TRpcAnswerDropped.Bytes*
+  commentId: Overload:OpenTl.Schema.TRpcAnswerDropped.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TRpcAnswerDropped.Bytes
+  fullName: OpenTl.Schema.TRpcAnswerDropped.Bytes

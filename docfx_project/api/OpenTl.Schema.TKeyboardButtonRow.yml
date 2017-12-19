@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TKeyboardButtonRow
+  commentId: T:OpenTl.Schema.TKeyboardButtonRow
+  id: TKeyboardButtonRow
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TKeyboardButtonRow.Buttons
+  langs:
+  - csharp
+  - vb
+  name: TKeyboardButtonRow
+  nameWithType: TKeyboardButtonRow
+  fullName: OpenTl.Schema.TKeyboardButtonRow
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButtonRow/TKeyboardButtonRow.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TKeyboardButtonRow
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButtonRow/TKeyboardButtonRow.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TKeyboardButtonRow : object, IKeyboardButtonRow, IObject'
+    content.vb: >-
+      Public Class TKeyboardButtonRow
+
+          Inherits Object
+
+          Implements IKeyboardButtonRow, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IKeyboardButtonRow
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TKeyboardButtonRow.Buttons
+  commentId: P:OpenTl.Schema.TKeyboardButtonRow.Buttons
+  id: Buttons
+  parent: OpenTl.Schema.TKeyboardButtonRow
+  langs:
+  - csharp
+  - vb
+  name: Buttons
+  nameWithType: TKeyboardButtonRow.Buttons
+  fullName: OpenTl.Schema.TKeyboardButtonRow.Buttons
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButtonRow/TKeyboardButtonRow.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Buttons
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButtonRow/TKeyboardButtonRow.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IKeyboardButton> Buttons { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButton}
+    content.vb: Public Property Buttons As TVector(Of IKeyboardButton)
+  overload: OpenTl.Schema.TKeyboardButtonRow.Buttons*
+  implements:
+  - OpenTl.Schema.IKeyboardButtonRow.Buttons
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IKeyboardButtonRow
+  commentId: T:OpenTl.Schema.IKeyboardButtonRow
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IKeyboardButtonRow
+  nameWithType: IKeyboardButtonRow
+  fullName: OpenTl.Schema.IKeyboardButtonRow
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TKeyboardButtonRow.Buttons*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonRow.Buttons
+  isExternal: false
+  name: Buttons
+  nameWithType: TKeyboardButtonRow.Buttons
+  fullName: OpenTl.Schema.TKeyboardButtonRow.Buttons
+- uid: OpenTl.Schema.IKeyboardButtonRow.Buttons
+  commentId: P:OpenTl.Schema.IKeyboardButtonRow.Buttons
+  parent: OpenTl.Schema.IKeyboardButtonRow
+  isExternal: false
+  name: Buttons
+  nameWithType: IKeyboardButtonRow.Buttons
+  fullName: OpenTl.Schema.IKeyboardButtonRow.Buttons
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButton}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IKeyboardButton}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IKeyboardButton>
+  nameWithType: TVector<IKeyboardButton>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButton>
+  nameWithType.vb: TVector(Of IKeyboardButton)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IKeyboardButton)
+  name.vb: TVector(Of IKeyboardButton)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IKeyboardButton
+    name: IKeyboardButton
+    nameWithType: IKeyboardButton
+    fullName: OpenTl.Schema.IKeyboardButton
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IKeyboardButton
+    name: IKeyboardButton
+    nameWithType: IKeyboardButton
+    fullName: OpenTl.Schema.IKeyboardButton
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

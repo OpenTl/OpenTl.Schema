@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.TPrivacyRules
+  commentId: T:OpenTl.Schema.Account.TPrivacyRules
+  id: TPrivacyRules
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.TPrivacyRules.Rules
+  - OpenTl.Schema.Account.TPrivacyRules.Users
+  langs:
+  - csharp
+  - vb
+  name: TPrivacyRules
+  nameWithType: TPrivacyRules
+  fullName: OpenTl.Schema.Account.TPrivacyRules
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPrivacyRules
+    path: ../src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class TPrivacyRules : object, IPrivacyRules, IObject'
+    content.vb: >-
+      Public Class TPrivacyRules
+
+          Inherits Object
+
+          Implements IPrivacyRules, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Account.IPrivacyRules
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.TPrivacyRules.Rules
+  commentId: P:OpenTl.Schema.Account.TPrivacyRules.Rules
+  id: Rules
+  parent: OpenTl.Schema.Account.TPrivacyRules
+  langs:
+  - csharp
+  - vb
+  name: Rules
+  nameWithType: TPrivacyRules.Rules
+  fullName: OpenTl.Schema.Account.TPrivacyRules.Rules
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rules
+    path: ../src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public TVector<IPrivacyRule> Rules { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+    content.vb: Public Property Rules As TVector(Of IPrivacyRule)
+  overload: OpenTl.Schema.Account.TPrivacyRules.Rules*
+  implements:
+  - OpenTl.Schema.Account.IPrivacyRules.Rules
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.TPrivacyRules.Users
+  commentId: P:OpenTl.Schema.Account.TPrivacyRules.Users
+  id: Users
+  parent: OpenTl.Schema.Account.TPrivacyRules
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TPrivacyRules.Users
+  fullName: OpenTl.Schema.Account.TPrivacyRules.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Account/PrivacyRules/TPrivacyRules.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Account.TPrivacyRules.Users*
+  implements:
+  - OpenTl.Schema.Account.IPrivacyRules.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Account.IPrivacyRules
+  commentId: T:OpenTl.Schema.Account.IPrivacyRules
+  parent: OpenTl.Schema.Account
+  isExternal: false
+  name: IPrivacyRules
+  nameWithType: IPrivacyRules
+  fullName: OpenTl.Schema.Account.IPrivacyRules
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.TPrivacyRules.Rules*
+  commentId: Overload:OpenTl.Schema.Account.TPrivacyRules.Rules
+  isExternal: false
+  name: Rules
+  nameWithType: TPrivacyRules.Rules
+  fullName: OpenTl.Schema.Account.TPrivacyRules.Rules
+- uid: OpenTl.Schema.Account.IPrivacyRules.Rules
+  commentId: P:OpenTl.Schema.Account.IPrivacyRules.Rules
+  parent: OpenTl.Schema.Account.IPrivacyRules
+  isExternal: false
+  name: Rules
+  nameWithType: IPrivacyRules.Rules
+  fullName: OpenTl.Schema.Account.IPrivacyRules.Rules
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPrivacyRule}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPrivacyRule>
+  nameWithType: TVector<IPrivacyRule>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPrivacyRule>
+  nameWithType.vb: TVector(Of IPrivacyRule)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPrivacyRule)
+  name.vb: TVector(Of IPrivacyRule)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPrivacyRule
+    name: IPrivacyRule
+    nameWithType: IPrivacyRule
+    fullName: OpenTl.Schema.IPrivacyRule
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPrivacyRule
+    name: IPrivacyRule
+    nameWithType: IPrivacyRule
+    fullName: OpenTl.Schema.IPrivacyRule
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Account.TPrivacyRules.Users*
+  commentId: Overload:OpenTl.Schema.Account.TPrivacyRules.Users
+  isExternal: false
+  name: Users
+  nameWithType: TPrivacyRules.Users
+  fullName: OpenTl.Schema.Account.TPrivacyRules.Users
+- uid: OpenTl.Schema.Account.IPrivacyRules.Users
+  commentId: P:OpenTl.Schema.Account.IPrivacyRules.Users
+  parent: OpenTl.Schema.Account.IPrivacyRules
+  isExternal: false
+  name: Users
+  nameWithType: IPrivacyRules.Users
+  fullName: OpenTl.Schema.Account.IPrivacyRules.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

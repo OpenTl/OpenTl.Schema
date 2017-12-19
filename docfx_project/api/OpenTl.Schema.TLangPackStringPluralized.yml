@@ -1,0 +1,767 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TLangPackStringPluralized
+  commentId: T:OpenTl.Schema.TLangPackStringPluralized
+  id: TLangPackStringPluralized
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TLangPackStringPluralized.FewValue
+  - OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.Flags
+  - OpenTl.Schema.TLangPackStringPluralized.Key
+  - OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.ManyValue
+  - OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.OneValue
+  - OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.OtherValue
+  - OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.TwoValue
+  - OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+  - OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+  - OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TLangPackStringPluralized
+  nameWithType: TLangPackStringPluralized
+  fullName: OpenTl.Schema.TLangPackStringPluralized
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLangPackStringPluralized
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TLangPackStringPluralized : object, ILangPackString, IObject'
+    content.vb: >-
+      Public Class TLangPackStringPluralized
+
+          Inherits Object
+
+          Implements ILangPackString, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ILangPackString
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TLangPackStringPluralized.Flags
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.Flags
+  id: Flags
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TLangPackStringPluralized.Flags
+  fullName: OpenTl.Schema.TLangPackStringPluralized.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TLangPackStringPluralized.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+  id: KeyAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: KeyAsBinary
+  nameWithType: TLangPackStringPluralized.KeyAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KeyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Key&apos; property
+  example: []
+  syntax:
+    content: public byte[] KeyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property KeyAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary*
+  implements:
+  - OpenTl.Schema.ILangPackString.KeyAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.Key
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.Key
+  id: Key
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: TLangPackStringPluralized.Key
+  fullName: OpenTl.Schema.TLangPackStringPluralized.Key
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Key
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.Key*
+  implements:
+  - OpenTl.Schema.ILangPackString.Key
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+  id: ZeroValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: ZeroValueAsBinary
+  nameWithType: TLangPackStringPluralized.ZeroValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ZeroValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ZeroValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] ZeroValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ZeroValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+  id: ZeroValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: ZeroValue
+  nameWithType: TLangPackStringPluralized.ZeroValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ZeroValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ZeroValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ZeroValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.ZeroValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+  id: OneValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: OneValueAsBinary
+  nameWithType: TLangPackStringPluralized.OneValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OneValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;OneValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] OneValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property OneValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.OneValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.OneValue
+  id: OneValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: OneValue
+  nameWithType: TLangPackStringPluralized.OneValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OneValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OneValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string OneValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OneValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.OneValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+  id: TwoValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: TwoValueAsBinary
+  nameWithType: TLangPackStringPluralized.TwoValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TwoValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;TwoValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] TwoValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TwoValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.TwoValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.TwoValue
+  id: TwoValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: TwoValue
+  nameWithType: TLangPackStringPluralized.TwoValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.TwoValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TwoValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 46
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string TwoValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TwoValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.TwoValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+  id: FewValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: FewValueAsBinary
+  nameWithType: TLangPackStringPluralized.FewValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FewValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;FewValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] FewValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FewValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.FewValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.FewValue
+  id: FewValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: FewValue
+  nameWithType: TLangPackStringPluralized.FewValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.FewValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FewValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 54
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string FewValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FewValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.FewValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+  id: ManyValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: ManyValueAsBinary
+  nameWithType: TLangPackStringPluralized.ManyValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ManyValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 57
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ManyValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] ManyValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ManyValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.ManyValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.ManyValue
+  id: ManyValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: ManyValue
+  nameWithType: TLangPackStringPluralized.ManyValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ManyValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ManyValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 62
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ManyValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ManyValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.ManyValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+  id: OtherValueAsBinary
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: OtherValueAsBinary
+  nameWithType: TLangPackStringPluralized.OtherValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OtherValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 65
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;OtherValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] OtherValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property OtherValueAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringPluralized.OtherValue
+  commentId: P:OpenTl.Schema.TLangPackStringPluralized.OtherValue
+  id: OtherValue
+  parent: OpenTl.Schema.TLangPackStringPluralized
+  langs:
+  - csharp
+  - vb
+  name: OtherValue
+  nameWithType: TLangPackStringPluralized.OtherValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OtherValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OtherValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringPluralized.cs
+    startLine: 69
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string OtherValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OtherValue As String
+  overload: OpenTl.Schema.TLangPackStringPluralized.OtherValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ILangPackString
+  commentId: T:OpenTl.Schema.ILangPackString
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ILangPackString
+  nameWithType: ILangPackString
+  fullName: OpenTl.Schema.ILangPackString
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TLangPackStringPluralized.Flags*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TLangPackStringPluralized.Flags
+  fullName: OpenTl.Schema.TLangPackStringPluralized.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+  isExternal: false
+  name: KeyAsBinary
+  nameWithType: TLangPackStringPluralized.KeyAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.KeyAsBinary
+- uid: OpenTl.Schema.ILangPackString.KeyAsBinary
+  commentId: P:OpenTl.Schema.ILangPackString.KeyAsBinary
+  parent: OpenTl.Schema.ILangPackString
+  isExternal: false
+  name: KeyAsBinary
+  nameWithType: ILangPackString.KeyAsBinary
+  fullName: OpenTl.Schema.ILangPackString.KeyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TLangPackStringPluralized.Key*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.Key
+  isExternal: false
+  name: Key
+  nameWithType: TLangPackStringPluralized.Key
+  fullName: OpenTl.Schema.TLangPackStringPluralized.Key
+- uid: OpenTl.Schema.ILangPackString.Key
+  commentId: P:OpenTl.Schema.ILangPackString.Key
+  parent: OpenTl.Schema.ILangPackString
+  isExternal: false
+  name: Key
+  nameWithType: ILangPackString.Key
+  fullName: OpenTl.Schema.ILangPackString.Key
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+  isExternal: false
+  name: ZeroValueAsBinary
+  nameWithType: TLangPackStringPluralized.ZeroValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ZeroValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.ZeroValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+  isExternal: false
+  name: ZeroValue
+  nameWithType: TLangPackStringPluralized.ZeroValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ZeroValue
+- uid: OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+  isExternal: false
+  name: OneValueAsBinary
+  nameWithType: TLangPackStringPluralized.OneValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OneValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.OneValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.OneValue
+  isExternal: false
+  name: OneValue
+  nameWithType: TLangPackStringPluralized.OneValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OneValue
+- uid: OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+  isExternal: false
+  name: TwoValueAsBinary
+  nameWithType: TLangPackStringPluralized.TwoValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.TwoValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.TwoValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.TwoValue
+  isExternal: false
+  name: TwoValue
+  nameWithType: TLangPackStringPluralized.TwoValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.TwoValue
+- uid: OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+  isExternal: false
+  name: FewValueAsBinary
+  nameWithType: TLangPackStringPluralized.FewValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.FewValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.FewValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.FewValue
+  isExternal: false
+  name: FewValue
+  nameWithType: TLangPackStringPluralized.FewValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.FewValue
+- uid: OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+  isExternal: false
+  name: ManyValueAsBinary
+  nameWithType: TLangPackStringPluralized.ManyValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ManyValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.ManyValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.ManyValue
+  isExternal: false
+  name: ManyValue
+  nameWithType: TLangPackStringPluralized.ManyValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.ManyValue
+- uid: OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+  isExternal: false
+  name: OtherValueAsBinary
+  nameWithType: TLangPackStringPluralized.OtherValueAsBinary
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OtherValueAsBinary
+- uid: OpenTl.Schema.TLangPackStringPluralized.OtherValue*
+  commentId: Overload:OpenTl.Schema.TLangPackStringPluralized.OtherValue
+  isExternal: false
+  name: OtherValue
+  nameWithType: TLangPackStringPluralized.OtherValue
+  fullName: OpenTl.Schema.TLangPackStringPluralized.OtherValue

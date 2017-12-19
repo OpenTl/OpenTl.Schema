@@ -1,0 +1,476 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPQInnerData
+  commentId: T:OpenTl.Schema.TPQInnerData
+  id: TPQInnerData
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPQInnerData.NewNonce
+  - OpenTl.Schema.TPQInnerData.Nonce
+  - OpenTl.Schema.TPQInnerData.P
+  - OpenTl.Schema.TPQInnerData.PAsBinary
+  - OpenTl.Schema.TPQInnerData.Pq
+  - OpenTl.Schema.TPQInnerData.PqAsBinary
+  - OpenTl.Schema.TPQInnerData.Q
+  - OpenTl.Schema.TPQInnerData.QAsBinary
+  - OpenTl.Schema.TPQInnerData.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TPQInnerData
+  nameWithType: TPQInnerData
+  fullName: OpenTl.Schema.TPQInnerData
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPQInnerData
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPQInnerData : object, IObject'
+    content.vb: >-
+      Public Class TPQInnerData
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPQInnerData.PqAsBinary
+  commentId: P:OpenTl.Schema.TPQInnerData.PqAsBinary
+  id: PqAsBinary
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: PqAsBinary
+  nameWithType: TPQInnerData.PqAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.PqAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PqAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Pq&apos; property
+  example: []
+  syntax:
+    content: public byte[] PqAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PqAsBinary As Byte()
+  overload: OpenTl.Schema.TPQInnerData.PqAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.Pq
+  commentId: P:OpenTl.Schema.TPQInnerData.Pq
+  id: Pq
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: Pq
+  nameWithType: TPQInnerData.Pq
+  fullName: OpenTl.Schema.TPQInnerData.Pq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pq
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Pq { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pq As String
+  overload: OpenTl.Schema.TPQInnerData.Pq*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.PAsBinary
+  commentId: P:OpenTl.Schema.TPQInnerData.PAsBinary
+  id: PAsBinary
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: PAsBinary
+  nameWithType: TPQInnerData.PAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.PAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;P&apos; property
+  example: []
+  syntax:
+    content: public byte[] PAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PAsBinary As Byte()
+  overload: OpenTl.Schema.TPQInnerData.PAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.P
+  commentId: P:OpenTl.Schema.TPQInnerData.P
+  id: P
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: P
+  nameWithType: TPQInnerData.P
+  fullName: OpenTl.Schema.TPQInnerData.P
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: P
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string P { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property P As String
+  overload: OpenTl.Schema.TPQInnerData.P*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.QAsBinary
+  commentId: P:OpenTl.Schema.TPQInnerData.QAsBinary
+  id: QAsBinary
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: QAsBinary
+  nameWithType: TPQInnerData.QAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.QAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Q&apos; property
+  example: []
+  syntax:
+    content: public byte[] QAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QAsBinary As Byte()
+  overload: OpenTl.Schema.TPQInnerData.QAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.Q
+  commentId: P:OpenTl.Schema.TPQInnerData.Q
+  id: Q
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: TPQInnerData.Q
+  fullName: OpenTl.Schema.TPQInnerData.Q
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Q
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Q { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Q As String
+  overload: OpenTl.Schema.TPQInnerData.Q*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.Nonce
+  commentId: P:OpenTl.Schema.TPQInnerData.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TPQInnerData.Nonce
+  fullName: OpenTl.Schema.TPQInnerData.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TPQInnerData.Nonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.ServerNonce
+  commentId: P:OpenTl.Schema.TPQInnerData.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TPQInnerData.ServerNonce
+  fullName: OpenTl.Schema.TPQInnerData.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TPQInnerData.ServerNonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPQInnerData.NewNonce
+  commentId: P:OpenTl.Schema.TPQInnerData.NewNonce
+  id: NewNonce
+  parent: OpenTl.Schema.TPQInnerData
+  langs:
+  - csharp
+  - vb
+  name: NewNonce
+  nameWithType: TPQInnerData.NewNonce
+  fullName: OpenTl.Schema.TPQInnerData.NewNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/TPQInnerData.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] NewNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NewNonce As Byte()
+  overload: OpenTl.Schema.TPQInnerData.NewNonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPQInnerData.PqAsBinary*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.PqAsBinary
+  isExternal: false
+  name: PqAsBinary
+  nameWithType: TPQInnerData.PqAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.PqAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPQInnerData.Pq*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.Pq
+  isExternal: false
+  name: Pq
+  nameWithType: TPQInnerData.Pq
+  fullName: OpenTl.Schema.TPQInnerData.Pq
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPQInnerData.PAsBinary*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.PAsBinary
+  isExternal: false
+  name: PAsBinary
+  nameWithType: TPQInnerData.PAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.PAsBinary
+- uid: OpenTl.Schema.TPQInnerData.P*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.P
+  isExternal: false
+  name: P
+  nameWithType: TPQInnerData.P
+  fullName: OpenTl.Schema.TPQInnerData.P
+- uid: OpenTl.Schema.TPQInnerData.QAsBinary*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.QAsBinary
+  isExternal: false
+  name: QAsBinary
+  nameWithType: TPQInnerData.QAsBinary
+  fullName: OpenTl.Schema.TPQInnerData.QAsBinary
+- uid: OpenTl.Schema.TPQInnerData.Q*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.Q
+  isExternal: false
+  name: Q
+  nameWithType: TPQInnerData.Q
+  fullName: OpenTl.Schema.TPQInnerData.Q
+- uid: OpenTl.Schema.TPQInnerData.Nonce*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TPQInnerData.Nonce
+  fullName: OpenTl.Schema.TPQInnerData.Nonce
+- uid: OpenTl.Schema.TPQInnerData.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TPQInnerData.ServerNonce
+  fullName: OpenTl.Schema.TPQInnerData.ServerNonce
+- uid: OpenTl.Schema.TPQInnerData.NewNonce*
+  commentId: Overload:OpenTl.Schema.TPQInnerData.NewNonce
+  isExternal: false
+  name: NewNonce
+  nameWithType: TPQInnerData.NewNonce
+  fullName: OpenTl.Schema.TPQInnerData.NewNonce

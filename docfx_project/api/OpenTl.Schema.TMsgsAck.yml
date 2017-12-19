@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMsgsAck
+  commentId: T:OpenTl.Schema.TMsgsAck
+  id: TMsgsAck
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMsgsAck.MsgIds
+  langs:
+  - csharp
+  - vb
+  name: TMsgsAck
+  nameWithType: TMsgsAck
+  fullName: OpenTl.Schema.TMsgsAck
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAck.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMsgsAck
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAck.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMsgsAck : object, IObject'
+    content.vb: >-
+      Public Class TMsgsAck
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMsgsAck.MsgIds
+  commentId: P:OpenTl.Schema.TMsgsAck.MsgIds
+  id: MsgIds
+  parent: OpenTl.Schema.TMsgsAck
+  langs:
+  - csharp
+  - vb
+  name: MsgIds
+  nameWithType: TMsgsAck.MsgIds
+  fullName: OpenTl.Schema.TMsgsAck.MsgIds
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAck.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgIds
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAck.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<long> MsgIds { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property MsgIds As TVector(Of Long)
+  overload: OpenTl.Schema.TMsgsAck.MsgIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMsgsAck.MsgIds*
+  commentId: Overload:OpenTl.Schema.TMsgsAck.MsgIds
+  isExternal: false
+  name: MsgIds
+  nameWithType: TMsgsAck.MsgIds
+  fullName: OpenTl.Schema.TMsgsAck.MsgIds
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TInviteText
+  commentId: T:OpenTl.Schema.Help.TInviteText
+  id: TInviteText
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TInviteText.Message
+  - OpenTl.Schema.Help.TInviteText.MessageAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInviteText
+  nameWithType: TInviteText
+  fullName: OpenTl.Schema.Help.TInviteText
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInviteText
+    path: ../src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TInviteText : object, IInviteText, IObject'
+    content.vb: >-
+      Public Class TInviteText
+
+          Inherits Object
+
+          Implements IInviteText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.IInviteText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TInviteText.MessageAsBinary
+  commentId: P:OpenTl.Schema.Help.TInviteText.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.Help.TInviteText
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: TInviteText.MessageAsBinary
+  fullName: OpenTl.Schema.Help.TInviteText.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.Help.TInviteText.MessageAsBinary*
+  implements:
+  - OpenTl.Schema.Help.IInviteText.MessageAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TInviteText.Message
+  commentId: P:OpenTl.Schema.Help.TInviteText.Message
+  id: Message
+  parent: OpenTl.Schema.Help.TInviteText
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TInviteText.Message
+  fullName: OpenTl.Schema.Help.TInviteText.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/Help/InviteText/TInviteText.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.Help.TInviteText.Message*
+  implements:
+  - OpenTl.Schema.Help.IInviteText.Message
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.IInviteText
+  commentId: T:OpenTl.Schema.Help.IInviteText
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: IInviteText
+  nameWithType: IInviteText
+  fullName: OpenTl.Schema.Help.IInviteText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TInviteText.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.Help.TInviteText.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: TInviteText.MessageAsBinary
+  fullName: OpenTl.Schema.Help.TInviteText.MessageAsBinary
+- uid: OpenTl.Schema.Help.IInviteText.MessageAsBinary
+  commentId: P:OpenTl.Schema.Help.IInviteText.MessageAsBinary
+  parent: OpenTl.Schema.Help.IInviteText
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: IInviteText.MessageAsBinary
+  fullName: OpenTl.Schema.Help.IInviteText.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Help.TInviteText.Message*
+  commentId: Overload:OpenTl.Schema.Help.TInviteText.Message
+  isExternal: false
+  name: Message
+  nameWithType: TInviteText.Message
+  fullName: OpenTl.Schema.Help.TInviteText.Message
+- uid: OpenTl.Schema.Help.IInviteText.Message
+  commentId: P:OpenTl.Schema.Help.IInviteText.Message
+  parent: OpenTl.Schema.Help.IInviteText
+  isExternal: false
+  name: Message
+  nameWithType: IInviteText.Message
+  fullName: OpenTl.Schema.Help.IInviteText.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

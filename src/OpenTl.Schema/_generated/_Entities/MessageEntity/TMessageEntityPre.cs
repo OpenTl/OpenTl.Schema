@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int Length {get; set;}
 
+       /// <summary>Binary representation for the 'Language' property</summary>
        [SerializationOrder(2)]
        public byte[] LanguageAsBinary { get => _LanguageAsBinary; set { _Language = Encoding.UTF8.GetString(value); _LanguageAsBinary = value; }}
        private byte[] _LanguageAsBinary;

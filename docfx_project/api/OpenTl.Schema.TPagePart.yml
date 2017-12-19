@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPagePart
+  commentId: T:OpenTl.Schema.TPagePart
+  id: TPagePart
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPagePart.Blocks
+  - OpenTl.Schema.TPagePart.Documents
+  - OpenTl.Schema.TPagePart.Photos
+  langs:
+  - csharp
+  - vb
+  name: TPagePart
+  nameWithType: TPagePart
+  fullName: OpenTl.Schema.TPagePart
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPagePart
+    path: ../src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPagePart : object, IPage, IObject'
+    content.vb: >-
+      Public Class TPagePart
+
+          Inherits Object
+
+          Implements IPage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPagePart.Blocks
+  commentId: P:OpenTl.Schema.TPagePart.Blocks
+  id: Blocks
+  parent: OpenTl.Schema.TPagePart
+  langs:
+  - csharp
+  - vb
+  name: Blocks
+  nameWithType: TPagePart.Blocks
+  fullName: OpenTl.Schema.TPagePart.Blocks
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Blocks
+    path: ../src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IPageBlock> Blocks { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+    content.vb: Public Property Blocks As TVector(Of IPageBlock)
+  overload: OpenTl.Schema.TPagePart.Blocks*
+  implements:
+  - OpenTl.Schema.IPage.Blocks
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPagePart.Photos
+  commentId: P:OpenTl.Schema.TPagePart.Photos
+  id: Photos
+  parent: OpenTl.Schema.TPagePart
+  langs:
+  - csharp
+  - vb
+  name: Photos
+  nameWithType: TPagePart.Photos
+  fullName: OpenTl.Schema.TPagePart.Photos
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photos
+    path: ../src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IPhoto> Photos { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPhoto}
+    content.vb: Public Property Photos As TVector(Of IPhoto)
+  overload: OpenTl.Schema.TPagePart.Photos*
+  implements:
+  - OpenTl.Schema.IPage.Photos
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPagePart.Documents
+  commentId: P:OpenTl.Schema.TPagePart.Documents
+  id: Documents
+  parent: OpenTl.Schema.TPagePart
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: TPagePart.Documents
+  fullName: OpenTl.Schema.TPagePart.Documents
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Documents
+    path: ../src/OpenTl.Schema/_generated/_Entities/Page/TPagePart.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IDocument> Documents { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+    content.vb: Public Property Documents As TVector(Of IDocument)
+  overload: OpenTl.Schema.TPagePart.Documents*
+  implements:
+  - OpenTl.Schema.IPage.Documents
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPage
+  commentId: T:OpenTl.Schema.IPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPage
+  nameWithType: IPage
+  fullName: OpenTl.Schema.IPage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPagePart.Blocks*
+  commentId: Overload:OpenTl.Schema.TPagePart.Blocks
+  isExternal: false
+  name: Blocks
+  nameWithType: TPagePart.Blocks
+  fullName: OpenTl.Schema.TPagePart.Blocks
+- uid: OpenTl.Schema.IPage.Blocks
+  commentId: P:OpenTl.Schema.IPage.Blocks
+  parent: OpenTl.Schema.IPage
+  isExternal: false
+  name: Blocks
+  nameWithType: IPage.Blocks
+  fullName: OpenTl.Schema.IPage.Blocks
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPageBlock>
+  nameWithType: TVector<IPageBlock>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock>
+  nameWithType.vb: TVector(Of IPageBlock)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPageBlock)
+  name.vb: TVector(Of IPageBlock)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPageBlock
+    name: IPageBlock
+    nameWithType: IPageBlock
+    fullName: OpenTl.Schema.IPageBlock
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPageBlock
+    name: IPageBlock
+    nameWithType: IPageBlock
+    fullName: OpenTl.Schema.IPageBlock
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TPagePart.Photos*
+  commentId: Overload:OpenTl.Schema.TPagePart.Photos
+  isExternal: false
+  name: Photos
+  nameWithType: TPagePart.Photos
+  fullName: OpenTl.Schema.TPagePart.Photos
+- uid: OpenTl.Schema.IPage.Photos
+  commentId: P:OpenTl.Schema.IPage.Photos
+  parent: OpenTl.Schema.IPage
+  isExternal: false
+  name: Photos
+  nameWithType: IPage.Photos
+  fullName: OpenTl.Schema.IPage.Photos
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPhoto}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPhoto}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPhoto>
+  nameWithType: TVector<IPhoto>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPhoto>
+  nameWithType.vb: TVector(Of IPhoto)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPhoto)
+  name.vb: TVector(Of IPhoto)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPhoto
+    name: IPhoto
+    nameWithType: IPhoto
+    fullName: OpenTl.Schema.IPhoto
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPhoto
+    name: IPhoto
+    nameWithType: IPhoto
+    fullName: OpenTl.Schema.IPhoto
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TPagePart.Documents*
+  commentId: Overload:OpenTl.Schema.TPagePart.Documents
+  isExternal: false
+  name: Documents
+  nameWithType: TPagePart.Documents
+  fullName: OpenTl.Schema.TPagePart.Documents
+- uid: OpenTl.Schema.IPage.Documents
+  commentId: P:OpenTl.Schema.IPage.Documents
+  parent: OpenTl.Schema.IPage
+  isExternal: false
+  name: Documents
+  nameWithType: IPage.Documents
+  fullName: OpenTl.Schema.IPage.Documents
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocument>
+  nameWithType: TVector<IDocument>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocument>
+  nameWithType.vb: TVector(Of IDocument)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocument)
+  name.vb: TVector(Of IDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: )
+    nameWithType: )
+    fullName: )

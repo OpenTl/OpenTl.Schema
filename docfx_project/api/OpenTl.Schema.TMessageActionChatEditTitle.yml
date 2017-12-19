@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionChatEditTitle
+  commentId: T:OpenTl.Schema.TMessageActionChatEditTitle
+  id: TMessageActionChatEditTitle
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionChatEditTitle.Title
+  - OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionChatEditTitle
+  nameWithType: TMessageActionChatEditTitle
+  fullName: OpenTl.Schema.TMessageActionChatEditTitle
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionChatEditTitle
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionChatEditTitle : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionChatEditTitle
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TMessageActionChatEditTitle
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TMessageActionChatEditTitle.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionChatEditTitle.Title
+  commentId: P:OpenTl.Schema.TMessageActionChatEditTitle.Title
+  id: Title
+  parent: OpenTl.Schema.TMessageActionChatEditTitle
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TMessageActionChatEditTitle.Title
+  fullName: OpenTl.Schema.TMessageActionChatEditTitle.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatEditTitle.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TMessageActionChatEditTitle.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TMessageActionChatEditTitle.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChatEditTitle.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageActionChatEditTitle.Title*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatEditTitle.Title
+  isExternal: false
+  name: Title
+  nameWithType: TMessageActionChatEditTitle.Title
+  fullName: OpenTl.Schema.TMessageActionChatEditTitle.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

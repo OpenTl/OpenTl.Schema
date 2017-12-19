@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputStickerSetShortName
+  commentId: T:OpenTl.Schema.TInputStickerSetShortName
+  id: TInputStickerSetShortName
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputStickerSetShortName.ShortName
+  - OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputStickerSetShortName
+  nameWithType: TInputStickerSetShortName
+  fullName: OpenTl.Schema.TInputStickerSetShortName
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputStickerSetShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputStickerSetShortName : object, IInputStickerSet, IObject'
+    content.vb: >-
+      Public Class TInputStickerSetShortName
+
+          Inherits Object
+
+          Implements IInputStickerSet, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputStickerSet
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+  commentId: P:OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+  id: ShortNameAsBinary
+  parent: OpenTl.Schema.TInputStickerSetShortName
+  langs:
+  - csharp
+  - vb
+  name: ShortNameAsBinary
+  nameWithType: TInputStickerSetShortName.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ShortName&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShortNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShortNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetShortName.ShortName
+  commentId: P:OpenTl.Schema.TInputStickerSetShortName.ShortName
+  id: ShortName
+  parent: OpenTl.Schema.TInputStickerSetShortName
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: TInputStickerSetShortName.ShortName
+  fullName: OpenTl.Schema.TInputStickerSetShortName.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetShortName.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortName As String
+  overload: OpenTl.Schema.TInputStickerSetShortName.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputStickerSet
+  commentId: T:OpenTl.Schema.IInputStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSet
+  nameWithType: IInputStickerSet
+  fullName: OpenTl.Schema.IInputStickerSet
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+  isExternal: false
+  name: ShortNameAsBinary
+  nameWithType: TInputStickerSetShortName.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputStickerSetShortName.ShortNameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputStickerSetShortName.ShortName*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetShortName.ShortName
+  isExternal: false
+  name: ShortName
+  nameWithType: TInputStickerSetShortName.ShortName
+  fullName: OpenTl.Schema.TInputStickerSetShortName.ShortName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  commentId: T:OpenTl.Schema.Messages.RequestSaveRecentSticker
+  id: RequestSaveRecentSticker
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+  - OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+  - OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+  - OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave
+  langs:
+  - csharp
+  - vb
+  name: RequestSaveRecentSticker
+  nameWithType: RequestSaveRecentSticker
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSaveRecentSticker
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSaveRecentSticker : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSaveRecentSticker
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSaveRecentSticker.Flags
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+  commentId: P:OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+  id: Attached
+  parent: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  langs:
+  - csharp
+  - vb
+  name: Attached
+  nameWithType: RequestSaveRecentSticker.Attached
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Attached
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Attached { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Attached As Boolean
+  overload: OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+  commentId: P:OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+  id: Id
+  parent: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestSaveRecentSticker.Id
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputDocument Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputDocument
+    content.vb: Public Property Id As IInputDocument
+  overload: OpenTl.Schema.Messages.RequestSaveRecentSticker.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave
+  commentId: P:OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave
+  id: Unsave
+  parent: OpenTl.Schema.Messages.RequestSaveRecentSticker
+  langs:
+  - csharp
+  - vb
+  name: Unsave
+  nameWithType: RequestSaveRecentSticker.Unsave
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Unsave
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSaveRecentSticker.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Unsave { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Unsave As Boolean
+  overload: OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSaveRecentSticker.Flags
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+  isExternal: false
+  name: Attached
+  nameWithType: RequestSaveRecentSticker.Attached
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Attached
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Id*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestSaveRecentSticker.Id
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Id
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument
+- uid: OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave
+  isExternal: false
+  name: Unsave
+  nameWithType: RequestSaveRecentSticker.Unsave
+  fullName: OpenTl.Schema.Messages.RequestSaveRecentSticker.Unsave

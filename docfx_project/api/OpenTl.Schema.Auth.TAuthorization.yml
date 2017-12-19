@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TAuthorization
+  commentId: T:OpenTl.Schema.Auth.TAuthorization
+  id: TAuthorization
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TAuthorization.Flags
+  - OpenTl.Schema.Auth.TAuthorization.TmpSessions
+  - OpenTl.Schema.Auth.TAuthorization.User
+  langs:
+  - csharp
+  - vb
+  name: TAuthorization
+  nameWithType: TAuthorization
+  fullName: OpenTl.Schema.Auth.TAuthorization
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TAuthorization
+    path: ../src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TAuthorization : object, IAuthorization, IObject'
+    content.vb: >-
+      Public Class TAuthorization
+
+          Inherits Object
+
+          Implements IAuthorization, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.IAuthorization
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TAuthorization.Flags
+  commentId: P:OpenTl.Schema.Auth.TAuthorization.Flags
+  id: Flags
+  parent: OpenTl.Schema.Auth.TAuthorization
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TAuthorization.Flags
+  fullName: OpenTl.Schema.Auth.TAuthorization.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Auth.TAuthorization.Flags*
+  implements:
+  - OpenTl.Schema.Auth.IAuthorization.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TAuthorization.TmpSessions
+  commentId: P:OpenTl.Schema.Auth.TAuthorization.TmpSessions
+  id: TmpSessions
+  parent: OpenTl.Schema.Auth.TAuthorization
+  langs:
+  - csharp
+  - vb
+  name: TmpSessions
+  nameWithType: TAuthorization.TmpSessions
+  fullName: OpenTl.Schema.Auth.TAuthorization.TmpSessions
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TmpSessions
+    path: ../src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int TmpSessions { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TmpSessions As Integer
+  overload: OpenTl.Schema.Auth.TAuthorization.TmpSessions*
+  implements:
+  - OpenTl.Schema.Auth.IAuthorization.TmpSessions
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TAuthorization.User
+  commentId: P:OpenTl.Schema.Auth.TAuthorization.User
+  id: User
+  parent: OpenTl.Schema.Auth.TAuthorization
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: TAuthorization.User
+  fullName: OpenTl.Schema.Auth.TAuthorization.User
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: User
+    path: ../src/OpenTl.Schema/_generated/Auth/Authorization/TAuthorization.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public IUser User { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUser
+    content.vb: Public Property User As IUser
+  overload: OpenTl.Schema.Auth.TAuthorization.User*
+  implements:
+  - OpenTl.Schema.Auth.IAuthorization.User
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.IAuthorization
+  commentId: T:OpenTl.Schema.Auth.IAuthorization
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: IAuthorization
+  nameWithType: IAuthorization
+  fullName: OpenTl.Schema.Auth.IAuthorization
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TAuthorization.Flags*
+  commentId: Overload:OpenTl.Schema.Auth.TAuthorization.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TAuthorization.Flags
+  fullName: OpenTl.Schema.Auth.TAuthorization.Flags
+- uid: OpenTl.Schema.Auth.IAuthorization.Flags
+  commentId: P:OpenTl.Schema.Auth.IAuthorization.Flags
+  parent: OpenTl.Schema.Auth.IAuthorization
+  isExternal: false
+  name: Flags
+  nameWithType: IAuthorization.Flags
+  fullName: OpenTl.Schema.Auth.IAuthorization.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Auth.TAuthorization.TmpSessions*
+  commentId: Overload:OpenTl.Schema.Auth.TAuthorization.TmpSessions
+  isExternal: false
+  name: TmpSessions
+  nameWithType: TAuthorization.TmpSessions
+  fullName: OpenTl.Schema.Auth.TAuthorization.TmpSessions
+- uid: OpenTl.Schema.Auth.IAuthorization.TmpSessions
+  commentId: P:OpenTl.Schema.Auth.IAuthorization.TmpSessions
+  parent: OpenTl.Schema.Auth.IAuthorization
+  isExternal: false
+  name: TmpSessions
+  nameWithType: IAuthorization.TmpSessions
+  fullName: OpenTl.Schema.Auth.IAuthorization.TmpSessions
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Auth.TAuthorization.User*
+  commentId: Overload:OpenTl.Schema.Auth.TAuthorization.User
+  isExternal: false
+  name: User
+  nameWithType: TAuthorization.User
+  fullName: OpenTl.Schema.Auth.TAuthorization.User
+- uid: OpenTl.Schema.Auth.IAuthorization.User
+  commentId: P:OpenTl.Schema.Auth.IAuthorization.User
+  parent: OpenTl.Schema.Auth.IAuthorization
+  isExternal: false
+  name: User
+  nameWithType: IAuthorization.User
+  fullName: OpenTl.Schema.Auth.IAuthorization.User
+- uid: OpenTl.Schema.IUser
+  commentId: T:OpenTl.Schema.IUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUser
+  nameWithType: IUser
+  fullName: OpenTl.Schema.IUser

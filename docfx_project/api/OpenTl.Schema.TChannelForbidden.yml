@@ -1,0 +1,458 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelForbidden
+  commentId: T:OpenTl.Schema.TChannelForbidden
+  id: TChannelForbidden
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelForbidden.AccessHash
+  - OpenTl.Schema.TChannelForbidden.Broadcast
+  - OpenTl.Schema.TChannelForbidden.Flags
+  - OpenTl.Schema.TChannelForbidden.Id
+  - OpenTl.Schema.TChannelForbidden.Megagroup
+  - OpenTl.Schema.TChannelForbidden.Title
+  - OpenTl.Schema.TChannelForbidden.TitleAsBinary
+  - OpenTl.Schema.TChannelForbidden.UntilDate
+  langs:
+  - csharp
+  - vb
+  name: TChannelForbidden
+  nameWithType: TChannelForbidden
+  fullName: OpenTl.Schema.TChannelForbidden
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelForbidden
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelForbidden : object, IChat, IObject'
+    content.vb: >-
+      Public Class TChannelForbidden
+
+          Inherits Object
+
+          Implements IChat, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChat
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelForbidden.Flags
+  commentId: P:OpenTl.Schema.TChannelForbidden.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelForbidden.Flags
+  fullName: OpenTl.Schema.TChannelForbidden.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelForbidden.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.Broadcast
+  commentId: P:OpenTl.Schema.TChannelForbidden.Broadcast
+  id: Broadcast
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: Broadcast
+  nameWithType: TChannelForbidden.Broadcast
+  fullName: OpenTl.Schema.TChannelForbidden.Broadcast
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Broadcast
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Broadcast { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Broadcast As Boolean
+  overload: OpenTl.Schema.TChannelForbidden.Broadcast*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.Megagroup
+  commentId: P:OpenTl.Schema.TChannelForbidden.Megagroup
+  id: Megagroup
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: Megagroup
+  nameWithType: TChannelForbidden.Megagroup
+  fullName: OpenTl.Schema.TChannelForbidden.Megagroup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Megagroup
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Megagroup { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Megagroup As Boolean
+  overload: OpenTl.Schema.TChannelForbidden.Megagroup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.Id
+  commentId: P:OpenTl.Schema.TChannelForbidden.Id
+  id: Id
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TChannelForbidden.Id
+  fullName: OpenTl.Schema.TChannelForbidden.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TChannelForbidden.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.AccessHash
+  commentId: P:OpenTl.Schema.TChannelForbidden.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TChannelForbidden.AccessHash
+  fullName: OpenTl.Schema.TChannelForbidden.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TChannelForbidden.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.TitleAsBinary
+  commentId: P:OpenTl.Schema.TChannelForbidden.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TChannelForbidden.TitleAsBinary
+  fullName: OpenTl.Schema.TChannelForbidden.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TChannelForbidden.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.Title
+  commentId: P:OpenTl.Schema.TChannelForbidden.Title
+  id: Title
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TChannelForbidden.Title
+  fullName: OpenTl.Schema.TChannelForbidden.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TChannelForbidden.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelForbidden.UntilDate
+  commentId: P:OpenTl.Schema.TChannelForbidden.UntilDate
+  id: UntilDate
+  parent: OpenTl.Schema.TChannelForbidden
+  langs:
+  - csharp
+  - vb
+  name: UntilDate
+  nameWithType: TChannelForbidden.UntilDate
+  fullName: OpenTl.Schema.TChannelForbidden.UntilDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UntilDate
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChannelForbidden.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UntilDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UntilDate As Integer
+  overload: OpenTl.Schema.TChannelForbidden.UntilDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChat
+  commentId: T:OpenTl.Schema.IChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChat
+  nameWithType: IChat
+  fullName: OpenTl.Schema.IChat
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelForbidden.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelForbidden.Flags
+  fullName: OpenTl.Schema.TChannelForbidden.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelForbidden.Broadcast*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.Broadcast
+  isExternal: false
+  name: Broadcast
+  nameWithType: TChannelForbidden.Broadcast
+  fullName: OpenTl.Schema.TChannelForbidden.Broadcast
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelForbidden.Megagroup*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.Megagroup
+  isExternal: false
+  name: Megagroup
+  nameWithType: TChannelForbidden.Megagroup
+  fullName: OpenTl.Schema.TChannelForbidden.Megagroup
+- uid: OpenTl.Schema.TChannelForbidden.Id*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.Id
+  isExternal: false
+  name: Id
+  nameWithType: TChannelForbidden.Id
+  fullName: OpenTl.Schema.TChannelForbidden.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChannelForbidden.AccessHash*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TChannelForbidden.AccessHash
+  fullName: OpenTl.Schema.TChannelForbidden.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TChannelForbidden.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TChannelForbidden.TitleAsBinary
+  fullName: OpenTl.Schema.TChannelForbidden.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TChannelForbidden.Title*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.Title
+  isExternal: false
+  name: Title
+  nameWithType: TChannelForbidden.Title
+  fullName: OpenTl.Schema.TChannelForbidden.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TChannelForbidden.UntilDate*
+  commentId: Overload:OpenTl.Schema.TChannelForbidden.UntilDate
+  isExternal: false
+  name: UntilDate
+  nameWithType: TChannelForbidden.UntilDate
+  fullName: OpenTl.Schema.TChannelForbidden.UntilDate

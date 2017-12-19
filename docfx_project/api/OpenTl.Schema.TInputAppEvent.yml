@@ -1,0 +1,420 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputAppEvent
+  commentId: T:OpenTl.Schema.TInputAppEvent
+  id: TInputAppEvent
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputAppEvent.Data
+  - OpenTl.Schema.TInputAppEvent.DataAsBinary
+  - OpenTl.Schema.TInputAppEvent.Peer
+  - OpenTl.Schema.TInputAppEvent.Time
+  - OpenTl.Schema.TInputAppEvent.Type
+  - OpenTl.Schema.TInputAppEvent.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputAppEvent
+  nameWithType: TInputAppEvent
+  fullName: OpenTl.Schema.TInputAppEvent
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputAppEvent
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputAppEvent : object, IInputAppEvent, IObject'
+    content.vb: >-
+      Public Class TInputAppEvent
+
+          Inherits Object
+
+          Implements IInputAppEvent, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputAppEvent
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputAppEvent.Time
+  commentId: P:OpenTl.Schema.TInputAppEvent.Time
+  id: Time
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: Time
+  nameWithType: TInputAppEvent.Time
+  fullName: OpenTl.Schema.TInputAppEvent.Time
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Time
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Time { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Time As Double
+  overload: OpenTl.Schema.TInputAppEvent.Time*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.Time
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputAppEvent.TypeAsBinary
+  commentId: P:OpenTl.Schema.TInputAppEvent.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TInputAppEvent.TypeAsBinary
+  fullName: OpenTl.Schema.TInputAppEvent.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TInputAppEvent.TypeAsBinary*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.TypeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputAppEvent.Type
+  commentId: P:OpenTl.Schema.TInputAppEvent.Type
+  id: Type
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TInputAppEvent.Type
+  fullName: OpenTl.Schema.TInputAppEvent.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TInputAppEvent.Type*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputAppEvent.Peer
+  commentId: P:OpenTl.Schema.TInputAppEvent.Peer
+  id: Peer
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TInputAppEvent.Peer
+  fullName: OpenTl.Schema.TInputAppEvent.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Peer { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Peer As Long
+  overload: OpenTl.Schema.TInputAppEvent.Peer*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.Peer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputAppEvent.DataAsBinary
+  commentId: P:OpenTl.Schema.TInputAppEvent.DataAsBinary
+  id: DataAsBinary
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: DataAsBinary
+  nameWithType: TInputAppEvent.DataAsBinary
+  fullName: OpenTl.Schema.TInputAppEvent.DataAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DataAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Data&apos; property
+  example: []
+  syntax:
+    content: public byte[] DataAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DataAsBinary As Byte()
+  overload: OpenTl.Schema.TInputAppEvent.DataAsBinary*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.DataAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputAppEvent.Data
+  commentId: P:OpenTl.Schema.TInputAppEvent.Data
+  id: Data
+  parent: OpenTl.Schema.TInputAppEvent
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TInputAppEvent.Data
+  fullName: OpenTl.Schema.TInputAppEvent.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputAppEvent/TInputAppEvent.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Data { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Data As String
+  overload: OpenTl.Schema.TInputAppEvent.Data*
+  implements:
+  - OpenTl.Schema.IInputAppEvent.Data
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputAppEvent
+  commentId: T:OpenTl.Schema.IInputAppEvent
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputAppEvent
+  nameWithType: IInputAppEvent
+  fullName: OpenTl.Schema.IInputAppEvent
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputAppEvent.Time*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.Time
+  isExternal: false
+  name: Time
+  nameWithType: TInputAppEvent.Time
+  fullName: OpenTl.Schema.TInputAppEvent.Time
+- uid: OpenTl.Schema.IInputAppEvent.Time
+  commentId: P:OpenTl.Schema.IInputAppEvent.Time
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: Time
+  nameWithType: IInputAppEvent.Time
+  fullName: OpenTl.Schema.IInputAppEvent.Time
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: OpenTl.Schema.TInputAppEvent.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TInputAppEvent.TypeAsBinary
+  fullName: OpenTl.Schema.TInputAppEvent.TypeAsBinary
+- uid: OpenTl.Schema.IInputAppEvent.TypeAsBinary
+  commentId: P:OpenTl.Schema.IInputAppEvent.TypeAsBinary
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: IInputAppEvent.TypeAsBinary
+  fullName: OpenTl.Schema.IInputAppEvent.TypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputAppEvent.Type*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.Type
+  isExternal: false
+  name: Type
+  nameWithType: TInputAppEvent.Type
+  fullName: OpenTl.Schema.TInputAppEvent.Type
+- uid: OpenTl.Schema.IInputAppEvent.Type
+  commentId: P:OpenTl.Schema.IInputAppEvent.Type
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: Type
+  nameWithType: IInputAppEvent.Type
+  fullName: OpenTl.Schema.IInputAppEvent.Type
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputAppEvent.Peer*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TInputAppEvent.Peer
+  fullName: OpenTl.Schema.TInputAppEvent.Peer
+- uid: OpenTl.Schema.IInputAppEvent.Peer
+  commentId: P:OpenTl.Schema.IInputAppEvent.Peer
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: Peer
+  nameWithType: IInputAppEvent.Peer
+  fullName: OpenTl.Schema.IInputAppEvent.Peer
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputAppEvent.DataAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.DataAsBinary
+  isExternal: false
+  name: DataAsBinary
+  nameWithType: TInputAppEvent.DataAsBinary
+  fullName: OpenTl.Schema.TInputAppEvent.DataAsBinary
+- uid: OpenTl.Schema.IInputAppEvent.DataAsBinary
+  commentId: P:OpenTl.Schema.IInputAppEvent.DataAsBinary
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: DataAsBinary
+  nameWithType: IInputAppEvent.DataAsBinary
+  fullName: OpenTl.Schema.IInputAppEvent.DataAsBinary
+- uid: OpenTl.Schema.TInputAppEvent.Data*
+  commentId: Overload:OpenTl.Schema.TInputAppEvent.Data
+  isExternal: false
+  name: Data
+  nameWithType: TInputAppEvent.Data
+  fullName: OpenTl.Schema.TInputAppEvent.Data
+- uid: OpenTl.Schema.IInputAppEvent.Data
+  commentId: P:OpenTl.Schema.IInputAppEvent.Data
+  parent: OpenTl.Schema.IInputAppEvent
+  isExternal: false
+  name: Data
+  nameWithType: IInputAppEvent.Data
+  fullName: OpenTl.Schema.IInputAppEvent.Data

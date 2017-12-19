@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Account
 	[Serialize(0x3e0bdd7c)]
     public class RequestUpdateUsername : IRequest<OpenTl.Schema.IUser>
     {
+       /// <summary>Binary representation for the 'Username' property</summary>
        [SerializationOrder(0)]
        public byte[] UsernameAsBinary { get => _UsernameAsBinary; set { _Username = Encoding.UTF8.GetString(value); _UsernameAsBinary = value; }}
        private byte[] _UsernameAsBinary;

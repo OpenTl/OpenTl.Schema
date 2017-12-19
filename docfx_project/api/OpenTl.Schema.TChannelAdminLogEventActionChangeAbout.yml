@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  id: TChannelAdminLogEventActionChangeAbout
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue
+  - OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  - OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+  - OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionChangeAbout
+  nameWithType: TChannelAdminLogEventActionChangeAbout
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionChangeAbout
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionChangeAbout : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionChangeAbout
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  id: PrevValueAsBinary
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  langs:
+  - csharp
+  - vb
+  name: PrevValueAsBinary
+  nameWithType: TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PrevValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PrevValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] PrevValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PrevValueAsBinary As Byte()
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+  id: PrevValue
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  langs:
+  - csharp
+  - vb
+  name: PrevValue
+  nameWithType: TChannelAdminLogEventActionChangeAbout.PrevValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PrevValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PrevValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PrevValue As String
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  id: NewValueAsBinary
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  langs:
+  - csharp
+  - vb
+  name: NewValueAsBinary
+  nameWithType: TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewValueAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;NewValue&apos; property
+  example: []
+  syntax:
+    content: public byte[] NewValueAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NewValueAsBinary As Byte()
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue
+  id: NewValue
+  parent: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout
+  langs:
+  - csharp
+  - vb
+  name: NewValue
+  nameWithType: TChannelAdminLogEventActionChangeAbout.NewValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewValue
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionChangeAbout.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string NewValue { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NewValue As String
+  overload: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  isExternal: false
+  name: PrevValueAsBinary
+  nameWithType: TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValueAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+  isExternal: false
+  name: PrevValue
+  nameWithType: TChannelAdminLogEventActionChangeAbout.PrevValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.PrevValue
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  isExternal: false
+  name: NewValueAsBinary
+  nameWithType: TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValueAsBinary
+- uid: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue
+  isExternal: false
+  name: NewValue
+  nameWithType: TChannelAdminLogEventActionChangeAbout.NewValue
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionChangeAbout.NewValue

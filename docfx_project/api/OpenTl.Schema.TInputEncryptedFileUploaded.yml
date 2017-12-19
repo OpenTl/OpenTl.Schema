@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded
+  commentId: T:OpenTl.Schema.TInputEncryptedFileUploaded
+  id: TInputEncryptedFileUploaded
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputEncryptedFileUploaded.Id
+  - OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint
+  - OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+  - OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  - OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+  langs:
+  - csharp
+  - vb
+  name: TInputEncryptedFileUploaded
+  nameWithType: TInputEncryptedFileUploaded
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputEncryptedFileUploaded
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputEncryptedFileUploaded : object, IInputEncryptedFile, IObject'
+    content.vb: >-
+      Public Class TInputEncryptedFileUploaded
+
+          Inherits Object
+
+          Implements IInputEncryptedFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputEncryptedFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Id
+  commentId: P:OpenTl.Schema.TInputEncryptedFileUploaded.Id
+  id: Id
+  parent: OpenTl.Schema.TInputEncryptedFileUploaded
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputEncryptedFileUploaded.Id
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputEncryptedFileUploaded.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+  commentId: P:OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+  id: Parts
+  parent: OpenTl.Schema.TInputEncryptedFileUploaded
+  langs:
+  - csharp
+  - vb
+  name: Parts
+  nameWithType: TInputEncryptedFileUploaded.Parts
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Parts
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Parts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Parts As Integer
+  overload: OpenTl.Schema.TInputEncryptedFileUploaded.Parts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  commentId: P:OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  id: Md5ChecksumAsBinary
+  parent: OpenTl.Schema.TInputEncryptedFileUploaded
+  langs:
+  - csharp
+  - vb
+  name: Md5ChecksumAsBinary
+  nameWithType: TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Md5ChecksumAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Md5Checksum&apos; property
+  example: []
+  syntax:
+    content: public byte[] Md5ChecksumAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Md5ChecksumAsBinary As Byte()
+  overload: OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+  commentId: P:OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+  id: Md5Checksum
+  parent: OpenTl.Schema.TInputEncryptedFileUploaded
+  langs:
+  - csharp
+  - vb
+  name: Md5Checksum
+  nameWithType: TInputEncryptedFileUploaded.Md5Checksum
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Md5Checksum
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Md5Checksum { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Md5Checksum As String
+  overload: OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint
+  commentId: P:OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint
+  id: KeyFingerprint
+  parent: OpenTl.Schema.TInputEncryptedFileUploaded
+  langs:
+  - csharp
+  - vb
+  name: KeyFingerprint
+  nameWithType: TInputEncryptedFileUploaded.KeyFingerprint
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KeyFingerprint
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedFile/TInputEncryptedFileUploaded.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int KeyFingerprint { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property KeyFingerprint As Integer
+  overload: OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputEncryptedFile
+  commentId: T:OpenTl.Schema.IInputEncryptedFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputEncryptedFile
+  nameWithType: IInputEncryptedFile
+  fullName: OpenTl.Schema.IInputEncryptedFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Id*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileUploaded.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputEncryptedFileUploaded.Id
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Parts*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+  isExternal: false
+  name: Parts
+  nameWithType: TInputEncryptedFileUploaded.Parts
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Parts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  isExternal: false
+  name: Md5ChecksumAsBinary
+  nameWithType: TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Md5ChecksumAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+  isExternal: false
+  name: Md5Checksum
+  nameWithType: TInputEncryptedFileUploaded.Md5Checksum
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.Md5Checksum
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint
+  isExternal: false
+  name: KeyFingerprint
+  nameWithType: TInputEncryptedFileUploaded.KeyFingerprint
+  fullName: OpenTl.Schema.TInputEncryptedFileUploaded.KeyFingerprint

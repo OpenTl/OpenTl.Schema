@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TGeoPoint
+  commentId: T:OpenTl.Schema.TGeoPoint
+  id: TGeoPoint
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TGeoPoint.Lat
+  - OpenTl.Schema.TGeoPoint.Long
+  langs:
+  - csharp
+  - vb
+  name: TGeoPoint
+  nameWithType: TGeoPoint
+  fullName: OpenTl.Schema.TGeoPoint
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TGeoPoint
+    path: ../src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TGeoPoint : object, IGeoPoint, IObject'
+    content.vb: >-
+      Public Class TGeoPoint
+
+          Inherits Object
+
+          Implements IGeoPoint, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IGeoPoint
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TGeoPoint.Long
+  commentId: P:OpenTl.Schema.TGeoPoint.Long
+  id: Long
+  parent: OpenTl.Schema.TGeoPoint
+  langs:
+  - csharp
+  - vb
+  name: Long
+  nameWithType: TGeoPoint.Long
+  fullName: OpenTl.Schema.TGeoPoint.Long
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Long
+    path: ../src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Long { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Long As Double
+  overload: OpenTl.Schema.TGeoPoint.Long*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TGeoPoint.Lat
+  commentId: P:OpenTl.Schema.TGeoPoint.Lat
+  id: Lat
+  parent: OpenTl.Schema.TGeoPoint
+  langs:
+  - csharp
+  - vb
+  name: Lat
+  nameWithType: TGeoPoint.Lat
+  fullName: OpenTl.Schema.TGeoPoint.Lat
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Lat
+    path: ../src/OpenTl.Schema/_generated/_Entities/GeoPoint/TGeoPoint.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Lat { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Lat As Double
+  overload: OpenTl.Schema.TGeoPoint.Lat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IGeoPoint
+  commentId: T:OpenTl.Schema.IGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGeoPoint
+  nameWithType: IGeoPoint
+  fullName: OpenTl.Schema.IGeoPoint
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TGeoPoint.Long*
+  commentId: Overload:OpenTl.Schema.TGeoPoint.Long
+  isExternal: false
+  name: Long
+  nameWithType: TGeoPoint.Long
+  fullName: OpenTl.Schema.TGeoPoint.Long
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: OpenTl.Schema.TGeoPoint.Lat*
+  commentId: Overload:OpenTl.Schema.TGeoPoint.Lat
+  isExternal: false
+  name: Lat
+  nameWithType: TGeoPoint.Lat
+  fullName: OpenTl.Schema.TGeoPoint.Lat

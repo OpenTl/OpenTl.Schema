@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPeerChat
+  commentId: T:OpenTl.Schema.TPeerChat
+  id: TPeerChat
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPeerChat.ChatId
+  langs:
+  - csharp
+  - vb
+  name: TPeerChat
+  nameWithType: TPeerChat
+  fullName: OpenTl.Schema.TPeerChat
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Peer/TPeerChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPeerChat
+    path: ../src/OpenTl.Schema/_generated/_Entities/Peer/TPeerChat.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPeerChat : object, IPeer, IObject'
+    content.vb: >-
+      Public Class TPeerChat
+
+          Inherits Object
+
+          Implements IPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPeerChat.ChatId
+  commentId: P:OpenTl.Schema.TPeerChat.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TPeerChat
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TPeerChat.ChatId
+  fullName: OpenTl.Schema.TPeerChat.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Peer/TPeerChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Peer/TPeerChat.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TPeerChat.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPeerChat.ChatId*
+  commentId: Overload:OpenTl.Schema.TPeerChat.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TPeerChat.ChatId
+  fullName: OpenTl.Schema.TPeerChat.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

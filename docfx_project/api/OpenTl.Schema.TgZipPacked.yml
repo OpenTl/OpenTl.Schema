@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TgZipPacked
+  commentId: T:OpenTl.Schema.TgZipPacked
+  id: TgZipPacked
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TgZipPacked.PackedData
+  langs:
+  - csharp
+  - vb
+  name: TgZipPacked
+  nameWithType: TgZipPacked
+  fullName: OpenTl.Schema.TgZipPacked
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TgZipPacked.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TgZipPacked
+    path: ../src/OpenTl.Schema/Entities/TgZipPacked.cs
+    startLine: 4
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TgZipPacked : object, IObject'
+    content.vb: >-
+      Public Class TgZipPacked
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TgZipPacked.PackedData
+  commentId: P:OpenTl.Schema.TgZipPacked.PackedData
+  id: PackedData
+  parent: OpenTl.Schema.TgZipPacked
+  langs:
+  - csharp
+  - vb
+  name: PackedData
+  nameWithType: TgZipPacked.PackedData
+  fullName: OpenTl.Schema.TgZipPacked.PackedData
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TgZipPacked.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PackedData
+    path: ../src/OpenTl.Schema/Entities/TgZipPacked.cs
+    startLine: 7
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] PackedData { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PackedData As Byte()
+  overload: OpenTl.Schema.TgZipPacked.PackedData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TgZipPacked.PackedData*
+  commentId: Overload:OpenTl.Schema.TgZipPacked.PackedData
+  isExternal: false
+  name: PackedData
+  nameWithType: TgZipPacked.PackedData
+  fullName: OpenTl.Schema.TgZipPacked.PackedData
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

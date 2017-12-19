@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatPhoto
+  commentId: T:OpenTl.Schema.TChatPhoto
+  id: TChatPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatPhoto.PhotoBig
+  - OpenTl.Schema.TChatPhoto.PhotoSmall
+  langs:
+  - csharp
+  - vb
+  name: TChatPhoto
+  nameWithType: TChatPhoto
+  fullName: OpenTl.Schema.TChatPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatPhoto : object, IChatPhoto, IObject'
+    content.vb: >-
+      Public Class TChatPhoto
+
+          Inherits Object
+
+          Implements IChatPhoto, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChatPhoto
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatPhoto.PhotoSmall
+  commentId: P:OpenTl.Schema.TChatPhoto.PhotoSmall
+  id: PhotoSmall
+  parent: OpenTl.Schema.TChatPhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoSmall
+  nameWithType: TChatPhoto.PhotoSmall
+  fullName: OpenTl.Schema.TChatPhoto.PhotoSmall
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoSmall
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IFileLocation PhotoSmall { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Public Property PhotoSmall As IFileLocation
+  overload: OpenTl.Schema.TChatPhoto.PhotoSmall*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatPhoto.PhotoBig
+  commentId: P:OpenTl.Schema.TChatPhoto.PhotoBig
+  id: PhotoBig
+  parent: OpenTl.Schema.TChatPhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoBig
+  nameWithType: TChatPhoto.PhotoBig
+  fullName: OpenTl.Schema.TChatPhoto.PhotoBig
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoBig
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatPhoto/TChatPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IFileLocation PhotoBig { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Public Property PhotoBig As IFileLocation
+  overload: OpenTl.Schema.TChatPhoto.PhotoBig*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChatPhoto
+  commentId: T:OpenTl.Schema.IChatPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatPhoto
+  nameWithType: IChatPhoto
+  fullName: OpenTl.Schema.IChatPhoto
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatPhoto.PhotoSmall*
+  commentId: Overload:OpenTl.Schema.TChatPhoto.PhotoSmall
+  isExternal: false
+  name: PhotoSmall
+  nameWithType: TChatPhoto.PhotoSmall
+  fullName: OpenTl.Schema.TChatPhoto.PhotoSmall
+- uid: OpenTl.Schema.IFileLocation
+  commentId: T:OpenTl.Schema.IFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFileLocation
+  nameWithType: IFileLocation
+  fullName: OpenTl.Schema.IFileLocation
+- uid: OpenTl.Schema.TChatPhoto.PhotoBig*
+  commentId: Overload:OpenTl.Schema.TChatPhoto.PhotoBig
+  isExternal: false
+  name: PhotoBig
+  nameWithType: TChatPhoto.PhotoBig
+  fullName: OpenTl.Schema.TChatPhoto.PhotoBig

@@ -26,6 +26,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(3)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(4)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

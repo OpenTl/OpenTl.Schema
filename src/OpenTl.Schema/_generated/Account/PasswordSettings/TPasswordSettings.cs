@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Account
 	[Serialize(0xb7b72ab3)]
 	public class TPasswordSettings : IPasswordSettings
 	{
+       /// <summary>Binary representation for the 'Email' property</summary>
        [SerializationOrder(0)]
        public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}
        private byte[] _EmailAsBinary;

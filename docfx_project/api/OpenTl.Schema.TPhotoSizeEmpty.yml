@@ -1,0 +1,194 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhotoSizeEmpty
+  commentId: T:OpenTl.Schema.TPhotoSizeEmpty
+  id: TPhotoSizeEmpty
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPhotoSizeEmpty.Type
+  - OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPhotoSizeEmpty
+  nameWithType: TPhotoSizeEmpty
+  fullName: OpenTl.Schema.TPhotoSizeEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhotoSizeEmpty
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhotoSizeEmpty : object, IPhotoSize, IObject, IEmpty'
+    content.vb: >-
+      Public Class TPhotoSizeEmpty
+
+          Inherits Object
+
+          Implements IPhotoSize, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhotoSize
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+  commentId: P:OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TPhotoSizeEmpty
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TPhotoSizeEmpty.TypeAsBinary
+  fullName: OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoSizeEmpty.Type
+  commentId: P:OpenTl.Schema.TPhotoSizeEmpty.Type
+  id: Type
+  parent: OpenTl.Schema.TPhotoSizeEmpty
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TPhotoSizeEmpty.Type
+  fullName: OpenTl.Schema.TPhotoSizeEmpty.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoSizeEmpty.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TPhotoSizeEmpty.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhotoSize
+  commentId: T:OpenTl.Schema.IPhotoSize
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhotoSize
+  nameWithType: IPhotoSize
+  fullName: OpenTl.Schema.IPhotoSize
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty
+- uid: OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TPhotoSizeEmpty.TypeAsBinary
+  fullName: OpenTl.Schema.TPhotoSizeEmpty.TypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPhotoSizeEmpty.Type*
+  commentId: Overload:OpenTl.Schema.TPhotoSizeEmpty.Type
+  isExternal: false
+  name: Type
+  nameWithType: TPhotoSizeEmpty.Type
+  fullName: OpenTl.Schema.TPhotoSizeEmpty.Type
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

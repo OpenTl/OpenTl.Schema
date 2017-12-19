@@ -19,6 +19,7 @@ namespace OpenTl.Schema.Account
        [FromFlag("Flags", 0)]
        public bool AllowFlashcall {get; set;}
 
+       /// <summary>Binary representation for the 'Hash' property</summary>
        [SerializationOrder(2)]
        public byte[] HashAsBinary { get => _HashAsBinary; set { _Hash = Encoding.UTF8.GetString(value); _HashAsBinary = value; }}
        private byte[] _HashAsBinary;

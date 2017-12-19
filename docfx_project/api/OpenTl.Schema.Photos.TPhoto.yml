@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Photos.TPhoto
+  commentId: T:OpenTl.Schema.Photos.TPhoto
+  id: TPhoto
+  parent: OpenTl.Schema.Photos
+  children:
+  - OpenTl.Schema.Photos.TPhoto.Photo
+  - OpenTl.Schema.Photos.TPhoto.Users
+  langs:
+  - csharp
+  - vb
+  name: TPhoto
+  nameWithType: TPhoto
+  fullName: OpenTl.Schema.Photos.TPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoto
+    path: ../src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Photos
+  syntax:
+    content: 'public class TPhoto : object, IPhoto, IObject'
+    content.vb: >-
+      Public Class TPhoto
+
+          Inherits Object
+
+          Implements IPhoto, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Photos.IPhoto
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Photos.TPhoto.Photo
+  commentId: P:OpenTl.Schema.Photos.TPhoto.Photo
+  id: Photo
+  parent: OpenTl.Schema.Photos.TPhoto
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TPhoto.Photo
+  fullName: OpenTl.Schema.Photos.TPhoto.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Photos
+  syntax:
+    content: public IPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property Photo As IPhoto
+  overload: OpenTl.Schema.Photos.TPhoto.Photo*
+  implements:
+  - OpenTl.Schema.Photos.IPhoto.Photo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Photos.TPhoto.Users
+  commentId: P:OpenTl.Schema.Photos.TPhoto.Users
+  id: Users
+  parent: OpenTl.Schema.Photos.TPhoto
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TPhoto.Users
+  fullName: OpenTl.Schema.Photos.TPhoto.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Photos/Photo/TPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Photos
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Photos.TPhoto.Users*
+  implements:
+  - OpenTl.Schema.Photos.IPhoto.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Photos
+  commentId: N:OpenTl.Schema.Photos
+  isExternal: false
+  name: OpenTl.Schema.Photos
+  nameWithType: OpenTl.Schema.Photos
+  fullName: OpenTl.Schema.Photos
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Photos.IPhoto
+  commentId: T:OpenTl.Schema.Photos.IPhoto
+  parent: OpenTl.Schema.Photos
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.Photos.IPhoto
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Photos.TPhoto.Photo*
+  commentId: Overload:OpenTl.Schema.Photos.TPhoto.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TPhoto.Photo
+  fullName: OpenTl.Schema.Photos.TPhoto.Photo
+- uid: OpenTl.Schema.Photos.IPhoto.Photo
+  commentId: P:OpenTl.Schema.Photos.IPhoto.Photo
+  parent: OpenTl.Schema.Photos.IPhoto
+  isExternal: false
+  name: Photo
+  nameWithType: IPhoto.Photo
+  fullName: OpenTl.Schema.Photos.IPhoto.Photo
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.Photos.TPhoto.Users*
+  commentId: Overload:OpenTl.Schema.Photos.TPhoto.Users
+  isExternal: false
+  name: Users
+  nameWithType: TPhoto.Users
+  fullName: OpenTl.Schema.Photos.TPhoto.Users
+- uid: OpenTl.Schema.Photos.IPhoto.Users
+  commentId: P:OpenTl.Schema.Photos.IPhoto.Users
+  parent: OpenTl.Schema.Photos.IPhoto
+  isExternal: false
+  name: Users
+  nameWithType: IPhoto.Users
+  fullName: OpenTl.Schema.Photos.IPhoto.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

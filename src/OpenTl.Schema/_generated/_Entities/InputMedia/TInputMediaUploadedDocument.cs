@@ -26,6 +26,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 2)]
        public OpenTl.Schema.IInputFile Thumb {get; set;}
 
+       /// <summary>Binary representation for the 'MimeType' property</summary>
        [SerializationOrder(4)]
        public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
        private byte[] _MimeTypeAsBinary;
@@ -35,6 +36,7 @@ namespace OpenTl.Schema
        [SerializationOrder(5)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
+       /// <summary>Binary representation for the 'Caption' property</summary>
        [SerializationOrder(6)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
        private byte[] _CaptionAsBinary;

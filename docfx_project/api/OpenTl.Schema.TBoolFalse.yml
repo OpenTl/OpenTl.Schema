@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBoolFalse
+  commentId: T:OpenTl.Schema.TBoolFalse
+  id: TBoolFalse
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TBoolFalse
+  nameWithType: TBoolFalse
+  fullName: OpenTl.Schema.TBoolFalse
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Bool/TBoolFalse.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBoolFalse
+    path: ../src/OpenTl.Schema/_generated/_Entities/Bool/TBoolFalse.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBoolFalse : object, IBool, IObject'
+    content.vb: >-
+      Public Class TBoolFalse
+
+          Inherits Object
+
+          Implements IBool, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBool
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBool
+  commentId: T:OpenTl.Schema.IBool
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBool
+  nameWithType: IBool
+  fullName: OpenTl.Schema.IBool
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IDcOption
+  commentId: T:OpenTl.Schema.IDcOption
+  id: IDcOption
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IDcOption.Cdn
+  - OpenTl.Schema.IDcOption.Flags
+  - OpenTl.Schema.IDcOption.Id
+  - OpenTl.Schema.IDcOption.IpAddress
+  - OpenTl.Schema.IDcOption.IpAddressAsBinary
+  - OpenTl.Schema.IDcOption.Ipv6
+  - OpenTl.Schema.IDcOption.MediaOnly
+  - OpenTl.Schema.IDcOption.Port
+  - OpenTl.Schema.IDcOption.Static
+  - OpenTl.Schema.IDcOption.TcpoOnly
+  langs:
+  - csharp
+  - vb
+  name: IDcOption
+  nameWithType: IDcOption
+  fullName: OpenTl.Schema.IDcOption
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IDcOption
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IDcOption : IObject'
+    content.vb: >-
+      Public Interface IDcOption
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IDcOption.Flags
+  commentId: P:OpenTl.Schema.IDcOption.Flags
+  id: Flags
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IDcOption.Flags
+  fullName: OpenTl.Schema.IDcOption.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IDcOption.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.Ipv6
+  commentId: P:OpenTl.Schema.IDcOption.Ipv6
+  id: Ipv6
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Ipv6
+  nameWithType: IDcOption.Ipv6
+  fullName: OpenTl.Schema.IDcOption.Ipv6
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ipv6
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Ipv6 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Ipv6 As Boolean
+  overload: OpenTl.Schema.IDcOption.Ipv6*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.MediaOnly
+  commentId: P:OpenTl.Schema.IDcOption.MediaOnly
+  id: MediaOnly
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: MediaOnly
+  nameWithType: IDcOption.MediaOnly
+  fullName: OpenTl.Schema.IDcOption.MediaOnly
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MediaOnly
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool MediaOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property MediaOnly As Boolean
+  overload: OpenTl.Schema.IDcOption.MediaOnly*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.TcpoOnly
+  commentId: P:OpenTl.Schema.IDcOption.TcpoOnly
+  id: TcpoOnly
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: TcpoOnly
+  nameWithType: IDcOption.TcpoOnly
+  fullName: OpenTl.Schema.IDcOption.TcpoOnly
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TcpoOnly
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool TcpoOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property TcpoOnly As Boolean
+  overload: OpenTl.Schema.IDcOption.TcpoOnly*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.Cdn
+  commentId: P:OpenTl.Schema.IDcOption.Cdn
+  id: Cdn
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Cdn
+  nameWithType: IDcOption.Cdn
+  fullName: OpenTl.Schema.IDcOption.Cdn
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Cdn
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Cdn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Cdn As Boolean
+  overload: OpenTl.Schema.IDcOption.Cdn*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.Static
+  commentId: P:OpenTl.Schema.IDcOption.Static
+  id: Static
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: IDcOption.Static
+  fullName: OpenTl.Schema.IDcOption.Static
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Static
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Static { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Static As Boolean
+  overload: OpenTl.Schema.IDcOption.Static*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.Id
+  commentId: P:OpenTl.Schema.IDcOption.Id
+  id: Id
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IDcOption.Id
+  fullName: OpenTl.Schema.IDcOption.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Id As Integer
+  overload: OpenTl.Schema.IDcOption.Id*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.IpAddressAsBinary
+  commentId: P:OpenTl.Schema.IDcOption.IpAddressAsBinary
+  id: IpAddressAsBinary
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: IpAddressAsBinary
+  nameWithType: IDcOption.IpAddressAsBinary
+  fullName: OpenTl.Schema.IDcOption.IpAddressAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpAddressAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] IpAddressAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property IpAddressAsBinary As Byte()
+  overload: OpenTl.Schema.IDcOption.IpAddressAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.IpAddress
+  commentId: P:OpenTl.Schema.IDcOption.IpAddress
+  id: IpAddress
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: IpAddress
+  nameWithType: IDcOption.IpAddress
+  fullName: OpenTl.Schema.IDcOption.IpAddress
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpAddress
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string IpAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property IpAddress As String
+  overload: OpenTl.Schema.IDcOption.IpAddress*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IDcOption.Port
+  commentId: P:OpenTl.Schema.IDcOption.Port
+  id: Port
+  parent: OpenTl.Schema.IDcOption
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: IDcOption.Port
+  fullName: OpenTl.Schema.IDcOption.Port
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Port
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/IDcOption.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Port As Integer
+  overload: OpenTl.Schema.IDcOption.Port*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IDcOption.Flags*
+  commentId: Overload:OpenTl.Schema.IDcOption.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IDcOption.Flags
+  fullName: OpenTl.Schema.IDcOption.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IDcOption.Ipv6*
+  commentId: Overload:OpenTl.Schema.IDcOption.Ipv6
+  isExternal: false
+  name: Ipv6
+  nameWithType: IDcOption.Ipv6
+  fullName: OpenTl.Schema.IDcOption.Ipv6
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.IDcOption.MediaOnly*
+  commentId: Overload:OpenTl.Schema.IDcOption.MediaOnly
+  isExternal: false
+  name: MediaOnly
+  nameWithType: IDcOption.MediaOnly
+  fullName: OpenTl.Schema.IDcOption.MediaOnly
+- uid: OpenTl.Schema.IDcOption.TcpoOnly*
+  commentId: Overload:OpenTl.Schema.IDcOption.TcpoOnly
+  isExternal: false
+  name: TcpoOnly
+  nameWithType: IDcOption.TcpoOnly
+  fullName: OpenTl.Schema.IDcOption.TcpoOnly
+- uid: OpenTl.Schema.IDcOption.Cdn*
+  commentId: Overload:OpenTl.Schema.IDcOption.Cdn
+  isExternal: false
+  name: Cdn
+  nameWithType: IDcOption.Cdn
+  fullName: OpenTl.Schema.IDcOption.Cdn
+- uid: OpenTl.Schema.IDcOption.Static*
+  commentId: Overload:OpenTl.Schema.IDcOption.Static
+  isExternal: false
+  name: Static
+  nameWithType: IDcOption.Static
+  fullName: OpenTl.Schema.IDcOption.Static
+- uid: OpenTl.Schema.IDcOption.Id*
+  commentId: Overload:OpenTl.Schema.IDcOption.Id
+  isExternal: false
+  name: Id
+  nameWithType: IDcOption.Id
+  fullName: OpenTl.Schema.IDcOption.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IDcOption.IpAddressAsBinary*
+  commentId: Overload:OpenTl.Schema.IDcOption.IpAddressAsBinary
+  isExternal: false
+  name: IpAddressAsBinary
+  nameWithType: IDcOption.IpAddressAsBinary
+  fullName: OpenTl.Schema.IDcOption.IpAddressAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IDcOption.IpAddress*
+  commentId: Overload:OpenTl.Schema.IDcOption.IpAddress
+  isExternal: false
+  name: IpAddress
+  nameWithType: IDcOption.IpAddress
+  fullName: OpenTl.Schema.IDcOption.IpAddress
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IDcOption.Port*
+  commentId: Overload:OpenTl.Schema.IDcOption.Port
+  isExternal: false
+  name: Port
+  nameWithType: IDcOption.Port
+  fullName: OpenTl.Schema.IDcOption.Port

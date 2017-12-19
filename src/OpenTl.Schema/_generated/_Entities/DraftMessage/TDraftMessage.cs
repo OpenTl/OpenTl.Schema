@@ -23,6 +23,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 0)]
        public int ReplyToMsgId {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(3)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

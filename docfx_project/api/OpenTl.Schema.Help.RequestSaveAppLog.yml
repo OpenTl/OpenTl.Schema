@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.RequestSaveAppLog
+  commentId: T:OpenTl.Schema.Help.RequestSaveAppLog
+  id: RequestSaveAppLog
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.RequestSaveAppLog.Events
+  langs:
+  - csharp
+  - vb
+  name: RequestSaveAppLog
+  nameWithType: RequestSaveAppLog
+  fullName: OpenTl.Schema.Help.RequestSaveAppLog
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RequestSaveAppLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSaveAppLog
+    path: ../src/OpenTl.Schema/_generated/Help/RequestSaveAppLog.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class RequestSaveAppLog : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSaveAppLog
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.RequestSaveAppLog.Events
+  commentId: P:OpenTl.Schema.Help.RequestSaveAppLog.Events
+  id: Events
+  parent: OpenTl.Schema.Help.RequestSaveAppLog
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: RequestSaveAppLog.Events
+  fullName: OpenTl.Schema.Help.RequestSaveAppLog.Events
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RequestSaveAppLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Events
+    path: ../src/OpenTl.Schema/_generated/Help/RequestSaveAppLog.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public TVector<IInputAppEvent> Events { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IInputAppEvent}
+    content.vb: Public Property Events As TVector(Of IInputAppEvent)
+  overload: OpenTl.Schema.Help.RequestSaveAppLog.Events*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.RequestSaveAppLog.Events*
+  commentId: Overload:OpenTl.Schema.Help.RequestSaveAppLog.Events
+  isExternal: false
+  name: Events
+  nameWithType: RequestSaveAppLog.Events
+  fullName: OpenTl.Schema.Help.RequestSaveAppLog.Events
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IInputAppEvent}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IInputAppEvent}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IInputAppEvent>
+  nameWithType: TVector<IInputAppEvent>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IInputAppEvent>
+  nameWithType.vb: TVector(Of IInputAppEvent)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IInputAppEvent)
+  name.vb: TVector(Of IInputAppEvent)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IInputAppEvent
+    name: IInputAppEvent
+    nameWithType: IInputAppEvent
+    fullName: OpenTl.Schema.IInputAppEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IInputAppEvent
+    name: IInputAppEvent
+    nameWithType: IInputAppEvent
+    fullName: OpenTl.Schema.IInputAppEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

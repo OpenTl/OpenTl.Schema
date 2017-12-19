@@ -1,0 +1,541 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IInputPeerNotifySettings
+  commentId: T:OpenTl.Schema.IInputPeerNotifySettings
+  id: IInputPeerNotifySettings
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IInputPeerNotifySettings.Flags
+  - OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  - OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  - OpenTl.Schema.IInputPeerNotifySettings.Silent
+  - OpenTl.Schema.IInputPeerNotifySettings.Sound
+  - OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IInputPeerNotifySettings
+  nameWithType: IInputPeerNotifySettings
+  fullName: OpenTl.Schema.IInputPeerNotifySettings
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IInputPeerNotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IInputPeerNotifySettings : IObject'
+    content.vb: >-
+      Public Interface IInputPeerNotifySettings
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Flags
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Flags
+  id: Flags
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IInputPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IInputPeerNotifySettings.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  id: ShowPreviews
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: ShowPreviews
+  nameWithType: IInputPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShowPreviews
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool ShowPreviews { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ShowPreviews As Boolean
+  overload: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Silent
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Silent
+  id: Silent
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: IInputPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Silent As Boolean
+  overload: OpenTl.Schema.IInputPeerNotifySettings.Silent*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  id: MuteUntil
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: MuteUntil
+  nameWithType: IInputPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MuteUntil
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int MuteUntil { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MuteUntil As Integer
+  overload: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  id: SoundAsBinary
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: SoundAsBinary
+  nameWithType: IInputPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SoundAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] SoundAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property SoundAsBinary As Byte()
+  overload: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Sound
+  commentId: P:OpenTl.Schema.IInputPeerNotifySettings.Sound
+  id: Sound
+  parent: OpenTl.Schema.IInputPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: IInputPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Sound
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sound
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeerNotifySettings/IInputPeerNotifySettings.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Sound { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Sound As String
+  overload: OpenTl.Schema.IInputPeerNotifySettings.Sound*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Flags*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IInputPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+  isExternal: false
+  name: ShowPreviews
+  nameWithType: IInputPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.ShowPreviews
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Silent*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: IInputPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Silent
+- uid: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+  isExternal: false
+  name: MuteUntil
+  nameWithType: IInputPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.MuteUntil
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+  isExternal: false
+  name: SoundAsBinary
+  nameWithType: IInputPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.SoundAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IInputPeerNotifySettings.Sound*
+  commentId: Overload:OpenTl.Schema.IInputPeerNotifySettings.Sound
+  isExternal: false
+  name: Sound
+  nameWithType: IInputPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.IInputPeerNotifySettings.Sound
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

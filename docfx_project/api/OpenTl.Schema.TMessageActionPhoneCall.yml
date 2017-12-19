@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionPhoneCall
+  commentId: T:OpenTl.Schema.TMessageActionPhoneCall
+  id: TMessageActionPhoneCall
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionPhoneCall.CallId
+  - OpenTl.Schema.TMessageActionPhoneCall.Duration
+  - OpenTl.Schema.TMessageActionPhoneCall.Flags
+  - OpenTl.Schema.TMessageActionPhoneCall.Reason
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionPhoneCall
+  nameWithType: TMessageActionPhoneCall
+  fullName: OpenTl.Schema.TMessageActionPhoneCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionPhoneCall
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionPhoneCall : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionPhoneCall
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Flags
+  commentId: P:OpenTl.Schema.TMessageActionPhoneCall.Flags
+  id: Flags
+  parent: OpenTl.Schema.TMessageActionPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TMessageActionPhoneCall.Flags
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TMessageActionPhoneCall.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPhoneCall.CallId
+  commentId: P:OpenTl.Schema.TMessageActionPhoneCall.CallId
+  id: CallId
+  parent: OpenTl.Schema.TMessageActionPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: CallId
+  nameWithType: TMessageActionPhoneCall.CallId
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.CallId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CallId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long CallId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property CallId As Long
+  overload: OpenTl.Schema.TMessageActionPhoneCall.CallId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Reason
+  commentId: P:OpenTl.Schema.TMessageActionPhoneCall.Reason
+  id: Reason
+  parent: OpenTl.Schema.TMessageActionPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: TMessageActionPhoneCall.Reason
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Reason
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Reason
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoneCallDiscardReason Reason { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoneCallDiscardReason
+    content.vb: Public Property Reason As IPhoneCallDiscardReason
+  overload: OpenTl.Schema.TMessageActionPhoneCall.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Duration
+  commentId: P:OpenTl.Schema.TMessageActionPhoneCall.Duration
+  id: Duration
+  parent: OpenTl.Schema.TMessageActionPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: TMessageActionPhoneCall.Duration
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Duration
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Duration
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPhoneCall.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Duration As Integer
+  overload: OpenTl.Schema.TMessageActionPhoneCall.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Flags*
+  commentId: Overload:OpenTl.Schema.TMessageActionPhoneCall.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TMessageActionPhoneCall.Flags
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TMessageActionPhoneCall.CallId*
+  commentId: Overload:OpenTl.Schema.TMessageActionPhoneCall.CallId
+  isExternal: false
+  name: CallId
+  nameWithType: TMessageActionPhoneCall.CallId
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.CallId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Reason*
+  commentId: Overload:OpenTl.Schema.TMessageActionPhoneCall.Reason
+  isExternal: false
+  name: Reason
+  nameWithType: TMessageActionPhoneCall.Reason
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Reason
+- uid: OpenTl.Schema.IPhoneCallDiscardReason
+  commentId: T:OpenTl.Schema.IPhoneCallDiscardReason
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCallDiscardReason
+  nameWithType: IPhoneCallDiscardReason
+  fullName: OpenTl.Schema.IPhoneCallDiscardReason
+- uid: OpenTl.Schema.TMessageActionPhoneCall.Duration*
+  commentId: Overload:OpenTl.Schema.TMessageActionPhoneCall.Duration
+  isExternal: false
+  name: Duration
+  nameWithType: TMessageActionPhoneCall.Duration
+  fullName: OpenTl.Schema.TMessageActionPhoneCall.Duration
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

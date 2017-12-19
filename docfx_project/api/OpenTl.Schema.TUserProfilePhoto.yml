@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUserProfilePhoto
+  commentId: T:OpenTl.Schema.TUserProfilePhoto
+  id: TUserProfilePhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUserProfilePhoto.PhotoBig
+  - OpenTl.Schema.TUserProfilePhoto.PhotoId
+  - OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+  langs:
+  - csharp
+  - vb
+  name: TUserProfilePhoto
+  nameWithType: TUserProfilePhoto
+  fullName: OpenTl.Schema.TUserProfilePhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUserProfilePhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUserProfilePhoto : object, IUserProfilePhoto, IObject'
+    content.vb: >-
+      Public Class TUserProfilePhoto
+
+          Inherits Object
+
+          Implements IUserProfilePhoto, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUserProfilePhoto
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoId
+  commentId: P:OpenTl.Schema.TUserProfilePhoto.PhotoId
+  id: PhotoId
+  parent: OpenTl.Schema.TUserProfilePhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoId
+  nameWithType: TUserProfilePhoto.PhotoId
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoId
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PhotoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PhotoId As Long
+  overload: OpenTl.Schema.TUserProfilePhoto.PhotoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+  commentId: P:OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+  id: PhotoSmall
+  parent: OpenTl.Schema.TUserProfilePhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoSmall
+  nameWithType: TUserProfilePhoto.PhotoSmall
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoSmall
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IFileLocation PhotoSmall { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Public Property PhotoSmall As IFileLocation
+  overload: OpenTl.Schema.TUserProfilePhoto.PhotoSmall*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoBig
+  commentId: P:OpenTl.Schema.TUserProfilePhoto.PhotoBig
+  id: PhotoBig
+  parent: OpenTl.Schema.TUserProfilePhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoBig
+  nameWithType: TUserProfilePhoto.PhotoBig
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoBig
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoBig
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserProfilePhoto/TUserProfilePhoto.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IFileLocation PhotoBig { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Public Property PhotoBig As IFileLocation
+  overload: OpenTl.Schema.TUserProfilePhoto.PhotoBig*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUserProfilePhoto
+  commentId: T:OpenTl.Schema.IUserProfilePhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserProfilePhoto
+  nameWithType: IUserProfilePhoto
+  fullName: OpenTl.Schema.IUserProfilePhoto
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoId*
+  commentId: Overload:OpenTl.Schema.TUserProfilePhoto.PhotoId
+  isExternal: false
+  name: PhotoId
+  nameWithType: TUserProfilePhoto.PhotoId
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoSmall*
+  commentId: Overload:OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+  isExternal: false
+  name: PhotoSmall
+  nameWithType: TUserProfilePhoto.PhotoSmall
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoSmall
+- uid: OpenTl.Schema.IFileLocation
+  commentId: T:OpenTl.Schema.IFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFileLocation
+  nameWithType: IFileLocation
+  fullName: OpenTl.Schema.IFileLocation
+- uid: OpenTl.Schema.TUserProfilePhoto.PhotoBig*
+  commentId: Overload:OpenTl.Schema.TUserProfilePhoto.PhotoBig
+  isExternal: false
+  name: PhotoBig
+  nameWithType: TUserProfilePhoto.PhotoBig
+  fullName: OpenTl.Schema.TUserProfilePhoto.PhotoBig

@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMsgsAllInfo
+  commentId: T:OpenTl.Schema.TMsgsAllInfo
+  id: TMsgsAllInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMsgsAllInfo.Info
+  - OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+  - OpenTl.Schema.TMsgsAllInfo.MsgIds
+  langs:
+  - csharp
+  - vb
+  name: TMsgsAllInfo
+  nameWithType: TMsgsAllInfo
+  fullName: OpenTl.Schema.TMsgsAllInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMsgsAllInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMsgsAllInfo : object, IObject'
+    content.vb: >-
+      Public Class TMsgsAllInfo
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMsgsAllInfo.MsgIds
+  commentId: P:OpenTl.Schema.TMsgsAllInfo.MsgIds
+  id: MsgIds
+  parent: OpenTl.Schema.TMsgsAllInfo
+  langs:
+  - csharp
+  - vb
+  name: MsgIds
+  nameWithType: TMsgsAllInfo.MsgIds
+  fullName: OpenTl.Schema.TMsgsAllInfo.MsgIds
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgIds
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<long> MsgIds { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property MsgIds As TVector(Of Long)
+  overload: OpenTl.Schema.TMsgsAllInfo.MsgIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+  commentId: P:OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+  id: InfoAsBinary
+  parent: OpenTl.Schema.TMsgsAllInfo
+  langs:
+  - csharp
+  - vb
+  name: InfoAsBinary
+  nameWithType: TMsgsAllInfo.InfoAsBinary
+  fullName: OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InfoAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Info&apos; property
+  example: []
+  syntax:
+    content: public byte[] InfoAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property InfoAsBinary As Byte()
+  overload: OpenTl.Schema.TMsgsAllInfo.InfoAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgsAllInfo.Info
+  commentId: P:OpenTl.Schema.TMsgsAllInfo.Info
+  id: Info
+  parent: OpenTl.Schema.TMsgsAllInfo
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TMsgsAllInfo.Info
+  fullName: OpenTl.Schema.TMsgsAllInfo.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/_Entities/TMsgsAllInfo.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Info { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Info As String
+  overload: OpenTl.Schema.TMsgsAllInfo.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMsgsAllInfo.MsgIds*
+  commentId: Overload:OpenTl.Schema.TMsgsAllInfo.MsgIds
+  isExternal: false
+  name: MsgIds
+  nameWithType: TMsgsAllInfo.MsgIds
+  fullName: OpenTl.Schema.TMsgsAllInfo.MsgIds
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TMsgsAllInfo.InfoAsBinary*
+  commentId: Overload:OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+  isExternal: false
+  name: InfoAsBinary
+  nameWithType: TMsgsAllInfo.InfoAsBinary
+  fullName: OpenTl.Schema.TMsgsAllInfo.InfoAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMsgsAllInfo.Info*
+  commentId: Overload:OpenTl.Schema.TMsgsAllInfo.Info
+  isExternal: false
+  name: Info
+  nameWithType: TMsgsAllInfo.Info
+  fullName: OpenTl.Schema.TMsgsAllInfo.Info
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

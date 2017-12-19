@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers
+  commentId: T:OpenTl.Schema.Messages.RequestGetRecentStickers
+  id: RequestGetRecentStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+  - OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+  - OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+  langs:
+  - csharp
+  - vb
+  name: RequestGetRecentStickers
+  nameWithType: RequestGetRecentStickers
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetRecentStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestGetRecentStickers : object, IRequest<IRecentStickers>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetRecentStickers
+
+          Inherits Object
+
+          Implements IRequest(Of IRecentStickers), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IRecentStickers}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestGetRecentStickers
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetRecentStickers.Flags
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestGetRecentStickers.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+  commentId: P:OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+  id: Attached
+  parent: OpenTl.Schema.Messages.RequestGetRecentStickers
+  langs:
+  - csharp
+  - vb
+  name: Attached
+  nameWithType: RequestGetRecentStickers.Attached
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Attached
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Attached { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Attached As Boolean
+  overload: OpenTl.Schema.Messages.RequestGetRecentStickers.Attached*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+  commentId: P:OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+  id: Hash
+  parent: OpenTl.Schema.Messages.RequestGetRecentStickers
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: RequestGetRecentStickers.Hash
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetRecentStickers.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Messages.RequestGetRecentStickers.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IRecentStickers}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IRecentStickers}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IRecentStickers>
+  nameWithType: IRequest<IRecentStickers>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IRecentStickers>
+  nameWithType.vb: IRequest(Of IRecentStickers)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IRecentStickers)
+  name.vb: IRequest(Of IRecentStickers)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IRecentStickers
+    name: IRecentStickers
+    nameWithType: IRecentStickers
+    fullName: OpenTl.Schema.Messages.IRecentStickers
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IRecentStickers
+    name: IRecentStickers
+    nameWithType: IRecentStickers
+    fullName: OpenTl.Schema.Messages.IRecentStickers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetRecentStickers.Flags
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Attached*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+  isExternal: false
+  name: Attached
+  nameWithType: RequestGetRecentStickers.Attached
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Attached
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestGetRecentStickers.Hash*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: RequestGetRecentStickers.Hash
+  fullName: OpenTl.Schema.Messages.RequestGetRecentStickers.Hash
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

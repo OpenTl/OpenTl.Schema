@@ -15,18 +15,21 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(1)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
        private byte[] _IdAsBinary;
        private string _Id;
        public string Id { get => _Id; set { IdAsBinary = Encoding.UTF8.GetBytes(value); _Id = value; }}
 
+       /// <summary>Binary representation for the 'Type' property</summary>
        [SerializationOrder(2)]
        public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
        private byte[] _TypeAsBinary;
        private string _Type;
        public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
@@ -34,6 +37,7 @@ namespace OpenTl.Schema
        private string _Title;
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
+       /// <summary>Binary representation for the 'Description' property</summary>
        [SerializationOrder(4)]
        [CanSerialize("Flags", 2)]
        public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}

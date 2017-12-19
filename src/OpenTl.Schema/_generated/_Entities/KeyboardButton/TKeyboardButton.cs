@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xa2fa4880)]
 	public class TKeyboardButton : IKeyboardButton
 	{
+       /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]
        public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
        private byte[] _TextAsBinary;

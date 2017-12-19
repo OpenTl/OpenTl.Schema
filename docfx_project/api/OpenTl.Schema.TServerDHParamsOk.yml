@@ -1,0 +1,288 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TServerDHParamsOk
+  commentId: T:OpenTl.Schema.TServerDHParamsOk
+  id: TServerDHParamsOk
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+  - OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+  - OpenTl.Schema.TServerDHParamsOk.Nonce
+  - OpenTl.Schema.TServerDHParamsOk.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TServerDHParamsOk
+  nameWithType: TServerDHParamsOk
+  fullName: OpenTl.Schema.TServerDHParamsOk
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TServerDHParamsOk
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TServerDHParamsOk : object, IServerDHParams, IObject'
+    content.vb: >-
+      Public Class TServerDHParamsOk
+
+          Inherits Object
+
+          Implements IServerDHParams, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IServerDHParams
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TServerDHParamsOk.Nonce
+  commentId: P:OpenTl.Schema.TServerDHParamsOk.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TServerDHParamsOk
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TServerDHParamsOk.Nonce
+  fullName: OpenTl.Schema.TServerDHParamsOk.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TServerDHParamsOk.Nonce*
+  implements:
+  - OpenTl.Schema.IServerDHParams.Nonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TServerDHParamsOk.ServerNonce
+  commentId: P:OpenTl.Schema.TServerDHParamsOk.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TServerDHParamsOk
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TServerDHParamsOk.ServerNonce
+  fullName: OpenTl.Schema.TServerDHParamsOk.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TServerDHParamsOk.ServerNonce*
+  implements:
+  - OpenTl.Schema.IServerDHParams.ServerNonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+  commentId: P:OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+  id: EncryptedAnswerAsBinary
+  parent: OpenTl.Schema.TServerDHParamsOk
+  langs:
+  - csharp
+  - vb
+  name: EncryptedAnswerAsBinary
+  nameWithType: TServerDHParamsOk.EncryptedAnswerAsBinary
+  fullName: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptedAnswerAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;EncryptedAnswer&apos; property
+  example: []
+  syntax:
+    content: public byte[] EncryptedAnswerAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EncryptedAnswerAsBinary As Byte()
+  overload: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+  commentId: P:OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+  id: EncryptedAnswer
+  parent: OpenTl.Schema.TServerDHParamsOk
+  langs:
+  - csharp
+  - vb
+  name: EncryptedAnswer
+  nameWithType: TServerDHParamsOk.EncryptedAnswer
+  fullName: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptedAnswer
+    path: ../src/OpenTl.Schema/_generated/_Entities/ServerDHParams/TServerDHParamsOk.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string EncryptedAnswer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EncryptedAnswer As String
+  overload: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IServerDHParams
+  commentId: T:OpenTl.Schema.IServerDHParams
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IServerDHParams
+  nameWithType: IServerDHParams
+  fullName: OpenTl.Schema.IServerDHParams
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TServerDHParamsOk.Nonce*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsOk.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TServerDHParamsOk.Nonce
+  fullName: OpenTl.Schema.TServerDHParamsOk.Nonce
+- uid: OpenTl.Schema.IServerDHParams.Nonce
+  commentId: P:OpenTl.Schema.IServerDHParams.Nonce
+  parent: OpenTl.Schema.IServerDHParams
+  isExternal: false
+  name: Nonce
+  nameWithType: IServerDHParams.Nonce
+  fullName: OpenTl.Schema.IServerDHParams.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TServerDHParamsOk.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsOk.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TServerDHParamsOk.ServerNonce
+  fullName: OpenTl.Schema.TServerDHParamsOk.ServerNonce
+- uid: OpenTl.Schema.IServerDHParams.ServerNonce
+  commentId: P:OpenTl.Schema.IServerDHParams.ServerNonce
+  parent: OpenTl.Schema.IServerDHParams
+  isExternal: false
+  name: ServerNonce
+  nameWithType: IServerDHParams.ServerNonce
+  fullName: OpenTl.Schema.IServerDHParams.ServerNonce
+- uid: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+  isExternal: false
+  name: EncryptedAnswerAsBinary
+  nameWithType: TServerDHParamsOk.EncryptedAnswerAsBinary
+  fullName: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswerAsBinary
+- uid: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer*
+  commentId: Overload:OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+  isExternal: false
+  name: EncryptedAnswer
+  nameWithType: TServerDHParamsOk.EncryptedAnswer
+  fullName: OpenTl.Schema.TServerDHParamsOk.EncryptedAnswer
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

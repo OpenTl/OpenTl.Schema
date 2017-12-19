@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x292c7be9)]
 	public class TPageBlockEmbedPost : IPageBlock
 	{
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;
@@ -24,6 +25,7 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public long AuthorPhotoId {get; set;}
 
+       /// <summary>Binary representation for the 'Author' property</summary>
        [SerializationOrder(3)]
        public byte[] AuthorAsBinary { get => _AuthorAsBinary; set { _Author = Encoding.UTF8.GetString(value); _AuthorAsBinary = value; }}
        private byte[] _AuthorAsBinary;

@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Caption' property</summary>
        [SerializationOrder(1)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
        private byte[] _CaptionAsBinary;

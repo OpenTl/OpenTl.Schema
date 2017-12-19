@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestGetContacts
+  commentId: T:OpenTl.Schema.Contacts.RequestGetContacts
+  id: RequestGetContacts
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestGetContacts.Hash
+  langs:
+  - csharp
+  - vb
+  name: RequestGetContacts
+  nameWithType: RequestGetContacts
+  fullName: OpenTl.Schema.Contacts.RequestGetContacts
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetContacts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetContacts
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetContacts.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestGetContacts : object, IRequest<IContacts>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetContacts
+
+          Inherits Object
+
+          Implements IRequest(Of IContacts), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IContacts}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestGetContacts.Hash
+  commentId: P:OpenTl.Schema.Contacts.RequestGetContacts.Hash
+  id: Hash
+  parent: OpenTl.Schema.Contacts.RequestGetContacts
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: RequestGetContacts.Hash
+  fullName: OpenTl.Schema.Contacts.RequestGetContacts.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetContacts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetContacts.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Contacts.RequestGetContacts.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IContacts}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IContacts}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IContacts>
+  nameWithType: IRequest<IContacts>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Contacts.IContacts>
+  nameWithType.vb: IRequest(Of IContacts)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Contacts.IContacts)
+  name.vb: IRequest(Of IContacts)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Contacts.IContacts
+    name: IContacts
+    nameWithType: IContacts
+    fullName: OpenTl.Schema.Contacts.IContacts
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Contacts.IContacts
+    name: IContacts
+    nameWithType: IContacts
+    fullName: OpenTl.Schema.Contacts.IContacts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestGetContacts.Hash*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetContacts.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: RequestGetContacts.Hash
+  fullName: OpenTl.Schema.Contacts.RequestGetContacts.Hash
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

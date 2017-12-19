@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPhoneCall
+  commentId: T:OpenTl.Schema.TInputPhoneCall
+  id: TInputPhoneCall
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputPhoneCall.AccessHash
+  - OpenTl.Schema.TInputPhoneCall.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputPhoneCall
+  nameWithType: TInputPhoneCall
+  fullName: OpenTl.Schema.TInputPhoneCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPhoneCall
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPhoneCall : object, IInputPhoneCall, IObject'
+    content.vb: >-
+      Public Class TInputPhoneCall
+
+          Inherits Object
+
+          Implements IInputPhoneCall, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPhoneCall
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputPhoneCall.Id
+  commentId: P:OpenTl.Schema.TInputPhoneCall.Id
+  id: Id
+  parent: OpenTl.Schema.TInputPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputPhoneCall.Id
+  fullName: OpenTl.Schema.TInputPhoneCall.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputPhoneCall.Id*
+  implements:
+  - OpenTl.Schema.IInputPhoneCall.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPhoneCall.AccessHash
+  commentId: P:OpenTl.Schema.TInputPhoneCall.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputPhoneCall.AccessHash
+  fullName: OpenTl.Schema.TInputPhoneCall.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPhoneCall/TInputPhoneCall.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputPhoneCall.AccessHash*
+  implements:
+  - OpenTl.Schema.IInputPhoneCall.AccessHash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPhoneCall
+  commentId: T:OpenTl.Schema.IInputPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoneCall
+  nameWithType: IInputPhoneCall
+  fullName: OpenTl.Schema.IInputPhoneCall
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputPhoneCall.Id*
+  commentId: Overload:OpenTl.Schema.TInputPhoneCall.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputPhoneCall.Id
+  fullName: OpenTl.Schema.TInputPhoneCall.Id
+- uid: OpenTl.Schema.IInputPhoneCall.Id
+  commentId: P:OpenTl.Schema.IInputPhoneCall.Id
+  parent: OpenTl.Schema.IInputPhoneCall
+  isExternal: false
+  name: Id
+  nameWithType: IInputPhoneCall.Id
+  fullName: OpenTl.Schema.IInputPhoneCall.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputPhoneCall.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputPhoneCall.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputPhoneCall.AccessHash
+  fullName: OpenTl.Schema.TInputPhoneCall.AccessHash
+- uid: OpenTl.Schema.IInputPhoneCall.AccessHash
+  commentId: P:OpenTl.Schema.IInputPhoneCall.AccessHash
+  parent: OpenTl.Schema.IInputPhoneCall
+  isExternal: false
+  name: AccessHash
+  nameWithType: IInputPhoneCall.AccessHash
+  fullName: OpenTl.Schema.IInputPhoneCall.AccessHash

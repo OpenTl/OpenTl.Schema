@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockAnchor
+  commentId: T:OpenTl.Schema.TPageBlockAnchor
+  id: TPageBlockAnchor
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockAnchor.Name
+  - OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockAnchor
+  nameWithType: TPageBlockAnchor
+  fullName: OpenTl.Schema.TPageBlockAnchor
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockAnchor
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockAnchor : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockAnchor
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+  commentId: P:OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+  id: NameAsBinary
+  parent: OpenTl.Schema.TPageBlockAnchor
+  langs:
+  - csharp
+  - vb
+  name: NameAsBinary
+  nameWithType: TPageBlockAnchor.NameAsBinary
+  fullName: OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Name&apos; property
+  example: []
+  syntax:
+    content: public byte[] NameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NameAsBinary As Byte()
+  overload: OpenTl.Schema.TPageBlockAnchor.NameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockAnchor.Name
+  commentId: P:OpenTl.Schema.TPageBlockAnchor.Name
+  id: Name
+  parent: OpenTl.Schema.TPageBlockAnchor
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TPageBlockAnchor.Name
+  fullName: OpenTl.Schema.TPageBlockAnchor.Name
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Name
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAnchor.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: OpenTl.Schema.TPageBlockAnchor.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockAnchor.NameAsBinary*
+  commentId: Overload:OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: TPageBlockAnchor.NameAsBinary
+  fullName: OpenTl.Schema.TPageBlockAnchor.NameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPageBlockAnchor.Name*
+  commentId: Overload:OpenTl.Schema.TPageBlockAnchor.Name
+  isExternal: false
+  name: Name
+  nameWithType: TPageBlockAnchor.Name
+  fullName: OpenTl.Schema.TPageBlockAnchor.Name
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

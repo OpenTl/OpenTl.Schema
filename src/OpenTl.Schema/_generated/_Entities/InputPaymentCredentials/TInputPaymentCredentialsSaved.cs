@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xc10eb2cf)]
 	public class TInputPaymentCredentialsSaved : IInputPaymentCredentials
 	{
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
        private byte[] _IdAsBinary;

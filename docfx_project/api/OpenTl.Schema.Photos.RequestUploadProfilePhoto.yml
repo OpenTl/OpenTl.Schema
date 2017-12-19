@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Photos.RequestUploadProfilePhoto
+  commentId: T:OpenTl.Schema.Photos.RequestUploadProfilePhoto
+  id: RequestUploadProfilePhoto
+  parent: OpenTl.Schema.Photos
+  children:
+  - OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+  langs:
+  - csharp
+  - vb
+  name: RequestUploadProfilePhoto
+  nameWithType: RequestUploadProfilePhoto
+  fullName: OpenTl.Schema.Photos.RequestUploadProfilePhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Photos/RequestUploadProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestUploadProfilePhoto
+    path: ../src/OpenTl.Schema/_generated/Photos/RequestUploadProfilePhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Photos
+  syntax:
+    content: 'public class RequestUploadProfilePhoto : object, IRequest<IPhoto>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestUploadProfilePhoto
+
+          Inherits Object
+
+          Implements IRequest(Of IPhoto), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Photos.IPhoto}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+  commentId: P:OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+  id: File
+  parent: OpenTl.Schema.Photos.RequestUploadProfilePhoto
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: RequestUploadProfilePhoto.File
+  fullName: OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Photos/RequestUploadProfilePhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: File
+    path: ../src/OpenTl.Schema/_generated/Photos/RequestUploadProfilePhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Photos
+  syntax:
+    content: public IInputFile File { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputFile
+    content.vb: Public Property File As IInputFile
+  overload: OpenTl.Schema.Photos.RequestUploadProfilePhoto.File*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Photos
+  commentId: N:OpenTl.Schema.Photos
+  isExternal: false
+  name: OpenTl.Schema.Photos
+  nameWithType: OpenTl.Schema.Photos
+  fullName: OpenTl.Schema.Photos
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Photos.IPhoto}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Photos.IPhoto}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IPhoto>
+  nameWithType: IRequest<IPhoto>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Photos.IPhoto>
+  nameWithType.vb: IRequest(Of IPhoto)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Photos.IPhoto)
+  name.vb: IRequest(Of IPhoto)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Photos.IPhoto
+    name: IPhoto
+    nameWithType: IPhoto
+    fullName: OpenTl.Schema.Photos.IPhoto
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Photos.IPhoto
+    name: IPhoto
+    nameWithType: IPhoto
+    fullName: OpenTl.Schema.Photos.IPhoto
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Photos.RequestUploadProfilePhoto.File*
+  commentId: Overload:OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+  isExternal: false
+  name: File
+  nameWithType: RequestUploadProfilePhoto.File
+  fullName: OpenTl.Schema.Photos.RequestUploadProfilePhoto.File
+- uid: OpenTl.Schema.IInputFile
+  commentId: T:OpenTl.Schema.IInputFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFile
+  nameWithType: IInputFile
+  fullName: OpenTl.Schema.IInputFile

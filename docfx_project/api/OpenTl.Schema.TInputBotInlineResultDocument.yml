@@ -1,0 +1,616 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineResultDocument
+  commentId: T:OpenTl.Schema.TInputBotInlineResultDocument
+  id: TInputBotInlineResultDocument
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineResultDocument.Description
+  - OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+  - OpenTl.Schema.TInputBotInlineResultDocument.Document
+  - OpenTl.Schema.TInputBotInlineResultDocument.Flags
+  - OpenTl.Schema.TInputBotInlineResultDocument.Id
+  - OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+  - OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+  - OpenTl.Schema.TInputBotInlineResultDocument.Title
+  - OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+  - OpenTl.Schema.TInputBotInlineResultDocument.Type
+  - OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineResultDocument
+  nameWithType: TInputBotInlineResultDocument
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineResultDocument
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineResultDocument : object, IInputBotInlineResult, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineResultDocument
+
+          Inherits Object
+
+          Implements IInputBotInlineResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Flags
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputBotInlineResultDocument.Flags
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultDocument.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Id
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Id
+  id: Id
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputBotInlineResultDocument.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Id*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TInputBotInlineResultDocument.TypeAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Type
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Type
+  id: Type
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TInputBotInlineResultDocument.Type
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TInputBotInlineResultDocument.TitleAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Title
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Title
+  id: Title
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TInputBotInlineResultDocument.Title
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TInputBotInlineResultDocument.DescriptionAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Description
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Description
+  id: Description
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TInputBotInlineResultDocument.Description
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Document
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.Document
+  id: Document
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: TInputBotInlineResultDocument.Document
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Document
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Document
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputDocument Document { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputDocument
+    content.vb: Public Property Document As IInputDocument
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.Document*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+  commentId: P:OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+  id: SendMessage
+  parent: OpenTl.Schema.TInputBotInlineResultDocument
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: TInputBotInlineResultDocument.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SendMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultDocument.cs
+    startLine: 50
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputBotInlineMessage SendMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputBotInlineMessage
+    content.vb: Public Property SendMessage As IInputBotInlineMessage
+  overload: OpenTl.Schema.TInputBotInlineResultDocument.SendMessage*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.SendMessage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineResult
+  commentId: T:OpenTl.Schema.IInputBotInlineResult
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineResult
+  nameWithType: IInputBotInlineResult
+  fullName: OpenTl.Schema.IInputBotInlineResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Flags*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputBotInlineResultDocument.Flags
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultDocument.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.IdAsBinary
+- uid: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IInputBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Id*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputBotInlineResultDocument.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Id
+- uid: OpenTl.Schema.IInputBotInlineResult.Id
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.Id
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: Id
+  nameWithType: IInputBotInlineResult.Id
+  fullName: OpenTl.Schema.IInputBotInlineResult.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TInputBotInlineResultDocument.TypeAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.TypeAsBinary
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Type*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Type
+  isExternal: false
+  name: Type
+  nameWithType: TInputBotInlineResultDocument.Type
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Type
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TInputBotInlineResultDocument.TitleAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.TitleAsBinary
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Title*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Title
+  isExternal: false
+  name: Title
+  nameWithType: TInputBotInlineResultDocument.Title
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Title
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TInputBotInlineResultDocument.DescriptionAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.DescriptionAsBinary
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Description*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Description
+  isExternal: false
+  name: Description
+  nameWithType: TInputBotInlineResultDocument.Description
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Description
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.Document*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.Document
+  isExternal: false
+  name: Document
+  nameWithType: TInputBotInlineResultDocument.Document
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.Document
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument
+- uid: OpenTl.Schema.TInputBotInlineResultDocument.SendMessage*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+  isExternal: false
+  name: SendMessage
+  nameWithType: TInputBotInlineResultDocument.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultDocument.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineResult.SendMessage
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.SendMessage
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: SendMessage
+  nameWithType: IInputBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IInputBotInlineResult.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage

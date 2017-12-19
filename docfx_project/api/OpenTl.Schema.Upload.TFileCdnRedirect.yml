@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect
+  commentId: T:OpenTl.Schema.Upload.TFileCdnRedirect
+  id: TFileCdnRedirect
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+  - OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+  - OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+  - OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+  - OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+  langs:
+  - csharp
+  - vb
+  name: TFileCdnRedirect
+  nameWithType: TFileCdnRedirect
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFileCdnRedirect
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class TFileCdnRedirect : object, IFile, IObject'
+    content.vb: >-
+      Public Class TFileCdnRedirect
+
+          Inherits Object
+
+          Implements IFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Upload.IFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+  commentId: P:OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+  id: DcId
+  parent: OpenTl.Schema.Upload.TFileCdnRedirect
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TFileCdnRedirect.DcId
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.Upload.TFileCdnRedirect.DcId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+  commentId: P:OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+  id: FileToken
+  parent: OpenTl.Schema.Upload.TFileCdnRedirect
+  langs:
+  - csharp
+  - vb
+  name: FileToken
+  nameWithType: TFileCdnRedirect.FileToken
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileToken
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] FileToken { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FileToken As Byte()
+  overload: OpenTl.Schema.Upload.TFileCdnRedirect.FileToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+  commentId: P:OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+  id: EncryptionKey
+  parent: OpenTl.Schema.Upload.TFileCdnRedirect
+  langs:
+  - csharp
+  - vb
+  name: EncryptionKey
+  nameWithType: TFileCdnRedirect.EncryptionKey
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptionKey
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] EncryptionKey { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EncryptionKey As Byte()
+  overload: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+  commentId: P:OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+  id: EncryptionIv
+  parent: OpenTl.Schema.Upload.TFileCdnRedirect
+  langs:
+  - csharp
+  - vb
+  name: EncryptionIv
+  nameWithType: TFileCdnRedirect.EncryptionIv
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptionIv
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] EncryptionIv { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EncryptionIv As Byte()
+  overload: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+  commentId: P:OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+  id: CdnFileHashes
+  parent: OpenTl.Schema.Upload.TFileCdnRedirect
+  langs:
+  - csharp
+  - vb
+  name: CdnFileHashes
+  nameWithType: TFileCdnRedirect.CdnFileHashes
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CdnFileHashes
+    path: ../src/OpenTl.Schema/_generated/Upload/File/TFileCdnRedirect.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public TVector<ICdnFileHash> CdnFileHashes { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}
+    content.vb: Public Property CdnFileHashes As TVector(Of ICdnFileHash)
+  overload: OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Upload.IFile
+  commentId: T:OpenTl.Schema.Upload.IFile
+  parent: OpenTl.Schema.Upload
+  isExternal: false
+  name: IFile
+  nameWithType: IFile
+  fullName: OpenTl.Schema.Upload.IFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.DcId*
+  commentId: Overload:OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TFileCdnRedirect.DcId
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.DcId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.FileToken*
+  commentId: Overload:OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+  isExternal: false
+  name: FileToken
+  nameWithType: TFileCdnRedirect.FileToken
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.FileToken
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey*
+  commentId: Overload:OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+  isExternal: false
+  name: EncryptionKey
+  nameWithType: TFileCdnRedirect.EncryptionKey
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionKey
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv*
+  commentId: Overload:OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+  isExternal: false
+  name: EncryptionIv
+  nameWithType: TFileCdnRedirect.EncryptionIv
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.EncryptionIv
+- uid: OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes*
+  commentId: Overload:OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+  isExternal: false
+  name: CdnFileHashes
+  nameWithType: TFileCdnRedirect.CdnFileHashes
+  fullName: OpenTl.Schema.Upload.TFileCdnRedirect.CdnFileHashes
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ICdnFileHash}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ICdnFileHash>
+  nameWithType: TVector<ICdnFileHash>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ICdnFileHash>
+  nameWithType.vb: TVector(Of ICdnFileHash)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ICdnFileHash)
+  name.vb: TVector(Of ICdnFileHash)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ICdnFileHash
+    name: ICdnFileHash
+    nameWithType: ICdnFileHash
+    fullName: OpenTl.Schema.ICdnFileHash
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ICdnFileHash
+    name: ICdnFileHash
+    nameWithType: ICdnFileHash
+    fullName: OpenTl.Schema.ICdnFileHash
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

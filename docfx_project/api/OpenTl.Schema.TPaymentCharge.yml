@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPaymentCharge
+  commentId: T:OpenTl.Schema.TPaymentCharge
+  id: TPaymentCharge
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPaymentCharge.Id
+  - OpenTl.Schema.TPaymentCharge.IdAsBinary
+  - OpenTl.Schema.TPaymentCharge.ProviderChargeId
+  - OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPaymentCharge
+  nameWithType: TPaymentCharge
+  fullName: OpenTl.Schema.TPaymentCharge
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPaymentCharge
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPaymentCharge : object, IPaymentCharge, IObject'
+    content.vb: >-
+      Public Class TPaymentCharge
+
+          Inherits Object
+
+          Implements IPaymentCharge, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPaymentCharge
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPaymentCharge.IdAsBinary
+  commentId: P:OpenTl.Schema.TPaymentCharge.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TPaymentCharge
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TPaymentCharge.IdAsBinary
+  fullName: OpenTl.Schema.TPaymentCharge.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TPaymentCharge.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IPaymentCharge.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentCharge.Id
+  commentId: P:OpenTl.Schema.TPaymentCharge.Id
+  id: Id
+  parent: OpenTl.Schema.TPaymentCharge
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TPaymentCharge.Id
+  fullName: OpenTl.Schema.TPaymentCharge.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TPaymentCharge.Id*
+  implements:
+  - OpenTl.Schema.IPaymentCharge.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+  commentId: P:OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+  id: ProviderChargeIdAsBinary
+  parent: OpenTl.Schema.TPaymentCharge
+  langs:
+  - csharp
+  - vb
+  name: ProviderChargeIdAsBinary
+  nameWithType: TPaymentCharge.ProviderChargeIdAsBinary
+  fullName: OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ProviderChargeIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ProviderChargeId&apos; property
+  example: []
+  syntax:
+    content: public byte[] ProviderChargeIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ProviderChargeIdAsBinary As Byte()
+  overload: OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary*
+  implements:
+  - OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPaymentCharge.ProviderChargeId
+  commentId: P:OpenTl.Schema.TPaymentCharge.ProviderChargeId
+  id: ProviderChargeId
+  parent: OpenTl.Schema.TPaymentCharge
+  langs:
+  - csharp
+  - vb
+  name: ProviderChargeId
+  nameWithType: TPaymentCharge.ProviderChargeId
+  fullName: OpenTl.Schema.TPaymentCharge.ProviderChargeId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ProviderChargeId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PaymentCharge/TPaymentCharge.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ProviderChargeId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProviderChargeId As String
+  overload: OpenTl.Schema.TPaymentCharge.ProviderChargeId*
+  implements:
+  - OpenTl.Schema.IPaymentCharge.ProviderChargeId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPaymentCharge
+  commentId: T:OpenTl.Schema.IPaymentCharge
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentCharge
+  nameWithType: IPaymentCharge
+  fullName: OpenTl.Schema.IPaymentCharge
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPaymentCharge.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TPaymentCharge.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TPaymentCharge.IdAsBinary
+  fullName: OpenTl.Schema.TPaymentCharge.IdAsBinary
+- uid: OpenTl.Schema.IPaymentCharge.IdAsBinary
+  commentId: P:OpenTl.Schema.IPaymentCharge.IdAsBinary
+  parent: OpenTl.Schema.IPaymentCharge
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IPaymentCharge.IdAsBinary
+  fullName: OpenTl.Schema.IPaymentCharge.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPaymentCharge.Id*
+  commentId: Overload:OpenTl.Schema.TPaymentCharge.Id
+  isExternal: false
+  name: Id
+  nameWithType: TPaymentCharge.Id
+  fullName: OpenTl.Schema.TPaymentCharge.Id
+- uid: OpenTl.Schema.IPaymentCharge.Id
+  commentId: P:OpenTl.Schema.IPaymentCharge.Id
+  parent: OpenTl.Schema.IPaymentCharge
+  isExternal: false
+  name: Id
+  nameWithType: IPaymentCharge.Id
+  fullName: OpenTl.Schema.IPaymentCharge.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary*
+  commentId: Overload:OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+  isExternal: false
+  name: ProviderChargeIdAsBinary
+  nameWithType: TPaymentCharge.ProviderChargeIdAsBinary
+  fullName: OpenTl.Schema.TPaymentCharge.ProviderChargeIdAsBinary
+- uid: OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary
+  commentId: P:OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary
+  parent: OpenTl.Schema.IPaymentCharge
+  isExternal: false
+  name: ProviderChargeIdAsBinary
+  nameWithType: IPaymentCharge.ProviderChargeIdAsBinary
+  fullName: OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary
+- uid: OpenTl.Schema.TPaymentCharge.ProviderChargeId*
+  commentId: Overload:OpenTl.Schema.TPaymentCharge.ProviderChargeId
+  isExternal: false
+  name: ProviderChargeId
+  nameWithType: TPaymentCharge.ProviderChargeId
+  fullName: OpenTl.Schema.TPaymentCharge.ProviderChargeId
+- uid: OpenTl.Schema.IPaymentCharge.ProviderChargeId
+  commentId: P:OpenTl.Schema.IPaymentCharge.ProviderChargeId
+  parent: OpenTl.Schema.IPaymentCharge
+  isExternal: false
+  name: ProviderChargeId
+  nameWithType: IPaymentCharge.ProviderChargeId
+  fullName: OpenTl.Schema.IPaymentCharge.ProviderChargeId

@@ -31,6 +31,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 0)]
        public byte[] Data {get; set;}
 
+       /// <summary>Binary representation for the 'GameShortName' property</summary>
        [SerializationOrder(6)]
        [CanSerialize("Flags", 1)]
        public byte[] GameShortNameAsBinary { get => _GameShortNameAsBinary; set { _GameShortName = Encoding.UTF8.GetString(value); _GameShortNameAsBinary = value; }}

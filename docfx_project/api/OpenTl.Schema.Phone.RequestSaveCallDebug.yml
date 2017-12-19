@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Phone.RequestSaveCallDebug
+  commentId: T:OpenTl.Schema.Phone.RequestSaveCallDebug
+  id: RequestSaveCallDebug
+  parent: OpenTl.Schema.Phone
+  children:
+  - OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+  - OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+  langs:
+  - csharp
+  - vb
+  name: RequestSaveCallDebug
+  nameWithType: RequestSaveCallDebug
+  fullName: OpenTl.Schema.Phone.RequestSaveCallDebug
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSaveCallDebug
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: 'public class RequestSaveCallDebug : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSaveCallDebug
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+  commentId: P:OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+  id: Peer
+  parent: OpenTl.Schema.Phone.RequestSaveCallDebug
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSaveCallDebug.Peer
+  fullName: OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IInputPhoneCall Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPhoneCall
+    content.vb: Public Property Peer As IInputPhoneCall
+  overload: OpenTl.Schema.Phone.RequestSaveCallDebug.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+  commentId: P:OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+  id: Debug
+  parent: OpenTl.Schema.Phone.RequestSaveCallDebug
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: RequestSaveCallDebug.Debug
+  fullName: OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Debug
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSaveCallDebug.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IDataJSON Debug { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDataJSON
+    content.vb: Public Property Debug As IDataJSON
+  overload: OpenTl.Schema.Phone.RequestSaveCallDebug.Debug*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Phone
+  commentId: N:OpenTl.Schema.Phone
+  isExternal: false
+  name: OpenTl.Schema.Phone
+  nameWithType: OpenTl.Schema.Phone
+  fullName: OpenTl.Schema.Phone
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Phone.RequestSaveCallDebug.Peer*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSaveCallDebug.Peer
+  fullName: OpenTl.Schema.Phone.RequestSaveCallDebug.Peer
+- uid: OpenTl.Schema.IInputPhoneCall
+  commentId: T:OpenTl.Schema.IInputPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoneCall
+  nameWithType: IInputPhoneCall
+  fullName: OpenTl.Schema.IInputPhoneCall
+- uid: OpenTl.Schema.Phone.RequestSaveCallDebug.Debug*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+  isExternal: false
+  name: Debug
+  nameWithType: RequestSaveCallDebug.Debug
+  fullName: OpenTl.Schema.Phone.RequestSaveCallDebug.Debug
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON

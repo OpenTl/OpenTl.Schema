@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TCodeTypeCall
+  commentId: T:OpenTl.Schema.Auth.TCodeTypeCall
+  id: TCodeTypeCall
+  parent: OpenTl.Schema.Auth
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TCodeTypeCall
+  nameWithType: TCodeTypeCall
+  fullName: OpenTl.Schema.Auth.TCodeTypeCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/CodeType/TCodeTypeCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCodeTypeCall
+    path: ../src/OpenTl.Schema/_generated/Auth/CodeType/TCodeTypeCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TCodeTypeCall : object, ICodeType, IObject'
+    content.vb: >-
+      Public Class TCodeTypeCall
+
+          Inherits Object
+
+          Implements ICodeType, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.ICodeType
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.ICodeType
+  commentId: T:OpenTl.Schema.Auth.ICodeType
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ICodeType
+  nameWithType: ICodeType
+  fullName: OpenTl.Schema.Auth.ICodeType
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

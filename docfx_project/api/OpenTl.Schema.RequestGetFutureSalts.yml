@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.RequestGetFutureSalts
+  commentId: T:OpenTl.Schema.RequestGetFutureSalts
+  id: RequestGetFutureSalts
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.RequestGetFutureSalts.Num
+  langs:
+  - csharp
+  - vb
+  name: RequestGetFutureSalts
+  nameWithType: RequestGetFutureSalts
+  fullName: OpenTl.Schema.RequestGetFutureSalts
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestGetFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetFutureSalts
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestGetFutureSalts.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class RequestGetFutureSalts : object, IRequest<IFutureSalts>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetFutureSalts
+
+          Inherits Object
+
+          Implements IRequest(Of IFutureSalts), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IFutureSalts}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.RequestGetFutureSalts.Num
+  commentId: P:OpenTl.Schema.RequestGetFutureSalts.Num
+  id: Num
+  parent: OpenTl.Schema.RequestGetFutureSalts
+  langs:
+  - csharp
+  - vb
+  name: Num
+  nameWithType: RequestGetFutureSalts.Num
+  fullName: OpenTl.Schema.RequestGetFutureSalts.Num
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestGetFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Num
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestGetFutureSalts.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Num { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Num As Integer
+  overload: OpenTl.Schema.RequestGetFutureSalts.Num*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IFutureSalts}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IFutureSalts}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IFutureSalts>
+  nameWithType: IRequest<IFutureSalts>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IFutureSalts>
+  nameWithType.vb: IRequest(Of IFutureSalts)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IFutureSalts)
+  name.vb: IRequest(Of IFutureSalts)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IFutureSalts
+    name: IFutureSalts
+    nameWithType: IFutureSalts
+    fullName: OpenTl.Schema.IFutureSalts
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IFutureSalts
+    name: IFutureSalts
+    nameWithType: IFutureSalts
+    fullName: OpenTl.Schema.IFutureSalts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.RequestGetFutureSalts.Num*
+  commentId: Overload:OpenTl.Schema.RequestGetFutureSalts.Num
+  isExternal: false
+  name: Num
+  nameWithType: RequestGetFutureSalts.Num
+  fullName: OpenTl.Schema.RequestGetFutureSalts.Num
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

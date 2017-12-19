@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IGame
+  commentId: T:OpenTl.Schema.IGame
+  id: IGame
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IGame.AccessHash
+  - OpenTl.Schema.IGame.Description
+  - OpenTl.Schema.IGame.DescriptionAsBinary
+  - OpenTl.Schema.IGame.Document
+  - OpenTl.Schema.IGame.Flags
+  - OpenTl.Schema.IGame.Id
+  - OpenTl.Schema.IGame.Photo
+  - OpenTl.Schema.IGame.ShortName
+  - OpenTl.Schema.IGame.ShortNameAsBinary
+  - OpenTl.Schema.IGame.Title
+  - OpenTl.Schema.IGame.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IGame
+  nameWithType: IGame
+  fullName: OpenTl.Schema.IGame
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IGame
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IGame : IObject'
+    content.vb: >-
+      Public Interface IGame
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IGame.Flags
+  commentId: P:OpenTl.Schema.IGame.Flags
+  id: Flags
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IGame.Flags
+  fullName: OpenTl.Schema.IGame.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IGame.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.Id
+  commentId: P:OpenTl.Schema.IGame.Id
+  id: Id
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IGame.Id
+  fullName: OpenTl.Schema.IGame.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property Id As Long
+  overload: OpenTl.Schema.IGame.Id*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.AccessHash
+  commentId: P:OpenTl.Schema.IGame.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: IGame.AccessHash
+  fullName: OpenTl.Schema.IGame.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property AccessHash As Long
+  overload: OpenTl.Schema.IGame.AccessHash*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.ShortNameAsBinary
+  commentId: P:OpenTl.Schema.IGame.ShortNameAsBinary
+  id: ShortNameAsBinary
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: ShortNameAsBinary
+  nameWithType: IGame.ShortNameAsBinary
+  fullName: OpenTl.Schema.IGame.ShortNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] ShortNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property ShortNameAsBinary As Byte()
+  overload: OpenTl.Schema.IGame.ShortNameAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.ShortName
+  commentId: P:OpenTl.Schema.IGame.ShortName
+  id: ShortName
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: IGame.ShortName
+  fullName: OpenTl.Schema.IGame.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ShortName As String
+  overload: OpenTl.Schema.IGame.ShortName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.TitleAsBinary
+  commentId: P:OpenTl.Schema.IGame.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: IGame.TitleAsBinary
+  fullName: OpenTl.Schema.IGame.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.IGame.TitleAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.Title
+  commentId: P:OpenTl.Schema.IGame.Title
+  id: Title
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: IGame.Title
+  fullName: OpenTl.Schema.IGame.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Title As String
+  overload: OpenTl.Schema.IGame.Title*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.IGame.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: IGame.DescriptionAsBinary
+  fullName: OpenTl.Schema.IGame.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.IGame.DescriptionAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.Description
+  commentId: P:OpenTl.Schema.IGame.Description
+  id: Description
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: IGame.Description
+  fullName: OpenTl.Schema.IGame.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Description As String
+  overload: OpenTl.Schema.IGame.Description*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.Photo
+  commentId: P:OpenTl.Schema.IGame.Photo
+  id: Photo
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: IGame.Photo
+  fullName: OpenTl.Schema.IGame.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: IPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Property Photo As IPhoto
+  overload: OpenTl.Schema.IGame.Photo*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IGame.Document
+  commentId: P:OpenTl.Schema.IGame.Document
+  id: Document
+  parent: OpenTl.Schema.IGame
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: IGame.Document
+  fullName: OpenTl.Schema.IGame.Document
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Document
+    path: ../src/OpenTl.Schema/_generated/_Entities/Game/IGame.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: IDocument Document { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDocument
+    content.vb: Property Document As IDocument
+  overload: OpenTl.Schema.IGame.Document*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IGame.Flags*
+  commentId: Overload:OpenTl.Schema.IGame.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IGame.Flags
+  fullName: OpenTl.Schema.IGame.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IGame.Id*
+  commentId: Overload:OpenTl.Schema.IGame.Id
+  isExternal: false
+  name: Id
+  nameWithType: IGame.Id
+  fullName: OpenTl.Schema.IGame.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.IGame.AccessHash*
+  commentId: Overload:OpenTl.Schema.IGame.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: IGame.AccessHash
+  fullName: OpenTl.Schema.IGame.AccessHash
+- uid: OpenTl.Schema.IGame.ShortNameAsBinary*
+  commentId: Overload:OpenTl.Schema.IGame.ShortNameAsBinary
+  isExternal: false
+  name: ShortNameAsBinary
+  nameWithType: IGame.ShortNameAsBinary
+  fullName: OpenTl.Schema.IGame.ShortNameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IGame.ShortName*
+  commentId: Overload:OpenTl.Schema.IGame.ShortName
+  isExternal: false
+  name: ShortName
+  nameWithType: IGame.ShortName
+  fullName: OpenTl.Schema.IGame.ShortName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IGame.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.IGame.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: IGame.TitleAsBinary
+  fullName: OpenTl.Schema.IGame.TitleAsBinary
+- uid: OpenTl.Schema.IGame.Title*
+  commentId: Overload:OpenTl.Schema.IGame.Title
+  isExternal: false
+  name: Title
+  nameWithType: IGame.Title
+  fullName: OpenTl.Schema.IGame.Title
+- uid: OpenTl.Schema.IGame.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.IGame.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: IGame.DescriptionAsBinary
+  fullName: OpenTl.Schema.IGame.DescriptionAsBinary
+- uid: OpenTl.Schema.IGame.Description*
+  commentId: Overload:OpenTl.Schema.IGame.Description
+  isExternal: false
+  name: Description
+  nameWithType: IGame.Description
+  fullName: OpenTl.Schema.IGame.Description
+- uid: OpenTl.Schema.IGame.Photo*
+  commentId: Overload:OpenTl.Schema.IGame.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: IGame.Photo
+  fullName: OpenTl.Schema.IGame.Photo
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.IGame.Document*
+  commentId: Overload:OpenTl.Schema.IGame.Document
+  isExternal: false
+  name: Document
+  nameWithType: IGame.Document
+  fullName: OpenTl.Schema.IGame.Document
+- uid: OpenTl.Schema.IDocument
+  commentId: T:OpenTl.Schema.IDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocument
+  nameWithType: IDocument
+  fullName: OpenTl.Schema.IDocument

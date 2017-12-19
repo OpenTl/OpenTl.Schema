@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TLangPackStringDeleted
+  commentId: T:OpenTl.Schema.TLangPackStringDeleted
+  id: TLangPackStringDeleted
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TLangPackStringDeleted.Key
+  - OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TLangPackStringDeleted
+  nameWithType: TLangPackStringDeleted
+  fullName: OpenTl.Schema.TLangPackStringDeleted
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLangPackStringDeleted
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TLangPackStringDeleted : object, ILangPackString, IObject'
+    content.vb: >-
+      Public Class TLangPackStringDeleted
+
+          Inherits Object
+
+          Implements ILangPackString, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ILangPackString
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+  commentId: P:OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+  id: KeyAsBinary
+  parent: OpenTl.Schema.TLangPackStringDeleted
+  langs:
+  - csharp
+  - vb
+  name: KeyAsBinary
+  nameWithType: TLangPackStringDeleted.KeyAsBinary
+  fullName: OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KeyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Key&apos; property
+  example: []
+  syntax:
+    content: public byte[] KeyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property KeyAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary*
+  implements:
+  - OpenTl.Schema.ILangPackString.KeyAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackStringDeleted.Key
+  commentId: P:OpenTl.Schema.TLangPackStringDeleted.Key
+  id: Key
+  parent: OpenTl.Schema.TLangPackStringDeleted
+  langs:
+  - csharp
+  - vb
+  name: Key
+  nameWithType: TLangPackStringDeleted.Key
+  fullName: OpenTl.Schema.TLangPackStringDeleted.Key
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Key
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackString/TLangPackStringDeleted.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Key { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Key As String
+  overload: OpenTl.Schema.TLangPackStringDeleted.Key*
+  implements:
+  - OpenTl.Schema.ILangPackString.Key
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ILangPackString
+  commentId: T:OpenTl.Schema.ILangPackString
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ILangPackString
+  nameWithType: ILangPackString
+  fullName: OpenTl.Schema.ILangPackString
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+  isExternal: false
+  name: KeyAsBinary
+  nameWithType: TLangPackStringDeleted.KeyAsBinary
+  fullName: OpenTl.Schema.TLangPackStringDeleted.KeyAsBinary
+- uid: OpenTl.Schema.ILangPackString.KeyAsBinary
+  commentId: P:OpenTl.Schema.ILangPackString.KeyAsBinary
+  parent: OpenTl.Schema.ILangPackString
+  isExternal: false
+  name: KeyAsBinary
+  nameWithType: ILangPackString.KeyAsBinary
+  fullName: OpenTl.Schema.ILangPackString.KeyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TLangPackStringDeleted.Key*
+  commentId: Overload:OpenTl.Schema.TLangPackStringDeleted.Key
+  isExternal: false
+  name: Key
+  nameWithType: TLangPackStringDeleted.Key
+  fullName: OpenTl.Schema.TLangPackStringDeleted.Key
+- uid: OpenTl.Schema.ILangPackString.Key
+  commentId: P:OpenTl.Schema.ILangPackString.Key
+  parent: OpenTl.Schema.ILangPackString
+  isExternal: false
+  name: Key
+  nameWithType: ILangPackString.Key
+  fullName: OpenTl.Schema.ILangPackString.Key
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

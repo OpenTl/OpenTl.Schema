@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMsgDetailedInfo
+  commentId: T:OpenTl.Schema.TMsgDetailedInfo
+  id: TMsgDetailedInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+  - OpenTl.Schema.TMsgDetailedInfo.Bytes
+  - OpenTl.Schema.TMsgDetailedInfo.MsgId
+  - OpenTl.Schema.TMsgDetailedInfo.Status
+  langs:
+  - csharp
+  - vb
+  name: TMsgDetailedInfo
+  nameWithType: TMsgDetailedInfo
+  fullName: OpenTl.Schema.TMsgDetailedInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMsgDetailedInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMsgDetailedInfo : object, IMsgDetailedInfo, IObject'
+    content.vb: >-
+      Public Class TMsgDetailedInfo
+
+          Inherits Object
+
+          Implements IMsgDetailedInfo, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMsgDetailedInfo.MsgId
+  commentId: P:OpenTl.Schema.TMsgDetailedInfo.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.TMsgDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: TMsgDetailedInfo.MsgId
+  fullName: OpenTl.Schema.TMsgDetailedInfo.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MsgId As Long
+  overload: OpenTl.Schema.TMsgDetailedInfo.MsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+  commentId: P:OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+  id: AnswerMsgId
+  parent: OpenTl.Schema.TMsgDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: AnswerMsgId
+  nameWithType: TMsgDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AnswerMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AnswerMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AnswerMsgId As Long
+  overload: OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgDetailedInfo.Bytes
+  commentId: P:OpenTl.Schema.TMsgDetailedInfo.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TMsgDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TMsgDetailedInfo.Bytes
+  fullName: OpenTl.Schema.TMsgDetailedInfo.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Bytes As Integer
+  overload: OpenTl.Schema.TMsgDetailedInfo.Bytes*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.Bytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgDetailedInfo.Status
+  commentId: P:OpenTl.Schema.TMsgDetailedInfo.Status
+  id: Status
+  parent: OpenTl.Schema.TMsgDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TMsgDetailedInfo.Status
+  fullName: OpenTl.Schema.TMsgDetailedInfo.Status
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Status
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgDetailedInfo.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: OpenTl.Schema.TMsgDetailedInfo.Status*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMsgDetailedInfo
+  commentId: T:OpenTl.Schema.IMsgDetailedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMsgDetailedInfo
+  nameWithType: IMsgDetailedInfo
+  fullName: OpenTl.Schema.IMsgDetailedInfo
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMsgDetailedInfo.MsgId*
+  commentId: Overload:OpenTl.Schema.TMsgDetailedInfo.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: TMsgDetailedInfo.MsgId
+  fullName: OpenTl.Schema.TMsgDetailedInfo.MsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId*
+  commentId: Overload:OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+  isExternal: false
+  name: AnswerMsgId
+  nameWithType: TMsgDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.TMsgDetailedInfo.AnswerMsgId
+- uid: OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: AnswerMsgId
+  nameWithType: IMsgDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+- uid: OpenTl.Schema.TMsgDetailedInfo.Bytes*
+  commentId: Overload:OpenTl.Schema.TMsgDetailedInfo.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TMsgDetailedInfo.Bytes
+  fullName: OpenTl.Schema.TMsgDetailedInfo.Bytes
+- uid: OpenTl.Schema.IMsgDetailedInfo.Bytes
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.Bytes
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: Bytes
+  nameWithType: IMsgDetailedInfo.Bytes
+  fullName: OpenTl.Schema.IMsgDetailedInfo.Bytes
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMsgDetailedInfo.Status*
+  commentId: Overload:OpenTl.Schema.TMsgDetailedInfo.Status
+  isExternal: false
+  name: Status
+  nameWithType: TMsgDetailedInfo.Status
+  fullName: OpenTl.Schema.TMsgDetailedInfo.Status
+- uid: OpenTl.Schema.IMsgDetailedInfo.Status
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.Status
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: Status
+  nameWithType: IMsgDetailedInfo.Status
+  fullName: OpenTl.Schema.IMsgDetailedInfo.Status

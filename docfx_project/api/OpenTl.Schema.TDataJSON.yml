@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDataJSON
+  commentId: T:OpenTl.Schema.TDataJSON
+  id: TDataJSON
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDataJSON.Data
+  - OpenTl.Schema.TDataJSON.DataAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TDataJSON
+  nameWithType: TDataJSON
+  fullName: OpenTl.Schema.TDataJSON
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDataJSON
+    path: ../src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDataJSON : object, IDataJSON, IObject'
+    content.vb: >-
+      Public Class TDataJSON
+
+          Inherits Object
+
+          Implements IDataJSON, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDataJSON
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDataJSON.DataAsBinary
+  commentId: P:OpenTl.Schema.TDataJSON.DataAsBinary
+  id: DataAsBinary
+  parent: OpenTl.Schema.TDataJSON
+  langs:
+  - csharp
+  - vb
+  name: DataAsBinary
+  nameWithType: TDataJSON.DataAsBinary
+  fullName: OpenTl.Schema.TDataJSON.DataAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DataAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Data&apos; property
+  example: []
+  syntax:
+    content: public byte[] DataAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DataAsBinary As Byte()
+  overload: OpenTl.Schema.TDataJSON.DataAsBinary*
+  implements:
+  - OpenTl.Schema.IDataJSON.DataAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDataJSON.Data
+  commentId: P:OpenTl.Schema.TDataJSON.Data
+  id: Data
+  parent: OpenTl.Schema.TDataJSON
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: TDataJSON.Data
+  fullName: OpenTl.Schema.TDataJSON.Data
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Data
+    path: ../src/OpenTl.Schema/_generated/_Entities/DataJSON/TDataJSON.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Data { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Data As String
+  overload: OpenTl.Schema.TDataJSON.Data*
+  implements:
+  - OpenTl.Schema.IDataJSON.Data
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDataJSON.DataAsBinary*
+  commentId: Overload:OpenTl.Schema.TDataJSON.DataAsBinary
+  isExternal: false
+  name: DataAsBinary
+  nameWithType: TDataJSON.DataAsBinary
+  fullName: OpenTl.Schema.TDataJSON.DataAsBinary
+- uid: OpenTl.Schema.IDataJSON.DataAsBinary
+  commentId: P:OpenTl.Schema.IDataJSON.DataAsBinary
+  parent: OpenTl.Schema.IDataJSON
+  isExternal: false
+  name: DataAsBinary
+  nameWithType: IDataJSON.DataAsBinary
+  fullName: OpenTl.Schema.IDataJSON.DataAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDataJSON.Data*
+  commentId: Overload:OpenTl.Schema.TDataJSON.Data
+  isExternal: false
+  name: Data
+  nameWithType: TDataJSON.Data
+  fullName: OpenTl.Schema.TDataJSON.Data
+- uid: OpenTl.Schema.IDataJSON.Data
+  commentId: P:OpenTl.Schema.IDataJSON.Data
+  parent: OpenTl.Schema.IDataJSON
+  isExternal: false
+  name: Data
+  nameWithType: IDataJSON.Data
+  fullName: OpenTl.Schema.IDataJSON.Data
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xce0d37b0)]
 	public class TPageBlockAnchor : IPageBlock
 	{
+       /// <summary>Binary representation for the 'Name' property</summary>
        [SerializationOrder(0)]
        public byte[] NameAsBinary { get => _NameAsBinary; set { _Name = Encoding.UTF8.GetString(value); _NameAsBinary = value; }}
        private byte[] _NameAsBinary;

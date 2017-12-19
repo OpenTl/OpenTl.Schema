@@ -18,6 +18,7 @@ namespace OpenTl.Schema.Phone
        [SerializationOrder(1)]
        public int Rating {get; set;}
 
+       /// <summary>Binary representation for the 'Comment' property</summary>
        [SerializationOrder(2)]
        public byte[] CommentAsBinary { get => _CommentAsBinary; set { _Comment = Encoding.UTF8.GetString(value); _CommentAsBinary = value; }}
        private byte[] _CommentAsBinary;

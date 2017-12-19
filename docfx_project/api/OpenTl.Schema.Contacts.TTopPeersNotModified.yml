@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.TTopPeersNotModified
+  commentId: T:OpenTl.Schema.Contacts.TTopPeersNotModified
+  id: TTopPeersNotModified
+  parent: OpenTl.Schema.Contacts
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TTopPeersNotModified
+  nameWithType: TTopPeersNotModified
+  fullName: OpenTl.Schema.Contacts.TTopPeersNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeersNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTopPeersNotModified
+    path: ../src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeersNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class TTopPeersNotModified : object, ITopPeers, IObject'
+    content.vb: >-
+      Public Class TTopPeersNotModified
+
+          Inherits Object
+
+          Implements ITopPeers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Contacts.ITopPeers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Contacts.ITopPeers
+  commentId: T:OpenTl.Schema.Contacts.ITopPeers
+  parent: OpenTl.Schema.Contacts
+  isExternal: false
+  name: ITopPeers
+  nameWithType: ITopPeers
+  fullName: OpenTl.Schema.Contacts.ITopPeers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

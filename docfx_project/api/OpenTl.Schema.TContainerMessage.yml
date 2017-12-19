@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TContainerMessage
+  commentId: T:OpenTl.Schema.TContainerMessage
+  id: TContainerMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TContainerMessage.Body
+  - OpenTl.Schema.TContainerMessage.Bytes
+  - OpenTl.Schema.TContainerMessage.MsgId
+  - OpenTl.Schema.TContainerMessage.SeqNo
+  langs:
+  - csharp
+  - vb
+  name: TContainerMessage
+  nameWithType: TContainerMessage
+  fullName: OpenTl.Schema.TContainerMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TContainerMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TContainerMessage
+    path: ../src/OpenTl.Schema/Entities/TContainerMessage.cs
+    startLine: 4
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TContainerMessage : object'
+    content.vb: >-
+      Public Class TContainerMessage
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TContainerMessage.MsgId
+  commentId: P:OpenTl.Schema.TContainerMessage.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.TContainerMessage
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: TContainerMessage.MsgId
+  fullName: OpenTl.Schema.TContainerMessage.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TContainerMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/Entities/TContainerMessage.cs
+    startLine: 6
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MsgId As Long
+  overload: OpenTl.Schema.TContainerMessage.MsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TContainerMessage.SeqNo
+  commentId: P:OpenTl.Schema.TContainerMessage.SeqNo
+  id: SeqNo
+  parent: OpenTl.Schema.TContainerMessage
+  langs:
+  - csharp
+  - vb
+  name: SeqNo
+  nameWithType: TContainerMessage.SeqNo
+  fullName: OpenTl.Schema.TContainerMessage.SeqNo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TContainerMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SeqNo
+    path: ../src/OpenTl.Schema/Entities/TContainerMessage.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int SeqNo { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SeqNo As Integer
+  overload: OpenTl.Schema.TContainerMessage.SeqNo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TContainerMessage.Bytes
+  commentId: P:OpenTl.Schema.TContainerMessage.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TContainerMessage
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TContainerMessage.Bytes
+  fullName: OpenTl.Schema.TContainerMessage.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TContainerMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/Entities/TContainerMessage.cs
+    startLine: 12
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Bytes As Integer
+  overload: OpenTl.Schema.TContainerMessage.Bytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TContainerMessage.Body
+  commentId: P:OpenTl.Schema.TContainerMessage.Body
+  id: Body
+  parent: OpenTl.Schema.TContainerMessage
+  langs:
+  - csharp
+  - vb
+  name: Body
+  nameWithType: TContainerMessage.Body
+  fullName: OpenTl.Schema.TContainerMessage.Body
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TContainerMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Body
+    path: ../src/OpenTl.Schema/Entities/TContainerMessage.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IObject Body { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IObject
+    content.vb: Public Property Body As IObject
+  overload: OpenTl.Schema.TContainerMessage.Body*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.TContainerMessage.MsgId*
+  commentId: Overload:OpenTl.Schema.TContainerMessage.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: TContainerMessage.MsgId
+  fullName: OpenTl.Schema.TContainerMessage.MsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TContainerMessage.SeqNo*
+  commentId: Overload:OpenTl.Schema.TContainerMessage.SeqNo
+  isExternal: false
+  name: SeqNo
+  nameWithType: TContainerMessage.SeqNo
+  fullName: OpenTl.Schema.TContainerMessage.SeqNo
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TContainerMessage.Bytes*
+  commentId: Overload:OpenTl.Schema.TContainerMessage.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TContainerMessage.Bytes
+  fullName: OpenTl.Schema.TContainerMessage.Bytes
+- uid: OpenTl.Schema.TContainerMessage.Body*
+  commentId: Overload:OpenTl.Schema.TContainerMessage.Body
+  isExternal: false
+  name: Body
+  nameWithType: TContainerMessage.Body
+  fullName: OpenTl.Schema.TContainerMessage.Body
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

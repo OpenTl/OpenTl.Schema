@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestImportCard
+  commentId: T:OpenTl.Schema.Contacts.RequestImportCard
+  id: RequestImportCard
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+  langs:
+  - csharp
+  - vb
+  name: RequestImportCard
+  nameWithType: RequestImportCard
+  fullName: OpenTl.Schema.Contacts.RequestImportCard
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestImportCard.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestImportCard
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestImportCard.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestImportCard : object, IRequest<IUser>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestImportCard
+
+          Inherits Object
+
+          Implements IRequest(Of IUser), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+  commentId: P:OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+  id: ExportCard
+  parent: OpenTl.Schema.Contacts.RequestImportCard
+  langs:
+  - csharp
+  - vb
+  name: ExportCard
+  nameWithType: RequestImportCard.ExportCard
+  fullName: OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestImportCard.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ExportCard
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestImportCard.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<int> ExportCard { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int32}
+    content.vb: Public Property ExportCard As TVector(Of Integer)
+  overload: OpenTl.Schema.Contacts.RequestImportCard.ExportCard*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUser>
+  nameWithType: IRequest<IUser>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUser>
+  nameWithType.vb: IRequest(Of IUser)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUser)
+  name.vb: IRequest(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestImportCard.ExportCard*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+  isExternal: false
+  name: ExportCard
+  nameWithType: RequestImportCard.ExportCard
+  fullName: OpenTl.Schema.Contacts.RequestImportCard.ExportCard
+- uid: OpenTl.Schema.TVector{System.Int32}
+  commentId: T:OpenTl.Schema.TVector{System.Int32}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int32>
+  nameWithType: TVector<Int32>
+  fullName: OpenTl.Schema.TVector<System.Int32>
+  nameWithType.vb: TVector(Of Int32)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int32)
+  name.vb: TVector(Of Int32)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

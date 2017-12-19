@@ -1,0 +1,763 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSearch
+  commentId: T:OpenTl.Schema.Messages.RequestSearch
+  id: RequestSearch
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSearch.AddOffset
+  - OpenTl.Schema.Messages.RequestSearch.Filter
+  - OpenTl.Schema.Messages.RequestSearch.Flags
+  - OpenTl.Schema.Messages.RequestSearch.FromId
+  - OpenTl.Schema.Messages.RequestSearch.Limit
+  - OpenTl.Schema.Messages.RequestSearch.MaxDate
+  - OpenTl.Schema.Messages.RequestSearch.MaxId
+  - OpenTl.Schema.Messages.RequestSearch.MinDate
+  - OpenTl.Schema.Messages.RequestSearch.MinId
+  - OpenTl.Schema.Messages.RequestSearch.OffsetId
+  - OpenTl.Schema.Messages.RequestSearch.Peer
+  - OpenTl.Schema.Messages.RequestSearch.Q
+  - OpenTl.Schema.Messages.RequestSearch.QAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestSearch
+  nameWithType: RequestSearch
+  fullName: OpenTl.Schema.Messages.RequestSearch
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSearch
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSearch : object, IRequest<IMessages>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSearch
+
+          Inherits Object
+
+          Implements IRequest(Of IMessages), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSearch.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSearch.Flags
+  fullName: OpenTl.Schema.Messages.RequestSearch.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestSearch.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSearch.Peer
+  fullName: OpenTl.Schema.Messages.RequestSearch.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestSearch.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.QAsBinary
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.QAsBinary
+  id: QAsBinary
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: QAsBinary
+  nameWithType: RequestSearch.QAsBinary
+  fullName: OpenTl.Schema.Messages.RequestSearch.QAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  summary: Binary representation for the &apos;Q&apos; property
+  example: []
+  syntax:
+    content: public byte[] QAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.RequestSearch.QAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.Q
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.Q
+  id: Q
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: RequestSearch.Q
+  fullName: OpenTl.Schema.Messages.RequestSearch.Q
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Q
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public string Q { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Q As String
+  overload: OpenTl.Schema.Messages.RequestSearch.Q*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.FromId
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.FromId
+  id: FromId
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: FromId
+  nameWithType: RequestSearch.FromId
+  fullName: OpenTl.Schema.Messages.RequestSearch.FromId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FromId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputUser FromId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputUser
+    content.vb: Public Property FromId As IInputUser
+  overload: OpenTl.Schema.Messages.RequestSearch.FromId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.Filter
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.Filter
+  id: Filter
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: RequestSearch.Filter
+  fullName: OpenTl.Schema.Messages.RequestSearch.Filter
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Filter
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IMessagesFilter Filter { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessagesFilter
+    content.vb: Public Property Filter As IMessagesFilter
+  overload: OpenTl.Schema.Messages.RequestSearch.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.MinDate
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.MinDate
+  id: MinDate
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: MinDate
+  nameWithType: RequestSearch.MinDate
+  fullName: OpenTl.Schema.Messages.RequestSearch.MinDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinDate
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MinDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinDate As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.MinDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.MaxDate
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.MaxDate
+  id: MaxDate
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: MaxDate
+  nameWithType: RequestSearch.MaxDate
+  fullName: OpenTl.Schema.Messages.RequestSearch.MaxDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxDate
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MaxDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxDate As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.MaxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.OffsetId
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.OffsetId
+  id: OffsetId
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: OffsetId
+  nameWithType: RequestSearch.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestSearch.OffsetId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OffsetId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int OffsetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property OffsetId As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.OffsetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.AddOffset
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.AddOffset
+  id: AddOffset
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: AddOffset
+  nameWithType: RequestSearch.AddOffset
+  fullName: OpenTl.Schema.Messages.RequestSearch.AddOffset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AddOffset
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int AddOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AddOffset As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.AddOffset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.Limit
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.Limit
+  id: Limit
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestSearch.Limit
+  fullName: OpenTl.Schema.Messages.RequestSearch.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 46
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.MaxId
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: RequestSearch.MaxId
+  fullName: OpenTl.Schema.Messages.RequestSearch.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSearch.MinId
+  commentId: P:OpenTl.Schema.Messages.RequestSearch.MinId
+  id: MinId
+  parent: OpenTl.Schema.Messages.RequestSearch
+  langs:
+  - csharp
+  - vb
+  name: MinId
+  nameWithType: RequestSearch.MinId
+  fullName: OpenTl.Schema.Messages.RequestSearch.MinId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSearch.cs
+    startLine: 52
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MinId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinId As Integer
+  overload: OpenTl.Schema.Messages.RequestSearch.MinId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IMessages}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IMessages>
+  nameWithType: IRequest<IMessages>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IMessages>
+  nameWithType.vb: IRequest(Of IMessages)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IMessages)
+  name.vb: IRequest(Of IMessages)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IMessages
+    name: IMessages
+    nameWithType: IMessages
+    fullName: OpenTl.Schema.Messages.IMessages
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IMessages
+    name: IMessages
+    nameWithType: IMessages
+    fullName: OpenTl.Schema.Messages.IMessages
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSearch.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSearch.Flags
+  fullName: OpenTl.Schema.Messages.RequestSearch.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestSearch.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSearch.Peer
+  fullName: OpenTl.Schema.Messages.RequestSearch.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestSearch.QAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.QAsBinary
+  isExternal: false
+  name: QAsBinary
+  nameWithType: RequestSearch.QAsBinary
+  fullName: OpenTl.Schema.Messages.RequestSearch.QAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Messages.RequestSearch.Q*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.Q
+  isExternal: false
+  name: Q
+  nameWithType: RequestSearch.Q
+  fullName: OpenTl.Schema.Messages.RequestSearch.Q
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Messages.RequestSearch.FromId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.FromId
+  isExternal: false
+  name: FromId
+  nameWithType: RequestSearch.FromId
+  fullName: OpenTl.Schema.Messages.RequestSearch.FromId
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser
+- uid: OpenTl.Schema.Messages.RequestSearch.Filter*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.Filter
+  isExternal: false
+  name: Filter
+  nameWithType: RequestSearch.Filter
+  fullName: OpenTl.Schema.Messages.RequestSearch.Filter
+- uid: OpenTl.Schema.IMessagesFilter
+  commentId: T:OpenTl.Schema.IMessagesFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessagesFilter
+  nameWithType: IMessagesFilter
+  fullName: OpenTl.Schema.IMessagesFilter
+- uid: OpenTl.Schema.Messages.RequestSearch.MinDate*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.MinDate
+  isExternal: false
+  name: MinDate
+  nameWithType: RequestSearch.MinDate
+  fullName: OpenTl.Schema.Messages.RequestSearch.MinDate
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestSearch.MaxDate*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.MaxDate
+  isExternal: false
+  name: MaxDate
+  nameWithType: RequestSearch.MaxDate
+  fullName: OpenTl.Schema.Messages.RequestSearch.MaxDate
+- uid: OpenTl.Schema.Messages.RequestSearch.OffsetId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.OffsetId
+  isExternal: false
+  name: OffsetId
+  nameWithType: RequestSearch.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestSearch.OffsetId
+- uid: OpenTl.Schema.Messages.RequestSearch.AddOffset*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.AddOffset
+  isExternal: false
+  name: AddOffset
+  nameWithType: RequestSearch.AddOffset
+  fullName: OpenTl.Schema.Messages.RequestSearch.AddOffset
+- uid: OpenTl.Schema.Messages.RequestSearch.Limit*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestSearch.Limit
+  fullName: OpenTl.Schema.Messages.RequestSearch.Limit
+- uid: OpenTl.Schema.Messages.RequestSearch.MaxId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: RequestSearch.MaxId
+  fullName: OpenTl.Schema.Messages.RequestSearch.MaxId
+- uid: OpenTl.Schema.Messages.RequestSearch.MinId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSearch.MinId
+  isExternal: false
+  name: MinId
+  nameWithType: RequestSearch.MinId
+  fullName: OpenTl.Schema.Messages.RequestSearch.MinId

@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Help
 	[Serialize(0x17c6b5f6)]
 	public class TSupport : ISupport
 	{
+       /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]
        public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
        private byte[] _PhoneNumberAsBinary;

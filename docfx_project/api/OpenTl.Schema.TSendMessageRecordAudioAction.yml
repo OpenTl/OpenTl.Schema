@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TSendMessageRecordAudioAction
+  commentId: T:OpenTl.Schema.TSendMessageRecordAudioAction
+  id: TSendMessageRecordAudioAction
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TSendMessageRecordAudioAction
+  nameWithType: TSendMessageRecordAudioAction
+  fullName: OpenTl.Schema.TSendMessageRecordAudioAction
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageRecordAudioAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSendMessageRecordAudioAction
+    path: ../src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageRecordAudioAction.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TSendMessageRecordAudioAction : object, ISendMessageAction, IObject'
+    content.vb: >-
+      Public Class TSendMessageRecordAudioAction
+
+          Inherits Object
+
+          Implements ISendMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ISendMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ISendMessageAction
+  commentId: T:OpenTl.Schema.ISendMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISendMessageAction
+  nameWithType: ISendMessageAction
+  fullName: OpenTl.Schema.ISendMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

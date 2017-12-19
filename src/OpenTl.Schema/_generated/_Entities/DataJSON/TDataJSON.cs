@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x7d748d04)]
 	public class TDataJSON : IDataJSON
 	{
+       /// <summary>Binary representation for the 'Data' property</summary>
        [SerializationOrder(0)]
        public byte[] DataAsBinary { get => _DataAsBinary; set { _Data = Encoding.UTF8.GetString(value); _DataAsBinary = value; }}
        private byte[] _DataAsBinary;

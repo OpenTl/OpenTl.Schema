@@ -19,6 +19,7 @@ namespace OpenTl.Schema.Account
        [FromFlag("Flags", 0)]
        public bool AllowFlashcall {get; set;}
 
+       /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(2)]
        public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
        private byte[] _PhoneNumberAsBinary;

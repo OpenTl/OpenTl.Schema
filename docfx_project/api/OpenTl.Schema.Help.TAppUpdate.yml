@@ -1,0 +1,372 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TAppUpdate
+  commentId: T:OpenTl.Schema.Help.TAppUpdate
+  id: TAppUpdate
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TAppUpdate.Critical
+  - OpenTl.Schema.Help.TAppUpdate.Id
+  - OpenTl.Schema.Help.TAppUpdate.Text
+  - OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+  - OpenTl.Schema.Help.TAppUpdate.Url
+  - OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TAppUpdate
+  nameWithType: TAppUpdate
+  fullName: OpenTl.Schema.Help.TAppUpdate
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TAppUpdate
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TAppUpdate : object, IAppUpdate, IObject'
+    content.vb: >-
+      Public Class TAppUpdate
+
+          Inherits Object
+
+          Implements IAppUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.IAppUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TAppUpdate.Id
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.Id
+  id: Id
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TAppUpdate.Id
+  fullName: OpenTl.Schema.Help.TAppUpdate.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.Help.TAppUpdate.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TAppUpdate.Critical
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.Critical
+  id: Critical
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: Critical
+  nameWithType: TAppUpdate.Critical
+  fullName: OpenTl.Schema.Help.TAppUpdate.Critical
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Critical
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public bool Critical { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Critical As Boolean
+  overload: OpenTl.Schema.Help.TAppUpdate.Critical*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TAppUpdate.UrlAsBinary
+  fullName: OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.Help.TAppUpdate.UrlAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TAppUpdate.Url
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.Url
+  id: Url
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TAppUpdate.Url
+  fullName: OpenTl.Schema.Help.TAppUpdate.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.Help.TAppUpdate.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TAppUpdate.TextAsBinary
+  fullName: OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.Help.TAppUpdate.TextAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TAppUpdate.Text
+  commentId: P:OpenTl.Schema.Help.TAppUpdate.Text
+  id: Text
+  parent: OpenTl.Schema.Help.TAppUpdate
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TAppUpdate.Text
+  fullName: OpenTl.Schema.Help.TAppUpdate.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/Help/AppUpdate/TAppUpdate.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.Help.TAppUpdate.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.IAppUpdate
+  commentId: T:OpenTl.Schema.Help.IAppUpdate
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: IAppUpdate
+  nameWithType: IAppUpdate
+  fullName: OpenTl.Schema.Help.IAppUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TAppUpdate.Id*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.Id
+  isExternal: false
+  name: Id
+  nameWithType: TAppUpdate.Id
+  fullName: OpenTl.Schema.Help.TAppUpdate.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Help.TAppUpdate.Critical*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.Critical
+  isExternal: false
+  name: Critical
+  nameWithType: TAppUpdate.Critical
+  fullName: OpenTl.Schema.Help.TAppUpdate.Critical
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Help.TAppUpdate.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TAppUpdate.UrlAsBinary
+  fullName: OpenTl.Schema.Help.TAppUpdate.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Help.TAppUpdate.Url*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.Url
+  isExternal: false
+  name: Url
+  nameWithType: TAppUpdate.Url
+  fullName: OpenTl.Schema.Help.TAppUpdate.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Help.TAppUpdate.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TAppUpdate.TextAsBinary
+  fullName: OpenTl.Schema.Help.TAppUpdate.TextAsBinary
+- uid: OpenTl.Schema.Help.TAppUpdate.Text*
+  commentId: Overload:OpenTl.Schema.Help.TAppUpdate.Text
+  isExternal: false
+  name: Text
+  nameWithType: TAppUpdate.Text
+  fullName: OpenTl.Schema.Help.TAppUpdate.Text

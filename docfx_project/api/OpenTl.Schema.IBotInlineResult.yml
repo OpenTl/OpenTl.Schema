@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IBotInlineResult
+  commentId: T:OpenTl.Schema.IBotInlineResult
+  id: IBotInlineResult
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IBotInlineResult.Flags
+  - OpenTl.Schema.IBotInlineResult.Id
+  - OpenTl.Schema.IBotInlineResult.IdAsBinary
+  - OpenTl.Schema.IBotInlineResult.SendMessage
+  - OpenTl.Schema.IBotInlineResult.Type
+  - OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IBotInlineResult
+  nameWithType: IBotInlineResult
+  fullName: OpenTl.Schema.IBotInlineResult
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IBotInlineResult
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IBotInlineResult : IObject'
+    content.vb: >-
+      Public Interface IBotInlineResult
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IBotInlineResult.Flags
+  commentId: P:OpenTl.Schema.IBotInlineResult.Flags
+  id: Flags
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IBotInlineResult.Flags
+  fullName: OpenTl.Schema.IBotInlineResult.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IBotInlineResult.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IBotInlineResult.IdAsBinary
+  commentId: P:OpenTl.Schema.IBotInlineResult.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: IBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.IBotInlineResult.IdAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IBotInlineResult.Id
+  commentId: P:OpenTl.Schema.IBotInlineResult.Id
+  id: Id
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IBotInlineResult.Id
+  fullName: OpenTl.Schema.IBotInlineResult.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Id As String
+  overload: OpenTl.Schema.IBotInlineResult.Id*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  commentId: P:OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: IBotInlineResult.TypeAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 16
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.IBotInlineResult.TypeAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IBotInlineResult.Type
+  commentId: P:OpenTl.Schema.IBotInlineResult.Type
+  id: Type
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IBotInlineResult.Type
+  fullName: OpenTl.Schema.IBotInlineResult.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Type As String
+  overload: OpenTl.Schema.IBotInlineResult.Type*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IBotInlineResult.SendMessage
+  commentId: P:OpenTl.Schema.IBotInlineResult.SendMessage
+  id: SendMessage
+  parent: OpenTl.Schema.IBotInlineResult
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: IBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IBotInlineResult.SendMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SendMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/IBotInlineResult.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: IBotInlineMessage SendMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IBotInlineMessage
+    content.vb: Property SendMessage As IBotInlineMessage
+  overload: OpenTl.Schema.IBotInlineResult.SendMessage*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IBotInlineResult.Flags*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IBotInlineResult.Flags
+  fullName: OpenTl.Schema.IBotInlineResult.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IBotInlineResult.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IBotInlineResult.Id*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.Id
+  isExternal: false
+  name: Id
+  nameWithType: IBotInlineResult.Id
+  fullName: OpenTl.Schema.IBotInlineResult.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IBotInlineResult.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: IBotInlineResult.TypeAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.TypeAsBinary
+- uid: OpenTl.Schema.IBotInlineResult.Type*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.Type
+  isExternal: false
+  name: Type
+  nameWithType: IBotInlineResult.Type
+  fullName: OpenTl.Schema.IBotInlineResult.Type
+- uid: OpenTl.Schema.IBotInlineResult.SendMessage*
+  commentId: Overload:OpenTl.Schema.IBotInlineResult.SendMessage
+  isExternal: false
+  name: SendMessage
+  nameWithType: IBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IBotInlineResult.SendMessage
+- uid: OpenTl.Schema.IBotInlineMessage
+  commentId: T:OpenTl.Schema.IBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInlineMessage
+  nameWithType: IBotInlineMessage
+  fullName: OpenTl.Schema.IBotInlineMessage

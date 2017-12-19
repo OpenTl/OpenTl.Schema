@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TChatsSlice
+  commentId: T:OpenTl.Schema.Messages.TChatsSlice
+  id: TChatsSlice
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TChatsSlice.Chats
+  - OpenTl.Schema.Messages.TChatsSlice.Count
+  langs:
+  - csharp
+  - vb
+  name: TChatsSlice
+  nameWithType: TChatsSlice
+  fullName: OpenTl.Schema.Messages.TChatsSlice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatsSlice
+    path: ../src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TChatsSlice : object, IChats, IObject'
+    content.vb: >-
+      Public Class TChatsSlice
+
+          Inherits Object
+
+          Implements IChats, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IChats
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TChatsSlice.Count
+  commentId: P:OpenTl.Schema.Messages.TChatsSlice.Count
+  id: Count
+  parent: OpenTl.Schema.Messages.TChatsSlice
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TChatsSlice.Count
+  fullName: OpenTl.Schema.Messages.TChatsSlice.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: OpenTl.Schema.Messages.TChatsSlice.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TChatsSlice.Chats
+  commentId: P:OpenTl.Schema.Messages.TChatsSlice.Chats
+  id: Chats
+  parent: OpenTl.Schema.Messages.TChatsSlice
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TChatsSlice.Chats
+  fullName: OpenTl.Schema.Messages.TChatsSlice.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Messages/Chats/TChatsSlice.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Messages.TChatsSlice.Chats*
+  implements:
+  - OpenTl.Schema.Messages.IChats.Chats
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IChats
+  commentId: T:OpenTl.Schema.Messages.IChats
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IChats
+  nameWithType: IChats
+  fullName: OpenTl.Schema.Messages.IChats
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TChatsSlice.Count*
+  commentId: Overload:OpenTl.Schema.Messages.TChatsSlice.Count
+  isExternal: false
+  name: Count
+  nameWithType: TChatsSlice.Count
+  fullName: OpenTl.Schema.Messages.TChatsSlice.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TChatsSlice.Chats*
+  commentId: Overload:OpenTl.Schema.Messages.TChatsSlice.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TChatsSlice.Chats
+  fullName: OpenTl.Schema.Messages.TChatsSlice.Chats
+- uid: OpenTl.Schema.Messages.IChats.Chats
+  commentId: P:OpenTl.Schema.Messages.IChats.Chats
+  parent: OpenTl.Schema.Messages.IChats
+  isExternal: false
+  name: Chats
+  nameWithType: IChats.Chats
+  fullName: OpenTl.Schema.Messages.IChats.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

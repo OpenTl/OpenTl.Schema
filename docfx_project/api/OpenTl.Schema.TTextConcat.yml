@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTextConcat
+  commentId: T:OpenTl.Schema.TTextConcat
+  id: TTextConcat
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTextConcat.Texts
+  langs:
+  - csharp
+  - vb
+  name: TTextConcat
+  nameWithType: TTextConcat
+  fullName: OpenTl.Schema.TTextConcat
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextConcat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTextConcat
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextConcat.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTextConcat : object, IRichText, IObject'
+    content.vb: >-
+      Public Class TTextConcat
+
+          Inherits Object
+
+          Implements IRichText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRichText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTextConcat.Texts
+  commentId: P:OpenTl.Schema.TTextConcat.Texts
+  id: Texts
+  parent: OpenTl.Schema.TTextConcat
+  langs:
+  - csharp
+  - vb
+  name: Texts
+  nameWithType: TTextConcat.Texts
+  fullName: OpenTl.Schema.TTextConcat.Texts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextConcat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Texts
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextConcat.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IRichText> Texts { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+    content.vb: Public Property Texts As TVector(Of IRichText)
+  overload: OpenTl.Schema.TTextConcat.Texts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTextConcat.Texts*
+  commentId: Overload:OpenTl.Schema.TTextConcat.Texts
+  isExternal: false
+  name: Texts
+  nameWithType: TTextConcat.Texts
+  fullName: OpenTl.Schema.TTextConcat.Texts
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IRichText>
+  nameWithType: TVector<IRichText>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IRichText>
+  nameWithType.vb: TVector(Of IRichText)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IRichText)
+  name.vb: TVector(Of IRichText)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IRichText
+    name: IRichText
+    nameWithType: IRichText
+    fullName: OpenTl.Schema.IRichText
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IRichText
+    name: IRichText
+    nameWithType: IRichText
+    fullName: OpenTl.Schema.IRichText
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,442 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdates
+  commentId: T:OpenTl.Schema.TUpdates
+  id: TUpdates
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdates.Chats
+  - OpenTl.Schema.TUpdates.Date
+  - OpenTl.Schema.TUpdates.Seq
+  - OpenTl.Schema.TUpdates.Updates
+  - OpenTl.Schema.TUpdates.Users
+  langs:
+  - csharp
+  - vb
+  name: TUpdates
+  nameWithType: TUpdates
+  fullName: OpenTl.Schema.TUpdates
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdates
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdates : object, IUpdates, IObject'
+    content.vb: >-
+      Public Class TUpdates
+
+          Inherits Object
+
+          Implements IUpdates, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdates
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdates.Updates
+  commentId: P:OpenTl.Schema.TUpdates.Updates
+  id: Updates
+  parent: OpenTl.Schema.TUpdates
+  langs:
+  - csharp
+  - vb
+  name: Updates
+  nameWithType: TUpdates.Updates
+  fullName: OpenTl.Schema.TUpdates.Updates
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Updates
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IUpdate> Updates { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+    content.vb: Public Property Updates As TVector(Of IUpdate)
+  overload: OpenTl.Schema.TUpdates.Updates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdates.Users
+  commentId: P:OpenTl.Schema.TUpdates.Users
+  id: Users
+  parent: OpenTl.Schema.TUpdates
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TUpdates.Users
+  fullName: OpenTl.Schema.TUpdates.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.TUpdates.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdates.Chats
+  commentId: P:OpenTl.Schema.TUpdates.Chats
+  id: Chats
+  parent: OpenTl.Schema.TUpdates
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TUpdates.Chats
+  fullName: OpenTl.Schema.TUpdates.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.TUpdates.Chats*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdates.Date
+  commentId: P:OpenTl.Schema.TUpdates.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdates
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdates.Date
+  fullName: OpenTl.Schema.TUpdates.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdates.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdates.Seq
+  commentId: P:OpenTl.Schema.TUpdates.Seq
+  id: Seq
+  parent: OpenTl.Schema.TUpdates
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: TUpdates.Seq
+  fullName: OpenTl.Schema.TUpdates.Seq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Seq
+    path: ../src/OpenTl.Schema/_generated/_Entities/Updates/TUpdates.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Seq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Seq As Integer
+  overload: OpenTl.Schema.TUpdates.Seq*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdates
+  commentId: T:OpenTl.Schema.IUpdates
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdates
+  nameWithType: IUpdates
+  fullName: OpenTl.Schema.IUpdates
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdates.Updates*
+  commentId: Overload:OpenTl.Schema.TUpdates.Updates
+  isExternal: false
+  name: Updates
+  nameWithType: TUpdates.Updates
+  fullName: OpenTl.Schema.TUpdates.Updates
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUpdate>
+  nameWithType: TVector<IUpdate>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUpdate>
+  nameWithType.vb: TVector(Of IUpdate)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUpdate)
+  name.vb: TVector(Of IUpdate)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TUpdates.Users*
+  commentId: Overload:OpenTl.Schema.TUpdates.Users
+  isExternal: false
+  name: Users
+  nameWithType: TUpdates.Users
+  fullName: OpenTl.Schema.TUpdates.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TUpdates.Chats*
+  commentId: Overload:OpenTl.Schema.TUpdates.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TUpdates.Chats
+  fullName: OpenTl.Schema.TUpdates.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TUpdates.Date*
+  commentId: Overload:OpenTl.Schema.TUpdates.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdates.Date
+  fullName: OpenTl.Schema.TUpdates.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdates.Seq*
+  commentId: Overload:OpenTl.Schema.TUpdates.Seq
+  isExternal: false
+  name: Seq
+  nameWithType: TUpdates.Seq
+  fullName: OpenTl.Schema.TUpdates.Seq

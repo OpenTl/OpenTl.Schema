@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int UserId {get; set;}
 
+       /// <summary>Binary representation for the 'Query' property</summary>
        [SerializationOrder(2)]
        public byte[] QueryAsBinary { get => _QueryAsBinary; set { _Query = Encoding.UTF8.GetString(value); _QueryAsBinary = value; }}
        private byte[] _QueryAsBinary;
@@ -28,6 +29,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 0)]
        public OpenTl.Schema.IGeoPoint Geo {get; set;}
 
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(4)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
        private byte[] _IdAsBinary;

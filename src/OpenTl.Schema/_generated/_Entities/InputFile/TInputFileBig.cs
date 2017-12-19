@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int Parts {get; set;}
 
+       /// <summary>Binary representation for the 'Name' property</summary>
        [SerializationOrder(2)]
        public byte[] NameAsBinary { get => _NameAsBinary; set { _Name = Encoding.UTF8.GetString(value); _NameAsBinary = value; }}
        private byte[] _NameAsBinary;

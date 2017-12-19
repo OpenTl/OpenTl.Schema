@@ -19,6 +19,7 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 1)]
        public bool Mask {get; set;}
 
+       /// <summary>Binary representation for the 'Alt' property</summary>
        [SerializationOrder(2)]
        public byte[] AltAsBinary { get => _AltAsBinary; set { _Alt = Encoding.UTF8.GetString(value); _AltAsBinary = value; }}
        private byte[] _AltAsBinary;

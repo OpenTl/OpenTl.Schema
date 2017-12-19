@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TLangPackDifference
+  commentId: T:OpenTl.Schema.TLangPackDifference
+  id: TLangPackDifference
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TLangPackDifference.FromVersion
+  - OpenTl.Schema.TLangPackDifference.LangCode
+  - OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+  - OpenTl.Schema.TLangPackDifference.Strings
+  - OpenTl.Schema.TLangPackDifference.Version
+  langs:
+  - csharp
+  - vb
+  name: TLangPackDifference
+  nameWithType: TLangPackDifference
+  fullName: OpenTl.Schema.TLangPackDifference
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLangPackDifference
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TLangPackDifference : object, ILangPackDifference, IObject'
+    content.vb: >-
+      Public Class TLangPackDifference
+
+          Inherits Object
+
+          Implements ILangPackDifference, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ILangPackDifference
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+  commentId: P:OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+  id: LangCodeAsBinary
+  parent: OpenTl.Schema.TLangPackDifference
+  langs:
+  - csharp
+  - vb
+  name: LangCodeAsBinary
+  nameWithType: TLangPackDifference.LangCodeAsBinary
+  fullName: OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;LangCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] LangCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LangCodeAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackDifference.LangCodeAsBinary*
+  implements:
+  - OpenTl.Schema.ILangPackDifference.LangCodeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackDifference.LangCode
+  commentId: P:OpenTl.Schema.TLangPackDifference.LangCode
+  id: LangCode
+  parent: OpenTl.Schema.TLangPackDifference
+  langs:
+  - csharp
+  - vb
+  name: LangCode
+  nameWithType: TLangPackDifference.LangCode
+  fullName: OpenTl.Schema.TLangPackDifference.LangCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string LangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LangCode As String
+  overload: OpenTl.Schema.TLangPackDifference.LangCode*
+  implements:
+  - OpenTl.Schema.ILangPackDifference.LangCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackDifference.FromVersion
+  commentId: P:OpenTl.Schema.TLangPackDifference.FromVersion
+  id: FromVersion
+  parent: OpenTl.Schema.TLangPackDifference
+  langs:
+  - csharp
+  - vb
+  name: FromVersion
+  nameWithType: TLangPackDifference.FromVersion
+  fullName: OpenTl.Schema.TLangPackDifference.FromVersion
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FromVersion
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int FromVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FromVersion As Integer
+  overload: OpenTl.Schema.TLangPackDifference.FromVersion*
+  implements:
+  - OpenTl.Schema.ILangPackDifference.FromVersion
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackDifference.Version
+  commentId: P:OpenTl.Schema.TLangPackDifference.Version
+  id: Version
+  parent: OpenTl.Schema.TLangPackDifference
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TLangPackDifference.Version
+  fullName: OpenTl.Schema.TLangPackDifference.Version
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Version
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: OpenTl.Schema.TLangPackDifference.Version*
+  implements:
+  - OpenTl.Schema.ILangPackDifference.Version
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackDifference.Strings
+  commentId: P:OpenTl.Schema.TLangPackDifference.Strings
+  id: Strings
+  parent: OpenTl.Schema.TLangPackDifference
+  langs:
+  - csharp
+  - vb
+  name: Strings
+  nameWithType: TLangPackDifference.Strings
+  fullName: OpenTl.Schema.TLangPackDifference.Strings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Strings
+    path: ../src/OpenTl.Schema/_generated/_Entities/LangPackDifference/TLangPackDifference.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<ILangPackString> Strings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ILangPackString}
+    content.vb: Public Property Strings As TVector(Of ILangPackString)
+  overload: OpenTl.Schema.TLangPackDifference.Strings*
+  implements:
+  - OpenTl.Schema.ILangPackDifference.Strings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ILangPackDifference
+  commentId: T:OpenTl.Schema.ILangPackDifference
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ILangPackDifference
+  nameWithType: ILangPackDifference
+  fullName: OpenTl.Schema.ILangPackDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TLangPackDifference.LangCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+  isExternal: false
+  name: LangCodeAsBinary
+  nameWithType: TLangPackDifference.LangCodeAsBinary
+  fullName: OpenTl.Schema.TLangPackDifference.LangCodeAsBinary
+- uid: OpenTl.Schema.ILangPackDifference.LangCodeAsBinary
+  commentId: P:OpenTl.Schema.ILangPackDifference.LangCodeAsBinary
+  parent: OpenTl.Schema.ILangPackDifference
+  isExternal: false
+  name: LangCodeAsBinary
+  nameWithType: ILangPackDifference.LangCodeAsBinary
+  fullName: OpenTl.Schema.ILangPackDifference.LangCodeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TLangPackDifference.LangCode*
+  commentId: Overload:OpenTl.Schema.TLangPackDifference.LangCode
+  isExternal: false
+  name: LangCode
+  nameWithType: TLangPackDifference.LangCode
+  fullName: OpenTl.Schema.TLangPackDifference.LangCode
+- uid: OpenTl.Schema.ILangPackDifference.LangCode
+  commentId: P:OpenTl.Schema.ILangPackDifference.LangCode
+  parent: OpenTl.Schema.ILangPackDifference
+  isExternal: false
+  name: LangCode
+  nameWithType: ILangPackDifference.LangCode
+  fullName: OpenTl.Schema.ILangPackDifference.LangCode
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TLangPackDifference.FromVersion*
+  commentId: Overload:OpenTl.Schema.TLangPackDifference.FromVersion
+  isExternal: false
+  name: FromVersion
+  nameWithType: TLangPackDifference.FromVersion
+  fullName: OpenTl.Schema.TLangPackDifference.FromVersion
+- uid: OpenTl.Schema.ILangPackDifference.FromVersion
+  commentId: P:OpenTl.Schema.ILangPackDifference.FromVersion
+  parent: OpenTl.Schema.ILangPackDifference
+  isExternal: false
+  name: FromVersion
+  nameWithType: ILangPackDifference.FromVersion
+  fullName: OpenTl.Schema.ILangPackDifference.FromVersion
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TLangPackDifference.Version*
+  commentId: Overload:OpenTl.Schema.TLangPackDifference.Version
+  isExternal: false
+  name: Version
+  nameWithType: TLangPackDifference.Version
+  fullName: OpenTl.Schema.TLangPackDifference.Version
+- uid: OpenTl.Schema.ILangPackDifference.Version
+  commentId: P:OpenTl.Schema.ILangPackDifference.Version
+  parent: OpenTl.Schema.ILangPackDifference
+  isExternal: false
+  name: Version
+  nameWithType: ILangPackDifference.Version
+  fullName: OpenTl.Schema.ILangPackDifference.Version
+- uid: OpenTl.Schema.TLangPackDifference.Strings*
+  commentId: Overload:OpenTl.Schema.TLangPackDifference.Strings
+  isExternal: false
+  name: Strings
+  nameWithType: TLangPackDifference.Strings
+  fullName: OpenTl.Schema.TLangPackDifference.Strings
+- uid: OpenTl.Schema.ILangPackDifference.Strings
+  commentId: P:OpenTl.Schema.ILangPackDifference.Strings
+  parent: OpenTl.Schema.ILangPackDifference
+  isExternal: false
+  name: Strings
+  nameWithType: ILangPackDifference.Strings
+  fullName: OpenTl.Schema.ILangPackDifference.Strings
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ILangPackString}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ILangPackString}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ILangPackString>
+  nameWithType: TVector<ILangPackString>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ILangPackString>
+  nameWithType.vb: TVector(Of ILangPackString)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ILangPackString)
+  name.vb: TVector(Of ILangPackString)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ILangPackString
+    name: ILangPackString
+    nameWithType: ILangPackString
+    fullName: OpenTl.Schema.ILangPackString
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ILangPackString
+    name: ILangPackString
+    nameWithType: ILangPackString
+    fullName: OpenTl.Schema.ILangPackString
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

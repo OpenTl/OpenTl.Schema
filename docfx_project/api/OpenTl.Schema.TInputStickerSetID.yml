@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputStickerSetID
+  commentId: T:OpenTl.Schema.TInputStickerSetID
+  id: TInputStickerSetID
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputStickerSetID.AccessHash
+  - OpenTl.Schema.TInputStickerSetID.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputStickerSetID
+  nameWithType: TInputStickerSetID
+  fullName: OpenTl.Schema.TInputStickerSetID
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputStickerSetID
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputStickerSetID : object, IInputStickerSet, IObject'
+    content.vb: >-
+      Public Class TInputStickerSetID
+
+          Inherits Object
+
+          Implements IInputStickerSet, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputStickerSet
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputStickerSetID.Id
+  commentId: P:OpenTl.Schema.TInputStickerSetID.Id
+  id: Id
+  parent: OpenTl.Schema.TInputStickerSetID
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputStickerSetID.Id
+  fullName: OpenTl.Schema.TInputStickerSetID.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputStickerSetID.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputStickerSetID.AccessHash
+  commentId: P:OpenTl.Schema.TInputStickerSetID.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputStickerSetID
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputStickerSetID.AccessHash
+  fullName: OpenTl.Schema.TInputStickerSetID.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickerSet/TInputStickerSetID.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputStickerSetID.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputStickerSet
+  commentId: T:OpenTl.Schema.IInputStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSet
+  nameWithType: IInputStickerSet
+  fullName: OpenTl.Schema.IInputStickerSet
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputStickerSetID.Id*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetID.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputStickerSetID.Id
+  fullName: OpenTl.Schema.TInputStickerSetID.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputStickerSetID.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputStickerSetID.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputStickerSetID.AccessHash
+  fullName: OpenTl.Schema.TInputStickerSetID.AccessHash

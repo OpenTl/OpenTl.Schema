@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPong
+  commentId: T:OpenTl.Schema.TPong
+  id: TPong
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPong.MsgId
+  - OpenTl.Schema.TPong.PingId
+  langs:
+  - csharp
+  - vb
+  name: TPong
+  nameWithType: TPong
+  fullName: OpenTl.Schema.TPong
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPong
+    path: ../src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPong : object, IPong, IObject'
+    content.vb: >-
+      Public Class TPong
+
+          Inherits Object
+
+          Implements IPong, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPong
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPong.MsgId
+  commentId: P:OpenTl.Schema.TPong.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.TPong
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: TPong.MsgId
+  fullName: OpenTl.Schema.TPong.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MsgId As Long
+  overload: OpenTl.Schema.TPong.MsgId*
+  implements:
+  - OpenTl.Schema.IPong.MsgId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPong.PingId
+  commentId: P:OpenTl.Schema.TPong.PingId
+  id: PingId
+  parent: OpenTl.Schema.TPong
+  langs:
+  - csharp
+  - vb
+  name: PingId
+  nameWithType: TPong.PingId
+  fullName: OpenTl.Schema.TPong.PingId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PingId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Pong/TPong.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PingId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PingId As Long
+  overload: OpenTl.Schema.TPong.PingId*
+  implements:
+  - OpenTl.Schema.IPong.PingId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPong
+  commentId: T:OpenTl.Schema.IPong
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPong
+  nameWithType: IPong
+  fullName: OpenTl.Schema.IPong
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPong.MsgId*
+  commentId: Overload:OpenTl.Schema.TPong.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: TPong.MsgId
+  fullName: OpenTl.Schema.TPong.MsgId
+- uid: OpenTl.Schema.IPong.MsgId
+  commentId: P:OpenTl.Schema.IPong.MsgId
+  parent: OpenTl.Schema.IPong
+  isExternal: false
+  name: MsgId
+  nameWithType: IPong.MsgId
+  fullName: OpenTl.Schema.IPong.MsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPong.PingId*
+  commentId: Overload:OpenTl.Schema.TPong.PingId
+  isExternal: false
+  name: PingId
+  nameWithType: TPong.PingId
+  fullName: OpenTl.Schema.TPong.PingId
+- uid: OpenTl.Schema.IPong.PingId
+  commentId: P:OpenTl.Schema.IPong.PingId
+  parent: OpenTl.Schema.IPong
+  isExternal: false
+  name: PingId
+  nameWithType: IPong.PingId
+  fullName: OpenTl.Schema.IPong.PingId

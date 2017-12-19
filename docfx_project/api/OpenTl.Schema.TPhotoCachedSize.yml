@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhotoCachedSize
+  commentId: T:OpenTl.Schema.TPhotoCachedSize
+  id: TPhotoCachedSize
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPhotoCachedSize.Bytes
+  - OpenTl.Schema.TPhotoCachedSize.H
+  - OpenTl.Schema.TPhotoCachedSize.Location
+  - OpenTl.Schema.TPhotoCachedSize.Type
+  - OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+  - OpenTl.Schema.TPhotoCachedSize.W
+  langs:
+  - csharp
+  - vb
+  name: TPhotoCachedSize
+  nameWithType: TPhotoCachedSize
+  fullName: OpenTl.Schema.TPhotoCachedSize
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhotoCachedSize
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhotoCachedSize : object, IPhotoSize, IObject'
+    content.vb: >-
+      Public Class TPhotoCachedSize
+
+          Inherits Object
+
+          Implements IPhotoSize, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhotoSize
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TPhotoCachedSize.TypeAsBinary
+  fullName: OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TPhotoCachedSize.TypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoCachedSize.Type
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.Type
+  id: Type
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TPhotoCachedSize.Type
+  fullName: OpenTl.Schema.TPhotoCachedSize.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TPhotoCachedSize.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoCachedSize.Location
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.Location
+  id: Location
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: TPhotoCachedSize.Location
+  fullName: OpenTl.Schema.TPhotoCachedSize.Location
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Location
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IFileLocation Location { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Public Property Location As IFileLocation
+  overload: OpenTl.Schema.TPhotoCachedSize.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoCachedSize.W
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.W
+  id: W
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: TPhotoCachedSize.W
+  fullName: OpenTl.Schema.TPhotoCachedSize.W
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: W
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int W { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property W As Integer
+  overload: OpenTl.Schema.TPhotoCachedSize.W*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoCachedSize.H
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.H
+  id: H
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: TPhotoCachedSize.H
+  fullName: OpenTl.Schema.TPhotoCachedSize.H
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: H
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int H { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property H As Integer
+  overload: OpenTl.Schema.TPhotoCachedSize.H*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhotoCachedSize.Bytes
+  commentId: P:OpenTl.Schema.TPhotoCachedSize.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TPhotoCachedSize
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TPhotoCachedSize.Bytes
+  fullName: OpenTl.Schema.TPhotoCachedSize.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/TPhotoCachedSize.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.TPhotoCachedSize.Bytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhotoSize
+  commentId: T:OpenTl.Schema.IPhotoSize
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhotoSize
+  nameWithType: IPhotoSize
+  fullName: OpenTl.Schema.IPhotoSize
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPhotoCachedSize.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TPhotoCachedSize.TypeAsBinary
+  fullName: OpenTl.Schema.TPhotoCachedSize.TypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPhotoCachedSize.Type*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.Type
+  isExternal: false
+  name: Type
+  nameWithType: TPhotoCachedSize.Type
+  fullName: OpenTl.Schema.TPhotoCachedSize.Type
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPhotoCachedSize.Location*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.Location
+  isExternal: false
+  name: Location
+  nameWithType: TPhotoCachedSize.Location
+  fullName: OpenTl.Schema.TPhotoCachedSize.Location
+- uid: OpenTl.Schema.IFileLocation
+  commentId: T:OpenTl.Schema.IFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFileLocation
+  nameWithType: IFileLocation
+  fullName: OpenTl.Schema.IFileLocation
+- uid: OpenTl.Schema.TPhotoCachedSize.W*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.W
+  isExternal: false
+  name: W
+  nameWithType: TPhotoCachedSize.W
+  fullName: OpenTl.Schema.TPhotoCachedSize.W
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPhotoCachedSize.H*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.H
+  isExternal: false
+  name: H
+  nameWithType: TPhotoCachedSize.H
+  fullName: OpenTl.Schema.TPhotoCachedSize.H
+- uid: OpenTl.Schema.TPhotoCachedSize.Bytes*
+  commentId: Overload:OpenTl.Schema.TPhotoCachedSize.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TPhotoCachedSize.Bytes
+  fullName: OpenTl.Schema.TPhotoCachedSize.Bytes

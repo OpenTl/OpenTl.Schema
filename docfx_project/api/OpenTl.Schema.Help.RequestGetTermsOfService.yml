@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.RequestGetTermsOfService
+  commentId: T:OpenTl.Schema.Help.RequestGetTermsOfService
+  id: RequestGetTermsOfService
+  parent: OpenTl.Schema.Help
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RequestGetTermsOfService
+  nameWithType: RequestGetTermsOfService
+  fullName: OpenTl.Schema.Help.RequestGetTermsOfService
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RequestGetTermsOfService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetTermsOfService
+    path: ../src/OpenTl.Schema/_generated/Help/RequestGetTermsOfService.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class RequestGetTermsOfService : object, IRequest<ITermsOfService>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetTermsOfService
+
+          Inherits Object
+
+          Implements IRequest(Of ITermsOfService), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Help.ITermsOfService}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Help.ITermsOfService}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Help.ITermsOfService}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ITermsOfService>
+  nameWithType: IRequest<ITermsOfService>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Help.ITermsOfService>
+  nameWithType.vb: IRequest(Of ITermsOfService)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Help.ITermsOfService)
+  name.vb: IRequest(Of ITermsOfService)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Help.ITermsOfService
+    name: ITermsOfService
+    nameWithType: ITermsOfService
+    fullName: OpenTl.Schema.Help.ITermsOfService
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Help.ITermsOfService
+    name: ITermsOfService
+    nameWithType: ITermsOfService
+    fullName: OpenTl.Schema.Help.ITermsOfService
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

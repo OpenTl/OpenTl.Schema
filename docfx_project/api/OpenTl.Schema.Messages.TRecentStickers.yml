@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TRecentStickers
+  commentId: T:OpenTl.Schema.Messages.TRecentStickers
+  id: TRecentStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TRecentStickers.Hash
+  - OpenTl.Schema.Messages.TRecentStickers.Stickers
+  langs:
+  - csharp
+  - vb
+  name: TRecentStickers
+  nameWithType: TRecentStickers
+  fullName: OpenTl.Schema.Messages.TRecentStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRecentStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TRecentStickers : object, IRecentStickers, IObject'
+    content.vb: >-
+      Public Class TRecentStickers
+
+          Inherits Object
+
+          Implements IRecentStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IRecentStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TRecentStickers.Hash
+  commentId: P:OpenTl.Schema.Messages.TRecentStickers.Hash
+  id: Hash
+  parent: OpenTl.Schema.Messages.TRecentStickers
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: TRecentStickers.Hash
+  fullName: OpenTl.Schema.Messages.TRecentStickers.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Messages.TRecentStickers.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TRecentStickers.Stickers
+  commentId: P:OpenTl.Schema.Messages.TRecentStickers.Stickers
+  id: Stickers
+  parent: OpenTl.Schema.Messages.TRecentStickers
+  langs:
+  - csharp
+  - vb
+  name: Stickers
+  nameWithType: TRecentStickers.Stickers
+  fullName: OpenTl.Schema.Messages.TRecentStickers.Stickers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickers
+    path: ../src/OpenTl.Schema/_generated/Messages/RecentStickers/TRecentStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IDocument> Stickers { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+    content.vb: Public Property Stickers As TVector(Of IDocument)
+  overload: OpenTl.Schema.Messages.TRecentStickers.Stickers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IRecentStickers
+  commentId: T:OpenTl.Schema.Messages.IRecentStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IRecentStickers
+  nameWithType: IRecentStickers
+  fullName: OpenTl.Schema.Messages.IRecentStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TRecentStickers.Hash*
+  commentId: Overload:OpenTl.Schema.Messages.TRecentStickers.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: TRecentStickers.Hash
+  fullName: OpenTl.Schema.Messages.TRecentStickers.Hash
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TRecentStickers.Stickers*
+  commentId: Overload:OpenTl.Schema.Messages.TRecentStickers.Stickers
+  isExternal: false
+  name: Stickers
+  nameWithType: TRecentStickers.Stickers
+  fullName: OpenTl.Schema.Messages.TRecentStickers.Stickers
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocument>
+  nameWithType: TVector<IDocument>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocument>
+  nameWithType.vb: TVector(Of IDocument)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocument)
+  name.vb: TVector(Of IDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelParticipantsRecent
+  commentId: T:OpenTl.Schema.TChannelParticipantsRecent
+  id: TChannelParticipantsRecent
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipantsRecent
+  nameWithType: TChannelParticipantsRecent
+  fullName: OpenTl.Schema.TChannelParticipantsRecent
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsRecent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipantsRecent
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsRecent.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelParticipantsRecent : object, IChannelParticipantsFilter, IObject'
+    content.vb: >-
+      Public Class TChannelParticipantsRecent
+
+          Inherits Object
+
+          Implements IChannelParticipantsFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelParticipantsFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelParticipantsFilter
+  commentId: T:OpenTl.Schema.IChannelParticipantsFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipantsFilter
+  nameWithType: IChannelParticipantsFilter
+  fullName: OpenTl.Schema.IChannelParticipantsFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

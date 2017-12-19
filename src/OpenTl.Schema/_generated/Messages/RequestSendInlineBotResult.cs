@@ -40,6 +40,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(7)]
        public long QueryId {get; set;}
 
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(8)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}
        private byte[] _IdAsBinary;

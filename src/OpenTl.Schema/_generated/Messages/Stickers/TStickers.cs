@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Messages
 	[Serialize(0x8a8ecd32)]
 	public class TStickers : IStickers
 	{
+       /// <summary>Binary representation for the 'Hash' property</summary>
        [SerializationOrder(0)]
        public byte[] HashAsBinary { get => _HashAsBinary; set { _Hash = Encoding.UTF8.GetString(value); _HashAsBinary = value; }}
        private byte[] _HashAsBinary;

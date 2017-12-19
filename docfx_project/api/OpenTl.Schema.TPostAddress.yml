@@ -1,0 +1,724 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPostAddress
+  commentId: T:OpenTl.Schema.TPostAddress
+  id: TPostAddress
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPostAddress.City
+  - OpenTl.Schema.TPostAddress.CityAsBinary
+  - OpenTl.Schema.TPostAddress.CountryIso2
+  - OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+  - OpenTl.Schema.TPostAddress.PostCode
+  - OpenTl.Schema.TPostAddress.PostCodeAsBinary
+  - OpenTl.Schema.TPostAddress.State
+  - OpenTl.Schema.TPostAddress.StateAsBinary
+  - OpenTl.Schema.TPostAddress.StreetLine1
+  - OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+  - OpenTl.Schema.TPostAddress.StreetLine2
+  - OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPostAddress
+  nameWithType: TPostAddress
+  fullName: OpenTl.Schema.TPostAddress
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPostAddress
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPostAddress : object, IPostAddress, IObject'
+    content.vb: >-
+      Public Class TPostAddress
+
+          Inherits Object
+
+          Implements IPostAddress, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPostAddress
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+  id: StreetLine1AsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: StreetLine1AsBinary
+  nameWithType: TPostAddress.StreetLine1AsBinary
+  fullName: OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StreetLine1AsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;StreetLine1&apos; property
+  example: []
+  syntax:
+    content: public byte[] StreetLine1AsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property StreetLine1AsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.StreetLine1AsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.StreetLine1AsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.StreetLine1
+  commentId: P:OpenTl.Schema.TPostAddress.StreetLine1
+  id: StreetLine1
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: StreetLine1
+  nameWithType: TPostAddress.StreetLine1
+  fullName: OpenTl.Schema.TPostAddress.StreetLine1
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StreetLine1
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string StreetLine1 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StreetLine1 As String
+  overload: OpenTl.Schema.TPostAddress.StreetLine1*
+  implements:
+  - OpenTl.Schema.IPostAddress.StreetLine1
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+  id: StreetLine2AsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: StreetLine2AsBinary
+  nameWithType: TPostAddress.StreetLine2AsBinary
+  fullName: OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StreetLine2AsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;StreetLine2&apos; property
+  example: []
+  syntax:
+    content: public byte[] StreetLine2AsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property StreetLine2AsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.StreetLine2AsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.StreetLine2AsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.StreetLine2
+  commentId: P:OpenTl.Schema.TPostAddress.StreetLine2
+  id: StreetLine2
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: StreetLine2
+  nameWithType: TPostAddress.StreetLine2
+  fullName: OpenTl.Schema.TPostAddress.StreetLine2
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StreetLine2
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string StreetLine2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StreetLine2 As String
+  overload: OpenTl.Schema.TPostAddress.StreetLine2*
+  implements:
+  - OpenTl.Schema.IPostAddress.StreetLine2
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.CityAsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.CityAsBinary
+  id: CityAsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: CityAsBinary
+  nameWithType: TPostAddress.CityAsBinary
+  fullName: OpenTl.Schema.TPostAddress.CityAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CityAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;City&apos; property
+  example: []
+  syntax:
+    content: public byte[] CityAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CityAsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.CityAsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.CityAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.City
+  commentId: P:OpenTl.Schema.TPostAddress.City
+  id: City
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: City
+  nameWithType: TPostAddress.City
+  fullName: OpenTl.Schema.TPostAddress.City
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: City
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string City { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property City As String
+  overload: OpenTl.Schema.TPostAddress.City*
+  implements:
+  - OpenTl.Schema.IPostAddress.City
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.StateAsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.StateAsBinary
+  id: StateAsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: StateAsBinary
+  nameWithType: TPostAddress.StateAsBinary
+  fullName: OpenTl.Schema.TPostAddress.StateAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StateAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;State&apos; property
+  example: []
+  syntax:
+    content: public byte[] StateAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property StateAsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.StateAsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.StateAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.State
+  commentId: P:OpenTl.Schema.TPostAddress.State
+  id: State
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: TPostAddress.State
+  fullName: OpenTl.Schema.TPostAddress.State
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: State
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string State { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property State As String
+  overload: OpenTl.Schema.TPostAddress.State*
+  implements:
+  - OpenTl.Schema.IPostAddress.State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+  id: CountryIso2AsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: CountryIso2AsBinary
+  nameWithType: TPostAddress.CountryIso2AsBinary
+  fullName: OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CountryIso2AsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;CountryIso2&apos; property
+  example: []
+  syntax:
+    content: public byte[] CountryIso2AsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CountryIso2AsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.CountryIso2AsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.CountryIso2AsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.CountryIso2
+  commentId: P:OpenTl.Schema.TPostAddress.CountryIso2
+  id: CountryIso2
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: CountryIso2
+  nameWithType: TPostAddress.CountryIso2
+  fullName: OpenTl.Schema.TPostAddress.CountryIso2
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CountryIso2
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string CountryIso2 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CountryIso2 As String
+  overload: OpenTl.Schema.TPostAddress.CountryIso2*
+  implements:
+  - OpenTl.Schema.IPostAddress.CountryIso2
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.PostCodeAsBinary
+  commentId: P:OpenTl.Schema.TPostAddress.PostCodeAsBinary
+  id: PostCodeAsBinary
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: PostCodeAsBinary
+  nameWithType: TPostAddress.PostCodeAsBinary
+  fullName: OpenTl.Schema.TPostAddress.PostCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 50
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PostCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] PostCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PostCodeAsBinary As Byte()
+  overload: OpenTl.Schema.TPostAddress.PostCodeAsBinary*
+  implements:
+  - OpenTl.Schema.IPostAddress.PostCodeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPostAddress.PostCode
+  commentId: P:OpenTl.Schema.TPostAddress.PostCode
+  id: PostCode
+  parent: OpenTl.Schema.TPostAddress
+  langs:
+  - csharp
+  - vb
+  name: PostCode
+  nameWithType: TPostAddress.PostCode
+  fullName: OpenTl.Schema.TPostAddress.PostCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/PostAddress/TPostAddress.cs
+    startLine: 54
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PostCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostCode As String
+  overload: OpenTl.Schema.TPostAddress.PostCode*
+  implements:
+  - OpenTl.Schema.IPostAddress.PostCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPostAddress
+  commentId: T:OpenTl.Schema.IPostAddress
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPostAddress
+  nameWithType: IPostAddress
+  fullName: OpenTl.Schema.IPostAddress
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPostAddress.StreetLine1AsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+  isExternal: false
+  name: StreetLine1AsBinary
+  nameWithType: TPostAddress.StreetLine1AsBinary
+  fullName: OpenTl.Schema.TPostAddress.StreetLine1AsBinary
+- uid: OpenTl.Schema.IPostAddress.StreetLine1AsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.StreetLine1AsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: StreetLine1AsBinary
+  nameWithType: IPostAddress.StreetLine1AsBinary
+  fullName: OpenTl.Schema.IPostAddress.StreetLine1AsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPostAddress.StreetLine1*
+  commentId: Overload:OpenTl.Schema.TPostAddress.StreetLine1
+  isExternal: false
+  name: StreetLine1
+  nameWithType: TPostAddress.StreetLine1
+  fullName: OpenTl.Schema.TPostAddress.StreetLine1
+- uid: OpenTl.Schema.IPostAddress.StreetLine1
+  commentId: P:OpenTl.Schema.IPostAddress.StreetLine1
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: StreetLine1
+  nameWithType: IPostAddress.StreetLine1
+  fullName: OpenTl.Schema.IPostAddress.StreetLine1
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPostAddress.StreetLine2AsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+  isExternal: false
+  name: StreetLine2AsBinary
+  nameWithType: TPostAddress.StreetLine2AsBinary
+  fullName: OpenTl.Schema.TPostAddress.StreetLine2AsBinary
+- uid: OpenTl.Schema.IPostAddress.StreetLine2AsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.StreetLine2AsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: StreetLine2AsBinary
+  nameWithType: IPostAddress.StreetLine2AsBinary
+  fullName: OpenTl.Schema.IPostAddress.StreetLine2AsBinary
+- uid: OpenTl.Schema.TPostAddress.StreetLine2*
+  commentId: Overload:OpenTl.Schema.TPostAddress.StreetLine2
+  isExternal: false
+  name: StreetLine2
+  nameWithType: TPostAddress.StreetLine2
+  fullName: OpenTl.Schema.TPostAddress.StreetLine2
+- uid: OpenTl.Schema.IPostAddress.StreetLine2
+  commentId: P:OpenTl.Schema.IPostAddress.StreetLine2
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: StreetLine2
+  nameWithType: IPostAddress.StreetLine2
+  fullName: OpenTl.Schema.IPostAddress.StreetLine2
+- uid: OpenTl.Schema.TPostAddress.CityAsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.CityAsBinary
+  isExternal: false
+  name: CityAsBinary
+  nameWithType: TPostAddress.CityAsBinary
+  fullName: OpenTl.Schema.TPostAddress.CityAsBinary
+- uid: OpenTl.Schema.IPostAddress.CityAsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.CityAsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: CityAsBinary
+  nameWithType: IPostAddress.CityAsBinary
+  fullName: OpenTl.Schema.IPostAddress.CityAsBinary
+- uid: OpenTl.Schema.TPostAddress.City*
+  commentId: Overload:OpenTl.Schema.TPostAddress.City
+  isExternal: false
+  name: City
+  nameWithType: TPostAddress.City
+  fullName: OpenTl.Schema.TPostAddress.City
+- uid: OpenTl.Schema.IPostAddress.City
+  commentId: P:OpenTl.Schema.IPostAddress.City
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: City
+  nameWithType: IPostAddress.City
+  fullName: OpenTl.Schema.IPostAddress.City
+- uid: OpenTl.Schema.TPostAddress.StateAsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.StateAsBinary
+  isExternal: false
+  name: StateAsBinary
+  nameWithType: TPostAddress.StateAsBinary
+  fullName: OpenTl.Schema.TPostAddress.StateAsBinary
+- uid: OpenTl.Schema.IPostAddress.StateAsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.StateAsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: StateAsBinary
+  nameWithType: IPostAddress.StateAsBinary
+  fullName: OpenTl.Schema.IPostAddress.StateAsBinary
+- uid: OpenTl.Schema.TPostAddress.State*
+  commentId: Overload:OpenTl.Schema.TPostAddress.State
+  isExternal: false
+  name: State
+  nameWithType: TPostAddress.State
+  fullName: OpenTl.Schema.TPostAddress.State
+- uid: OpenTl.Schema.IPostAddress.State
+  commentId: P:OpenTl.Schema.IPostAddress.State
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: State
+  nameWithType: IPostAddress.State
+  fullName: OpenTl.Schema.IPostAddress.State
+- uid: OpenTl.Schema.TPostAddress.CountryIso2AsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+  isExternal: false
+  name: CountryIso2AsBinary
+  nameWithType: TPostAddress.CountryIso2AsBinary
+  fullName: OpenTl.Schema.TPostAddress.CountryIso2AsBinary
+- uid: OpenTl.Schema.IPostAddress.CountryIso2AsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.CountryIso2AsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: CountryIso2AsBinary
+  nameWithType: IPostAddress.CountryIso2AsBinary
+  fullName: OpenTl.Schema.IPostAddress.CountryIso2AsBinary
+- uid: OpenTl.Schema.TPostAddress.CountryIso2*
+  commentId: Overload:OpenTl.Schema.TPostAddress.CountryIso2
+  isExternal: false
+  name: CountryIso2
+  nameWithType: TPostAddress.CountryIso2
+  fullName: OpenTl.Schema.TPostAddress.CountryIso2
+- uid: OpenTl.Schema.IPostAddress.CountryIso2
+  commentId: P:OpenTl.Schema.IPostAddress.CountryIso2
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: CountryIso2
+  nameWithType: IPostAddress.CountryIso2
+  fullName: OpenTl.Schema.IPostAddress.CountryIso2
+- uid: OpenTl.Schema.TPostAddress.PostCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.TPostAddress.PostCodeAsBinary
+  isExternal: false
+  name: PostCodeAsBinary
+  nameWithType: TPostAddress.PostCodeAsBinary
+  fullName: OpenTl.Schema.TPostAddress.PostCodeAsBinary
+- uid: OpenTl.Schema.IPostAddress.PostCodeAsBinary
+  commentId: P:OpenTl.Schema.IPostAddress.PostCodeAsBinary
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: PostCodeAsBinary
+  nameWithType: IPostAddress.PostCodeAsBinary
+  fullName: OpenTl.Schema.IPostAddress.PostCodeAsBinary
+- uid: OpenTl.Schema.TPostAddress.PostCode*
+  commentId: Overload:OpenTl.Schema.TPostAddress.PostCode
+  isExternal: false
+  name: PostCode
+  nameWithType: TPostAddress.PostCode
+  fullName: OpenTl.Schema.TPostAddress.PostCode
+- uid: OpenTl.Schema.IPostAddress.PostCode
+  commentId: P:OpenTl.Schema.IPostAddress.PostCode
+  parent: OpenTl.Schema.IPostAddress
+  isExternal: false
+  name: PostCode
+  nameWithType: IPostAddress.PostCode
+  fullName: OpenTl.Schema.IPostAddress.PostCode

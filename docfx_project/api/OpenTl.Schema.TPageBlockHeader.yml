@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockHeader
+  commentId: T:OpenTl.Schema.TPageBlockHeader
+  id: TPageBlockHeader
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockHeader.Text
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockHeader
+  nameWithType: TPageBlockHeader
+  fullName: OpenTl.Schema.TPageBlockHeader
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockHeader
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockHeader.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockHeader : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockHeader
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockHeader.Text
+  commentId: P:OpenTl.Schema.TPageBlockHeader.Text
+  id: Text
+  parent: OpenTl.Schema.TPageBlockHeader
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TPageBlockHeader.Text
+  fullName: OpenTl.Schema.TPageBlockHeader.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockHeader.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TPageBlockHeader.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockHeader.Text*
+  commentId: Overload:OpenTl.Schema.TPageBlockHeader.Text
+  isExternal: false
+  name: Text
+  nameWithType: TPageBlockHeader.Text
+  fullName: OpenTl.Schema.TPageBlockHeader.Text
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

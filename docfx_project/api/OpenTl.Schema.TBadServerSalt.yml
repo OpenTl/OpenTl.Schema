@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBadServerSalt
+  commentId: T:OpenTl.Schema.TBadServerSalt
+  id: TBadServerSalt
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBadServerSalt.BadMsgId
+  - OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+  - OpenTl.Schema.TBadServerSalt.ErrorCode
+  - OpenTl.Schema.TBadServerSalt.NewServerSalt
+  langs:
+  - csharp
+  - vb
+  name: TBadServerSalt
+  nameWithType: TBadServerSalt
+  fullName: OpenTl.Schema.TBadServerSalt
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBadServerSalt
+    path: ../src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBadServerSalt : object, IBadMsgNotification, IObject'
+    content.vb: >-
+      Public Class TBadServerSalt
+
+          Inherits Object
+
+          Implements IBadMsgNotification, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBadMsgNotification
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBadServerSalt.BadMsgId
+  commentId: P:OpenTl.Schema.TBadServerSalt.BadMsgId
+  id: BadMsgId
+  parent: OpenTl.Schema.TBadServerSalt
+  langs:
+  - csharp
+  - vb
+  name: BadMsgId
+  nameWithType: TBadServerSalt.BadMsgId
+  fullName: OpenTl.Schema.TBadServerSalt.BadMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BadMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long BadMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property BadMsgId As Long
+  overload: OpenTl.Schema.TBadServerSalt.BadMsgId*
+  implements:
+  - OpenTl.Schema.IBadMsgNotification.BadMsgId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+  commentId: P:OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+  id: BadMsgSeqno
+  parent: OpenTl.Schema.TBadServerSalt
+  langs:
+  - csharp
+  - vb
+  name: BadMsgSeqno
+  nameWithType: TBadServerSalt.BadMsgSeqno
+  fullName: OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BadMsgSeqno
+    path: ../src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int BadMsgSeqno { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BadMsgSeqno As Integer
+  overload: OpenTl.Schema.TBadServerSalt.BadMsgSeqno*
+  implements:
+  - OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBadServerSalt.ErrorCode
+  commentId: P:OpenTl.Schema.TBadServerSalt.ErrorCode
+  id: ErrorCode
+  parent: OpenTl.Schema.TBadServerSalt
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: TBadServerSalt.ErrorCode
+  fullName: OpenTl.Schema.TBadServerSalt.ErrorCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ErrorCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErrorCode As Integer
+  overload: OpenTl.Schema.TBadServerSalt.ErrorCode*
+  implements:
+  - OpenTl.Schema.IBadMsgNotification.ErrorCode
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBadServerSalt.NewServerSalt
+  commentId: P:OpenTl.Schema.TBadServerSalt.NewServerSalt
+  id: NewServerSalt
+  parent: OpenTl.Schema.TBadServerSalt
+  langs:
+  - csharp
+  - vb
+  name: NewServerSalt
+  nameWithType: TBadServerSalt.NewServerSalt
+  fullName: OpenTl.Schema.TBadServerSalt.NewServerSalt
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewServerSalt
+    path: ../src/OpenTl.Schema/_generated/_Entities/BadMsgNotification/TBadServerSalt.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long NewServerSalt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property NewServerSalt As Long
+  overload: OpenTl.Schema.TBadServerSalt.NewServerSalt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBadMsgNotification
+  commentId: T:OpenTl.Schema.IBadMsgNotification
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBadMsgNotification
+  nameWithType: IBadMsgNotification
+  fullName: OpenTl.Schema.IBadMsgNotification
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBadServerSalt.BadMsgId*
+  commentId: Overload:OpenTl.Schema.TBadServerSalt.BadMsgId
+  isExternal: false
+  name: BadMsgId
+  nameWithType: TBadServerSalt.BadMsgId
+  fullName: OpenTl.Schema.TBadServerSalt.BadMsgId
+- uid: OpenTl.Schema.IBadMsgNotification.BadMsgId
+  commentId: P:OpenTl.Schema.IBadMsgNotification.BadMsgId
+  parent: OpenTl.Schema.IBadMsgNotification
+  isExternal: false
+  name: BadMsgId
+  nameWithType: IBadMsgNotification.BadMsgId
+  fullName: OpenTl.Schema.IBadMsgNotification.BadMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TBadServerSalt.BadMsgSeqno*
+  commentId: Overload:OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+  isExternal: false
+  name: BadMsgSeqno
+  nameWithType: TBadServerSalt.BadMsgSeqno
+  fullName: OpenTl.Schema.TBadServerSalt.BadMsgSeqno
+- uid: OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
+  commentId: P:OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
+  parent: OpenTl.Schema.IBadMsgNotification
+  isExternal: false
+  name: BadMsgSeqno
+  nameWithType: IBadMsgNotification.BadMsgSeqno
+  fullName: OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TBadServerSalt.ErrorCode*
+  commentId: Overload:OpenTl.Schema.TBadServerSalt.ErrorCode
+  isExternal: false
+  name: ErrorCode
+  nameWithType: TBadServerSalt.ErrorCode
+  fullName: OpenTl.Schema.TBadServerSalt.ErrorCode
+- uid: OpenTl.Schema.IBadMsgNotification.ErrorCode
+  commentId: P:OpenTl.Schema.IBadMsgNotification.ErrorCode
+  parent: OpenTl.Schema.IBadMsgNotification
+  isExternal: false
+  name: ErrorCode
+  nameWithType: IBadMsgNotification.ErrorCode
+  fullName: OpenTl.Schema.IBadMsgNotification.ErrorCode
+- uid: OpenTl.Schema.TBadServerSalt.NewServerSalt*
+  commentId: Overload:OpenTl.Schema.TBadServerSalt.NewServerSalt
+  isExternal: false
+  name: NewServerSalt
+  nameWithType: TBadServerSalt.NewServerSalt
+  fullName: OpenTl.Schema.TBadServerSalt.NewServerSalt

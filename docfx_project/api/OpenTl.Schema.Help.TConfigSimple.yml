@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TConfigSimple
+  commentId: T:OpenTl.Schema.Help.TConfigSimple
+  id: TConfigSimple
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TConfigSimple.Date
+  - OpenTl.Schema.Help.TConfigSimple.DcId
+  - OpenTl.Schema.Help.TConfigSimple.Expires
+  - OpenTl.Schema.Help.TConfigSimple.IpPortList
+  langs:
+  - csharp
+  - vb
+  name: TConfigSimple
+  nameWithType: TConfigSimple
+  fullName: OpenTl.Schema.Help.TConfigSimple
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TConfigSimple
+    path: ../src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TConfigSimple : object, IObject'
+    content.vb: >-
+      Public Class TConfigSimple
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TConfigSimple.Date
+  commentId: P:OpenTl.Schema.Help.TConfigSimple.Date
+  id: Date
+  parent: OpenTl.Schema.Help.TConfigSimple
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TConfigSimple.Date
+  fullName: OpenTl.Schema.Help.TConfigSimple.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Help.TConfigSimple.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TConfigSimple.Expires
+  commentId: P:OpenTl.Schema.Help.TConfigSimple.Expires
+  id: Expires
+  parent: OpenTl.Schema.Help.TConfigSimple
+  langs:
+  - csharp
+  - vb
+  name: Expires
+  nameWithType: TConfigSimple.Expires
+  fullName: OpenTl.Schema.Help.TConfigSimple.Expires
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Expires
+    path: ../src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public int Expires { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Expires As Integer
+  overload: OpenTl.Schema.Help.TConfigSimple.Expires*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TConfigSimple.DcId
+  commentId: P:OpenTl.Schema.Help.TConfigSimple.DcId
+  id: DcId
+  parent: OpenTl.Schema.Help.TConfigSimple
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TConfigSimple.DcId
+  fullName: OpenTl.Schema.Help.TConfigSimple.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.Help.TConfigSimple.DcId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TConfigSimple.IpPortList
+  commentId: P:OpenTl.Schema.Help.TConfigSimple.IpPortList
+  id: IpPortList
+  parent: OpenTl.Schema.Help.TConfigSimple
+  langs:
+  - csharp
+  - vb
+  name: IpPortList
+  nameWithType: TConfigSimple.IpPortList
+  fullName: OpenTl.Schema.Help.TConfigSimple.IpPortList
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpPortList
+    path: ../src/OpenTl.Schema/_generated/Help/TConfigSimple.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public TVector<TIpPort> IpPortList { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.TIpPort}
+    content.vb: Public Property IpPortList As TVector(Of TIpPort)
+  overload: OpenTl.Schema.Help.TConfigSimple.IpPortList*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TConfigSimple.Date*
+  commentId: Overload:OpenTl.Schema.Help.TConfigSimple.Date
+  isExternal: false
+  name: Date
+  nameWithType: TConfigSimple.Date
+  fullName: OpenTl.Schema.Help.TConfigSimple.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Help.TConfigSimple.Expires*
+  commentId: Overload:OpenTl.Schema.Help.TConfigSimple.Expires
+  isExternal: false
+  name: Expires
+  nameWithType: TConfigSimple.Expires
+  fullName: OpenTl.Schema.Help.TConfigSimple.Expires
+- uid: OpenTl.Schema.Help.TConfigSimple.DcId*
+  commentId: Overload:OpenTl.Schema.Help.TConfigSimple.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TConfigSimple.DcId
+  fullName: OpenTl.Schema.Help.TConfigSimple.DcId
+- uid: OpenTl.Schema.Help.TConfigSimple.IpPortList*
+  commentId: Overload:OpenTl.Schema.Help.TConfigSimple.IpPortList
+  isExternal: false
+  name: IpPortList
+  nameWithType: TConfigSimple.IpPortList
+  fullName: OpenTl.Schema.Help.TConfigSimple.IpPortList
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.TIpPort}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.TIpPort}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<TIpPort>
+  nameWithType: TVector<TIpPort>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.TIpPort>
+  nameWithType.vb: TVector(Of TIpPort)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.TIpPort)
+  name.vb: TVector(Of TIpPort)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TIpPort
+    name: TIpPort
+    nameWithType: TIpPort
+    fullName: OpenTl.Schema.TIpPort
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TIpPort
+    name: TIpPort
+    nameWithType: TIpPort
+    fullName: OpenTl.Schema.TIpPort
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChannelWebPage
+  commentId: T:OpenTl.Schema.TUpdateChannelWebPage
+  id: TUpdateChannelWebPage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+  - OpenTl.Schema.TUpdateChannelWebPage.Pts
+  - OpenTl.Schema.TUpdateChannelWebPage.PtsCount
+  - OpenTl.Schema.TUpdateChannelWebPage.Webpage
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChannelWebPage
+  nameWithType: TUpdateChannelWebPage
+  fullName: OpenTl.Schema.TUpdateChannelWebPage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChannelWebPage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChannelWebPage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChannelWebPage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateChannelWebPage
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateChannelWebPage.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateChannelWebPage.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelWebPage.Webpage
+  commentId: P:OpenTl.Schema.TUpdateChannelWebPage.Webpage
+  id: Webpage
+  parent: OpenTl.Schema.TUpdateChannelWebPage
+  langs:
+  - csharp
+  - vb
+  name: Webpage
+  nameWithType: TUpdateChannelWebPage.Webpage
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.Webpage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Webpage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IWebPage Webpage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IWebPage
+    content.vb: Public Property Webpage As IWebPage
+  overload: OpenTl.Schema.TUpdateChannelWebPage.Webpage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelWebPage.Pts
+  commentId: P:OpenTl.Schema.TUpdateChannelWebPage.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateChannelWebPage
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateChannelWebPage.Pts
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateChannelWebPage.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelWebPage.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateChannelWebPage.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateChannelWebPage
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateChannelWebPage.PtsCount
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelWebPage.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateChannelWebPage.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChannelWebPage.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateChannelWebPage.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChannelWebPage.Webpage*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelWebPage.Webpage
+  isExternal: false
+  name: Webpage
+  nameWithType: TUpdateChannelWebPage.Webpage
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.Webpage
+- uid: OpenTl.Schema.IWebPage
+  commentId: T:OpenTl.Schema.IWebPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebPage
+  nameWithType: IWebPage
+  fullName: OpenTl.Schema.IWebPage
+- uid: OpenTl.Schema.TUpdateChannelWebPage.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelWebPage.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateChannelWebPage.Pts
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.Pts
+- uid: OpenTl.Schema.TUpdateChannelWebPage.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelWebPage.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateChannelWebPage.PtsCount
+  fullName: OpenTl.Schema.TUpdateChannelWebPage.PtsCount

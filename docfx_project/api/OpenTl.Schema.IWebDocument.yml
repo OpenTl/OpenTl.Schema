@@ -1,0 +1,691 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IWebDocument
+  commentId: T:OpenTl.Schema.IWebDocument
+  id: IWebDocument
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IWebDocument.AccessHash
+  - OpenTl.Schema.IWebDocument.Attributes
+  - OpenTl.Schema.IWebDocument.DcId
+  - OpenTl.Schema.IWebDocument.MimeType
+  - OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+  - OpenTl.Schema.IWebDocument.Size
+  - OpenTl.Schema.IWebDocument.Url
+  - OpenTl.Schema.IWebDocument.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IWebDocument
+  nameWithType: IWebDocument
+  fullName: OpenTl.Schema.IWebDocument
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IWebDocument
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IWebDocument : IObject'
+    content.vb: >-
+      Public Interface IWebDocument
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IWebDocument.UrlAsBinary
+  commentId: P:OpenTl.Schema.IWebDocument.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: IWebDocument.UrlAsBinary
+  fullName: OpenTl.Schema.IWebDocument.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.IWebDocument.UrlAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.Url
+  commentId: P:OpenTl.Schema.IWebDocument.Url
+  id: Url
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: IWebDocument.Url
+  fullName: OpenTl.Schema.IWebDocument.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 12
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Url As String
+  overload: OpenTl.Schema.IWebDocument.Url*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.AccessHash
+  commentId: P:OpenTl.Schema.IWebDocument.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: IWebDocument.AccessHash
+  fullName: OpenTl.Schema.IWebDocument.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property AccessHash As Long
+  overload: OpenTl.Schema.IWebDocument.AccessHash*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.Size
+  commentId: P:OpenTl.Schema.IWebDocument.Size
+  id: Size
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: IWebDocument.Size
+  fullName: OpenTl.Schema.IWebDocument.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 16
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Size As Integer
+  overload: OpenTl.Schema.IWebDocument.Size*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+  id: MimeTypeAsBinary
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeAsBinary
+  nameWithType: IWebDocument.MimeTypeAsBinary
+  fullName: OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] MimeTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property MimeTypeAsBinary As Byte()
+  overload: OpenTl.Schema.IWebDocument.MimeTypeAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.MimeType
+  commentId: P:OpenTl.Schema.IWebDocument.MimeType
+  id: MimeType
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: IWebDocument.MimeType
+  fullName: OpenTl.Schema.IWebDocument.MimeType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeType
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MimeType As String
+  overload: OpenTl.Schema.IWebDocument.MimeType*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.Attributes
+  commentId: P:OpenTl.Schema.IWebDocument.Attributes
+  id: Attributes
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: IWebDocument.Attributes
+  fullName: OpenTl.Schema.IWebDocument.Attributes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Attributes
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: TVector<IDocumentAttribute> Attributes { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+    content.vb: Property Attributes As TVector(Of IDocumentAttribute)
+  overload: OpenTl.Schema.IWebDocument.Attributes*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IWebDocument.DcId
+  commentId: P:OpenTl.Schema.IWebDocument.DcId
+  id: DcId
+  parent: OpenTl.Schema.IWebDocument
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: IWebDocument.DcId
+  fullName: OpenTl.Schema.IWebDocument.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebDocument/IWebDocument.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property DcId As Integer
+  overload: OpenTl.Schema.IWebDocument.DcId*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IWebDocument.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.IWebDocument.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IWebDocument.UrlAsBinary
+  fullName: OpenTl.Schema.IWebDocument.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IWebDocument.Url*
+  commentId: Overload:OpenTl.Schema.IWebDocument.Url
+  isExternal: false
+  name: Url
+  nameWithType: IWebDocument.Url
+  fullName: OpenTl.Schema.IWebDocument.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IWebDocument.AccessHash*
+  commentId: Overload:OpenTl.Schema.IWebDocument.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: IWebDocument.AccessHash
+  fullName: OpenTl.Schema.IWebDocument.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.IWebDocument.Size*
+  commentId: Overload:OpenTl.Schema.IWebDocument.Size
+  isExternal: false
+  name: Size
+  nameWithType: IWebDocument.Size
+  fullName: OpenTl.Schema.IWebDocument.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IWebDocument.MimeTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: IWebDocument.MimeTypeAsBinary
+  fullName: OpenTl.Schema.IWebDocument.MimeTypeAsBinary
+- uid: OpenTl.Schema.IWebDocument.MimeType*
+  commentId: Overload:OpenTl.Schema.IWebDocument.MimeType
+  isExternal: false
+  name: MimeType
+  nameWithType: IWebDocument.MimeType
+  fullName: OpenTl.Schema.IWebDocument.MimeType
+- uid: OpenTl.Schema.IWebDocument.Attributes*
+  commentId: Overload:OpenTl.Schema.IWebDocument.Attributes
+  isExternal: false
+  name: Attributes
+  nameWithType: IWebDocument.Attributes
+  fullName: OpenTl.Schema.IWebDocument.Attributes
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocumentAttribute>
+  nameWithType: TVector<IDocumentAttribute>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute>
+  nameWithType.vb: TVector(Of IDocumentAttribute)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocumentAttribute)
+  name.vb: TVector(Of IDocumentAttribute)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocumentAttribute
+    name: IDocumentAttribute
+    nameWithType: IDocumentAttribute
+    fullName: OpenTl.Schema.IDocumentAttribute
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocumentAttribute
+    name: IDocumentAttribute
+    nameWithType: IDocumentAttribute
+    fullName: OpenTl.Schema.IDocumentAttribute
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IWebDocument.DcId*
+  commentId: Overload:OpenTl.Schema.IWebDocument.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: IWebDocument.DcId
+  fullName: OpenTl.Schema.IWebDocument.DcId

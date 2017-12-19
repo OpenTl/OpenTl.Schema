@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatInviteAlready
+  commentId: T:OpenTl.Schema.TChatInviteAlready
+  id: TChatInviteAlready
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatInviteAlready.Chat
+  langs:
+  - csharp
+  - vb
+  name: TChatInviteAlready
+  nameWithType: TChatInviteAlready
+  fullName: OpenTl.Schema.TChatInviteAlready
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatInvite/TChatInviteAlready.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatInviteAlready
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatInvite/TChatInviteAlready.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatInviteAlready : object, IChatInvite, IObject'
+    content.vb: >-
+      Public Class TChatInviteAlready
+
+          Inherits Object
+
+          Implements IChatInvite, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChatInvite
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatInviteAlready.Chat
+  commentId: P:OpenTl.Schema.TChatInviteAlready.Chat
+  id: Chat
+  parent: OpenTl.Schema.TChatInviteAlready
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: TChatInviteAlready.Chat
+  fullName: OpenTl.Schema.TChatInviteAlready.Chat
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatInvite/TChatInviteAlready.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chat
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatInvite/TChatInviteAlready.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChat Chat { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChat
+    content.vb: Public Property Chat As IChat
+  overload: OpenTl.Schema.TChatInviteAlready.Chat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChatInvite
+  commentId: T:OpenTl.Schema.IChatInvite
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatInvite
+  nameWithType: IChatInvite
+  fullName: OpenTl.Schema.IChatInvite
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatInviteAlready.Chat*
+  commentId: Overload:OpenTl.Schema.TChatInviteAlready.Chat
+  isExternal: false
+  name: Chat
+  nameWithType: TChatInviteAlready.Chat
+  fullName: OpenTl.Schema.TChatInviteAlready.Chat
+- uid: OpenTl.Schema.IChat
+  commentId: T:OpenTl.Schema.IChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChat
+  nameWithType: IChat
+  fullName: OpenTl.Schema.IChat

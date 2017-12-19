@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x9bed434d)]
 	public class TInputWebDocument : IInputWebDocument
 	{
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;
@@ -21,6 +22,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public int Size {get; set;}
 
+       /// <summary>Binary representation for the 'MimeType' property</summary>
        [SerializationOrder(2)]
        public byte[] MimeTypeAsBinary { get => _MimeTypeAsBinary; set { _MimeType = Encoding.UTF8.GetString(value); _MimeTypeAsBinary = value; }}
        private byte[] _MimeTypeAsBinary;

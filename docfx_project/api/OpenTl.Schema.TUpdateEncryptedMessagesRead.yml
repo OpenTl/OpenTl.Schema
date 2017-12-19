@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead
+  commentId: T:OpenTl.Schema.TUpdateEncryptedMessagesRead
+  id: TUpdateEncryptedMessagesRead
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+  - OpenTl.Schema.TUpdateEncryptedMessagesRead.Date
+  - OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+  langs:
+  - csharp
+  - vb
+  name: TUpdateEncryptedMessagesRead
+  nameWithType: TUpdateEncryptedMessagesRead
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateEncryptedMessagesRead
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateEncryptedMessagesRead : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateEncryptedMessagesRead
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+  commentId: P:OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateEncryptedMessagesRead
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateEncryptedMessagesRead.ChatId
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+  commentId: P:OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+  id: MaxDate
+  parent: OpenTl.Schema.TUpdateEncryptedMessagesRead
+  langs:
+  - csharp
+  - vb
+  name: MaxDate
+  nameWithType: TUpdateEncryptedMessagesRead.MaxDate
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxDate
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxDate As Integer
+  overload: OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.Date
+  commentId: P:OpenTl.Schema.TUpdateEncryptedMessagesRead.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateEncryptedMessagesRead
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateEncryptedMessagesRead.Date
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedMessagesRead.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateEncryptedMessagesRead.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateEncryptedMessagesRead.ChatId
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+  isExternal: false
+  name: MaxDate
+  nameWithType: TUpdateEncryptedMessagesRead.MaxDate
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.MaxDate
+- uid: OpenTl.Schema.TUpdateEncryptedMessagesRead.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryptedMessagesRead.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateEncryptedMessagesRead.Date
+  fullName: OpenTl.Schema.TUpdateEncryptedMessagesRead.Date

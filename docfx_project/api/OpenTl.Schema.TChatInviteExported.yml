@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatInviteExported
+  commentId: T:OpenTl.Schema.TChatInviteExported
+  id: TChatInviteExported
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatInviteExported.Link
+  - OpenTl.Schema.TChatInviteExported.LinkAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TChatInviteExported
+  nameWithType: TChatInviteExported
+  fullName: OpenTl.Schema.TChatInviteExported
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatInviteExported
+    path: ../src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatInviteExported : object, IExportedChatInvite, IObject'
+    content.vb: >-
+      Public Class TChatInviteExported
+
+          Inherits Object
+
+          Implements IExportedChatInvite, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IExportedChatInvite
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatInviteExported.LinkAsBinary
+  commentId: P:OpenTl.Schema.TChatInviteExported.LinkAsBinary
+  id: LinkAsBinary
+  parent: OpenTl.Schema.TChatInviteExported
+  langs:
+  - csharp
+  - vb
+  name: LinkAsBinary
+  nameWithType: TChatInviteExported.LinkAsBinary
+  fullName: OpenTl.Schema.TChatInviteExported.LinkAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LinkAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Link&apos; property
+  example: []
+  syntax:
+    content: public byte[] LinkAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LinkAsBinary As Byte()
+  overload: OpenTl.Schema.TChatInviteExported.LinkAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatInviteExported.Link
+  commentId: P:OpenTl.Schema.TChatInviteExported.Link
+  id: Link
+  parent: OpenTl.Schema.TChatInviteExported
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: TChatInviteExported.Link
+  fullName: OpenTl.Schema.TChatInviteExported.Link
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Link
+    path: ../src/OpenTl.Schema/_generated/_Entities/ExportedChatInvite/TChatInviteExported.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Link { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Link As String
+  overload: OpenTl.Schema.TChatInviteExported.Link*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IExportedChatInvite
+  commentId: T:OpenTl.Schema.IExportedChatInvite
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IExportedChatInvite
+  nameWithType: IExportedChatInvite
+  fullName: OpenTl.Schema.IExportedChatInvite
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatInviteExported.LinkAsBinary*
+  commentId: Overload:OpenTl.Schema.TChatInviteExported.LinkAsBinary
+  isExternal: false
+  name: LinkAsBinary
+  nameWithType: TChatInviteExported.LinkAsBinary
+  fullName: OpenTl.Schema.TChatInviteExported.LinkAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TChatInviteExported.Link*
+  commentId: Overload:OpenTl.Schema.TChatInviteExported.Link
+  isExternal: false
+  name: Link
+  nameWithType: TChatInviteExported.Link
+  fullName: OpenTl.Schema.TChatInviteExported.Link
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

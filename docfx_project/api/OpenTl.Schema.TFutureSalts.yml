@@ -1,0 +1,310 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TFutureSalts
+  commentId: T:OpenTl.Schema.TFutureSalts
+  id: TFutureSalts
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TFutureSalts.Now
+  - OpenTl.Schema.TFutureSalts.ReqMsgId
+  - OpenTl.Schema.TFutureSalts.Salts
+  langs:
+  - csharp
+  - vb
+  name: TFutureSalts
+  nameWithType: TFutureSalts
+  fullName: OpenTl.Schema.TFutureSalts
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFutureSalts
+    path: ../src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TFutureSalts : object, IFutureSalts, IObject'
+    content.vb: >-
+      Public Class TFutureSalts
+
+          Inherits Object
+
+          Implements IFutureSalts, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IFutureSalts
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TFutureSalts.ReqMsgId
+  commentId: P:OpenTl.Schema.TFutureSalts.ReqMsgId
+  id: ReqMsgId
+  parent: OpenTl.Schema.TFutureSalts
+  langs:
+  - csharp
+  - vb
+  name: ReqMsgId
+  nameWithType: TFutureSalts.ReqMsgId
+  fullName: OpenTl.Schema.TFutureSalts.ReqMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReqMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ReqMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReqMsgId As Long
+  overload: OpenTl.Schema.TFutureSalts.ReqMsgId*
+  implements:
+  - OpenTl.Schema.IFutureSalts.ReqMsgId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFutureSalts.Now
+  commentId: P:OpenTl.Schema.TFutureSalts.Now
+  id: Now
+  parent: OpenTl.Schema.TFutureSalts
+  langs:
+  - csharp
+  - vb
+  name: Now
+  nameWithType: TFutureSalts.Now
+  fullName: OpenTl.Schema.TFutureSalts.Now
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Now
+    path: ../src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Now { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Now As Integer
+  overload: OpenTl.Schema.TFutureSalts.Now*
+  implements:
+  - OpenTl.Schema.IFutureSalts.Now
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFutureSalts.Salts
+  commentId: P:OpenTl.Schema.TFutureSalts.Salts
+  id: Salts
+  parent: OpenTl.Schema.TFutureSalts
+  langs:
+  - csharp
+  - vb
+  name: Salts
+  nameWithType: TFutureSalts.Salts
+  fullName: OpenTl.Schema.TFutureSalts.Salts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Salts
+    path: ../src/OpenTl.Schema/_generated/_Entities/FutureSalts/TFutureSalts.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<TFutureSalt> Salts { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.TFutureSalt}
+    content.vb: Public Property Salts As TVector(Of TFutureSalt)
+  overload: OpenTl.Schema.TFutureSalts.Salts*
+  implements:
+  - OpenTl.Schema.IFutureSalts.Salts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IFutureSalts
+  commentId: T:OpenTl.Schema.IFutureSalts
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFutureSalts
+  nameWithType: IFutureSalts
+  fullName: OpenTl.Schema.IFutureSalts
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TFutureSalts.ReqMsgId*
+  commentId: Overload:OpenTl.Schema.TFutureSalts.ReqMsgId
+  isExternal: false
+  name: ReqMsgId
+  nameWithType: TFutureSalts.ReqMsgId
+  fullName: OpenTl.Schema.TFutureSalts.ReqMsgId
+- uid: OpenTl.Schema.IFutureSalts.ReqMsgId
+  commentId: P:OpenTl.Schema.IFutureSalts.ReqMsgId
+  parent: OpenTl.Schema.IFutureSalts
+  isExternal: false
+  name: ReqMsgId
+  nameWithType: IFutureSalts.ReqMsgId
+  fullName: OpenTl.Schema.IFutureSalts.ReqMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TFutureSalts.Now*
+  commentId: Overload:OpenTl.Schema.TFutureSalts.Now
+  isExternal: false
+  name: Now
+  nameWithType: TFutureSalts.Now
+  fullName: OpenTl.Schema.TFutureSalts.Now
+- uid: OpenTl.Schema.IFutureSalts.Now
+  commentId: P:OpenTl.Schema.IFutureSalts.Now
+  parent: OpenTl.Schema.IFutureSalts
+  isExternal: false
+  name: Now
+  nameWithType: IFutureSalts.Now
+  fullName: OpenTl.Schema.IFutureSalts.Now
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TFutureSalts.Salts*
+  commentId: Overload:OpenTl.Schema.TFutureSalts.Salts
+  isExternal: false
+  name: Salts
+  nameWithType: TFutureSalts.Salts
+  fullName: OpenTl.Schema.TFutureSalts.Salts
+- uid: OpenTl.Schema.IFutureSalts.Salts
+  commentId: P:OpenTl.Schema.IFutureSalts.Salts
+  parent: OpenTl.Schema.IFutureSalts
+  isExternal: false
+  name: Salts
+  nameWithType: IFutureSalts.Salts
+  fullName: OpenTl.Schema.IFutureSalts.Salts
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.TFutureSalt}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.TFutureSalt}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<TFutureSalt>
+  nameWithType: TVector<TFutureSalt>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.TFutureSalt>
+  nameWithType.vb: TVector(Of TFutureSalt)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.TFutureSalt)
+  name.vb: TVector(Of TFutureSalt)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TFutureSalt
+    name: TFutureSalt
+    nameWithType: TFutureSalt
+    fullName: OpenTl.Schema.TFutureSalt
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TFutureSalt
+    name: TFutureSalt
+    nameWithType: TFutureSalt
+    fullName: OpenTl.Schema.TFutureSalt
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

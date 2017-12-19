@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Auth
 	[Serialize(0xab03c6d9)]
 	public class TSentCodeTypeFlashCall : ISentCodeType
 	{
+       /// <summary>Binary representation for the 'Pattern' property</summary>
        [SerializationOrder(0)]
        public byte[] PatternAsBinary { get => _PatternAsBinary; set { _Pattern = Encoding.UTF8.GetString(value); _PatternAsBinary = value; }}
        private byte[] _PatternAsBinary;

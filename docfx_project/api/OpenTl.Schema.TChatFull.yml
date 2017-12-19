@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatFull
+  commentId: T:OpenTl.Schema.TChatFull
+  id: TChatFull
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatFull.BotInfo
+  - OpenTl.Schema.TChatFull.ChatPhoto
+  - OpenTl.Schema.TChatFull.ExportedInvite
+  - OpenTl.Schema.TChatFull.Id
+  - OpenTl.Schema.TChatFull.NotifySettings
+  - OpenTl.Schema.TChatFull.Participants
+  langs:
+  - csharp
+  - vb
+  name: TChatFull
+  nameWithType: TChatFull
+  fullName: OpenTl.Schema.TChatFull
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatFull
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatFull : object, IChatFull, IObject'
+    content.vb: >-
+      Public Class TChatFull
+
+          Inherits Object
+
+          Implements IChatFull, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChatFull
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatFull.Id
+  commentId: P:OpenTl.Schema.TChatFull.Id
+  id: Id
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TChatFull.Id
+  fullName: OpenTl.Schema.TChatFull.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TChatFull.Id*
+  implements:
+  - OpenTl.Schema.IChatFull.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatFull.Participants
+  commentId: P:OpenTl.Schema.TChatFull.Participants
+  id: Participants
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: Participants
+  nameWithType: TChatFull.Participants
+  fullName: OpenTl.Schema.TChatFull.Participants
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Participants
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChatParticipants Participants { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChatParticipants
+    content.vb: Public Property Participants As IChatParticipants
+  overload: OpenTl.Schema.TChatFull.Participants*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatFull.ChatPhoto
+  commentId: P:OpenTl.Schema.TChatFull.ChatPhoto
+  id: ChatPhoto
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: ChatPhoto
+  nameWithType: TChatFull.ChatPhoto
+  fullName: OpenTl.Schema.TChatFull.ChatPhoto
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoto ChatPhoto { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property ChatPhoto As IPhoto
+  overload: OpenTl.Schema.TChatFull.ChatPhoto*
+  implements:
+  - OpenTl.Schema.IChatFull.ChatPhoto
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatFull.NotifySettings
+  commentId: P:OpenTl.Schema.TChatFull.NotifySettings
+  id: NotifySettings
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: NotifySettings
+  nameWithType: TChatFull.NotifySettings
+  fullName: OpenTl.Schema.TChatFull.NotifySettings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeerNotifySettings NotifySettings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeerNotifySettings
+    content.vb: Public Property NotifySettings As IPeerNotifySettings
+  overload: OpenTl.Schema.TChatFull.NotifySettings*
+  implements:
+  - OpenTl.Schema.IChatFull.NotifySettings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatFull.ExportedInvite
+  commentId: P:OpenTl.Schema.TChatFull.ExportedInvite
+  id: ExportedInvite
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: ExportedInvite
+  nameWithType: TChatFull.ExportedInvite
+  fullName: OpenTl.Schema.TChatFull.ExportedInvite
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ExportedInvite
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IExportedChatInvite ExportedInvite { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IExportedChatInvite
+    content.vb: Public Property ExportedInvite As IExportedChatInvite
+  overload: OpenTl.Schema.TChatFull.ExportedInvite*
+  implements:
+  - OpenTl.Schema.IChatFull.ExportedInvite
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatFull.BotInfo
+  commentId: P:OpenTl.Schema.TChatFull.BotInfo
+  id: BotInfo
+  parent: OpenTl.Schema.TChatFull
+  langs:
+  - csharp
+  - vb
+  name: BotInfo
+  nameWithType: TChatFull.BotInfo
+  fullName: OpenTl.Schema.TChatFull.BotInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatFull/TChatFull.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IBotInfo> BotInfo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IBotInfo}
+    content.vb: Public Property BotInfo As TVector(Of IBotInfo)
+  overload: OpenTl.Schema.TChatFull.BotInfo*
+  implements:
+  - OpenTl.Schema.IChatFull.BotInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChatFull
+  commentId: T:OpenTl.Schema.IChatFull
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatFull
+  nameWithType: IChatFull
+  fullName: OpenTl.Schema.IChatFull
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatFull.Id*
+  commentId: Overload:OpenTl.Schema.TChatFull.Id
+  isExternal: false
+  name: Id
+  nameWithType: TChatFull.Id
+  fullName: OpenTl.Schema.TChatFull.Id
+- uid: OpenTl.Schema.IChatFull.Id
+  commentId: P:OpenTl.Schema.IChatFull.Id
+  parent: OpenTl.Schema.IChatFull
+  isExternal: false
+  name: Id
+  nameWithType: IChatFull.Id
+  fullName: OpenTl.Schema.IChatFull.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChatFull.Participants*
+  commentId: Overload:OpenTl.Schema.TChatFull.Participants
+  isExternal: false
+  name: Participants
+  nameWithType: TChatFull.Participants
+  fullName: OpenTl.Schema.TChatFull.Participants
+- uid: OpenTl.Schema.IChatParticipants
+  commentId: T:OpenTl.Schema.IChatParticipants
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatParticipants
+  nameWithType: IChatParticipants
+  fullName: OpenTl.Schema.IChatParticipants
+- uid: OpenTl.Schema.TChatFull.ChatPhoto*
+  commentId: Overload:OpenTl.Schema.TChatFull.ChatPhoto
+  isExternal: false
+  name: ChatPhoto
+  nameWithType: TChatFull.ChatPhoto
+  fullName: OpenTl.Schema.TChatFull.ChatPhoto
+- uid: OpenTl.Schema.IChatFull.ChatPhoto
+  commentId: P:OpenTl.Schema.IChatFull.ChatPhoto
+  parent: OpenTl.Schema.IChatFull
+  isExternal: false
+  name: ChatPhoto
+  nameWithType: IChatFull.ChatPhoto
+  fullName: OpenTl.Schema.IChatFull.ChatPhoto
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.TChatFull.NotifySettings*
+  commentId: Overload:OpenTl.Schema.TChatFull.NotifySettings
+  isExternal: false
+  name: NotifySettings
+  nameWithType: TChatFull.NotifySettings
+  fullName: OpenTl.Schema.TChatFull.NotifySettings
+- uid: OpenTl.Schema.IChatFull.NotifySettings
+  commentId: P:OpenTl.Schema.IChatFull.NotifySettings
+  parent: OpenTl.Schema.IChatFull
+  isExternal: false
+  name: NotifySettings
+  nameWithType: IChatFull.NotifySettings
+  fullName: OpenTl.Schema.IChatFull.NotifySettings
+- uid: OpenTl.Schema.IPeerNotifySettings
+  commentId: T:OpenTl.Schema.IPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifySettings
+  nameWithType: IPeerNotifySettings
+  fullName: OpenTl.Schema.IPeerNotifySettings
+- uid: OpenTl.Schema.TChatFull.ExportedInvite*
+  commentId: Overload:OpenTl.Schema.TChatFull.ExportedInvite
+  isExternal: false
+  name: ExportedInvite
+  nameWithType: TChatFull.ExportedInvite
+  fullName: OpenTl.Schema.TChatFull.ExportedInvite
+- uid: OpenTl.Schema.IChatFull.ExportedInvite
+  commentId: P:OpenTl.Schema.IChatFull.ExportedInvite
+  parent: OpenTl.Schema.IChatFull
+  isExternal: false
+  name: ExportedInvite
+  nameWithType: IChatFull.ExportedInvite
+  fullName: OpenTl.Schema.IChatFull.ExportedInvite
+- uid: OpenTl.Schema.IExportedChatInvite
+  commentId: T:OpenTl.Schema.IExportedChatInvite
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IExportedChatInvite
+  nameWithType: IExportedChatInvite
+  fullName: OpenTl.Schema.IExportedChatInvite
+- uid: OpenTl.Schema.TChatFull.BotInfo*
+  commentId: Overload:OpenTl.Schema.TChatFull.BotInfo
+  isExternal: false
+  name: BotInfo
+  nameWithType: TChatFull.BotInfo
+  fullName: OpenTl.Schema.TChatFull.BotInfo
+- uid: OpenTl.Schema.IChatFull.BotInfo
+  commentId: P:OpenTl.Schema.IChatFull.BotInfo
+  parent: OpenTl.Schema.IChatFull
+  isExternal: false
+  name: BotInfo
+  nameWithType: IChatFull.BotInfo
+  fullName: OpenTl.Schema.IChatFull.BotInfo
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IBotInfo}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IBotInfo}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IBotInfo>
+  nameWithType: TVector<IBotInfo>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IBotInfo>
+  nameWithType.vb: TVector(Of IBotInfo)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IBotInfo)
+  name.vb: TVector(Of IBotInfo)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IBotInfo
+    name: IBotInfo
+    nameWithType: IBotInfo
+    fullName: OpenTl.Schema.IBotInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IBotInfo
+    name: IBotInfo
+    nameWithType: IBotInfo
+    fullName: OpenTl.Schema.IBotInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

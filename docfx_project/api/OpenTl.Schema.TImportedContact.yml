@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TImportedContact
+  commentId: T:OpenTl.Schema.TImportedContact
+  id: TImportedContact
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TImportedContact.ClientId
+  - OpenTl.Schema.TImportedContact.UserId
+  langs:
+  - csharp
+  - vb
+  name: TImportedContact
+  nameWithType: TImportedContact
+  fullName: OpenTl.Schema.TImportedContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TImportedContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TImportedContact : object, IImportedContact, IObject'
+    content.vb: >-
+      Public Class TImportedContact
+
+          Inherits Object
+
+          Implements IImportedContact, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IImportedContact
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TImportedContact.UserId
+  commentId: P:OpenTl.Schema.TImportedContact.UserId
+  id: UserId
+  parent: OpenTl.Schema.TImportedContact
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TImportedContact.UserId
+  fullName: OpenTl.Schema.TImportedContact.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TImportedContact.UserId*
+  implements:
+  - OpenTl.Schema.IImportedContact.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TImportedContact.ClientId
+  commentId: P:OpenTl.Schema.TImportedContact.ClientId
+  id: ClientId
+  parent: OpenTl.Schema.TImportedContact
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: TImportedContact.ClientId
+  fullName: OpenTl.Schema.TImportedContact.ClientId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ClientId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ImportedContact/TImportedContact.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ClientId As Long
+  overload: OpenTl.Schema.TImportedContact.ClientId*
+  implements:
+  - OpenTl.Schema.IImportedContact.ClientId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IImportedContact
+  commentId: T:OpenTl.Schema.IImportedContact
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IImportedContact
+  nameWithType: IImportedContact
+  fullName: OpenTl.Schema.IImportedContact
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TImportedContact.UserId*
+  commentId: Overload:OpenTl.Schema.TImportedContact.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TImportedContact.UserId
+  fullName: OpenTl.Schema.TImportedContact.UserId
+- uid: OpenTl.Schema.IImportedContact.UserId
+  commentId: P:OpenTl.Schema.IImportedContact.UserId
+  parent: OpenTl.Schema.IImportedContact
+  isExternal: false
+  name: UserId
+  nameWithType: IImportedContact.UserId
+  fullName: OpenTl.Schema.IImportedContact.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TImportedContact.ClientId*
+  commentId: Overload:OpenTl.Schema.TImportedContact.ClientId
+  isExternal: false
+  name: ClientId
+  nameWithType: TImportedContact.ClientId
+  fullName: OpenTl.Schema.TImportedContact.ClientId
+- uid: OpenTl.Schema.IImportedContact.ClientId
+  commentId: P:OpenTl.Schema.IImportedContact.ClientId
+  parent: OpenTl.Schema.IImportedContact
+  isExternal: false
+  name: ClientId
+  nameWithType: IImportedContact.ClientId
+  fullName: OpenTl.Schema.IImportedContact.ClientId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

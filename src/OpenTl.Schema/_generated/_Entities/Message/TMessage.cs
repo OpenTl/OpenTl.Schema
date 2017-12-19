@@ -60,6 +60,7 @@ namespace OpenTl.Schema
        [SerializationOrder(12)]
        public int Date {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(13)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;
@@ -86,6 +87,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 15)]
        public int EditDate {get; set;}
 
+       /// <summary>Binary representation for the 'PostAuthor' property</summary>
        [SerializationOrder(19)]
        [CanSerialize("Flags", 16)]
        public byte[] PostAuthorAsBinary { get => _PostAuthorAsBinary; set { _PostAuthor = Encoding.UTF8.GetString(value); _PostAuthorAsBinary = value; }}

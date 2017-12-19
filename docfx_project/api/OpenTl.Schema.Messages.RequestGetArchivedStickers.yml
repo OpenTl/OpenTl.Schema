@@ -1,0 +1,342 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  commentId: T:OpenTl.Schema.Messages.RequestGetArchivedStickers
+  id: RequestGetArchivedStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+  - OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+  - OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+  - OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+  langs:
+  - csharp
+  - vb
+  name: RequestGetArchivedStickers
+  nameWithType: RequestGetArchivedStickers
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetArchivedStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestGetArchivedStickers : object, IRequest<IArchivedStickers>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetArchivedStickers
+
+          Inherits Object
+
+          Implements IRequest(Of IArchivedStickers), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IArchivedStickers}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetArchivedStickers.Flags
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+  commentId: P:OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+  id: Masks
+  parent: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: Masks
+  nameWithType: RequestGetArchivedStickers.Masks
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Masks
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Masks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Masks As Boolean
+  overload: OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+  commentId: P:OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+  id: OffsetId
+  parent: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: OffsetId
+  nameWithType: RequestGetArchivedStickers.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OffsetId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public long OffsetId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property OffsetId As Long
+  overload: OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+  commentId: P:OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+  id: Limit
+  parent: OpenTl.Schema.Messages.RequestGetArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetArchivedStickers.Limit
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestGetArchivedStickers.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IArchivedStickers}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IArchivedStickers}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IArchivedStickers>
+  nameWithType: IRequest<IArchivedStickers>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IArchivedStickers>
+  nameWithType.vb: IRequest(Of IArchivedStickers)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IArchivedStickers)
+  name.vb: IRequest(Of IArchivedStickers)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IArchivedStickers
+    name: IArchivedStickers
+    nameWithType: IArchivedStickers
+    fullName: OpenTl.Schema.Messages.IArchivedStickers
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IArchivedStickers
+    name: IArchivedStickers
+    nameWithType: IArchivedStickers
+    fullName: OpenTl.Schema.Messages.IArchivedStickers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetArchivedStickers.Flags
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+  isExternal: false
+  name: Masks
+  nameWithType: RequestGetArchivedStickers.Masks
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Masks
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+  isExternal: false
+  name: OffsetId
+  nameWithType: RequestGetArchivedStickers.OffsetId
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.OffsetId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit*
+  commentId: Overload:OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetArchivedStickers.Limit
+  fullName: OpenTl.Schema.Messages.RequestGetArchivedStickers.Limit
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

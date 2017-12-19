@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TLangPackLanguage
+  commentId: T:OpenTl.Schema.TLangPackLanguage
+  id: TLangPackLanguage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TLangPackLanguage.LangCode
+  - OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+  - OpenTl.Schema.TLangPackLanguage.Name
+  - OpenTl.Schema.TLangPackLanguage.NameAsBinary
+  - OpenTl.Schema.TLangPackLanguage.NativeName
+  - OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TLangPackLanguage
+  nameWithType: TLangPackLanguage
+  fullName: OpenTl.Schema.TLangPackLanguage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLangPackLanguage
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TLangPackLanguage : object, IObject'
+    content.vb: >-
+      Public Class TLangPackLanguage
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TLangPackLanguage.NameAsBinary
+  commentId: P:OpenTl.Schema.TLangPackLanguage.NameAsBinary
+  id: NameAsBinary
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: NameAsBinary
+  nameWithType: TLangPackLanguage.NameAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.NameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Name&apos; property
+  example: []
+  syntax:
+    content: public byte[] NameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NameAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackLanguage.NameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackLanguage.Name
+  commentId: P:OpenTl.Schema.TLangPackLanguage.Name
+  id: Name
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TLangPackLanguage.Name
+  fullName: OpenTl.Schema.TLangPackLanguage.Name
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Name
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: OpenTl.Schema.TLangPackLanguage.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+  commentId: P:OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+  id: NativeNameAsBinary
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: NativeNameAsBinary
+  nameWithType: TLangPackLanguage.NativeNameAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NativeNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;NativeName&apos; property
+  example: []
+  syntax:
+    content: public byte[] NativeNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NativeNameAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackLanguage.NativeName
+  commentId: P:OpenTl.Schema.TLangPackLanguage.NativeName
+  id: NativeName
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: NativeName
+  nameWithType: TLangPackLanguage.NativeName
+  fullName: OpenTl.Schema.TLangPackLanguage.NativeName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NativeName
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string NativeName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property NativeName As String
+  overload: OpenTl.Schema.TLangPackLanguage.NativeName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+  commentId: P:OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+  id: LangCodeAsBinary
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: LangCodeAsBinary
+  nameWithType: TLangPackLanguage.LangCodeAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;LangCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] LangCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LangCodeAsBinary As Byte()
+  overload: OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLangPackLanguage.LangCode
+  commentId: P:OpenTl.Schema.TLangPackLanguage.LangCode
+  id: LangCode
+  parent: OpenTl.Schema.TLangPackLanguage
+  langs:
+  - csharp
+  - vb
+  name: LangCode
+  nameWithType: TLangPackLanguage.LangCode
+  fullName: OpenTl.Schema.TLangPackLanguage.LangCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/TLangPackLanguage.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string LangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LangCode As String
+  overload: OpenTl.Schema.TLangPackLanguage.LangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TLangPackLanguage.NameAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.NameAsBinary
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: TLangPackLanguage.NameAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.NameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TLangPackLanguage.Name*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.Name
+  isExternal: false
+  name: Name
+  nameWithType: TLangPackLanguage.Name
+  fullName: OpenTl.Schema.TLangPackLanguage.Name
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+  isExternal: false
+  name: NativeNameAsBinary
+  nameWithType: TLangPackLanguage.NativeNameAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.NativeNameAsBinary
+- uid: OpenTl.Schema.TLangPackLanguage.NativeName*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.NativeName
+  isExternal: false
+  name: NativeName
+  nameWithType: TLangPackLanguage.NativeName
+  fullName: OpenTl.Schema.TLangPackLanguage.NativeName
+- uid: OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+  isExternal: false
+  name: LangCodeAsBinary
+  nameWithType: TLangPackLanguage.LangCodeAsBinary
+  fullName: OpenTl.Schema.TLangPackLanguage.LangCodeAsBinary
+- uid: OpenTl.Schema.TLangPackLanguage.LangCode*
+  commentId: Overload:OpenTl.Schema.TLangPackLanguage.LangCode
+  isExternal: false
+  name: LangCode
+  nameWithType: TLangPackLanguage.LangCode
+  fullName: OpenTl.Schema.TLangPackLanguage.LangCode

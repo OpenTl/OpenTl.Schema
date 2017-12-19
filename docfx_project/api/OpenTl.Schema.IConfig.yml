@@ -1,0 +1,1867 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IConfig
+  commentId: T:OpenTl.Schema.IConfig
+  id: IConfig
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IConfig.CallConnectTimeoutMs
+  - OpenTl.Schema.IConfig.CallPacketTimeoutMs
+  - OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+  - OpenTl.Schema.IConfig.CallRingTimeoutMs
+  - OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+  - OpenTl.Schema.IConfig.ChatBigSize
+  - OpenTl.Schema.IConfig.ChatSizeMax
+  - OpenTl.Schema.IConfig.Date
+  - OpenTl.Schema.IConfig.DcOptions
+  - OpenTl.Schema.IConfig.DisabledFeatures
+  - OpenTl.Schema.IConfig.EditTimeLimit
+  - OpenTl.Schema.IConfig.Expires
+  - OpenTl.Schema.IConfig.Flags
+  - OpenTl.Schema.IConfig.ForwardedCountMax
+  - OpenTl.Schema.IConfig.LangPackVersion
+  - OpenTl.Schema.IConfig.MegagroupSizeMax
+  - OpenTl.Schema.IConfig.MeUrlPrefix
+  - OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+  - OpenTl.Schema.IConfig.NotifyCloudDelayMs
+  - OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+  - OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+  - OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+  - OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+  - OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+  - OpenTl.Schema.IConfig.PhonecallsEnabled
+  - OpenTl.Schema.IConfig.PinnedDialogsCountMax
+  - OpenTl.Schema.IConfig.PushChatLimit
+  - OpenTl.Schema.IConfig.PushChatPeriodMs
+  - OpenTl.Schema.IConfig.RatingEDecay
+  - OpenTl.Schema.IConfig.SavedGifsLimit
+  - OpenTl.Schema.IConfig.StickersFavedLimit
+  - OpenTl.Schema.IConfig.StickersRecentLimit
+  - OpenTl.Schema.IConfig.SuggestedLangCode
+  - OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+  - OpenTl.Schema.IConfig.TestMode
+  - OpenTl.Schema.IConfig.ThisDc
+  - OpenTl.Schema.IConfig.TmpSessions
+  langs:
+  - csharp
+  - vb
+  name: IConfig
+  nameWithType: IConfig
+  fullName: OpenTl.Schema.IConfig
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IConfig
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IConfig : IObject'
+    content.vb: >-
+      Public Interface IConfig
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IConfig.Flags
+  commentId: P:OpenTl.Schema.IConfig.Flags
+  id: Flags
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IConfig.Flags
+  fullName: OpenTl.Schema.IConfig.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IConfig.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.PhonecallsEnabled
+  commentId: P:OpenTl.Schema.IConfig.PhonecallsEnabled
+  id: PhonecallsEnabled
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: PhonecallsEnabled
+  nameWithType: IConfig.PhonecallsEnabled
+  fullName: OpenTl.Schema.IConfig.PhonecallsEnabled
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhonecallsEnabled
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool PhonecallsEnabled { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PhonecallsEnabled As Boolean
+  overload: OpenTl.Schema.IConfig.PhonecallsEnabled*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.Date
+  commentId: P:OpenTl.Schema.IConfig.Date
+  id: Date
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: IConfig.Date
+  fullName: OpenTl.Schema.IConfig.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Date As Integer
+  overload: OpenTl.Schema.IConfig.Date*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.Expires
+  commentId: P:OpenTl.Schema.IConfig.Expires
+  id: Expires
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: Expires
+  nameWithType: IConfig.Expires
+  fullName: OpenTl.Schema.IConfig.Expires
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Expires
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Expires { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Expires As Integer
+  overload: OpenTl.Schema.IConfig.Expires*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.TestMode
+  commentId: P:OpenTl.Schema.IConfig.TestMode
+  id: TestMode
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: TestMode
+  nameWithType: IConfig.TestMode
+  fullName: OpenTl.Schema.IConfig.TestMode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TestMode
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool TestMode { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property TestMode As Boolean
+  overload: OpenTl.Schema.IConfig.TestMode*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.ThisDc
+  commentId: P:OpenTl.Schema.IConfig.ThisDc
+  id: ThisDc
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: ThisDc
+  nameWithType: IConfig.ThisDc
+  fullName: OpenTl.Schema.IConfig.ThisDc
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ThisDc
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int ThisDc { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ThisDc As Integer
+  overload: OpenTl.Schema.IConfig.ThisDc*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.DcOptions
+  commentId: P:OpenTl.Schema.IConfig.DcOptions
+  id: DcOptions
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: DcOptions
+  nameWithType: IConfig.DcOptions
+  fullName: OpenTl.Schema.IConfig.DcOptions
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcOptions
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: TVector<IDcOption> DcOptions { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+    content.vb: Property DcOptions As TVector(Of IDcOption)
+  overload: OpenTl.Schema.IConfig.DcOptions*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.ChatSizeMax
+  commentId: P:OpenTl.Schema.IConfig.ChatSizeMax
+  id: ChatSizeMax
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: ChatSizeMax
+  nameWithType: IConfig.ChatSizeMax
+  fullName: OpenTl.Schema.IConfig.ChatSizeMax
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatSizeMax
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int ChatSizeMax { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ChatSizeMax As Integer
+  overload: OpenTl.Schema.IConfig.ChatSizeMax*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.MegagroupSizeMax
+  commentId: P:OpenTl.Schema.IConfig.MegagroupSizeMax
+  id: MegagroupSizeMax
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: MegagroupSizeMax
+  nameWithType: IConfig.MegagroupSizeMax
+  fullName: OpenTl.Schema.IConfig.MegagroupSizeMax
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MegagroupSizeMax
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int MegagroupSizeMax { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property MegagroupSizeMax As Integer
+  overload: OpenTl.Schema.IConfig.MegagroupSizeMax*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.ForwardedCountMax
+  commentId: P:OpenTl.Schema.IConfig.ForwardedCountMax
+  id: ForwardedCountMax
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: ForwardedCountMax
+  nameWithType: IConfig.ForwardedCountMax
+  fullName: OpenTl.Schema.IConfig.ForwardedCountMax
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ForwardedCountMax
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int ForwardedCountMax { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ForwardedCountMax As Integer
+  overload: OpenTl.Schema.IConfig.ForwardedCountMax*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+  commentId: P:OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+  id: OnlineUpdatePeriodMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: OnlineUpdatePeriodMs
+  nameWithType: IConfig.OnlineUpdatePeriodMs
+  fullName: OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OnlineUpdatePeriodMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int OnlineUpdatePeriodMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property OnlineUpdatePeriodMs As Integer
+  overload: OpenTl.Schema.IConfig.OnlineUpdatePeriodMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+  id: OfflineBlurTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: OfflineBlurTimeoutMs
+  nameWithType: IConfig.OfflineBlurTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OfflineBlurTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int OfflineBlurTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property OfflineBlurTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.OfflineBlurTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+  id: OfflineIdleTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: OfflineIdleTimeoutMs
+  nameWithType: IConfig.OfflineIdleTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OfflineIdleTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int OfflineIdleTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property OfflineIdleTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.OfflineIdleTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+  id: OnlineCloudTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: OnlineCloudTimeoutMs
+  nameWithType: IConfig.OnlineCloudTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OnlineCloudTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int OnlineCloudTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property OnlineCloudTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.OnlineCloudTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.NotifyCloudDelayMs
+  commentId: P:OpenTl.Schema.IConfig.NotifyCloudDelayMs
+  id: NotifyCloudDelayMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: NotifyCloudDelayMs
+  nameWithType: IConfig.NotifyCloudDelayMs
+  fullName: OpenTl.Schema.IConfig.NotifyCloudDelayMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifyCloudDelayMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int NotifyCloudDelayMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property NotifyCloudDelayMs As Integer
+  overload: OpenTl.Schema.IConfig.NotifyCloudDelayMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+  commentId: P:OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+  id: NotifyDefaultDelayMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: NotifyDefaultDelayMs
+  nameWithType: IConfig.NotifyDefaultDelayMs
+  fullName: OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifyDefaultDelayMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int NotifyDefaultDelayMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property NotifyDefaultDelayMs As Integer
+  overload: OpenTl.Schema.IConfig.NotifyDefaultDelayMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.ChatBigSize
+  commentId: P:OpenTl.Schema.IConfig.ChatBigSize
+  id: ChatBigSize
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: ChatBigSize
+  nameWithType: IConfig.ChatBigSize
+  fullName: OpenTl.Schema.IConfig.ChatBigSize
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatBigSize
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int ChatBigSize { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ChatBigSize As Integer
+  overload: OpenTl.Schema.IConfig.ChatBigSize*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.PushChatPeriodMs
+  commentId: P:OpenTl.Schema.IConfig.PushChatPeriodMs
+  id: PushChatPeriodMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: PushChatPeriodMs
+  nameWithType: IConfig.PushChatPeriodMs
+  fullName: OpenTl.Schema.IConfig.PushChatPeriodMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PushChatPeriodMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int PushChatPeriodMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property PushChatPeriodMs As Integer
+  overload: OpenTl.Schema.IConfig.PushChatPeriodMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.PushChatLimit
+  commentId: P:OpenTl.Schema.IConfig.PushChatLimit
+  id: PushChatLimit
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: PushChatLimit
+  nameWithType: IConfig.PushChatLimit
+  fullName: OpenTl.Schema.IConfig.PushChatLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PushChatLimit
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int PushChatLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property PushChatLimit As Integer
+  overload: OpenTl.Schema.IConfig.PushChatLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.SavedGifsLimit
+  commentId: P:OpenTl.Schema.IConfig.SavedGifsLimit
+  id: SavedGifsLimit
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: SavedGifsLimit
+  nameWithType: IConfig.SavedGifsLimit
+  fullName: OpenTl.Schema.IConfig.SavedGifsLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SavedGifsLimit
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int SavedGifsLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property SavedGifsLimit As Integer
+  overload: OpenTl.Schema.IConfig.SavedGifsLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.EditTimeLimit
+  commentId: P:OpenTl.Schema.IConfig.EditTimeLimit
+  id: EditTimeLimit
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: EditTimeLimit
+  nameWithType: IConfig.EditTimeLimit
+  fullName: OpenTl.Schema.IConfig.EditTimeLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EditTimeLimit
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 51
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int EditTimeLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property EditTimeLimit As Integer
+  overload: OpenTl.Schema.IConfig.EditTimeLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.RatingEDecay
+  commentId: P:OpenTl.Schema.IConfig.RatingEDecay
+  id: RatingEDecay
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: RatingEDecay
+  nameWithType: IConfig.RatingEDecay
+  fullName: OpenTl.Schema.IConfig.RatingEDecay
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RatingEDecay
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 53
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int RatingEDecay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property RatingEDecay As Integer
+  overload: OpenTl.Schema.IConfig.RatingEDecay*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.StickersRecentLimit
+  commentId: P:OpenTl.Schema.IConfig.StickersRecentLimit
+  id: StickersRecentLimit
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: StickersRecentLimit
+  nameWithType: IConfig.StickersRecentLimit
+  fullName: OpenTl.Schema.IConfig.StickersRecentLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StickersRecentLimit
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 55
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int StickersRecentLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property StickersRecentLimit As Integer
+  overload: OpenTl.Schema.IConfig.StickersRecentLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.StickersFavedLimit
+  commentId: P:OpenTl.Schema.IConfig.StickersFavedLimit
+  id: StickersFavedLimit
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: StickersFavedLimit
+  nameWithType: IConfig.StickersFavedLimit
+  fullName: OpenTl.Schema.IConfig.StickersFavedLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StickersFavedLimit
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 57
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int StickersFavedLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property StickersFavedLimit As Integer
+  overload: OpenTl.Schema.IConfig.StickersFavedLimit*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+  commentId: P:OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+  id: ChannelsReadMediaPeriod
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: ChannelsReadMediaPeriod
+  nameWithType: IConfig.ChannelsReadMediaPeriod
+  fullName: OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelsReadMediaPeriod
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 59
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int ChannelsReadMediaPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property ChannelsReadMediaPeriod As Integer
+  overload: OpenTl.Schema.IConfig.ChannelsReadMediaPeriod*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.TmpSessions
+  commentId: P:OpenTl.Schema.IConfig.TmpSessions
+  id: TmpSessions
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: TmpSessions
+  nameWithType: IConfig.TmpSessions
+  fullName: OpenTl.Schema.IConfig.TmpSessions
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TmpSessions
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 61
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int TmpSessions { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property TmpSessions As Integer
+  overload: OpenTl.Schema.IConfig.TmpSessions*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.PinnedDialogsCountMax
+  commentId: P:OpenTl.Schema.IConfig.PinnedDialogsCountMax
+  id: PinnedDialogsCountMax
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: PinnedDialogsCountMax
+  nameWithType: IConfig.PinnedDialogsCountMax
+  fullName: OpenTl.Schema.IConfig.PinnedDialogsCountMax
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PinnedDialogsCountMax
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 63
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int PinnedDialogsCountMax { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property PinnedDialogsCountMax As Integer
+  overload: OpenTl.Schema.IConfig.PinnedDialogsCountMax*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+  id: CallReceiveTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: CallReceiveTimeoutMs
+  nameWithType: IConfig.CallReceiveTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CallReceiveTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 65
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int CallReceiveTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CallReceiveTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.CallReceiveTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.CallRingTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.CallRingTimeoutMs
+  id: CallRingTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: CallRingTimeoutMs
+  nameWithType: IConfig.CallRingTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallRingTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CallRingTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 67
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int CallRingTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CallRingTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.CallRingTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.CallConnectTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.CallConnectTimeoutMs
+  id: CallConnectTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: CallConnectTimeoutMs
+  nameWithType: IConfig.CallConnectTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallConnectTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CallConnectTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 69
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int CallConnectTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CallConnectTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.CallConnectTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.CallPacketTimeoutMs
+  commentId: P:OpenTl.Schema.IConfig.CallPacketTimeoutMs
+  id: CallPacketTimeoutMs
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: CallPacketTimeoutMs
+  nameWithType: IConfig.CallPacketTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallPacketTimeoutMs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CallPacketTimeoutMs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 71
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int CallPacketTimeoutMs { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property CallPacketTimeoutMs As Integer
+  overload: OpenTl.Schema.IConfig.CallPacketTimeoutMs*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+  commentId: P:OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+  id: MeUrlPrefixAsBinary
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: MeUrlPrefixAsBinary
+  nameWithType: IConfig.MeUrlPrefixAsBinary
+  fullName: OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MeUrlPrefixAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 73
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] MeUrlPrefixAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property MeUrlPrefixAsBinary As Byte()
+  overload: OpenTl.Schema.IConfig.MeUrlPrefixAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.MeUrlPrefix
+  commentId: P:OpenTl.Schema.IConfig.MeUrlPrefix
+  id: MeUrlPrefix
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: MeUrlPrefix
+  nameWithType: IConfig.MeUrlPrefix
+  fullName: OpenTl.Schema.IConfig.MeUrlPrefix
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MeUrlPrefix
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 74
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string MeUrlPrefix { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property MeUrlPrefix As String
+  overload: OpenTl.Schema.IConfig.MeUrlPrefix*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+  commentId: P:OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+  id: SuggestedLangCodeAsBinary
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: SuggestedLangCodeAsBinary
+  nameWithType: IConfig.SuggestedLangCodeAsBinary
+  fullName: OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SuggestedLangCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 76
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] SuggestedLangCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property SuggestedLangCodeAsBinary As Byte()
+  overload: OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.SuggestedLangCode
+  commentId: P:OpenTl.Schema.IConfig.SuggestedLangCode
+  id: SuggestedLangCode
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: SuggestedLangCode
+  nameWithType: IConfig.SuggestedLangCode
+  fullName: OpenTl.Schema.IConfig.SuggestedLangCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SuggestedLangCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 77
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string SuggestedLangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property SuggestedLangCode As String
+  overload: OpenTl.Schema.IConfig.SuggestedLangCode*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.LangPackVersion
+  commentId: P:OpenTl.Schema.IConfig.LangPackVersion
+  id: LangPackVersion
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: LangPackVersion
+  nameWithType: IConfig.LangPackVersion
+  fullName: OpenTl.Schema.IConfig.LangPackVersion
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangPackVersion
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 79
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int LangPackVersion { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property LangPackVersion As Integer
+  overload: OpenTl.Schema.IConfig.LangPackVersion*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IConfig.DisabledFeatures
+  commentId: P:OpenTl.Schema.IConfig.DisabledFeatures
+  id: DisabledFeatures
+  parent: OpenTl.Schema.IConfig
+  langs:
+  - csharp
+  - vb
+  name: DisabledFeatures
+  nameWithType: IConfig.DisabledFeatures
+  fullName: OpenTl.Schema.IConfig.DisabledFeatures
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DisabledFeatures
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/IConfig.cs
+    startLine: 81
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: TVector<IDisabledFeature> DisabledFeatures { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDisabledFeature}
+    content.vb: Property DisabledFeatures As TVector(Of IDisabledFeature)
+  overload: OpenTl.Schema.IConfig.DisabledFeatures*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IConfig.Flags*
+  commentId: Overload:OpenTl.Schema.IConfig.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IConfig.Flags
+  fullName: OpenTl.Schema.IConfig.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IConfig.PhonecallsEnabled*
+  commentId: Overload:OpenTl.Schema.IConfig.PhonecallsEnabled
+  isExternal: false
+  name: PhonecallsEnabled
+  nameWithType: IConfig.PhonecallsEnabled
+  fullName: OpenTl.Schema.IConfig.PhonecallsEnabled
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.IConfig.Date*
+  commentId: Overload:OpenTl.Schema.IConfig.Date
+  isExternal: false
+  name: Date
+  nameWithType: IConfig.Date
+  fullName: OpenTl.Schema.IConfig.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IConfig.Expires*
+  commentId: Overload:OpenTl.Schema.IConfig.Expires
+  isExternal: false
+  name: Expires
+  nameWithType: IConfig.Expires
+  fullName: OpenTl.Schema.IConfig.Expires
+- uid: OpenTl.Schema.IConfig.TestMode*
+  commentId: Overload:OpenTl.Schema.IConfig.TestMode
+  isExternal: false
+  name: TestMode
+  nameWithType: IConfig.TestMode
+  fullName: OpenTl.Schema.IConfig.TestMode
+- uid: OpenTl.Schema.IConfig.ThisDc*
+  commentId: Overload:OpenTl.Schema.IConfig.ThisDc
+  isExternal: false
+  name: ThisDc
+  nameWithType: IConfig.ThisDc
+  fullName: OpenTl.Schema.IConfig.ThisDc
+- uid: OpenTl.Schema.IConfig.DcOptions*
+  commentId: Overload:OpenTl.Schema.IConfig.DcOptions
+  isExternal: false
+  name: DcOptions
+  nameWithType: IConfig.DcOptions
+  fullName: OpenTl.Schema.IConfig.DcOptions
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDcOption}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDcOption>
+  nameWithType: TVector<IDcOption>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDcOption>
+  nameWithType.vb: TVector(Of IDcOption)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDcOption)
+  name.vb: TVector(Of IDcOption)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDcOption
+    name: IDcOption
+    nameWithType: IDcOption
+    fullName: OpenTl.Schema.IDcOption
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDcOption
+    name: IDcOption
+    nameWithType: IDcOption
+    fullName: OpenTl.Schema.IDcOption
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IConfig.ChatSizeMax*
+  commentId: Overload:OpenTl.Schema.IConfig.ChatSizeMax
+  isExternal: false
+  name: ChatSizeMax
+  nameWithType: IConfig.ChatSizeMax
+  fullName: OpenTl.Schema.IConfig.ChatSizeMax
+- uid: OpenTl.Schema.IConfig.MegagroupSizeMax*
+  commentId: Overload:OpenTl.Schema.IConfig.MegagroupSizeMax
+  isExternal: false
+  name: MegagroupSizeMax
+  nameWithType: IConfig.MegagroupSizeMax
+  fullName: OpenTl.Schema.IConfig.MegagroupSizeMax
+- uid: OpenTl.Schema.IConfig.ForwardedCountMax*
+  commentId: Overload:OpenTl.Schema.IConfig.ForwardedCountMax
+  isExternal: false
+  name: ForwardedCountMax
+  nameWithType: IConfig.ForwardedCountMax
+  fullName: OpenTl.Schema.IConfig.ForwardedCountMax
+- uid: OpenTl.Schema.IConfig.OnlineUpdatePeriodMs*
+  commentId: Overload:OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+  isExternal: false
+  name: OnlineUpdatePeriodMs
+  nameWithType: IConfig.OnlineUpdatePeriodMs
+  fullName: OpenTl.Schema.IConfig.OnlineUpdatePeriodMs
+- uid: OpenTl.Schema.IConfig.OfflineBlurTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+  isExternal: false
+  name: OfflineBlurTimeoutMs
+  nameWithType: IConfig.OfflineBlurTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OfflineBlurTimeoutMs
+- uid: OpenTl.Schema.IConfig.OfflineIdleTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+  isExternal: false
+  name: OfflineIdleTimeoutMs
+  nameWithType: IConfig.OfflineIdleTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OfflineIdleTimeoutMs
+- uid: OpenTl.Schema.IConfig.OnlineCloudTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+  isExternal: false
+  name: OnlineCloudTimeoutMs
+  nameWithType: IConfig.OnlineCloudTimeoutMs
+  fullName: OpenTl.Schema.IConfig.OnlineCloudTimeoutMs
+- uid: OpenTl.Schema.IConfig.NotifyCloudDelayMs*
+  commentId: Overload:OpenTl.Schema.IConfig.NotifyCloudDelayMs
+  isExternal: false
+  name: NotifyCloudDelayMs
+  nameWithType: IConfig.NotifyCloudDelayMs
+  fullName: OpenTl.Schema.IConfig.NotifyCloudDelayMs
+- uid: OpenTl.Schema.IConfig.NotifyDefaultDelayMs*
+  commentId: Overload:OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+  isExternal: false
+  name: NotifyDefaultDelayMs
+  nameWithType: IConfig.NotifyDefaultDelayMs
+  fullName: OpenTl.Schema.IConfig.NotifyDefaultDelayMs
+- uid: OpenTl.Schema.IConfig.ChatBigSize*
+  commentId: Overload:OpenTl.Schema.IConfig.ChatBigSize
+  isExternal: false
+  name: ChatBigSize
+  nameWithType: IConfig.ChatBigSize
+  fullName: OpenTl.Schema.IConfig.ChatBigSize
+- uid: OpenTl.Schema.IConfig.PushChatPeriodMs*
+  commentId: Overload:OpenTl.Schema.IConfig.PushChatPeriodMs
+  isExternal: false
+  name: PushChatPeriodMs
+  nameWithType: IConfig.PushChatPeriodMs
+  fullName: OpenTl.Schema.IConfig.PushChatPeriodMs
+- uid: OpenTl.Schema.IConfig.PushChatLimit*
+  commentId: Overload:OpenTl.Schema.IConfig.PushChatLimit
+  isExternal: false
+  name: PushChatLimit
+  nameWithType: IConfig.PushChatLimit
+  fullName: OpenTl.Schema.IConfig.PushChatLimit
+- uid: OpenTl.Schema.IConfig.SavedGifsLimit*
+  commentId: Overload:OpenTl.Schema.IConfig.SavedGifsLimit
+  isExternal: false
+  name: SavedGifsLimit
+  nameWithType: IConfig.SavedGifsLimit
+  fullName: OpenTl.Schema.IConfig.SavedGifsLimit
+- uid: OpenTl.Schema.IConfig.EditTimeLimit*
+  commentId: Overload:OpenTl.Schema.IConfig.EditTimeLimit
+  isExternal: false
+  name: EditTimeLimit
+  nameWithType: IConfig.EditTimeLimit
+  fullName: OpenTl.Schema.IConfig.EditTimeLimit
+- uid: OpenTl.Schema.IConfig.RatingEDecay*
+  commentId: Overload:OpenTl.Schema.IConfig.RatingEDecay
+  isExternal: false
+  name: RatingEDecay
+  nameWithType: IConfig.RatingEDecay
+  fullName: OpenTl.Schema.IConfig.RatingEDecay
+- uid: OpenTl.Schema.IConfig.StickersRecentLimit*
+  commentId: Overload:OpenTl.Schema.IConfig.StickersRecentLimit
+  isExternal: false
+  name: StickersRecentLimit
+  nameWithType: IConfig.StickersRecentLimit
+  fullName: OpenTl.Schema.IConfig.StickersRecentLimit
+- uid: OpenTl.Schema.IConfig.StickersFavedLimit*
+  commentId: Overload:OpenTl.Schema.IConfig.StickersFavedLimit
+  isExternal: false
+  name: StickersFavedLimit
+  nameWithType: IConfig.StickersFavedLimit
+  fullName: OpenTl.Schema.IConfig.StickersFavedLimit
+- uid: OpenTl.Schema.IConfig.ChannelsReadMediaPeriod*
+  commentId: Overload:OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+  isExternal: false
+  name: ChannelsReadMediaPeriod
+  nameWithType: IConfig.ChannelsReadMediaPeriod
+  fullName: OpenTl.Schema.IConfig.ChannelsReadMediaPeriod
+- uid: OpenTl.Schema.IConfig.TmpSessions*
+  commentId: Overload:OpenTl.Schema.IConfig.TmpSessions
+  isExternal: false
+  name: TmpSessions
+  nameWithType: IConfig.TmpSessions
+  fullName: OpenTl.Schema.IConfig.TmpSessions
+- uid: OpenTl.Schema.IConfig.PinnedDialogsCountMax*
+  commentId: Overload:OpenTl.Schema.IConfig.PinnedDialogsCountMax
+  isExternal: false
+  name: PinnedDialogsCountMax
+  nameWithType: IConfig.PinnedDialogsCountMax
+  fullName: OpenTl.Schema.IConfig.PinnedDialogsCountMax
+- uid: OpenTl.Schema.IConfig.CallReceiveTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+  isExternal: false
+  name: CallReceiveTimeoutMs
+  nameWithType: IConfig.CallReceiveTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallReceiveTimeoutMs
+- uid: OpenTl.Schema.IConfig.CallRingTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.CallRingTimeoutMs
+  isExternal: false
+  name: CallRingTimeoutMs
+  nameWithType: IConfig.CallRingTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallRingTimeoutMs
+- uid: OpenTl.Schema.IConfig.CallConnectTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.CallConnectTimeoutMs
+  isExternal: false
+  name: CallConnectTimeoutMs
+  nameWithType: IConfig.CallConnectTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallConnectTimeoutMs
+- uid: OpenTl.Schema.IConfig.CallPacketTimeoutMs*
+  commentId: Overload:OpenTl.Schema.IConfig.CallPacketTimeoutMs
+  isExternal: false
+  name: CallPacketTimeoutMs
+  nameWithType: IConfig.CallPacketTimeoutMs
+  fullName: OpenTl.Schema.IConfig.CallPacketTimeoutMs
+- uid: OpenTl.Schema.IConfig.MeUrlPrefixAsBinary*
+  commentId: Overload:OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+  isExternal: false
+  name: MeUrlPrefixAsBinary
+  nameWithType: IConfig.MeUrlPrefixAsBinary
+  fullName: OpenTl.Schema.IConfig.MeUrlPrefixAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IConfig.MeUrlPrefix*
+  commentId: Overload:OpenTl.Schema.IConfig.MeUrlPrefix
+  isExternal: false
+  name: MeUrlPrefix
+  nameWithType: IConfig.MeUrlPrefix
+  fullName: OpenTl.Schema.IConfig.MeUrlPrefix
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+  isExternal: false
+  name: SuggestedLangCodeAsBinary
+  nameWithType: IConfig.SuggestedLangCodeAsBinary
+  fullName: OpenTl.Schema.IConfig.SuggestedLangCodeAsBinary
+- uid: OpenTl.Schema.IConfig.SuggestedLangCode*
+  commentId: Overload:OpenTl.Schema.IConfig.SuggestedLangCode
+  isExternal: false
+  name: SuggestedLangCode
+  nameWithType: IConfig.SuggestedLangCode
+  fullName: OpenTl.Schema.IConfig.SuggestedLangCode
+- uid: OpenTl.Schema.IConfig.LangPackVersion*
+  commentId: Overload:OpenTl.Schema.IConfig.LangPackVersion
+  isExternal: false
+  name: LangPackVersion
+  nameWithType: IConfig.LangPackVersion
+  fullName: OpenTl.Schema.IConfig.LangPackVersion
+- uid: OpenTl.Schema.IConfig.DisabledFeatures*
+  commentId: Overload:OpenTl.Schema.IConfig.DisabledFeatures
+  isExternal: false
+  name: DisabledFeatures
+  nameWithType: IConfig.DisabledFeatures
+  fullName: OpenTl.Schema.IConfig.DisabledFeatures
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDisabledFeature}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDisabledFeature}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDisabledFeature>
+  nameWithType: TVector<IDisabledFeature>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature>
+  nameWithType.vb: TVector(Of IDisabledFeature)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDisabledFeature)
+  name.vb: TVector(Of IDisabledFeature)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDisabledFeature
+    name: IDisabledFeature
+    nameWithType: IDisabledFeature
+    fullName: OpenTl.Schema.IDisabledFeature
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDisabledFeature
+    name: IDisabledFeature
+    nameWithType: IDisabledFeature
+    fullName: OpenTl.Schema.IDisabledFeature
+  - name: )
+    nameWithType: )
+    fullName: )

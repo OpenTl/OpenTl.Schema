@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser BotId {get; set;}
 
+       /// <summary>Binary representation for the 'ShortName' property</summary>
        [SerializationOrder(1)]
        public byte[] ShortNameAsBinary { get => _ShortNameAsBinary; set { _ShortName = Encoding.UTF8.GetString(value); _ShortNameAsBinary = value; }}
        private byte[] _ShortNameAsBinary;

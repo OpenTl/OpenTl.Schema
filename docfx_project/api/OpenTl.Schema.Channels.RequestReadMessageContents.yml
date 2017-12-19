@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestReadMessageContents
+  commentId: T:OpenTl.Schema.Channels.RequestReadMessageContents
+  id: RequestReadMessageContents
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+  - OpenTl.Schema.Channels.RequestReadMessageContents.Id
+  langs:
+  - csharp
+  - vb
+  name: RequestReadMessageContents
+  nameWithType: RequestReadMessageContents
+  fullName: OpenTl.Schema.Channels.RequestReadMessageContents
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestReadMessageContents
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestReadMessageContents : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestReadMessageContents
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestReadMessageContents
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestReadMessageContents.Channel
+  fullName: OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestReadMessageContents.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestReadMessageContents.Id
+  commentId: P:OpenTl.Schema.Channels.RequestReadMessageContents.Id
+  id: Id
+  parent: OpenTl.Schema.Channels.RequestReadMessageContents
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestReadMessageContents.Id
+  fullName: OpenTl.Schema.Channels.RequestReadMessageContents.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestReadMessageContents.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<int> Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int32}
+    content.vb: Public Property Id As TVector(Of Integer)
+  overload: OpenTl.Schema.Channels.RequestReadMessageContents.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestReadMessageContents.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestReadMessageContents.Channel
+  fullName: OpenTl.Schema.Channels.RequestReadMessageContents.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestReadMessageContents.Id*
+  commentId: Overload:OpenTl.Schema.Channels.RequestReadMessageContents.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestReadMessageContents.Id
+  fullName: OpenTl.Schema.Channels.RequestReadMessageContents.Id
+- uid: OpenTl.Schema.TVector{System.Int32}
+  commentId: T:OpenTl.Schema.TVector{System.Int32}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int32>
+  nameWithType: TVector<Int32>
+  fullName: OpenTl.Schema.TVector<System.Int32>
+  nameWithType.vb: TVector(Of Int32)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int32)
+  name.vb: TVector(Of Int32)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

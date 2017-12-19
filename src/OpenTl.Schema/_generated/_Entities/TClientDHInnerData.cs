@@ -23,6 +23,7 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public long RetryId {get; set;}
 
+       /// <summary>Binary representation for the 'GB' property</summary>
        [SerializationOrder(3)]
        public byte[] GBAsBinary { get => _GBAsBinary; set { _GB = Encoding.UTF8.GetString(value); _GBAsBinary = value; }}
        private byte[] _GBAsBinary;

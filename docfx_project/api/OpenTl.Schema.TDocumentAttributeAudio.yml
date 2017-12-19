@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeAudio
+  commentId: T:OpenTl.Schema.TDocumentAttributeAudio
+  id: TDocumentAttributeAudio
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDocumentAttributeAudio.Duration
+  - OpenTl.Schema.TDocumentAttributeAudio.Flags
+  - OpenTl.Schema.TDocumentAttributeAudio.Performer
+  - OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+  - OpenTl.Schema.TDocumentAttributeAudio.Title
+  - OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+  - OpenTl.Schema.TDocumentAttributeAudio.Voice
+  - OpenTl.Schema.TDocumentAttributeAudio.Waveform
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeAudio
+  nameWithType: TDocumentAttributeAudio
+  fullName: OpenTl.Schema.TDocumentAttributeAudio
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeAudio
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeAudio : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeAudio
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Flags
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Flags
+  id: Flags
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TDocumentAttributeAudio.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Voice
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Voice
+  id: Voice
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Voice
+  nameWithType: TDocumentAttributeAudio.Voice
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Voice
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Voice
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Voice { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Voice As Boolean
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Voice*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Duration
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Duration
+  id: Duration
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: TDocumentAttributeAudio.Duration
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Duration
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Duration
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Duration As Integer
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TDocumentAttributeAudio.TitleAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Title
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Title
+  id: Title
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TDocumentAttributeAudio.Title
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+  id: PerformerAsBinary
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: PerformerAsBinary
+  nameWithType: TDocumentAttributeAudio.PerformerAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PerformerAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Performer&apos; property
+  example: []
+  syntax:
+    content: public byte[] PerformerAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PerformerAsBinary As Byte()
+  overload: OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Performer
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Performer
+  id: Performer
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Performer
+  nameWithType: TDocumentAttributeAudio.Performer
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Performer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Performer
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Performer { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Performer As String
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Performer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Waveform
+  commentId: P:OpenTl.Schema.TDocumentAttributeAudio.Waveform
+  id: Waveform
+  parent: OpenTl.Schema.TDocumentAttributeAudio
+  langs:
+  - csharp
+  - vb
+  name: Waveform
+  nameWithType: TDocumentAttributeAudio.Waveform
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Waveform
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Waveform
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeAudio.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Waveform { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Waveform As Byte()
+  overload: OpenTl.Schema.TDocumentAttributeAudio.Waveform*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Flags*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TDocumentAttributeAudio.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Voice*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Voice
+  isExternal: false
+  name: Voice
+  nameWithType: TDocumentAttributeAudio.Voice
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Voice
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Duration*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Duration
+  isExternal: false
+  name: Duration
+  nameWithType: TDocumentAttributeAudio.Duration
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Duration
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TDocumentAttributeAudio.TitleAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Title*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Title
+  isExternal: false
+  name: Title
+  nameWithType: TDocumentAttributeAudio.Title
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+  isExternal: false
+  name: PerformerAsBinary
+  nameWithType: TDocumentAttributeAudio.PerformerAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.PerformerAsBinary
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Performer*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Performer
+  isExternal: false
+  name: Performer
+  nameWithType: TDocumentAttributeAudio.Performer
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Performer
+- uid: OpenTl.Schema.TDocumentAttributeAudio.Waveform*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeAudio.Waveform
+  isExternal: false
+  name: Waveform
+  nameWithType: TDocumentAttributeAudio.Waveform
+  fullName: OpenTl.Schema.TDocumentAttributeAudio.Waveform

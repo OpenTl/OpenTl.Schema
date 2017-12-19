@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputReportReasonSpam
+  commentId: T:OpenTl.Schema.TInputReportReasonSpam
+  id: TInputReportReasonSpam
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputReportReasonSpam
+  nameWithType: TInputReportReasonSpam
+  fullName: OpenTl.Schema.TInputReportReasonSpam
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ReportReason/TInputReportReasonSpam.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputReportReasonSpam
+    path: ../src/OpenTl.Schema/_generated/_Entities/ReportReason/TInputReportReasonSpam.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputReportReasonSpam : object, IReportReason, IObject'
+    content.vb: >-
+      Public Class TInputReportReasonSpam
+
+          Inherits Object
+
+          Implements IReportReason, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IReportReason
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IReportReason
+  commentId: T:OpenTl.Schema.IReportReason
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReportReason
+  nameWithType: IReportReason
+  fullName: OpenTl.Schema.IReportReason
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

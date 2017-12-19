@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Messages
 	[Serialize(0x9e3cacb0)]
     public class RequestSearchGlobal : IRequest<OpenTl.Schema.Messages.IMessages>
     {
+       /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
        private byte[] _QAsBinary;

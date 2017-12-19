@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionChatJoinedByLink
+  commentId: T:OpenTl.Schema.TMessageActionChatJoinedByLink
+  id: TMessageActionChatJoinedByLink
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionChatJoinedByLink
+  nameWithType: TMessageActionChatJoinedByLink
+  fullName: OpenTl.Schema.TMessageActionChatJoinedByLink
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatJoinedByLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionChatJoinedByLink
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatJoinedByLink.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionChatJoinedByLink : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionChatJoinedByLink
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+  commentId: P:OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+  id: InviterId
+  parent: OpenTl.Schema.TMessageActionChatJoinedByLink
+  langs:
+  - csharp
+  - vb
+  name: InviterId
+  nameWithType: TMessageActionChatJoinedByLink.InviterId
+  fullName: OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatJoinedByLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviterId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatJoinedByLink.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int InviterId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InviterId As Integer
+  overload: OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+  isExternal: false
+  name: InviterId
+  nameWithType: TMessageActionChatJoinedByLink.InviterId
+  fullName: OpenTl.Schema.TMessageActionChatJoinedByLink.InviterId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

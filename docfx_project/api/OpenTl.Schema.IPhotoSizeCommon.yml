@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IPhotoSizeCommon
+  commentId: T:OpenTl.Schema.IPhotoSizeCommon
+  id: IPhotoSizeCommon
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IPhotoSizeCommon.H
+  - OpenTl.Schema.IPhotoSizeCommon.Location
+  - OpenTl.Schema.IPhotoSizeCommon.Type
+  - OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+  - OpenTl.Schema.IPhotoSizeCommon.W
+  langs:
+  - csharp
+  - vb
+  name: IPhotoSizeCommon
+  nameWithType: IPhotoSizeCommon
+  fullName: OpenTl.Schema.IPhotoSizeCommon
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IPhotoSizeCommon
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IPhotoSizeCommon : IObject'
+    content.vb: >-
+      Public Interface IPhotoSizeCommon
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+  commentId: P:OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.IPhotoSizeCommon
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: IPhotoSizeCommon.TypeAsBinary
+  fullName: OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IPhotoSizeCommon.Type
+  commentId: P:OpenTl.Schema.IPhotoSizeCommon.Type
+  id: Type
+  parent: OpenTl.Schema.IPhotoSizeCommon
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: IPhotoSizeCommon.Type
+  fullName: OpenTl.Schema.IPhotoSizeCommon.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 12
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Type As String
+  overload: OpenTl.Schema.IPhotoSizeCommon.Type*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IPhotoSizeCommon.Location
+  commentId: P:OpenTl.Schema.IPhotoSizeCommon.Location
+  id: Location
+  parent: OpenTl.Schema.IPhotoSizeCommon
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: IPhotoSizeCommon.Location
+  fullName: OpenTl.Schema.IPhotoSizeCommon.Location
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Location
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: IFileLocation Location { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IFileLocation
+    content.vb: Property Location As IFileLocation
+  overload: OpenTl.Schema.IPhotoSizeCommon.Location*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IPhotoSizeCommon.W
+  commentId: P:OpenTl.Schema.IPhotoSizeCommon.W
+  id: W
+  parent: OpenTl.Schema.IPhotoSizeCommon
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: IPhotoSizeCommon.W
+  fullName: OpenTl.Schema.IPhotoSizeCommon.W
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: W
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 16
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int W { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property W As Integer
+  overload: OpenTl.Schema.IPhotoSizeCommon.W*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IPhotoSizeCommon.H
+  commentId: P:OpenTl.Schema.IPhotoSizeCommon.H
+  id: H
+  parent: OpenTl.Schema.IPhotoSizeCommon
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: IPhotoSizeCommon.H
+  fullName: OpenTl.Schema.IPhotoSizeCommon.H
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: H
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhotoSize/IPhotoSizeCommon.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int H { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property H As Integer
+  overload: OpenTl.Schema.IPhotoSizeCommon.H*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: IPhotoSizeCommon.TypeAsBinary
+  fullName: OpenTl.Schema.IPhotoSizeCommon.TypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IPhotoSizeCommon.Type*
+  commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.Type
+  isExternal: false
+  name: Type
+  nameWithType: IPhotoSizeCommon.Type
+  fullName: OpenTl.Schema.IPhotoSizeCommon.Type
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IPhotoSizeCommon.Location*
+  commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.Location
+  isExternal: false
+  name: Location
+  nameWithType: IPhotoSizeCommon.Location
+  fullName: OpenTl.Schema.IPhotoSizeCommon.Location
+- uid: OpenTl.Schema.IFileLocation
+  commentId: T:OpenTl.Schema.IFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFileLocation
+  nameWithType: IFileLocation
+  fullName: OpenTl.Schema.IFileLocation
+- uid: OpenTl.Schema.IPhotoSizeCommon.W*
+  commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.W
+  isExternal: false
+  name: W
+  nameWithType: IPhotoSizeCommon.W
+  fullName: OpenTl.Schema.IPhotoSizeCommon.W
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IPhotoSizeCommon.H*
+  commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.H
+  isExternal: false
+  name: H
+  nameWithType: IPhotoSizeCommon.H
+  fullName: OpenTl.Schema.IPhotoSizeCommon.H

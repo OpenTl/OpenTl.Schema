@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Help
 	[Serialize(0x18cb9f78)]
 	public class TInviteText : IInviteText
 	{
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

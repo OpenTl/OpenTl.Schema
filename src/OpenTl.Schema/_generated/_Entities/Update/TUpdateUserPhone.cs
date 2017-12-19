@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public int UserId {get; set;}
 
+       /// <summary>Binary representation for the 'Phone' property</summary>
        [SerializationOrder(1)]
        public byte[] PhoneAsBinary { get => _PhoneAsBinary; set { _Phone = Encoding.UTF8.GetString(value); _PhoneAsBinary = value; }}
        private byte[] _PhoneAsBinary;

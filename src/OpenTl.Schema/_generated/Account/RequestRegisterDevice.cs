@@ -15,6 +15,7 @@ namespace OpenTl.Schema.Account
        [SerializationOrder(0)]
        public int TokenType {get; set;}
 
+       /// <summary>Binary representation for the 'Token' property</summary>
        [SerializationOrder(1)]
        public byte[] TokenAsBinary { get => _TokenAsBinary; set { _Token = Encoding.UTF8.GetString(value); _TokenAsBinary = value; }}
        private byte[] _TokenAsBinary;

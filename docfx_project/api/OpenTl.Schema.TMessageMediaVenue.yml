@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageMediaVenue
+  commentId: T:OpenTl.Schema.TMessageMediaVenue
+  id: TMessageMediaVenue
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageMediaVenue.Address
+  - OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+  - OpenTl.Schema.TMessageMediaVenue.Geo
+  - OpenTl.Schema.TMessageMediaVenue.Provider
+  - OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+  - OpenTl.Schema.TMessageMediaVenue.Title
+  - OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+  - OpenTl.Schema.TMessageMediaVenue.VenueId
+  - OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+  - OpenTl.Schema.TMessageMediaVenue.VenueType
+  - OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TMessageMediaVenue
+  nameWithType: TMessageMediaVenue
+  fullName: OpenTl.Schema.TMessageMediaVenue
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageMediaVenue
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageMediaVenue : object, IMessageMedia, IObject'
+    content.vb: >-
+      Public Class TMessageMediaVenue
+
+          Inherits Object
+
+          Implements IMessageMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageMediaVenue.Geo
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.Geo
+  id: Geo
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: Geo
+  nameWithType: TMessageMediaVenue.Geo
+  fullName: OpenTl.Schema.TMessageMediaVenue.Geo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Geo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IGeoPoint Geo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IGeoPoint
+    content.vb: Public Property Geo As IGeoPoint
+  overload: OpenTl.Schema.TMessageMediaVenue.Geo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TMessageMediaVenue.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaVenue.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.Title
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.Title
+  id: Title
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TMessageMediaVenue.Title
+  fullName: OpenTl.Schema.TMessageMediaVenue.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TMessageMediaVenue.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+  id: AddressAsBinary
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: AddressAsBinary
+  nameWithType: TMessageMediaVenue.AddressAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AddressAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Address&apos; property
+  example: []
+  syntax:
+    content: public byte[] AddressAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property AddressAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaVenue.AddressAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.Address
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.Address
+  id: Address
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: TMessageMediaVenue.Address
+  fullName: OpenTl.Schema.TMessageMediaVenue.Address
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Address
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: OpenTl.Schema.TMessageMediaVenue.Address*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+  id: ProviderAsBinary
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: ProviderAsBinary
+  nameWithType: TMessageMediaVenue.ProviderAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ProviderAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Provider&apos; property
+  example: []
+  syntax:
+    content: public byte[] ProviderAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ProviderAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.Provider
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.Provider
+  id: Provider
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: TMessageMediaVenue.Provider
+  fullName: OpenTl.Schema.TMessageMediaVenue.Provider
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Provider
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Provider As String
+  overload: OpenTl.Schema.TMessageMediaVenue.Provider*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+  id: VenueIdAsBinary
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: VenueIdAsBinary
+  nameWithType: TMessageMediaVenue.VenueIdAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VenueIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;VenueId&apos; property
+  example: []
+  syntax:
+    content: public byte[] VenueIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property VenueIdAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueId
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.VenueId
+  id: VenueId
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: VenueId
+  nameWithType: TMessageMediaVenue.VenueId
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VenueId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string VenueId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VenueId As String
+  overload: OpenTl.Schema.TMessageMediaVenue.VenueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+  id: VenueTypeAsBinary
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: VenueTypeAsBinary
+  nameWithType: TMessageMediaVenue.VenueTypeAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VenueTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 46
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;VenueType&apos; property
+  example: []
+  syntax:
+    content: public byte[] VenueTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property VenueTypeAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueType
+  commentId: P:OpenTl.Schema.TMessageMediaVenue.VenueType
+  id: VenueType
+  parent: OpenTl.Schema.TMessageMediaVenue
+  langs:
+  - csharp
+  - vb
+  name: VenueType
+  nameWithType: TMessageMediaVenue.VenueType
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VenueType
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaVenue.cs
+    startLine: 50
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string VenueType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property VenueType As String
+  overload: OpenTl.Schema.TMessageMediaVenue.VenueType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageMedia
+  commentId: T:OpenTl.Schema.IMessageMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageMedia
+  nameWithType: IMessageMedia
+  fullName: OpenTl.Schema.IMessageMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageMediaVenue.Geo*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.Geo
+  isExternal: false
+  name: Geo
+  nameWithType: TMessageMediaVenue.Geo
+  fullName: OpenTl.Schema.TMessageMediaVenue.Geo
+- uid: OpenTl.Schema.IGeoPoint
+  commentId: T:OpenTl.Schema.IGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGeoPoint
+  nameWithType: IGeoPoint
+  fullName: OpenTl.Schema.IGeoPoint
+- uid: OpenTl.Schema.TMessageMediaVenue.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TMessageMediaVenue.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageMediaVenue.Title*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.Title
+  isExternal: false
+  name: Title
+  nameWithType: TMessageMediaVenue.Title
+  fullName: OpenTl.Schema.TMessageMediaVenue.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TMessageMediaVenue.AddressAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+  isExternal: false
+  name: AddressAsBinary
+  nameWithType: TMessageMediaVenue.AddressAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.AddressAsBinary
+- uid: OpenTl.Schema.TMessageMediaVenue.Address*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.Address
+  isExternal: false
+  name: Address
+  nameWithType: TMessageMediaVenue.Address
+  fullName: OpenTl.Schema.TMessageMediaVenue.Address
+- uid: OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+  isExternal: false
+  name: ProviderAsBinary
+  nameWithType: TMessageMediaVenue.ProviderAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.ProviderAsBinary
+- uid: OpenTl.Schema.TMessageMediaVenue.Provider*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.Provider
+  isExternal: false
+  name: Provider
+  nameWithType: TMessageMediaVenue.Provider
+  fullName: OpenTl.Schema.TMessageMediaVenue.Provider
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+  isExternal: false
+  name: VenueIdAsBinary
+  nameWithType: TMessageMediaVenue.VenueIdAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueIdAsBinary
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueId*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.VenueId
+  isExternal: false
+  name: VenueId
+  nameWithType: TMessageMediaVenue.VenueId
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueId
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+  isExternal: false
+  name: VenueTypeAsBinary
+  nameWithType: TMessageMediaVenue.VenueTypeAsBinary
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueTypeAsBinary
+- uid: OpenTl.Schema.TMessageMediaVenue.VenueType*
+  commentId: Overload:OpenTl.Schema.TMessageMediaVenue.VenueType
+  isExternal: false
+  name: VenueType
+  nameWithType: TMessageMediaVenue.VenueType
+  fullName: OpenTl.Schema.TMessageMediaVenue.VenueType

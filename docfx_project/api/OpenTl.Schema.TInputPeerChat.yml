@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPeerChat
+  commentId: T:OpenTl.Schema.TInputPeerChat
+  id: TInputPeerChat
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputPeerChat.ChatId
+  langs:
+  - csharp
+  - vb
+  name: TInputPeerChat
+  nameWithType: TInputPeerChat
+  fullName: OpenTl.Schema.TInputPeerChat
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPeerChat
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChat.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPeerChat : object, IInputPeer, IObject'
+    content.vb: >-
+      Public Class TInputPeerChat
+
+          Inherits Object
+
+          Implements IInputPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputPeerChat.ChatId
+  commentId: P:OpenTl.Schema.TInputPeerChat.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TInputPeerChat
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TInputPeerChat.ChatId
+  fullName: OpenTl.Schema.TInputPeerChat.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChat.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TInputPeerChat.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputPeerChat.ChatId*
+  commentId: Overload:OpenTl.Schema.TInputPeerChat.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TInputPeerChat.ChatId
+  fullName: OpenTl.Schema.TInputPeerChat.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

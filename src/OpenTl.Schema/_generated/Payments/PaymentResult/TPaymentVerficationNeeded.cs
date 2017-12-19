@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Payments
 	[Serialize(0x6b56b921)]
 	public class TPaymentVerficationNeeded : IPaymentResult
 	{
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;

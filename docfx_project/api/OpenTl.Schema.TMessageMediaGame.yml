@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageMediaGame
+  commentId: T:OpenTl.Schema.TMessageMediaGame
+  id: TMessageMediaGame
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageMediaGame.Game
+  langs:
+  - csharp
+  - vb
+  name: TMessageMediaGame
+  nameWithType: TMessageMediaGame
+  fullName: OpenTl.Schema.TMessageMediaGame
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageMediaGame
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGame.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageMediaGame : object, IMessageMedia, IObject'
+    content.vb: >-
+      Public Class TMessageMediaGame
+
+          Inherits Object
+
+          Implements IMessageMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageMediaGame.Game
+  commentId: P:OpenTl.Schema.TMessageMediaGame.Game
+  id: Game
+  parent: OpenTl.Schema.TMessageMediaGame
+  langs:
+  - csharp
+  - vb
+  name: Game
+  nameWithType: TMessageMediaGame.Game
+  fullName: OpenTl.Schema.TMessageMediaGame.Game
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Game
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGame.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IGame Game { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IGame
+    content.vb: Public Property Game As IGame
+  overload: OpenTl.Schema.TMessageMediaGame.Game*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageMedia
+  commentId: T:OpenTl.Schema.IMessageMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageMedia
+  nameWithType: IMessageMedia
+  fullName: OpenTl.Schema.IMessageMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageMediaGame.Game*
+  commentId: Overload:OpenTl.Schema.TMessageMediaGame.Game
+  isExternal: false
+  name: Game
+  nameWithType: TMessageMediaGame.Game
+  fullName: OpenTl.Schema.TMessageMediaGame.Game
+- uid: OpenTl.Schema.IGame
+  commentId: T:OpenTl.Schema.IGame
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGame
+  nameWithType: IGame
+  fullName: OpenTl.Schema.IGame

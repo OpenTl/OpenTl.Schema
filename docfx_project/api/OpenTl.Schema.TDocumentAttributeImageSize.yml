@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeImageSize
+  commentId: T:OpenTl.Schema.TDocumentAttributeImageSize
+  id: TDocumentAttributeImageSize
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDocumentAttributeImageSize.H
+  - OpenTl.Schema.TDocumentAttributeImageSize.W
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeImageSize
+  nameWithType: TDocumentAttributeImageSize
+  fullName: OpenTl.Schema.TDocumentAttributeImageSize
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeImageSize
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeImageSize : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeImageSize
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDocumentAttributeImageSize.W
+  commentId: P:OpenTl.Schema.TDocumentAttributeImageSize.W
+  id: W
+  parent: OpenTl.Schema.TDocumentAttributeImageSize
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: TDocumentAttributeImageSize.W
+  fullName: OpenTl.Schema.TDocumentAttributeImageSize.W
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: W
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int W { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property W As Integer
+  overload: OpenTl.Schema.TDocumentAttributeImageSize.W*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeImageSize.H
+  commentId: P:OpenTl.Schema.TDocumentAttributeImageSize.H
+  id: H
+  parent: OpenTl.Schema.TDocumentAttributeImageSize
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: TDocumentAttributeImageSize.H
+  fullName: OpenTl.Schema.TDocumentAttributeImageSize.H
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: H
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeImageSize.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int H { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property H As Integer
+  overload: OpenTl.Schema.TDocumentAttributeImageSize.H*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDocumentAttributeImageSize.W*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeImageSize.W
+  isExternal: false
+  name: W
+  nameWithType: TDocumentAttributeImageSize.W
+  fullName: OpenTl.Schema.TDocumentAttributeImageSize.W
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TDocumentAttributeImageSize.H*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeImageSize.H
+  isExternal: false
+  name: H
+  nameWithType: TDocumentAttributeImageSize.H
+  fullName: OpenTl.Schema.TDocumentAttributeImageSize.H

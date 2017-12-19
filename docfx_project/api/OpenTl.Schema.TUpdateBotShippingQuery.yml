@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateBotShippingQuery
+  commentId: T:OpenTl.Schema.TUpdateBotShippingQuery
+  id: TUpdateBotShippingQuery
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateBotShippingQuery.Payload
+  - OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+  - OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+  - OpenTl.Schema.TUpdateBotShippingQuery.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateBotShippingQuery
+  nameWithType: TUpdateBotShippingQuery
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateBotShippingQuery
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateBotShippingQuery : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateBotShippingQuery
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+  commentId: P:OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.TUpdateBotShippingQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: TUpdateBotShippingQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.TUpdateBotShippingQuery.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.UserId
+  commentId: P:OpenTl.Schema.TUpdateBotShippingQuery.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateBotShippingQuery
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateBotShippingQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateBotShippingQuery.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.Payload
+  commentId: P:OpenTl.Schema.TUpdateBotShippingQuery.Payload
+  id: Payload
+  parent: OpenTl.Schema.TUpdateBotShippingQuery
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: TUpdateBotShippingQuery.Payload
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.Payload
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Payload
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Payload { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Payload As Byte()
+  overload: OpenTl.Schema.TUpdateBotShippingQuery.Payload*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+  commentId: P:OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+  id: ShippingAddress
+  parent: OpenTl.Schema.TUpdateBotShippingQuery
+  langs:
+  - csharp
+  - vb
+  name: ShippingAddress
+  nameWithType: TUpdateBotShippingQuery.ShippingAddress
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingAddress
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotShippingQuery.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPostAddress ShippingAddress { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPostAddress
+    content.vb: Public Property ShippingAddress As IPostAddress
+  overload: OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.QueryId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: TUpdateBotShippingQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotShippingQuery.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateBotShippingQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.Payload*
+  commentId: Overload:OpenTl.Schema.TUpdateBotShippingQuery.Payload
+  isExternal: false
+  name: Payload
+  nameWithType: TUpdateBotShippingQuery.Payload
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.Payload
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress*
+  commentId: Overload:OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+  isExternal: false
+  name: ShippingAddress
+  nameWithType: TUpdateBotShippingQuery.ShippingAddress
+  fullName: OpenTl.Schema.TUpdateBotShippingQuery.ShippingAddress
+- uid: OpenTl.Schema.IPostAddress
+  commentId: T:OpenTl.Schema.IPostAddress
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPostAddress
+  nameWithType: IPostAddress
+  fullName: OpenTl.Schema.IPostAddress

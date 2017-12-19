@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Name' property</summary>
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
        public byte[] NameAsBinary { get => _NameAsBinary; set { _Name = Encoding.UTF8.GetString(value); _NameAsBinary = value; }}
@@ -22,6 +23,7 @@ namespace OpenTl.Schema
        private string _Name;
        public string Name { get => _Name; set { NameAsBinary = Encoding.UTF8.GetBytes(value); _Name = value; }}
 
+       /// <summary>Binary representation for the 'Phone' property</summary>
        [SerializationOrder(2)]
        [CanSerialize("Flags", 1)]
        public byte[] PhoneAsBinary { get => _PhoneAsBinary; set { _Phone = Encoding.UTF8.GetString(value); _PhoneAsBinary = value; }}
@@ -29,6 +31,7 @@ namespace OpenTl.Schema
        private string _Phone;
        public string Phone { get => _Phone; set { PhoneAsBinary = Encoding.UTF8.GetBytes(value); _Phone = value; }}
 
+       /// <summary>Binary representation for the 'Email' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 2)]
        public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}

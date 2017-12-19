@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x15590068)]
 	public class TDocumentAttributeFilename : IDocumentAttribute
 	{
+       /// <summary>Binary representation for the 'FileName' property</summary>
        [SerializationOrder(0)]
        public byte[] FileNameAsBinary { get => _FileNameAsBinary; set { _FileName = Encoding.UTF8.GetString(value); _FileNameAsBinary = value; }}
        private byte[] _FileNameAsBinary;

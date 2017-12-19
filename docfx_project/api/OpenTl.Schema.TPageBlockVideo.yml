@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockVideo
+  commentId: T:OpenTl.Schema.TPageBlockVideo
+  id: TPageBlockVideo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockVideo.Autoplay
+  - OpenTl.Schema.TPageBlockVideo.Caption
+  - OpenTl.Schema.TPageBlockVideo.Flags
+  - OpenTl.Schema.TPageBlockVideo.Loop
+  - OpenTl.Schema.TPageBlockVideo.VideoId
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockVideo
+  nameWithType: TPageBlockVideo
+  fullName: OpenTl.Schema.TPageBlockVideo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockVideo
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockVideo : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockVideo
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockVideo.Flags
+  commentId: P:OpenTl.Schema.TPageBlockVideo.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPageBlockVideo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPageBlockVideo.Flags
+  fullName: OpenTl.Schema.TPageBlockVideo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPageBlockVideo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockVideo.Autoplay
+  commentId: P:OpenTl.Schema.TPageBlockVideo.Autoplay
+  id: Autoplay
+  parent: OpenTl.Schema.TPageBlockVideo
+  langs:
+  - csharp
+  - vb
+  name: Autoplay
+  nameWithType: TPageBlockVideo.Autoplay
+  fullName: OpenTl.Schema.TPageBlockVideo.Autoplay
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Autoplay
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Autoplay { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Autoplay As Boolean
+  overload: OpenTl.Schema.TPageBlockVideo.Autoplay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockVideo.Loop
+  commentId: P:OpenTl.Schema.TPageBlockVideo.Loop
+  id: Loop
+  parent: OpenTl.Schema.TPageBlockVideo
+  langs:
+  - csharp
+  - vb
+  name: Loop
+  nameWithType: TPageBlockVideo.Loop
+  fullName: OpenTl.Schema.TPageBlockVideo.Loop
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Loop
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Loop { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Loop As Boolean
+  overload: OpenTl.Schema.TPageBlockVideo.Loop*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockVideo.VideoId
+  commentId: P:OpenTl.Schema.TPageBlockVideo.VideoId
+  id: VideoId
+  parent: OpenTl.Schema.TPageBlockVideo
+  langs:
+  - csharp
+  - vb
+  name: VideoId
+  nameWithType: TPageBlockVideo.VideoId
+  fullName: OpenTl.Schema.TPageBlockVideo.VideoId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VideoId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long VideoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VideoId As Long
+  overload: OpenTl.Schema.TPageBlockVideo.VideoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockVideo.Caption
+  commentId: P:OpenTl.Schema.TPageBlockVideo.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockVideo
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockVideo.Caption
+  fullName: OpenTl.Schema.TPageBlockVideo.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockVideo.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockVideo.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockVideo.Flags*
+  commentId: Overload:OpenTl.Schema.TPageBlockVideo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPageBlockVideo.Flags
+  fullName: OpenTl.Schema.TPageBlockVideo.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPageBlockVideo.Autoplay*
+  commentId: Overload:OpenTl.Schema.TPageBlockVideo.Autoplay
+  isExternal: false
+  name: Autoplay
+  nameWithType: TPageBlockVideo.Autoplay
+  fullName: OpenTl.Schema.TPageBlockVideo.Autoplay
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TPageBlockVideo.Loop*
+  commentId: Overload:OpenTl.Schema.TPageBlockVideo.Loop
+  isExternal: false
+  name: Loop
+  nameWithType: TPageBlockVideo.Loop
+  fullName: OpenTl.Schema.TPageBlockVideo.Loop
+- uid: OpenTl.Schema.TPageBlockVideo.VideoId*
+  commentId: Overload:OpenTl.Schema.TPageBlockVideo.VideoId
+  isExternal: false
+  name: VideoId
+  nameWithType: TPageBlockVideo.VideoId
+  fullName: OpenTl.Schema.TPageBlockVideo.VideoId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPageBlockVideo.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockVideo.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockVideo.Caption
+  fullName: OpenTl.Schema.TPageBlockVideo.Caption
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

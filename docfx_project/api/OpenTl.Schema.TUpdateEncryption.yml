@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateEncryption
+  commentId: T:OpenTl.Schema.TUpdateEncryption
+  id: TUpdateEncryption
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateEncryption.Chat
+  - OpenTl.Schema.TUpdateEncryption.Date
+  langs:
+  - csharp
+  - vb
+  name: TUpdateEncryption
+  nameWithType: TUpdateEncryption
+  fullName: OpenTl.Schema.TUpdateEncryption
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateEncryption
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateEncryption : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateEncryption
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateEncryption.Chat
+  commentId: P:OpenTl.Schema.TUpdateEncryption.Chat
+  id: Chat
+  parent: OpenTl.Schema.TUpdateEncryption
+  langs:
+  - csharp
+  - vb
+  name: Chat
+  nameWithType: TUpdateEncryption.Chat
+  fullName: OpenTl.Schema.TUpdateEncryption.Chat
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chat
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IEncryptedChat Chat { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IEncryptedChat
+    content.vb: Public Property Chat As IEncryptedChat
+  overload: OpenTl.Schema.TUpdateEncryption.Chat*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEncryption.Date
+  commentId: P:OpenTl.Schema.TUpdateEncryption.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateEncryption
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateEncryption.Date
+  fullName: OpenTl.Schema.TUpdateEncryption.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryption.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateEncryption.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateEncryption.Chat*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryption.Chat
+  isExternal: false
+  name: Chat
+  nameWithType: TUpdateEncryption.Chat
+  fullName: OpenTl.Schema.TUpdateEncryption.Chat
+- uid: OpenTl.Schema.IEncryptedChat
+  commentId: T:OpenTl.Schema.IEncryptedChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedChat
+  nameWithType: IEncryptedChat
+  fullName: OpenTl.Schema.IEncryptedChat
+- uid: OpenTl.Schema.TUpdateEncryption.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryption.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateEncryption.Date
+  fullName: OpenTl.Schema.TUpdateEncryption.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

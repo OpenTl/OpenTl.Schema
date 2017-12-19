@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTextBold
+  commentId: T:OpenTl.Schema.TTextBold
+  id: TTextBold
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTextBold.Text
+  langs:
+  - csharp
+  - vb
+  name: TTextBold
+  nameWithType: TTextBold
+  fullName: OpenTl.Schema.TTextBold
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextBold.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTextBold
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextBold.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTextBold : object, IRichText, IObject'
+    content.vb: >-
+      Public Class TTextBold
+
+          Inherits Object
+
+          Implements IRichText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRichText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTextBold.Text
+  commentId: P:OpenTl.Schema.TTextBold.Text
+  id: Text
+  parent: OpenTl.Schema.TTextBold
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TTextBold.Text
+  fullName: OpenTl.Schema.TTextBold.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextBold.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextBold.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TTextBold.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTextBold.Text*
+  commentId: Overload:OpenTl.Schema.TTextBold.Text
+  isExternal: false
+  name: Text
+  nameWithType: TTextBold.Text
+  fullName: OpenTl.Schema.TTextBold.Text

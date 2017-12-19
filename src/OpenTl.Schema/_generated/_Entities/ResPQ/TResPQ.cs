@@ -20,6 +20,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public byte[] ServerNonce {get; set;}
 
+       /// <summary>Binary representation for the 'Pq' property</summary>
        [SerializationOrder(2)]
        public byte[] PqAsBinary { get => _PqAsBinary; set { _Pq = Encoding.UTF8.GetString(value); _PqAsBinary = value; }}
        private byte[] _PqAsBinary;

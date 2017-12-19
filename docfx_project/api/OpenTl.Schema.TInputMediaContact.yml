@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMediaContact
+  commentId: T:OpenTl.Schema.TInputMediaContact
+  id: TInputMediaContact
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputMediaContact.FirstName
+  - OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+  - OpenTl.Schema.TInputMediaContact.LastName
+  - OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+  - OpenTl.Schema.TInputMediaContact.PhoneNumber
+  - OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputMediaContact
+  nameWithType: TInputMediaContact
+  fullName: OpenTl.Schema.TInputMediaContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMediaContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMediaContact : object, IInputMedia, IObject'
+    content.vb: >-
+      Public Class TInputMediaContact
+
+          Inherits Object
+
+          Implements IInputMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: TInputMediaContact.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaContact.PhoneNumber
+  commentId: P:OpenTl.Schema.TInputMediaContact.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: TInputMediaContact.PhoneNumber
+  fullName: OpenTl.Schema.TInputMediaContact.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.TInputMediaContact.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+  id: FirstNameAsBinary
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: FirstNameAsBinary
+  nameWithType: TInputMediaContact.FirstNameAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;FirstName&apos; property
+  example: []
+  syntax:
+    content: public byte[] FirstNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FirstNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaContact.FirstNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaContact.FirstName
+  commentId: P:OpenTl.Schema.TInputMediaContact.FirstName
+  id: FirstName
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: TInputMediaContact.FirstName
+  fullName: OpenTl.Schema.TInputMediaContact.FirstName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: OpenTl.Schema.TInputMediaContact.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+  commentId: P:OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+  id: LastNameAsBinary
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: LastNameAsBinary
+  nameWithType: TInputMediaContact.LastNameAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;LastName&apos; property
+  example: []
+  syntax:
+    content: public byte[] LastNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LastNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputMediaContact.LastNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMediaContact.LastName
+  commentId: P:OpenTl.Schema.TInputMediaContact.LastName
+  id: LastName
+  parent: OpenTl.Schema.TInputMediaContact
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: TInputMediaContact.LastName
+  fullName: OpenTl.Schema.TInputMediaContact.LastName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaContact.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: OpenTl.Schema.TInputMediaContact.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputMedia
+  commentId: T:OpenTl.Schema.IInputMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputMedia
+  nameWithType: IInputMedia
+  fullName: OpenTl.Schema.IInputMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: TInputMediaContact.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputMediaContact.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: TInputMediaContact.PhoneNumber
+  fullName: OpenTl.Schema.TInputMediaContact.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputMediaContact.FirstNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+  isExternal: false
+  name: FirstNameAsBinary
+  nameWithType: TInputMediaContact.FirstNameAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.FirstNameAsBinary
+- uid: OpenTl.Schema.TInputMediaContact.FirstName*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.FirstName
+  isExternal: false
+  name: FirstName
+  nameWithType: TInputMediaContact.FirstName
+  fullName: OpenTl.Schema.TInputMediaContact.FirstName
+- uid: OpenTl.Schema.TInputMediaContact.LastNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+  isExternal: false
+  name: LastNameAsBinary
+  nameWithType: TInputMediaContact.LastNameAsBinary
+  fullName: OpenTl.Schema.TInputMediaContact.LastNameAsBinary
+- uid: OpenTl.Schema.TInputMediaContact.LastName*
+  commentId: Overload:OpenTl.Schema.TInputMediaContact.LastName
+  isExternal: false
+  name: LastName
+  nameWithType: TInputMediaContact.LastName
+  fullName: OpenTl.Schema.TInputMediaContact.LastName

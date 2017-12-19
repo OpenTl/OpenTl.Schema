@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TDifferenceTooLong
+  commentId: T:OpenTl.Schema.Updates.TDifferenceTooLong
+  id: TDifferenceTooLong
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+  langs:
+  - csharp
+  - vb
+  name: TDifferenceTooLong
+  nameWithType: TDifferenceTooLong
+  fullName: OpenTl.Schema.Updates.TDifferenceTooLong
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDifferenceTooLong
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceTooLong.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TDifferenceTooLong : object, IDifference, IObject'
+    content.vb: >-
+      Public Class TDifferenceTooLong
+
+          Inherits Object
+
+          Implements IDifference, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IDifference
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+  commentId: P:OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.TDifferenceTooLong
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TDifferenceTooLong.Pts
+  fullName: OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceTooLong.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.TDifferenceTooLong.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IDifference
+  commentId: T:OpenTl.Schema.Updates.IDifference
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IDifference
+  nameWithType: IDifference
+  fullName: OpenTl.Schema.Updates.IDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TDifferenceTooLong.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TDifferenceTooLong.Pts
+  fullName: OpenTl.Schema.Updates.TDifferenceTooLong.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

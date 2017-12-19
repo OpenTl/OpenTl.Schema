@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TContactBlocked
+  commentId: T:OpenTl.Schema.TContactBlocked
+  id: TContactBlocked
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TContactBlocked.Date
+  - OpenTl.Schema.TContactBlocked.UserId
+  langs:
+  - csharp
+  - vb
+  name: TContactBlocked
+  nameWithType: TContactBlocked
+  fullName: OpenTl.Schema.TContactBlocked
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TContactBlocked
+    path: ../src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TContactBlocked : object, IContactBlocked, IObject'
+    content.vb: >-
+      Public Class TContactBlocked
+
+          Inherits Object
+
+          Implements IContactBlocked, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IContactBlocked
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TContactBlocked.UserId
+  commentId: P:OpenTl.Schema.TContactBlocked.UserId
+  id: UserId
+  parent: OpenTl.Schema.TContactBlocked
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TContactBlocked.UserId
+  fullName: OpenTl.Schema.TContactBlocked.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TContactBlocked.UserId*
+  implements:
+  - OpenTl.Schema.IContactBlocked.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TContactBlocked.Date
+  commentId: P:OpenTl.Schema.TContactBlocked.Date
+  id: Date
+  parent: OpenTl.Schema.TContactBlocked
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TContactBlocked.Date
+  fullName: OpenTl.Schema.TContactBlocked.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/ContactBlocked/TContactBlocked.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TContactBlocked.Date*
+  implements:
+  - OpenTl.Schema.IContactBlocked.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IContactBlocked
+  commentId: T:OpenTl.Schema.IContactBlocked
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IContactBlocked
+  nameWithType: IContactBlocked
+  fullName: OpenTl.Schema.IContactBlocked
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TContactBlocked.UserId*
+  commentId: Overload:OpenTl.Schema.TContactBlocked.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TContactBlocked.UserId
+  fullName: OpenTl.Schema.TContactBlocked.UserId
+- uid: OpenTl.Schema.IContactBlocked.UserId
+  commentId: P:OpenTl.Schema.IContactBlocked.UserId
+  parent: OpenTl.Schema.IContactBlocked
+  isExternal: false
+  name: UserId
+  nameWithType: IContactBlocked.UserId
+  fullName: OpenTl.Schema.IContactBlocked.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TContactBlocked.Date*
+  commentId: Overload:OpenTl.Schema.TContactBlocked.Date
+  isExternal: false
+  name: Date
+  nameWithType: TContactBlocked.Date
+  fullName: OpenTl.Schema.TContactBlocked.Date
+- uid: OpenTl.Schema.IContactBlocked.Date
+  commentId: P:OpenTl.Schema.IContactBlocked.Date
+  parent: OpenTl.Schema.IContactBlocked
+  isExternal: false
+  name: Date
+  nameWithType: IContactBlocked.Date
+  fullName: OpenTl.Schema.IContactBlocked.Date

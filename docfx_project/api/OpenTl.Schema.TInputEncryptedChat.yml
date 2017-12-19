@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputEncryptedChat
+  commentId: T:OpenTl.Schema.TInputEncryptedChat
+  id: TInputEncryptedChat
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputEncryptedChat.AccessHash
+  - OpenTl.Schema.TInputEncryptedChat.ChatId
+  langs:
+  - csharp
+  - vb
+  name: TInputEncryptedChat
+  nameWithType: TInputEncryptedChat
+  fullName: OpenTl.Schema.TInputEncryptedChat
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputEncryptedChat
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputEncryptedChat : object, IInputEncryptedChat, IObject'
+    content.vb: >-
+      Public Class TInputEncryptedChat
+
+          Inherits Object
+
+          Implements IInputEncryptedChat, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputEncryptedChat
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputEncryptedChat.ChatId
+  commentId: P:OpenTl.Schema.TInputEncryptedChat.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TInputEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TInputEncryptedChat.ChatId
+  fullName: OpenTl.Schema.TInputEncryptedChat.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TInputEncryptedChat.ChatId*
+  implements:
+  - OpenTl.Schema.IInputEncryptedChat.ChatId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedChat.AccessHash
+  commentId: P:OpenTl.Schema.TInputEncryptedChat.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputEncryptedChat
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputEncryptedChat.AccessHash
+  fullName: OpenTl.Schema.TInputEncryptedChat.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputEncryptedChat/TInputEncryptedChat.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputEncryptedChat.AccessHash*
+  implements:
+  - OpenTl.Schema.IInputEncryptedChat.AccessHash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputEncryptedChat
+  commentId: T:OpenTl.Schema.IInputEncryptedChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputEncryptedChat
+  nameWithType: IInputEncryptedChat
+  fullName: OpenTl.Schema.IInputEncryptedChat
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputEncryptedChat.ChatId*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedChat.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TInputEncryptedChat.ChatId
+  fullName: OpenTl.Schema.TInputEncryptedChat.ChatId
+- uid: OpenTl.Schema.IInputEncryptedChat.ChatId
+  commentId: P:OpenTl.Schema.IInputEncryptedChat.ChatId
+  parent: OpenTl.Schema.IInputEncryptedChat
+  isExternal: false
+  name: ChatId
+  nameWithType: IInputEncryptedChat.ChatId
+  fullName: OpenTl.Schema.IInputEncryptedChat.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputEncryptedChat.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedChat.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputEncryptedChat.AccessHash
+  fullName: OpenTl.Schema.TInputEncryptedChat.AccessHash
+- uid: OpenTl.Schema.IInputEncryptedChat.AccessHash
+  commentId: P:OpenTl.Schema.IInputEncryptedChat.AccessHash
+  parent: OpenTl.Schema.IInputEncryptedChat
+  isExternal: false
+  name: AccessHash
+  nameWithType: IInputEncryptedChat.AccessHash
+  fullName: OpenTl.Schema.IInputEncryptedChat.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

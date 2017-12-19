@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Messages
 	[Serialize(0x25223e24)]
     public class RequestGetWebPagePreview : IRequest<OpenTl.Schema.IMessageMedia>
     {
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

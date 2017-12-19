@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputStickeredMediaPhoto
+  commentId: T:OpenTl.Schema.TInputStickeredMediaPhoto
+  id: TInputStickeredMediaPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputStickeredMediaPhoto.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputStickeredMediaPhoto
+  nameWithType: TInputStickeredMediaPhoto
+  fullName: OpenTl.Schema.TInputStickeredMediaPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputStickeredMediaPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputStickeredMediaPhoto : object, IInputStickeredMedia, IObject'
+    content.vb: >-
+      Public Class TInputStickeredMediaPhoto
+
+          Inherits Object
+
+          Implements IInputStickeredMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputStickeredMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputStickeredMediaPhoto.Id
+  commentId: P:OpenTl.Schema.TInputStickeredMediaPhoto.Id
+  id: Id
+  parent: OpenTl.Schema.TInputStickeredMediaPhoto
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputStickeredMediaPhoto.Id
+  fullName: OpenTl.Schema.TInputStickeredMediaPhoto.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputPhoto Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPhoto
+    content.vb: Public Property Id As IInputPhoto
+  overload: OpenTl.Schema.TInputStickeredMediaPhoto.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputStickeredMedia
+  commentId: T:OpenTl.Schema.IInputStickeredMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickeredMedia
+  nameWithType: IInputStickeredMedia
+  fullName: OpenTl.Schema.IInputStickeredMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputStickeredMediaPhoto.Id*
+  commentId: Overload:OpenTl.Schema.TInputStickeredMediaPhoto.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputStickeredMediaPhoto.Id
+  fullName: OpenTl.Schema.TInputStickeredMediaPhoto.Id
+- uid: OpenTl.Schema.IInputPhoto
+  commentId: T:OpenTl.Schema.IInputPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoto
+  nameWithType: IInputPhoto
+  fullName: OpenTl.Schema.IInputPhoto

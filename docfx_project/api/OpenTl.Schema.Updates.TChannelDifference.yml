@@ -1,0 +1,624 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TChannelDifference
+  commentId: T:OpenTl.Schema.Updates.TChannelDifference
+  id: TChannelDifference
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TChannelDifference.Chats
+  - OpenTl.Schema.Updates.TChannelDifference.Final
+  - OpenTl.Schema.Updates.TChannelDifference.Flags
+  - OpenTl.Schema.Updates.TChannelDifference.NewMessages
+  - OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+  - OpenTl.Schema.Updates.TChannelDifference.Pts
+  - OpenTl.Schema.Updates.TChannelDifference.Timeout
+  - OpenTl.Schema.Updates.TChannelDifference.Users
+  langs:
+  - csharp
+  - vb
+  name: TChannelDifference
+  nameWithType: TChannelDifference
+  fullName: OpenTl.Schema.Updates.TChannelDifference
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelDifference
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TChannelDifference : object, IChannelDifference, IObject'
+    content.vb: >-
+      Public Class TChannelDifference
+
+          Inherits Object
+
+          Implements IChannelDifference, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IChannelDifference
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TChannelDifference.Flags
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Flags
+  id: Flags
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelDifference.Flags
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Updates.TChannelDifference.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.Final
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Final
+  id: Final
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Final
+  nameWithType: TChannelDifference.Final
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Final
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Final
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public bool Final { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Final As Boolean
+  overload: OpenTl.Schema.Updates.TChannelDifference.Final*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.Pts
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TChannelDifference.Pts
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.TChannelDifference.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.Timeout
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Timeout
+  id: Timeout
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: TChannelDifference.Timeout
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Timeout
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Timeout
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: OpenTl.Schema.Updates.TChannelDifference.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.NewMessages
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.NewMessages
+  id: NewMessages
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: NewMessages
+  nameWithType: TChannelDifference.NewMessages
+  fullName: OpenTl.Schema.Updates.TChannelDifference.NewMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewMessages
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IMessage> NewMessages { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+    content.vb: Public Property NewMessages As TVector(Of IMessage)
+  overload: OpenTl.Schema.Updates.TChannelDifference.NewMessages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+  id: OtherUpdates
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: OtherUpdates
+  nameWithType: TChannelDifference.OtherUpdates
+  fullName: OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OtherUpdates
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IUpdate> OtherUpdates { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+    content.vb: Public Property OtherUpdates As TVector(Of IUpdate)
+  overload: OpenTl.Schema.Updates.TChannelDifference.OtherUpdates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.Chats
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Chats
+  id: Chats
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TChannelDifference.Chats
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Updates.TChannelDifference.Chats*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifference.Users
+  commentId: P:OpenTl.Schema.Updates.TChannelDifference.Users
+  id: Users
+  parent: OpenTl.Schema.Updates.TChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TChannelDifference.Users
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifference.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Updates.TChannelDifference.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IChannelDifference
+  commentId: T:OpenTl.Schema.Updates.IChannelDifference
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IChannelDifference
+  nameWithType: IChannelDifference
+  fullName: OpenTl.Schema.Updates.IChannelDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TChannelDifference.Flags*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelDifference.Flags
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Updates.TChannelDifference.Final*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Final
+  isExternal: false
+  name: Final
+  nameWithType: TChannelDifference.Final
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Final
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Updates.TChannelDifference.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TChannelDifference.Pts
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.TChannelDifference.Timeout*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: TChannelDifference.Timeout
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Timeout
+- uid: OpenTl.Schema.Updates.TChannelDifference.NewMessages*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.NewMessages
+  isExternal: false
+  name: NewMessages
+  nameWithType: TChannelDifference.NewMessages
+  fullName: OpenTl.Schema.Updates.TChannelDifference.NewMessages
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessage>
+  nameWithType: TVector<IMessage>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessage>
+  nameWithType.vb: TVector(Of IMessage)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessage)
+  name.vb: TVector(Of IMessage)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TChannelDifference.OtherUpdates*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+  isExternal: false
+  name: OtherUpdates
+  nameWithType: TChannelDifference.OtherUpdates
+  fullName: OpenTl.Schema.Updates.TChannelDifference.OtherUpdates
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUpdate>
+  nameWithType: TVector<IUpdate>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUpdate>
+  nameWithType.vb: TVector(Of IUpdate)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUpdate)
+  name.vb: TVector(Of IUpdate)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TChannelDifference.Chats*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TChannelDifference.Chats
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TChannelDifference.Users*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifference.Users
+  isExternal: false
+  name: Users
+  nameWithType: TChannelDifference.Users
+  fullName: OpenTl.Schema.Updates.TChannelDifference.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

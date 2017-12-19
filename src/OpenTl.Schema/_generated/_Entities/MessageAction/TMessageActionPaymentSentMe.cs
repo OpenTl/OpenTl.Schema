@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(1)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
        private byte[] _CurrencyAsBinary;
@@ -31,6 +32,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 0)]
        public OpenTl.Schema.IPaymentRequestedInfo Info {get; set;}
 
+       /// <summary>Binary representation for the 'ShippingOptionId' property</summary>
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
        public byte[] ShippingOptionIdAsBinary { get => _ShippingOptionIdAsBinary; set { _ShippingOptionId = Encoding.UTF8.GetString(value); _ShippingOptionIdAsBinary = value; }}

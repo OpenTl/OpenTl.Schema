@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TDifferenceSlice
+  commentId: T:OpenTl.Schema.Updates.TDifferenceSlice
+  id: TDifferenceSlice
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TDifferenceSlice.Chats
+  - OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+  - OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+  - OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+  - OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+  - OpenTl.Schema.Updates.TDifferenceSlice.Users
+  langs:
+  - csharp
+  - vb
+  name: TDifferenceSlice
+  nameWithType: TDifferenceSlice
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDifferenceSlice
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TDifferenceSlice : object, IDifference, IObject'
+    content.vb: >-
+      Public Class TDifferenceSlice
+
+          Inherits Object
+
+          Implements IDifference, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IDifference
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+  id: NewMessages
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: NewMessages
+  nameWithType: TDifferenceSlice.NewMessages
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewMessages
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IMessage> NewMessages { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+    content.vb: Public Property NewMessages As TVector(Of IMessage)
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.NewMessages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+  id: NewEncryptedMessages
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: NewEncryptedMessages
+  nameWithType: TDifferenceSlice.NewEncryptedMessages
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewEncryptedMessages
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IEncryptedMessage> NewEncryptedMessages { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IEncryptedMessage}
+    content.vb: Public Property NewEncryptedMessages As TVector(Of IEncryptedMessage)
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+  id: OtherUpdates
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: OtherUpdates
+  nameWithType: TDifferenceSlice.OtherUpdates
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OtherUpdates
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IUpdate> OtherUpdates { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+    content.vb: Public Property OtherUpdates As TVector(Of IUpdate)
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.Chats
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.Chats
+  id: Chats
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TDifferenceSlice.Chats
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.Chats*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.Users
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.Users
+  id: Users
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TDifferenceSlice.Users
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+  commentId: P:OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+  id: IntermediateState
+  parent: OpenTl.Schema.Updates.TDifferenceSlice
+  langs:
+  - csharp
+  - vb
+  name: IntermediateState
+  nameWithType: TDifferenceSlice.IntermediateState
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IntermediateState
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceSlice.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public IState IntermediateState { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Updates.IState
+    content.vb: Public Property IntermediateState As IState
+  overload: OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IDifference
+  commentId: T:OpenTl.Schema.Updates.IDifference
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IDifference
+  nameWithType: IDifference
+  fullName: OpenTl.Schema.Updates.IDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.NewMessages*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+  isExternal: false
+  name: NewMessages
+  nameWithType: TDifferenceSlice.NewMessages
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.NewMessages
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessage>
+  nameWithType: TVector<IMessage>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessage>
+  nameWithType.vb: TVector(Of IMessage)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessage)
+  name.vb: TVector(Of IMessage)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+  isExternal: false
+  name: NewEncryptedMessages
+  nameWithType: TDifferenceSlice.NewEncryptedMessages
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.NewEncryptedMessages
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IEncryptedMessage}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IEncryptedMessage}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IEncryptedMessage>
+  nameWithType: TVector<IEncryptedMessage>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IEncryptedMessage>
+  nameWithType.vb: TVector(Of IEncryptedMessage)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IEncryptedMessage)
+  name.vb: TVector(Of IEncryptedMessage)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IEncryptedMessage
+    name: IEncryptedMessage
+    nameWithType: IEncryptedMessage
+    fullName: OpenTl.Schema.IEncryptedMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IEncryptedMessage
+    name: IEncryptedMessage
+    nameWithType: IEncryptedMessage
+    fullName: OpenTl.Schema.IEncryptedMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+  isExternal: false
+  name: OtherUpdates
+  nameWithType: TDifferenceSlice.OtherUpdates
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.OtherUpdates
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUpdate}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUpdate>
+  nameWithType: TVector<IUpdate>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUpdate>
+  nameWithType.vb: TVector(Of IUpdate)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUpdate)
+  name.vb: TVector(Of IUpdate)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdate
+    name: IUpdate
+    nameWithType: IUpdate
+    fullName: OpenTl.Schema.IUpdate
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.Chats*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TDifferenceSlice.Chats
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.Users*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.Users
+  isExternal: false
+  name: Users
+  nameWithType: TDifferenceSlice.Users
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+  isExternal: false
+  name: IntermediateState
+  nameWithType: TDifferenceSlice.IntermediateState
+  fullName: OpenTl.Schema.Updates.TDifferenceSlice.IntermediateState
+- uid: OpenTl.Schema.Updates.IState
+  commentId: T:OpenTl.Schema.Updates.IState
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IState
+  nameWithType: IState
+  fullName: OpenTl.Schema.Updates.IState

@@ -1,0 +1,723 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageMediaInvoice
+  commentId: T:OpenTl.Schema.TMessageMediaInvoice
+  id: TMessageMediaInvoice
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageMediaInvoice.Currency
+  - OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+  - OpenTl.Schema.TMessageMediaInvoice.Description
+  - OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+  - OpenTl.Schema.TMessageMediaInvoice.Flags
+  - OpenTl.Schema.TMessageMediaInvoice.Photo
+  - OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+  - OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+  - OpenTl.Schema.TMessageMediaInvoice.StartParam
+  - OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+  - OpenTl.Schema.TMessageMediaInvoice.Test
+  - OpenTl.Schema.TMessageMediaInvoice.Title
+  - OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+  - OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+  langs:
+  - csharp
+  - vb
+  name: TMessageMediaInvoice
+  nameWithType: TMessageMediaInvoice
+  fullName: OpenTl.Schema.TMessageMediaInvoice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageMediaInvoice
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageMediaInvoice : object, IMessageMedia, IObject'
+    content.vb: >-
+      Public Class TMessageMediaInvoice
+
+          Inherits Object
+
+          Implements IMessageMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageMediaInvoice.Flags
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Flags
+  id: Flags
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TMessageMediaInvoice.Flags
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TMessageMediaInvoice.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+  id: ShippingAddressRequested
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: ShippingAddressRequested
+  nameWithType: TMessageMediaInvoice.ShippingAddressRequested
+  fullName: OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingAddressRequested
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ShippingAddressRequested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShippingAddressRequested As Boolean
+  overload: OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.Test
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Test
+  id: Test
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Test
+  nameWithType: TMessageMediaInvoice.Test
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Test
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Test
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Test { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Test As Boolean
+  overload: OpenTl.Schema.TMessageMediaInvoice.Test*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TMessageMediaInvoice.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.Title
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Title
+  id: Title
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TMessageMediaInvoice.Title
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TMessageMediaInvoice.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TMessageMediaInvoice.DescriptionAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.Description
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Description
+  id: Description
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TMessageMediaInvoice.Description
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TMessageMediaInvoice.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.Photo
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Photo
+  id: Photo
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TMessageMediaInvoice.Photo
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IWebDocument Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IWebDocument
+    content.vb: Public Property Photo As IWebDocument
+  overload: OpenTl.Schema.TMessageMediaInvoice.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+  id: ReceiptMsgId
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: ReceiptMsgId
+  nameWithType: TMessageMediaInvoice.ReceiptMsgId
+  fullName: OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReceiptMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ReceiptMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReceiptMsgId As Integer
+  overload: OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+  id: CurrencyAsBinary
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAsBinary
+  nameWithType: TMessageMediaInvoice.CurrencyAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrencyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 48
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Currency&apos; property
+  example: []
+  syntax:
+    content: public byte[] CurrencyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrencyAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.Currency
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.Currency
+  id: Currency
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TMessageMediaInvoice.Currency
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Currency
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Currency
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 52
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: OpenTl.Schema.TMessageMediaInvoice.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+  id: TotalAmount
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: TotalAmount
+  nameWithType: TMessageMediaInvoice.TotalAmount
+  fullName: OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TotalAmount
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 54
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long TotalAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalAmount As Long
+  overload: OpenTl.Schema.TMessageMediaInvoice.TotalAmount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+  id: StartParamAsBinary
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: StartParamAsBinary
+  nameWithType: TMessageMediaInvoice.StartParamAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StartParamAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 58
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;StartParam&apos; property
+  example: []
+  syntax:
+    content: public byte[] StartParamAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property StartParamAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageMediaInvoice.StartParam
+  commentId: P:OpenTl.Schema.TMessageMediaInvoice.StartParam
+  id: StartParam
+  parent: OpenTl.Schema.TMessageMediaInvoice
+  langs:
+  - csharp
+  - vb
+  name: StartParam
+  nameWithType: TMessageMediaInvoice.StartParam
+  fullName: OpenTl.Schema.TMessageMediaInvoice.StartParam
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StartParam
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaInvoice.cs
+    startLine: 62
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string StartParam { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartParam As String
+  overload: OpenTl.Schema.TMessageMediaInvoice.StartParam*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageMedia
+  commentId: T:OpenTl.Schema.IMessageMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageMedia
+  nameWithType: IMessageMedia
+  fullName: OpenTl.Schema.IMessageMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageMediaInvoice.Flags*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TMessageMediaInvoice.Flags
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+  isExternal: false
+  name: ShippingAddressRequested
+  nameWithType: TMessageMediaInvoice.ShippingAddressRequested
+  fullName: OpenTl.Schema.TMessageMediaInvoice.ShippingAddressRequested
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TMessageMediaInvoice.Test*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Test
+  isExternal: false
+  name: Test
+  nameWithType: TMessageMediaInvoice.Test
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Test
+- uid: OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TMessageMediaInvoice.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageMediaInvoice.Title*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Title
+  isExternal: false
+  name: Title
+  nameWithType: TMessageMediaInvoice.Title
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TMessageMediaInvoice.DescriptionAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.DescriptionAsBinary
+- uid: OpenTl.Schema.TMessageMediaInvoice.Description*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Description
+  isExternal: false
+  name: Description
+  nameWithType: TMessageMediaInvoice.Description
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Description
+- uid: OpenTl.Schema.TMessageMediaInvoice.Photo*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TMessageMediaInvoice.Photo
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Photo
+- uid: OpenTl.Schema.IWebDocument
+  commentId: T:OpenTl.Schema.IWebDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebDocument
+  nameWithType: IWebDocument
+  fullName: OpenTl.Schema.IWebDocument
+- uid: OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+  isExternal: false
+  name: ReceiptMsgId
+  nameWithType: TMessageMediaInvoice.ReceiptMsgId
+  fullName: OpenTl.Schema.TMessageMediaInvoice.ReceiptMsgId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: TMessageMediaInvoice.CurrencyAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.CurrencyAsBinary
+- uid: OpenTl.Schema.TMessageMediaInvoice.Currency*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: TMessageMediaInvoice.Currency
+  fullName: OpenTl.Schema.TMessageMediaInvoice.Currency
+- uid: OpenTl.Schema.TMessageMediaInvoice.TotalAmount*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+  isExternal: false
+  name: TotalAmount
+  nameWithType: TMessageMediaInvoice.TotalAmount
+  fullName: OpenTl.Schema.TMessageMediaInvoice.TotalAmount
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+  isExternal: false
+  name: StartParamAsBinary
+  nameWithType: TMessageMediaInvoice.StartParamAsBinary
+  fullName: OpenTl.Schema.TMessageMediaInvoice.StartParamAsBinary
+- uid: OpenTl.Schema.TMessageMediaInvoice.StartParam*
+  commentId: Overload:OpenTl.Schema.TMessageMediaInvoice.StartParam
+  isExternal: false
+  name: StartParam
+  nameWithType: TMessageMediaInvoice.StartParam
+  fullName: OpenTl.Schema.TMessageMediaInvoice.StartParam

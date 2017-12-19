@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TDhConfigNotModified
+  commentId: T:OpenTl.Schema.Messages.TDhConfigNotModified
+  id: TDhConfigNotModified
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TDhConfigNotModified.Random
+  langs:
+  - csharp
+  - vb
+  name: TDhConfigNotModified
+  nameWithType: TDhConfigNotModified
+  fullName: OpenTl.Schema.Messages.TDhConfigNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/DhConfig/TDhConfigNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDhConfigNotModified
+    path: ../src/OpenTl.Schema/_generated/Messages/DhConfig/TDhConfigNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TDhConfigNotModified : object, IDhConfig, IObject'
+    content.vb: >-
+      Public Class TDhConfigNotModified
+
+          Inherits Object
+
+          Implements IDhConfig, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IDhConfig
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TDhConfigNotModified.Random
+  commentId: P:OpenTl.Schema.Messages.TDhConfigNotModified.Random
+  id: Random
+  parent: OpenTl.Schema.Messages.TDhConfigNotModified
+  langs:
+  - csharp
+  - vb
+  name: Random
+  nameWithType: TDhConfigNotModified.Random
+  fullName: OpenTl.Schema.Messages.TDhConfigNotModified.Random
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/DhConfig/TDhConfigNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Random
+    path: ../src/OpenTl.Schema/_generated/Messages/DhConfig/TDhConfigNotModified.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public byte[] Random { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Random As Byte()
+  overload: OpenTl.Schema.Messages.TDhConfigNotModified.Random*
+  implements:
+  - OpenTl.Schema.Messages.IDhConfig.Random
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IDhConfig
+  commentId: T:OpenTl.Schema.Messages.IDhConfig
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IDhConfig
+  nameWithType: IDhConfig
+  fullName: OpenTl.Schema.Messages.IDhConfig
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TDhConfigNotModified.Random*
+  commentId: Overload:OpenTl.Schema.Messages.TDhConfigNotModified.Random
+  isExternal: false
+  name: Random
+  nameWithType: TDhConfigNotModified.Random
+  fullName: OpenTl.Schema.Messages.TDhConfigNotModified.Random
+- uid: OpenTl.Schema.Messages.IDhConfig.Random
+  commentId: P:OpenTl.Schema.Messages.IDhConfig.Random
+  parent: OpenTl.Schema.Messages.IDhConfig
+  isExternal: false
+  name: Random
+  nameWithType: IDhConfig.Random
+  fullName: OpenTl.Schema.Messages.IDhConfig.Random
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

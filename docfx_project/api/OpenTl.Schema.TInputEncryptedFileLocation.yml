@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputEncryptedFileLocation
+  commentId: T:OpenTl.Schema.TInputEncryptedFileLocation
+  id: TInputEncryptedFileLocation
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputEncryptedFileLocation.AccessHash
+  - OpenTl.Schema.TInputEncryptedFileLocation.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputEncryptedFileLocation
+  nameWithType: TInputEncryptedFileLocation
+  fullName: OpenTl.Schema.TInputEncryptedFileLocation
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputEncryptedFileLocation
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputEncryptedFileLocation : object, IInputFileLocation, IObject'
+    content.vb: >-
+      Public Class TInputEncryptedFileLocation
+
+          Inherits Object
+
+          Implements IInputFileLocation, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputFileLocation
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputEncryptedFileLocation.Id
+  commentId: P:OpenTl.Schema.TInputEncryptedFileLocation.Id
+  id: Id
+  parent: OpenTl.Schema.TInputEncryptedFileLocation
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputEncryptedFileLocation.Id
+  fullName: OpenTl.Schema.TInputEncryptedFileLocation.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputEncryptedFileLocation.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputEncryptedFileLocation.AccessHash
+  commentId: P:OpenTl.Schema.TInputEncryptedFileLocation.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputEncryptedFileLocation
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputEncryptedFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputEncryptedFileLocation.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputEncryptedFileLocation.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputEncryptedFileLocation.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputFileLocation
+  commentId: T:OpenTl.Schema.IInputFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFileLocation
+  nameWithType: IInputFileLocation
+  fullName: OpenTl.Schema.IInputFileLocation
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputEncryptedFileLocation.Id*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileLocation.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputEncryptedFileLocation.Id
+  fullName: OpenTl.Schema.TInputEncryptedFileLocation.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputEncryptedFileLocation.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputEncryptedFileLocation.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputEncryptedFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputEncryptedFileLocation.AccessHash

@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRsaPublicKey
+  commentId: T:OpenTl.Schema.TRsaPublicKey
+  id: TRsaPublicKey
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRsaPublicKey.E
+  - OpenTl.Schema.TRsaPublicKey.N
+  langs:
+  - csharp
+  - vb
+  name: TRsaPublicKey
+  nameWithType: TRsaPublicKey
+  fullName: OpenTl.Schema.TRsaPublicKey
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRsaPublicKey
+    path: ../src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+    startLine: 2
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRsaPublicKey : object'
+    content.vb: >-
+      Public Class TRsaPublicKey
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRsaPublicKey.N
+  commentId: P:OpenTl.Schema.TRsaPublicKey.N
+  id: N
+  parent: OpenTl.Schema.TRsaPublicKey
+  langs:
+  - csharp
+  - vb
+  name: N
+  nameWithType: TRsaPublicKey.N
+  fullName: OpenTl.Schema.TRsaPublicKey.N
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: N
+    path: ../src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+    startLine: 4
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] N { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property N As Byte()
+  overload: OpenTl.Schema.TRsaPublicKey.N*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRsaPublicKey.E
+  commentId: P:OpenTl.Schema.TRsaPublicKey.E
+  id: E
+  parent: OpenTl.Schema.TRsaPublicKey
+  langs:
+  - csharp
+  - vb
+  name: E
+  nameWithType: TRsaPublicKey.E
+  fullName: OpenTl.Schema.TRsaPublicKey.E
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: E
+    path: ../src/OpenTl.Schema/Entities/TRsaPublicKey.cs
+    startLine: 6
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] E { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property E As Byte()
+  overload: OpenTl.Schema.TRsaPublicKey.E*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.TRsaPublicKey.N*
+  commentId: Overload:OpenTl.Schema.TRsaPublicKey.N
+  isExternal: false
+  name: N
+  nameWithType: TRsaPublicKey.N
+  fullName: OpenTl.Schema.TRsaPublicKey.N
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TRsaPublicKey.E*
+  commentId: Overload:OpenTl.Schema.TRsaPublicKey.E
+  isExternal: false
+  name: E
+  nameWithType: TRsaPublicKey.E
+  fullName: OpenTl.Schema.TRsaPublicKey.E

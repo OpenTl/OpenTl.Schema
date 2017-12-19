@@ -1,0 +1,468 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.IState
+  commentId: T:OpenTl.Schema.Updates.IState
+  id: IState
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.IState.Date
+  - OpenTl.Schema.Updates.IState.Pts
+  - OpenTl.Schema.Updates.IState.Qts
+  - OpenTl.Schema.Updates.IState.Seq
+  - OpenTl.Schema.Updates.IState.UnreadCount
+  langs:
+  - csharp
+  - vb
+  name: IState
+  nameWithType: IState
+  fullName: OpenTl.Schema.Updates.IState
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IState
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public interface IState : IObject'
+    content.vb: >-
+      Public Interface IState
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.Updates.IState.Pts
+  commentId: P:OpenTl.Schema.Updates.IState.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.IState
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: IState.Pts
+  fullName: OpenTl.Schema.Updates.IState.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Pts As Integer
+  overload: OpenTl.Schema.Updates.IState.Pts*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Updates.IState.Qts
+  commentId: P:OpenTl.Schema.Updates.IState.Qts
+  id: Qts
+  parent: OpenTl.Schema.Updates.IState
+  langs:
+  - csharp
+  - vb
+  name: Qts
+  nameWithType: IState.Qts
+  fullName: OpenTl.Schema.Updates.IState.Qts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Qts
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: int Qts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Qts As Integer
+  overload: OpenTl.Schema.Updates.IState.Qts*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Updates.IState.Date
+  commentId: P:OpenTl.Schema.Updates.IState.Date
+  id: Date
+  parent: OpenTl.Schema.Updates.IState
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: IState.Date
+  fullName: OpenTl.Schema.Updates.IState.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Date As Integer
+  overload: OpenTl.Schema.Updates.IState.Date*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Updates.IState.Seq
+  commentId: P:OpenTl.Schema.Updates.IState.Seq
+  id: Seq
+  parent: OpenTl.Schema.Updates.IState
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: IState.Seq
+  fullName: OpenTl.Schema.Updates.IState.Seq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Seq
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: int Seq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Seq As Integer
+  overload: OpenTl.Schema.Updates.IState.Seq*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.Updates.IState.UnreadCount
+  commentId: P:OpenTl.Schema.Updates.IState.UnreadCount
+  id: UnreadCount
+  parent: OpenTl.Schema.Updates.IState
+  langs:
+  - csharp
+  - vb
+  name: UnreadCount
+  nameWithType: IState.UnreadCount
+  fullName: OpenTl.Schema.Updates.IState.UnreadCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/IState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UnreadCount
+    path: ../src/OpenTl.Schema/_generated/Updates/State/IState.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: int UnreadCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property UnreadCount As Integer
+  overload: OpenTl.Schema.Updates.IState.UnreadCount*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.IState.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.IState.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: IState.Pts
+  fullName: OpenTl.Schema.Updates.IState.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.IState.Qts*
+  commentId: Overload:OpenTl.Schema.Updates.IState.Qts
+  isExternal: false
+  name: Qts
+  nameWithType: IState.Qts
+  fullName: OpenTl.Schema.Updates.IState.Qts
+- uid: OpenTl.Schema.Updates.IState.Date*
+  commentId: Overload:OpenTl.Schema.Updates.IState.Date
+  isExternal: false
+  name: Date
+  nameWithType: IState.Date
+  fullName: OpenTl.Schema.Updates.IState.Date
+- uid: OpenTl.Schema.Updates.IState.Seq*
+  commentId: Overload:OpenTl.Schema.Updates.IState.Seq
+  isExternal: false
+  name: Seq
+  nameWithType: IState.Seq
+  fullName: OpenTl.Schema.Updates.IState.Seq
+- uid: OpenTl.Schema.Updates.IState.UnreadCount*
+  commentId: Overload:OpenTl.Schema.Updates.IState.UnreadCount
+  isExternal: false
+  name: UnreadCount
+  nameWithType: IState.UnreadCount
+  fullName: OpenTl.Schema.Updates.IState.UnreadCount

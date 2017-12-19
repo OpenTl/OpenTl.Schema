@@ -18,6 +18,7 @@ namespace OpenTl.Schema.Account
        [SerializationOrder(1)]
        public byte[] NewSalt {get; set;}
 
+       /// <summary>Binary representation for the 'Hint' property</summary>
        [SerializationOrder(2)]
        public byte[] HintAsBinary { get => _HintAsBinary; set { _Hint = Encoding.UTF8.GetString(value); _HintAsBinary = value; }}
        private byte[] _HintAsBinary;
@@ -27,6 +28,7 @@ namespace OpenTl.Schema.Account
        [SerializationOrder(3)]
        public bool HasRecovery {get; set;}
 
+       /// <summary>Binary representation for the 'EmailUnconfirmedPattern' property</summary>
        [SerializationOrder(4)]
        public byte[] EmailUnconfirmedPatternAsBinary { get => _EmailUnconfirmedPatternAsBinary; set { _EmailUnconfirmedPattern = Encoding.UTF8.GetString(value); _EmailUnconfirmedPatternAsBinary = value; }}
        private byte[] _EmailUnconfirmedPatternAsBinary;

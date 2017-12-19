@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<long> MsgIds {get; set;}
 
+       /// <summary>Binary representation for the 'Info' property</summary>
        [SerializationOrder(1)]
        public byte[] InfoAsBinary { get => _InfoAsBinary; set { _Info = Encoding.UTF8.GetString(value); _InfoAsBinary = value; }}
        private byte[] _InfoAsBinary;

@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Phone.TPhoneCall
+  commentId: T:OpenTl.Schema.Phone.TPhoneCall
+  id: TPhoneCall
+  parent: OpenTl.Schema.Phone
+  children:
+  - OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+  - OpenTl.Schema.Phone.TPhoneCall.Users
+  langs:
+  - csharp
+  - vb
+  name: TPhoneCall
+  nameWithType: TPhoneCall
+  fullName: OpenTl.Schema.Phone.TPhoneCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoneCall
+    path: ../src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: 'public class TPhoneCall : object, IPhoneCall, IObject'
+    content.vb: >-
+      Public Class TPhoneCall
+
+          Inherits Object
+
+          Implements IPhoneCall, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Phone.IPhoneCall
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+  commentId: P:OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+  id: PhoneCall
+  parent: OpenTl.Schema.Phone.TPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: PhoneCall
+  nameWithType: TPhoneCall.PhoneCall
+  fullName: OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCall
+    path: ../src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IPhoneCall PhoneCall { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoneCall
+    content.vb: Public Property PhoneCall As IPhoneCall
+  overload: OpenTl.Schema.Phone.TPhoneCall.PhoneCall*
+  implements:
+  - OpenTl.Schema.Phone.IPhoneCall.PhoneCall
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.TPhoneCall.Users
+  commentId: P:OpenTl.Schema.Phone.TPhoneCall.Users
+  id: Users
+  parent: OpenTl.Schema.Phone.TPhoneCall
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TPhoneCall.Users
+  fullName: OpenTl.Schema.Phone.TPhoneCall.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Phone/PhoneCall/TPhoneCall.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Phone.TPhoneCall.Users*
+  implements:
+  - OpenTl.Schema.Phone.IPhoneCall.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Phone
+  commentId: N:OpenTl.Schema.Phone
+  isExternal: false
+  name: OpenTl.Schema.Phone
+  nameWithType: OpenTl.Schema.Phone
+  fullName: OpenTl.Schema.Phone
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Phone.IPhoneCall
+  commentId: T:OpenTl.Schema.Phone.IPhoneCall
+  parent: OpenTl.Schema.Phone
+  isExternal: false
+  name: IPhoneCall
+  nameWithType: IPhoneCall
+  fullName: OpenTl.Schema.Phone.IPhoneCall
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Phone.TPhoneCall.PhoneCall*
+  commentId: Overload:OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+  isExternal: false
+  name: PhoneCall
+  nameWithType: TPhoneCall.PhoneCall
+  fullName: OpenTl.Schema.Phone.TPhoneCall.PhoneCall
+- uid: OpenTl.Schema.Phone.IPhoneCall.PhoneCall
+  commentId: P:OpenTl.Schema.Phone.IPhoneCall.PhoneCall
+  parent: OpenTl.Schema.Phone.IPhoneCall
+  isExternal: false
+  name: PhoneCall
+  nameWithType: IPhoneCall.PhoneCall
+  fullName: OpenTl.Schema.Phone.IPhoneCall.PhoneCall
+- uid: OpenTl.Schema.IPhoneCall
+  commentId: T:OpenTl.Schema.IPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCall
+  nameWithType: IPhoneCall
+  fullName: OpenTl.Schema.IPhoneCall
+- uid: OpenTl.Schema.Phone.TPhoneCall.Users*
+  commentId: Overload:OpenTl.Schema.Phone.TPhoneCall.Users
+  isExternal: false
+  name: Users
+  nameWithType: TPhoneCall.Users
+  fullName: OpenTl.Schema.Phone.TPhoneCall.Users
+- uid: OpenTl.Schema.Phone.IPhoneCall.Users
+  commentId: P:OpenTl.Schema.Phone.IPhoneCall.Users
+  parent: OpenTl.Schema.Phone.IPhoneCall
+  isExternal: false
+  name: Users
+  nameWithType: IPhoneCall.Users
+  fullName: OpenTl.Schema.Phone.IPhoneCall.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

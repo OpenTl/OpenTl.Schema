@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.THttpWait
+  commentId: T:OpenTl.Schema.THttpWait
+  id: THttpWait
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.THttpWait.MaxDelay
+  - OpenTl.Schema.THttpWait.MaxWait
+  - OpenTl.Schema.THttpWait.WaitAfter
+  langs:
+  - csharp
+  - vb
+  name: THttpWait
+  nameWithType: THttpWait
+  fullName: OpenTl.Schema.THttpWait
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: THttpWait
+    path: ../src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class THttpWait : object, IObject'
+    content.vb: >-
+      Public Class THttpWait
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.THttpWait.MaxDelay
+  commentId: P:OpenTl.Schema.THttpWait.MaxDelay
+  id: MaxDelay
+  parent: OpenTl.Schema.THttpWait
+  langs:
+  - csharp
+  - vb
+  name: MaxDelay
+  nameWithType: THttpWait.MaxDelay
+  fullName: OpenTl.Schema.THttpWait.MaxDelay
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxDelay
+    path: ../src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxDelay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxDelay As Integer
+  overload: OpenTl.Schema.THttpWait.MaxDelay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.THttpWait.WaitAfter
+  commentId: P:OpenTl.Schema.THttpWait.WaitAfter
+  id: WaitAfter
+  parent: OpenTl.Schema.THttpWait
+  langs:
+  - csharp
+  - vb
+  name: WaitAfter
+  nameWithType: THttpWait.WaitAfter
+  fullName: OpenTl.Schema.THttpWait.WaitAfter
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: WaitAfter
+    path: ../src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int WaitAfter { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property WaitAfter As Integer
+  overload: OpenTl.Schema.THttpWait.WaitAfter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.THttpWait.MaxWait
+  commentId: P:OpenTl.Schema.THttpWait.MaxWait
+  id: MaxWait
+  parent: OpenTl.Schema.THttpWait
+  langs:
+  - csharp
+  - vb
+  name: MaxWait
+  nameWithType: THttpWait.MaxWait
+  fullName: OpenTl.Schema.THttpWait.MaxWait
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxWait
+    path: ../src/OpenTl.Schema/_generated/_Entities/THttpWait.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxWait { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxWait As Integer
+  overload: OpenTl.Schema.THttpWait.MaxWait*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.THttpWait.MaxDelay*
+  commentId: Overload:OpenTl.Schema.THttpWait.MaxDelay
+  isExternal: false
+  name: MaxDelay
+  nameWithType: THttpWait.MaxDelay
+  fullName: OpenTl.Schema.THttpWait.MaxDelay
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.THttpWait.WaitAfter*
+  commentId: Overload:OpenTl.Schema.THttpWait.WaitAfter
+  isExternal: false
+  name: WaitAfter
+  nameWithType: THttpWait.WaitAfter
+  fullName: OpenTl.Schema.THttpWait.WaitAfter
+- uid: OpenTl.Schema.THttpWait.MaxWait*
+  commentId: Overload:OpenTl.Schema.THttpWait.MaxWait
+  isExternal: false
+  name: MaxWait
+  nameWithType: THttpWait.MaxWait
+  fullName: OpenTl.Schema.THttpWait.MaxWait

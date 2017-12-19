@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTopPeer
+  commentId: T:OpenTl.Schema.TTopPeer
+  id: TTopPeer
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTopPeer.Peer
+  - OpenTl.Schema.TTopPeer.Rating
+  langs:
+  - csharp
+  - vb
+  name: TTopPeer
+  nameWithType: TTopPeer
+  fullName: OpenTl.Schema.TTopPeer
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTopPeer
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTopPeer : object, ITopPeer, IObject'
+    content.vb: >-
+      Public Class TTopPeer
+
+          Inherits Object
+
+          Implements ITopPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ITopPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTopPeer.Peer
+  commentId: P:OpenTl.Schema.TTopPeer.Peer
+  id: Peer
+  parent: OpenTl.Schema.TTopPeer
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TTopPeer.Peer
+  fullName: OpenTl.Schema.TTopPeer.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TTopPeer.Peer*
+  implements:
+  - OpenTl.Schema.ITopPeer.Peer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTopPeer.Rating
+  commentId: P:OpenTl.Schema.TTopPeer.Rating
+  id: Rating
+  parent: OpenTl.Schema.TTopPeer
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: TTopPeer.Rating
+  fullName: OpenTl.Schema.TTopPeer.Rating
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rating
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeer/TTopPeer.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public double Rating { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property Rating As Double
+  overload: OpenTl.Schema.TTopPeer.Rating*
+  implements:
+  - OpenTl.Schema.ITopPeer.Rating
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ITopPeer
+  commentId: T:OpenTl.Schema.ITopPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ITopPeer
+  nameWithType: ITopPeer
+  fullName: OpenTl.Schema.ITopPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTopPeer.Peer*
+  commentId: Overload:OpenTl.Schema.TTopPeer.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TTopPeer.Peer
+  fullName: OpenTl.Schema.TTopPeer.Peer
+- uid: OpenTl.Schema.ITopPeer.Peer
+  commentId: P:OpenTl.Schema.ITopPeer.Peer
+  parent: OpenTl.Schema.ITopPeer
+  isExternal: false
+  name: Peer
+  nameWithType: ITopPeer.Peer
+  fullName: OpenTl.Schema.ITopPeer.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.TTopPeer.Rating*
+  commentId: Overload:OpenTl.Schema.TTopPeer.Rating
+  isExternal: false
+  name: Rating
+  nameWithType: TTopPeer.Rating
+  fullName: OpenTl.Schema.TTopPeer.Rating
+- uid: OpenTl.Schema.ITopPeer.Rating
+  commentId: P:OpenTl.Schema.ITopPeer.Rating
+  parent: OpenTl.Schema.ITopPeer
+  isExternal: false
+  name: Rating
+  nameWithType: ITopPeer.Rating
+  fullName: OpenTl.Schema.ITopPeer.Rating
+- uid: System.Double
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

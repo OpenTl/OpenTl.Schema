@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TDialogs
+  commentId: T:OpenTl.Schema.Messages.TDialogs
+  id: TDialogs
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TDialogs.Chats
+  - OpenTl.Schema.Messages.TDialogs.Dialogs
+  - OpenTl.Schema.Messages.TDialogs.Messages
+  - OpenTl.Schema.Messages.TDialogs.Users
+  langs:
+  - csharp
+  - vb
+  name: TDialogs
+  nameWithType: TDialogs
+  fullName: OpenTl.Schema.Messages.TDialogs
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDialogs
+    path: ../src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TDialogs : object, IDialogs, IObject'
+    content.vb: >-
+      Public Class TDialogs
+
+          Inherits Object
+
+          Implements IDialogs, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IDialogs
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TDialogs.Dialogs
+  commentId: P:OpenTl.Schema.Messages.TDialogs.Dialogs
+  id: Dialogs
+  parent: OpenTl.Schema.Messages.TDialogs
+  langs:
+  - csharp
+  - vb
+  name: Dialogs
+  nameWithType: TDialogs.Dialogs
+  fullName: OpenTl.Schema.Messages.TDialogs.Dialogs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Dialogs
+    path: ../src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IDialog> Dialogs { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDialog}
+    content.vb: Public Property Dialogs As TVector(Of IDialog)
+  overload: OpenTl.Schema.Messages.TDialogs.Dialogs*
+  implements:
+  - OpenTl.Schema.Messages.IDialogs.Dialogs
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TDialogs.Messages
+  commentId: P:OpenTl.Schema.Messages.TDialogs.Messages
+  id: Messages
+  parent: OpenTl.Schema.Messages.TDialogs
+  langs:
+  - csharp
+  - vb
+  name: Messages
+  nameWithType: TDialogs.Messages
+  fullName: OpenTl.Schema.Messages.TDialogs.Messages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Messages
+    path: ../src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IMessage> Messages { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+    content.vb: Public Property Messages As TVector(Of IMessage)
+  overload: OpenTl.Schema.Messages.TDialogs.Messages*
+  implements:
+  - OpenTl.Schema.Messages.IDialogs.Messages
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TDialogs.Chats
+  commentId: P:OpenTl.Schema.Messages.TDialogs.Chats
+  id: Chats
+  parent: OpenTl.Schema.Messages.TDialogs
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TDialogs.Chats
+  fullName: OpenTl.Schema.Messages.TDialogs.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Messages.TDialogs.Chats*
+  implements:
+  - OpenTl.Schema.Messages.IDialogs.Chats
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TDialogs.Users
+  commentId: P:OpenTl.Schema.Messages.TDialogs.Users
+  id: Users
+  parent: OpenTl.Schema.Messages.TDialogs
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TDialogs.Users
+  fullName: OpenTl.Schema.Messages.TDialogs.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Messages/Dialogs/TDialogs.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Messages.TDialogs.Users*
+  implements:
+  - OpenTl.Schema.Messages.IDialogs.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IDialogs
+  commentId: T:OpenTl.Schema.Messages.IDialogs
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IDialogs
+  nameWithType: IDialogs
+  fullName: OpenTl.Schema.Messages.IDialogs
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TDialogs.Dialogs*
+  commentId: Overload:OpenTl.Schema.Messages.TDialogs.Dialogs
+  isExternal: false
+  name: Dialogs
+  nameWithType: TDialogs.Dialogs
+  fullName: OpenTl.Schema.Messages.TDialogs.Dialogs
+- uid: OpenTl.Schema.Messages.IDialogs.Dialogs
+  commentId: P:OpenTl.Schema.Messages.IDialogs.Dialogs
+  parent: OpenTl.Schema.Messages.IDialogs
+  isExternal: false
+  name: Dialogs
+  nameWithType: IDialogs.Dialogs
+  fullName: OpenTl.Schema.Messages.IDialogs.Dialogs
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDialog}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDialog}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDialog>
+  nameWithType: TVector<IDialog>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDialog>
+  nameWithType.vb: TVector(Of IDialog)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDialog)
+  name.vb: TVector(Of IDialog)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDialog
+    name: IDialog
+    nameWithType: IDialog
+    fullName: OpenTl.Schema.IDialog
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDialog
+    name: IDialog
+    nameWithType: IDialog
+    fullName: OpenTl.Schema.IDialog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TDialogs.Messages*
+  commentId: Overload:OpenTl.Schema.Messages.TDialogs.Messages
+  isExternal: false
+  name: Messages
+  nameWithType: TDialogs.Messages
+  fullName: OpenTl.Schema.Messages.TDialogs.Messages
+- uid: OpenTl.Schema.Messages.IDialogs.Messages
+  commentId: P:OpenTl.Schema.Messages.IDialogs.Messages
+  parent: OpenTl.Schema.Messages.IDialogs
+  isExternal: false
+  name: Messages
+  nameWithType: IDialogs.Messages
+  fullName: OpenTl.Schema.Messages.IDialogs.Messages
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessage}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessage>
+  nameWithType: TVector<IMessage>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessage>
+  nameWithType.vb: TVector(Of IMessage)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessage)
+  name.vb: TVector(Of IMessage)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessage
+    name: IMessage
+    nameWithType: IMessage
+    fullName: OpenTl.Schema.IMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TDialogs.Chats*
+  commentId: Overload:OpenTl.Schema.Messages.TDialogs.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TDialogs.Chats
+  fullName: OpenTl.Schema.Messages.TDialogs.Chats
+- uid: OpenTl.Schema.Messages.IDialogs.Chats
+  commentId: P:OpenTl.Schema.Messages.IDialogs.Chats
+  parent: OpenTl.Schema.Messages.IDialogs
+  isExternal: false
+  name: Chats
+  nameWithType: IDialogs.Chats
+  fullName: OpenTl.Schema.Messages.IDialogs.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TDialogs.Users*
+  commentId: Overload:OpenTl.Schema.Messages.TDialogs.Users
+  isExternal: false
+  name: Users
+  nameWithType: TDialogs.Users
+  fullName: OpenTl.Schema.Messages.TDialogs.Users
+- uid: OpenTl.Schema.Messages.IDialogs.Users
+  commentId: P:OpenTl.Schema.Messages.IDialogs.Users
+  parent: OpenTl.Schema.Messages.IDialogs
+  isExternal: false
+  name: Users
+  nameWithType: IDialogs.Users
+  fullName: OpenTl.Schema.Messages.IDialogs.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

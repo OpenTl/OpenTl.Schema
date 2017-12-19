@@ -1,0 +1,397 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto
+  commentId: T:OpenTl.Schema.TInputBotInlineResultPhoto
+  id: TInputBotInlineResultPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineResultPhoto.Id
+  - OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+  - OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+  - OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+  - OpenTl.Schema.TInputBotInlineResultPhoto.Type
+  - OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineResultPhoto
+  nameWithType: TInputBotInlineResultPhoto
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineResultPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineResultPhoto : object, IInputBotInlineResult, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineResultPhoto
+
+          Inherits Object
+
+          Implements IInputBotInlineResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultPhoto.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Id
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.Id
+  id: Id
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputBotInlineResultPhoto.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.Id*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TInputBotInlineResultPhoto.TypeAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Type
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.Type
+  id: Type
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TInputBotInlineResultPhoto.Type
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+  id: Photo
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TInputBotInlineResultPhoto.Photo
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPhoto
+    content.vb: Public Property Photo As IInputPhoto
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+  commentId: P:OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+  id: SendMessage
+  parent: OpenTl.Schema.TInputBotInlineResultPhoto
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: TInputBotInlineResultPhoto.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SendMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultPhoto.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputBotInlineMessage SendMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputBotInlineMessage
+    content.vb: Public Property SendMessage As IInputBotInlineMessage
+  overload: OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.SendMessage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineResult
+  commentId: T:OpenTl.Schema.IInputBotInlineResult
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineResult
+  nameWithType: IInputBotInlineResult
+  fullName: OpenTl.Schema.IInputBotInlineResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultPhoto.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.IdAsBinary
+- uid: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IInputBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Id*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputBotInlineResultPhoto.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Id
+- uid: OpenTl.Schema.IInputBotInlineResult.Id
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.Id
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: Id
+  nameWithType: IInputBotInlineResult.Id
+  fullName: OpenTl.Schema.IInputBotInlineResult.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TInputBotInlineResultPhoto.TypeAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.TypeAsBinary
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Type*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.Type
+  isExternal: false
+  name: Type
+  nameWithType: TInputBotInlineResultPhoto.Type
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Type
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.Photo*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TInputBotInlineResultPhoto.Photo
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.Photo
+- uid: OpenTl.Schema.IInputPhoto
+  commentId: T:OpenTl.Schema.IInputPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoto
+  nameWithType: IInputPhoto
+  fullName: OpenTl.Schema.IInputPhoto
+- uid: OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+  isExternal: false
+  name: SendMessage
+  nameWithType: TInputBotInlineResultPhoto.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultPhoto.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineResult.SendMessage
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.SendMessage
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: SendMessage
+  nameWithType: IInputBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IInputBotInlineResult.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage

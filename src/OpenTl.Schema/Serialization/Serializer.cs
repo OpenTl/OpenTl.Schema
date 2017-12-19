@@ -100,7 +100,7 @@ namespace OpenTl.Schema.Serialization
             {
                 Serialize(obj, binaryWriter);
 
-                stream.TryGetBuffer(out var buffer);
+                stream. TryGetBuffer(out var buffer);
                 return buffer.Array;
             }
         }

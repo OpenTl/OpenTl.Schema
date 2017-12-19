@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPopularContact
+  commentId: T:OpenTl.Schema.TPopularContact
+  id: TPopularContact
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPopularContact.ClientId
+  - OpenTl.Schema.TPopularContact.Importers
+  langs:
+  - csharp
+  - vb
+  name: TPopularContact
+  nameWithType: TPopularContact
+  fullName: OpenTl.Schema.TPopularContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPopularContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPopularContact : object, IPopularContact, IObject'
+    content.vb: >-
+      Public Class TPopularContact
+
+          Inherits Object
+
+          Implements IPopularContact, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPopularContact
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPopularContact.ClientId
+  commentId: P:OpenTl.Schema.TPopularContact.ClientId
+  id: ClientId
+  parent: OpenTl.Schema.TPopularContact
+  langs:
+  - csharp
+  - vb
+  name: ClientId
+  nameWithType: TPopularContact.ClientId
+  fullName: OpenTl.Schema.TPopularContact.ClientId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ClientId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ClientId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ClientId As Long
+  overload: OpenTl.Schema.TPopularContact.ClientId*
+  implements:
+  - OpenTl.Schema.IPopularContact.ClientId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPopularContact.Importers
+  commentId: P:OpenTl.Schema.TPopularContact.Importers
+  id: Importers
+  parent: OpenTl.Schema.TPopularContact
+  langs:
+  - csharp
+  - vb
+  name: Importers
+  nameWithType: TPopularContact.Importers
+  fullName: OpenTl.Schema.TPopularContact.Importers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Importers
+    path: ../src/OpenTl.Schema/_generated/_Entities/PopularContact/TPopularContact.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Importers { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Importers As Integer
+  overload: OpenTl.Schema.TPopularContact.Importers*
+  implements:
+  - OpenTl.Schema.IPopularContact.Importers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPopularContact
+  commentId: T:OpenTl.Schema.IPopularContact
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPopularContact
+  nameWithType: IPopularContact
+  fullName: OpenTl.Schema.IPopularContact
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPopularContact.ClientId*
+  commentId: Overload:OpenTl.Schema.TPopularContact.ClientId
+  isExternal: false
+  name: ClientId
+  nameWithType: TPopularContact.ClientId
+  fullName: OpenTl.Schema.TPopularContact.ClientId
+- uid: OpenTl.Schema.IPopularContact.ClientId
+  commentId: P:OpenTl.Schema.IPopularContact.ClientId
+  parent: OpenTl.Schema.IPopularContact
+  isExternal: false
+  name: ClientId
+  nameWithType: IPopularContact.ClientId
+  fullName: OpenTl.Schema.IPopularContact.ClientId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPopularContact.Importers*
+  commentId: Overload:OpenTl.Schema.TPopularContact.Importers
+  isExternal: false
+  name: Importers
+  nameWithType: TPopularContact.Importers
+  fullName: OpenTl.Schema.TPopularContact.Importers
+- uid: OpenTl.Schema.IPopularContact.Importers
+  commentId: P:OpenTl.Schema.IPopularContact.Importers
+  parent: OpenTl.Schema.IPopularContact
+  isExternal: false
+  name: Importers
+  nameWithType: IPopularContact.Importers
+  fullName: OpenTl.Schema.IPopularContact.Importers
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

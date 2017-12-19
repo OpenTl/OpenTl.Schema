@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference
+  commentId: T:OpenTl.Schema.Updates.RequestGetChannelDifference
+  id: RequestGetChannelDifference
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Limit
+  - OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+  langs:
+  - csharp
+  - vb
+  name: RequestGetChannelDifference
+  nameWithType: RequestGetChannelDifference
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetChannelDifference
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class RequestGetChannelDifference : object, IRequest<IChannelDifference>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetChannelDifference
+
+          Inherits Object
+
+          Implements IRequest(Of IChannelDifference), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IChannelDifference}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+  id: Flags
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetChannelDifference.Flags
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+  id: Force
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Force
+  nameWithType: RequestGetChannelDifference.Force
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Force
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public bool Force { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Force As Boolean
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Force*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+  id: Channel
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestGetChannelDifference.Channel
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+  id: Filter
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: RequestGetChannelDifference.Filter
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Filter
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public IChannelMessagesFilter Filter { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelMessagesFilter
+    content.vb: Public Property Filter As IChannelMessagesFilter
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: RequestGetChannelDifference.Pts
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Limit
+  commentId: P:OpenTl.Schema.Updates.RequestGetChannelDifference.Limit
+  id: Limit
+  parent: OpenTl.Schema.Updates.RequestGetChannelDifference
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetChannelDifference.Limit
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetChannelDifference.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Updates.RequestGetChannelDifference.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IChannelDifference}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IChannelDifference}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IChannelDifference>
+  nameWithType: IRequest<IChannelDifference>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Updates.IChannelDifference>
+  nameWithType.vb: IRequest(Of IChannelDifference)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Updates.IChannelDifference)
+  name.vb: IRequest(Of IChannelDifference)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Updates.IChannelDifference
+    name: IChannelDifference
+    nameWithType: IChannelDifference
+    fullName: OpenTl.Schema.Updates.IChannelDifference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Updates.IChannelDifference
+    name: IChannelDifference
+    nameWithType: IChannelDifference
+    fullName: OpenTl.Schema.Updates.IChannelDifference
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Flags*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetChannelDifference.Flags
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Force*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+  isExternal: false
+  name: Force
+  nameWithType: RequestGetChannelDifference.Force
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Force
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Channel*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestGetChannelDifference.Channel
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Filter*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+  isExternal: false
+  name: Filter
+  nameWithType: RequestGetChannelDifference.Filter
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Filter
+- uid: OpenTl.Schema.IChannelMessagesFilter
+  commentId: T:OpenTl.Schema.IChannelMessagesFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelMessagesFilter
+  nameWithType: IChannelMessagesFilter
+  fullName: OpenTl.Schema.IChannelMessagesFilter
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: RequestGetChannelDifference.Pts
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.RequestGetChannelDifference.Limit*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetChannelDifference.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetChannelDifference.Limit
+  fullName: OpenTl.Schema.Updates.RequestGetChannelDifference.Limit

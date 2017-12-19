@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockPhoto
+  commentId: T:OpenTl.Schema.TPageBlockPhoto
+  id: TPageBlockPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockPhoto.Caption
+  - OpenTl.Schema.TPageBlockPhoto.PhotoId
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockPhoto
+  nameWithType: TPageBlockPhoto
+  fullName: OpenTl.Schema.TPageBlockPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockPhoto : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockPhoto
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockPhoto.PhotoId
+  commentId: P:OpenTl.Schema.TPageBlockPhoto.PhotoId
+  id: PhotoId
+  parent: OpenTl.Schema.TPageBlockPhoto
+  langs:
+  - csharp
+  - vb
+  name: PhotoId
+  nameWithType: TPageBlockPhoto.PhotoId
+  fullName: OpenTl.Schema.TPageBlockPhoto.PhotoId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhotoId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PhotoId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PhotoId As Long
+  overload: OpenTl.Schema.TPageBlockPhoto.PhotoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockPhoto.Caption
+  commentId: P:OpenTl.Schema.TPageBlockPhoto.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockPhoto
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockPhoto.Caption
+  fullName: OpenTl.Schema.TPageBlockPhoto.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockPhoto.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockPhoto.PhotoId*
+  commentId: Overload:OpenTl.Schema.TPageBlockPhoto.PhotoId
+  isExternal: false
+  name: PhotoId
+  nameWithType: TPageBlockPhoto.PhotoId
+  fullName: OpenTl.Schema.TPageBlockPhoto.PhotoId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPageBlockPhoto.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockPhoto.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockPhoto.Caption
+  fullName: OpenTl.Schema.TPageBlockPhoto.Caption
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

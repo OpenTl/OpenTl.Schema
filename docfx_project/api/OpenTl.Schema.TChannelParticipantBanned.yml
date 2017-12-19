@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelParticipantBanned
+  commentId: T:OpenTl.Schema.TChannelParticipantBanned
+  id: TChannelParticipantBanned
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelParticipantBanned.BannedRights
+  - OpenTl.Schema.TChannelParticipantBanned.Date
+  - OpenTl.Schema.TChannelParticipantBanned.Flags
+  - OpenTl.Schema.TChannelParticipantBanned.KickedBy
+  - OpenTl.Schema.TChannelParticipantBanned.Left
+  - OpenTl.Schema.TChannelParticipantBanned.UserId
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipantBanned
+  nameWithType: TChannelParticipantBanned
+  fullName: OpenTl.Schema.TChannelParticipantBanned
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipantBanned
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelParticipantBanned : object, IChannelParticipant, IObject'
+    content.vb: >-
+      Public Class TChannelParticipantBanned
+
+          Inherits Object
+
+          Implements IChannelParticipant, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelParticipant
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelParticipantBanned.Flags
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelParticipantBanned.Flags
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelParticipantBanned.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantBanned.Left
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.Left
+  id: Left
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: TChannelParticipantBanned.Left
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Left
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Left
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Left { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Left As Boolean
+  overload: OpenTl.Schema.TChannelParticipantBanned.Left*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantBanned.UserId
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.UserId
+  id: UserId
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TChannelParticipantBanned.UserId
+  fullName: OpenTl.Schema.TChannelParticipantBanned.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TChannelParticipantBanned.UserId*
+  implements:
+  - OpenTl.Schema.IChannelParticipant.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantBanned.KickedBy
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.KickedBy
+  id: KickedBy
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: KickedBy
+  nameWithType: TChannelParticipantBanned.KickedBy
+  fullName: OpenTl.Schema.TChannelParticipantBanned.KickedBy
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: KickedBy
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int KickedBy { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property KickedBy As Integer
+  overload: OpenTl.Schema.TChannelParticipantBanned.KickedBy*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantBanned.Date
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.Date
+  id: Date
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TChannelParticipantBanned.Date
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TChannelParticipantBanned.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantBanned.BannedRights
+  commentId: P:OpenTl.Schema.TChannelParticipantBanned.BannedRights
+  id: BannedRights
+  parent: OpenTl.Schema.TChannelParticipantBanned
+  langs:
+  - csharp
+  - vb
+  name: BannedRights
+  nameWithType: TChannelParticipantBanned.BannedRights
+  fullName: OpenTl.Schema.TChannelParticipantBanned.BannedRights
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BannedRights
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipant/TChannelParticipantBanned.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChannelBannedRights BannedRights { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelBannedRights
+    content.vb: Public Property BannedRights As IChannelBannedRights
+  overload: OpenTl.Schema.TChannelParticipantBanned.BannedRights*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelParticipant
+  commentId: T:OpenTl.Schema.IChannelParticipant
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipant
+  nameWithType: IChannelParticipant
+  fullName: OpenTl.Schema.IChannelParticipant
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelParticipantBanned.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelParticipantBanned.Flags
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelParticipantBanned.Left*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.Left
+  isExternal: false
+  name: Left
+  nameWithType: TChannelParticipantBanned.Left
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Left
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelParticipantBanned.UserId*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TChannelParticipantBanned.UserId
+  fullName: OpenTl.Schema.TChannelParticipantBanned.UserId
+- uid: OpenTl.Schema.IChannelParticipant.UserId
+  commentId: P:OpenTl.Schema.IChannelParticipant.UserId
+  parent: OpenTl.Schema.IChannelParticipant
+  isExternal: false
+  name: UserId
+  nameWithType: IChannelParticipant.UserId
+  fullName: OpenTl.Schema.IChannelParticipant.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChannelParticipantBanned.KickedBy*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.KickedBy
+  isExternal: false
+  name: KickedBy
+  nameWithType: TChannelParticipantBanned.KickedBy
+  fullName: OpenTl.Schema.TChannelParticipantBanned.KickedBy
+- uid: OpenTl.Schema.TChannelParticipantBanned.Date*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.Date
+  isExternal: false
+  name: Date
+  nameWithType: TChannelParticipantBanned.Date
+  fullName: OpenTl.Schema.TChannelParticipantBanned.Date
+- uid: OpenTl.Schema.TChannelParticipantBanned.BannedRights*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantBanned.BannedRights
+  isExternal: false
+  name: BannedRights
+  nameWithType: TChannelParticipantBanned.BannedRights
+  fullName: OpenTl.Schema.TChannelParticipantBanned.BannedRights
+- uid: OpenTl.Schema.IChannelBannedRights
+  commentId: T:OpenTl.Schema.IChannelBannedRights
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelBannedRights
+  nameWithType: IChannelBannedRights
+  fullName: OpenTl.Schema.IChannelBannedRights

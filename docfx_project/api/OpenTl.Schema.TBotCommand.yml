@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBotCommand
+  commentId: T:OpenTl.Schema.TBotCommand
+  id: TBotCommand
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBotCommand.Command
+  - OpenTl.Schema.TBotCommand.CommandAsBinary
+  - OpenTl.Schema.TBotCommand.Description
+  - OpenTl.Schema.TBotCommand.DescriptionAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TBotCommand
+  nameWithType: TBotCommand
+  fullName: OpenTl.Schema.TBotCommand
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBotCommand
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBotCommand : object, IBotCommand, IObject'
+    content.vb: >-
+      Public Class TBotCommand
+
+          Inherits Object
+
+          Implements IBotCommand, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBotCommand
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBotCommand.CommandAsBinary
+  commentId: P:OpenTl.Schema.TBotCommand.CommandAsBinary
+  id: CommandAsBinary
+  parent: OpenTl.Schema.TBotCommand
+  langs:
+  - csharp
+  - vb
+  name: CommandAsBinary
+  nameWithType: TBotCommand.CommandAsBinary
+  fullName: OpenTl.Schema.TBotCommand.CommandAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CommandAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Command&apos; property
+  example: []
+  syntax:
+    content: public byte[] CommandAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CommandAsBinary As Byte()
+  overload: OpenTl.Schema.TBotCommand.CommandAsBinary*
+  implements:
+  - OpenTl.Schema.IBotCommand.CommandAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotCommand.Command
+  commentId: P:OpenTl.Schema.TBotCommand.Command
+  id: Command
+  parent: OpenTl.Schema.TBotCommand
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: TBotCommand.Command
+  fullName: OpenTl.Schema.TBotCommand.Command
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Command
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Command { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Command As String
+  overload: OpenTl.Schema.TBotCommand.Command*
+  implements:
+  - OpenTl.Schema.IBotCommand.Command
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotCommand.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TBotCommand.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TBotCommand
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TBotCommand.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotCommand.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TBotCommand.DescriptionAsBinary*
+  implements:
+  - OpenTl.Schema.IBotCommand.DescriptionAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotCommand.Description
+  commentId: P:OpenTl.Schema.TBotCommand.Description
+  id: Description
+  parent: OpenTl.Schema.TBotCommand
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TBotCommand.Description
+  fullName: OpenTl.Schema.TBotCommand.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotCommand/TBotCommand.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TBotCommand.Description*
+  implements:
+  - OpenTl.Schema.IBotCommand.Description
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBotCommand
+  commentId: T:OpenTl.Schema.IBotCommand
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotCommand
+  nameWithType: IBotCommand
+  fullName: OpenTl.Schema.IBotCommand
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBotCommand.CommandAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotCommand.CommandAsBinary
+  isExternal: false
+  name: CommandAsBinary
+  nameWithType: TBotCommand.CommandAsBinary
+  fullName: OpenTl.Schema.TBotCommand.CommandAsBinary
+- uid: OpenTl.Schema.IBotCommand.CommandAsBinary
+  commentId: P:OpenTl.Schema.IBotCommand.CommandAsBinary
+  parent: OpenTl.Schema.IBotCommand
+  isExternal: false
+  name: CommandAsBinary
+  nameWithType: IBotCommand.CommandAsBinary
+  fullName: OpenTl.Schema.IBotCommand.CommandAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TBotCommand.Command*
+  commentId: Overload:OpenTl.Schema.TBotCommand.Command
+  isExternal: false
+  name: Command
+  nameWithType: TBotCommand.Command
+  fullName: OpenTl.Schema.TBotCommand.Command
+- uid: OpenTl.Schema.IBotCommand.Command
+  commentId: P:OpenTl.Schema.IBotCommand.Command
+  parent: OpenTl.Schema.IBotCommand
+  isExternal: false
+  name: Command
+  nameWithType: IBotCommand.Command
+  fullName: OpenTl.Schema.IBotCommand.Command
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TBotCommand.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotCommand.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TBotCommand.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotCommand.DescriptionAsBinary
+- uid: OpenTl.Schema.IBotCommand.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.IBotCommand.DescriptionAsBinary
+  parent: OpenTl.Schema.IBotCommand
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: IBotCommand.DescriptionAsBinary
+  fullName: OpenTl.Schema.IBotCommand.DescriptionAsBinary
+- uid: OpenTl.Schema.TBotCommand.Description*
+  commentId: Overload:OpenTl.Schema.TBotCommand.Description
+  isExternal: false
+  name: Description
+  nameWithType: TBotCommand.Description
+  fullName: OpenTl.Schema.TBotCommand.Description
+- uid: OpenTl.Schema.IBotCommand.Description
+  commentId: P:OpenTl.Schema.IBotCommand.Description
+  parent: OpenTl.Schema.IBotCommand
+  isExternal: false
+  name: Description
+  nameWithType: IBotCommand.Description
+  fullName: OpenTl.Schema.IBotCommand.Description

@@ -1,0 +1,327 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Serialization.Serializer
+  commentId: T:OpenTl.Schema.Serialization.Serializer
+  id: Serializer
+  parent: OpenTl.Schema.Serialization
+  children:
+  - OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
+  - OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  - OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
+  - OpenTl.Schema.Serialization.Serializer.SerializeObject(System.Object)
+  - OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer(System.Object,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: Serializer
+  nameWithType: Serializer
+  fullName: OpenTl.Schema.Serialization.Serializer
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Serializer
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: 'public static class Serializer : object'
+    content.vb: >-
+      Public Module Serializer
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
+  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
+  id: DeserializeObject(System.Byte[])
+  parent: OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeObject(Byte[])
+  nameWithType: Serializer.DeserializeObject(Byte[])
+  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DeserializeObject
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: public static IObject DeserializeObject(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: OpenTl.Schema.IObject
+    content.vb: Public Shared Function DeserializeObject(bytes As Byte()) As IObject
+  overload: OpenTl.Schema.Serialization.Serializer.DeserializeObject*
+  nameWithType.vb: Serializer.DeserializeObject(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte())
+  name.vb: DeserializeObject(Byte())
+- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  id: DeserializeObject(BinaryReader)
+  parent: OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: DeserializeObject(BinaryReader)
+  nameWithType: Serializer.DeserializeObject(BinaryReader)
+  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DeserializeObject
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: public static IObject DeserializeObject(BinaryReader reader)
+    parameters:
+    - id: reader
+      type: BinaryReader
+    return:
+      type: OpenTl.Schema.IObject
+    content.vb: Public Shared Function DeserializeObject(reader As BinaryReader) As IObject
+  overload: OpenTl.Schema.Serialization.Serializer.DeserializeObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
+  id: Deserialize(BinaryReader,TypeInfo)
+  parent: OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(BinaryReader, TypeInfo)
+  nameWithType: Serializer.Deserialize(BinaryReader, TypeInfo)
+  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader, TypeInfo)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Deserialize
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: public static object Deserialize(BinaryReader binaryReader, TypeInfo typeInfo)
+    parameters:
+    - id: binaryReader
+      type: BinaryReader
+    - id: typeInfo
+      type: TypeInfo
+    return:
+      type: System.Object
+    content.vb: Public Shared Function Deserialize(binaryReader As BinaryReader, typeInfo As TypeInfo) As Object
+  overload: OpenTl.Schema.Serialization.Serializer.Deserialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer(System.Object,System.Int32)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer(System.Object,System.Int32)
+  id: SerializeObjectWithBuffer(System.Object,System.Int32)
+  parent: OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeObjectWithBuffer(Object, Int32)
+  nameWithType: Serializer.SerializeObjectWithBuffer(Object, Int32)
+  fullName: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer(System.Object, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SerializeObjectWithBuffer
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 91
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: public static byte[] SerializeObjectWithBuffer(object obj, int bufferSize = null)
+    parameters:
+    - id: obj
+      type: System.Object
+    - id: bufferSize
+      type: System.Int32
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function SerializeObjectWithBuffer(obj As Object, bufferSize As Integer = Nothing) As Byte()
+  overload: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: OpenTl.Schema.Serialization.Serializer.SerializeObject(System.Object)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.SerializeObject(System.Object)
+  id: SerializeObject(System.Object)
+  parent: OpenTl.Schema.Serialization.Serializer
+  langs:
+  - csharp
+  - vb
+  name: SerializeObject(Object)
+  nameWithType: Serializer.SerializeObject(Object)
+  fullName: OpenTl.Schema.Serialization.Serializer.SerializeObject(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Serialization/Serializer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SerializeObject
+    path: ../src/OpenTl.Schema/Serialization/Serializer.cs
+    startLine: 107
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Serialization
+  syntax:
+    content: public static byte[] SerializeObject(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Function SerializeObject(obj As Object) As Byte()
+  overload: OpenTl.Schema.Serialization.Serializer.SerializeObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenTl.Schema.Serialization
+  commentId: N:OpenTl.Schema.Serialization
+  isExternal: false
+  name: OpenTl.Schema.Serialization
+  nameWithType: OpenTl.Schema.Serialization
+  fullName: OpenTl.Schema.Serialization
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject*
+  commentId: Overload:OpenTl.Schema.Serialization.Serializer.DeserializeObject
+  isExternal: false
+  name: DeserializeObject
+  nameWithType: Serializer.DeserializeObject
+  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: BinaryReader
+  isExternal: true
+  name: BinaryReader
+  nameWithType: BinaryReader
+  fullName: BinaryReader
+- uid: OpenTl.Schema.Serialization.Serializer.Deserialize*
+  commentId: Overload:OpenTl.Schema.Serialization.Serializer.Deserialize
+  isExternal: false
+  name: Deserialize
+  nameWithType: Serializer.Deserialize
+  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize
+- uid: TypeInfo
+  commentId: '!:TypeInfo'
+  isExternal: true
+  name: TypeInfo
+  nameWithType: TypeInfo
+  fullName: TypeInfo
+- uid: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer*
+  commentId: Overload:OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer
+  isExternal: false
+  name: SerializeObjectWithBuffer
+  nameWithType: Serializer.SerializeObjectWithBuffer
+  fullName: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Serialization.Serializer.SerializeObject*
+  commentId: Overload:OpenTl.Schema.Serialization.Serializer.SerializeObject
+  isExternal: false
+  name: SerializeObject
+  nameWithType: Serializer.SerializeObject
+  fullName: OpenTl.Schema.Serialization.Serializer.SerializeObject

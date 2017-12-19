@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.RequestGetDifference
+  commentId: T:OpenTl.Schema.Updates.RequestGetDifference
+  id: RequestGetDifference
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.RequestGetDifference.Date
+  - OpenTl.Schema.Updates.RequestGetDifference.Flags
+  - OpenTl.Schema.Updates.RequestGetDifference.Pts
+  - OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+  - OpenTl.Schema.Updates.RequestGetDifference.Qts
+  langs:
+  - csharp
+  - vb
+  name: RequestGetDifference
+  nameWithType: RequestGetDifference
+  fullName: OpenTl.Schema.Updates.RequestGetDifference
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetDifference
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class RequestGetDifference : object, IRequest<IDifference>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetDifference
+
+          Inherits Object
+
+          Implements IRequest(Of IDifference), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IDifference}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Flags
+  commentId: P:OpenTl.Schema.Updates.RequestGetDifference.Flags
+  id: Flags
+  parent: OpenTl.Schema.Updates.RequestGetDifference
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetDifference.Flags
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Updates.RequestGetDifference.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Pts
+  commentId: P:OpenTl.Schema.Updates.RequestGetDifference.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.RequestGetDifference
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: RequestGetDifference.Pts
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.RequestGetDifference.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+  commentId: P:OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+  id: PtsTotalLimit
+  parent: OpenTl.Schema.Updates.RequestGetDifference
+  langs:
+  - csharp
+  - vb
+  name: PtsTotalLimit
+  nameWithType: RequestGetDifference.PtsTotalLimit
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsTotalLimit
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int PtsTotalLimit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsTotalLimit As Integer
+  overload: OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Date
+  commentId: P:OpenTl.Schema.Updates.RequestGetDifference.Date
+  id: Date
+  parent: OpenTl.Schema.Updates.RequestGetDifference
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: RequestGetDifference.Date
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Updates.RequestGetDifference.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Qts
+  commentId: P:OpenTl.Schema.Updates.RequestGetDifference.Qts
+  id: Qts
+  parent: OpenTl.Schema.Updates.RequestGetDifference
+  langs:
+  - csharp
+  - vb
+  name: Qts
+  nameWithType: RequestGetDifference.Qts
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Qts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Qts
+    path: ../src/OpenTl.Schema/_generated/Updates/RequestGetDifference.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Qts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Qts As Integer
+  overload: OpenTl.Schema.Updates.RequestGetDifference.Qts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IDifference}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Updates.IDifference}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IDifference>
+  nameWithType: IRequest<IDifference>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Updates.IDifference>
+  nameWithType.vb: IRequest(Of IDifference)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Updates.IDifference)
+  name.vb: IRequest(Of IDifference)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Updates.IDifference
+    name: IDifference
+    nameWithType: IDifference
+    fullName: OpenTl.Schema.Updates.IDifference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Updates.IDifference
+    name: IDifference
+    nameWithType: IDifference
+    fullName: OpenTl.Schema.Updates.IDifference
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Flags*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetDifference.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetDifference.Flags
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetDifference.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: RequestGetDifference.Pts
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+  isExternal: false
+  name: PtsTotalLimit
+  nameWithType: RequestGetDifference.PtsTotalLimit
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.PtsTotalLimit
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Date*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetDifference.Date
+  isExternal: false
+  name: Date
+  nameWithType: RequestGetDifference.Date
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Date
+- uid: OpenTl.Schema.Updates.RequestGetDifference.Qts*
+  commentId: Overload:OpenTl.Schema.Updates.RequestGetDifference.Qts
+  isExternal: false
+  name: Qts
+  nameWithType: RequestGetDifference.Qts
+  fullName: OpenTl.Schema.Updates.RequestGetDifference.Qts

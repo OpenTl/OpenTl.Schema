@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageFwdHeader
+  commentId: T:OpenTl.Schema.TMessageFwdHeader
+  id: TMessageFwdHeader
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageFwdHeader.ChannelId
+  - OpenTl.Schema.TMessageFwdHeader.ChannelPost
+  - OpenTl.Schema.TMessageFwdHeader.Date
+  - OpenTl.Schema.TMessageFwdHeader.Flags
+  - OpenTl.Schema.TMessageFwdHeader.FromId
+  - OpenTl.Schema.TMessageFwdHeader.PostAuthor
+  - OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TMessageFwdHeader
+  nameWithType: TMessageFwdHeader
+  fullName: OpenTl.Schema.TMessageFwdHeader
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageFwdHeader
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageFwdHeader : object, IMessageFwdHeader, IObject'
+    content.vb: >-
+      Public Class TMessageFwdHeader
+
+          Inherits Object
+
+          Implements IMessageFwdHeader, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageFwdHeader.Flags
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.Flags
+  id: Flags
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TMessageFwdHeader.Flags
+  fullName: OpenTl.Schema.TMessageFwdHeader.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TMessageFwdHeader.Flags*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.FromId
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.FromId
+  id: FromId
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: FromId
+  nameWithType: TMessageFwdHeader.FromId
+  fullName: OpenTl.Schema.TMessageFwdHeader.FromId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FromId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int FromId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property FromId As Integer
+  overload: OpenTl.Schema.TMessageFwdHeader.FromId*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.FromId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.Date
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.Date
+  id: Date
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TMessageFwdHeader.Date
+  fullName: OpenTl.Schema.TMessageFwdHeader.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TMessageFwdHeader.Date*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.ChannelId
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TMessageFwdHeader.ChannelId
+  fullName: OpenTl.Schema.TMessageFwdHeader.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TMessageFwdHeader.ChannelId*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.ChannelId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.ChannelPost
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.ChannelPost
+  id: ChannelPost
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: ChannelPost
+  nameWithType: TMessageFwdHeader.ChannelPost
+  fullName: OpenTl.Schema.TMessageFwdHeader.ChannelPost
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelPost
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelPost { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelPost As Integer
+  overload: OpenTl.Schema.TMessageFwdHeader.ChannelPost*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.ChannelPost
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+  id: PostAuthorAsBinary
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: PostAuthorAsBinary
+  nameWithType: TMessageFwdHeader.PostAuthorAsBinary
+  fullName: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostAuthorAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;PostAuthor&apos; property
+  example: []
+  syntax:
+    content: public byte[] PostAuthorAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PostAuthorAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageFwdHeader.PostAuthor
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.PostAuthor
+  id: PostAuthor
+  parent: OpenTl.Schema.TMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: PostAuthor
+  nameWithType: TMessageFwdHeader.PostAuthor
+  fullName: OpenTl.Schema.TMessageFwdHeader.PostAuthor
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostAuthor
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/TMessageFwdHeader.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string PostAuthor { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PostAuthor As String
+  overload: OpenTl.Schema.TMessageFwdHeader.PostAuthor*
+  implements:
+  - OpenTl.Schema.IMessageFwdHeader.PostAuthor
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageFwdHeader
+  commentId: T:OpenTl.Schema.IMessageFwdHeader
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageFwdHeader
+  nameWithType: IMessageFwdHeader
+  fullName: OpenTl.Schema.IMessageFwdHeader
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageFwdHeader.Flags*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TMessageFwdHeader.Flags
+  fullName: OpenTl.Schema.TMessageFwdHeader.Flags
+- uid: OpenTl.Schema.IMessageFwdHeader.Flags
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.Flags
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: Flags
+  nameWithType: IMessageFwdHeader.Flags
+  fullName: OpenTl.Schema.IMessageFwdHeader.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TMessageFwdHeader.FromId*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.FromId
+  isExternal: false
+  name: FromId
+  nameWithType: TMessageFwdHeader.FromId
+  fullName: OpenTl.Schema.TMessageFwdHeader.FromId
+- uid: OpenTl.Schema.IMessageFwdHeader.FromId
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.FromId
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: FromId
+  nameWithType: IMessageFwdHeader.FromId
+  fullName: OpenTl.Schema.IMessageFwdHeader.FromId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMessageFwdHeader.Date*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.Date
+  isExternal: false
+  name: Date
+  nameWithType: TMessageFwdHeader.Date
+  fullName: OpenTl.Schema.TMessageFwdHeader.Date
+- uid: OpenTl.Schema.IMessageFwdHeader.Date
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.Date
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: Date
+  nameWithType: IMessageFwdHeader.Date
+  fullName: OpenTl.Schema.IMessageFwdHeader.Date
+- uid: OpenTl.Schema.TMessageFwdHeader.ChannelId*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TMessageFwdHeader.ChannelId
+  fullName: OpenTl.Schema.TMessageFwdHeader.ChannelId
+- uid: OpenTl.Schema.IMessageFwdHeader.ChannelId
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.ChannelId
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: ChannelId
+  nameWithType: IMessageFwdHeader.ChannelId
+  fullName: OpenTl.Schema.IMessageFwdHeader.ChannelId
+- uid: OpenTl.Schema.TMessageFwdHeader.ChannelPost*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.ChannelPost
+  isExternal: false
+  name: ChannelPost
+  nameWithType: TMessageFwdHeader.ChannelPost
+  fullName: OpenTl.Schema.TMessageFwdHeader.ChannelPost
+- uid: OpenTl.Schema.IMessageFwdHeader.ChannelPost
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.ChannelPost
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: ChannelPost
+  nameWithType: IMessageFwdHeader.ChannelPost
+  fullName: OpenTl.Schema.IMessageFwdHeader.ChannelPost
+- uid: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+  isExternal: false
+  name: PostAuthorAsBinary
+  nameWithType: TMessageFwdHeader.PostAuthorAsBinary
+  fullName: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
+- uid: OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: PostAuthorAsBinary
+  nameWithType: IMessageFwdHeader.PostAuthorAsBinary
+  fullName: OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageFwdHeader.PostAuthor*
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.PostAuthor
+  isExternal: false
+  name: PostAuthor
+  nameWithType: TMessageFwdHeader.PostAuthor
+  fullName: OpenTl.Schema.TMessageFwdHeader.PostAuthor
+- uid: OpenTl.Schema.IMessageFwdHeader.PostAuthor
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.PostAuthor
+  parent: OpenTl.Schema.IMessageFwdHeader
+  isExternal: false
+  name: PostAuthor
+  nameWithType: IMessageFwdHeader.PostAuthor
+  fullName: OpenTl.Schema.IMessageFwdHeader.PostAuthor
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

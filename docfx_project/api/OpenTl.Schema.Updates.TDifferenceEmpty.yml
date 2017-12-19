@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TDifferenceEmpty
+  commentId: T:OpenTl.Schema.Updates.TDifferenceEmpty
+  id: TDifferenceEmpty
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TDifferenceEmpty.Date
+  - OpenTl.Schema.Updates.TDifferenceEmpty.Seq
+  langs:
+  - csharp
+  - vb
+  name: TDifferenceEmpty
+  nameWithType: TDifferenceEmpty
+  fullName: OpenTl.Schema.Updates.TDifferenceEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDifferenceEmpty
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TDifferenceEmpty : object, IDifference, IObject, IEmpty'
+    content.vb: >-
+      Public Class TDifferenceEmpty
+
+          Inherits Object
+
+          Implements IDifference, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IDifference
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TDifferenceEmpty.Date
+  commentId: P:OpenTl.Schema.Updates.TDifferenceEmpty.Date
+  id: Date
+  parent: OpenTl.Schema.Updates.TDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TDifferenceEmpty.Date
+  fullName: OpenTl.Schema.Updates.TDifferenceEmpty.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Updates.TDifferenceEmpty.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TDifferenceEmpty.Seq
+  commentId: P:OpenTl.Schema.Updates.TDifferenceEmpty.Seq
+  id: Seq
+  parent: OpenTl.Schema.Updates.TDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: TDifferenceEmpty.Seq
+  fullName: OpenTl.Schema.Updates.TDifferenceEmpty.Seq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Seq
+    path: ../src/OpenTl.Schema/_generated/Updates/Difference/TDifferenceEmpty.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Seq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Seq As Integer
+  overload: OpenTl.Schema.Updates.TDifferenceEmpty.Seq*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IDifference
+  commentId: T:OpenTl.Schema.Updates.IDifference
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IDifference
+  nameWithType: IDifference
+  fullName: OpenTl.Schema.Updates.IDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TDifferenceEmpty.Date*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceEmpty.Date
+  isExternal: false
+  name: Date
+  nameWithType: TDifferenceEmpty.Date
+  fullName: OpenTl.Schema.Updates.TDifferenceEmpty.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.TDifferenceEmpty.Seq*
+  commentId: Overload:OpenTl.Schema.Updates.TDifferenceEmpty.Seq
+  isExternal: false
+  name: Seq
+  nameWithType: TDifferenceEmpty.Seq
+  fullName: OpenTl.Schema.Updates.TDifferenceEmpty.Seq

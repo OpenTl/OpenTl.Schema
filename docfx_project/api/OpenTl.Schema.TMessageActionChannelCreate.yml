@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionChannelCreate
+  commentId: T:OpenTl.Schema.TMessageActionChannelCreate
+  id: TMessageActionChannelCreate
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionChannelCreate.Title
+  - OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionChannelCreate
+  nameWithType: TMessageActionChannelCreate
+  fullName: OpenTl.Schema.TMessageActionChannelCreate
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionChannelCreate
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionChannelCreate : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionChannelCreate
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TMessageActionChannelCreate
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TMessageActionChannelCreate.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionChannelCreate.Title
+  commentId: P:OpenTl.Schema.TMessageActionChannelCreate.Title
+  id: Title
+  parent: OpenTl.Schema.TMessageActionChannelCreate
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TMessageActionChannelCreate.Title
+  fullName: OpenTl.Schema.TMessageActionChannelCreate.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChannelCreate.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TMessageActionChannelCreate.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TMessageActionChannelCreate.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChannelCreate.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageActionChannelCreate.Title*
+  commentId: Overload:OpenTl.Schema.TMessageActionChannelCreate.Title
+  isExternal: false
+  name: Title
+  nameWithType: TMessageActionChannelCreate.Title
+  fullName: OpenTl.Schema.TMessageActionChannelCreate.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

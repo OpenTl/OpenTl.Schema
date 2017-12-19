@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestImportContacts
+  commentId: T:OpenTl.Schema.Contacts.RequestImportContacts
+  id: RequestImportContacts
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+  langs:
+  - csharp
+  - vb
+  name: RequestImportContacts
+  nameWithType: RequestImportContacts
+  fullName: OpenTl.Schema.Contacts.RequestImportContacts
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestImportContacts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestImportContacts
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestImportContacts.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestImportContacts : object, IRequest<IImportedContacts>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestImportContacts
+
+          Inherits Object
+
+          Implements IRequest(Of IImportedContacts), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IImportedContacts}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+  commentId: P:OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+  id: Contacts
+  parent: OpenTl.Schema.Contacts.RequestImportContacts
+  langs:
+  - csharp
+  - vb
+  name: Contacts
+  nameWithType: RequestImportContacts.Contacts
+  fullName: OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestImportContacts.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Contacts
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestImportContacts.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<IInputContact> Contacts { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IInputContact}
+    content.vb: Public Property Contacts As TVector(Of IInputContact)
+  overload: OpenTl.Schema.Contacts.RequestImportContacts.Contacts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IImportedContacts}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.IImportedContacts}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IImportedContacts>
+  nameWithType: IRequest<IImportedContacts>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Contacts.IImportedContacts>
+  nameWithType.vb: IRequest(Of IImportedContacts)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Contacts.IImportedContacts)
+  name.vb: IRequest(Of IImportedContacts)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Contacts.IImportedContacts
+    name: IImportedContacts
+    nameWithType: IImportedContacts
+    fullName: OpenTl.Schema.Contacts.IImportedContacts
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Contacts.IImportedContacts
+    name: IImportedContacts
+    nameWithType: IImportedContacts
+    fullName: OpenTl.Schema.Contacts.IImportedContacts
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestImportContacts.Contacts*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+  isExternal: false
+  name: Contacts
+  nameWithType: RequestImportContacts.Contacts
+  fullName: OpenTl.Schema.Contacts.RequestImportContacts.Contacts
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IInputContact}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IInputContact}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IInputContact>
+  nameWithType: TVector<IInputContact>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IInputContact>
+  nameWithType.vb: TVector(Of IInputContact)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IInputContact)
+  name.vb: TVector(Of IInputContact)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IInputContact
+    name: IInputContact
+    nameWithType: IInputContact
+    fullName: OpenTl.Schema.IInputContact
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IInputContact
+    name: IInputContact
+    nameWithType: IInputContact
+    fullName: OpenTl.Schema.IInputContact
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

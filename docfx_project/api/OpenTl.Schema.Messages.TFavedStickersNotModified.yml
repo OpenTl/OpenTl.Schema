@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TFavedStickersNotModified
+  commentId: T:OpenTl.Schema.Messages.TFavedStickersNotModified
+  id: TFavedStickersNotModified
+  parent: OpenTl.Schema.Messages
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TFavedStickersNotModified
+  nameWithType: TFavedStickersNotModified
+  fullName: OpenTl.Schema.Messages.TFavedStickersNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickersNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFavedStickersNotModified
+    path: ../src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickersNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TFavedStickersNotModified : object, IFavedStickers, IObject'
+    content.vb: >-
+      Public Class TFavedStickersNotModified
+
+          Inherits Object
+
+          Implements IFavedStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IFavedStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IFavedStickers
+  commentId: T:OpenTl.Schema.Messages.IFavedStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IFavedStickers
+  nameWithType: IFavedStickers
+  fullName: OpenTl.Schema.Messages.IFavedStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

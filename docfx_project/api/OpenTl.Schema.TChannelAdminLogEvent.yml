@@ -1,0 +1,291 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEvent
+  commentId: T:OpenTl.Schema.TChannelAdminLogEvent
+  id: TChannelAdminLogEvent
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEvent.Action
+  - OpenTl.Schema.TChannelAdminLogEvent.Date
+  - OpenTl.Schema.TChannelAdminLogEvent.Id
+  - OpenTl.Schema.TChannelAdminLogEvent.UserId
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEvent
+  nameWithType: TChannelAdminLogEvent
+  fullName: OpenTl.Schema.TChannelAdminLogEvent
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEvent
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEvent : object, IChannelAdminLogEvent, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEvent
+
+          Inherits Object
+
+          Implements IChannelAdminLogEvent, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEvent
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Id
+  commentId: P:OpenTl.Schema.TChannelAdminLogEvent.Id
+  id: Id
+  parent: OpenTl.Schema.TChannelAdminLogEvent
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TChannelAdminLogEvent.Id
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TChannelAdminLogEvent.Id*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEvent.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Date
+  commentId: P:OpenTl.Schema.TChannelAdminLogEvent.Date
+  id: Date
+  parent: OpenTl.Schema.TChannelAdminLogEvent
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TChannelAdminLogEvent.Date
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TChannelAdminLogEvent.Date*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEvent.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEvent.UserId
+  commentId: P:OpenTl.Schema.TChannelAdminLogEvent.UserId
+  id: UserId
+  parent: OpenTl.Schema.TChannelAdminLogEvent
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TChannelAdminLogEvent.UserId
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TChannelAdminLogEvent.UserId*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEvent.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Action
+  commentId: P:OpenTl.Schema.TChannelAdminLogEvent.Action
+  id: Action
+  parent: OpenTl.Schema.TChannelAdminLogEvent
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: TChannelAdminLogEvent.Action
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Action
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Action
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEvent/TChannelAdminLogEvent.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChannelAdminLogEventAction Action { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelAdminLogEventAction
+    content.vb: Public Property Action As IChannelAdminLogEventAction
+  overload: OpenTl.Schema.TChannelAdminLogEvent.Action*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEvent.Action
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEvent
+  commentId: T:OpenTl.Schema.IChannelAdminLogEvent
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEvent
+  nameWithType: IChannelAdminLogEvent
+  fullName: OpenTl.Schema.IChannelAdminLogEvent
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Id*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEvent.Id
+  isExternal: false
+  name: Id
+  nameWithType: TChannelAdminLogEvent.Id
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Id
+- uid: OpenTl.Schema.IChannelAdminLogEvent.Id
+  commentId: P:OpenTl.Schema.IChannelAdminLogEvent.Id
+  parent: OpenTl.Schema.IChannelAdminLogEvent
+  isExternal: false
+  name: Id
+  nameWithType: IChannelAdminLogEvent.Id
+  fullName: OpenTl.Schema.IChannelAdminLogEvent.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Date*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEvent.Date
+  isExternal: false
+  name: Date
+  nameWithType: TChannelAdminLogEvent.Date
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Date
+- uid: OpenTl.Schema.IChannelAdminLogEvent.Date
+  commentId: P:OpenTl.Schema.IChannelAdminLogEvent.Date
+  parent: OpenTl.Schema.IChannelAdminLogEvent
+  isExternal: false
+  name: Date
+  nameWithType: IChannelAdminLogEvent.Date
+  fullName: OpenTl.Schema.IChannelAdminLogEvent.Date
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChannelAdminLogEvent.UserId*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEvent.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TChannelAdminLogEvent.UserId
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.UserId
+- uid: OpenTl.Schema.IChannelAdminLogEvent.UserId
+  commentId: P:OpenTl.Schema.IChannelAdminLogEvent.UserId
+  parent: OpenTl.Schema.IChannelAdminLogEvent
+  isExternal: false
+  name: UserId
+  nameWithType: IChannelAdminLogEvent.UserId
+  fullName: OpenTl.Schema.IChannelAdminLogEvent.UserId
+- uid: OpenTl.Schema.TChannelAdminLogEvent.Action*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEvent.Action
+  isExternal: false
+  name: Action
+  nameWithType: TChannelAdminLogEvent.Action
+  fullName: OpenTl.Schema.TChannelAdminLogEvent.Action
+- uid: OpenTl.Schema.IChannelAdminLogEvent.Action
+  commentId: P:OpenTl.Schema.IChannelAdminLogEvent.Action
+  parent: OpenTl.Schema.IChannelAdminLogEvent
+  isExternal: false
+  name: Action
+  nameWithType: IChannelAdminLogEvent.Action
+  fullName: OpenTl.Schema.IChannelAdminLogEvent.Action
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction

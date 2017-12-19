@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestEditAbout
+  commentId: T:OpenTl.Schema.Channels.RequestEditAbout
+  id: RequestEditAbout
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestEditAbout.About
+  - OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+  - OpenTl.Schema.Channels.RequestEditAbout.Channel
+  langs:
+  - csharp
+  - vb
+  name: RequestEditAbout
+  nameWithType: RequestEditAbout
+  fullName: OpenTl.Schema.Channels.RequestEditAbout
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestEditAbout
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestEditAbout : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestEditAbout
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestEditAbout.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestEditAbout.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestEditAbout
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestEditAbout.Channel
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestEditAbout.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+  commentId: P:OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+  id: AboutAsBinary
+  parent: OpenTl.Schema.Channels.RequestEditAbout
+  langs:
+  - csharp
+  - vb
+  name: AboutAsBinary
+  nameWithType: RequestEditAbout.AboutAsBinary
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AboutAsBinary
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  summary: Binary representation for the &apos;About&apos; property
+  example: []
+  syntax:
+    content: public byte[] AboutAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property AboutAsBinary As Byte()
+  overload: OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestEditAbout.About
+  commentId: P:OpenTl.Schema.Channels.RequestEditAbout.About
+  id: About
+  parent: OpenTl.Schema.Channels.RequestEditAbout
+  langs:
+  - csharp
+  - vb
+  name: About
+  nameWithType: RequestEditAbout.About
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.About
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: About
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditAbout.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public string About { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property About As String
+  overload: OpenTl.Schema.Channels.RequestEditAbout.About*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestEditAbout.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestEditAbout.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestEditAbout.Channel
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary*
+  commentId: Overload:OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+  isExternal: false
+  name: AboutAsBinary
+  nameWithType: RequestEditAbout.AboutAsBinary
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.AboutAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Channels.RequestEditAbout.About*
+  commentId: Overload:OpenTl.Schema.Channels.RequestEditAbout.About
+  isExternal: false
+  name: About
+  nameWithType: RequestEditAbout.About
+  fullName: OpenTl.Schema.Channels.RequestEditAbout.About
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

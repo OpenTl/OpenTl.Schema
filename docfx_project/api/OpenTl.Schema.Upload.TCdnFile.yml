@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.TCdnFile
+  commentId: T:OpenTl.Schema.Upload.TCdnFile
+  id: TCdnFile
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.TCdnFile.Bytes
+  langs:
+  - csharp
+  - vb
+  name: TCdnFile
+  nameWithType: TCdnFile
+  fullName: OpenTl.Schema.Upload.TCdnFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCdnFile
+    path: ../src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class TCdnFile : object, ICdnFile, IObject'
+    content.vb: >-
+      Public Class TCdnFile
+
+          Inherits Object
+
+          Implements ICdnFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Upload.ICdnFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.TCdnFile.Bytes
+  commentId: P:OpenTl.Schema.Upload.TCdnFile.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.Upload.TCdnFile
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TCdnFile.Bytes
+  fullName: OpenTl.Schema.Upload.TCdnFile.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/Upload/CdnFile/TCdnFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.Upload.TCdnFile.Bytes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Upload.ICdnFile
+  commentId: T:OpenTl.Schema.Upload.ICdnFile
+  parent: OpenTl.Schema.Upload
+  isExternal: false
+  name: ICdnFile
+  nameWithType: ICdnFile
+  fullName: OpenTl.Schema.Upload.ICdnFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.TCdnFile.Bytes*
+  commentId: Overload:OpenTl.Schema.Upload.TCdnFile.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TCdnFile.Bytes
+  fullName: OpenTl.Schema.Upload.TCdnFile.Bytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TMessageEditData
+  commentId: T:OpenTl.Schema.Messages.TMessageEditData
+  id: TMessageEditData
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TMessageEditData.Caption
+  - OpenTl.Schema.Messages.TMessageEditData.Flags
+  langs:
+  - csharp
+  - vb
+  name: TMessageEditData
+  nameWithType: TMessageEditData
+  fullName: OpenTl.Schema.Messages.TMessageEditData
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageEditData
+    path: ../src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TMessageEditData : object, IMessageEditData, IObject'
+    content.vb: >-
+      Public Class TMessageEditData
+
+          Inherits Object
+
+          Implements IMessageEditData, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IMessageEditData
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TMessageEditData.Flags
+  commentId: P:OpenTl.Schema.Messages.TMessageEditData.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.TMessageEditData
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TMessageEditData.Flags
+  fullName: OpenTl.Schema.Messages.TMessageEditData.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.TMessageEditData.Flags*
+  implements:
+  - OpenTl.Schema.Messages.IMessageEditData.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TMessageEditData.Caption
+  commentId: P:OpenTl.Schema.Messages.TMessageEditData.Caption
+  id: Caption
+  parent: OpenTl.Schema.Messages.TMessageEditData
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TMessageEditData.Caption
+  fullName: OpenTl.Schema.Messages.TMessageEditData.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/Messages/MessageEditData/TMessageEditData.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Caption { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Caption As Boolean
+  overload: OpenTl.Schema.Messages.TMessageEditData.Caption*
+  implements:
+  - OpenTl.Schema.Messages.IMessageEditData.Caption
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IMessageEditData
+  commentId: T:OpenTl.Schema.Messages.IMessageEditData
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IMessageEditData
+  nameWithType: IMessageEditData
+  fullName: OpenTl.Schema.Messages.IMessageEditData
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TMessageEditData.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.TMessageEditData.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TMessageEditData.Flags
+  fullName: OpenTl.Schema.Messages.TMessageEditData.Flags
+- uid: OpenTl.Schema.Messages.IMessageEditData.Flags
+  commentId: P:OpenTl.Schema.Messages.IMessageEditData.Flags
+  parent: OpenTl.Schema.Messages.IMessageEditData
+  isExternal: false
+  name: Flags
+  nameWithType: IMessageEditData.Flags
+  fullName: OpenTl.Schema.Messages.IMessageEditData.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.TMessageEditData.Caption*
+  commentId: Overload:OpenTl.Schema.Messages.TMessageEditData.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TMessageEditData.Caption
+  fullName: OpenTl.Schema.Messages.TMessageEditData.Caption
+- uid: OpenTl.Schema.Messages.IMessageEditData.Caption
+  commentId: P:OpenTl.Schema.Messages.IMessageEditData.Caption
+  parent: OpenTl.Schema.Messages.IMessageEditData
+  isExternal: false
+  name: Caption
+  nameWithType: IMessageEditData.Caption
+  fullName: OpenTl.Schema.Messages.IMessageEditData.Caption
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

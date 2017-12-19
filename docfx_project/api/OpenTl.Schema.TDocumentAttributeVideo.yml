@@ -1,0 +1,295 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeVideo
+  commentId: T:OpenTl.Schema.TDocumentAttributeVideo
+  id: TDocumentAttributeVideo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDocumentAttributeVideo.Duration
+  - OpenTl.Schema.TDocumentAttributeVideo.Flags
+  - OpenTl.Schema.TDocumentAttributeVideo.H
+  - OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+  - OpenTl.Schema.TDocumentAttributeVideo.W
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeVideo
+  nameWithType: TDocumentAttributeVideo
+  fullName: OpenTl.Schema.TDocumentAttributeVideo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeVideo
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeVideo : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeVideo
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDocumentAttributeVideo.Flags
+  commentId: P:OpenTl.Schema.TDocumentAttributeVideo.Flags
+  id: Flags
+  parent: OpenTl.Schema.TDocumentAttributeVideo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TDocumentAttributeVideo.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TDocumentAttributeVideo.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+  commentId: P:OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+  id: RoundMessage
+  parent: OpenTl.Schema.TDocumentAttributeVideo
+  langs:
+  - csharp
+  - vb
+  name: RoundMessage
+  nameWithType: TDocumentAttributeVideo.RoundMessage
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RoundMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool RoundMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property RoundMessage As Boolean
+  overload: OpenTl.Schema.TDocumentAttributeVideo.RoundMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeVideo.Duration
+  commentId: P:OpenTl.Schema.TDocumentAttributeVideo.Duration
+  id: Duration
+  parent: OpenTl.Schema.TDocumentAttributeVideo
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: TDocumentAttributeVideo.Duration
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.Duration
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Duration
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Duration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Duration As Integer
+  overload: OpenTl.Schema.TDocumentAttributeVideo.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeVideo.W
+  commentId: P:OpenTl.Schema.TDocumentAttributeVideo.W
+  id: W
+  parent: OpenTl.Schema.TDocumentAttributeVideo
+  langs:
+  - csharp
+  - vb
+  name: W
+  nameWithType: TDocumentAttributeVideo.W
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.W
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: W
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int W { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property W As Integer
+  overload: OpenTl.Schema.TDocumentAttributeVideo.W*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeVideo.H
+  commentId: P:OpenTl.Schema.TDocumentAttributeVideo.H
+  id: H
+  parent: OpenTl.Schema.TDocumentAttributeVideo
+  langs:
+  - csharp
+  - vb
+  name: H
+  nameWithType: TDocumentAttributeVideo.H
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.H
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: H
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeVideo.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int H { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property H As Integer
+  overload: OpenTl.Schema.TDocumentAttributeVideo.H*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDocumentAttributeVideo.Flags*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeVideo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TDocumentAttributeVideo.Flags
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TDocumentAttributeVideo.RoundMessage*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+  isExternal: false
+  name: RoundMessage
+  nameWithType: TDocumentAttributeVideo.RoundMessage
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.RoundMessage
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TDocumentAttributeVideo.Duration*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeVideo.Duration
+  isExternal: false
+  name: Duration
+  nameWithType: TDocumentAttributeVideo.Duration
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.Duration
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TDocumentAttributeVideo.W*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeVideo.W
+  isExternal: false
+  name: W
+  nameWithType: TDocumentAttributeVideo.W
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.W
+- uid: OpenTl.Schema.TDocumentAttributeVideo.H*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeVideo.H
+  isExternal: false
+  name: H
+  nameWithType: TDocumentAttributeVideo.H
+  fullName: OpenTl.Schema.TDocumentAttributeVideo.H

@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminRights
+  commentId: T:OpenTl.Schema.TChannelAdminRights
+  id: TChannelAdminRights
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminRights.AddAdmins
+  - OpenTl.Schema.TChannelAdminRights.BanUsers
+  - OpenTl.Schema.TChannelAdminRights.ChangeInfo
+  - OpenTl.Schema.TChannelAdminRights.DeleteMessages
+  - OpenTl.Schema.TChannelAdminRights.EditMessages
+  - OpenTl.Schema.TChannelAdminRights.Flags
+  - OpenTl.Schema.TChannelAdminRights.InviteLink
+  - OpenTl.Schema.TChannelAdminRights.InviteUsers
+  - OpenTl.Schema.TChannelAdminRights.PinMessages
+  - OpenTl.Schema.TChannelAdminRights.PostMessages
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminRights
+  nameWithType: TChannelAdminRights
+  fullName: OpenTl.Schema.TChannelAdminRights
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminRights
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminRights : object, IChannelAdminRights, IObject'
+    content.vb: >-
+      Public Class TChannelAdminRights
+
+          Inherits Object
+
+          Implements IChannelAdminRights, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminRights
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminRights.Flags
+  commentId: P:OpenTl.Schema.TChannelAdminRights.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelAdminRights.Flags
+  fullName: OpenTl.Schema.TChannelAdminRights.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelAdminRights.Flags*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.ChangeInfo
+  commentId: P:OpenTl.Schema.TChannelAdminRights.ChangeInfo
+  id: ChangeInfo
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: ChangeInfo
+  nameWithType: TChannelAdminRights.ChangeInfo
+  fullName: OpenTl.Schema.TChannelAdminRights.ChangeInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChangeInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ChangeInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ChangeInfo As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.ChangeInfo*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.PostMessages
+  commentId: P:OpenTl.Schema.TChannelAdminRights.PostMessages
+  id: PostMessages
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: PostMessages
+  nameWithType: TChannelAdminRights.PostMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.PostMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool PostMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PostMessages As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.PostMessages*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.PostMessages
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.EditMessages
+  commentId: P:OpenTl.Schema.TChannelAdminRights.EditMessages
+  id: EditMessages
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: EditMessages
+  nameWithType: TChannelAdminRights.EditMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.EditMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EditMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool EditMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EditMessages As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.EditMessages*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.EditMessages
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.DeleteMessages
+  commentId: P:OpenTl.Schema.TChannelAdminRights.DeleteMessages
+  id: DeleteMessages
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: DeleteMessages
+  nameWithType: TChannelAdminRights.DeleteMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.DeleteMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DeleteMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool DeleteMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DeleteMessages As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.DeleteMessages*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.BanUsers
+  commentId: P:OpenTl.Schema.TChannelAdminRights.BanUsers
+  id: BanUsers
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: BanUsers
+  nameWithType: TChannelAdminRights.BanUsers
+  fullName: OpenTl.Schema.TChannelAdminRights.BanUsers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BanUsers
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool BanUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BanUsers As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.BanUsers*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.BanUsers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.InviteUsers
+  commentId: P:OpenTl.Schema.TChannelAdminRights.InviteUsers
+  id: InviteUsers
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: InviteUsers
+  nameWithType: TChannelAdminRights.InviteUsers
+  fullName: OpenTl.Schema.TChannelAdminRights.InviteUsers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviteUsers
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool InviteUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InviteUsers As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.InviteUsers*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.InviteUsers
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.InviteLink
+  commentId: P:OpenTl.Schema.TChannelAdminRights.InviteLink
+  id: InviteLink
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: InviteLink
+  nameWithType: TChannelAdminRights.InviteLink
+  fullName: OpenTl.Schema.TChannelAdminRights.InviteLink
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviteLink
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool InviteLink { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property InviteLink As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.InviteLink*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.InviteLink
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.PinMessages
+  commentId: P:OpenTl.Schema.TChannelAdminRights.PinMessages
+  id: PinMessages
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: PinMessages
+  nameWithType: TChannelAdminRights.PinMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.PinMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PinMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool PinMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PinMessages As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.PinMessages*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.PinMessages
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminRights.AddAdmins
+  commentId: P:OpenTl.Schema.TChannelAdminRights.AddAdmins
+  id: AddAdmins
+  parent: OpenTl.Schema.TChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: AddAdmins
+  nameWithType: TChannelAdminRights.AddAdmins
+  fullName: OpenTl.Schema.TChannelAdminRights.AddAdmins
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AddAdmins
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/TChannelAdminRights.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool AddAdmins { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AddAdmins As Boolean
+  overload: OpenTl.Schema.TChannelAdminRights.AddAdmins*
+  implements:
+  - OpenTl.Schema.IChannelAdminRights.AddAdmins
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminRights
+  commentId: T:OpenTl.Schema.IChannelAdminRights
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminRights
+  nameWithType: IChannelAdminRights
+  fullName: OpenTl.Schema.IChannelAdminRights
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminRights.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelAdminRights.Flags
+  fullName: OpenTl.Schema.TChannelAdminRights.Flags
+- uid: OpenTl.Schema.IChannelAdminRights.Flags
+  commentId: P:OpenTl.Schema.IChannelAdminRights.Flags
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: Flags
+  nameWithType: IChannelAdminRights.Flags
+  fullName: OpenTl.Schema.IChannelAdminRights.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelAdminRights.ChangeInfo*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.ChangeInfo
+  isExternal: false
+  name: ChangeInfo
+  nameWithType: TChannelAdminRights.ChangeInfo
+  fullName: OpenTl.Schema.TChannelAdminRights.ChangeInfo
+- uid: OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  commentId: P:OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: ChangeInfo
+  nameWithType: IChannelAdminRights.ChangeInfo
+  fullName: OpenTl.Schema.IChannelAdminRights.ChangeInfo
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelAdminRights.PostMessages*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.PostMessages
+  isExternal: false
+  name: PostMessages
+  nameWithType: TChannelAdminRights.PostMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.PostMessages
+- uid: OpenTl.Schema.IChannelAdminRights.PostMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.PostMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: PostMessages
+  nameWithType: IChannelAdminRights.PostMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PostMessages
+- uid: OpenTl.Schema.TChannelAdminRights.EditMessages*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.EditMessages
+  isExternal: false
+  name: EditMessages
+  nameWithType: TChannelAdminRights.EditMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.EditMessages
+- uid: OpenTl.Schema.IChannelAdminRights.EditMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.EditMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: EditMessages
+  nameWithType: IChannelAdminRights.EditMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.EditMessages
+- uid: OpenTl.Schema.TChannelAdminRights.DeleteMessages*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.DeleteMessages
+  isExternal: false
+  name: DeleteMessages
+  nameWithType: TChannelAdminRights.DeleteMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.DeleteMessages
+- uid: OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: DeleteMessages
+  nameWithType: IChannelAdminRights.DeleteMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.DeleteMessages
+- uid: OpenTl.Schema.TChannelAdminRights.BanUsers*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.BanUsers
+  isExternal: false
+  name: BanUsers
+  nameWithType: TChannelAdminRights.BanUsers
+  fullName: OpenTl.Schema.TChannelAdminRights.BanUsers
+- uid: OpenTl.Schema.IChannelAdminRights.BanUsers
+  commentId: P:OpenTl.Schema.IChannelAdminRights.BanUsers
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: BanUsers
+  nameWithType: IChannelAdminRights.BanUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.BanUsers
+- uid: OpenTl.Schema.TChannelAdminRights.InviteUsers*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.InviteUsers
+  isExternal: false
+  name: InviteUsers
+  nameWithType: TChannelAdminRights.InviteUsers
+  fullName: OpenTl.Schema.TChannelAdminRights.InviteUsers
+- uid: OpenTl.Schema.IChannelAdminRights.InviteUsers
+  commentId: P:OpenTl.Schema.IChannelAdminRights.InviteUsers
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: InviteUsers
+  nameWithType: IChannelAdminRights.InviteUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteUsers
+- uid: OpenTl.Schema.TChannelAdminRights.InviteLink*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.InviteLink
+  isExternal: false
+  name: InviteLink
+  nameWithType: TChannelAdminRights.InviteLink
+  fullName: OpenTl.Schema.TChannelAdminRights.InviteLink
+- uid: OpenTl.Schema.IChannelAdminRights.InviteLink
+  commentId: P:OpenTl.Schema.IChannelAdminRights.InviteLink
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: InviteLink
+  nameWithType: IChannelAdminRights.InviteLink
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteLink
+- uid: OpenTl.Schema.TChannelAdminRights.PinMessages*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.PinMessages
+  isExternal: false
+  name: PinMessages
+  nameWithType: TChannelAdminRights.PinMessages
+  fullName: OpenTl.Schema.TChannelAdminRights.PinMessages
+- uid: OpenTl.Schema.IChannelAdminRights.PinMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.PinMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: PinMessages
+  nameWithType: IChannelAdminRights.PinMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PinMessages
+- uid: OpenTl.Schema.TChannelAdminRights.AddAdmins*
+  commentId: Overload:OpenTl.Schema.TChannelAdminRights.AddAdmins
+  isExternal: false
+  name: AddAdmins
+  nameWithType: TChannelAdminRights.AddAdmins
+  fullName: OpenTl.Schema.TChannelAdminRights.AddAdmins
+- uid: OpenTl.Schema.IChannelAdminRights.AddAdmins
+  commentId: P:OpenTl.Schema.IChannelAdminRights.AddAdmins
+  parent: OpenTl.Schema.IChannelAdminRights
+  isExternal: false
+  name: AddAdmins
+  nameWithType: IChannelAdminRights.AddAdmins
+  fullName: OpenTl.Schema.IChannelAdminRights.AddAdmins

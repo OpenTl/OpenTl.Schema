@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TArchivedStickers
+  commentId: T:OpenTl.Schema.Messages.TArchivedStickers
+  id: TArchivedStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TArchivedStickers.Count
+  - OpenTl.Schema.Messages.TArchivedStickers.Sets
+  langs:
+  - csharp
+  - vb
+  name: TArchivedStickers
+  nameWithType: TArchivedStickers
+  fullName: OpenTl.Schema.Messages.TArchivedStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TArchivedStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TArchivedStickers : object, IArchivedStickers, IObject'
+    content.vb: >-
+      Public Class TArchivedStickers
+
+          Inherits Object
+
+          Implements IArchivedStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IArchivedStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TArchivedStickers.Count
+  commentId: P:OpenTl.Schema.Messages.TArchivedStickers.Count
+  id: Count
+  parent: OpenTl.Schema.Messages.TArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TArchivedStickers.Count
+  fullName: OpenTl.Schema.Messages.TArchivedStickers.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: OpenTl.Schema.Messages.TArchivedStickers.Count*
+  implements:
+  - OpenTl.Schema.Messages.IArchivedStickers.Count
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TArchivedStickers.Sets
+  commentId: P:OpenTl.Schema.Messages.TArchivedStickers.Sets
+  id: Sets
+  parent: OpenTl.Schema.Messages.TArchivedStickers
+  langs:
+  - csharp
+  - vb
+  name: Sets
+  nameWithType: TArchivedStickers.Sets
+  fullName: OpenTl.Schema.Messages.TArchivedStickers.Sets
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sets
+    path: ../src/OpenTl.Schema/_generated/Messages/ArchivedStickers/TArchivedStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IStickerSetCovered> Sets { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+    content.vb: Public Property Sets As TVector(Of IStickerSetCovered)
+  overload: OpenTl.Schema.Messages.TArchivedStickers.Sets*
+  implements:
+  - OpenTl.Schema.Messages.IArchivedStickers.Sets
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IArchivedStickers
+  commentId: T:OpenTl.Schema.Messages.IArchivedStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IArchivedStickers
+  nameWithType: IArchivedStickers
+  fullName: OpenTl.Schema.Messages.IArchivedStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TArchivedStickers.Count*
+  commentId: Overload:OpenTl.Schema.Messages.TArchivedStickers.Count
+  isExternal: false
+  name: Count
+  nameWithType: TArchivedStickers.Count
+  fullName: OpenTl.Schema.Messages.TArchivedStickers.Count
+- uid: OpenTl.Schema.Messages.IArchivedStickers.Count
+  commentId: P:OpenTl.Schema.Messages.IArchivedStickers.Count
+  parent: OpenTl.Schema.Messages.IArchivedStickers
+  isExternal: false
+  name: Count
+  nameWithType: IArchivedStickers.Count
+  fullName: OpenTl.Schema.Messages.IArchivedStickers.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TArchivedStickers.Sets*
+  commentId: Overload:OpenTl.Schema.Messages.TArchivedStickers.Sets
+  isExternal: false
+  name: Sets
+  nameWithType: TArchivedStickers.Sets
+  fullName: OpenTl.Schema.Messages.TArchivedStickers.Sets
+- uid: OpenTl.Schema.Messages.IArchivedStickers.Sets
+  commentId: P:OpenTl.Schema.Messages.IArchivedStickers.Sets
+  parent: OpenTl.Schema.Messages.IArchivedStickers
+  isExternal: false
+  name: Sets
+  nameWithType: IArchivedStickers.Sets
+  fullName: OpenTl.Schema.Messages.IArchivedStickers.Sets
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IStickerSetCovered>
+  nameWithType: TVector<IStickerSetCovered>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered>
+  nameWithType.vb: TVector(Of IStickerSetCovered)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IStickerSetCovered)
+  name.vb: TVector(Of IStickerSetCovered)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IStickerSetCovered
+    name: IStickerSetCovered
+    nameWithType: IStickerSetCovered
+    fullName: OpenTl.Schema.IStickerSetCovered
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IStickerSetCovered
+    name: IStickerSetCovered
+    nameWithType: IStickerSetCovered
+    fullName: OpenTl.Schema.IStickerSetCovered
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

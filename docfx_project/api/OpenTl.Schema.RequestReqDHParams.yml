@@ -1,0 +1,567 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.RequestReqDHParams
+  commentId: T:OpenTl.Schema.RequestReqDHParams
+  id: RequestReqDHParams
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.RequestReqDHParams.EncryptedData
+  - OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+  - OpenTl.Schema.RequestReqDHParams.Nonce
+  - OpenTl.Schema.RequestReqDHParams.P
+  - OpenTl.Schema.RequestReqDHParams.PAsBinary
+  - OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+  - OpenTl.Schema.RequestReqDHParams.Q
+  - OpenTl.Schema.RequestReqDHParams.QAsBinary
+  - OpenTl.Schema.RequestReqDHParams.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: RequestReqDHParams
+  nameWithType: RequestReqDHParams
+  fullName: OpenTl.Schema.RequestReqDHParams
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestReqDHParams
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class RequestReqDHParams : object, IRequest<IServerDHParams>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestReqDHParams
+
+          Inherits Object
+
+          Implements IRequest(Of IServerDHParams), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IServerDHParams}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.RequestReqDHParams.Nonce
+  commentId: P:OpenTl.Schema.RequestReqDHParams.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: RequestReqDHParams.Nonce
+  fullName: OpenTl.Schema.RequestReqDHParams.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.RequestReqDHParams.Nonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.ServerNonce
+  commentId: P:OpenTl.Schema.RequestReqDHParams.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: RequestReqDHParams.ServerNonce
+  fullName: OpenTl.Schema.RequestReqDHParams.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.RequestReqDHParams.ServerNonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.PAsBinary
+  commentId: P:OpenTl.Schema.RequestReqDHParams.PAsBinary
+  id: PAsBinary
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: PAsBinary
+  nameWithType: RequestReqDHParams.PAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.PAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;P&apos; property
+  example: []
+  syntax:
+    content: public byte[] PAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PAsBinary As Byte()
+  overload: OpenTl.Schema.RequestReqDHParams.PAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.P
+  commentId: P:OpenTl.Schema.RequestReqDHParams.P
+  id: P
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: P
+  nameWithType: RequestReqDHParams.P
+  fullName: OpenTl.Schema.RequestReqDHParams.P
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: P
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string P { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property P As String
+  overload: OpenTl.Schema.RequestReqDHParams.P*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.QAsBinary
+  commentId: P:OpenTl.Schema.RequestReqDHParams.QAsBinary
+  id: QAsBinary
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: QAsBinary
+  nameWithType: RequestReqDHParams.QAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.QAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Q&apos; property
+  example: []
+  syntax:
+    content: public byte[] QAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QAsBinary As Byte()
+  overload: OpenTl.Schema.RequestReqDHParams.QAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.Q
+  commentId: P:OpenTl.Schema.RequestReqDHParams.Q
+  id: Q
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: RequestReqDHParams.Q
+  fullName: OpenTl.Schema.RequestReqDHParams.Q
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Q
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Q { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Q As String
+  overload: OpenTl.Schema.RequestReqDHParams.Q*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+  commentId: P:OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+  id: PublicKeyFingerprint
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: PublicKeyFingerprint
+  nameWithType: RequestReqDHParams.PublicKeyFingerprint
+  fullName: OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PublicKeyFingerprint
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PublicKeyFingerprint { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PublicKeyFingerprint As Long
+  overload: OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+  commentId: P:OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+  id: EncryptedDataAsBinary
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: EncryptedDataAsBinary
+  nameWithType: RequestReqDHParams.EncryptedDataAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptedDataAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;EncryptedData&apos; property
+  example: []
+  syntax:
+    content: public byte[] EncryptedDataAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EncryptedDataAsBinary As Byte()
+  overload: OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestReqDHParams.EncryptedData
+  commentId: P:OpenTl.Schema.RequestReqDHParams.EncryptedData
+  id: EncryptedData
+  parent: OpenTl.Schema.RequestReqDHParams
+  langs:
+  - csharp
+  - vb
+  name: EncryptedData
+  nameWithType: RequestReqDHParams.EncryptedData
+  fullName: OpenTl.Schema.RequestReqDHParams.EncryptedData
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptedData
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestReqDHParams.cs
+    startLine: 44
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string EncryptedData { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EncryptedData As String
+  overload: OpenTl.Schema.RequestReqDHParams.EncryptedData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IServerDHParams}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IServerDHParams}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IServerDHParams>
+  nameWithType: IRequest<IServerDHParams>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IServerDHParams>
+  nameWithType.vb: IRequest(Of IServerDHParams)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IServerDHParams)
+  name.vb: IRequest(Of IServerDHParams)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IServerDHParams
+    name: IServerDHParams
+    nameWithType: IServerDHParams
+    fullName: OpenTl.Schema.IServerDHParams
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IServerDHParams
+    name: IServerDHParams
+    nameWithType: IServerDHParams
+    fullName: OpenTl.Schema.IServerDHParams
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.RequestReqDHParams.Nonce*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: RequestReqDHParams.Nonce
+  fullName: OpenTl.Schema.RequestReqDHParams.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.RequestReqDHParams.ServerNonce*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: RequestReqDHParams.ServerNonce
+  fullName: OpenTl.Schema.RequestReqDHParams.ServerNonce
+- uid: OpenTl.Schema.RequestReqDHParams.PAsBinary*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.PAsBinary
+  isExternal: false
+  name: PAsBinary
+  nameWithType: RequestReqDHParams.PAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.PAsBinary
+- uid: OpenTl.Schema.RequestReqDHParams.P*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.P
+  isExternal: false
+  name: P
+  nameWithType: RequestReqDHParams.P
+  fullName: OpenTl.Schema.RequestReqDHParams.P
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.RequestReqDHParams.QAsBinary*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.QAsBinary
+  isExternal: false
+  name: QAsBinary
+  nameWithType: RequestReqDHParams.QAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.QAsBinary
+- uid: OpenTl.Schema.RequestReqDHParams.Q*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.Q
+  isExternal: false
+  name: Q
+  nameWithType: RequestReqDHParams.Q
+  fullName: OpenTl.Schema.RequestReqDHParams.Q
+- uid: OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+  isExternal: false
+  name: PublicKeyFingerprint
+  nameWithType: RequestReqDHParams.PublicKeyFingerprint
+  fullName: OpenTl.Schema.RequestReqDHParams.PublicKeyFingerprint
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+  isExternal: false
+  name: EncryptedDataAsBinary
+  nameWithType: RequestReqDHParams.EncryptedDataAsBinary
+  fullName: OpenTl.Schema.RequestReqDHParams.EncryptedDataAsBinary
+- uid: OpenTl.Schema.RequestReqDHParams.EncryptedData*
+  commentId: Overload:OpenTl.Schema.RequestReqDHParams.EncryptedData
+  isExternal: false
+  name: EncryptedData
+  nameWithType: RequestReqDHParams.EncryptedData
+  fullName: OpenTl.Schema.RequestReqDHParams.EncryptedData

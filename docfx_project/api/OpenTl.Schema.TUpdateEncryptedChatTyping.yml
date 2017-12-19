@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateEncryptedChatTyping
+  commentId: T:OpenTl.Schema.TUpdateEncryptedChatTyping
+  id: TUpdateEncryptedChatTyping
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateEncryptedChatTyping
+  nameWithType: TUpdateEncryptedChatTyping
+  fullName: OpenTl.Schema.TUpdateEncryptedChatTyping
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedChatTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateEncryptedChatTyping
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedChatTyping.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateEncryptedChatTyping : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateEncryptedChatTyping
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+  commentId: P:OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateEncryptedChatTyping
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateEncryptedChatTyping.ChatId
+  fullName: OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedChatTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEncryptedChatTyping.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateEncryptedChatTyping.ChatId
+  fullName: OpenTl.Schema.TUpdateEncryptedChatTyping.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

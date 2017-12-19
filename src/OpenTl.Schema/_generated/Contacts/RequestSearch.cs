@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Contacts
 	[Serialize(0x11f812d8)]
     public class RequestSearch : IRequest<OpenTl.Schema.Contacts.IFound>
     {
+       /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
        private byte[] _QAsBinary;

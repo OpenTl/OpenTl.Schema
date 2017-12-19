@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDestroyAuthKeyFail
+  commentId: T:OpenTl.Schema.TDestroyAuthKeyFail
+  id: TDestroyAuthKeyFail
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TDestroyAuthKeyFail
+  nameWithType: TDestroyAuthKeyFail
+  fullName: OpenTl.Schema.TDestroyAuthKeyFail
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DestroyAuthKeyRes/TDestroyAuthKeyFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDestroyAuthKeyFail
+    path: ../src/OpenTl.Schema/_generated/_Entities/DestroyAuthKeyRes/TDestroyAuthKeyFail.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDestroyAuthKeyFail : object, IDestroyAuthKeyRes, IObject'
+    content.vb: >-
+      Public Class TDestroyAuthKeyFail
+
+          Inherits Object
+
+          Implements IDestroyAuthKeyRes, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDestroyAuthKeyRes
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDestroyAuthKeyRes
+  commentId: T:OpenTl.Schema.IDestroyAuthKeyRes
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDestroyAuthKeyRes
+  nameWithType: IDestroyAuthKeyRes
+  fullName: OpenTl.Schema.IDestroyAuthKeyRes
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

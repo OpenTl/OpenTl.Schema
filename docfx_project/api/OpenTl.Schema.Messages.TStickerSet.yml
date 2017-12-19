@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TStickerSet
+  commentId: T:OpenTl.Schema.Messages.TStickerSet
+  id: TStickerSet
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TStickerSet.Documents
+  - OpenTl.Schema.Messages.TStickerSet.Packs
+  - OpenTl.Schema.Messages.TStickerSet.Set
+  langs:
+  - csharp
+  - vb
+  name: TStickerSet
+  nameWithType: TStickerSet
+  fullName: OpenTl.Schema.Messages.TStickerSet
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TStickerSet
+    path: ../src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TStickerSet : object, IStickerSet, IObject'
+    content.vb: >-
+      Public Class TStickerSet
+
+          Inherits Object
+
+          Implements IStickerSet, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IStickerSet
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TStickerSet.Set
+  commentId: P:OpenTl.Schema.Messages.TStickerSet.Set
+  id: Set
+  parent: OpenTl.Schema.Messages.TStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Set
+  nameWithType: TStickerSet.Set
+  fullName: OpenTl.Schema.Messages.TStickerSet.Set
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Set
+    path: ../src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IStickerSet Set { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IStickerSet
+    content.vb: Public Property Set As IStickerSet
+  overload: OpenTl.Schema.Messages.TStickerSet.Set*
+  implements:
+  - OpenTl.Schema.Messages.IStickerSet.Set
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TStickerSet.Packs
+  commentId: P:OpenTl.Schema.Messages.TStickerSet.Packs
+  id: Packs
+  parent: OpenTl.Schema.Messages.TStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Packs
+  nameWithType: TStickerSet.Packs
+  fullName: OpenTl.Schema.Messages.TStickerSet.Packs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Packs
+    path: ../src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IStickerPack> Packs { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+    content.vb: Public Property Packs As TVector(Of IStickerPack)
+  overload: OpenTl.Schema.Messages.TStickerSet.Packs*
+  implements:
+  - OpenTl.Schema.Messages.IStickerSet.Packs
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TStickerSet.Documents
+  commentId: P:OpenTl.Schema.Messages.TStickerSet.Documents
+  id: Documents
+  parent: OpenTl.Schema.Messages.TStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Documents
+  nameWithType: TStickerSet.Documents
+  fullName: OpenTl.Schema.Messages.TStickerSet.Documents
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Documents
+    path: ../src/OpenTl.Schema/_generated/Messages/StickerSet/TStickerSet.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IDocument> Documents { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+    content.vb: Public Property Documents As TVector(Of IDocument)
+  overload: OpenTl.Schema.Messages.TStickerSet.Documents*
+  implements:
+  - OpenTl.Schema.Messages.IStickerSet.Documents
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IStickerSet
+  commentId: T:OpenTl.Schema.Messages.IStickerSet
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IStickerSet
+  nameWithType: IStickerSet
+  fullName: OpenTl.Schema.Messages.IStickerSet
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TStickerSet.Set*
+  commentId: Overload:OpenTl.Schema.Messages.TStickerSet.Set
+  isExternal: false
+  name: Set
+  nameWithType: TStickerSet.Set
+  fullName: OpenTl.Schema.Messages.TStickerSet.Set
+- uid: OpenTl.Schema.Messages.IStickerSet.Set
+  commentId: P:OpenTl.Schema.Messages.IStickerSet.Set
+  parent: OpenTl.Schema.Messages.IStickerSet
+  isExternal: false
+  name: Set
+  nameWithType: IStickerSet.Set
+  fullName: OpenTl.Schema.Messages.IStickerSet.Set
+- uid: OpenTl.Schema.IStickerSet
+  commentId: T:OpenTl.Schema.IStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IStickerSet
+  nameWithType: IStickerSet
+  fullName: OpenTl.Schema.IStickerSet
+- uid: OpenTl.Schema.Messages.TStickerSet.Packs*
+  commentId: Overload:OpenTl.Schema.Messages.TStickerSet.Packs
+  isExternal: false
+  name: Packs
+  nameWithType: TStickerSet.Packs
+  fullName: OpenTl.Schema.Messages.TStickerSet.Packs
+- uid: OpenTl.Schema.Messages.IStickerSet.Packs
+  commentId: P:OpenTl.Schema.Messages.IStickerSet.Packs
+  parent: OpenTl.Schema.Messages.IStickerSet
+  isExternal: false
+  name: Packs
+  nameWithType: IStickerSet.Packs
+  fullName: OpenTl.Schema.Messages.IStickerSet.Packs
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IStickerPack>
+  nameWithType: TVector<IStickerPack>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IStickerPack>
+  nameWithType.vb: TVector(Of IStickerPack)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IStickerPack)
+  name.vb: TVector(Of IStickerPack)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IStickerPack
+    name: IStickerPack
+    nameWithType: IStickerPack
+    fullName: OpenTl.Schema.IStickerPack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IStickerPack
+    name: IStickerPack
+    nameWithType: IStickerPack
+    fullName: OpenTl.Schema.IStickerPack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TStickerSet.Documents*
+  commentId: Overload:OpenTl.Schema.Messages.TStickerSet.Documents
+  isExternal: false
+  name: Documents
+  nameWithType: TStickerSet.Documents
+  fullName: OpenTl.Schema.Messages.TStickerSet.Documents
+- uid: OpenTl.Schema.Messages.IStickerSet.Documents
+  commentId: P:OpenTl.Schema.Messages.IStickerSet.Documents
+  parent: OpenTl.Schema.Messages.IStickerSet
+  isExternal: false
+  name: Documents
+  nameWithType: IStickerSet.Documents
+  fullName: OpenTl.Schema.Messages.IStickerSet.Documents
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocument>
+  nameWithType: TVector<IDocument>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocument>
+  nameWithType.vb: TVector(Of IDocument)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocument)
+  name.vb: TVector(Of IDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: )
+    nameWithType: )
+    fullName: )

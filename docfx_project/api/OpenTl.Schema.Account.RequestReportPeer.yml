@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestReportPeer
+  commentId: T:OpenTl.Schema.Account.RequestReportPeer
+  id: RequestReportPeer
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestReportPeer.Peer
+  - OpenTl.Schema.Account.RequestReportPeer.Reason
+  langs:
+  - csharp
+  - vb
+  name: RequestReportPeer
+  nameWithType: RequestReportPeer
+  fullName: OpenTl.Schema.Account.RequestReportPeer
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestReportPeer
+    path: ../src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestReportPeer : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestReportPeer
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestReportPeer.Peer
+  commentId: P:OpenTl.Schema.Account.RequestReportPeer.Peer
+  id: Peer
+  parent: OpenTl.Schema.Account.RequestReportPeer
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestReportPeer.Peer
+  fullName: OpenTl.Schema.Account.RequestReportPeer.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Account.RequestReportPeer.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestReportPeer.Reason
+  commentId: P:OpenTl.Schema.Account.RequestReportPeer.Reason
+  id: Reason
+  parent: OpenTl.Schema.Account.RequestReportPeer
+  langs:
+  - csharp
+  - vb
+  name: Reason
+  nameWithType: RequestReportPeer.Reason
+  fullName: OpenTl.Schema.Account.RequestReportPeer.Reason
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Reason
+    path: ../src/OpenTl.Schema/_generated/Account/RequestReportPeer.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public IReportReason Reason { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReportReason
+    content.vb: Public Property Reason As IReportReason
+  overload: OpenTl.Schema.Account.RequestReportPeer.Reason*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestReportPeer.Peer*
+  commentId: Overload:OpenTl.Schema.Account.RequestReportPeer.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestReportPeer.Peer
+  fullName: OpenTl.Schema.Account.RequestReportPeer.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Account.RequestReportPeer.Reason*
+  commentId: Overload:OpenTl.Schema.Account.RequestReportPeer.Reason
+  isExternal: false
+  name: Reason
+  nameWithType: RequestReportPeer.Reason
+  fullName: OpenTl.Schema.Account.RequestReportPeer.Reason
+- uid: OpenTl.Schema.IReportReason
+  commentId: T:OpenTl.Schema.IReportReason
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReportReason
+  nameWithType: IReportReason
+  fullName: OpenTl.Schema.IReportReason

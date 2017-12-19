@@ -1,0 +1,242 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.RequestPingDelayDisconnect
+  commentId: T:OpenTl.Schema.RequestPingDelayDisconnect
+  id: RequestPingDelayDisconnect
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+  - OpenTl.Schema.RequestPingDelayDisconnect.PingId
+  langs:
+  - csharp
+  - vb
+  name: RequestPingDelayDisconnect
+  nameWithType: RequestPingDelayDisconnect
+  fullName: OpenTl.Schema.RequestPingDelayDisconnect
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestPingDelayDisconnect
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class RequestPingDelayDisconnect : object, IRequest<IPong>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestPingDelayDisconnect
+
+          Inherits Object
+
+          Implements IRequest(Of IPong), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IPong}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.RequestPingDelayDisconnect.PingId
+  commentId: P:OpenTl.Schema.RequestPingDelayDisconnect.PingId
+  id: PingId
+  parent: OpenTl.Schema.RequestPingDelayDisconnect
+  langs:
+  - csharp
+  - vb
+  name: PingId
+  nameWithType: RequestPingDelayDisconnect.PingId
+  fullName: OpenTl.Schema.RequestPingDelayDisconnect.PingId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PingId
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long PingId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PingId As Long
+  overload: OpenTl.Schema.RequestPingDelayDisconnect.PingId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+  commentId: P:OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+  id: DisconnectDelay
+  parent: OpenTl.Schema.RequestPingDelayDisconnect
+  langs:
+  - csharp
+  - vb
+  name: DisconnectDelay
+  nameWithType: RequestPingDelayDisconnect.DisconnectDelay
+  fullName: OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DisconnectDelay
+    path: ../src/OpenTl.Schema/_generated/_Entities/RequestPingDelayDisconnect.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int DisconnectDelay { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DisconnectDelay As Integer
+  overload: OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IPong}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IPong}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IPong>
+  nameWithType: IRequest<IPong>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IPong>
+  nameWithType.vb: IRequest(Of IPong)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IPong)
+  name.vb: IRequest(Of IPong)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPong
+    name: IPong
+    nameWithType: IPong
+    fullName: OpenTl.Schema.IPong
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPong
+    name: IPong
+    nameWithType: IPong
+    fullName: OpenTl.Schema.IPong
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.RequestPingDelayDisconnect.PingId*
+  commentId: Overload:OpenTl.Schema.RequestPingDelayDisconnect.PingId
+  isExternal: false
+  name: PingId
+  nameWithType: RequestPingDelayDisconnect.PingId
+  fullName: OpenTl.Schema.RequestPingDelayDisconnect.PingId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay*
+  commentId: Overload:OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+  isExternal: false
+  name: DisconnectDelay
+  nameWithType: RequestPingDelayDisconnect.DisconnectDelay
+  fullName: OpenTl.Schema.RequestPingDelayDisconnect.DisconnectDelay
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

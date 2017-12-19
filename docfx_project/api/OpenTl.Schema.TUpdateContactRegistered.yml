@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateContactRegistered
+  commentId: T:OpenTl.Schema.TUpdateContactRegistered
+  id: TUpdateContactRegistered
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateContactRegistered.Date
+  - OpenTl.Schema.TUpdateContactRegistered.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateContactRegistered
+  nameWithType: TUpdateContactRegistered
+  fullName: OpenTl.Schema.TUpdateContactRegistered
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateContactRegistered
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateContactRegistered : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateContactRegistered
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateContactRegistered.UserId
+  commentId: P:OpenTl.Schema.TUpdateContactRegistered.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateContactRegistered
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateContactRegistered.UserId
+  fullName: OpenTl.Schema.TUpdateContactRegistered.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateContactRegistered.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateContactRegistered.Date
+  commentId: P:OpenTl.Schema.TUpdateContactRegistered.Date
+  id: Date
+  parent: OpenTl.Schema.TUpdateContactRegistered
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TUpdateContactRegistered.Date
+  fullName: OpenTl.Schema.TUpdateContactRegistered.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateContactRegistered.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.TUpdateContactRegistered.Date*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateContactRegistered.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateContactRegistered.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateContactRegistered.UserId
+  fullName: OpenTl.Schema.TUpdateContactRegistered.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateContactRegistered.Date*
+  commentId: Overload:OpenTl.Schema.TUpdateContactRegistered.Date
+  isExternal: false
+  name: Date
+  nameWithType: TUpdateContactRegistered.Date
+  fullName: OpenTl.Schema.TUpdateContactRegistered.Date

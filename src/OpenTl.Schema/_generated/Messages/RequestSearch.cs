@@ -18,6 +18,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(1)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}
 
+       /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(2)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
        private byte[] _QAsBinary;

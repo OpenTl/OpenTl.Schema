@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TStickerSetInstallResultSuccess
+  commentId: T:OpenTl.Schema.Messages.TStickerSetInstallResultSuccess
+  id: TStickerSetInstallResultSuccess
+  parent: OpenTl.Schema.Messages
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TStickerSetInstallResultSuccess
+  nameWithType: TStickerSetInstallResultSuccess
+  fullName: OpenTl.Schema.Messages.TStickerSetInstallResultSuccess
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/StickerSetInstallResult/TStickerSetInstallResultSuccess.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TStickerSetInstallResultSuccess
+    path: ../src/OpenTl.Schema/_generated/Messages/StickerSetInstallResult/TStickerSetInstallResultSuccess.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TStickerSetInstallResultSuccess : object, IStickerSetInstallResult, IObject'
+    content.vb: >-
+      Public Class TStickerSetInstallResultSuccess
+
+          Inherits Object
+
+          Implements IStickerSetInstallResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IStickerSetInstallResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IStickerSetInstallResult
+  commentId: T:OpenTl.Schema.Messages.IStickerSetInstallResult
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IStickerSetInstallResult
+  nameWithType: IStickerSetInstallResult
+  fullName: OpenTl.Schema.Messages.IStickerSetInstallResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

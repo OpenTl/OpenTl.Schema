@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}
 
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(1)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;

@@ -20,6 +20,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public byte[] ServerNonce {get; set;}
 
+       /// <summary>Binary representation for the 'EncryptedData' property</summary>
        [SerializationOrder(2)]
        public byte[] EncryptedDataAsBinary { get => _EncryptedDataAsBinary; set { _EncryptedData = Encoding.UTF8.GetString(value); _EncryptedDataAsBinary = value; }}
        private byte[] _EncryptedDataAsBinary;

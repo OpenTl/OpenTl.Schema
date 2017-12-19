@@ -1,0 +1,293 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageEntityPre
+  commentId: T:OpenTl.Schema.TMessageEntityPre
+  id: TMessageEntityPre
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageEntityPre.Language
+  - OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+  - OpenTl.Schema.TMessageEntityPre.Length
+  - OpenTl.Schema.TMessageEntityPre.Offset
+  langs:
+  - csharp
+  - vb
+  name: TMessageEntityPre
+  nameWithType: TMessageEntityPre
+  fullName: OpenTl.Schema.TMessageEntityPre
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageEntityPre
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageEntityPre : object, IMessageEntity, IObject'
+    content.vb: >-
+      Public Class TMessageEntityPre
+
+          Inherits Object
+
+          Implements IMessageEntity, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageEntity
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageEntityPre.Offset
+  commentId: P:OpenTl.Schema.TMessageEntityPre.Offset
+  id: Offset
+  parent: OpenTl.Schema.TMessageEntityPre
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: TMessageEntityPre.Offset
+  fullName: OpenTl.Schema.TMessageEntityPre.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.TMessageEntityPre.Offset*
+  implements:
+  - OpenTl.Schema.IMessageEntity.Offset
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageEntityPre.Length
+  commentId: P:OpenTl.Schema.TMessageEntityPre.Length
+  id: Length
+  parent: OpenTl.Schema.TMessageEntityPre
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: TMessageEntityPre.Length
+  fullName: OpenTl.Schema.TMessageEntityPre.Length
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Length
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Length { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: OpenTl.Schema.TMessageEntityPre.Length*
+  implements:
+  - OpenTl.Schema.IMessageEntity.Length
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+  commentId: P:OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+  id: LanguageAsBinary
+  parent: OpenTl.Schema.TMessageEntityPre
+  langs:
+  - csharp
+  - vb
+  name: LanguageAsBinary
+  nameWithType: TMessageEntityPre.LanguageAsBinary
+  fullName: OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LanguageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Language&apos; property
+  example: []
+  syntax:
+    content: public byte[] LanguageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LanguageAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageEntityPre.LanguageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageEntityPre.Language
+  commentId: P:OpenTl.Schema.TMessageEntityPre.Language
+  id: Language
+  parent: OpenTl.Schema.TMessageEntityPre
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: TMessageEntityPre.Language
+  fullName: OpenTl.Schema.TMessageEntityPre.Language
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Language
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityPre.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Language { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Language As String
+  overload: OpenTl.Schema.TMessageEntityPre.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageEntity
+  commentId: T:OpenTl.Schema.IMessageEntity
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageEntity
+  nameWithType: IMessageEntity
+  fullName: OpenTl.Schema.IMessageEntity
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageEntityPre.Offset*
+  commentId: Overload:OpenTl.Schema.TMessageEntityPre.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: TMessageEntityPre.Offset
+  fullName: OpenTl.Schema.TMessageEntityPre.Offset
+- uid: OpenTl.Schema.IMessageEntity.Offset
+  commentId: P:OpenTl.Schema.IMessageEntity.Offset
+  parent: OpenTl.Schema.IMessageEntity
+  isExternal: false
+  name: Offset
+  nameWithType: IMessageEntity.Offset
+  fullName: OpenTl.Schema.IMessageEntity.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMessageEntityPre.Length*
+  commentId: Overload:OpenTl.Schema.TMessageEntityPre.Length
+  isExternal: false
+  name: Length
+  nameWithType: TMessageEntityPre.Length
+  fullName: OpenTl.Schema.TMessageEntityPre.Length
+- uid: OpenTl.Schema.IMessageEntity.Length
+  commentId: P:OpenTl.Schema.IMessageEntity.Length
+  parent: OpenTl.Schema.IMessageEntity
+  isExternal: false
+  name: Length
+  nameWithType: IMessageEntity.Length
+  fullName: OpenTl.Schema.IMessageEntity.Length
+- uid: OpenTl.Schema.TMessageEntityPre.LanguageAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+  isExternal: false
+  name: LanguageAsBinary
+  nameWithType: TMessageEntityPre.LanguageAsBinary
+  fullName: OpenTl.Schema.TMessageEntityPre.LanguageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageEntityPre.Language*
+  commentId: Overload:OpenTl.Schema.TMessageEntityPre.Language
+  isExternal: false
+  name: Language
+  nameWithType: TMessageEntityPre.Language
+  fullName: OpenTl.Schema.TMessageEntityPre.Language
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMediaGeoPoint
+  commentId: T:OpenTl.Schema.TInputMediaGeoPoint
+  id: TInputMediaGeoPoint
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+  langs:
+  - csharp
+  - vb
+  name: TInputMediaGeoPoint
+  nameWithType: TInputMediaGeoPoint
+  fullName: OpenTl.Schema.TInputMediaGeoPoint
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMediaGeoPoint
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaGeoPoint.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMediaGeoPoint : object, IInputMedia, IObject'
+    content.vb: >-
+      Public Class TInputMediaGeoPoint
+
+          Inherits Object
+
+          Implements IInputMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+  commentId: P:OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+  id: GeoPoint
+  parent: OpenTl.Schema.TInputMediaGeoPoint
+  langs:
+  - csharp
+  - vb
+  name: GeoPoint
+  nameWithType: TInputMediaGeoPoint.GeoPoint
+  fullName: OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaGeoPoint.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GeoPoint
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputMedia/TInputMediaGeoPoint.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputGeoPoint GeoPoint { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputGeoPoint
+    content.vb: Public Property GeoPoint As IInputGeoPoint
+  overload: OpenTl.Schema.TInputMediaGeoPoint.GeoPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputMedia
+  commentId: T:OpenTl.Schema.IInputMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputMedia
+  nameWithType: IInputMedia
+  fullName: OpenTl.Schema.IInputMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputMediaGeoPoint.GeoPoint*
+  commentId: Overload:OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+  isExternal: false
+  name: GeoPoint
+  nameWithType: TInputMediaGeoPoint.GeoPoint
+  fullName: OpenTl.Schema.TInputMediaGeoPoint.GeoPoint
+- uid: OpenTl.Schema.IInputGeoPoint
+  commentId: T:OpenTl.Schema.IInputGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputGeoPoint
+  nameWithType: IInputGeoPoint
+  fullName: OpenTl.Schema.IInputGeoPoint

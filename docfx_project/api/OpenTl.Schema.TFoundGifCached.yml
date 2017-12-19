@@ -1,0 +1,302 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TFoundGifCached
+  commentId: T:OpenTl.Schema.TFoundGifCached
+  id: TFoundGifCached
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TFoundGifCached.Document
+  - OpenTl.Schema.TFoundGifCached.Photo
+  - OpenTl.Schema.TFoundGifCached.Url
+  - OpenTl.Schema.TFoundGifCached.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TFoundGifCached
+  nameWithType: TFoundGifCached
+  fullName: OpenTl.Schema.TFoundGifCached
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFoundGifCached
+    path: ../src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TFoundGifCached : object, IFoundGif, IObject'
+    content.vb: >-
+      Public Class TFoundGifCached
+
+          Inherits Object
+
+          Implements IFoundGif, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IFoundGif
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TFoundGifCached.UrlAsBinary
+  commentId: P:OpenTl.Schema.TFoundGifCached.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TFoundGifCached
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TFoundGifCached.UrlAsBinary
+  fullName: OpenTl.Schema.TFoundGifCached.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TFoundGifCached.UrlAsBinary*
+  implements:
+  - OpenTl.Schema.IFoundGif.UrlAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFoundGifCached.Url
+  commentId: P:OpenTl.Schema.TFoundGifCached.Url
+  id: Url
+  parent: OpenTl.Schema.TFoundGifCached
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TFoundGifCached.Url
+  fullName: OpenTl.Schema.TFoundGifCached.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TFoundGifCached.Url*
+  implements:
+  - OpenTl.Schema.IFoundGif.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFoundGifCached.Photo
+  commentId: P:OpenTl.Schema.TFoundGifCached.Photo
+  id: Photo
+  parent: OpenTl.Schema.TFoundGifCached
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TFoundGifCached.Photo
+  fullName: OpenTl.Schema.TFoundGifCached.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property Photo As IPhoto
+  overload: OpenTl.Schema.TFoundGifCached.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFoundGifCached.Document
+  commentId: P:OpenTl.Schema.TFoundGifCached.Document
+  id: Document
+  parent: OpenTl.Schema.TFoundGifCached
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: TFoundGifCached.Document
+  fullName: OpenTl.Schema.TFoundGifCached.Document
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Document
+    path: ../src/OpenTl.Schema/_generated/_Entities/FoundGif/TFoundGifCached.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDocument Document { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDocument
+    content.vb: Public Property Document As IDocument
+  overload: OpenTl.Schema.TFoundGifCached.Document*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IFoundGif
+  commentId: T:OpenTl.Schema.IFoundGif
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFoundGif
+  nameWithType: IFoundGif
+  fullName: OpenTl.Schema.IFoundGif
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TFoundGifCached.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TFoundGifCached.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TFoundGifCached.UrlAsBinary
+  fullName: OpenTl.Schema.TFoundGifCached.UrlAsBinary
+- uid: OpenTl.Schema.IFoundGif.UrlAsBinary
+  commentId: P:OpenTl.Schema.IFoundGif.UrlAsBinary
+  parent: OpenTl.Schema.IFoundGif
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IFoundGif.UrlAsBinary
+  fullName: OpenTl.Schema.IFoundGif.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TFoundGifCached.Url*
+  commentId: Overload:OpenTl.Schema.TFoundGifCached.Url
+  isExternal: false
+  name: Url
+  nameWithType: TFoundGifCached.Url
+  fullName: OpenTl.Schema.TFoundGifCached.Url
+- uid: OpenTl.Schema.IFoundGif.Url
+  commentId: P:OpenTl.Schema.IFoundGif.Url
+  parent: OpenTl.Schema.IFoundGif
+  isExternal: false
+  name: Url
+  nameWithType: IFoundGif.Url
+  fullName: OpenTl.Schema.IFoundGif.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TFoundGifCached.Photo*
+  commentId: Overload:OpenTl.Schema.TFoundGifCached.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TFoundGifCached.Photo
+  fullName: OpenTl.Schema.TFoundGifCached.Photo
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.TFoundGifCached.Document*
+  commentId: Overload:OpenTl.Schema.TFoundGifCached.Document
+  isExternal: false
+  name: Document
+  nameWithType: TFoundGifCached.Document
+  fullName: OpenTl.Schema.TFoundGifCached.Document
+- uid: OpenTl.Schema.IDocument
+  commentId: T:OpenTl.Schema.IDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocument
+  nameWithType: IDocument
+  fullName: OpenTl.Schema.IDocument

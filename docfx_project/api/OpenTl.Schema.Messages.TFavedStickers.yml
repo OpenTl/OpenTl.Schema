@@ -1,0 +1,324 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TFavedStickers
+  commentId: T:OpenTl.Schema.Messages.TFavedStickers
+  id: TFavedStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TFavedStickers.Hash
+  - OpenTl.Schema.Messages.TFavedStickers.Packs
+  - OpenTl.Schema.Messages.TFavedStickers.Stickers
+  langs:
+  - csharp
+  - vb
+  name: TFavedStickers
+  nameWithType: TFavedStickers
+  fullName: OpenTl.Schema.Messages.TFavedStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFavedStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TFavedStickers : object, IFavedStickers, IObject'
+    content.vb: >-
+      Public Class TFavedStickers
+
+          Inherits Object
+
+          Implements IFavedStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IFavedStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TFavedStickers.Hash
+  commentId: P:OpenTl.Schema.Messages.TFavedStickers.Hash
+  id: Hash
+  parent: OpenTl.Schema.Messages.TFavedStickers
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: TFavedStickers.Hash
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Messages.TFavedStickers.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TFavedStickers.Packs
+  commentId: P:OpenTl.Schema.Messages.TFavedStickers.Packs
+  id: Packs
+  parent: OpenTl.Schema.Messages.TFavedStickers
+  langs:
+  - csharp
+  - vb
+  name: Packs
+  nameWithType: TFavedStickers.Packs
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Packs
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Packs
+    path: ../src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IStickerPack> Packs { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+    content.vb: Public Property Packs As TVector(Of IStickerPack)
+  overload: OpenTl.Schema.Messages.TFavedStickers.Packs*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TFavedStickers.Stickers
+  commentId: P:OpenTl.Schema.Messages.TFavedStickers.Stickers
+  id: Stickers
+  parent: OpenTl.Schema.Messages.TFavedStickers
+  langs:
+  - csharp
+  - vb
+  name: Stickers
+  nameWithType: TFavedStickers.Stickers
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Stickers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickers
+    path: ../src/OpenTl.Schema/_generated/Messages/FavedStickers/TFavedStickers.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IDocument> Stickers { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+    content.vb: Public Property Stickers As TVector(Of IDocument)
+  overload: OpenTl.Schema.Messages.TFavedStickers.Stickers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IFavedStickers
+  commentId: T:OpenTl.Schema.Messages.IFavedStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IFavedStickers
+  nameWithType: IFavedStickers
+  fullName: OpenTl.Schema.Messages.IFavedStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TFavedStickers.Hash*
+  commentId: Overload:OpenTl.Schema.Messages.TFavedStickers.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: TFavedStickers.Hash
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Hash
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TFavedStickers.Packs*
+  commentId: Overload:OpenTl.Schema.Messages.TFavedStickers.Packs
+  isExternal: false
+  name: Packs
+  nameWithType: TFavedStickers.Packs
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Packs
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IStickerPack}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IStickerPack>
+  nameWithType: TVector<IStickerPack>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IStickerPack>
+  nameWithType.vb: TVector(Of IStickerPack)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IStickerPack)
+  name.vb: TVector(Of IStickerPack)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IStickerPack
+    name: IStickerPack
+    nameWithType: IStickerPack
+    fullName: OpenTl.Schema.IStickerPack
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IStickerPack
+    name: IStickerPack
+    nameWithType: IStickerPack
+    fullName: OpenTl.Schema.IStickerPack
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TFavedStickers.Stickers*
+  commentId: Overload:OpenTl.Schema.Messages.TFavedStickers.Stickers
+  isExternal: false
+  name: Stickers
+  nameWithType: TFavedStickers.Stickers
+  fullName: OpenTl.Schema.Messages.TFavedStickers.Stickers
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocument}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocument>
+  nameWithType: TVector<IDocument>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocument>
+  nameWithType.vb: TVector(Of IDocument)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocument)
+  name.vb: TVector(Of IDocument)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocument
+    name: IDocument
+    nameWithType: IDocument
+    fullName: OpenTl.Schema.IDocument
+  - name: )
+    nameWithType: )
+    fullName: )

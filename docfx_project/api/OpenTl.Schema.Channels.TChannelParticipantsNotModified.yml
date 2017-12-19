@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.TChannelParticipantsNotModified
+  commentId: T:OpenTl.Schema.Channels.TChannelParticipantsNotModified
+  id: TChannelParticipantsNotModified
+  parent: OpenTl.Schema.Channels
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipantsNotModified
+  nameWithType: TChannelParticipantsNotModified
+  fullName: OpenTl.Schema.Channels.TChannelParticipantsNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/ChannelParticipants/TChannelParticipantsNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipantsNotModified
+    path: ../src/OpenTl.Schema/_generated/Channels/ChannelParticipants/TChannelParticipantsNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class TChannelParticipantsNotModified : object, IChannelParticipants, IObject'
+    content.vb: >-
+      Public Class TChannelParticipantsNotModified
+
+          Inherits Object
+
+          Implements IChannelParticipants, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Channels.IChannelParticipants
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Channels.IChannelParticipants
+  commentId: T:OpenTl.Schema.Channels.IChannelParticipants
+  parent: OpenTl.Schema.Channels
+  isExternal: false
+  name: IChannelParticipants
+  nameWithType: IChannelParticipants
+  fullName: OpenTl.Schema.Channels.IChannelParticipants
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

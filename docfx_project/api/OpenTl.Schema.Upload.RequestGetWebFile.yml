@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Upload.RequestGetWebFile
+  commentId: T:OpenTl.Schema.Upload.RequestGetWebFile
+  id: RequestGetWebFile
+  parent: OpenTl.Schema.Upload
+  children:
+  - OpenTl.Schema.Upload.RequestGetWebFile.Limit
+  - OpenTl.Schema.Upload.RequestGetWebFile.Location
+  - OpenTl.Schema.Upload.RequestGetWebFile.Offset
+  langs:
+  - csharp
+  - vb
+  name: RequestGetWebFile
+  nameWithType: RequestGetWebFile
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetWebFile
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: 'public class RequestGetWebFile : object, IRequest<IWebFile>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetWebFile
+
+          Inherits Object
+
+          Implements IRequest(Of IWebFile), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Upload.IWebFile}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Location
+  commentId: P:OpenTl.Schema.Upload.RequestGetWebFile.Location
+  id: Location
+  parent: OpenTl.Schema.Upload.RequestGetWebFile
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: RequestGetWebFile.Location
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Location
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Location
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public IInputWebFileLocation Location { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputWebFileLocation
+    content.vb: Public Property Location As IInputWebFileLocation
+  overload: OpenTl.Schema.Upload.RequestGetWebFile.Location*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Offset
+  commentId: P:OpenTl.Schema.Upload.RequestGetWebFile.Offset
+  id: Offset
+  parent: OpenTl.Schema.Upload.RequestGetWebFile
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: RequestGetWebFile.Offset
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.Upload.RequestGetWebFile.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Limit
+  commentId: P:OpenTl.Schema.Upload.RequestGetWebFile.Limit
+  id: Limit
+  parent: OpenTl.Schema.Upload.RequestGetWebFile
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetWebFile.Limit
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Upload/RequestGetWebFile.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Upload
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Upload.RequestGetWebFile.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Upload
+  commentId: N:OpenTl.Schema.Upload
+  isExternal: false
+  name: OpenTl.Schema.Upload
+  nameWithType: OpenTl.Schema.Upload
+  fullName: OpenTl.Schema.Upload
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Upload.IWebFile}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Upload.IWebFile}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IWebFile>
+  nameWithType: IRequest<IWebFile>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Upload.IWebFile>
+  nameWithType.vb: IRequest(Of IWebFile)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Upload.IWebFile)
+  name.vb: IRequest(Of IWebFile)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Upload.IWebFile
+    name: IWebFile
+    nameWithType: IWebFile
+    fullName: OpenTl.Schema.Upload.IWebFile
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Upload.IWebFile
+    name: IWebFile
+    nameWithType: IWebFile
+    fullName: OpenTl.Schema.Upload.IWebFile
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Location*
+  commentId: Overload:OpenTl.Schema.Upload.RequestGetWebFile.Location
+  isExternal: false
+  name: Location
+  nameWithType: RequestGetWebFile.Location
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Location
+- uid: OpenTl.Schema.IInputWebFileLocation
+  commentId: T:OpenTl.Schema.IInputWebFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputWebFileLocation
+  nameWithType: IInputWebFileLocation
+  fullName: OpenTl.Schema.IInputWebFileLocation
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Offset*
+  commentId: Overload:OpenTl.Schema.Upload.RequestGetWebFile.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: RequestGetWebFile.Offset
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Upload.RequestGetWebFile.Limit*
+  commentId: Overload:OpenTl.Schema.Upload.RequestGetWebFile.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetWebFile.Limit
+  fullName: OpenTl.Schema.Upload.RequestGetWebFile.Limit

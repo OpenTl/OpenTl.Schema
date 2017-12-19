@@ -1,0 +1,283 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelMessagesFilter
+  commentId: T:OpenTl.Schema.TChannelMessagesFilter
+  id: TChannelMessagesFilter
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+  - OpenTl.Schema.TChannelMessagesFilter.Flags
+  - OpenTl.Schema.TChannelMessagesFilter.Ranges
+  langs:
+  - csharp
+  - vb
+  name: TChannelMessagesFilter
+  nameWithType: TChannelMessagesFilter
+  fullName: OpenTl.Schema.TChannelMessagesFilter
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelMessagesFilter
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelMessagesFilter : object, IChannelMessagesFilter, IObject'
+    content.vb: >-
+      Public Class TChannelMessagesFilter
+
+          Inherits Object
+
+          Implements IChannelMessagesFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelMessagesFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelMessagesFilter.Flags
+  commentId: P:OpenTl.Schema.TChannelMessagesFilter.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelMessagesFilter
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelMessagesFilter.Flags
+  fullName: OpenTl.Schema.TChannelMessagesFilter.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelMessagesFilter.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+  commentId: P:OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+  id: ExcludeNewMessages
+  parent: OpenTl.Schema.TChannelMessagesFilter
+  langs:
+  - csharp
+  - vb
+  name: ExcludeNewMessages
+  nameWithType: TChannelMessagesFilter.ExcludeNewMessages
+  fullName: OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ExcludeNewMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ExcludeNewMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ExcludeNewMessages As Boolean
+  overload: OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelMessagesFilter.Ranges
+  commentId: P:OpenTl.Schema.TChannelMessagesFilter.Ranges
+  id: Ranges
+  parent: OpenTl.Schema.TChannelMessagesFilter
+  langs:
+  - csharp
+  - vb
+  name: Ranges
+  nameWithType: TChannelMessagesFilter.Ranges
+  fullName: OpenTl.Schema.TChannelMessagesFilter.Ranges
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ranges
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelMessagesFilter/TChannelMessagesFilter.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IMessageRange> Ranges { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessageRange}
+    content.vb: Public Property Ranges As TVector(Of IMessageRange)
+  overload: OpenTl.Schema.TChannelMessagesFilter.Ranges*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelMessagesFilter
+  commentId: T:OpenTl.Schema.IChannelMessagesFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelMessagesFilter
+  nameWithType: IChannelMessagesFilter
+  fullName: OpenTl.Schema.IChannelMessagesFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelMessagesFilter.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelMessagesFilter.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelMessagesFilter.Flags
+  fullName: OpenTl.Schema.TChannelMessagesFilter.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages*
+  commentId: Overload:OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+  isExternal: false
+  name: ExcludeNewMessages
+  nameWithType: TChannelMessagesFilter.ExcludeNewMessages
+  fullName: OpenTl.Schema.TChannelMessagesFilter.ExcludeNewMessages
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelMessagesFilter.Ranges*
+  commentId: Overload:OpenTl.Schema.TChannelMessagesFilter.Ranges
+  isExternal: false
+  name: Ranges
+  nameWithType: TChannelMessagesFilter.Ranges
+  fullName: OpenTl.Schema.TChannelMessagesFilter.Ranges
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessageRange}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessageRange}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessageRange>
+  nameWithType: TVector<IMessageRange>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessageRange>
+  nameWithType.vb: TVector(Of IMessageRange)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessageRange)
+  name.vb: TVector(Of IMessageRange)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessageRange
+    name: IMessageRange
+    nameWithType: IMessageRange
+    fullName: OpenTl.Schema.IMessageRange
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessageRange
+    name: IMessageRange
+    nameWithType: IMessageRange
+    fullName: OpenTl.Schema.IMessageRange
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

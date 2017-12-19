@@ -19,6 +19,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 0)]
        public OpenTl.Schema.IPhoto Photo {get; set;}
 
+       /// <summary>Binary representation for the 'Caption' property</summary>
        [SerializationOrder(2)]
        [CanSerialize("Flags", 1)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}

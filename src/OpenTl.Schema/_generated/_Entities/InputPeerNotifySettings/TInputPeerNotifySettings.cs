@@ -26,6 +26,7 @@ namespace OpenTl.Schema
        [SerializationOrder(3)]
        public int MuteUntil {get; set;}
 
+       /// <summary>Binary representation for the 'Sound' property</summary>
        [SerializationOrder(4)]
        public byte[] SoundAsBinary { get => _SoundAsBinary; set { _Sound = Encoding.UTF8.GetString(value); _SoundAsBinary = value; }}
        private byte[] _SoundAsBinary;

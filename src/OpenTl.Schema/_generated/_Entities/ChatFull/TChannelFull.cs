@@ -34,6 +34,7 @@ namespace OpenTl.Schema
        [SerializationOrder(5)]
        public int Id {get; set;}
 
+       /// <summary>Binary representation for the 'About' property</summary>
        [SerializationOrder(6)]
        public byte[] AboutAsBinary { get => _AboutAsBinary; set { _About = Encoding.UTF8.GetString(value); _AboutAsBinary = value; }}
        private byte[] _AboutAsBinary;

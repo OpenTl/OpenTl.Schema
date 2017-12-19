@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateEditChannelMessage
+  commentId: T:OpenTl.Schema.TUpdateEditChannelMessage
+  id: TUpdateEditChannelMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateEditChannelMessage.Message
+  - OpenTl.Schema.TUpdateEditChannelMessage.Pts
+  - OpenTl.Schema.TUpdateEditChannelMessage.PtsCount
+  langs:
+  - csharp
+  - vb
+  name: TUpdateEditChannelMessage
+  nameWithType: TUpdateEditChannelMessage
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateEditChannelMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateEditChannelMessage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateEditChannelMessage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.Message
+  commentId: P:OpenTl.Schema.TUpdateEditChannelMessage.Message
+  id: Message
+  parent: OpenTl.Schema.TUpdateEditChannelMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TUpdateEditChannelMessage.Message
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessage Message { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessage
+    content.vb: Public Property Message As IMessage
+  overload: OpenTl.Schema.TUpdateEditChannelMessage.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.Pts
+  commentId: P:OpenTl.Schema.TUpdateEditChannelMessage.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateEditChannelMessage
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateEditChannelMessage.Pts
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateEditChannelMessage.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateEditChannelMessage.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateEditChannelMessage
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateEditChannelMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateEditChannelMessage.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateEditChannelMessage.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.Message*
+  commentId: Overload:OpenTl.Schema.TUpdateEditChannelMessage.Message
+  isExternal: false
+  name: Message
+  nameWithType: TUpdateEditChannelMessage.Message
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.Message
+- uid: OpenTl.Schema.IMessage
+  commentId: T:OpenTl.Schema.IMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessage
+  nameWithType: IMessage
+  fullName: OpenTl.Schema.IMessage
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateEditChannelMessage.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateEditChannelMessage.Pts
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateEditChannelMessage.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateEditChannelMessage.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateEditChannelMessage.PtsCount
+  fullName: OpenTl.Schema.TUpdateEditChannelMessage.PtsCount

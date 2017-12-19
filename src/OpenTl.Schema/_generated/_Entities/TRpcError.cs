@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public int ErrorCode {get; set;}
 
+       /// <summary>Binary representation for the 'ErrorMessage' property</summary>
        [SerializationOrder(1)]
        public byte[] ErrorMessageAsBinary { get => _ErrorMessageAsBinary; set { _ErrorMessage = Encoding.UTF8.GetString(value); _ErrorMessageAsBinary = value; }}
        private byte[] _ErrorMessageAsBinary;

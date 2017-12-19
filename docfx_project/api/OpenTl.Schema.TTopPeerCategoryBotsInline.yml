@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTopPeerCategoryBotsInline
+  commentId: T:OpenTl.Schema.TTopPeerCategoryBotsInline
+  id: TTopPeerCategoryBotsInline
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TTopPeerCategoryBotsInline
+  nameWithType: TTopPeerCategoryBotsInline
+  fullName: OpenTl.Schema.TTopPeerCategoryBotsInline
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TopPeerCategory/TTopPeerCategoryBotsInline.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTopPeerCategoryBotsInline
+    path: ../src/OpenTl.Schema/_generated/_Entities/TopPeerCategory/TTopPeerCategoryBotsInline.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTopPeerCategoryBotsInline : object, ITopPeerCategory, IObject'
+    content.vb: >-
+      Public Class TTopPeerCategoryBotsInline
+
+          Inherits Object
+
+          Implements ITopPeerCategory, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ITopPeerCategory
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ITopPeerCategory
+  commentId: T:OpenTl.Schema.ITopPeerCategory
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ITopPeerCategory
+  nameWithType: ITopPeerCategory
+  fullName: OpenTl.Schema.ITopPeerCategory
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputChannelEmpty
+  commentId: T:OpenTl.Schema.TInputChannelEmpty
+  id: TInputChannelEmpty
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputChannelEmpty
+  nameWithType: TInputChannelEmpty
+  fullName: OpenTl.Schema.TInputChannelEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputChannel/TInputChannelEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputChannelEmpty
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputChannel/TInputChannelEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputChannelEmpty : object, IInputChannel, IObject, IEmpty'
+    content.vb: >-
+      Public Class TInputChannelEmpty
+
+          Inherits Object
+
+          Implements IInputChannel, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputChannel
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty

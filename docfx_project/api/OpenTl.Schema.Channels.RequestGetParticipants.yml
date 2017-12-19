@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestGetParticipants
+  commentId: T:OpenTl.Schema.Channels.RequestGetParticipants
+  id: RequestGetParticipants
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestGetParticipants.Channel
+  - OpenTl.Schema.Channels.RequestGetParticipants.Filter
+  - OpenTl.Schema.Channels.RequestGetParticipants.Hash
+  - OpenTl.Schema.Channels.RequestGetParticipants.Limit
+  - OpenTl.Schema.Channels.RequestGetParticipants.Offset
+  langs:
+  - csharp
+  - vb
+  name: RequestGetParticipants
+  nameWithType: RequestGetParticipants
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetParticipants
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestGetParticipants : object, IRequest<IChannelParticipants>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetParticipants
+
+          Inherits Object
+
+          Implements IRequest(Of IChannelParticipants), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipants}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipants.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestGetParticipants
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestGetParticipants.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestGetParticipants.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Filter
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipants.Filter
+  id: Filter
+  parent: OpenTl.Schema.Channels.RequestGetParticipants
+  langs:
+  - csharp
+  - vb
+  name: Filter
+  nameWithType: RequestGetParticipants.Filter
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Filter
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Filter
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IChannelParticipantsFilter Filter { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelParticipantsFilter
+    content.vb: Public Property Filter As IChannelParticipantsFilter
+  overload: OpenTl.Schema.Channels.RequestGetParticipants.Filter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Offset
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipants.Offset
+  id: Offset
+  parent: OpenTl.Schema.Channels.RequestGetParticipants
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: RequestGetParticipants.Offset
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.Channels.RequestGetParticipants.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Limit
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipants.Limit
+  id: Limit
+  parent: OpenTl.Schema.Channels.RequestGetParticipants
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetParticipants.Limit
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Channels.RequestGetParticipants.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Hash
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipants.Hash
+  id: Hash
+  parent: OpenTl.Schema.Channels.RequestGetParticipants
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: RequestGetParticipants.Hash
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipants.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Channels.RequestGetParticipants.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipants}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipants}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IChannelParticipants>
+  nameWithType: IRequest<IChannelParticipants>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Channels.IChannelParticipants>
+  nameWithType.vb: IRequest(Of IChannelParticipants)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Channels.IChannelParticipants)
+  name.vb: IRequest(Of IChannelParticipants)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Channels.IChannelParticipants
+    name: IChannelParticipants
+    nameWithType: IChannelParticipants
+    fullName: OpenTl.Schema.Channels.IChannelParticipants
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Channels.IChannelParticipants
+    name: IChannelParticipants
+    nameWithType: IChannelParticipants
+    fullName: OpenTl.Schema.Channels.IChannelParticipants
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipants.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestGetParticipants.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Filter*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipants.Filter
+  isExternal: false
+  name: Filter
+  nameWithType: RequestGetParticipants.Filter
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Filter
+- uid: OpenTl.Schema.IChannelParticipantsFilter
+  commentId: T:OpenTl.Schema.IChannelParticipantsFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipantsFilter
+  nameWithType: IChannelParticipantsFilter
+  fullName: OpenTl.Schema.IChannelParticipantsFilter
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Offset*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipants.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: RequestGetParticipants.Offset
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Limit*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipants.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetParticipants.Limit
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Limit
+- uid: OpenTl.Schema.Channels.RequestGetParticipants.Hash*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipants.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: RequestGetParticipants.Hash
+  fullName: OpenTl.Schema.Channels.RequestGetParticipants.Hash

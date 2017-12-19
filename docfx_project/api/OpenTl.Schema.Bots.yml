@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Bots
+  commentId: N:OpenTl.Schema.Bots
+  id: OpenTl.Schema.Bots
+  children:
+  - OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  - OpenTl.Schema.Bots.RequestSendCustomRequest
+  langs:
+  - csharp
+  - vb
+  name: OpenTl.Schema.Bots
+  nameWithType: OpenTl.Schema.Bots
+  fullName: OpenTl.Schema.Bots
+  type: Namespace
+  assemblies:
+  - OpenTl.Schema
+references:
+- uid: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  commentId: T:OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+  isExternal: false
+  name: RequestAnswerWebhookJSONQuery
+  nameWithType: RequestAnswerWebhookJSONQuery
+  fullName: OpenTl.Schema.Bots.RequestAnswerWebhookJSONQuery
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest
+  commentId: T:OpenTl.Schema.Bots.RequestSendCustomRequest
+  isExternal: false
+  name: RequestSendCustomRequest
+  nameWithType: RequestSendCustomRequest
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest

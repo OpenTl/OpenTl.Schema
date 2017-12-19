@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TCheckedPhone
+  commentId: T:OpenTl.Schema.Auth.TCheckedPhone
+  id: TCheckedPhone
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+  langs:
+  - csharp
+  - vb
+  name: TCheckedPhone
+  nameWithType: TCheckedPhone
+  fullName: OpenTl.Schema.Auth.TCheckedPhone
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/CheckedPhone/TCheckedPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCheckedPhone
+    path: ../src/OpenTl.Schema/_generated/Auth/CheckedPhone/TCheckedPhone.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TCheckedPhone : object, ICheckedPhone, IObject'
+    content.vb: >-
+      Public Class TCheckedPhone
+
+          Inherits Object
+
+          Implements ICheckedPhone, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.ICheckedPhone
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+  commentId: P:OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+  id: PhoneRegistered
+  parent: OpenTl.Schema.Auth.TCheckedPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneRegistered
+  nameWithType: TCheckedPhone.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/CheckedPhone/TCheckedPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneRegistered
+    path: ../src/OpenTl.Schema/_generated/Auth/CheckedPhone/TCheckedPhone.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public bool PhoneRegistered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneRegistered As Boolean
+  overload: OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered*
+  implements:
+  - OpenTl.Schema.Auth.ICheckedPhone.PhoneRegistered
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.ICheckedPhone
+  commentId: T:OpenTl.Schema.Auth.ICheckedPhone
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: ICheckedPhone
+  nameWithType: ICheckedPhone
+  fullName: OpenTl.Schema.Auth.ICheckedPhone
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered*
+  commentId: Overload:OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+  isExternal: false
+  name: PhoneRegistered
+  nameWithType: TCheckedPhone.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.TCheckedPhone.PhoneRegistered
+- uid: OpenTl.Schema.Auth.ICheckedPhone.PhoneRegistered
+  commentId: P:OpenTl.Schema.Auth.ICheckedPhone.PhoneRegistered
+  parent: OpenTl.Schema.Auth.ICheckedPhone
+  isExternal: false
+  name: PhoneRegistered
+  nameWithType: ICheckedPhone.PhoneRegistered
+  fullName: OpenTl.Schema.Auth.ICheckedPhone.PhoneRegistered
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

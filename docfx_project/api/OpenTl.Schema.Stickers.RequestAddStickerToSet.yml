@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Stickers.RequestAddStickerToSet
+  commentId: T:OpenTl.Schema.Stickers.RequestAddStickerToSet
+  id: RequestAddStickerToSet
+  parent: OpenTl.Schema.Stickers
+  children:
+  - OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+  - OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+  langs:
+  - csharp
+  - vb
+  name: RequestAddStickerToSet
+  nameWithType: RequestAddStickerToSet
+  fullName: OpenTl.Schema.Stickers.RequestAddStickerToSet
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestAddStickerToSet
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: 'public class RequestAddStickerToSet : object, IRequest<IStickerSet>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestAddStickerToSet
+
+          Inherits Object
+
+          Implements IRequest(Of IStickerSet), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+  commentId: P:OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+  id: Stickerset
+  parent: OpenTl.Schema.Stickers.RequestAddStickerToSet
+  langs:
+  - csharp
+  - vb
+  name: Stickerset
+  nameWithType: RequestAddStickerToSet.Stickerset
+  fullName: OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickerset
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: public IInputStickerSet Stickerset { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputStickerSet
+    content.vb: Public Property Stickerset As IInputStickerSet
+  overload: OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+  commentId: P:OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+  id: Sticker
+  parent: OpenTl.Schema.Stickers.RequestAddStickerToSet
+  langs:
+  - csharp
+  - vb
+  name: Sticker
+  nameWithType: RequestAddStickerToSet.Sticker
+  fullName: OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sticker
+    path: ../src/OpenTl.Schema/_generated/Stickers/RequestAddStickerToSet.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Stickers
+  syntax:
+    content: public IInputStickerSetItem Sticker { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputStickerSetItem
+    content.vb: Public Property Sticker As IInputStickerSetItem
+  overload: OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Stickers
+  commentId: N:OpenTl.Schema.Stickers
+  isExternal: false
+  name: OpenTl.Schema.Stickers
+  nameWithType: OpenTl.Schema.Stickers
+  fullName: OpenTl.Schema.Stickers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Messages.IStickerSet}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IStickerSet>
+  nameWithType: IRequest<IStickerSet>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Messages.IStickerSet>
+  nameWithType.vb: IRequest(Of IStickerSet)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Messages.IStickerSet)
+  name.vb: IRequest(Of IStickerSet)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Messages.IStickerSet
+    name: IStickerSet
+    nameWithType: IStickerSet
+    fullName: OpenTl.Schema.Messages.IStickerSet
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Messages.IStickerSet
+    name: IStickerSet
+    nameWithType: IStickerSet
+    fullName: OpenTl.Schema.Messages.IStickerSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset*
+  commentId: Overload:OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+  isExternal: false
+  name: Stickerset
+  nameWithType: RequestAddStickerToSet.Stickerset
+  fullName: OpenTl.Schema.Stickers.RequestAddStickerToSet.Stickerset
+- uid: OpenTl.Schema.IInputStickerSet
+  commentId: T:OpenTl.Schema.IInputStickerSet
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSet
+  nameWithType: IInputStickerSet
+  fullName: OpenTl.Schema.IInputStickerSet
+- uid: OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker*
+  commentId: Overload:OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+  isExternal: false
+  name: Sticker
+  nameWithType: RequestAddStickerToSet.Sticker
+  fullName: OpenTl.Schema.Stickers.RequestAddStickerToSet.Sticker
+- uid: OpenTl.Schema.IInputStickerSetItem
+  commentId: T:OpenTl.Schema.IInputStickerSetItem
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickerSetItem
+  nameWithType: IInputStickerSetItem
+  fullName: OpenTl.Schema.IInputStickerSetItem

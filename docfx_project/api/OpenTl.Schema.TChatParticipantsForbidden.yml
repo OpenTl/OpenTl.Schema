@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatParticipantsForbidden
+  commentId: T:OpenTl.Schema.TChatParticipantsForbidden
+  id: TChatParticipantsForbidden
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatParticipantsForbidden.ChatId
+  - OpenTl.Schema.TChatParticipantsForbidden.Flags
+  - OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+  langs:
+  - csharp
+  - vb
+  name: TChatParticipantsForbidden
+  nameWithType: TChatParticipantsForbidden
+  fullName: OpenTl.Schema.TChatParticipantsForbidden
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatParticipantsForbidden
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatParticipantsForbidden : object, IChatParticipants, IObject'
+    content.vb: >-
+      Public Class TChatParticipantsForbidden
+
+          Inherits Object
+
+          Implements IChatParticipants, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChatParticipants
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatParticipantsForbidden.Flags
+  commentId: P:OpenTl.Schema.TChatParticipantsForbidden.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChatParticipantsForbidden
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChatParticipantsForbidden.Flags
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChatParticipantsForbidden.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatParticipantsForbidden.ChatId
+  commentId: P:OpenTl.Schema.TChatParticipantsForbidden.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TChatParticipantsForbidden
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TChatParticipantsForbidden.ChatId
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TChatParticipantsForbidden.ChatId*
+  implements:
+  - OpenTl.Schema.IChatParticipants.ChatId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+  commentId: P:OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+  id: SelfParticipant
+  parent: OpenTl.Schema.TChatParticipantsForbidden
+  langs:
+  - csharp
+  - vb
+  name: SelfParticipant
+  nameWithType: TChatParticipantsForbidden.SelfParticipant
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SelfParticipant
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChatParticipants/TChatParticipantsForbidden.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChatParticipant SelfParticipant { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChatParticipant
+    content.vb: Public Property SelfParticipant As IChatParticipant
+  overload: OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChatParticipants
+  commentId: T:OpenTl.Schema.IChatParticipants
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatParticipants
+  nameWithType: IChatParticipants
+  fullName: OpenTl.Schema.IChatParticipants
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatParticipantsForbidden.Flags*
+  commentId: Overload:OpenTl.Schema.TChatParticipantsForbidden.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChatParticipantsForbidden.Flags
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChatParticipantsForbidden.ChatId*
+  commentId: Overload:OpenTl.Schema.TChatParticipantsForbidden.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TChatParticipantsForbidden.ChatId
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.ChatId
+- uid: OpenTl.Schema.IChatParticipants.ChatId
+  commentId: P:OpenTl.Schema.IChatParticipants.ChatId
+  parent: OpenTl.Schema.IChatParticipants
+  isExternal: false
+  name: ChatId
+  nameWithType: IChatParticipants.ChatId
+  fullName: OpenTl.Schema.IChatParticipants.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant*
+  commentId: Overload:OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+  isExternal: false
+  name: SelfParticipant
+  nameWithType: TChatParticipantsForbidden.SelfParticipant
+  fullName: OpenTl.Schema.TChatParticipantsForbidden.SelfParticipant
+- uid: OpenTl.Schema.IChatParticipant
+  commentId: T:OpenTl.Schema.IChatParticipant
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatParticipant
+  nameWithType: IChatParticipant
+  fullName: OpenTl.Schema.IChatParticipant

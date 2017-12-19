@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  id: Utils
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  - OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  - OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  langs:
+  - csharp
+  - vb
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Utils.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Utils
+    path: ../src/OpenTl.Schema/Utils.cs
+    startLine: 2
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public static class Utils : object'
+    content.vb: >-
+      Public Module Utils
+
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  id: As``1(OpenTl.Schema.IObject)
+  isExtensionMethod: true
+  parent: OpenTl.Schema.Utils
+  langs:
+  - csharp
+  - vb
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Utils.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: As
+    path: ../src/OpenTl.Schema/Utils.cs
+    startLine: 4
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public static T As<T>(this IObject obj)where T : class, IObject'
+    parameters:
+    - id: obj
+      type: OpenTl.Schema.IObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function As(Of T As {Class, IObject})(obj As IObject) As T
+  overload: OpenTl.Schema.Utils.As*
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  id: Cast``1(OpenTl.Schema.IObject)
+  isExtensionMethod: true
+  parent: OpenTl.Schema.Utils
+  langs:
+  - csharp
+  - vb
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Utils.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Cast
+    path: ../src/OpenTl.Schema/Utils.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public static T Cast<T>(this IObject obj)where T : IObject'
+    parameters:
+    - id: obj
+      type: OpenTl.Schema.IObject
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Cast(Of T As IObject)(obj As IObject) As T
+  overload: OpenTl.Schema.Utils.Cast*
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  id: IsEmpty(OpenTl.Schema.IObject)
+  isExtensionMethod: true
+  parent: OpenTl.Schema.Utils
+  langs:
+  - csharp
+  - vb
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  type: Method
+  source:
+    remote:
+      path: src/OpenTl.Schema/Utils.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IsEmpty
+    path: ../src/OpenTl.Schema/Utils.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public static bool IsEmpty(this IObject obj)
+    parameters:
+    - id: obj
+      type: OpenTl.Schema.IObject
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsEmpty(obj As IObject) As Boolean
+  overload: OpenTl.Schema.Utils.IsEmpty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Utils.As*
+  commentId: Overload:OpenTl.Schema.Utils.As
+  isExternal: false
+  name: As
+  nameWithType: Utils.As
+  fullName: OpenTl.Schema.Utils.As
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  isExternal: false
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OpenTl.Schema.Utils.Cast*
+  commentId: Overload:OpenTl.Schema.Utils.Cast
+  isExternal: false
+  name: Cast
+  nameWithType: Utils.Cast
+  fullName: OpenTl.Schema.Utils.Cast
+- uid: OpenTl.Schema.Utils.IsEmpty*
+  commentId: Overload:OpenTl.Schema.Utils.IsEmpty
+  isExternal: false
+  name: IsEmpty
+  nameWithType: Utils.IsEmpty
+  fullName: OpenTl.Schema.Utils.IsEmpty
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

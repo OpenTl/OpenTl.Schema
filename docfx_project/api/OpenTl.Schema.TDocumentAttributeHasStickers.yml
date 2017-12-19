@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeHasStickers
+  commentId: T:OpenTl.Schema.TDocumentAttributeHasStickers
+  id: TDocumentAttributeHasStickers
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeHasStickers
+  nameWithType: TDocumentAttributeHasStickers
+  fullName: OpenTl.Schema.TDocumentAttributeHasStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeHasStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeHasStickers
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeHasStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeHasStickers : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeHasStickers
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

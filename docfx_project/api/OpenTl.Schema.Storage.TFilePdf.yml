@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Storage.TFilePdf
+  commentId: T:OpenTl.Schema.Storage.TFilePdf
+  id: TFilePdf
+  parent: OpenTl.Schema.Storage
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TFilePdf
+  nameWithType: TFilePdf
+  fullName: OpenTl.Schema.Storage.TFilePdf
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Storage/FileType/TFilePdf.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFilePdf
+    path: ../src/OpenTl.Schema/_generated/Storage/FileType/TFilePdf.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Storage
+  syntax:
+    content: 'public class TFilePdf : object, IFileType, IObject'
+    content.vb: >-
+      Public Class TFilePdf
+
+          Inherits Object
+
+          Implements IFileType, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Storage.IFileType
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Storage
+  commentId: N:OpenTl.Schema.Storage
+  isExternal: false
+  name: OpenTl.Schema.Storage
+  nameWithType: OpenTl.Schema.Storage
+  fullName: OpenTl.Schema.Storage
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Storage.IFileType
+  commentId: T:OpenTl.Schema.Storage.IFileType
+  parent: OpenTl.Schema.Storage
+  isExternal: false
+  name: IFileType
+  nameWithType: IFileType
+  fullName: OpenTl.Schema.Storage.IFileType
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

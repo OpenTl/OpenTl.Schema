@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers
+  commentId: T:OpenTl.Schema.Contacts.RequestGetTopPeers
+  id: RequestGetTopPeers
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Hash
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+  - OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+  langs:
+  - csharp
+  - vb
+  name: RequestGetTopPeers
+  nameWithType: RequestGetTopPeers
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetTopPeers
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class RequestGetTopPeers : object, IRequest<ITopPeers>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetTopPeers
+
+          Inherits Object
+
+          Implements IRequest(Of ITopPeers), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.ITopPeers}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+  id: Flags
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetTopPeers.Flags
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+  id: Correspondents
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Correspondents
+  nameWithType: RequestGetTopPeers.Correspondents
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Correspondents
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool Correspondents { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Correspondents As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+  id: BotsPm
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: BotsPm
+  nameWithType: RequestGetTopPeers.BotsPm
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotsPm
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool BotsPm { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BotsPm As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+  id: BotsInline
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: BotsInline
+  nameWithType: RequestGetTopPeers.BotsInline
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotsInline
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool BotsInline { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property BotsInline As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+  id: PhoneCalls
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: PhoneCalls
+  nameWithType: RequestGetTopPeers.PhoneCalls
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCalls
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool PhoneCalls { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneCalls As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+  id: Groups
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Groups
+  nameWithType: RequestGetTopPeers.Groups
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Groups
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool Groups { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Groups As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Groups*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+  id: Channels
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Channels
+  nameWithType: RequestGetTopPeers.Channels
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channels
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public bool Channels { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Channels As Boolean
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Channels*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+  id: Offset
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: RequestGetTopPeers.Offset
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+  id: Limit
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetTopPeers.Limit
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 44
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Hash
+  commentId: P:OpenTl.Schema.Contacts.RequestGetTopPeers.Hash
+  id: Hash
+  parent: OpenTl.Schema.Contacts.RequestGetTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: RequestGetTopPeers.Hash
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Contacts/RequestGetTopPeers.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Contacts.RequestGetTopPeers.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.ITopPeers}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Contacts.ITopPeers}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ITopPeers>
+  nameWithType: IRequest<ITopPeers>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Contacts.ITopPeers>
+  nameWithType.vb: IRequest(Of ITopPeers)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Contacts.ITopPeers)
+  name.vb: IRequest(Of ITopPeers)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Contacts.ITopPeers
+    name: ITopPeers
+    nameWithType: ITopPeers
+    fullName: OpenTl.Schema.Contacts.ITopPeers
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Contacts.ITopPeers
+    name: ITopPeers
+    nameWithType: ITopPeers
+    fullName: OpenTl.Schema.Contacts.ITopPeers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Flags*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetTopPeers.Flags
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+  isExternal: false
+  name: Correspondents
+  nameWithType: RequestGetTopPeers.Correspondents
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Correspondents
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+  isExternal: false
+  name: BotsPm
+  nameWithType: RequestGetTopPeers.BotsPm
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsPm
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+  isExternal: false
+  name: BotsInline
+  nameWithType: RequestGetTopPeers.BotsInline
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.BotsInline
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+  isExternal: false
+  name: PhoneCalls
+  nameWithType: RequestGetTopPeers.PhoneCalls
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.PhoneCalls
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Groups*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+  isExternal: false
+  name: Groups
+  nameWithType: RequestGetTopPeers.Groups
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Groups
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Channels*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+  isExternal: false
+  name: Channels
+  nameWithType: RequestGetTopPeers.Channels
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Channels
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Offset*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: RequestGetTopPeers.Offset
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Limit*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetTopPeers.Limit
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Limit
+- uid: OpenTl.Schema.Contacts.RequestGetTopPeers.Hash*
+  commentId: Overload:OpenTl.Schema.Contacts.RequestGetTopPeers.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: RequestGetTopPeers.Hash
+  fullName: OpenTl.Schema.Contacts.RequestGetTopPeers.Hash

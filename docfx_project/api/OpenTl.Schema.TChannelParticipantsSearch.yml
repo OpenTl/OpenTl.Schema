@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelParticipantsSearch
+  commentId: T:OpenTl.Schema.TChannelParticipantsSearch
+  id: TChannelParticipantsSearch
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelParticipantsSearch.Q
+  - OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipantsSearch
+  nameWithType: TChannelParticipantsSearch
+  fullName: OpenTl.Schema.TChannelParticipantsSearch
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipantsSearch
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelParticipantsSearch : object, IChannelParticipantsFilter, IObject'
+    content.vb: >-
+      Public Class TChannelParticipantsSearch
+
+          Inherits Object
+
+          Implements IChannelParticipantsFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelParticipantsFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+  commentId: P:OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+  id: QAsBinary
+  parent: OpenTl.Schema.TChannelParticipantsSearch
+  langs:
+  - csharp
+  - vb
+  name: QAsBinary
+  nameWithType: TChannelParticipantsSearch.QAsBinary
+  fullName: OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Q&apos; property
+  example: []
+  syntax:
+    content: public byte[] QAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QAsBinary As Byte()
+  overload: OpenTl.Schema.TChannelParticipantsSearch.QAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelParticipantsSearch.Q
+  commentId: P:OpenTl.Schema.TChannelParticipantsSearch.Q
+  id: Q
+  parent: OpenTl.Schema.TChannelParticipantsSearch
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: TChannelParticipantsSearch.Q
+  fullName: OpenTl.Schema.TChannelParticipantsSearch.Q
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Q
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelParticipantsFilter/TChannelParticipantsSearch.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Q { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Q As String
+  overload: OpenTl.Schema.TChannelParticipantsSearch.Q*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelParticipantsFilter
+  commentId: T:OpenTl.Schema.IChannelParticipantsFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipantsFilter
+  nameWithType: IChannelParticipantsFilter
+  fullName: OpenTl.Schema.IChannelParticipantsFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelParticipantsSearch.QAsBinary*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+  isExternal: false
+  name: QAsBinary
+  nameWithType: TChannelParticipantsSearch.QAsBinary
+  fullName: OpenTl.Schema.TChannelParticipantsSearch.QAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TChannelParticipantsSearch.Q*
+  commentId: Overload:OpenTl.Schema.TChannelParticipantsSearch.Q
+  isExternal: false
+  name: Q
+  nameWithType: TChannelParticipantsSearch.Q
+  fullName: OpenTl.Schema.TChannelParticipantsSearch.Q
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestUpdateProfile
+  commentId: T:OpenTl.Schema.Account.RequestUpdateProfile
+  id: RequestUpdateProfile
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestUpdateProfile.About
+  - OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+  - OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+  - OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+  - OpenTl.Schema.Account.RequestUpdateProfile.Flags
+  - OpenTl.Schema.Account.RequestUpdateProfile.LastName
+  - OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestUpdateProfile
+  nameWithType: RequestUpdateProfile
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestUpdateProfile
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestUpdateProfile : object, IRequest<IUser>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestUpdateProfile
+
+          Inherits Object
+
+          Implements IRequest(Of IUser), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.Flags
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.Flags
+  id: Flags
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestUpdateProfile.Flags
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+  id: FirstNameAsBinary
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: FirstNameAsBinary
+  nameWithType: RequestUpdateProfile.FirstNameAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;FirstName&apos; property
+  example: []
+  syntax:
+    content: public byte[] FirstNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FirstNameAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+  id: FirstName
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: RequestUpdateProfile.FirstName
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstName
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+  id: LastNameAsBinary
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: LastNameAsBinary
+  nameWithType: RequestUpdateProfile.LastNameAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;LastName&apos; property
+  example: []
+  syntax:
+    content: public byte[] LastNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LastNameAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.LastName
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.LastName
+  id: LastName
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: RequestUpdateProfile.LastName
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.LastName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastName
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+  id: AboutAsBinary
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: AboutAsBinary
+  nameWithType: RequestUpdateProfile.AboutAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AboutAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;About&apos; property
+  example: []
+  syntax:
+    content: public byte[] AboutAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property AboutAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.About
+  commentId: P:OpenTl.Schema.Account.RequestUpdateProfile.About
+  id: About
+  parent: OpenTl.Schema.Account.RequestUpdateProfile
+  langs:
+  - csharp
+  - vb
+  name: About
+  nameWithType: RequestUpdateProfile.About
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.About
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: About
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateProfile.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string About { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property About As String
+  overload: OpenTl.Schema.Account.RequestUpdateProfile.About*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUser>
+  nameWithType: IRequest<IUser>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUser>
+  nameWithType.vb: IRequest(Of IUser)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUser)
+  name.vb: IRequest(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.Flags*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestUpdateProfile.Flags
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+  isExternal: false
+  name: FirstNameAsBinary
+  nameWithType: RequestUpdateProfile.FirstNameAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.FirstNameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.FirstName*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+  isExternal: false
+  name: FirstName
+  nameWithType: RequestUpdateProfile.FirstName
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.FirstName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+  isExternal: false
+  name: LastNameAsBinary
+  nameWithType: RequestUpdateProfile.LastNameAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.LastNameAsBinary
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.LastName*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.LastName
+  isExternal: false
+  name: LastName
+  nameWithType: RequestUpdateProfile.LastName
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.LastName
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+  isExternal: false
+  name: AboutAsBinary
+  nameWithType: RequestUpdateProfile.AboutAsBinary
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.AboutAsBinary
+- uid: OpenTl.Schema.Account.RequestUpdateProfile.About*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateProfile.About
+  isExternal: false
+  name: About
+  nameWithType: RequestUpdateProfile.About
+  fullName: OpenTl.Schema.Account.RequestUpdateProfile.About

@@ -1,0 +1,573 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSendMedia
+  commentId: T:OpenTl.Schema.Messages.RequestSendMedia
+  id: RequestSendMedia
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSendMedia.Background
+  - OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+  - OpenTl.Schema.Messages.RequestSendMedia.Flags
+  - OpenTl.Schema.Messages.RequestSendMedia.Media
+  - OpenTl.Schema.Messages.RequestSendMedia.Peer
+  - OpenTl.Schema.Messages.RequestSendMedia.RandomId
+  - OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+  - OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+  - OpenTl.Schema.Messages.RequestSendMedia.Silent
+  langs:
+  - csharp
+  - vb
+  name: RequestSendMedia
+  nameWithType: RequestSendMedia
+  fullName: OpenTl.Schema.Messages.RequestSendMedia
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSendMedia
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSendMedia : object, IRequest<IUpdates>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSendMedia
+
+          Inherits Object
+
+          Implements IRequest(Of IUpdates), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSendMedia.Flags
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestSendMedia.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Silent
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.Silent
+  id: Silent
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: RequestSendMedia.Silent
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Silent As Boolean
+  overload: OpenTl.Schema.Messages.RequestSendMedia.Silent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Background
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.Background
+  id: Background
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: RequestSendMedia.Background
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Background
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Background
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Background { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Background As Boolean
+  overload: OpenTl.Schema.Messages.RequestSendMedia.Background*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+  id: ClearDraft
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: ClearDraft
+  nameWithType: RequestSendMedia.ClearDraft
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ClearDraft
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool ClearDraft { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ClearDraft As Boolean
+  overload: OpenTl.Schema.Messages.RequestSendMedia.ClearDraft*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSendMedia.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestSendMedia.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+  id: ReplyToMsgId
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: ReplyToMsgId
+  nameWithType: RequestSendMedia.ReplyToMsgId
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyToMsgId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int ReplyToMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReplyToMsgId As Integer
+  overload: OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Media
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.Media
+  id: Media
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: Media
+  nameWithType: RequestSendMedia.Media
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Media
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Media
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputMedia Media { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputMedia
+    content.vb: Public Property Media As IInputMedia
+  overload: OpenTl.Schema.Messages.RequestSendMedia.Media*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.RandomId
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.RandomId
+  id: RandomId
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: RandomId
+  nameWithType: RequestSendMedia.RandomId
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.RandomId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RandomId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public long RandomId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RandomId As Long
+  overload: OpenTl.Schema.Messages.RequestSendMedia.RandomId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+  commentId: P:OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.Messages.RequestSendMedia
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: RequestSendMedia.ReplyMarkup
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSendMedia.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUpdates>
+  nameWithType: IRequest<IUpdates>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUpdates>
+  nameWithType.vb: IRequest(Of IUpdates)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUpdates)
+  name.vb: IRequest(Of IUpdates)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSendMedia.Flags
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Silent*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: RequestSendMedia.Silent
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Silent
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Background*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.Background
+  isExternal: false
+  name: Background
+  nameWithType: RequestSendMedia.Background
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Background
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ClearDraft*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+  isExternal: false
+  name: ClearDraft
+  nameWithType: RequestSendMedia.ClearDraft
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ClearDraft
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSendMedia.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+  isExternal: false
+  name: ReplyToMsgId
+  nameWithType: RequestSendMedia.ReplyToMsgId
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ReplyToMsgId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestSendMedia.Media*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.Media
+  isExternal: false
+  name: Media
+  nameWithType: RequestSendMedia.Media
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.Media
+- uid: OpenTl.Schema.IInputMedia
+  commentId: T:OpenTl.Schema.IInputMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputMedia
+  nameWithType: IInputMedia
+  fullName: OpenTl.Schema.IInputMedia
+- uid: OpenTl.Schema.Messages.RequestSendMedia.RandomId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.RandomId
+  isExternal: false
+  name: RandomId
+  nameWithType: RequestSendMedia.RandomId
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.RandomId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: RequestSendMedia.ReplyMarkup
+  fullName: OpenTl.Schema.Messages.RequestSendMedia.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

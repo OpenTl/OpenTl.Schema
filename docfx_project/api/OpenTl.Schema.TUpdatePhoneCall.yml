@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdatePhoneCall
+  commentId: T:OpenTl.Schema.TUpdatePhoneCall
+  id: TUpdatePhoneCall
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+  langs:
+  - csharp
+  - vb
+  name: TUpdatePhoneCall
+  nameWithType: TUpdatePhoneCall
+  fullName: OpenTl.Schema.TUpdatePhoneCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdatePhoneCall
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePhoneCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdatePhoneCall : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdatePhoneCall
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+  commentId: P:OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+  id: PhoneCall
+  parent: OpenTl.Schema.TUpdatePhoneCall
+  langs:
+  - csharp
+  - vb
+  name: PhoneCall
+  nameWithType: TUpdatePhoneCall.PhoneCall
+  fullName: OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePhoneCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCall
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePhoneCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoneCall PhoneCall { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoneCall
+    content.vb: Public Property PhoneCall As IPhoneCall
+  overload: OpenTl.Schema.TUpdatePhoneCall.PhoneCall*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdatePhoneCall.PhoneCall*
+  commentId: Overload:OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+  isExternal: false
+  name: PhoneCall
+  nameWithType: TUpdatePhoneCall.PhoneCall
+  fullName: OpenTl.Schema.TUpdatePhoneCall.PhoneCall
+- uid: OpenTl.Schema.IPhoneCall
+  commentId: T:OpenTl.Schema.IPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCall
+  nameWithType: IPhoneCall
+  fullName: OpenTl.Schema.IPhoneCall

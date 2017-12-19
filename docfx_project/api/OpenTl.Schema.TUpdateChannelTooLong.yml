@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChannelTooLong
+  commentId: T:OpenTl.Schema.TUpdateChannelTooLong
+  id: TUpdateChannelTooLong
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+  - OpenTl.Schema.TUpdateChannelTooLong.Flags
+  - OpenTl.Schema.TUpdateChannelTooLong.Pts
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChannelTooLong
+  nameWithType: TUpdateChannelTooLong
+  fullName: OpenTl.Schema.TUpdateChannelTooLong
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChannelTooLong
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChannelTooLong : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChannelTooLong
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChannelTooLong.Flags
+  commentId: P:OpenTl.Schema.TUpdateChannelTooLong.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateChannelTooLong
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateChannelTooLong.Flags
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateChannelTooLong.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateChannelTooLong
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateChannelTooLong.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateChannelTooLong.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelTooLong.Pts
+  commentId: P:OpenTl.Schema.TUpdateChannelTooLong.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateChannelTooLong
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateChannelTooLong.Pts
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelTooLong.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateChannelTooLong.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChannelTooLong.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelTooLong.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateChannelTooLong.Flags
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateChannelTooLong.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateChannelTooLong.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChannelTooLong.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelTooLong.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateChannelTooLong.Pts
+  fullName: OpenTl.Schema.TUpdateChannelTooLong.Pts

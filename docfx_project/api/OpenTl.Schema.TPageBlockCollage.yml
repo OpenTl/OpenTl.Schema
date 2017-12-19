@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockCollage
+  commentId: T:OpenTl.Schema.TPageBlockCollage
+  id: TPageBlockCollage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockCollage.Caption
+  - OpenTl.Schema.TPageBlockCollage.Items
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockCollage
+  nameWithType: TPageBlockCollage
+  fullName: OpenTl.Schema.TPageBlockCollage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockCollage
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockCollage : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockCollage
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockCollage.Items
+  commentId: P:OpenTl.Schema.TPageBlockCollage.Items
+  id: Items
+  parent: OpenTl.Schema.TPageBlockCollage
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: TPageBlockCollage.Items
+  fullName: OpenTl.Schema.TPageBlockCollage.Items
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Items
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IPageBlock> Items { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+    content.vb: Public Property Items As TVector(Of IPageBlock)
+  overload: OpenTl.Schema.TPageBlockCollage.Items*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockCollage.Caption
+  commentId: P:OpenTl.Schema.TPageBlockCollage.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockCollage
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockCollage.Caption
+  fullName: OpenTl.Schema.TPageBlockCollage.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCollage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockCollage.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockCollage.Items*
+  commentId: Overload:OpenTl.Schema.TPageBlockCollage.Items
+  isExternal: false
+  name: Items
+  nameWithType: TPageBlockCollage.Items
+  fullName: OpenTl.Schema.TPageBlockCollage.Items
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPageBlock}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPageBlock>
+  nameWithType: TVector<IPageBlock>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock>
+  nameWithType.vb: TVector(Of IPageBlock)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPageBlock)
+  name.vb: TVector(Of IPageBlock)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPageBlock
+    name: IPageBlock
+    nameWithType: IPageBlock
+    fullName: OpenTl.Schema.IPageBlock
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPageBlock
+    name: IPageBlock
+    nameWithType: IPageBlock
+    fullName: OpenTl.Schema.IPageBlock
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TPageBlockCollage.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockCollage.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockCollage.Caption
+  fullName: OpenTl.Schema.TPageBlockCollage.Caption
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

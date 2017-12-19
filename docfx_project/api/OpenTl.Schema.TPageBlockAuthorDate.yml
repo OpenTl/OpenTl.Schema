@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockAuthorDate
+  commentId: T:OpenTl.Schema.TPageBlockAuthorDate
+  id: TPageBlockAuthorDate
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockAuthorDate.Author
+  - OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockAuthorDate
+  nameWithType: TPageBlockAuthorDate
+  fullName: OpenTl.Schema.TPageBlockAuthorDate
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockAuthorDate
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockAuthorDate : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockAuthorDate
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockAuthorDate.Author
+  commentId: P:OpenTl.Schema.TPageBlockAuthorDate.Author
+  id: Author
+  parent: OpenTl.Schema.TPageBlockAuthorDate
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: TPageBlockAuthorDate.Author
+  fullName: OpenTl.Schema.TPageBlockAuthorDate.Author
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Author
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Author { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Author As IRichText
+  overload: OpenTl.Schema.TPageBlockAuthorDate.Author*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+  commentId: P:OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+  id: PublishedDate
+  parent: OpenTl.Schema.TPageBlockAuthorDate
+  langs:
+  - csharp
+  - vb
+  name: PublishedDate
+  nameWithType: TPageBlockAuthorDate.PublishedDate
+  fullName: OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PublishedDate
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAuthorDate.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PublishedDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PublishedDate As Integer
+  overload: OpenTl.Schema.TPageBlockAuthorDate.PublishedDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockAuthorDate.Author*
+  commentId: Overload:OpenTl.Schema.TPageBlockAuthorDate.Author
+  isExternal: false
+  name: Author
+  nameWithType: TPageBlockAuthorDate.Author
+  fullName: OpenTl.Schema.TPageBlockAuthorDate.Author
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.TPageBlockAuthorDate.PublishedDate*
+  commentId: Overload:OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+  isExternal: false
+  name: PublishedDate
+  nameWithType: TPageBlockAuthorDate.PublishedDate
+  fullName: OpenTl.Schema.TPageBlockAuthorDate.PublishedDate
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

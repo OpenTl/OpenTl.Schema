@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  commentId: T:OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  id: TInputBotInlineMessageMediaAuto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+  - OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  - OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+  - OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineMessageMediaAuto
+  nameWithType: TInputBotInlineMessageMediaAuto
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineMessageMediaAuto
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineMessageMediaAuto : object, IInputBotInlineMessage, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineMessageMediaAuto
+
+          Inherits Object
+
+          Implements IInputBotInlineMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputBotInlineMessageMediaAuto.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  id: CaptionAsBinary
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  langs:
+  - csharp
+  - vb
+  name: CaptionAsBinary
+  nameWithType: TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CaptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Caption&apos; property
+  example: []
+  syntax:
+    content: public byte[] CaptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CaptionAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+  id: Caption
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TInputBotInlineMessageMediaAuto.Caption
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Caption { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Caption As String
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+  commentId: P:OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.TInputBotInlineMessageMediaAuto
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageMediaAuto.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineMessage/TInputBotInlineMessageMediaAuto.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup*
+  implements:
+  - OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputBotInlineMessageMediaAuto.Flags
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Flags
+- uid: OpenTl.Schema.IInputBotInlineMessage.Flags
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.Flags
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: Flags
+  nameWithType: IInputBotInlineMessage.Flags
+  fullName: OpenTl.Schema.IInputBotInlineMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  isExternal: false
+  name: CaptionAsBinary
+  nameWithType: TInputBotInlineMessageMediaAuto.CaptionAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.CaptionAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TInputBotInlineMessageMediaAuto.Caption
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.Caption
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: TInputBotInlineMessageMediaAuto.ReplyMarkup
+  fullName: OpenTl.Schema.TInputBotInlineMessageMediaAuto.ReplyMarkup
+- uid: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+  parent: OpenTl.Schema.IInputBotInlineMessage
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: IInputBotInlineMessage.ReplyMarkup
+  fullName: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

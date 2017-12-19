@@ -1,0 +1,466 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBotInlineMessageText
+  commentId: T:OpenTl.Schema.TBotInlineMessageText
+  id: TBotInlineMessageText
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBotInlineMessageText.Entities
+  - OpenTl.Schema.TBotInlineMessageText.Flags
+  - OpenTl.Schema.TBotInlineMessageText.Message
+  - OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+  - OpenTl.Schema.TBotInlineMessageText.NoWebpage
+  - OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+  langs:
+  - csharp
+  - vb
+  name: TBotInlineMessageText
+  nameWithType: TBotInlineMessageText
+  fullName: OpenTl.Schema.TBotInlineMessageText
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBotInlineMessageText
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBotInlineMessageText : object, IBotInlineMessage, IObject'
+    content.vb: >-
+      Public Class TBotInlineMessageText
+
+          Inherits Object
+
+          Implements IBotInlineMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBotInlineMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBotInlineMessageText.Flags
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.Flags
+  id: Flags
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TBotInlineMessageText.Flags
+  fullName: OpenTl.Schema.TBotInlineMessageText.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TBotInlineMessageText.Flags*
+  implements:
+  - OpenTl.Schema.IBotInlineMessage.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageText.NoWebpage
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.NoWebpage
+  id: NoWebpage
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: NoWebpage
+  nameWithType: TBotInlineMessageText.NoWebpage
+  fullName: OpenTl.Schema.TBotInlineMessageText.NoWebpage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NoWebpage
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool NoWebpage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NoWebpage As Boolean
+  overload: OpenTl.Schema.TBotInlineMessageText.NoWebpage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: TBotInlineMessageText.MessageAsBinary
+  fullName: OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInlineMessageText.MessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageText.Message
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.Message
+  id: Message
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TBotInlineMessageText.Message
+  fullName: OpenTl.Schema.TBotInlineMessageText.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.TBotInlineMessageText.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageText.Entities
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.Entities
+  id: Entities
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: TBotInlineMessageText.Entities
+  fullName: OpenTl.Schema.TBotInlineMessageText.Entities
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Entities
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IMessageEntity> Entities { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+    content.vb: Public Property Entities As TVector(Of IMessageEntity)
+  overload: OpenTl.Schema.TBotInlineMessageText.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+  commentId: P:OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.TBotInlineMessageText
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: TBotInlineMessageText.ReplyMarkup
+  fullName: OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageText.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.TBotInlineMessageText.ReplyMarkup*
+  implements:
+  - OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBotInlineMessage
+  commentId: T:OpenTl.Schema.IBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInlineMessage
+  nameWithType: IBotInlineMessage
+  fullName: OpenTl.Schema.IBotInlineMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBotInlineMessageText.Flags*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TBotInlineMessageText.Flags
+  fullName: OpenTl.Schema.TBotInlineMessageText.Flags
+- uid: OpenTl.Schema.IBotInlineMessage.Flags
+  commentId: P:OpenTl.Schema.IBotInlineMessage.Flags
+  parent: OpenTl.Schema.IBotInlineMessage
+  isExternal: false
+  name: Flags
+  nameWithType: IBotInlineMessage.Flags
+  fullName: OpenTl.Schema.IBotInlineMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TBotInlineMessageText.NoWebpage*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.NoWebpage
+  isExternal: false
+  name: NoWebpage
+  nameWithType: TBotInlineMessageText.NoWebpage
+  fullName: OpenTl.Schema.TBotInlineMessageText.NoWebpage
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TBotInlineMessageText.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: TBotInlineMessageText.MessageAsBinary
+  fullName: OpenTl.Schema.TBotInlineMessageText.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TBotInlineMessageText.Message*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.Message
+  isExternal: false
+  name: Message
+  nameWithType: TBotInlineMessageText.Message
+  fullName: OpenTl.Schema.TBotInlineMessageText.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TBotInlineMessageText.Entities*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.Entities
+  isExternal: false
+  name: Entities
+  nameWithType: TBotInlineMessageText.Entities
+  fullName: OpenTl.Schema.TBotInlineMessageText.Entities
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessageEntity>
+  nameWithType: TVector<IMessageEntity>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity>
+  nameWithType.vb: TVector(Of IMessageEntity)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessageEntity)
+  name.vb: TVector(Of IMessageEntity)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TBotInlineMessageText.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: TBotInlineMessageText.ReplyMarkup
+  fullName: OpenTl.Schema.TBotInlineMessageText.ReplyMarkup
+- uid: OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  parent: OpenTl.Schema.IBotInlineMessage
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: IBotInlineMessage.ReplyMarkup
+  fullName: OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

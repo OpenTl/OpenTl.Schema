@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x12b299d4)]
 	public class TStickerPack : IStickerPack
 	{
+       /// <summary>Binary representation for the 'Emoticon' property</summary>
        [SerializationOrder(0)]
        public byte[] EmoticonAsBinary { get => _EmoticonAsBinary; set { _Emoticon = Encoding.UTF8.GetString(value); _EmoticonAsBinary = value; }}
        private byte[] _EmoticonAsBinary;

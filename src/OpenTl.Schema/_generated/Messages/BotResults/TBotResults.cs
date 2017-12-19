@@ -22,6 +22,7 @@ namespace OpenTl.Schema.Messages
        [SerializationOrder(2)]
        public long QueryId {get; set;}
 
+       /// <summary>Binary representation for the 'NextOffset' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 1)]
        public byte[] NextOffsetAsBinary { get => _NextOffsetAsBinary; set { _NextOffset = Encoding.UTF8.GetString(value); _NextOffsetAsBinary = value; }}

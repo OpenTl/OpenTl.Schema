@@ -15,6 +15,7 @@ namespace OpenTl.Schema.Channels
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}
 
+       /// <summary>Binary representation for the 'About' property</summary>
        [SerializationOrder(1)]
        public byte[] AboutAsBinary { get => _AboutAsBinary; set { _About = Encoding.UTF8.GetString(value); _AboutAsBinary = value; }}
        private byte[] _AboutAsBinary;

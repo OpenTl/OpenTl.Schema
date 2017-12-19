@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.TAdminLogResults
+  commentId: T:OpenTl.Schema.Channels.TAdminLogResults
+  id: TAdminLogResults
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.TAdminLogResults.Chats
+  - OpenTl.Schema.Channels.TAdminLogResults.Events
+  - OpenTl.Schema.Channels.TAdminLogResults.Users
+  langs:
+  - csharp
+  - vb
+  name: TAdminLogResults
+  nameWithType: TAdminLogResults
+  fullName: OpenTl.Schema.Channels.TAdminLogResults
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TAdminLogResults
+    path: ../src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class TAdminLogResults : object, IAdminLogResults, IObject'
+    content.vb: >-
+      Public Class TAdminLogResults
+
+          Inherits Object
+
+          Implements IAdminLogResults, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Channels.IAdminLogResults
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Events
+  commentId: P:OpenTl.Schema.Channels.TAdminLogResults.Events
+  id: Events
+  parent: OpenTl.Schema.Channels.TAdminLogResults
+  langs:
+  - csharp
+  - vb
+  name: Events
+  nameWithType: TAdminLogResults.Events
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Events
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Events
+    path: ../src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<IChannelAdminLogEvent> Events { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChannelAdminLogEvent}
+    content.vb: Public Property Events As TVector(Of IChannelAdminLogEvent)
+  overload: OpenTl.Schema.Channels.TAdminLogResults.Events*
+  implements:
+  - OpenTl.Schema.Channels.IAdminLogResults.Events
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Chats
+  commentId: P:OpenTl.Schema.Channels.TAdminLogResults.Chats
+  id: Chats
+  parent: OpenTl.Schema.Channels.TAdminLogResults
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TAdminLogResults.Chats
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Channels.TAdminLogResults.Chats*
+  implements:
+  - OpenTl.Schema.Channels.IAdminLogResults.Chats
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Users
+  commentId: P:OpenTl.Schema.Channels.TAdminLogResults.Users
+  id: Users
+  parent: OpenTl.Schema.Channels.TAdminLogResults
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TAdminLogResults.Users
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Channels/AdminLogResults/TAdminLogResults.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Channels.TAdminLogResults.Users*
+  implements:
+  - OpenTl.Schema.Channels.IAdminLogResults.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Channels.IAdminLogResults
+  commentId: T:OpenTl.Schema.Channels.IAdminLogResults
+  parent: OpenTl.Schema.Channels
+  isExternal: false
+  name: IAdminLogResults
+  nameWithType: IAdminLogResults
+  fullName: OpenTl.Schema.Channels.IAdminLogResults
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Events*
+  commentId: Overload:OpenTl.Schema.Channels.TAdminLogResults.Events
+  isExternal: false
+  name: Events
+  nameWithType: TAdminLogResults.Events
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Events
+- uid: OpenTl.Schema.Channels.IAdminLogResults.Events
+  commentId: P:OpenTl.Schema.Channels.IAdminLogResults.Events
+  parent: OpenTl.Schema.Channels.IAdminLogResults
+  isExternal: false
+  name: Events
+  nameWithType: IAdminLogResults.Events
+  fullName: OpenTl.Schema.Channels.IAdminLogResults.Events
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChannelAdminLogEvent}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChannelAdminLogEvent}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChannelAdminLogEvent>
+  nameWithType: TVector<IChannelAdminLogEvent>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChannelAdminLogEvent>
+  nameWithType.vb: TVector(Of IChannelAdminLogEvent)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChannelAdminLogEvent)
+  name.vb: TVector(Of IChannelAdminLogEvent)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChannelAdminLogEvent
+    name: IChannelAdminLogEvent
+    nameWithType: IChannelAdminLogEvent
+    fullName: OpenTl.Schema.IChannelAdminLogEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChannelAdminLogEvent
+    name: IChannelAdminLogEvent
+    nameWithType: IChannelAdminLogEvent
+    fullName: OpenTl.Schema.IChannelAdminLogEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Chats*
+  commentId: Overload:OpenTl.Schema.Channels.TAdminLogResults.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TAdminLogResults.Chats
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Chats
+- uid: OpenTl.Schema.Channels.IAdminLogResults.Chats
+  commentId: P:OpenTl.Schema.Channels.IAdminLogResults.Chats
+  parent: OpenTl.Schema.Channels.IAdminLogResults
+  isExternal: false
+  name: Chats
+  nameWithType: IAdminLogResults.Chats
+  fullName: OpenTl.Schema.Channels.IAdminLogResults.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Channels.TAdminLogResults.Users*
+  commentId: Overload:OpenTl.Schema.Channels.TAdminLogResults.Users
+  isExternal: false
+  name: Users
+  nameWithType: TAdminLogResults.Users
+  fullName: OpenTl.Schema.Channels.TAdminLogResults.Users
+- uid: OpenTl.Schema.Channels.IAdminLogResults.Users
+  commentId: P:OpenTl.Schema.Channels.IAdminLogResults.Users
+  parent: OpenTl.Schema.Channels.IAdminLogResults
+  isExternal: false
+  name: Users
+  nameWithType: IAdminLogResults.Users
+  fullName: OpenTl.Schema.Channels.IAdminLogResults.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

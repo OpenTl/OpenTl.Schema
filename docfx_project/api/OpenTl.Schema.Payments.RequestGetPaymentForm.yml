@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.RequestGetPaymentForm
+  commentId: T:OpenTl.Schema.Payments.RequestGetPaymentForm
+  id: RequestGetPaymentForm
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+  langs:
+  - csharp
+  - vb
+  name: RequestGetPaymentForm
+  nameWithType: RequestGetPaymentForm
+  fullName: OpenTl.Schema.Payments.RequestGetPaymentForm
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestGetPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetPaymentForm
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestGetPaymentForm.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class RequestGetPaymentForm : object, IRequest<IPaymentForm>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetPaymentForm
+
+          Inherits Object
+
+          Implements IRequest(Of IPaymentForm), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentForm}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+  commentId: P:OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.Payments.RequestGetPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: RequestGetPaymentForm.MsgId
+  fullName: OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestGetPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestGetPaymentForm.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public int MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MsgId As Integer
+  overload: OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentForm}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentForm}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IPaymentForm>
+  nameWithType: IRequest<IPaymentForm>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Payments.IPaymentForm>
+  nameWithType.vb: IRequest(Of IPaymentForm)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Payments.IPaymentForm)
+  name.vb: IRequest(Of IPaymentForm)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Payments.IPaymentForm
+    name: IPaymentForm
+    nameWithType: IPaymentForm
+    fullName: OpenTl.Schema.Payments.IPaymentForm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Payments.IPaymentForm
+    name: IPaymentForm
+    nameWithType: IPaymentForm
+    fullName: OpenTl.Schema.Payments.IPaymentForm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId*
+  commentId: Overload:OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: RequestGetPaymentForm.MsgId
+  fullName: OpenTl.Schema.Payments.RequestGetPaymentForm.MsgId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

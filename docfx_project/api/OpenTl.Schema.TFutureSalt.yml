@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TFutureSalt
+  commentId: T:OpenTl.Schema.TFutureSalt
+  id: TFutureSalt
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TFutureSalt.Salt
+  - OpenTl.Schema.TFutureSalt.ValidSince
+  - OpenTl.Schema.TFutureSalt.ValidUntil
+  langs:
+  - csharp
+  - vb
+  name: TFutureSalt
+  nameWithType: TFutureSalt
+  fullName: OpenTl.Schema.TFutureSalt
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFutureSalt
+    path: ../src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TFutureSalt : object, IObject'
+    content.vb: >-
+      Public Class TFutureSalt
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TFutureSalt.ValidSince
+  commentId: P:OpenTl.Schema.TFutureSalt.ValidSince
+  id: ValidSince
+  parent: OpenTl.Schema.TFutureSalt
+  langs:
+  - csharp
+  - vb
+  name: ValidSince
+  nameWithType: TFutureSalt.ValidSince
+  fullName: OpenTl.Schema.TFutureSalt.ValidSince
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ValidSince
+    path: ../src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ValidSince { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ValidSince As Integer
+  overload: OpenTl.Schema.TFutureSalt.ValidSince*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFutureSalt.ValidUntil
+  commentId: P:OpenTl.Schema.TFutureSalt.ValidUntil
+  id: ValidUntil
+  parent: OpenTl.Schema.TFutureSalt
+  langs:
+  - csharp
+  - vb
+  name: ValidUntil
+  nameWithType: TFutureSalt.ValidUntil
+  fullName: OpenTl.Schema.TFutureSalt.ValidUntil
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ValidUntil
+    path: ../src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ValidUntil { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ValidUntil As Integer
+  overload: OpenTl.Schema.TFutureSalt.ValidUntil*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFutureSalt.Salt
+  commentId: P:OpenTl.Schema.TFutureSalt.Salt
+  id: Salt
+  parent: OpenTl.Schema.TFutureSalt
+  langs:
+  - csharp
+  - vb
+  name: Salt
+  nameWithType: TFutureSalt.Salt
+  fullName: OpenTl.Schema.TFutureSalt.Salt
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Salt
+    path: ../src/OpenTl.Schema/_generated/_Entities/TFutureSalt.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Salt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Salt As Long
+  overload: OpenTl.Schema.TFutureSalt.Salt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TFutureSalt.ValidSince*
+  commentId: Overload:OpenTl.Schema.TFutureSalt.ValidSince
+  isExternal: false
+  name: ValidSince
+  nameWithType: TFutureSalt.ValidSince
+  fullName: OpenTl.Schema.TFutureSalt.ValidSince
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TFutureSalt.ValidUntil*
+  commentId: Overload:OpenTl.Schema.TFutureSalt.ValidUntil
+  isExternal: false
+  name: ValidUntil
+  nameWithType: TFutureSalt.ValidUntil
+  fullName: OpenTl.Schema.TFutureSalt.ValidUntil
+- uid: OpenTl.Schema.TFutureSalt.Salt*
+  commentId: Overload:OpenTl.Schema.TFutureSalt.Salt
+  isExternal: false
+  name: Salt
+  nameWithType: TFutureSalt.Salt
+  fullName: OpenTl.Schema.TFutureSalt.Salt
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

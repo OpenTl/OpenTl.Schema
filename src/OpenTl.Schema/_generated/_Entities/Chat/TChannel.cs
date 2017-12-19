@@ -62,12 +62,14 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 13)]
        public long AccessHash {get; set;}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(13)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
        private byte[] _TitleAsBinary;
        private string _Title;
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
+       /// <summary>Binary representation for the 'Username' property</summary>
        [SerializationOrder(14)]
        [CanSerialize("Flags", 6)]
        public byte[] UsernameAsBinary { get => _UsernameAsBinary; set { _Username = Encoding.UTF8.GetString(value); _UsernameAsBinary = value; }}
@@ -84,6 +86,7 @@ namespace OpenTl.Schema
        [SerializationOrder(17)]
        public int Version {get; set;}
 
+       /// <summary>Binary representation for the 'RestrictionReason' property</summary>
        [SerializationOrder(18)]
        [CanSerialize("Flags", 9)]
        public byte[] RestrictionReasonAsBinary { get => _RestrictionReasonAsBinary; set { _RestrictionReason = Encoding.UTF8.GetString(value); _RestrictionReasonAsBinary = value; }}

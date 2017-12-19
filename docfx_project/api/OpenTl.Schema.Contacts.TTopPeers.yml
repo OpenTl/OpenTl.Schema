@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Contacts.TTopPeers
+  commentId: T:OpenTl.Schema.Contacts.TTopPeers
+  id: TTopPeers
+  parent: OpenTl.Schema.Contacts
+  children:
+  - OpenTl.Schema.Contacts.TTopPeers.Categories
+  - OpenTl.Schema.Contacts.TTopPeers.Chats
+  - OpenTl.Schema.Contacts.TTopPeers.Users
+  langs:
+  - csharp
+  - vb
+  name: TTopPeers
+  nameWithType: TTopPeers
+  fullName: OpenTl.Schema.Contacts.TTopPeers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTopPeers
+    path: ../src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: 'public class TTopPeers : object, ITopPeers, IObject'
+    content.vb: >-
+      Public Class TTopPeers
+
+          Inherits Object
+
+          Implements ITopPeers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Contacts.ITopPeers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Contacts.TTopPeers.Categories
+  commentId: P:OpenTl.Schema.Contacts.TTopPeers.Categories
+  id: Categories
+  parent: OpenTl.Schema.Contacts.TTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Categories
+  nameWithType: TTopPeers.Categories
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Categories
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Categories
+    path: ../src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<ITopPeerCategoryPeers> Categories { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ITopPeerCategoryPeers}
+    content.vb: Public Property Categories As TVector(Of ITopPeerCategoryPeers)
+  overload: OpenTl.Schema.Contacts.TTopPeers.Categories*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TTopPeers.Chats
+  commentId: P:OpenTl.Schema.Contacts.TTopPeers.Chats
+  id: Chats
+  parent: OpenTl.Schema.Contacts.TTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TTopPeers.Chats
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Contacts.TTopPeers.Chats*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Contacts.TTopPeers.Users
+  commentId: P:OpenTl.Schema.Contacts.TTopPeers.Users
+  id: Users
+  parent: OpenTl.Schema.Contacts.TTopPeers
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TTopPeers.Users
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Contacts/TopPeers/TTopPeers.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Contacts
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Contacts.TTopPeers.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Contacts.ITopPeers
+  commentId: T:OpenTl.Schema.Contacts.ITopPeers
+  parent: OpenTl.Schema.Contacts
+  isExternal: false
+  name: ITopPeers
+  nameWithType: ITopPeers
+  fullName: OpenTl.Schema.Contacts.ITopPeers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Contacts.TTopPeers.Categories*
+  commentId: Overload:OpenTl.Schema.Contacts.TTopPeers.Categories
+  isExternal: false
+  name: Categories
+  nameWithType: TTopPeers.Categories
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Categories
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ITopPeerCategoryPeers}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ITopPeerCategoryPeers}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ITopPeerCategoryPeers>
+  nameWithType: TVector<ITopPeerCategoryPeers>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ITopPeerCategoryPeers>
+  nameWithType.vb: TVector(Of ITopPeerCategoryPeers)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ITopPeerCategoryPeers)
+  name.vb: TVector(Of ITopPeerCategoryPeers)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ITopPeerCategoryPeers
+    name: ITopPeerCategoryPeers
+    nameWithType: ITopPeerCategoryPeers
+    fullName: OpenTl.Schema.ITopPeerCategoryPeers
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ITopPeerCategoryPeers
+    name: ITopPeerCategoryPeers
+    nameWithType: ITopPeerCategoryPeers
+    fullName: OpenTl.Schema.ITopPeerCategoryPeers
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Contacts.TTopPeers.Chats*
+  commentId: Overload:OpenTl.Schema.Contacts.TTopPeers.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TTopPeers.Chats
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Contacts.TTopPeers.Users*
+  commentId: Overload:OpenTl.Schema.Contacts.TTopPeers.Users
+  isExternal: false
+  name: Users
+  nameWithType: TTopPeers.Users
+  fullName: OpenTl.Schema.Contacts.TTopPeers.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

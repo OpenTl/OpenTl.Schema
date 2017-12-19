@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateUserPhone
+  commentId: T:OpenTl.Schema.TUpdateUserPhone
+  id: TUpdateUserPhone
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateUserPhone.Phone
+  - OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+  - OpenTl.Schema.TUpdateUserPhone.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateUserPhone
+  nameWithType: TUpdateUserPhone
+  fullName: OpenTl.Schema.TUpdateUserPhone
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateUserPhone
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateUserPhone : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateUserPhone
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateUserPhone.UserId
+  commentId: P:OpenTl.Schema.TUpdateUserPhone.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateUserPhone
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateUserPhone.UserId
+  fullName: OpenTl.Schema.TUpdateUserPhone.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateUserPhone.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+  commentId: P:OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+  id: PhoneAsBinary
+  parent: OpenTl.Schema.TUpdateUserPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneAsBinary
+  nameWithType: TUpdateUserPhone.PhoneAsBinary
+  fullName: OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Phone&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateUserPhone.Phone
+  commentId: P:OpenTl.Schema.TUpdateUserPhone.Phone
+  id: Phone
+  parent: OpenTl.Schema.TUpdateUserPhone
+  langs:
+  - csharp
+  - vb
+  name: Phone
+  nameWithType: TUpdateUserPhone.Phone
+  fullName: OpenTl.Schema.TUpdateUserPhone.Phone
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Phone
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateUserPhone.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Phone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Phone As String
+  overload: OpenTl.Schema.TUpdateUserPhone.Phone*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateUserPhone.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhone.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateUserPhone.UserId
+  fullName: OpenTl.Schema.TUpdateUserPhone.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+  isExternal: false
+  name: PhoneAsBinary
+  nameWithType: TUpdateUserPhone.PhoneAsBinary
+  fullName: OpenTl.Schema.TUpdateUserPhone.PhoneAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateUserPhone.Phone*
+  commentId: Overload:OpenTl.Schema.TUpdateUserPhone.Phone
+  isExternal: false
+  name: Phone
+  nameWithType: TUpdateUserPhone.Phone
+  fullName: OpenTl.Schema.TUpdateUserPhone.Phone
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TMessagesNotModified
+  commentId: T:OpenTl.Schema.Messages.TMessagesNotModified
+  id: TMessagesNotModified
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TMessagesNotModified.Count
+  langs:
+  - csharp
+  - vb
+  name: TMessagesNotModified
+  nameWithType: TMessagesNotModified
+  fullName: OpenTl.Schema.Messages.TMessagesNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Messages/TMessagesNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessagesNotModified
+    path: ../src/OpenTl.Schema/_generated/Messages/Messages/TMessagesNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TMessagesNotModified : object, IMessages, IObject'
+    content.vb: >-
+      Public Class TMessagesNotModified
+
+          Inherits Object
+
+          Implements IMessages, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IMessages
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TMessagesNotModified.Count
+  commentId: P:OpenTl.Schema.Messages.TMessagesNotModified.Count
+  id: Count
+  parent: OpenTl.Schema.Messages.TMessagesNotModified
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: TMessagesNotModified.Count
+  fullName: OpenTl.Schema.Messages.TMessagesNotModified.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/Messages/TMessagesNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/Messages/Messages/TMessagesNotModified.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Count As Integer
+  overload: OpenTl.Schema.Messages.TMessagesNotModified.Count*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IMessages
+  commentId: T:OpenTl.Schema.Messages.IMessages
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IMessages
+  nameWithType: IMessages
+  fullName: OpenTl.Schema.Messages.IMessages
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TMessagesNotModified.Count*
+  commentId: Overload:OpenTl.Schema.Messages.TMessagesNotModified.Count
+  isExternal: false
+  name: Count
+  nameWithType: TMessagesNotModified.Count
+  fullName: OpenTl.Schema.Messages.TMessagesNotModified.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

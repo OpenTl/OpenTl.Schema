@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.RequestGetSavedInfo
+  commentId: T:OpenTl.Schema.Payments.RequestGetSavedInfo
+  id: RequestGetSavedInfo
+  parent: OpenTl.Schema.Payments
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: RequestGetSavedInfo
+  nameWithType: RequestGetSavedInfo
+  fullName: OpenTl.Schema.Payments.RequestGetSavedInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestGetSavedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetSavedInfo
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestGetSavedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class RequestGetSavedInfo : object, IRequest<ISavedInfo>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetSavedInfo
+
+          Inherits Object
+
+          Implements IRequest(Of ISavedInfo), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Payments.ISavedInfo}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Payments.ISavedInfo}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Payments.ISavedInfo}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ISavedInfo>
+  nameWithType: IRequest<ISavedInfo>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Payments.ISavedInfo>
+  nameWithType.vb: IRequest(Of ISavedInfo)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Payments.ISavedInfo)
+  name.vb: IRequest(Of ISavedInfo)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Payments.ISavedInfo
+    name: ISavedInfo
+    nameWithType: ISavedInfo
+    fullName: OpenTl.Schema.Payments.ISavedInfo
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Payments.ISavedInfo
+    name: ISavedInfo
+    nameWithType: ISavedInfo
+    fullName: OpenTl.Schema.Payments.ISavedInfo
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

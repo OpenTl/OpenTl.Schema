@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageRange
+  commentId: T:OpenTl.Schema.TMessageRange
+  id: TMessageRange
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageRange.MaxId
+  - OpenTl.Schema.TMessageRange.MinId
+  langs:
+  - csharp
+  - vb
+  name: TMessageRange
+  nameWithType: TMessageRange
+  fullName: OpenTl.Schema.TMessageRange
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageRange
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageRange : object, IMessageRange, IObject'
+    content.vb: >-
+      Public Class TMessageRange
+
+          Inherits Object
+
+          Implements IMessageRange, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageRange
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageRange.MinId
+  commentId: P:OpenTl.Schema.TMessageRange.MinId
+  id: MinId
+  parent: OpenTl.Schema.TMessageRange
+  langs:
+  - csharp
+  - vb
+  name: MinId
+  nameWithType: TMessageRange.MinId
+  fullName: OpenTl.Schema.TMessageRange.MinId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MinId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinId As Integer
+  overload: OpenTl.Schema.TMessageRange.MinId*
+  implements:
+  - OpenTl.Schema.IMessageRange.MinId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageRange.MaxId
+  commentId: P:OpenTl.Schema.TMessageRange.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.TMessageRange
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: TMessageRange.MaxId
+  fullName: OpenTl.Schema.TMessageRange.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageRange/TMessageRange.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.TMessageRange.MaxId*
+  implements:
+  - OpenTl.Schema.IMessageRange.MaxId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageRange
+  commentId: T:OpenTl.Schema.IMessageRange
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageRange
+  nameWithType: IMessageRange
+  fullName: OpenTl.Schema.IMessageRange
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageRange.MinId*
+  commentId: Overload:OpenTl.Schema.TMessageRange.MinId
+  isExternal: false
+  name: MinId
+  nameWithType: TMessageRange.MinId
+  fullName: OpenTl.Schema.TMessageRange.MinId
+- uid: OpenTl.Schema.IMessageRange.MinId
+  commentId: P:OpenTl.Schema.IMessageRange.MinId
+  parent: OpenTl.Schema.IMessageRange
+  isExternal: false
+  name: MinId
+  nameWithType: IMessageRange.MinId
+  fullName: OpenTl.Schema.IMessageRange.MinId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMessageRange.MaxId*
+  commentId: Overload:OpenTl.Schema.TMessageRange.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: TMessageRange.MaxId
+  fullName: OpenTl.Schema.TMessageRange.MaxId
+- uid: OpenTl.Schema.IMessageRange.MaxId
+  commentId: P:OpenTl.Schema.IMessageRange.MaxId
+  parent: OpenTl.Schema.IMessageRange
+  isExternal: false
+  name: MaxId
+  nameWithType: IMessageRange.MaxId
+  fullName: OpenTl.Schema.IMessageRange.MaxId

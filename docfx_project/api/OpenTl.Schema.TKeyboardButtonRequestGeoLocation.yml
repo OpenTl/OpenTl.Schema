@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TKeyboardButtonRequestGeoLocation
+  commentId: T:OpenTl.Schema.TKeyboardButtonRequestGeoLocation
+  id: TKeyboardButtonRequestGeoLocation
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+  - OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TKeyboardButtonRequestGeoLocation
+  nameWithType: TKeyboardButtonRequestGeoLocation
+  fullName: OpenTl.Schema.TKeyboardButtonRequestGeoLocation
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TKeyboardButtonRequestGeoLocation
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TKeyboardButtonRequestGeoLocation : object, IKeyboardButton, IObject'
+    content.vb: >-
+      Public Class TKeyboardButtonRequestGeoLocation
+
+          Inherits Object
+
+          Implements IKeyboardButton, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IKeyboardButton
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+  commentId: P:OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.TKeyboardButtonRequestGeoLocation
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonRequestGeoLocation.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.TextAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+  commentId: P:OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+  id: Text
+  parent: OpenTl.Schema.TKeyboardButtonRequestGeoLocation
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TKeyboardButtonRequestGeoLocation.Text
+  fullName: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonRequestGeoLocation.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IKeyboardButton
+  commentId: T:OpenTl.Schema.IKeyboardButton
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IKeyboardButton
+  nameWithType: IKeyboardButton
+  fullName: OpenTl.Schema.IKeyboardButton
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonRequestGeoLocation.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.TextAsBinary
+- uid: OpenTl.Schema.IKeyboardButton.TextAsBinary
+  commentId: P:OpenTl.Schema.IKeyboardButton.TextAsBinary
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: IKeyboardButton.TextAsBinary
+  fullName: OpenTl.Schema.IKeyboardButton.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+  isExternal: false
+  name: Text
+  nameWithType: TKeyboardButtonRequestGeoLocation.Text
+  fullName: OpenTl.Schema.TKeyboardButtonRequestGeoLocation.Text
+- uid: OpenTl.Schema.IKeyboardButton.Text
+  commentId: P:OpenTl.Schema.IKeyboardButton.Text
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: Text
+  nameWithType: IKeyboardButton.Text
+  fullName: OpenTl.Schema.IKeyboardButton.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

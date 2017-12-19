@@ -22,6 +22,7 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public int Duration {get; set;}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(3)]
        [CanSerialize("Flags", 0)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
@@ -29,6 +30,7 @@ namespace OpenTl.Schema
        private string _Title;
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
+       /// <summary>Binary representation for the 'Performer' property</summary>
        [SerializationOrder(4)]
        [CanSerialize("Flags", 1)]
        public byte[] PerformerAsBinary { get => _PerformerAsBinary; set { _Performer = Encoding.UTF8.GetString(value); _PerformerAsBinary = value; }}

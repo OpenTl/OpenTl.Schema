@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateNewEncryptedMessage
+  commentId: T:OpenTl.Schema.TUpdateNewEncryptedMessage
+  id: TUpdateNewEncryptedMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+  - OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+  langs:
+  - csharp
+  - vb
+  name: TUpdateNewEncryptedMessage
+  nameWithType: TUpdateNewEncryptedMessage
+  fullName: OpenTl.Schema.TUpdateNewEncryptedMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateNewEncryptedMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateNewEncryptedMessage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateNewEncryptedMessage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+  commentId: P:OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+  id: Message
+  parent: OpenTl.Schema.TUpdateNewEncryptedMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TUpdateNewEncryptedMessage.Message
+  fullName: OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IEncryptedMessage Message { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IEncryptedMessage
+    content.vb: Public Property Message As IEncryptedMessage
+  overload: OpenTl.Schema.TUpdateNewEncryptedMessage.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+  commentId: P:OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+  id: Qts
+  parent: OpenTl.Schema.TUpdateNewEncryptedMessage
+  langs:
+  - csharp
+  - vb
+  name: Qts
+  nameWithType: TUpdateNewEncryptedMessage.Qts
+  fullName: OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Qts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewEncryptedMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Qts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Qts As Integer
+  overload: OpenTl.Schema.TUpdateNewEncryptedMessage.Qts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateNewEncryptedMessage.Message*
+  commentId: Overload:OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+  isExternal: false
+  name: Message
+  nameWithType: TUpdateNewEncryptedMessage.Message
+  fullName: OpenTl.Schema.TUpdateNewEncryptedMessage.Message
+- uid: OpenTl.Schema.IEncryptedMessage
+  commentId: T:OpenTl.Schema.IEncryptedMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedMessage
+  nameWithType: IEncryptedMessage
+  fullName: OpenTl.Schema.IEncryptedMessage
+- uid: OpenTl.Schema.TUpdateNewEncryptedMessage.Qts*
+  commentId: Overload:OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+  isExternal: false
+  name: Qts
+  nameWithType: TUpdateNewEncryptedMessage.Qts
+  fullName: OpenTl.Schema.TUpdateNewEncryptedMessage.Qts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

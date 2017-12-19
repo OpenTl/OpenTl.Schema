@@ -12,18 +12,21 @@ namespace OpenTl.Schema
 	[Serialize(0x83c95aec)]
 	public class TPQInnerData : IObject
 	{
+       /// <summary>Binary representation for the 'Pq' property</summary>
        [SerializationOrder(0)]
        public byte[] PqAsBinary { get => _PqAsBinary; set { _Pq = Encoding.UTF8.GetString(value); _PqAsBinary = value; }}
        private byte[] _PqAsBinary;
        private string _Pq;
        public string Pq { get => _Pq; set { PqAsBinary = Encoding.UTF8.GetBytes(value); _Pq = value; }}
 
+       /// <summary>Binary representation for the 'P' property</summary>
        [SerializationOrder(1)]
        public byte[] PAsBinary { get => _PAsBinary; set { _P = Encoding.UTF8.GetString(value); _PAsBinary = value; }}
        private byte[] _PAsBinary;
        private string _P;
        public string P { get => _P; set { PAsBinary = Encoding.UTF8.GetBytes(value); _P = value; }}
 
+       /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(2)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
        private byte[] _QAsBinary;

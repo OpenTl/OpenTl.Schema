@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPeerNotifyEventsAll
+  commentId: T:OpenTl.Schema.TPeerNotifyEventsAll
+  id: TPeerNotifyEventsAll
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TPeerNotifyEventsAll
+  nameWithType: TPeerNotifyEventsAll
+  fullName: OpenTl.Schema.TPeerNotifyEventsAll
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifyEvents/TPeerNotifyEventsAll.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPeerNotifyEventsAll
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifyEvents/TPeerNotifyEventsAll.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPeerNotifyEventsAll : object, IPeerNotifyEvents, IObject'
+    content.vb: >-
+      Public Class TPeerNotifyEventsAll
+
+          Inherits Object
+
+          Implements IPeerNotifyEvents, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPeerNotifyEvents
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPeerNotifyEvents
+  commentId: T:OpenTl.Schema.IPeerNotifyEvents
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifyEvents
+  nameWithType: IPeerNotifyEvents
+  fullName: OpenTl.Schema.IPeerNotifyEvents
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

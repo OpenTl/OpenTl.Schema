@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputDocument
+  commentId: T:OpenTl.Schema.TInputDocument
+  id: TInputDocument
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputDocument.AccessHash
+  - OpenTl.Schema.TInputDocument.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputDocument
+  nameWithType: TInputDocument
+  fullName: OpenTl.Schema.TInputDocument
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputDocument
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputDocument : object, IInputDocument, IObject'
+    content.vb: >-
+      Public Class TInputDocument
+
+          Inherits Object
+
+          Implements IInputDocument, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputDocument
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputDocument.Id
+  commentId: P:OpenTl.Schema.TInputDocument.Id
+  id: Id
+  parent: OpenTl.Schema.TInputDocument
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputDocument.Id
+  fullName: OpenTl.Schema.TInputDocument.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputDocument.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputDocument.AccessHash
+  commentId: P:OpenTl.Schema.TInputDocument.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputDocument
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputDocument.AccessHash
+  fullName: OpenTl.Schema.TInputDocument.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputDocument/TInputDocument.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputDocument.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputDocument.Id*
+  commentId: Overload:OpenTl.Schema.TInputDocument.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputDocument.Id
+  fullName: OpenTl.Schema.TInputDocument.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputDocument.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputDocument.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputDocument.AccessHash
+  fullName: OpenTl.Schema.TInputDocument.AccessHash

@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPeerChannel
+  commentId: T:OpenTl.Schema.TInputPeerChannel
+  id: TInputPeerChannel
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputPeerChannel.AccessHash
+  - OpenTl.Schema.TInputPeerChannel.ChannelId
+  langs:
+  - csharp
+  - vb
+  name: TInputPeerChannel
+  nameWithType: TInputPeerChannel
+  fullName: OpenTl.Schema.TInputPeerChannel
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPeerChannel
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPeerChannel : object, IInputPeer, IObject'
+    content.vb: >-
+      Public Class TInputPeerChannel
+
+          Inherits Object
+
+          Implements IInputPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputPeerChannel.ChannelId
+  commentId: P:OpenTl.Schema.TInputPeerChannel.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TInputPeerChannel
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TInputPeerChannel.ChannelId
+  fullName: OpenTl.Schema.TInputPeerChannel.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TInputPeerChannel.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputPeerChannel.AccessHash
+  commentId: P:OpenTl.Schema.TInputPeerChannel.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputPeerChannel
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputPeerChannel.AccessHash
+  fullName: OpenTl.Schema.TInputPeerChannel.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPeer/TInputPeerChannel.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputPeerChannel.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputPeerChannel.ChannelId*
+  commentId: Overload:OpenTl.Schema.TInputPeerChannel.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TInputPeerChannel.ChannelId
+  fullName: OpenTl.Schema.TInputPeerChannel.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputPeerChannel.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputPeerChannel.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputPeerChannel.AccessHash
+  fullName: OpenTl.Schema.TInputPeerChannel.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

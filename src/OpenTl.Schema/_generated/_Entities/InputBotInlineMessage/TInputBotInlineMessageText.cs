@@ -19,6 +19,7 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 0)]
        public bool NoWebpage {get; set;}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(2)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

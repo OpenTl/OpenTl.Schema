@@ -1,0 +1,308 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInlineBotSwitchPM
+  commentId: T:OpenTl.Schema.TInlineBotSwitchPM
+  id: TInlineBotSwitchPM
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInlineBotSwitchPM.StartParam
+  - OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+  - OpenTl.Schema.TInlineBotSwitchPM.Text
+  - OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInlineBotSwitchPM
+  nameWithType: TInlineBotSwitchPM
+  fullName: OpenTl.Schema.TInlineBotSwitchPM
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInlineBotSwitchPM
+    path: ../src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInlineBotSwitchPM : object, IInlineBotSwitchPM, IObject'
+    content.vb: >-
+      Public Class TInlineBotSwitchPM
+
+          Inherits Object
+
+          Implements IInlineBotSwitchPM, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInlineBotSwitchPM
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+  commentId: P:OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.TInlineBotSwitchPM
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TInlineBotSwitchPM.TextAsBinary
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary*
+  implements:
+  - OpenTl.Schema.IInlineBotSwitchPM.TextAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInlineBotSwitchPM.Text
+  commentId: P:OpenTl.Schema.TInlineBotSwitchPM.Text
+  id: Text
+  parent: OpenTl.Schema.TInlineBotSwitchPM
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TInlineBotSwitchPM.Text
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.TInlineBotSwitchPM.Text*
+  implements:
+  - OpenTl.Schema.IInlineBotSwitchPM.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+  commentId: P:OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+  id: StartParamAsBinary
+  parent: OpenTl.Schema.TInlineBotSwitchPM
+  langs:
+  - csharp
+  - vb
+  name: StartParamAsBinary
+  nameWithType: TInlineBotSwitchPM.StartParamAsBinary
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StartParamAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;StartParam&apos; property
+  example: []
+  syntax:
+    content: public byte[] StartParamAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property StartParamAsBinary As Byte()
+  overload: OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary*
+  implements:
+  - OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInlineBotSwitchPM.StartParam
+  commentId: P:OpenTl.Schema.TInlineBotSwitchPM.StartParam
+  id: StartParam
+  parent: OpenTl.Schema.TInlineBotSwitchPM
+  langs:
+  - csharp
+  - vb
+  name: StartParam
+  nameWithType: TInlineBotSwitchPM.StartParam
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.StartParam
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StartParam
+    path: ../src/OpenTl.Schema/_generated/_Entities/InlineBotSwitchPM/TInlineBotSwitchPM.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string StartParam { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartParam As String
+  overload: OpenTl.Schema.TInlineBotSwitchPM.StartParam*
+  implements:
+  - OpenTl.Schema.IInlineBotSwitchPM.StartParam
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInlineBotSwitchPM
+  commentId: T:OpenTl.Schema.IInlineBotSwitchPM
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInlineBotSwitchPM
+  nameWithType: IInlineBotSwitchPM
+  fullName: OpenTl.Schema.IInlineBotSwitchPM
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TInlineBotSwitchPM.TextAsBinary
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.TextAsBinary
+- uid: OpenTl.Schema.IInlineBotSwitchPM.TextAsBinary
+  commentId: P:OpenTl.Schema.IInlineBotSwitchPM.TextAsBinary
+  parent: OpenTl.Schema.IInlineBotSwitchPM
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: IInlineBotSwitchPM.TextAsBinary
+  fullName: OpenTl.Schema.IInlineBotSwitchPM.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInlineBotSwitchPM.Text*
+  commentId: Overload:OpenTl.Schema.TInlineBotSwitchPM.Text
+  isExternal: false
+  name: Text
+  nameWithType: TInlineBotSwitchPM.Text
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.Text
+- uid: OpenTl.Schema.IInlineBotSwitchPM.Text
+  commentId: P:OpenTl.Schema.IInlineBotSwitchPM.Text
+  parent: OpenTl.Schema.IInlineBotSwitchPM
+  isExternal: false
+  name: Text
+  nameWithType: IInlineBotSwitchPM.Text
+  fullName: OpenTl.Schema.IInlineBotSwitchPM.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary*
+  commentId: Overload:OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+  isExternal: false
+  name: StartParamAsBinary
+  nameWithType: TInlineBotSwitchPM.StartParamAsBinary
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.StartParamAsBinary
+- uid: OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary
+  commentId: P:OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary
+  parent: OpenTl.Schema.IInlineBotSwitchPM
+  isExternal: false
+  name: StartParamAsBinary
+  nameWithType: IInlineBotSwitchPM.StartParamAsBinary
+  fullName: OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary
+- uid: OpenTl.Schema.TInlineBotSwitchPM.StartParam*
+  commentId: Overload:OpenTl.Schema.TInlineBotSwitchPM.StartParam
+  isExternal: false
+  name: StartParam
+  nameWithType: TInlineBotSwitchPM.StartParam
+  fullName: OpenTl.Schema.TInlineBotSwitchPM.StartParam
+- uid: OpenTl.Schema.IInlineBotSwitchPM.StartParam
+  commentId: P:OpenTl.Schema.IInlineBotSwitchPM.StartParam
+  parent: OpenTl.Schema.IInlineBotSwitchPM
+  isExternal: false
+  name: StartParam
+  nameWithType: IInlineBotSwitchPM.StartParam
+  fullName: OpenTl.Schema.IInlineBotSwitchPM.StartParam

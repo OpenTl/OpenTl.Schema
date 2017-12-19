@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack
+  commentId: T:OpenTl.Schema.Langpack.RequestGetLangPack
+  id: RequestGetLangPack
+  parent: OpenTl.Schema.Langpack
+  children:
+  - OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+  - OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestGetLangPack
+  nameWithType: RequestGetLangPack
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetLangPack
+    path: ../src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Langpack
+  syntax:
+    content: 'public class RequestGetLangPack : object, IRequest<ILangPackDifference>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetLangPack
+
+          Inherits Object
+
+          Implements IRequest(Of ILangPackDifference), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.ILangPackDifference}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+  commentId: P:OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+  id: LangCodeAsBinary
+  parent: OpenTl.Schema.Langpack.RequestGetLangPack
+  langs:
+  - csharp
+  - vb
+  name: LangCodeAsBinary
+  nameWithType: RequestGetLangPack.LangCodeAsBinary
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Langpack
+  summary: Binary representation for the &apos;LangCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] LangCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LangCodeAsBinary As Byte()
+  overload: OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+  commentId: P:OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+  id: LangCode
+  parent: OpenTl.Schema.Langpack.RequestGetLangPack
+  langs:
+  - csharp
+  - vb
+  name: LangCode
+  nameWithType: RequestGetLangPack.LangCode
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LangCode
+    path: ../src/OpenTl.Schema/_generated/Langpack/RequestGetLangPack.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Langpack
+  syntax:
+    content: public string LangCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LangCode As String
+  overload: OpenTl.Schema.Langpack.RequestGetLangPack.LangCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Langpack
+  commentId: N:OpenTl.Schema.Langpack
+  isExternal: false
+  name: OpenTl.Schema.Langpack
+  nameWithType: OpenTl.Schema.Langpack
+  fullName: OpenTl.Schema.Langpack
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.ILangPackDifference}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.ILangPackDifference}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ILangPackDifference>
+  nameWithType: IRequest<ILangPackDifference>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.ILangPackDifference>
+  nameWithType.vb: IRequest(Of ILangPackDifference)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.ILangPackDifference)
+  name.vb: IRequest(Of ILangPackDifference)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ILangPackDifference
+    name: ILangPackDifference
+    nameWithType: ILangPackDifference
+    fullName: OpenTl.Schema.ILangPackDifference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ILangPackDifference
+    name: ILangPackDifference
+    nameWithType: ILangPackDifference
+    fullName: OpenTl.Schema.ILangPackDifference
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+  isExternal: false
+  name: LangCodeAsBinary
+  nameWithType: RequestGetLangPack.LangCodeAsBinary
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack.LangCodeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack.LangCode*
+  commentId: Overload:OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+  isExternal: false
+  name: LangCode
+  nameWithType: RequestGetLangPack.LangCode
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack.LangCode
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

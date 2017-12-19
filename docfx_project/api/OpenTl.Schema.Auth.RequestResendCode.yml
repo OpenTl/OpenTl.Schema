@@ -1,0 +1,356 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.RequestResendCode
+  commentId: T:OpenTl.Schema.Auth.RequestResendCode
+  id: RequestResendCode
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash
+  - OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+  - OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+  - OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestResendCode
+  nameWithType: RequestResendCode
+  fullName: OpenTl.Schema.Auth.RequestResendCode
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestResendCode
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class RequestResendCode : object, IRequest<ISentCode>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestResendCode
+
+          Inherits Object
+
+          Implements IRequest(Of ISentCode), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.Auth.RequestResendCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: RequestResendCode.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+  commentId: P:OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.Auth.RequestResendCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: RequestResendCode.PhoneNumber
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.Auth.RequestResendCode.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+  id: PhoneCodeHashAsBinary
+  parent: OpenTl.Schema.Auth.RequestResendCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestResendCode.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHashAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneCodeHash&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeHashAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeHashAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash
+  commentId: P:OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash
+  id: PhoneCodeHash
+  parent: OpenTl.Schema.Auth.RequestResendCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHash
+  nameWithType: RequestResendCode.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHash
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestResendCode.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneCodeHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCodeHash As String
+  overload: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ISentCode>
+  nameWithType: IRequest<ISentCode>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Auth.ISentCode>
+  nameWithType.vb: IRequest(Of ISentCode)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Auth.ISentCode)
+  name.vb: IRequest(Of ISentCode)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Auth.ISentCode
+    name: ISentCode
+    nameWithType: ISentCode
+    fullName: OpenTl.Schema.Auth.ISentCode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Auth.ISentCode
+    name: ISentCode
+    nameWithType: ISentCode
+    fullName: OpenTl.Schema.Auth.ISentCode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: RequestResendCode.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: RequestResendCode.PhoneNumber
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+  isExternal: false
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestResendCode.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHashAsBinary
+- uid: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash*
+  commentId: Overload:OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash
+  isExternal: false
+  name: PhoneCodeHash
+  nameWithType: RequestResendCode.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.RequestResendCode.PhoneCodeHash

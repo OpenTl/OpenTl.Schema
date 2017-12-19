@@ -10,8 +10,8 @@ open System.Text.RegularExpressions
 
 let (|EndWith|_|) (pattern:string) (input: string) =
   match input with
-  | source when input.EndsWith(pattern) -> Some()
-  | source -> None
+  | _ when input.EndsWith(pattern) -> Some()
+  | _ -> None
 
 let defaultNamespace = "OpenTl.Schema"
 let baseObjectInterface = "IObject"
@@ -88,7 +88,7 @@ let validTypes = HashSet [|"string"; "int"; "long"; "double"|]
 
 let rec typeMapping (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>) (typeName:string) = 
     match typeName with
-    | ltType when validTypes.Contains(typeName.ToLower()) -> typeName
+    | _ when validTypes.Contains(typeName.ToLower()) -> typeName
     | "vector" -> "TVector"
     | "int128" -> "byte[]"
     | "int256" -> "byte[]"
@@ -145,6 +145,13 @@ let getParameterForInterface (typeSet: HashSet<string>) (interfacesSet: HashSet<
 
         result |> String.concat "\n"
 
+let getSummaryForParam (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) =
+    let paramName = getName p.Name
+    let paramType = typeMapping typeSet interfacesSet p.Type
+    match paramType with 
+    | "string" -> sprintf "       /// <summary>Binary representation for the '%s' property</summary>" paramName |> Some
+    | _ -> None
+
 let getParameterForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
     let paramName = getName p.Name
     let paramType = typeMapping typeSet interfacesSet p.Type
@@ -192,6 +199,10 @@ let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<str
         | "int128" ->  result.Add "       [SerializationArrayLength(16)]"
         | "int256" ->  result.Add "       [SerializationArrayLength(32)]"
         | _ -> ()
+
+        match getSummaryForParam typeSet interfacesSet  p with
+        | Some(value) -> result.Add value
+        | None -> ()
 
         sprintf "       [SerializationOrder(%i)]" i |> result.Add
         

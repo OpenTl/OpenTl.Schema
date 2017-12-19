@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Langpack
+  commentId: N:OpenTl.Schema.Langpack
+  id: OpenTl.Schema.Langpack
+  children:
+  - OpenTl.Schema.Langpack.RequestGetDifference
+  - OpenTl.Schema.Langpack.RequestGetLangPack
+  - OpenTl.Schema.Langpack.RequestGetLanguages
+  - OpenTl.Schema.Langpack.RequestGetStrings
+  langs:
+  - csharp
+  - vb
+  name: OpenTl.Schema.Langpack
+  nameWithType: OpenTl.Schema.Langpack
+  fullName: OpenTl.Schema.Langpack
+  type: Namespace
+  assemblies:
+  - OpenTl.Schema
+references:
+- uid: OpenTl.Schema.Langpack.RequestGetDifference
+  commentId: T:OpenTl.Schema.Langpack.RequestGetDifference
+  isExternal: false
+  name: RequestGetDifference
+  nameWithType: RequestGetDifference
+  fullName: OpenTl.Schema.Langpack.RequestGetDifference
+- uid: OpenTl.Schema.Langpack.RequestGetLangPack
+  commentId: T:OpenTl.Schema.Langpack.RequestGetLangPack
+  isExternal: false
+  name: RequestGetLangPack
+  nameWithType: RequestGetLangPack
+  fullName: OpenTl.Schema.Langpack.RequestGetLangPack
+- uid: OpenTl.Schema.Langpack.RequestGetLanguages
+  commentId: T:OpenTl.Schema.Langpack.RequestGetLanguages
+  isExternal: false
+  name: RequestGetLanguages
+  nameWithType: RequestGetLanguages
+  fullName: OpenTl.Schema.Langpack.RequestGetLanguages
+- uid: OpenTl.Schema.Langpack.RequestGetStrings
+  commentId: T:OpenTl.Schema.Langpack.RequestGetStrings
+  isExternal: false
+  name: RequestGetStrings
+  nameWithType: RequestGetStrings
+  fullName: OpenTl.Schema.Langpack.RequestGetStrings

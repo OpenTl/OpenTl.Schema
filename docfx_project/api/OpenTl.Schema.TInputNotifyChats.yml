@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputNotifyChats
+  commentId: T:OpenTl.Schema.TInputNotifyChats
+  id: TInputNotifyChats
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TInputNotifyChats
+  nameWithType: TInputNotifyChats
+  fullName: OpenTl.Schema.TInputNotifyChats
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputNotifyPeer/TInputNotifyChats.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputNotifyChats
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputNotifyPeer/TInputNotifyChats.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputNotifyChats : object, IInputNotifyPeer, IObject'
+    content.vb: >-
+      Public Class TInputNotifyChats
+
+          Inherits Object
+
+          Implements IInputNotifyPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputNotifyPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputNotifyPeer
+  commentId: T:OpenTl.Schema.IInputNotifyPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputNotifyPeer
+  nameWithType: IInputNotifyPeer
+  fullName: OpenTl.Schema.IInputNotifyPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

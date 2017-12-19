@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionGameScore
+  commentId: T:OpenTl.Schema.TMessageActionGameScore
+  id: TMessageActionGameScore
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionGameScore.GameId
+  - OpenTl.Schema.TMessageActionGameScore.Score
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionGameScore
+  nameWithType: TMessageActionGameScore
+  fullName: OpenTl.Schema.TMessageActionGameScore
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionGameScore
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionGameScore : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionGameScore
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionGameScore.GameId
+  commentId: P:OpenTl.Schema.TMessageActionGameScore.GameId
+  id: GameId
+  parent: OpenTl.Schema.TMessageActionGameScore
+  langs:
+  - csharp
+  - vb
+  name: GameId
+  nameWithType: TMessageActionGameScore.GameId
+  fullName: OpenTl.Schema.TMessageActionGameScore.GameId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GameId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long GameId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property GameId As Long
+  overload: OpenTl.Schema.TMessageActionGameScore.GameId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionGameScore.Score
+  commentId: P:OpenTl.Schema.TMessageActionGameScore.Score
+  id: Score
+  parent: OpenTl.Schema.TMessageActionGameScore
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: TMessageActionGameScore.Score
+  fullName: OpenTl.Schema.TMessageActionGameScore.Score
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Score
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionGameScore.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Score { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Score As Integer
+  overload: OpenTl.Schema.TMessageActionGameScore.Score*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionGameScore.GameId*
+  commentId: Overload:OpenTl.Schema.TMessageActionGameScore.GameId
+  isExternal: false
+  name: GameId
+  nameWithType: TMessageActionGameScore.GameId
+  fullName: OpenTl.Schema.TMessageActionGameScore.GameId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMessageActionGameScore.Score*
+  commentId: Overload:OpenTl.Schema.TMessageActionGameScore.Score
+  isExternal: false
+  name: Score
+  nameWithType: TMessageActionGameScore.Score
+  fullName: OpenTl.Schema.TMessageActionGameScore.Score
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

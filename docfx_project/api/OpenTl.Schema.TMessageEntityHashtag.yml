@@ -1,0 +1,177 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageEntityHashtag
+  commentId: T:OpenTl.Schema.TMessageEntityHashtag
+  id: TMessageEntityHashtag
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageEntityHashtag.Length
+  - OpenTl.Schema.TMessageEntityHashtag.Offset
+  langs:
+  - csharp
+  - vb
+  name: TMessageEntityHashtag
+  nameWithType: TMessageEntityHashtag
+  fullName: OpenTl.Schema.TMessageEntityHashtag
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageEntityHashtag
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageEntityHashtag : object, IMessageEntity, IObject'
+    content.vb: >-
+      Public Class TMessageEntityHashtag
+
+          Inherits Object
+
+          Implements IMessageEntity, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageEntity
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageEntityHashtag.Offset
+  commentId: P:OpenTl.Schema.TMessageEntityHashtag.Offset
+  id: Offset
+  parent: OpenTl.Schema.TMessageEntityHashtag
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: TMessageEntityHashtag.Offset
+  fullName: OpenTl.Schema.TMessageEntityHashtag.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.TMessageEntityHashtag.Offset*
+  implements:
+  - OpenTl.Schema.IMessageEntity.Offset
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageEntityHashtag.Length
+  commentId: P:OpenTl.Schema.TMessageEntityHashtag.Length
+  id: Length
+  parent: OpenTl.Schema.TMessageEntityHashtag
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: TMessageEntityHashtag.Length
+  fullName: OpenTl.Schema.TMessageEntityHashtag.Length
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Length
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageEntity/TMessageEntityHashtag.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Length { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Length As Integer
+  overload: OpenTl.Schema.TMessageEntityHashtag.Length*
+  implements:
+  - OpenTl.Schema.IMessageEntity.Length
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageEntity
+  commentId: T:OpenTl.Schema.IMessageEntity
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageEntity
+  nameWithType: IMessageEntity
+  fullName: OpenTl.Schema.IMessageEntity
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageEntityHashtag.Offset*
+  commentId: Overload:OpenTl.Schema.TMessageEntityHashtag.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: TMessageEntityHashtag.Offset
+  fullName: OpenTl.Schema.TMessageEntityHashtag.Offset
+- uid: OpenTl.Schema.IMessageEntity.Offset
+  commentId: P:OpenTl.Schema.IMessageEntity.Offset
+  parent: OpenTl.Schema.IMessageEntity
+  isExternal: false
+  name: Offset
+  nameWithType: IMessageEntity.Offset
+  fullName: OpenTl.Schema.IMessageEntity.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMessageEntityHashtag.Length*
+  commentId: Overload:OpenTl.Schema.TMessageEntityHashtag.Length
+  isExternal: false
+  name: Length
+  nameWithType: TMessageEntityHashtag.Length
+  fullName: OpenTl.Schema.TMessageEntityHashtag.Length
+- uid: OpenTl.Schema.IMessageEntity.Length
+  commentId: P:OpenTl.Schema.IMessageEntity.Length
+  parent: OpenTl.Schema.IMessageEntity
+  isExternal: false
+  name: Length
+  nameWithType: IMessageEntity.Length
+  fullName: OpenTl.Schema.IMessageEntity.Length

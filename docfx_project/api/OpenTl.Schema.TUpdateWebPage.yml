@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateWebPage
+  commentId: T:OpenTl.Schema.TUpdateWebPage
+  id: TUpdateWebPage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateWebPage.Pts
+  - OpenTl.Schema.TUpdateWebPage.PtsCount
+  - OpenTl.Schema.TUpdateWebPage.Webpage
+  langs:
+  - csharp
+  - vb
+  name: TUpdateWebPage
+  nameWithType: TUpdateWebPage
+  fullName: OpenTl.Schema.TUpdateWebPage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateWebPage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateWebPage : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateWebPage
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateWebPage.Webpage
+  commentId: P:OpenTl.Schema.TUpdateWebPage.Webpage
+  id: Webpage
+  parent: OpenTl.Schema.TUpdateWebPage
+  langs:
+  - csharp
+  - vb
+  name: Webpage
+  nameWithType: TUpdateWebPage.Webpage
+  fullName: OpenTl.Schema.TUpdateWebPage.Webpage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Webpage
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IWebPage Webpage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IWebPage
+    content.vb: Public Property Webpage As IWebPage
+  overload: OpenTl.Schema.TUpdateWebPage.Webpage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateWebPage.Pts
+  commentId: P:OpenTl.Schema.TUpdateWebPage.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateWebPage
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateWebPage.Pts
+  fullName: OpenTl.Schema.TUpdateWebPage.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateWebPage.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateWebPage.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateWebPage.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateWebPage
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateWebPage.PtsCount
+  fullName: OpenTl.Schema.TUpdateWebPage.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateWebPage.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateWebPage.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateWebPage.Webpage*
+  commentId: Overload:OpenTl.Schema.TUpdateWebPage.Webpage
+  isExternal: false
+  name: Webpage
+  nameWithType: TUpdateWebPage.Webpage
+  fullName: OpenTl.Schema.TUpdateWebPage.Webpage
+- uid: OpenTl.Schema.IWebPage
+  commentId: T:OpenTl.Schema.IWebPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebPage
+  nameWithType: IWebPage
+  fullName: OpenTl.Schema.IWebPage
+- uid: OpenTl.Schema.TUpdateWebPage.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateWebPage.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateWebPage.Pts
+  fullName: OpenTl.Schema.TUpdateWebPage.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateWebPage.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateWebPage.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateWebPage.PtsCount
+  fullName: OpenTl.Schema.TUpdateWebPage.PtsCount

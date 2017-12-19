@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder
+  commentId: T:OpenTl.Schema.TUpdateStickerSetsOrder
+  id: TUpdateStickerSetsOrder
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+  - OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+  - OpenTl.Schema.TUpdateStickerSetsOrder.Order
+  langs:
+  - csharp
+  - vb
+  name: TUpdateStickerSetsOrder
+  nameWithType: TUpdateStickerSetsOrder
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateStickerSetsOrder
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateStickerSetsOrder : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateStickerSetsOrder
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+  commentId: P:OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateStickerSetsOrder
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateStickerSetsOrder.Flags
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateStickerSetsOrder.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+  commentId: P:OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+  id: Masks
+  parent: OpenTl.Schema.TUpdateStickerSetsOrder
+  langs:
+  - csharp
+  - vb
+  name: Masks
+  nameWithType: TUpdateStickerSetsOrder.Masks
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Masks
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Masks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Masks As Boolean
+  overload: OpenTl.Schema.TUpdateStickerSetsOrder.Masks*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Order
+  commentId: P:OpenTl.Schema.TUpdateStickerSetsOrder.Order
+  id: Order
+  parent: OpenTl.Schema.TUpdateStickerSetsOrder
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: TUpdateStickerSetsOrder.Order
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Order
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Order
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateStickerSetsOrder.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<long> Order { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property Order As TVector(Of Long)
+  overload: OpenTl.Schema.TUpdateStickerSetsOrder.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateStickerSetsOrder.Flags
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Masks*
+  commentId: Overload:OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+  isExternal: false
+  name: Masks
+  nameWithType: TUpdateStickerSetsOrder.Masks
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Masks
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TUpdateStickerSetsOrder.Order*
+  commentId: Overload:OpenTl.Schema.TUpdateStickerSetsOrder.Order
+  isExternal: false
+  name: Order
+  nameWithType: TUpdateStickerSetsOrder.Order
+  fullName: OpenTl.Schema.TUpdateStickerSetsOrder.Order
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

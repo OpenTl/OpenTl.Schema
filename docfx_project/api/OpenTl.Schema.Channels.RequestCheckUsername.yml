@@ -1,0 +1,321 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestCheckUsername
+  commentId: T:OpenTl.Schema.Channels.RequestCheckUsername
+  id: RequestCheckUsername
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestCheckUsername.Channel
+  - OpenTl.Schema.Channels.RequestCheckUsername.Username
+  - OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestCheckUsername
+  nameWithType: RequestCheckUsername
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestCheckUsername
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestCheckUsername : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestCheckUsername
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestCheckUsername.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestCheckUsername
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestCheckUsername.Channel
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestCheckUsername.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+  commentId: P:OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+  id: UsernameAsBinary
+  parent: OpenTl.Schema.Channels.RequestCheckUsername
+  langs:
+  - csharp
+  - vb
+  name: UsernameAsBinary
+  nameWithType: RequestCheckUsername.UsernameAsBinary
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UsernameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  summary: Binary representation for the &apos;Username&apos; property
+  example: []
+  syntax:
+    content: public byte[] UsernameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UsernameAsBinary As Byte()
+  overload: OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.Username
+  commentId: P:OpenTl.Schema.Channels.RequestCheckUsername.Username
+  id: Username
+  parent: OpenTl.Schema.Channels.RequestCheckUsername
+  langs:
+  - csharp
+  - vb
+  name: Username
+  nameWithType: RequestCheckUsername.Username
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.Username
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Username
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestCheckUsername.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public string Username { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Username As String
+  overload: OpenTl.Schema.Channels.RequestCheckUsername.Username*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestCheckUsername.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestCheckUsername.Channel
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary*
+  commentId: Overload:OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+  isExternal: false
+  name: UsernameAsBinary
+  nameWithType: RequestCheckUsername.UsernameAsBinary
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.UsernameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Channels.RequestCheckUsername.Username*
+  commentId: Overload:OpenTl.Schema.Channels.RequestCheckUsername.Username
+  isExternal: false
+  name: Username
+  nameWithType: RequestCheckUsername.Username
+  fullName: OpenTl.Schema.Channels.RequestCheckUsername.Username
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

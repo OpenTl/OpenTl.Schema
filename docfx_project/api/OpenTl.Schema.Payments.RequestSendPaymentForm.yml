@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm
+  commentId: T:OpenTl.Schema.Payments.RequestSendPaymentForm
+  id: RequestSendPaymentForm
+  parent: OpenTl.Schema.Payments
+  children:
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+  - OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestSendPaymentForm
+  nameWithType: RequestSendPaymentForm
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSendPaymentForm
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: 'public class RequestSendPaymentForm : object, IRequest<IPaymentResult>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSendPaymentForm
+
+          Inherits Object
+
+          Implements IRequest(Of IPaymentResult), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentResult}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+  id: Flags
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSendPaymentForm.Flags
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+  id: MsgId
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: MsgId
+  nameWithType: RequestSendPaymentForm.MsgId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MsgId
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public int MsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MsgId As Integer
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+  id: RequestedInfoIdAsBinary
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: RequestedInfoIdAsBinary
+  nameWithType: RequestSendPaymentForm.RequestedInfoIdAsBinary
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestedInfoIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  summary: Binary representation for the &apos;RequestedInfoId&apos; property
+  example: []
+  syntax:
+    content: public byte[] RequestedInfoIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property RequestedInfoIdAsBinary As Byte()
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+  id: RequestedInfoId
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: RequestedInfoId
+  nameWithType: RequestSendPaymentForm.RequestedInfoId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestedInfoId
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public string RequestedInfoId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RequestedInfoId As String
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+  id: ShippingOptionIdAsBinary
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionIdAsBinary
+  nameWithType: RequestSendPaymentForm.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  summary: Binary representation for the &apos;ShippingOptionId&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShippingOptionIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShippingOptionIdAsBinary As Byte()
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+  id: ShippingOptionId
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionId
+  nameWithType: RequestSendPaymentForm.ShippingOptionId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionId
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public string ShippingOptionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingOptionId As String
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+  commentId: P:OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+  id: Credentials
+  parent: OpenTl.Schema.Payments.RequestSendPaymentForm
+  langs:
+  - csharp
+  - vb
+  name: Credentials
+  nameWithType: RequestSendPaymentForm.Credentials
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Credentials
+    path: ../src/OpenTl.Schema/_generated/Payments/RequestSendPaymentForm.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Payments
+  syntax:
+    content: public IInputPaymentCredentials Credentials { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPaymentCredentials
+    content.vb: Public Property Credentials As IInputPaymentCredentials
+  overload: OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Payments
+  commentId: N:OpenTl.Schema.Payments
+  isExternal: false
+  name: OpenTl.Schema.Payments
+  nameWithType: OpenTl.Schema.Payments
+  fullName: OpenTl.Schema.Payments
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentResult}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Payments.IPaymentResult}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IPaymentResult>
+  nameWithType: IRequest<IPaymentResult>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Payments.IPaymentResult>
+  nameWithType.vb: IRequest(Of IPaymentResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Payments.IPaymentResult)
+  name.vb: IRequest(Of IPaymentResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Payments.IPaymentResult
+    name: IPaymentResult
+    nameWithType: IPaymentResult
+    fullName: OpenTl.Schema.Payments.IPaymentResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Payments.IPaymentResult
+    name: IPaymentResult
+    nameWithType: IPaymentResult
+    fullName: OpenTl.Schema.Payments.IPaymentResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.Flags*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSendPaymentForm.Flags
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+  isExternal: false
+  name: MsgId
+  nameWithType: RequestSendPaymentForm.MsgId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.MsgId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+  isExternal: false
+  name: RequestedInfoIdAsBinary
+  nameWithType: RequestSendPaymentForm.RequestedInfoIdAsBinary
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoIdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+  isExternal: false
+  name: RequestedInfoId
+  nameWithType: RequestSendPaymentForm.RequestedInfoId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.RequestedInfoId
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+  isExternal: false
+  name: ShippingOptionIdAsBinary
+  nameWithType: RequestSendPaymentForm.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionIdAsBinary
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+  isExternal: false
+  name: ShippingOptionId
+  nameWithType: RequestSendPaymentForm.ShippingOptionId
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.ShippingOptionId
+- uid: OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials*
+  commentId: Overload:OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+  isExternal: false
+  name: Credentials
+  nameWithType: RequestSendPaymentForm.Credentials
+  fullName: OpenTl.Schema.Payments.RequestSendPaymentForm.Credentials
+- uid: OpenTl.Schema.IInputPaymentCredentials
+  commentId: T:OpenTl.Schema.IInputPaymentCredentials
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPaymentCredentials
+  nameWithType: IInputPaymentCredentials
+  fullName: OpenTl.Schema.IInputPaymentCredentials

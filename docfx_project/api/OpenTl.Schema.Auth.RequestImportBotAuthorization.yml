@@ -1,0 +1,445 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  commentId: T:OpenTl.Schema.Auth.RequestImportBotAuthorization
+  id: RequestImportBotAuthorization
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+  - OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+  langs:
+  - csharp
+  - vb
+  name: RequestImportBotAuthorization
+  nameWithType: RequestImportBotAuthorization
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestImportBotAuthorization
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class RequestImportBotAuthorization : object, IRequest<IAuthorization>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestImportBotAuthorization
+
+          Inherits Object
+
+          Implements IRequest(Of IAuthorization), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+  id: Flags
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestImportBotAuthorization.Flags
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int Flags { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Flags As Integer
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+  id: ApiId
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: ApiId
+  nameWithType: RequestImportBotAuthorization.ApiId
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ApiId
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int ApiId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ApiId As Integer
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+  id: ApiHashAsBinary
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: ApiHashAsBinary
+  nameWithType: RequestImportBotAuthorization.ApiHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ApiHashAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;ApiHash&apos; property
+  example: []
+  syntax:
+    content: public byte[] ApiHashAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ApiHashAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+  id: ApiHash
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: ApiHash
+  nameWithType: RequestImportBotAuthorization.ApiHash
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ApiHash
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string ApiHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApiHash As String
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+  id: BotAuthTokenAsBinary
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: BotAuthTokenAsBinary
+  nameWithType: RequestImportBotAuthorization.BotAuthTokenAsBinary
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotAuthTokenAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;BotAuthToken&apos; property
+  example: []
+  syntax:
+    content: public byte[] BotAuthTokenAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property BotAuthTokenAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken
+  commentId: P:OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken
+  id: BotAuthToken
+  parent: OpenTl.Schema.Auth.RequestImportBotAuthorization
+  langs:
+  - csharp
+  - vb
+  name: BotAuthToken
+  nameWithType: RequestImportBotAuthorization.BotAuthToken
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotAuthToken
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestImportBotAuthorization.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string BotAuthToken { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property BotAuthToken As String
+  overload: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IAuthorization>
+  nameWithType: IRequest<IAuthorization>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Auth.IAuthorization>
+  nameWithType.vb: IRequest(Of IAuthorization)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Auth.IAuthorization)
+  name.vb: IRequest(Of IAuthorization)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Auth.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.Auth.IAuthorization
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Auth.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.Auth.IAuthorization
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestImportBotAuthorization.Flags
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.Flags
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+  isExternal: false
+  name: ApiId
+  nameWithType: RequestImportBotAuthorization.ApiId
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiId
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+  isExternal: false
+  name: ApiHashAsBinary
+  nameWithType: RequestImportBotAuthorization.ApiHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHashAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+  isExternal: false
+  name: ApiHash
+  nameWithType: RequestImportBotAuthorization.ApiHash
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.ApiHash
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+  isExternal: false
+  name: BotAuthTokenAsBinary
+  nameWithType: RequestImportBotAuthorization.BotAuthTokenAsBinary
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthTokenAsBinary
+- uid: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken*
+  commentId: Overload:OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken
+  isExternal: false
+  name: BotAuthToken
+  nameWithType: RequestImportBotAuthorization.BotAuthToken
+  fullName: OpenTl.Schema.Auth.RequestImportBotAuthorization.BotAuthToken

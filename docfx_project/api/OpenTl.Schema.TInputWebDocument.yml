@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputWebDocument
+  commentId: T:OpenTl.Schema.TInputWebDocument
+  id: TInputWebDocument
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputWebDocument.Attributes
+  - OpenTl.Schema.TInputWebDocument.MimeType
+  - OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+  - OpenTl.Schema.TInputWebDocument.Size
+  - OpenTl.Schema.TInputWebDocument.Url
+  - OpenTl.Schema.TInputWebDocument.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputWebDocument
+  nameWithType: TInputWebDocument
+  fullName: OpenTl.Schema.TInputWebDocument
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputWebDocument
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputWebDocument : object, IInputWebDocument, IObject'
+    content.vb: >-
+      Public Class TInputWebDocument
+
+          Inherits Object
+
+          Implements IInputWebDocument, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputWebDocument
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputWebDocument.UrlAsBinary
+  commentId: P:OpenTl.Schema.TInputWebDocument.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TInputWebDocument.UrlAsBinary
+  fullName: OpenTl.Schema.TInputWebDocument.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TInputWebDocument.UrlAsBinary*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.UrlAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebDocument.Url
+  commentId: P:OpenTl.Schema.TInputWebDocument.Url
+  id: Url
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TInputWebDocument.Url
+  fullName: OpenTl.Schema.TInputWebDocument.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TInputWebDocument.Url*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebDocument.Size
+  commentId: P:OpenTl.Schema.TInputWebDocument.Size
+  id: Size
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Size
+  nameWithType: TInputWebDocument.Size
+  fullName: OpenTl.Schema.TInputWebDocument.Size
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Size
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Size { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Size As Integer
+  overload: OpenTl.Schema.TInputWebDocument.Size*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.Size
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+  id: MimeTypeAsBinary
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: MimeTypeAsBinary
+  nameWithType: TInputWebDocument.MimeTypeAsBinary
+  fullName: OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeTypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;MimeType&apos; property
+  example: []
+  syntax:
+    content: public byte[] MimeTypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MimeTypeAsBinary As Byte()
+  overload: OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.MimeTypeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebDocument.MimeType
+  commentId: P:OpenTl.Schema.TInputWebDocument.MimeType
+  id: MimeType
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: MimeType
+  nameWithType: TInputWebDocument.MimeType
+  fullName: OpenTl.Schema.TInputWebDocument.MimeType
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MimeType
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string MimeType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MimeType As String
+  overload: OpenTl.Schema.TInputWebDocument.MimeType*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.MimeType
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputWebDocument.Attributes
+  commentId: P:OpenTl.Schema.TInputWebDocument.Attributes
+  id: Attributes
+  parent: OpenTl.Schema.TInputWebDocument
+  langs:
+  - csharp
+  - vb
+  name: Attributes
+  nameWithType: TInputWebDocument.Attributes
+  fullName: OpenTl.Schema.TInputWebDocument.Attributes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Attributes
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputWebDocument/TInputWebDocument.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IDocumentAttribute> Attributes { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+    content.vb: Public Property Attributes As TVector(Of IDocumentAttribute)
+  overload: OpenTl.Schema.TInputWebDocument.Attributes*
+  implements:
+  - OpenTl.Schema.IInputWebDocument.Attributes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputWebDocument
+  commentId: T:OpenTl.Schema.IInputWebDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputWebDocument
+  nameWithType: IInputWebDocument
+  fullName: OpenTl.Schema.IInputWebDocument
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputWebDocument.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TInputWebDocument.UrlAsBinary
+  fullName: OpenTl.Schema.TInputWebDocument.UrlAsBinary
+- uid: OpenTl.Schema.IInputWebDocument.UrlAsBinary
+  commentId: P:OpenTl.Schema.IInputWebDocument.UrlAsBinary
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IInputWebDocument.UrlAsBinary
+  fullName: OpenTl.Schema.IInputWebDocument.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputWebDocument.Url*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.Url
+  isExternal: false
+  name: Url
+  nameWithType: TInputWebDocument.Url
+  fullName: OpenTl.Schema.TInputWebDocument.Url
+- uid: OpenTl.Schema.IInputWebDocument.Url
+  commentId: P:OpenTl.Schema.IInputWebDocument.Url
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: Url
+  nameWithType: IInputWebDocument.Url
+  fullName: OpenTl.Schema.IInputWebDocument.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputWebDocument.Size*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.Size
+  isExternal: false
+  name: Size
+  nameWithType: TInputWebDocument.Size
+  fullName: OpenTl.Schema.TInputWebDocument.Size
+- uid: OpenTl.Schema.IInputWebDocument.Size
+  commentId: P:OpenTl.Schema.IInputWebDocument.Size
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: Size
+  nameWithType: IInputWebDocument.Size
+  fullName: OpenTl.Schema.IInputWebDocument.Size
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: TInputWebDocument.MimeTypeAsBinary
+  fullName: OpenTl.Schema.TInputWebDocument.MimeTypeAsBinary
+- uid: OpenTl.Schema.IInputWebDocument.MimeTypeAsBinary
+  commentId: P:OpenTl.Schema.IInputWebDocument.MimeTypeAsBinary
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: MimeTypeAsBinary
+  nameWithType: IInputWebDocument.MimeTypeAsBinary
+  fullName: OpenTl.Schema.IInputWebDocument.MimeTypeAsBinary
+- uid: OpenTl.Schema.TInputWebDocument.MimeType*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.MimeType
+  isExternal: false
+  name: MimeType
+  nameWithType: TInputWebDocument.MimeType
+  fullName: OpenTl.Schema.TInputWebDocument.MimeType
+- uid: OpenTl.Schema.IInputWebDocument.MimeType
+  commentId: P:OpenTl.Schema.IInputWebDocument.MimeType
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: MimeType
+  nameWithType: IInputWebDocument.MimeType
+  fullName: OpenTl.Schema.IInputWebDocument.MimeType
+- uid: OpenTl.Schema.TInputWebDocument.Attributes*
+  commentId: Overload:OpenTl.Schema.TInputWebDocument.Attributes
+  isExternal: false
+  name: Attributes
+  nameWithType: TInputWebDocument.Attributes
+  fullName: OpenTl.Schema.TInputWebDocument.Attributes
+- uid: OpenTl.Schema.IInputWebDocument.Attributes
+  commentId: P:OpenTl.Schema.IInputWebDocument.Attributes
+  parent: OpenTl.Schema.IInputWebDocument
+  isExternal: false
+  name: Attributes
+  nameWithType: IInputWebDocument.Attributes
+  fullName: OpenTl.Schema.IInputWebDocument.Attributes
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IDocumentAttribute}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IDocumentAttribute>
+  nameWithType: TVector<IDocumentAttribute>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute>
+  nameWithType.vb: TVector(Of IDocumentAttribute)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IDocumentAttribute)
+  name.vb: TVector(Of IDocumentAttribute)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDocumentAttribute
+    name: IDocumentAttribute
+    nameWithType: IDocumentAttribute
+    fullName: OpenTl.Schema.IDocumentAttribute
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDocumentAttribute
+    name: IDocumentAttribute
+    nameWithType: IDocumentAttribute
+    fullName: OpenTl.Schema.IDocumentAttribute
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

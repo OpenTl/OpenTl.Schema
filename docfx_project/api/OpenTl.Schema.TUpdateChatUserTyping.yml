@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChatUserTyping
+  commentId: T:OpenTl.Schema.TUpdateChatUserTyping
+  id: TUpdateChatUserTyping
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChatUserTyping.Action
+  - OpenTl.Schema.TUpdateChatUserTyping.ChatId
+  - OpenTl.Schema.TUpdateChatUserTyping.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChatUserTyping
+  nameWithType: TUpdateChatUserTyping
+  fullName: OpenTl.Schema.TUpdateChatUserTyping
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChatUserTyping
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChatUserTyping : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChatUserTyping
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChatUserTyping.ChatId
+  commentId: P:OpenTl.Schema.TUpdateChatUserTyping.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateChatUserTyping
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateChatUserTyping.ChatId
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateChatUserTyping.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatUserTyping.UserId
+  commentId: P:OpenTl.Schema.TUpdateChatUserTyping.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateChatUserTyping
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateChatUserTyping.UserId
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateChatUserTyping.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatUserTyping.Action
+  commentId: P:OpenTl.Schema.TUpdateChatUserTyping.Action
+  id: Action
+  parent: OpenTl.Schema.TUpdateChatUserTyping
+  langs:
+  - csharp
+  - vb
+  name: Action
+  nameWithType: TUpdateChatUserTyping.Action
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.Action
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Action
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatUserTyping.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public ISendMessageAction Action { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.ISendMessageAction
+    content.vb: Public Property Action As ISendMessageAction
+  overload: OpenTl.Schema.TUpdateChatUserTyping.Action*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChatUserTyping.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatUserTyping.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateChatUserTyping.ChatId
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChatUserTyping.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatUserTyping.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateChatUserTyping.UserId
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.UserId
+- uid: OpenTl.Schema.TUpdateChatUserTyping.Action*
+  commentId: Overload:OpenTl.Schema.TUpdateChatUserTyping.Action
+  isExternal: false
+  name: Action
+  nameWithType: TUpdateChatUserTyping.Action
+  fullName: OpenTl.Schema.TUpdateChatUserTyping.Action
+- uid: OpenTl.Schema.ISendMessageAction
+  commentId: T:OpenTl.Schema.ISendMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISendMessageAction
+  nameWithType: ISendMessageAction
+  fullName: OpenTl.Schema.ISendMessageAction

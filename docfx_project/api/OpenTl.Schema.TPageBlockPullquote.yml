@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockPullquote
+  commentId: T:OpenTl.Schema.TPageBlockPullquote
+  id: TPageBlockPullquote
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockPullquote.Caption
+  - OpenTl.Schema.TPageBlockPullquote.Text
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockPullquote
+  nameWithType: TPageBlockPullquote
+  fullName: OpenTl.Schema.TPageBlockPullquote
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockPullquote
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockPullquote : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockPullquote
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockPullquote.Text
+  commentId: P:OpenTl.Schema.TPageBlockPullquote.Text
+  id: Text
+  parent: OpenTl.Schema.TPageBlockPullquote
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TPageBlockPullquote.Text
+  fullName: OpenTl.Schema.TPageBlockPullquote.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TPageBlockPullquote.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockPullquote.Caption
+  commentId: P:OpenTl.Schema.TPageBlockPullquote.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockPullquote
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockPullquote.Caption
+  fullName: OpenTl.Schema.TPageBlockPullquote.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockPullquote.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockPullquote.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockPullquote.Text*
+  commentId: Overload:OpenTl.Schema.TPageBlockPullquote.Text
+  isExternal: false
+  name: Text
+  nameWithType: TPageBlockPullquote.Text
+  fullName: OpenTl.Schema.TPageBlockPullquote.Text
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.TPageBlockPullquote.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockPullquote.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockPullquote.Caption
+  fullName: OpenTl.Schema.TPageBlockPullquote.Caption

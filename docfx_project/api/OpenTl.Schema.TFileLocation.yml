@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TFileLocation
+  commentId: T:OpenTl.Schema.TFileLocation
+  id: TFileLocation
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TFileLocation.DcId
+  - OpenTl.Schema.TFileLocation.LocalId
+  - OpenTl.Schema.TFileLocation.Secret
+  - OpenTl.Schema.TFileLocation.VolumeId
+  langs:
+  - csharp
+  - vb
+  name: TFileLocation
+  nameWithType: TFileLocation
+  fullName: OpenTl.Schema.TFileLocation
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFileLocation
+    path: ../src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TFileLocation : object, IFileLocation, IObject'
+    content.vb: >-
+      Public Class TFileLocation
+
+          Inherits Object
+
+          Implements IFileLocation, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IFileLocation
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TFileLocation.DcId
+  commentId: P:OpenTl.Schema.TFileLocation.DcId
+  id: DcId
+  parent: OpenTl.Schema.TFileLocation
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: TFileLocation.DcId
+  fullName: OpenTl.Schema.TFileLocation.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.TFileLocation.DcId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFileLocation.VolumeId
+  commentId: P:OpenTl.Schema.TFileLocation.VolumeId
+  id: VolumeId
+  parent: OpenTl.Schema.TFileLocation
+  langs:
+  - csharp
+  - vb
+  name: VolumeId
+  nameWithType: TFileLocation.VolumeId
+  fullName: OpenTl.Schema.TFileLocation.VolumeId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: VolumeId
+    path: ../src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long VolumeId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property VolumeId As Long
+  overload: OpenTl.Schema.TFileLocation.VolumeId*
+  implements:
+  - OpenTl.Schema.IFileLocation.VolumeId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFileLocation.LocalId
+  commentId: P:OpenTl.Schema.TFileLocation.LocalId
+  id: LocalId
+  parent: OpenTl.Schema.TFileLocation
+  langs:
+  - csharp
+  - vb
+  name: LocalId
+  nameWithType: TFileLocation.LocalId
+  fullName: OpenTl.Schema.TFileLocation.LocalId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LocalId
+    path: ../src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int LocalId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LocalId As Integer
+  overload: OpenTl.Schema.TFileLocation.LocalId*
+  implements:
+  - OpenTl.Schema.IFileLocation.LocalId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TFileLocation.Secret
+  commentId: P:OpenTl.Schema.TFileLocation.Secret
+  id: Secret
+  parent: OpenTl.Schema.TFileLocation
+  langs:
+  - csharp
+  - vb
+  name: Secret
+  nameWithType: TFileLocation.Secret
+  fullName: OpenTl.Schema.TFileLocation.Secret
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Secret
+    path: ../src/OpenTl.Schema/_generated/_Entities/FileLocation/TFileLocation.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Secret { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Secret As Long
+  overload: OpenTl.Schema.TFileLocation.Secret*
+  implements:
+  - OpenTl.Schema.IFileLocation.Secret
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IFileLocation
+  commentId: T:OpenTl.Schema.IFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IFileLocation
+  nameWithType: IFileLocation
+  fullName: OpenTl.Schema.IFileLocation
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TFileLocation.DcId*
+  commentId: Overload:OpenTl.Schema.TFileLocation.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: TFileLocation.DcId
+  fullName: OpenTl.Schema.TFileLocation.DcId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TFileLocation.VolumeId*
+  commentId: Overload:OpenTl.Schema.TFileLocation.VolumeId
+  isExternal: false
+  name: VolumeId
+  nameWithType: TFileLocation.VolumeId
+  fullName: OpenTl.Schema.TFileLocation.VolumeId
+- uid: OpenTl.Schema.IFileLocation.VolumeId
+  commentId: P:OpenTl.Schema.IFileLocation.VolumeId
+  parent: OpenTl.Schema.IFileLocation
+  isExternal: false
+  name: VolumeId
+  nameWithType: IFileLocation.VolumeId
+  fullName: OpenTl.Schema.IFileLocation.VolumeId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TFileLocation.LocalId*
+  commentId: Overload:OpenTl.Schema.TFileLocation.LocalId
+  isExternal: false
+  name: LocalId
+  nameWithType: TFileLocation.LocalId
+  fullName: OpenTl.Schema.TFileLocation.LocalId
+- uid: OpenTl.Schema.IFileLocation.LocalId
+  commentId: P:OpenTl.Schema.IFileLocation.LocalId
+  parent: OpenTl.Schema.IFileLocation
+  isExternal: false
+  name: LocalId
+  nameWithType: IFileLocation.LocalId
+  fullName: OpenTl.Schema.IFileLocation.LocalId
+- uid: OpenTl.Schema.TFileLocation.Secret*
+  commentId: Overload:OpenTl.Schema.TFileLocation.Secret
+  isExternal: false
+  name: Secret
+  nameWithType: TFileLocation.Secret
+  fullName: OpenTl.Schema.TFileLocation.Secret
+- uid: OpenTl.Schema.IFileLocation.Secret
+  commentId: P:OpenTl.Schema.IFileLocation.Secret
+  parent: OpenTl.Schema.IFileLocation
+  isExternal: false
+  name: Secret
+  nameWithType: IFileLocation.Secret
+  fullName: OpenTl.Schema.IFileLocation.Secret

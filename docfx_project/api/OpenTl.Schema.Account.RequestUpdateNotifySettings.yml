@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestUpdateNotifySettings
+  commentId: T:OpenTl.Schema.Account.RequestUpdateNotifySettings
+  id: RequestUpdateNotifySettings
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+  - OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+  langs:
+  - csharp
+  - vb
+  name: RequestUpdateNotifySettings
+  nameWithType: RequestUpdateNotifySettings
+  fullName: OpenTl.Schema.Account.RequestUpdateNotifySettings
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestUpdateNotifySettings
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestUpdateNotifySettings : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestUpdateNotifySettings
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+  commentId: P:OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+  id: Peer
+  parent: OpenTl.Schema.Account.RequestUpdateNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestUpdateNotifySettings.Peer
+  fullName: OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public IInputNotifyPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputNotifyPeer
+    content.vb: Public Property Peer As IInputNotifyPeer
+  overload: OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+  commentId: P:OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+  id: Settings
+  parent: OpenTl.Schema.Account.RequestUpdateNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: RequestUpdateNotifySettings.Settings
+  fullName: OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Settings
+    path: ../src/OpenTl.Schema/_generated/Account/RequestUpdateNotifySettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public IInputPeerNotifySettings Settings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeerNotifySettings
+    content.vb: Public Property Settings As IInputPeerNotifySettings
+  overload: OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestUpdateNotifySettings.Peer
+  fullName: OpenTl.Schema.Account.RequestUpdateNotifySettings.Peer
+- uid: OpenTl.Schema.IInputNotifyPeer
+  commentId: T:OpenTl.Schema.IInputNotifyPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputNotifyPeer
+  nameWithType: IInputNotifyPeer
+  fullName: OpenTl.Schema.IInputNotifyPeer
+- uid: OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings*
+  commentId: Overload:OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+  isExternal: false
+  name: Settings
+  nameWithType: RequestUpdateNotifySettings.Settings
+  fullName: OpenTl.Schema.Account.RequestUpdateNotifySettings.Settings
+- uid: OpenTl.Schema.IInputPeerNotifySettings
+  commentId: T:OpenTl.Schema.IInputPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeerNotifySettings
+  nameWithType: IInputPeerNotifySettings
+  fullName: OpenTl.Schema.IInputPeerNotifySettings

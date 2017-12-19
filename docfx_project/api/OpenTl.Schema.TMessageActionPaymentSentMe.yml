@@ -1,0 +1,506 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe
+  commentId: T:OpenTl.Schema.TMessageActionPaymentSentMe
+  id: TMessageActionPaymentSentMe
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+  - OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+  - OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+  - OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+  - OpenTl.Schema.TMessageActionPaymentSentMe.Info
+  - OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+  - OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+  - OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  - OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionPaymentSentMe
+  nameWithType: TMessageActionPaymentSentMe
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionPaymentSentMe
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionPaymentSentMe : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionPaymentSentMe
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+  id: Flags
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TMessageActionPaymentSentMe.Flags
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+  id: CurrencyAsBinary
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAsBinary
+  nameWithType: TMessageActionPaymentSentMe.CurrencyAsBinary
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrencyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Currency&apos; property
+  example: []
+  syntax:
+    content: public byte[] CurrencyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrencyAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+  id: Currency
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TMessageActionPaymentSentMe.Currency
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Currency
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+  id: TotalAmount
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: TotalAmount
+  nameWithType: TMessageActionPaymentSentMe.TotalAmount
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TotalAmount
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long TotalAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalAmount As Long
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+  id: Payload
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: TMessageActionPaymentSentMe.Payload
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Payload
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Payload { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Payload As Byte()
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.Payload*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Info
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.Info
+  id: Info
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TMessageActionPaymentSentMe.Info
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPaymentRequestedInfo Info { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentRequestedInfo
+    content.vb: Public Property Info As IPaymentRequestedInfo
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  id: ShippingOptionIdAsBinary
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionIdAsBinary
+  nameWithType: TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ShippingOptionId&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShippingOptionIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShippingOptionIdAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+  id: ShippingOptionId
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionId
+  nameWithType: TMessageActionPaymentSentMe.ShippingOptionId
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ShippingOptionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingOptionId As String
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+  commentId: P:OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+  id: Charge
+  parent: OpenTl.Schema.TMessageActionPaymentSentMe
+  langs:
+  - csharp
+  - vb
+  name: Charge
+  nameWithType: TMessageActionPaymentSentMe.Charge
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Charge
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionPaymentSentMe.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPaymentCharge Charge { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentCharge
+    content.vb: Public Property Charge As IPaymentCharge
+  overload: OpenTl.Schema.TMessageActionPaymentSentMe.Charge*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Flags*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TMessageActionPaymentSentMe.Flags
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: TMessageActionPaymentSentMe.CurrencyAsBinary
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.CurrencyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Currency*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: TMessageActionPaymentSentMe.Currency
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Currency
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+  isExternal: false
+  name: TotalAmount
+  nameWithType: TMessageActionPaymentSentMe.TotalAmount
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.TotalAmount
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Payload*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+  isExternal: false
+  name: Payload
+  nameWithType: TMessageActionPaymentSentMe.Payload
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Payload
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Info*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.Info
+  isExternal: false
+  name: Info
+  nameWithType: TMessageActionPaymentSentMe.Info
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Info
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  isExternal: false
+  name: ShippingOptionIdAsBinary
+  nameWithType: TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionIdAsBinary
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+  isExternal: false
+  name: ShippingOptionId
+  nameWithType: TMessageActionPaymentSentMe.ShippingOptionId
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.ShippingOptionId
+- uid: OpenTl.Schema.TMessageActionPaymentSentMe.Charge*
+  commentId: Overload:OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+  isExternal: false
+  name: Charge
+  nameWithType: TMessageActionPaymentSentMe.Charge
+  fullName: OpenTl.Schema.TMessageActionPaymentSentMe.Charge
+- uid: OpenTl.Schema.IPaymentCharge
+  commentId: T:OpenTl.Schema.IPaymentCharge
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentCharge
+  nameWithType: IPaymentCharge
+  fullName: OpenTl.Schema.IPaymentCharge

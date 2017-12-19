@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUserStatusRecently
+  commentId: T:OpenTl.Schema.TUserStatusRecently
+  id: TUserStatusRecently
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TUserStatusRecently
+  nameWithType: TUserStatusRecently
+  fullName: OpenTl.Schema.TUserStatusRecently
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusRecently.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUserStatusRecently
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserStatus/TUserStatusRecently.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUserStatusRecently : object, IUserStatus, IObject'
+    content.vb: >-
+      Public Class TUserStatusRecently
+
+          Inherits Object
+
+          Implements IUserStatus, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUserStatus
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUserStatus
+  commentId: T:OpenTl.Schema.IUserStatus
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserStatus
+  nameWithType: IUserStatus
+  fullName: OpenTl.Schema.IUserStatus
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

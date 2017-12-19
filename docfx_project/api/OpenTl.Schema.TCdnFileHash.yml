@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TCdnFileHash
+  commentId: T:OpenTl.Schema.TCdnFileHash
+  id: TCdnFileHash
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TCdnFileHash.Hash
+  - OpenTl.Schema.TCdnFileHash.Limit
+  - OpenTl.Schema.TCdnFileHash.Offset
+  langs:
+  - csharp
+  - vb
+  name: TCdnFileHash
+  nameWithType: TCdnFileHash
+  fullName: OpenTl.Schema.TCdnFileHash
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TCdnFileHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TCdnFileHash : object, ICdnFileHash, IObject'
+    content.vb: >-
+      Public Class TCdnFileHash
+
+          Inherits Object
+
+          Implements ICdnFileHash, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ICdnFileHash
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TCdnFileHash.Offset
+  commentId: P:OpenTl.Schema.TCdnFileHash.Offset
+  id: Offset
+  parent: OpenTl.Schema.TCdnFileHash
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: TCdnFileHash.Offset
+  fullName: OpenTl.Schema.TCdnFileHash.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Offset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Offset As Integer
+  overload: OpenTl.Schema.TCdnFileHash.Offset*
+  implements:
+  - OpenTl.Schema.ICdnFileHash.Offset
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TCdnFileHash.Limit
+  commentId: P:OpenTl.Schema.TCdnFileHash.Limit
+  id: Limit
+  parent: OpenTl.Schema.TCdnFileHash
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: TCdnFileHash.Limit
+  fullName: OpenTl.Schema.TCdnFileHash.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.TCdnFileHash.Limit*
+  implements:
+  - OpenTl.Schema.ICdnFileHash.Limit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TCdnFileHash.Hash
+  commentId: P:OpenTl.Schema.TCdnFileHash.Hash
+  id: Hash
+  parent: OpenTl.Schema.TCdnFileHash
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: TCdnFileHash.Hash
+  fullName: OpenTl.Schema.TCdnFileHash.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/_Entities/CdnFileHash/TCdnFileHash.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Hash As Byte()
+  overload: OpenTl.Schema.TCdnFileHash.Hash*
+  implements:
+  - OpenTl.Schema.ICdnFileHash.Hash
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ICdnFileHash
+  commentId: T:OpenTl.Schema.ICdnFileHash
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ICdnFileHash
+  nameWithType: ICdnFileHash
+  fullName: OpenTl.Schema.ICdnFileHash
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TCdnFileHash.Offset*
+  commentId: Overload:OpenTl.Schema.TCdnFileHash.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: TCdnFileHash.Offset
+  fullName: OpenTl.Schema.TCdnFileHash.Offset
+- uid: OpenTl.Schema.ICdnFileHash.Offset
+  commentId: P:OpenTl.Schema.ICdnFileHash.Offset
+  parent: OpenTl.Schema.ICdnFileHash
+  isExternal: false
+  name: Offset
+  nameWithType: ICdnFileHash.Offset
+  fullName: OpenTl.Schema.ICdnFileHash.Offset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TCdnFileHash.Limit*
+  commentId: Overload:OpenTl.Schema.TCdnFileHash.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: TCdnFileHash.Limit
+  fullName: OpenTl.Schema.TCdnFileHash.Limit
+- uid: OpenTl.Schema.ICdnFileHash.Limit
+  commentId: P:OpenTl.Schema.ICdnFileHash.Limit
+  parent: OpenTl.Schema.ICdnFileHash
+  isExternal: false
+  name: Limit
+  nameWithType: ICdnFileHash.Limit
+  fullName: OpenTl.Schema.ICdnFileHash.Limit
+- uid: OpenTl.Schema.TCdnFileHash.Hash*
+  commentId: Overload:OpenTl.Schema.TCdnFileHash.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: TCdnFileHash.Hash
+  fullName: OpenTl.Schema.TCdnFileHash.Hash
+- uid: OpenTl.Schema.ICdnFileHash.Hash
+  commentId: P:OpenTl.Schema.ICdnFileHash.Hash
+  parent: OpenTl.Schema.ICdnFileHash
+  isExternal: false
+  name: Hash
+  nameWithType: ICdnFileHash.Hash
+  fullName: OpenTl.Schema.ICdnFileHash.Hash
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

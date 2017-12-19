@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDhGenFail
+  commentId: T:OpenTl.Schema.TDhGenFail
+  id: TDhGenFail
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDhGenFail.NewNonceHash3
+  - OpenTl.Schema.TDhGenFail.Nonce
+  - OpenTl.Schema.TDhGenFail.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TDhGenFail
+  nameWithType: TDhGenFail
+  fullName: OpenTl.Schema.TDhGenFail
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDhGenFail
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDhGenFail : object, ISetClientDHParamsAnswer, IObject'
+    content.vb: >-
+      Public Class TDhGenFail
+
+          Inherits Object
+
+          Implements ISetClientDHParamsAnswer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDhGenFail.Nonce
+  commentId: P:OpenTl.Schema.TDhGenFail.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TDhGenFail
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TDhGenFail.Nonce
+  fullName: OpenTl.Schema.TDhGenFail.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TDhGenFail.Nonce*
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDhGenFail.ServerNonce
+  commentId: P:OpenTl.Schema.TDhGenFail.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TDhGenFail
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TDhGenFail.ServerNonce
+  fullName: OpenTl.Schema.TDhGenFail.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TDhGenFail.ServerNonce*
+  implements:
+  - OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDhGenFail.NewNonceHash3
+  commentId: P:OpenTl.Schema.TDhGenFail.NewNonceHash3
+  id: NewNonceHash3
+  parent: OpenTl.Schema.TDhGenFail
+  langs:
+  - csharp
+  - vb
+  name: NewNonceHash3
+  nameWithType: TDhGenFail.NewNonceHash3
+  fullName: OpenTl.Schema.TDhGenFail.NewNonceHash3
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewNonceHash3
+    path: ../src/OpenTl.Schema/_generated/_Entities/SetClientDHParamsAnswer/TDhGenFail.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] NewNonceHash3 { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NewNonceHash3 As Byte()
+  overload: OpenTl.Schema.TDhGenFail.NewNonceHash3*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer
+  commentId: T:OpenTl.Schema.ISetClientDHParamsAnswer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISetClientDHParamsAnswer
+  nameWithType: ISetClientDHParamsAnswer
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDhGenFail.Nonce*
+  commentId: Overload:OpenTl.Schema.TDhGenFail.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TDhGenFail.Nonce
+  fullName: OpenTl.Schema.TDhGenFail.Nonce
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  commentId: P:OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+  parent: OpenTl.Schema.ISetClientDHParamsAnswer
+  isExternal: false
+  name: Nonce
+  nameWithType: ISetClientDHParamsAnswer.Nonce
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDhGenFail.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TDhGenFail.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TDhGenFail.ServerNonce
+  fullName: OpenTl.Schema.TDhGenFail.ServerNonce
+- uid: OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  commentId: P:OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+  parent: OpenTl.Schema.ISetClientDHParamsAnswer
+  isExternal: false
+  name: ServerNonce
+  nameWithType: ISetClientDHParamsAnswer.ServerNonce
+  fullName: OpenTl.Schema.ISetClientDHParamsAnswer.ServerNonce
+- uid: OpenTl.Schema.TDhGenFail.NewNonceHash3*
+  commentId: Overload:OpenTl.Schema.TDhGenFail.NewNonceHash3
+  isExternal: false
+  name: NewNonceHash3
+  nameWithType: TDhGenFail.NewNonceHash3
+  fullName: OpenTl.Schema.TDhGenFail.NewNonceHash3

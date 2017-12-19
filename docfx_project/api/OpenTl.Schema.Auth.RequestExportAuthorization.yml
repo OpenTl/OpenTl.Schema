@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.RequestExportAuthorization
+  commentId: T:OpenTl.Schema.Auth.RequestExportAuthorization
+  id: RequestExportAuthorization
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+  langs:
+  - csharp
+  - vb
+  name: RequestExportAuthorization
+  nameWithType: RequestExportAuthorization
+  fullName: OpenTl.Schema.Auth.RequestExportAuthorization
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestExportAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestExportAuthorization
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestExportAuthorization.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class RequestExportAuthorization : object, IRequest<IExportedAuthorization>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestExportAuthorization
+
+          Inherits Object
+
+          Implements IRequest(Of IExportedAuthorization), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IExportedAuthorization}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+  commentId: P:OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+  id: DcId
+  parent: OpenTl.Schema.Auth.RequestExportAuthorization
+  langs:
+  - csharp
+  - vb
+  name: DcId
+  nameWithType: RequestExportAuthorization.DcId
+  fullName: OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestExportAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DcId
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestExportAuthorization.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int DcId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property DcId As Integer
+  overload: OpenTl.Schema.Auth.RequestExportAuthorization.DcId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IExportedAuthorization}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IExportedAuthorization}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IExportedAuthorization>
+  nameWithType: IRequest<IExportedAuthorization>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Auth.IExportedAuthorization>
+  nameWithType.vb: IRequest(Of IExportedAuthorization)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Auth.IExportedAuthorization)
+  name.vb: IRequest(Of IExportedAuthorization)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Auth.IExportedAuthorization
+    name: IExportedAuthorization
+    nameWithType: IExportedAuthorization
+    fullName: OpenTl.Schema.Auth.IExportedAuthorization
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Auth.IExportedAuthorization
+    name: IExportedAuthorization
+    nameWithType: IExportedAuthorization
+    fullName: OpenTl.Schema.Auth.IExportedAuthorization
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.RequestExportAuthorization.DcId*
+  commentId: Overload:OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+  isExternal: false
+  name: DcId
+  nameWithType: RequestExportAuthorization.DcId
+  fullName: OpenTl.Schema.Auth.RequestExportAuthorization.DcId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

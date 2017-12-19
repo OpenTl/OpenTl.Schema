@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public int Code {get; set;}
 
+       /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(1)]
        public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
        private byte[] _TextAsBinary;

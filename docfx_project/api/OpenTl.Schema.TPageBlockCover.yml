@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockCover
+  commentId: T:OpenTl.Schema.TPageBlockCover
+  id: TPageBlockCover
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockCover.Cover
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockCover
+  nameWithType: TPageBlockCover
+  fullName: OpenTl.Schema.TPageBlockCover
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCover.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockCover
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCover.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockCover : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockCover
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockCover.Cover
+  commentId: P:OpenTl.Schema.TPageBlockCover.Cover
+  id: Cover
+  parent: OpenTl.Schema.TPageBlockCover
+  langs:
+  - csharp
+  - vb
+  name: Cover
+  nameWithType: TPageBlockCover.Cover
+  fullName: OpenTl.Schema.TPageBlockCover.Cover
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCover.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Cover
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockCover.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPageBlock Cover { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPageBlock
+    content.vb: Public Property Cover As IPageBlock
+  overload: OpenTl.Schema.TPageBlockCover.Cover*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockCover.Cover*
+  commentId: Overload:OpenTl.Schema.TPageBlockCover.Cover
+  isExternal: false
+  name: Cover
+  nameWithType: TPageBlockCover.Cover
+  fullName: OpenTl.Schema.TPageBlockCover.Cover

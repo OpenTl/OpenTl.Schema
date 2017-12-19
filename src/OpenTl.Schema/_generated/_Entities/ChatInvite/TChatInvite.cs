@@ -31,6 +31,7 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 3)]
        public bool Megagroup {get; set;}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(5)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
        private byte[] _TitleAsBinary;

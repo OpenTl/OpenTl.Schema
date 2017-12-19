@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestConfirmPhone
+  commentId: T:OpenTl.Schema.Account.RequestConfirmPhone
+  id: RequestConfirmPhone
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode
+  - OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+  - OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+  - OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestConfirmPhone
+  nameWithType: RequestConfirmPhone
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestConfirmPhone
+    path: ../src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestConfirmPhone : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestConfirmPhone
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+  id: PhoneCodeHashAsBinary
+  parent: OpenTl.Schema.Account.RequestConfirmPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestConfirmPhone.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHashAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;PhoneCodeHash&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeHashAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeHashAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+  commentId: P:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+  id: PhoneCodeHash
+  parent: OpenTl.Schema.Account.RequestConfirmPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHash
+  nameWithType: RequestConfirmPhone.PhoneCodeHash
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHash
+    path: ../src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string PhoneCodeHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCodeHash As String
+  overload: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+  id: PhoneCodeAsBinary
+  parent: OpenTl.Schema.Account.RequestConfirmPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeAsBinary
+  nameWithType: RequestConfirmPhone.PhoneCodeAsBinary
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;PhoneCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode
+  commentId: P:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode
+  id: PhoneCode
+  parent: OpenTl.Schema.Account.RequestConfirmPhone
+  langs:
+  - csharp
+  - vb
+  name: PhoneCode
+  nameWithType: RequestConfirmPhone.PhoneCode
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCode
+    path: ../src/OpenTl.Schema/_generated/Account/RequestConfirmPhone.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string PhoneCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCode As String
+  overload: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+  isExternal: false
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestConfirmPhone.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHashAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash*
+  commentId: Overload:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+  isExternal: false
+  name: PhoneCodeHash
+  nameWithType: RequestConfirmPhone.PhoneCodeHash
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeHash
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+  isExternal: false
+  name: PhoneCodeAsBinary
+  nameWithType: RequestConfirmPhone.PhoneCodeAsBinary
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCodeAsBinary
+- uid: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode*
+  commentId: Overload:OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode
+  isExternal: false
+  name: PhoneCode
+  nameWithType: RequestConfirmPhone.PhoneCode
+  fullName: OpenTl.Schema.Account.RequestConfirmPhone.PhoneCode

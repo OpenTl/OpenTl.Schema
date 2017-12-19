@@ -1,0 +1,326 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TFeaturedStickers
+  commentId: T:OpenTl.Schema.Messages.TFeaturedStickers
+  id: TFeaturedStickers
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TFeaturedStickers.Hash
+  - OpenTl.Schema.Messages.TFeaturedStickers.Sets
+  - OpenTl.Schema.Messages.TFeaturedStickers.Unread
+  langs:
+  - csharp
+  - vb
+  name: TFeaturedStickers
+  nameWithType: TFeaturedStickers
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFeaturedStickers
+    path: ../src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TFeaturedStickers : object, IFeaturedStickers, IObject'
+    content.vb: >-
+      Public Class TFeaturedStickers
+
+          Inherits Object
+
+          Implements IFeaturedStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IFeaturedStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Hash
+  commentId: P:OpenTl.Schema.Messages.TFeaturedStickers.Hash
+  id: Hash
+  parent: OpenTl.Schema.Messages.TFeaturedStickers
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: TFeaturedStickers.Hash
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Hash As Integer
+  overload: OpenTl.Schema.Messages.TFeaturedStickers.Hash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Sets
+  commentId: P:OpenTl.Schema.Messages.TFeaturedStickers.Sets
+  id: Sets
+  parent: OpenTl.Schema.Messages.TFeaturedStickers
+  langs:
+  - csharp
+  - vb
+  name: Sets
+  nameWithType: TFeaturedStickers.Sets
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Sets
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sets
+    path: ../src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IStickerSetCovered> Sets { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+    content.vb: Public Property Sets As TVector(Of IStickerSetCovered)
+  overload: OpenTl.Schema.Messages.TFeaturedStickers.Sets*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Unread
+  commentId: P:OpenTl.Schema.Messages.TFeaturedStickers.Unread
+  id: Unread
+  parent: OpenTl.Schema.Messages.TFeaturedStickers
+  langs:
+  - csharp
+  - vb
+  name: Unread
+  nameWithType: TFeaturedStickers.Unread
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Unread
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Unread
+    path: ../src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickers.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<long> Unread { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property Unread As TVector(Of Long)
+  overload: OpenTl.Schema.Messages.TFeaturedStickers.Unread*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IFeaturedStickers
+  commentId: T:OpenTl.Schema.Messages.IFeaturedStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IFeaturedStickers
+  nameWithType: IFeaturedStickers
+  fullName: OpenTl.Schema.Messages.IFeaturedStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Hash*
+  commentId: Overload:OpenTl.Schema.Messages.TFeaturedStickers.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: TFeaturedStickers.Hash
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Hash
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Sets*
+  commentId: Overload:OpenTl.Schema.Messages.TFeaturedStickers.Sets
+  isExternal: false
+  name: Sets
+  nameWithType: TFeaturedStickers.Sets
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Sets
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IStickerSetCovered}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IStickerSetCovered>
+  nameWithType: TVector<IStickerSetCovered>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered>
+  nameWithType.vb: TVector(Of IStickerSetCovered)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IStickerSetCovered)
+  name.vb: TVector(Of IStickerSetCovered)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IStickerSetCovered
+    name: IStickerSetCovered
+    nameWithType: IStickerSetCovered
+    fullName: OpenTl.Schema.IStickerSetCovered
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IStickerSetCovered
+    name: IStickerSetCovered
+    nameWithType: IStickerSetCovered
+    fullName: OpenTl.Schema.IStickerSetCovered
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.TFeaturedStickers.Unread*
+  commentId: Overload:OpenTl.Schema.Messages.TFeaturedStickers.Unread
+  isExternal: false
+  name: Unread
+  nameWithType: TFeaturedStickers.Unread
+  fullName: OpenTl.Schema.Messages.TFeaturedStickers.Unread
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

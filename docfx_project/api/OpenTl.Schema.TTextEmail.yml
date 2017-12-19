@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTextEmail
+  commentId: T:OpenTl.Schema.TTextEmail
+  id: TTextEmail
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTextEmail.Email
+  - OpenTl.Schema.TTextEmail.EmailAsBinary
+  - OpenTl.Schema.TTextEmail.Text
+  langs:
+  - csharp
+  - vb
+  name: TTextEmail
+  nameWithType: TTextEmail
+  fullName: OpenTl.Schema.TTextEmail
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTextEmail
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTextEmail : object, IRichText, IObject'
+    content.vb: >-
+      Public Class TTextEmail
+
+          Inherits Object
+
+          Implements IRichText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRichText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTextEmail.Text
+  commentId: P:OpenTl.Schema.TTextEmail.Text
+  id: Text
+  parent: OpenTl.Schema.TTextEmail
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TTextEmail.Text
+  fullName: OpenTl.Schema.TTextEmail.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TTextEmail.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTextEmail.EmailAsBinary
+  commentId: P:OpenTl.Schema.TTextEmail.EmailAsBinary
+  id: EmailAsBinary
+  parent: OpenTl.Schema.TTextEmail
+  langs:
+  - csharp
+  - vb
+  name: EmailAsBinary
+  nameWithType: TTextEmail.EmailAsBinary
+  fullName: OpenTl.Schema.TTextEmail.EmailAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmailAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Email&apos; property
+  example: []
+  syntax:
+    content: public byte[] EmailAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EmailAsBinary As Byte()
+  overload: OpenTl.Schema.TTextEmail.EmailAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TTextEmail.Email
+  commentId: P:OpenTl.Schema.TTextEmail.Email
+  id: Email
+  parent: OpenTl.Schema.TTextEmail
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: TTextEmail.Email
+  fullName: OpenTl.Schema.TTextEmail.Email
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Email
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextEmail.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: OpenTl.Schema.TTextEmail.Email*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTextEmail.Text*
+  commentId: Overload:OpenTl.Schema.TTextEmail.Text
+  isExternal: false
+  name: Text
+  nameWithType: TTextEmail.Text
+  fullName: OpenTl.Schema.TTextEmail.Text
+- uid: OpenTl.Schema.TTextEmail.EmailAsBinary*
+  commentId: Overload:OpenTl.Schema.TTextEmail.EmailAsBinary
+  isExternal: false
+  name: EmailAsBinary
+  nameWithType: TTextEmail.EmailAsBinary
+  fullName: OpenTl.Schema.TTextEmail.EmailAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TTextEmail.Email*
+  commentId: Overload:OpenTl.Schema.TTextEmail.Email
+  isExternal: false
+  name: Email
+  nameWithType: TTextEmail.Email
+  fullName: OpenTl.Schema.TTextEmail.Email
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

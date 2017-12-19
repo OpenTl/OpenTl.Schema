@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TShippingOption
+  commentId: T:OpenTl.Schema.TShippingOption
+  id: TShippingOption
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TShippingOption.Id
+  - OpenTl.Schema.TShippingOption.IdAsBinary
+  - OpenTl.Schema.TShippingOption.Prices
+  - OpenTl.Schema.TShippingOption.Title
+  - OpenTl.Schema.TShippingOption.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TShippingOption
+  nameWithType: TShippingOption
+  fullName: OpenTl.Schema.TShippingOption
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TShippingOption
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TShippingOption : object, IShippingOption, IObject'
+    content.vb: >-
+      Public Class TShippingOption
+
+          Inherits Object
+
+          Implements IShippingOption, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IShippingOption
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TShippingOption.IdAsBinary
+  commentId: P:OpenTl.Schema.TShippingOption.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TShippingOption
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TShippingOption.IdAsBinary
+  fullName: OpenTl.Schema.TShippingOption.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TShippingOption.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IShippingOption.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TShippingOption.Id
+  commentId: P:OpenTl.Schema.TShippingOption.Id
+  id: Id
+  parent: OpenTl.Schema.TShippingOption
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TShippingOption.Id
+  fullName: OpenTl.Schema.TShippingOption.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TShippingOption.Id*
+  implements:
+  - OpenTl.Schema.IShippingOption.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TShippingOption.TitleAsBinary
+  commentId: P:OpenTl.Schema.TShippingOption.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TShippingOption
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TShippingOption.TitleAsBinary
+  fullName: OpenTl.Schema.TShippingOption.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TShippingOption.TitleAsBinary*
+  implements:
+  - OpenTl.Schema.IShippingOption.TitleAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TShippingOption.Title
+  commentId: P:OpenTl.Schema.TShippingOption.Title
+  id: Title
+  parent: OpenTl.Schema.TShippingOption
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TShippingOption.Title
+  fullName: OpenTl.Schema.TShippingOption.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TShippingOption.Title*
+  implements:
+  - OpenTl.Schema.IShippingOption.Title
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TShippingOption.Prices
+  commentId: P:OpenTl.Schema.TShippingOption.Prices
+  id: Prices
+  parent: OpenTl.Schema.TShippingOption
+  langs:
+  - csharp
+  - vb
+  name: Prices
+  nameWithType: TShippingOption.Prices
+  fullName: OpenTl.Schema.TShippingOption.Prices
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Prices
+    path: ../src/OpenTl.Schema/_generated/_Entities/ShippingOption/TShippingOption.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<ILabeledPrice> Prices { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+    content.vb: Public Property Prices As TVector(Of ILabeledPrice)
+  overload: OpenTl.Schema.TShippingOption.Prices*
+  implements:
+  - OpenTl.Schema.IShippingOption.Prices
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IShippingOption
+  commentId: T:OpenTl.Schema.IShippingOption
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IShippingOption
+  nameWithType: IShippingOption
+  fullName: OpenTl.Schema.IShippingOption
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TShippingOption.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TShippingOption.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TShippingOption.IdAsBinary
+  fullName: OpenTl.Schema.TShippingOption.IdAsBinary
+- uid: OpenTl.Schema.IShippingOption.IdAsBinary
+  commentId: P:OpenTl.Schema.IShippingOption.IdAsBinary
+  parent: OpenTl.Schema.IShippingOption
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IShippingOption.IdAsBinary
+  fullName: OpenTl.Schema.IShippingOption.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TShippingOption.Id*
+  commentId: Overload:OpenTl.Schema.TShippingOption.Id
+  isExternal: false
+  name: Id
+  nameWithType: TShippingOption.Id
+  fullName: OpenTl.Schema.TShippingOption.Id
+- uid: OpenTl.Schema.IShippingOption.Id
+  commentId: P:OpenTl.Schema.IShippingOption.Id
+  parent: OpenTl.Schema.IShippingOption
+  isExternal: false
+  name: Id
+  nameWithType: IShippingOption.Id
+  fullName: OpenTl.Schema.IShippingOption.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TShippingOption.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TShippingOption.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TShippingOption.TitleAsBinary
+  fullName: OpenTl.Schema.TShippingOption.TitleAsBinary
+- uid: OpenTl.Schema.IShippingOption.TitleAsBinary
+  commentId: P:OpenTl.Schema.IShippingOption.TitleAsBinary
+  parent: OpenTl.Schema.IShippingOption
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: IShippingOption.TitleAsBinary
+  fullName: OpenTl.Schema.IShippingOption.TitleAsBinary
+- uid: OpenTl.Schema.TShippingOption.Title*
+  commentId: Overload:OpenTl.Schema.TShippingOption.Title
+  isExternal: false
+  name: Title
+  nameWithType: TShippingOption.Title
+  fullName: OpenTl.Schema.TShippingOption.Title
+- uid: OpenTl.Schema.IShippingOption.Title
+  commentId: P:OpenTl.Schema.IShippingOption.Title
+  parent: OpenTl.Schema.IShippingOption
+  isExternal: false
+  name: Title
+  nameWithType: IShippingOption.Title
+  fullName: OpenTl.Schema.IShippingOption.Title
+- uid: OpenTl.Schema.TShippingOption.Prices*
+  commentId: Overload:OpenTl.Schema.TShippingOption.Prices
+  isExternal: false
+  name: Prices
+  nameWithType: TShippingOption.Prices
+  fullName: OpenTl.Schema.TShippingOption.Prices
+- uid: OpenTl.Schema.IShippingOption.Prices
+  commentId: P:OpenTl.Schema.IShippingOption.Prices
+  parent: OpenTl.Schema.IShippingOption
+  isExternal: false
+  name: Prices
+  nameWithType: IShippingOption.Prices
+  fullName: OpenTl.Schema.IShippingOption.Prices
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ILabeledPrice>
+  nameWithType: TVector<ILabeledPrice>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice>
+  nameWithType.vb: TVector(Of ILabeledPrice)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ILabeledPrice)
+  name.vb: TVector(Of ILabeledPrice)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ILabeledPrice
+    name: ILabeledPrice
+    nameWithType: ILabeledPrice
+    fullName: OpenTl.Schema.ILabeledPrice
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ILabeledPrice
+    name: ILabeledPrice
+    nameWithType: ILabeledPrice
+    fullName: OpenTl.Schema.ILabeledPrice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,353 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TWallPaperSolid
+  commentId: T:OpenTl.Schema.TWallPaperSolid
+  id: TWallPaperSolid
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TWallPaperSolid.BgColor
+  - OpenTl.Schema.TWallPaperSolid.Color
+  - OpenTl.Schema.TWallPaperSolid.Id
+  - OpenTl.Schema.TWallPaperSolid.Title
+  - OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TWallPaperSolid
+  nameWithType: TWallPaperSolid
+  fullName: OpenTl.Schema.TWallPaperSolid
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TWallPaperSolid
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TWallPaperSolid : object, IWallPaper, IObject'
+    content.vb: >-
+      Public Class TWallPaperSolid
+
+          Inherits Object
+
+          Implements IWallPaper, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IWallPaper
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TWallPaperSolid.Id
+  commentId: P:OpenTl.Schema.TWallPaperSolid.Id
+  id: Id
+  parent: OpenTl.Schema.TWallPaperSolid
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TWallPaperSolid.Id
+  fullName: OpenTl.Schema.TWallPaperSolid.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TWallPaperSolid.Id*
+  implements:
+  - OpenTl.Schema.IWallPaper.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+  commentId: P:OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TWallPaperSolid
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TWallPaperSolid.TitleAsBinary
+  fullName: OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TWallPaperSolid.TitleAsBinary*
+  implements:
+  - OpenTl.Schema.IWallPaper.TitleAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TWallPaperSolid.Title
+  commentId: P:OpenTl.Schema.TWallPaperSolid.Title
+  id: Title
+  parent: OpenTl.Schema.TWallPaperSolid
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TWallPaperSolid.Title
+  fullName: OpenTl.Schema.TWallPaperSolid.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TWallPaperSolid.Title*
+  implements:
+  - OpenTl.Schema.IWallPaper.Title
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TWallPaperSolid.BgColor
+  commentId: P:OpenTl.Schema.TWallPaperSolid.BgColor
+  id: BgColor
+  parent: OpenTl.Schema.TWallPaperSolid
+  langs:
+  - csharp
+  - vb
+  name: BgColor
+  nameWithType: TWallPaperSolid.BgColor
+  fullName: OpenTl.Schema.TWallPaperSolid.BgColor
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BgColor
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int BgColor { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BgColor As Integer
+  overload: OpenTl.Schema.TWallPaperSolid.BgColor*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TWallPaperSolid.Color
+  commentId: P:OpenTl.Schema.TWallPaperSolid.Color
+  id: Color
+  parent: OpenTl.Schema.TWallPaperSolid
+  langs:
+  - csharp
+  - vb
+  name: Color
+  nameWithType: TWallPaperSolid.Color
+  fullName: OpenTl.Schema.TWallPaperSolid.Color
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Color
+    path: ../src/OpenTl.Schema/_generated/_Entities/WallPaper/TWallPaperSolid.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Color { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Color As Integer
+  overload: OpenTl.Schema.TWallPaperSolid.Color*
+  implements:
+  - OpenTl.Schema.IWallPaper.Color
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IWallPaper
+  commentId: T:OpenTl.Schema.IWallPaper
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWallPaper
+  nameWithType: IWallPaper
+  fullName: OpenTl.Schema.IWallPaper
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TWallPaperSolid.Id*
+  commentId: Overload:OpenTl.Schema.TWallPaperSolid.Id
+  isExternal: false
+  name: Id
+  nameWithType: TWallPaperSolid.Id
+  fullName: OpenTl.Schema.TWallPaperSolid.Id
+- uid: OpenTl.Schema.IWallPaper.Id
+  commentId: P:OpenTl.Schema.IWallPaper.Id
+  parent: OpenTl.Schema.IWallPaper
+  isExternal: false
+  name: Id
+  nameWithType: IWallPaper.Id
+  fullName: OpenTl.Schema.IWallPaper.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TWallPaperSolid.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TWallPaperSolid.TitleAsBinary
+  fullName: OpenTl.Schema.TWallPaperSolid.TitleAsBinary
+- uid: OpenTl.Schema.IWallPaper.TitleAsBinary
+  commentId: P:OpenTl.Schema.IWallPaper.TitleAsBinary
+  parent: OpenTl.Schema.IWallPaper
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: IWallPaper.TitleAsBinary
+  fullName: OpenTl.Schema.IWallPaper.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TWallPaperSolid.Title*
+  commentId: Overload:OpenTl.Schema.TWallPaperSolid.Title
+  isExternal: false
+  name: Title
+  nameWithType: TWallPaperSolid.Title
+  fullName: OpenTl.Schema.TWallPaperSolid.Title
+- uid: OpenTl.Schema.IWallPaper.Title
+  commentId: P:OpenTl.Schema.IWallPaper.Title
+  parent: OpenTl.Schema.IWallPaper
+  isExternal: false
+  name: Title
+  nameWithType: IWallPaper.Title
+  fullName: OpenTl.Schema.IWallPaper.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TWallPaperSolid.BgColor*
+  commentId: Overload:OpenTl.Schema.TWallPaperSolid.BgColor
+  isExternal: false
+  name: BgColor
+  nameWithType: TWallPaperSolid.BgColor
+  fullName: OpenTl.Schema.TWallPaperSolid.BgColor
+- uid: OpenTl.Schema.TWallPaperSolid.Color*
+  commentId: Overload:OpenTl.Schema.TWallPaperSolid.Color
+  isExternal: false
+  name: Color
+  nameWithType: TWallPaperSolid.Color
+  fullName: OpenTl.Schema.TWallPaperSolid.Color
+- uid: OpenTl.Schema.IWallPaper.Color
+  commentId: P:OpenTl.Schema.IWallPaper.Color
+  parent: OpenTl.Schema.IWallPaper
+  isExternal: false
+  name: Color
+  nameWithType: IWallPaper.Color
+  fullName: OpenTl.Schema.IWallPaper.Color

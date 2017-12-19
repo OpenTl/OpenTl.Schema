@@ -1,0 +1,628 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestForwardMessages
+  commentId: T:OpenTl.Schema.Messages.RequestForwardMessages
+  id: RequestForwardMessages
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestForwardMessages.Background
+  - OpenTl.Schema.Messages.RequestForwardMessages.Flags
+  - OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+  - OpenTl.Schema.Messages.RequestForwardMessages.Id
+  - OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+  - OpenTl.Schema.Messages.RequestForwardMessages.Silent
+  - OpenTl.Schema.Messages.RequestForwardMessages.ToPeer
+  - OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+  langs:
+  - csharp
+  - vb
+  name: RequestForwardMessages
+  nameWithType: RequestForwardMessages
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestForwardMessages
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestForwardMessages : object, IRequest<IUpdates>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestForwardMessages
+
+          Inherits Object
+
+          Implements IRequest(Of IUpdates), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestForwardMessages.Flags
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Silent
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.Silent
+  id: Silent
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: RequestForwardMessages.Silent
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Silent As Boolean
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.Silent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Background
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.Background
+  id: Background
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: Background
+  nameWithType: RequestForwardMessages.Background
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Background
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Background
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Background { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Background As Boolean
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.Background*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+  id: WithMyScore
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: WithMyScore
+  nameWithType: RequestForwardMessages.WithMyScore
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: WithMyScore
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool WithMyScore { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property WithMyScore As Boolean
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+  id: FromPeer
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: FromPeer
+  nameWithType: RequestForwardMessages.FromPeer
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FromPeer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer FromPeer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property FromPeer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Id
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.Id
+  id: Id
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestForwardMessages.Id
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<int> Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int32}
+    content.vb: Public Property Id As TVector(Of Integer)
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+  id: RandomId
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: RandomId
+  nameWithType: RequestForwardMessages.RandomId
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RandomId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<long> RandomId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property RandomId As TVector(Of Long)
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.RandomId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.ToPeer
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.ToPeer
+  id: ToPeer
+  parent: OpenTl.Schema.Messages.RequestForwardMessages
+  langs:
+  - csharp
+  - vb
+  name: ToPeer
+  nameWithType: RequestForwardMessages.ToPeer
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.ToPeer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ToPeer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestForwardMessages.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer ToPeer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property ToPeer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestForwardMessages.ToPeer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUpdates>
+  nameWithType: IRequest<IUpdates>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUpdates>
+  nameWithType.vb: IRequest(Of IUpdates)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUpdates)
+  name.vb: IRequest(Of IUpdates)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestForwardMessages.Flags
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Silent*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: RequestForwardMessages.Silent
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Silent
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Background*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.Background
+  isExternal: false
+  name: Background
+  nameWithType: RequestForwardMessages.Background
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Background
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+  isExternal: false
+  name: WithMyScore
+  nameWithType: RequestForwardMessages.WithMyScore
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.WithMyScore
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+  isExternal: false
+  name: FromPeer
+  nameWithType: RequestForwardMessages.FromPeer
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Id*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestForwardMessages.Id
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Id
+- uid: OpenTl.Schema.TVector{System.Int32}
+  commentId: T:OpenTl.Schema.TVector{System.Int32}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int32>
+  nameWithType: TVector<Int32>
+  fullName: OpenTl.Schema.TVector<System.Int32>
+  nameWithType.vb: TVector(Of Int32)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int32)
+  name.vb: TVector(Of Int32)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.RandomId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+  isExternal: false
+  name: RandomId
+  nameWithType: RequestForwardMessages.RandomId
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.RandomId
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.ToPeer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.ToPeer
+  isExternal: false
+  name: ToPeer
+  nameWithType: RequestForwardMessages.ToPeer
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.ToPeer

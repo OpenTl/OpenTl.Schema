@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputPrivacyValueDisallowUsers
+  commentId: T:OpenTl.Schema.TInputPrivacyValueDisallowUsers
+  id: TInputPrivacyValueDisallowUsers
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+  langs:
+  - csharp
+  - vb
+  name: TInputPrivacyValueDisallowUsers
+  nameWithType: TInputPrivacyValueDisallowUsers
+  fullName: OpenTl.Schema.TInputPrivacyValueDisallowUsers
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPrivacyRule/TInputPrivacyValueDisallowUsers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputPrivacyValueDisallowUsers
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPrivacyRule/TInputPrivacyValueDisallowUsers.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputPrivacyValueDisallowUsers : object, IInputPrivacyRule, IObject'
+    content.vb: >-
+      Public Class TInputPrivacyValueDisallowUsers
+
+          Inherits Object
+
+          Implements IInputPrivacyRule, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputPrivacyRule
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+  commentId: P:OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+  id: Users
+  parent: OpenTl.Schema.TInputPrivacyValueDisallowUsers
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TInputPrivacyValueDisallowUsers.Users
+  fullName: OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputPrivacyRule/TInputPrivacyValueDisallowUsers.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputPrivacyRule/TInputPrivacyValueDisallowUsers.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IInputUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+    content.vb: Public Property Users As TVector(Of IInputUser)
+  overload: OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputPrivacyRule
+  commentId: T:OpenTl.Schema.IInputPrivacyRule
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPrivacyRule
+  nameWithType: IInputPrivacyRule
+  fullName: OpenTl.Schema.IInputPrivacyRule
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users*
+  commentId: Overload:OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+  isExternal: false
+  name: Users
+  nameWithType: TInputPrivacyValueDisallowUsers.Users
+  fullName: OpenTl.Schema.TInputPrivacyValueDisallowUsers.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IInputUser>
+  nameWithType: TVector<IInputUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IInputUser>
+  nameWithType.vb: TVector(Of IInputUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IInputUser)
+  name.vb: TVector(Of IInputUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IInputUser
+    name: IInputUser
+    nameWithType: IInputUser
+    fullName: OpenTl.Schema.IInputUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IInputUser
+    name: IInputUser
+    nameWithType: IInputUser
+    fullName: OpenTl.Schema.IInputUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

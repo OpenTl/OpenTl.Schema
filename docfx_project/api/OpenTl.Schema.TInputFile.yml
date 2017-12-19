@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputFile
+  commentId: T:OpenTl.Schema.TInputFile
+  id: TInputFile
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputFile.Id
+  - OpenTl.Schema.TInputFile.Md5Checksum
+  - OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+  - OpenTl.Schema.TInputFile.Name
+  - OpenTl.Schema.TInputFile.NameAsBinary
+  - OpenTl.Schema.TInputFile.Parts
+  langs:
+  - csharp
+  - vb
+  name: TInputFile
+  nameWithType: TInputFile
+  fullName: OpenTl.Schema.TInputFile
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputFile
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputFile : object, IInputFile, IObject'
+    content.vb: >-
+      Public Class TInputFile
+
+          Inherits Object
+
+          Implements IInputFile, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputFile
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputFile.Id
+  commentId: P:OpenTl.Schema.TInputFile.Id
+  id: Id
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputFile.Id
+  fullName: OpenTl.Schema.TInputFile.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputFile.Id*
+  implements:
+  - OpenTl.Schema.IInputFile.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputFile.Parts
+  commentId: P:OpenTl.Schema.TInputFile.Parts
+  id: Parts
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: Parts
+  nameWithType: TInputFile.Parts
+  fullName: OpenTl.Schema.TInputFile.Parts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Parts
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Parts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Parts As Integer
+  overload: OpenTl.Schema.TInputFile.Parts*
+  implements:
+  - OpenTl.Schema.IInputFile.Parts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputFile.NameAsBinary
+  commentId: P:OpenTl.Schema.TInputFile.NameAsBinary
+  id: NameAsBinary
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: NameAsBinary
+  nameWithType: TInputFile.NameAsBinary
+  fullName: OpenTl.Schema.TInputFile.NameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Name&apos; property
+  example: []
+  syntax:
+    content: public byte[] NameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property NameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputFile.NameAsBinary*
+  implements:
+  - OpenTl.Schema.IInputFile.NameAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputFile.Name
+  commentId: P:OpenTl.Schema.TInputFile.Name
+  id: Name
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: TInputFile.Name
+  fullName: OpenTl.Schema.TInputFile.Name
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Name
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: OpenTl.Schema.TInputFile.Name*
+  implements:
+  - OpenTl.Schema.IInputFile.Name
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+  commentId: P:OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+  id: Md5ChecksumAsBinary
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: Md5ChecksumAsBinary
+  nameWithType: TInputFile.Md5ChecksumAsBinary
+  fullName: OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Md5ChecksumAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Md5Checksum&apos; property
+  example: []
+  syntax:
+    content: public byte[] Md5ChecksumAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Md5ChecksumAsBinary As Byte()
+  overload: OpenTl.Schema.TInputFile.Md5ChecksumAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputFile.Md5Checksum
+  commentId: P:OpenTl.Schema.TInputFile.Md5Checksum
+  id: Md5Checksum
+  parent: OpenTl.Schema.TInputFile
+  langs:
+  - csharp
+  - vb
+  name: Md5Checksum
+  nameWithType: TInputFile.Md5Checksum
+  fullName: OpenTl.Schema.TInputFile.Md5Checksum
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Md5Checksum
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFile/TInputFile.cs
+    startLine: 32
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Md5Checksum { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Md5Checksum As String
+  overload: OpenTl.Schema.TInputFile.Md5Checksum*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputFile
+  commentId: T:OpenTl.Schema.IInputFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFile
+  nameWithType: IInputFile
+  fullName: OpenTl.Schema.IInputFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputFile.Id*
+  commentId: Overload:OpenTl.Schema.TInputFile.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputFile.Id
+  fullName: OpenTl.Schema.TInputFile.Id
+- uid: OpenTl.Schema.IInputFile.Id
+  commentId: P:OpenTl.Schema.IInputFile.Id
+  parent: OpenTl.Schema.IInputFile
+  isExternal: false
+  name: Id
+  nameWithType: IInputFile.Id
+  fullName: OpenTl.Schema.IInputFile.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputFile.Parts*
+  commentId: Overload:OpenTl.Schema.TInputFile.Parts
+  isExternal: false
+  name: Parts
+  nameWithType: TInputFile.Parts
+  fullName: OpenTl.Schema.TInputFile.Parts
+- uid: OpenTl.Schema.IInputFile.Parts
+  commentId: P:OpenTl.Schema.IInputFile.Parts
+  parent: OpenTl.Schema.IInputFile
+  isExternal: false
+  name: Parts
+  nameWithType: IInputFile.Parts
+  fullName: OpenTl.Schema.IInputFile.Parts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputFile.NameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputFile.NameAsBinary
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: TInputFile.NameAsBinary
+  fullName: OpenTl.Schema.TInputFile.NameAsBinary
+- uid: OpenTl.Schema.IInputFile.NameAsBinary
+  commentId: P:OpenTl.Schema.IInputFile.NameAsBinary
+  parent: OpenTl.Schema.IInputFile
+  isExternal: false
+  name: NameAsBinary
+  nameWithType: IInputFile.NameAsBinary
+  fullName: OpenTl.Schema.IInputFile.NameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputFile.Name*
+  commentId: Overload:OpenTl.Schema.TInputFile.Name
+  isExternal: false
+  name: Name
+  nameWithType: TInputFile.Name
+  fullName: OpenTl.Schema.TInputFile.Name
+- uid: OpenTl.Schema.IInputFile.Name
+  commentId: P:OpenTl.Schema.IInputFile.Name
+  parent: OpenTl.Schema.IInputFile
+  isExternal: false
+  name: Name
+  nameWithType: IInputFile.Name
+  fullName: OpenTl.Schema.IInputFile.Name
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputFile.Md5ChecksumAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+  isExternal: false
+  name: Md5ChecksumAsBinary
+  nameWithType: TInputFile.Md5ChecksumAsBinary
+  fullName: OpenTl.Schema.TInputFile.Md5ChecksumAsBinary
+- uid: OpenTl.Schema.TInputFile.Md5Checksum*
+  commentId: Overload:OpenTl.Schema.TInputFile.Md5Checksum
+  isExternal: false
+  name: Md5Checksum
+  nameWithType: TInputFile.Md5Checksum
+  fullName: OpenTl.Schema.TInputFile.Md5Checksum

@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestGetParticipant
+  commentId: T:OpenTl.Schema.Channels.RequestGetParticipant
+  id: RequestGetParticipant
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestGetParticipant.Channel
+  - OpenTl.Schema.Channels.RequestGetParticipant.UserId
+  langs:
+  - csharp
+  - vb
+  name: RequestGetParticipant
+  nameWithType: RequestGetParticipant
+  fullName: OpenTl.Schema.Channels.RequestGetParticipant
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetParticipant
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestGetParticipant : object, IRequest<IChannelParticipant>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetParticipant
+
+          Inherits Object
+
+          Implements IRequest(Of IChannelParticipant), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipant}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestGetParticipant.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipant.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestGetParticipant
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestGetParticipant.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetParticipant.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestGetParticipant.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetParticipant.UserId
+  commentId: P:OpenTl.Schema.Channels.RequestGetParticipant.UserId
+  id: UserId
+  parent: OpenTl.Schema.Channels.RequestGetParticipant
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: RequestGetParticipant.UserId
+  fullName: OpenTl.Schema.Channels.RequestGetParticipant.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetParticipant.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputUser UserId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputUser
+    content.vb: Public Property UserId As IInputUser
+  overload: OpenTl.Schema.Channels.RequestGetParticipant.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipant}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IChannelParticipant}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IChannelParticipant>
+  nameWithType: IRequest<IChannelParticipant>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Channels.IChannelParticipant>
+  nameWithType.vb: IRequest(Of IChannelParticipant)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Channels.IChannelParticipant)
+  name.vb: IRequest(Of IChannelParticipant)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Channels.IChannelParticipant
+    name: IChannelParticipant
+    nameWithType: IChannelParticipant
+    fullName: OpenTl.Schema.Channels.IChannelParticipant
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Channels.IChannelParticipant
+    name: IChannelParticipant
+    nameWithType: IChannelParticipant
+    fullName: OpenTl.Schema.Channels.IChannelParticipant
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestGetParticipant.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipant.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestGetParticipant.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetParticipant.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestGetParticipant.UserId*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetParticipant.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: RequestGetParticipant.UserId
+  fullName: OpenTl.Schema.Channels.RequestGetParticipant.UserId
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser

@@ -1,0 +1,250 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestExportMessageLink
+  commentId: T:OpenTl.Schema.Channels.RequestExportMessageLink
+  id: RequestExportMessageLink
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+  - OpenTl.Schema.Channels.RequestExportMessageLink.Id
+  langs:
+  - csharp
+  - vb
+  name: RequestExportMessageLink
+  nameWithType: RequestExportMessageLink
+  fullName: OpenTl.Schema.Channels.RequestExportMessageLink
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestExportMessageLink
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestExportMessageLink : object, IRequest<IExportedMessageLink>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestExportMessageLink
+
+          Inherits Object
+
+          Implements IRequest(Of IExportedMessageLink), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IExportedMessageLink}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestExportMessageLink
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestExportMessageLink.Channel
+  fullName: OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestExportMessageLink.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestExportMessageLink.Id
+  commentId: P:OpenTl.Schema.Channels.RequestExportMessageLink.Id
+  id: Id
+  parent: OpenTl.Schema.Channels.RequestExportMessageLink
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestExportMessageLink.Id
+  fullName: OpenTl.Schema.Channels.RequestExportMessageLink.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestExportMessageLink.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.Channels.RequestExportMessageLink.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IExportedMessageLink}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IExportedMessageLink}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IExportedMessageLink>
+  nameWithType: IRequest<IExportedMessageLink>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IExportedMessageLink>
+  nameWithType.vb: IRequest(Of IExportedMessageLink)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IExportedMessageLink)
+  name.vb: IRequest(Of IExportedMessageLink)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IExportedMessageLink
+    name: IExportedMessageLink
+    nameWithType: IExportedMessageLink
+    fullName: OpenTl.Schema.IExportedMessageLink
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IExportedMessageLink
+    name: IExportedMessageLink
+    nameWithType: IExportedMessageLink
+    fullName: OpenTl.Schema.IExportedMessageLink
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestExportMessageLink.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestExportMessageLink.Channel
+  fullName: OpenTl.Schema.Channels.RequestExportMessageLink.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestExportMessageLink.Id*
+  commentId: Overload:OpenTl.Schema.Channels.RequestExportMessageLink.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestExportMessageLink.Id
+  fullName: OpenTl.Schema.Channels.RequestExportMessageLink.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateNewStickerSet
+  commentId: T:OpenTl.Schema.TUpdateNewStickerSet
+  id: TUpdateNewStickerSet
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+  langs:
+  - csharp
+  - vb
+  name: TUpdateNewStickerSet
+  nameWithType: TUpdateNewStickerSet
+  fullName: OpenTl.Schema.TUpdateNewStickerSet
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateNewStickerSet
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewStickerSet.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateNewStickerSet : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateNewStickerSet
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+  commentId: P:OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+  id: Stickerset
+  parent: OpenTl.Schema.TUpdateNewStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Stickerset
+  nameWithType: TUpdateNewStickerSet.Stickerset
+  fullName: OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Stickerset
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNewStickerSet.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IStickerSet Stickerset { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Messages.IStickerSet
+    content.vb: Public Property Stickerset As IStickerSet
+  overload: OpenTl.Schema.TUpdateNewStickerSet.Stickerset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateNewStickerSet.Stickerset*
+  commentId: Overload:OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+  isExternal: false
+  name: Stickerset
+  nameWithType: TUpdateNewStickerSet.Stickerset
+  fullName: OpenTl.Schema.TUpdateNewStickerSet.Stickerset
+- uid: OpenTl.Schema.Messages.IStickerSet
+  commentId: T:OpenTl.Schema.Messages.IStickerSet
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IStickerSet
+  nameWithType: IStickerSet
+  fullName: OpenTl.Schema.Messages.IStickerSet
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages

@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TKeyboardButtonGame
+  commentId: T:OpenTl.Schema.TKeyboardButtonGame
+  id: TKeyboardButtonGame
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TKeyboardButtonGame.Text
+  - OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TKeyboardButtonGame
+  nameWithType: TKeyboardButtonGame
+  fullName: OpenTl.Schema.TKeyboardButtonGame
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TKeyboardButtonGame
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TKeyboardButtonGame : object, IKeyboardButton, IObject'
+    content.vb: >-
+      Public Class TKeyboardButtonGame
+
+          Inherits Object
+
+          Implements IKeyboardButton, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IKeyboardButton
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+  commentId: P:OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.TKeyboardButtonGame
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonGame.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.TKeyboardButtonGame.TextAsBinary*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.TextAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TKeyboardButtonGame.Text
+  commentId: P:OpenTl.Schema.TKeyboardButtonGame.Text
+  id: Text
+  parent: OpenTl.Schema.TKeyboardButtonGame
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TKeyboardButtonGame.Text
+  fullName: OpenTl.Schema.TKeyboardButtonGame.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/KeyboardButton/TKeyboardButtonGame.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.TKeyboardButtonGame.Text*
+  implements:
+  - OpenTl.Schema.IKeyboardButton.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IKeyboardButton
+  commentId: T:OpenTl.Schema.IKeyboardButton
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IKeyboardButton
+  nameWithType: IKeyboardButton
+  fullName: OpenTl.Schema.IKeyboardButton
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TKeyboardButtonGame.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TKeyboardButtonGame.TextAsBinary
+  fullName: OpenTl.Schema.TKeyboardButtonGame.TextAsBinary
+- uid: OpenTl.Schema.IKeyboardButton.TextAsBinary
+  commentId: P:OpenTl.Schema.IKeyboardButton.TextAsBinary
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: IKeyboardButton.TextAsBinary
+  fullName: OpenTl.Schema.IKeyboardButton.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TKeyboardButtonGame.Text*
+  commentId: Overload:OpenTl.Schema.TKeyboardButtonGame.Text
+  isExternal: false
+  name: Text
+  nameWithType: TKeyboardButtonGame.Text
+  fullName: OpenTl.Schema.TKeyboardButtonGame.Text
+- uid: OpenTl.Schema.IKeyboardButton.Text
+  commentId: P:OpenTl.Schema.IKeyboardButton.Text
+  parent: OpenTl.Schema.IKeyboardButton
+  isExternal: false
+  name: Text
+  nameWithType: IKeyboardButton.Text
+  fullName: OpenTl.Schema.IKeyboardButton.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

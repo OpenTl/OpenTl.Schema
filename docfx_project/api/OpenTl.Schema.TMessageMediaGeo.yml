@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageMediaGeo
+  commentId: T:OpenTl.Schema.TMessageMediaGeo
+  id: TMessageMediaGeo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageMediaGeo.Geo
+  langs:
+  - csharp
+  - vb
+  name: TMessageMediaGeo
+  nameWithType: TMessageMediaGeo
+  fullName: OpenTl.Schema.TMessageMediaGeo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageMediaGeo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGeo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageMediaGeo : object, IMessageMedia, IObject'
+    content.vb: >-
+      Public Class TMessageMediaGeo
+
+          Inherits Object
+
+          Implements IMessageMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageMediaGeo.Geo
+  commentId: P:OpenTl.Schema.TMessageMediaGeo.Geo
+  id: Geo
+  parent: OpenTl.Schema.TMessageMediaGeo
+  langs:
+  - csharp
+  - vb
+  name: Geo
+  nameWithType: TMessageMediaGeo.Geo
+  fullName: OpenTl.Schema.TMessageMediaGeo.Geo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Geo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageMedia/TMessageMediaGeo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IGeoPoint Geo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IGeoPoint
+    content.vb: Public Property Geo As IGeoPoint
+  overload: OpenTl.Schema.TMessageMediaGeo.Geo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageMedia
+  commentId: T:OpenTl.Schema.IMessageMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageMedia
+  nameWithType: IMessageMedia
+  fullName: OpenTl.Schema.IMessageMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageMediaGeo.Geo*
+  commentId: Overload:OpenTl.Schema.TMessageMediaGeo.Geo
+  isExternal: false
+  name: Geo
+  nameWithType: TMessageMediaGeo.Geo
+  fullName: OpenTl.Schema.TMessageMediaGeo.Geo
+- uid: OpenTl.Schema.IGeoPoint
+  commentId: T:OpenTl.Schema.IGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGeoPoint
+  nameWithType: IGeoPoint
+  fullName: OpenTl.Schema.IGeoPoint

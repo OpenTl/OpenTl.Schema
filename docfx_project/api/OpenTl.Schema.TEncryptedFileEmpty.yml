@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TEncryptedFileEmpty
+  commentId: T:OpenTl.Schema.TEncryptedFileEmpty
+  id: TEncryptedFileEmpty
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TEncryptedFileEmpty
+  nameWithType: TEncryptedFileEmpty
+  fullName: OpenTl.Schema.TEncryptedFileEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFileEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TEncryptedFileEmpty
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedFile/TEncryptedFileEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TEncryptedFileEmpty : object, IEncryptedFile, IObject, IEmpty'
+    content.vb: >-
+      Public Class TEncryptedFileEmpty
+
+          Inherits Object
+
+          Implements IEncryptedFile, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IEncryptedFile
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IEncryptedFile
+  commentId: T:OpenTl.Schema.IEncryptedFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedFile
+  nameWithType: IEncryptedFile
+  fullName: OpenTl.Schema.IEncryptedFile
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty

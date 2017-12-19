@@ -35,6 +35,7 @@ namespace OpenTl.Schema.Payments
        [CanSerialize("Flags", 1)]
        public OpenTl.Schema.IShippingOption Shipping {get; set;}
 
+       /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(7)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
        private byte[] _CurrencyAsBinary;
@@ -44,6 +45,7 @@ namespace OpenTl.Schema.Payments
        [SerializationOrder(8)]
        public long TotalAmount {get; set;}
 
+       /// <summary>Binary representation for the 'CredentialsTitle' property</summary>
        [SerializationOrder(9)]
        public byte[] CredentialsTitleAsBinary { get => _CredentialsTitleAsBinary; set { _CredentialsTitle = Encoding.UTF8.GetString(value); _CredentialsTitleAsBinary = value; }}
        private byte[] _CredentialsTitleAsBinary;

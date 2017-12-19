@@ -23,12 +23,14 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 3)]
        public bool Test {get; set;}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(3)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
        private byte[] _TitleAsBinary;
        private string _Title;
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
+       /// <summary>Binary representation for the 'Description' property</summary>
        [SerializationOrder(4)]
        public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}
        private byte[] _DescriptionAsBinary;
@@ -43,6 +45,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 2)]
        public int ReceiptMsgId {get; set;}
 
+       /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(7)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
        private byte[] _CurrencyAsBinary;
@@ -52,6 +55,7 @@ namespace OpenTl.Schema
        [SerializationOrder(8)]
        public long TotalAmount {get; set;}
 
+       /// <summary>Binary representation for the 'StartParam' property</summary>
        [SerializationOrder(9)]
        public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
        private byte[] _StartParamAsBinary;

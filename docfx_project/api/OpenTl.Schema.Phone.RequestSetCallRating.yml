@@ -1,0 +1,366 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Phone.RequestSetCallRating
+  commentId: T:OpenTl.Schema.Phone.RequestSetCallRating
+  id: RequestSetCallRating
+  parent: OpenTl.Schema.Phone
+  children:
+  - OpenTl.Schema.Phone.RequestSetCallRating.Comment
+  - OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+  - OpenTl.Schema.Phone.RequestSetCallRating.Peer
+  - OpenTl.Schema.Phone.RequestSetCallRating.Rating
+  langs:
+  - csharp
+  - vb
+  name: RequestSetCallRating
+  nameWithType: RequestSetCallRating
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSetCallRating
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: 'public class RequestSetCallRating : object, IRequest<IUpdates>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSetCallRating
+
+          Inherits Object
+
+          Implements IRequest(Of IUpdates), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Peer
+  commentId: P:OpenTl.Schema.Phone.RequestSetCallRating.Peer
+  id: Peer
+  parent: OpenTl.Schema.Phone.RequestSetCallRating
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSetCallRating.Peer
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IInputPhoneCall Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPhoneCall
+    content.vb: Public Property Peer As IInputPhoneCall
+  overload: OpenTl.Schema.Phone.RequestSetCallRating.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Rating
+  commentId: P:OpenTl.Schema.Phone.RequestSetCallRating.Rating
+  id: Rating
+  parent: OpenTl.Schema.Phone.RequestSetCallRating
+  langs:
+  - csharp
+  - vb
+  name: Rating
+  nameWithType: RequestSetCallRating.Rating
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Rating
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Rating
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public int Rating { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Rating As Integer
+  overload: OpenTl.Schema.Phone.RequestSetCallRating.Rating*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+  commentId: P:OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+  id: CommentAsBinary
+  parent: OpenTl.Schema.Phone.RequestSetCallRating
+  langs:
+  - csharp
+  - vb
+  name: CommentAsBinary
+  nameWithType: RequestSetCallRating.CommentAsBinary
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CommentAsBinary
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  summary: Binary representation for the &apos;Comment&apos; property
+  example: []
+  syntax:
+    content: public byte[] CommentAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CommentAsBinary As Byte()
+  overload: OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Comment
+  commentId: P:OpenTl.Schema.Phone.RequestSetCallRating.Comment
+  id: Comment
+  parent: OpenTl.Schema.Phone.RequestSetCallRating
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: RequestSetCallRating.Comment
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Comment
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Comment
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestSetCallRating.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: OpenTl.Schema.Phone.RequestSetCallRating.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Phone
+  commentId: N:OpenTl.Schema.Phone
+  isExternal: false
+  name: OpenTl.Schema.Phone
+  nameWithType: OpenTl.Schema.Phone
+  fullName: OpenTl.Schema.Phone
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUpdates>
+  nameWithType: IRequest<IUpdates>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUpdates>
+  nameWithType.vb: IRequest(Of IUpdates)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUpdates)
+  name.vb: IRequest(Of IUpdates)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Peer*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSetCallRating.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSetCallRating.Peer
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Peer
+- uid: OpenTl.Schema.IInputPhoneCall
+  commentId: T:OpenTl.Schema.IInputPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoneCall
+  nameWithType: IInputPhoneCall
+  fullName: OpenTl.Schema.IInputPhoneCall
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Rating*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSetCallRating.Rating
+  isExternal: false
+  name: Rating
+  nameWithType: RequestSetCallRating.Rating
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Rating
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+  isExternal: false
+  name: CommentAsBinary
+  nameWithType: RequestSetCallRating.CommentAsBinary
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.CommentAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Phone.RequestSetCallRating.Comment*
+  commentId: Overload:OpenTl.Schema.Phone.RequestSetCallRating.Comment
+  isExternal: false
+  name: Comment
+  nameWithType: RequestSetCallRating.Comment
+  fullName: OpenTl.Schema.Phone.RequestSetCallRating.Comment
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

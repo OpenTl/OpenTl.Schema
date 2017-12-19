@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputStickeredMediaDocument
+  commentId: T:OpenTl.Schema.TInputStickeredMediaDocument
+  id: TInputStickeredMediaDocument
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputStickeredMediaDocument.Id
+  langs:
+  - csharp
+  - vb
+  name: TInputStickeredMediaDocument
+  nameWithType: TInputStickeredMediaDocument
+  fullName: OpenTl.Schema.TInputStickeredMediaDocument
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputStickeredMediaDocument
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaDocument.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputStickeredMediaDocument : object, IInputStickeredMedia, IObject'
+    content.vb: >-
+      Public Class TInputStickeredMediaDocument
+
+          Inherits Object
+
+          Implements IInputStickeredMedia, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputStickeredMedia
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputStickeredMediaDocument.Id
+  commentId: P:OpenTl.Schema.TInputStickeredMediaDocument.Id
+  id: Id
+  parent: OpenTl.Schema.TInputStickeredMediaDocument
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputStickeredMediaDocument.Id
+  fullName: OpenTl.Schema.TInputStickeredMediaDocument.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaDocument.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputStickeredMedia/TInputStickeredMediaDocument.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputDocument Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputDocument
+    content.vb: Public Property Id As IInputDocument
+  overload: OpenTl.Schema.TInputStickeredMediaDocument.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputStickeredMedia
+  commentId: T:OpenTl.Schema.IInputStickeredMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputStickeredMedia
+  nameWithType: IInputStickeredMedia
+  fullName: OpenTl.Schema.IInputStickeredMedia
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputStickeredMediaDocument.Id*
+  commentId: Overload:OpenTl.Schema.TInputStickeredMediaDocument.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputStickeredMediaDocument.Id
+  fullName: OpenTl.Schema.TInputStickeredMediaDocument.Id
+- uid: OpenTl.Schema.IInputDocument
+  commentId: T:OpenTl.Schema.IInputDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputDocument
+  nameWithType: IInputDocument
+  fullName: OpenTl.Schema.IInputDocument

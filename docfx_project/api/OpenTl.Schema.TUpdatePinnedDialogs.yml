@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdatePinnedDialogs
+  commentId: T:OpenTl.Schema.TUpdatePinnedDialogs
+  id: TUpdatePinnedDialogs
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdatePinnedDialogs.Flags
+  - OpenTl.Schema.TUpdatePinnedDialogs.Order
+  langs:
+  - csharp
+  - vb
+  name: TUpdatePinnedDialogs
+  nameWithType: TUpdatePinnedDialogs
+  fullName: OpenTl.Schema.TUpdatePinnedDialogs
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdatePinnedDialogs
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdatePinnedDialogs : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdatePinnedDialogs
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdatePinnedDialogs.Flags
+  commentId: P:OpenTl.Schema.TUpdatePinnedDialogs.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdatePinnedDialogs
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdatePinnedDialogs.Flags
+  fullName: OpenTl.Schema.TUpdatePinnedDialogs.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdatePinnedDialogs.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdatePinnedDialogs.Order
+  commentId: P:OpenTl.Schema.TUpdatePinnedDialogs.Order
+  id: Order
+  parent: OpenTl.Schema.TUpdatePinnedDialogs
+  langs:
+  - csharp
+  - vb
+  name: Order
+  nameWithType: TUpdatePinnedDialogs.Order
+  fullName: OpenTl.Schema.TUpdatePinnedDialogs.Order
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Order
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdatePinnedDialogs.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IPeer> Order { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IPeer}
+    content.vb: Public Property Order As TVector(Of IPeer)
+  overload: OpenTl.Schema.TUpdatePinnedDialogs.Order*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdatePinnedDialogs.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdatePinnedDialogs.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdatePinnedDialogs.Flags
+  fullName: OpenTl.Schema.TUpdatePinnedDialogs.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdatePinnedDialogs.Order*
+  commentId: Overload:OpenTl.Schema.TUpdatePinnedDialogs.Order
+  isExternal: false
+  name: Order
+  nameWithType: TUpdatePinnedDialogs.Order
+  fullName: OpenTl.Schema.TUpdatePinnedDialogs.Order
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IPeer}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IPeer}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IPeer>
+  nameWithType: TVector<IPeer>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IPeer>
+  nameWithType.vb: TVector(Of IPeer)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IPeer)
+  name.vb: TVector(Of IPeer)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IPeer
+    name: IPeer
+    nameWithType: IPeer
+    fullName: OpenTl.Schema.IPeer
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IPeer
+    name: IPeer
+    nameWithType: IPeer
+    fullName: OpenTl.Schema.IPeer
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

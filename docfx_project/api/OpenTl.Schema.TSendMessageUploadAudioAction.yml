@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TSendMessageUploadAudioAction
+  commentId: T:OpenTl.Schema.TSendMessageUploadAudioAction
+  id: TSendMessageUploadAudioAction
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+  langs:
+  - csharp
+  - vb
+  name: TSendMessageUploadAudioAction
+  nameWithType: TSendMessageUploadAudioAction
+  fullName: OpenTl.Schema.TSendMessageUploadAudioAction
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageUploadAudioAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSendMessageUploadAudioAction
+    path: ../src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageUploadAudioAction.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TSendMessageUploadAudioAction : object, ISendMessageAction, IObject'
+    content.vb: >-
+      Public Class TSendMessageUploadAudioAction
+
+          Inherits Object
+
+          Implements ISendMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ISendMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+  commentId: P:OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+  id: Progress
+  parent: OpenTl.Schema.TSendMessageUploadAudioAction
+  langs:
+  - csharp
+  - vb
+  name: Progress
+  nameWithType: TSendMessageUploadAudioAction.Progress
+  fullName: OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageUploadAudioAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Progress
+    path: ../src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageUploadAudioAction.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Progress { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Progress As Integer
+  overload: OpenTl.Schema.TSendMessageUploadAudioAction.Progress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ISendMessageAction
+  commentId: T:OpenTl.Schema.ISendMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISendMessageAction
+  nameWithType: ISendMessageAction
+  fullName: OpenTl.Schema.ISendMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TSendMessageUploadAudioAction.Progress*
+  commentId: Overload:OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+  isExternal: false
+  name: Progress
+  nameWithType: TSendMessageUploadAudioAction.Progress
+  fullName: OpenTl.Schema.TSendMessageUploadAudioAction.Progress
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

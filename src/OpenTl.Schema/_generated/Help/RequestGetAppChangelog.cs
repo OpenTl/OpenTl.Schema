@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Help
 	[Serialize(0x9010ef6f)]
     public class RequestGetAppChangelog : IRequest<OpenTl.Schema.IUpdates>
     {
+       /// <summary>Binary representation for the 'PrevAppVersion' property</summary>
        [SerializationOrder(0)]
        public byte[] PrevAppVersionAsBinary { get => _PrevAppVersionAsBinary; set { _PrevAppVersion = Encoding.UTF8.GetString(value); _PrevAppVersionAsBinary = value; }}
        private byte[] _PrevAppVersionAsBinary;

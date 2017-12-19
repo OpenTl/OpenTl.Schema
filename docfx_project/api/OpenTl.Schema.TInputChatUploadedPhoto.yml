@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputChatUploadedPhoto
+  commentId: T:OpenTl.Schema.TInputChatUploadedPhoto
+  id: TInputChatUploadedPhoto
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputChatUploadedPhoto.File
+  langs:
+  - csharp
+  - vb
+  name: TInputChatUploadedPhoto
+  nameWithType: TInputChatUploadedPhoto
+  fullName: OpenTl.Schema.TInputChatUploadedPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputChatPhoto/TInputChatUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputChatUploadedPhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputChatPhoto/TInputChatUploadedPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputChatUploadedPhoto : object, IInputChatPhoto, IObject'
+    content.vb: >-
+      Public Class TInputChatUploadedPhoto
+
+          Inherits Object
+
+          Implements IInputChatPhoto, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputChatPhoto
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputChatUploadedPhoto.File
+  commentId: P:OpenTl.Schema.TInputChatUploadedPhoto.File
+  id: File
+  parent: OpenTl.Schema.TInputChatUploadedPhoto
+  langs:
+  - csharp
+  - vb
+  name: File
+  nameWithType: TInputChatUploadedPhoto.File
+  fullName: OpenTl.Schema.TInputChatUploadedPhoto.File
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputChatPhoto/TInputChatUploadedPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: File
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputChatPhoto/TInputChatUploadedPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputFile File { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputFile
+    content.vb: Public Property File As IInputFile
+  overload: OpenTl.Schema.TInputChatUploadedPhoto.File*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputChatPhoto
+  commentId: T:OpenTl.Schema.IInputChatPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChatPhoto
+  nameWithType: IInputChatPhoto
+  fullName: OpenTl.Schema.IInputChatPhoto
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputChatUploadedPhoto.File*
+  commentId: Overload:OpenTl.Schema.TInputChatUploadedPhoto.File
+  isExternal: false
+  name: File
+  nameWithType: TInputChatUploadedPhoto.File
+  fullName: OpenTl.Schema.TInputChatUploadedPhoto.File
+- uid: OpenTl.Schema.IInputFile
+  commentId: T:OpenTl.Schema.IInputFile
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFile
+  nameWithType: IInputFile
+  fullName: OpenTl.Schema.IInputFile

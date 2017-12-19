@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Phone.RequestAcceptCall
+  commentId: T:OpenTl.Schema.Phone.RequestAcceptCall
+  id: RequestAcceptCall
+  parent: OpenTl.Schema.Phone
+  children:
+  - OpenTl.Schema.Phone.RequestAcceptCall.GB
+  - OpenTl.Schema.Phone.RequestAcceptCall.Peer
+  - OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+  langs:
+  - csharp
+  - vb
+  name: RequestAcceptCall
+  nameWithType: RequestAcceptCall
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestAcceptCall
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: 'public class RequestAcceptCall : object, IRequest<IPhoneCall>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestAcceptCall
+
+          Inherits Object
+
+          Implements IRequest(Of IPhoneCall), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Phone.IPhoneCall}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.Peer
+  commentId: P:OpenTl.Schema.Phone.RequestAcceptCall.Peer
+  id: Peer
+  parent: OpenTl.Schema.Phone.RequestAcceptCall
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestAcceptCall.Peer
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IInputPhoneCall Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPhoneCall
+    content.vb: Public Property Peer As IInputPhoneCall
+  overload: OpenTl.Schema.Phone.RequestAcceptCall.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.GB
+  commentId: P:OpenTl.Schema.Phone.RequestAcceptCall.GB
+  id: GB
+  parent: OpenTl.Schema.Phone.RequestAcceptCall
+  langs:
+  - csharp
+  - vb
+  name: GB
+  nameWithType: RequestAcceptCall.GB
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.GB
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GB
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public byte[] GB { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property GB As Byte()
+  overload: OpenTl.Schema.Phone.RequestAcceptCall.GB*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+  commentId: P:OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+  id: Protocol
+  parent: OpenTl.Schema.Phone.RequestAcceptCall
+  langs:
+  - csharp
+  - vb
+  name: Protocol
+  nameWithType: RequestAcceptCall.Protocol
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Protocol
+    path: ../src/OpenTl.Schema/_generated/Phone/RequestAcceptCall.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Phone
+  syntax:
+    content: public IPhoneCallProtocol Protocol { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoneCallProtocol
+    content.vb: Public Property Protocol As IPhoneCallProtocol
+  overload: OpenTl.Schema.Phone.RequestAcceptCall.Protocol*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Phone
+  commentId: N:OpenTl.Schema.Phone
+  isExternal: false
+  name: OpenTl.Schema.Phone
+  nameWithType: OpenTl.Schema.Phone
+  fullName: OpenTl.Schema.Phone
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Phone.IPhoneCall}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Phone.IPhoneCall}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IPhoneCall>
+  nameWithType: IRequest<IPhoneCall>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Phone.IPhoneCall>
+  nameWithType.vb: IRequest(Of IPhoneCall)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Phone.IPhoneCall)
+  name.vb: IRequest(Of IPhoneCall)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Phone.IPhoneCall
+    name: IPhoneCall
+    nameWithType: IPhoneCall
+    fullName: OpenTl.Schema.Phone.IPhoneCall
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Phone.IPhoneCall
+    name: IPhoneCall
+    nameWithType: IPhoneCall
+    fullName: OpenTl.Schema.Phone.IPhoneCall
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.Peer*
+  commentId: Overload:OpenTl.Schema.Phone.RequestAcceptCall.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestAcceptCall.Peer
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.Peer
+- uid: OpenTl.Schema.IInputPhoneCall
+  commentId: T:OpenTl.Schema.IInputPhoneCall
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPhoneCall
+  nameWithType: IInputPhoneCall
+  fullName: OpenTl.Schema.IInputPhoneCall
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.GB*
+  commentId: Overload:OpenTl.Schema.Phone.RequestAcceptCall.GB
+  isExternal: false
+  name: GB
+  nameWithType: RequestAcceptCall.GB
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.GB
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Phone.RequestAcceptCall.Protocol*
+  commentId: Overload:OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+  isExternal: false
+  name: Protocol
+  nameWithType: RequestAcceptCall.Protocol
+  fullName: OpenTl.Schema.Phone.RequestAcceptCall.Protocol
+- uid: OpenTl.Schema.IPhoneCallProtocol
+  commentId: T:OpenTl.Schema.IPhoneCallProtocol
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCallProtocol
+  nameWithType: IPhoneCallProtocol
+  fullName: OpenTl.Schema.IPhoneCallProtocol

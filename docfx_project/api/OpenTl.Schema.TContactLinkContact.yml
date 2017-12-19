@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TContactLinkContact
+  commentId: T:OpenTl.Schema.TContactLinkContact
+  id: TContactLinkContact
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TContactLinkContact
+  nameWithType: TContactLinkContact
+  fullName: OpenTl.Schema.TContactLinkContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ContactLink/TContactLinkContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TContactLinkContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/ContactLink/TContactLinkContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TContactLinkContact : object, IContactLink, IObject'
+    content.vb: >-
+      Public Class TContactLinkContact
+
+          Inherits Object
+
+          Implements IContactLink, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IContactLink
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IContactLink
+  commentId: T:OpenTl.Schema.IContactLink
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IContactLink
+  nameWithType: IContactLink
+  fullName: OpenTl.Schema.IContactLink
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

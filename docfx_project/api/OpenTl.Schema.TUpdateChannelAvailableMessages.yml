@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChannelAvailableMessages
+  commentId: T:OpenTl.Schema.TUpdateChannelAvailableMessages
+  id: TUpdateChannelAvailableMessages
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId
+  - OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChannelAvailableMessages
+  nameWithType: TUpdateChannelAvailableMessages
+  fullName: OpenTl.Schema.TUpdateChannelAvailableMessages
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChannelAvailableMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChannelAvailableMessages : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChannelAvailableMessages
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateChannelAvailableMessages
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateChannelAvailableMessages.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId
+  commentId: P:OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId
+  id: AvailableMinId
+  parent: OpenTl.Schema.TUpdateChannelAvailableMessages
+  langs:
+  - csharp
+  - vb
+  name: AvailableMinId
+  nameWithType: TUpdateChannelAvailableMessages.AvailableMinId
+  fullName: OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AvailableMinId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChannelAvailableMessages.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int AvailableMinId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AvailableMinId As Integer
+  overload: OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateChannelAvailableMessages.ChannelId
+  fullName: OpenTl.Schema.TUpdateChannelAvailableMessages.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId*
+  commentId: Overload:OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId
+  isExternal: false
+  name: AvailableMinId
+  nameWithType: TUpdateChannelAvailableMessages.AvailableMinId
+  fullName: OpenTl.Schema.TUpdateChannelAvailableMessages.AvailableMinId

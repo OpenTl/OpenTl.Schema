@@ -1,0 +1,386 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TRecentMeUrls
+  commentId: T:OpenTl.Schema.Help.TRecentMeUrls
+  id: TRecentMeUrls
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TRecentMeUrls.Chats
+  - OpenTl.Schema.Help.TRecentMeUrls.Urls
+  - OpenTl.Schema.Help.TRecentMeUrls.Users
+  langs:
+  - csharp
+  - vb
+  name: TRecentMeUrls
+  nameWithType: TRecentMeUrls
+  fullName: OpenTl.Schema.Help.TRecentMeUrls
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRecentMeUrls
+    path: ../src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TRecentMeUrls : object, IRecentMeUrls, IObject'
+    content.vb: >-
+      Public Class TRecentMeUrls
+
+          Inherits Object
+
+          Implements IRecentMeUrls, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.IRecentMeUrls
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Urls
+  commentId: P:OpenTl.Schema.Help.TRecentMeUrls.Urls
+  id: Urls
+  parent: OpenTl.Schema.Help.TRecentMeUrls
+  langs:
+  - csharp
+  - vb
+  name: Urls
+  nameWithType: TRecentMeUrls.Urls
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Urls
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Urls
+    path: ../src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public TVector<IRecentMeUrl> Urls { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IRecentMeUrl}
+    content.vb: Public Property Urls As TVector(Of IRecentMeUrl)
+  overload: OpenTl.Schema.Help.TRecentMeUrls.Urls*
+  implements:
+  - OpenTl.Schema.Help.IRecentMeUrls.Urls
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Chats
+  commentId: P:OpenTl.Schema.Help.TRecentMeUrls.Chats
+  id: Chats
+  parent: OpenTl.Schema.Help.TRecentMeUrls
+  langs:
+  - csharp
+  - vb
+  name: Chats
+  nameWithType: TRecentMeUrls.Chats
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Chats
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Chats
+    path: ../src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public TVector<IChat> Chats { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+    content.vb: Public Property Chats As TVector(Of IChat)
+  overload: OpenTl.Schema.Help.TRecentMeUrls.Chats*
+  implements:
+  - OpenTl.Schema.Help.IRecentMeUrls.Chats
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Users
+  commentId: P:OpenTl.Schema.Help.TRecentMeUrls.Users
+  id: Users
+  parent: OpenTl.Schema.Help.TRecentMeUrls
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TRecentMeUrls.Users
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Help/RecentMeUrls/TRecentMeUrls.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Help.TRecentMeUrls.Users*
+  implements:
+  - OpenTl.Schema.Help.IRecentMeUrls.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.IRecentMeUrls
+  commentId: T:OpenTl.Schema.Help.IRecentMeUrls
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: IRecentMeUrls
+  nameWithType: IRecentMeUrls
+  fullName: OpenTl.Schema.Help.IRecentMeUrls
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Urls*
+  commentId: Overload:OpenTl.Schema.Help.TRecentMeUrls.Urls
+  isExternal: false
+  name: Urls
+  nameWithType: TRecentMeUrls.Urls
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Urls
+- uid: OpenTl.Schema.Help.IRecentMeUrls.Urls
+  commentId: P:OpenTl.Schema.Help.IRecentMeUrls.Urls
+  parent: OpenTl.Schema.Help.IRecentMeUrls
+  isExternal: false
+  name: Urls
+  nameWithType: IRecentMeUrls.Urls
+  fullName: OpenTl.Schema.Help.IRecentMeUrls.Urls
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IRecentMeUrl}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IRecentMeUrl}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IRecentMeUrl>
+  nameWithType: TVector<IRecentMeUrl>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IRecentMeUrl>
+  nameWithType.vb: TVector(Of IRecentMeUrl)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IRecentMeUrl)
+  name.vb: TVector(Of IRecentMeUrl)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IRecentMeUrl
+    name: IRecentMeUrl
+    nameWithType: IRecentMeUrl
+    fullName: OpenTl.Schema.IRecentMeUrl
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IRecentMeUrl
+    name: IRecentMeUrl
+    nameWithType: IRecentMeUrl
+    fullName: OpenTl.Schema.IRecentMeUrl
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Chats*
+  commentId: Overload:OpenTl.Schema.Help.TRecentMeUrls.Chats
+  isExternal: false
+  name: Chats
+  nameWithType: TRecentMeUrls.Chats
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Chats
+- uid: OpenTl.Schema.Help.IRecentMeUrls.Chats
+  commentId: P:OpenTl.Schema.Help.IRecentMeUrls.Chats
+  parent: OpenTl.Schema.Help.IRecentMeUrls
+  isExternal: false
+  name: Chats
+  nameWithType: IRecentMeUrls.Chats
+  fullName: OpenTl.Schema.Help.IRecentMeUrls.Chats
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IChat}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IChat>
+  nameWithType: TVector<IChat>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IChat>
+  nameWithType.vb: TVector(Of IChat)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IChat)
+  name.vb: TVector(Of IChat)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IChat
+    name: IChat
+    nameWithType: IChat
+    fullName: OpenTl.Schema.IChat
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Help.TRecentMeUrls.Users*
+  commentId: Overload:OpenTl.Schema.Help.TRecentMeUrls.Users
+  isExternal: false
+  name: Users
+  nameWithType: TRecentMeUrls.Users
+  fullName: OpenTl.Schema.Help.TRecentMeUrls.Users
+- uid: OpenTl.Schema.Help.IRecentMeUrls.Users
+  commentId: P:OpenTl.Schema.Help.IRecentMeUrls.Users
+  parent: OpenTl.Schema.Help.IRecentMeUrls
+  isExternal: false
+  name: Users
+  nameWithType: IRecentMeUrls.Users
+  fullName: OpenTl.Schema.Help.IRecentMeUrls.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )

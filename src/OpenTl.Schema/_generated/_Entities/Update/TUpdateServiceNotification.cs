@@ -23,12 +23,14 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 1)]
        public int InboxDate {get; set;}
 
+       /// <summary>Binary representation for the 'Type' property</summary>
        [SerializationOrder(3)]
        public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
        private byte[] _TypeAsBinary;
        private string _Type;
        public string Type { get => _Type; set { TypeAsBinary = Encoding.UTF8.GetBytes(value); _Type = value; }}
 
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(4)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

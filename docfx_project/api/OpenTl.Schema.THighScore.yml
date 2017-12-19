@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.THighScore
+  commentId: T:OpenTl.Schema.THighScore
+  id: THighScore
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.THighScore.Pos
+  - OpenTl.Schema.THighScore.Score
+  - OpenTl.Schema.THighScore.UserId
+  langs:
+  - csharp
+  - vb
+  name: THighScore
+  nameWithType: THighScore
+  fullName: OpenTl.Schema.THighScore
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: THighScore
+    path: ../src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class THighScore : object, IHighScore, IObject'
+    content.vb: >-
+      Public Class THighScore
+
+          Inherits Object
+
+          Implements IHighScore, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IHighScore
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.THighScore.Pos
+  commentId: P:OpenTl.Schema.THighScore.Pos
+  id: Pos
+  parent: OpenTl.Schema.THighScore
+  langs:
+  - csharp
+  - vb
+  name: Pos
+  nameWithType: THighScore.Pos
+  fullName: OpenTl.Schema.THighScore.Pos
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pos
+    path: ../src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pos { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pos As Integer
+  overload: OpenTl.Schema.THighScore.Pos*
+  implements:
+  - OpenTl.Schema.IHighScore.Pos
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.THighScore.UserId
+  commentId: P:OpenTl.Schema.THighScore.UserId
+  id: UserId
+  parent: OpenTl.Schema.THighScore
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: THighScore.UserId
+  fullName: OpenTl.Schema.THighScore.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.THighScore.UserId*
+  implements:
+  - OpenTl.Schema.IHighScore.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.THighScore.Score
+  commentId: P:OpenTl.Schema.THighScore.Score
+  id: Score
+  parent: OpenTl.Schema.THighScore
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: THighScore.Score
+  fullName: OpenTl.Schema.THighScore.Score
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Score
+    path: ../src/OpenTl.Schema/_generated/_Entities/HighScore/THighScore.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Score { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Score As Integer
+  overload: OpenTl.Schema.THighScore.Score*
+  implements:
+  - OpenTl.Schema.IHighScore.Score
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IHighScore
+  commentId: T:OpenTl.Schema.IHighScore
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IHighScore
+  nameWithType: IHighScore
+  fullName: OpenTl.Schema.IHighScore
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.THighScore.Pos*
+  commentId: Overload:OpenTl.Schema.THighScore.Pos
+  isExternal: false
+  name: Pos
+  nameWithType: THighScore.Pos
+  fullName: OpenTl.Schema.THighScore.Pos
+- uid: OpenTl.Schema.IHighScore.Pos
+  commentId: P:OpenTl.Schema.IHighScore.Pos
+  parent: OpenTl.Schema.IHighScore
+  isExternal: false
+  name: Pos
+  nameWithType: IHighScore.Pos
+  fullName: OpenTl.Schema.IHighScore.Pos
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.THighScore.UserId*
+  commentId: Overload:OpenTl.Schema.THighScore.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: THighScore.UserId
+  fullName: OpenTl.Schema.THighScore.UserId
+- uid: OpenTl.Schema.IHighScore.UserId
+  commentId: P:OpenTl.Schema.IHighScore.UserId
+  parent: OpenTl.Schema.IHighScore
+  isExternal: false
+  name: UserId
+  nameWithType: IHighScore.UserId
+  fullName: OpenTl.Schema.IHighScore.UserId
+- uid: OpenTl.Schema.THighScore.Score*
+  commentId: Overload:OpenTl.Schema.THighScore.Score
+  isExternal: false
+  name: Score
+  nameWithType: THighScore.Score
+  fullName: OpenTl.Schema.THighScore.Score
+- uid: OpenTl.Schema.IHighScore.Score
+  commentId: P:OpenTl.Schema.IHighScore.Score
+  parent: OpenTl.Schema.IHighScore
+  isExternal: false
+  name: Score
+  nameWithType: IHighScore.Score
+  fullName: OpenTl.Schema.IHighScore.Score

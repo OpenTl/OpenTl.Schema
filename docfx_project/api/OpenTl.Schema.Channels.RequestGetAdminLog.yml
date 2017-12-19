@@ -1,0 +1,670 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog
+  commentId: T:OpenTl.Schema.Channels.RequestGetAdminLog
+  id: RequestGetAdminLog
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+  - OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+  - OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+  - OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+  - OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+  - OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+  - OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+  - OpenTl.Schema.Channels.RequestGetAdminLog.Q
+  - OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestGetAdminLog
+  nameWithType: RequestGetAdminLog
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestGetAdminLog
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestGetAdminLog : object, IRequest<IAdminLogResults>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestGetAdminLog
+
+          Inherits Object
+
+          Implements IRequest(Of IAdminLogResults), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IAdminLogResults}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+  id: Flags
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestGetAdminLog.Flags
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestGetAdminLog.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+  id: QAsBinary
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: QAsBinary
+  nameWithType: RequestGetAdminLog.QAsBinary
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QAsBinary
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  summary: Binary representation for the &apos;Q&apos; property
+  example: []
+  syntax:
+    content: public byte[] QAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QAsBinary As Byte()
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Q
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.Q
+  id: Q
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: Q
+  nameWithType: RequestGetAdminLog.Q
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Q
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Q
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public string Q { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Q As String
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.Q*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+  id: EventsFilter
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: EventsFilter
+  nameWithType: RequestGetAdminLog.EventsFilter
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EventsFilter
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IChannelAdminLogEventsFilter EventsFilter { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelAdminLogEventsFilter
+    content.vb: Public Property EventsFilter As IChannelAdminLogEventsFilter
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+  id: Admins
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: Admins
+  nameWithType: RequestGetAdminLog.Admins
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Admins
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<IInputUser> Admins { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+    content.vb: Public Property Admins As TVector(Of IInputUser)
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.Admins*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: RequestGetAdminLog.MaxId
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public long MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MaxId As Long
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+  id: MinId
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: MinId
+  nameWithType: RequestGetAdminLog.MinId
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinId
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public long MinId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property MinId As Long
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.MinId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+  commentId: P:OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+  id: Limit
+  parent: OpenTl.Schema.Channels.RequestGetAdminLog
+  langs:
+  - csharp
+  - vb
+  name: Limit
+  nameWithType: RequestGetAdminLog.Limit
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Limit
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestGetAdminLog.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public int Limit { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Limit As Integer
+  overload: OpenTl.Schema.Channels.RequestGetAdminLog.Limit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IAdminLogResults}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Channels.IAdminLogResults}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IAdminLogResults>
+  nameWithType: IRequest<IAdminLogResults>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Channels.IAdminLogResults>
+  nameWithType.vb: IRequest(Of IAdminLogResults)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Channels.IAdminLogResults)
+  name.vb: IRequest(Of IAdminLogResults)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Channels.IAdminLogResults
+    name: IAdminLogResults
+    nameWithType: IAdminLogResults
+    fullName: OpenTl.Schema.Channels.IAdminLogResults
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Channels.IAdminLogResults
+    name: IAdminLogResults
+    nameWithType: IAdminLogResults
+    fullName: OpenTl.Schema.Channels.IAdminLogResults
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Flags*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestGetAdminLog.Flags
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestGetAdminLog.Channel
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+  isExternal: false
+  name: QAsBinary
+  nameWithType: RequestGetAdminLog.QAsBinary
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.QAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Q*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.Q
+  isExternal: false
+  name: Q
+  nameWithType: RequestGetAdminLog.Q
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Q
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+  isExternal: false
+  name: EventsFilter
+  nameWithType: RequestGetAdminLog.EventsFilter
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.EventsFilter
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventsFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventsFilter
+  nameWithType: IChannelAdminLogEventsFilter
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Admins*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+  isExternal: false
+  name: Admins
+  nameWithType: RequestGetAdminLog.Admins
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Admins
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IInputUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IInputUser>
+  nameWithType: TVector<IInputUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IInputUser>
+  nameWithType.vb: TVector(Of IInputUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IInputUser)
+  name.vb: TVector(Of IInputUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IInputUser
+    name: IInputUser
+    nameWithType: IInputUser
+    fullName: OpenTl.Schema.IInputUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IInputUser
+    name: IInputUser
+    nameWithType: IInputUser
+    fullName: OpenTl.Schema.IInputUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.MaxId*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: RequestGetAdminLog.MaxId
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.MaxId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.MinId*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+  isExternal: false
+  name: MinId
+  nameWithType: RequestGetAdminLog.MinId
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.MinId
+- uid: OpenTl.Schema.Channels.RequestGetAdminLog.Limit*
+  commentId: Overload:OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+  isExternal: false
+  name: Limit
+  nameWithType: RequestGetAdminLog.Limit
+  fullName: OpenTl.Schema.Channels.RequestGetAdminLog.Limit
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

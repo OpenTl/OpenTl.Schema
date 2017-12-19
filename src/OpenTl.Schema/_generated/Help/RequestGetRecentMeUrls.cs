@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Help
 	[Serialize(0x3dc0f114)]
     public class RequestGetRecentMeUrls : IRequest<OpenTl.Schema.Help.IRecentMeUrls>
     {
+       /// <summary>Binary representation for the 'Referer' property</summary>
        [SerializationOrder(0)]
        public byte[] RefererAsBinary { get => _RefererAsBinary; set { _Referer = Encoding.UTF8.GetString(value); _RefererAsBinary = value; }}
        private byte[] _RefererAsBinary;

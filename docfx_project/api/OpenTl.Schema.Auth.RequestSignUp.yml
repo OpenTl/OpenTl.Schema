@@ -1,0 +1,614 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.RequestSignUp
+  commentId: T:OpenTl.Schema.Auth.RequestSignUp
+  id: RequestSignUp
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.RequestSignUp.FirstName
+  - OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+  - OpenTl.Schema.Auth.RequestSignUp.LastName
+  - OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+  - OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestSignUp
+  nameWithType: RequestSignUp
+  fullName: OpenTl.Schema.Auth.RequestSignUp
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSignUp
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class RequestSignUp : object, IRequest<IAuthorization>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSignUp
+
+          Inherits Object
+
+          Implements IRequest(Of IAuthorization), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: RequestSignUp.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: RequestSignUp.PhoneNumber
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+  id: PhoneCodeHashAsBinary
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestSignUp.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHashAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneCodeHash&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeHashAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeHashAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+  id: PhoneCodeHash
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeHash
+  nameWithType: RequestSignUp.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeHash
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneCodeHash { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCodeHash As String
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+  id: PhoneCodeAsBinary
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneCodeAsBinary
+  nameWithType: RequestSignUp.PhoneCodeAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCodeAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;PhoneCode&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneCodeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneCodeAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+  id: PhoneCode
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: PhoneCode
+  nameWithType: RequestSignUp.PhoneCode
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCode
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string PhoneCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneCode As String
+  overload: OpenTl.Schema.Auth.RequestSignUp.PhoneCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+  id: FirstNameAsBinary
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: FirstNameAsBinary
+  nameWithType: RequestSignUp.FirstNameAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;FirstName&apos; property
+  example: []
+  syntax:
+    content: public byte[] FirstNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FirstNameAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.FirstName
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.FirstName
+  id: FirstName
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: FirstName
+  nameWithType: RequestSignUp.FirstName
+  fullName: OpenTl.Schema.Auth.RequestSignUp.FirstName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstName
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string FirstName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FirstName As String
+  overload: OpenTl.Schema.Auth.RequestSignUp.FirstName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+  id: LastNameAsBinary
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: LastNameAsBinary
+  nameWithType: RequestSignUp.LastNameAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  summary: Binary representation for the &apos;LastName&apos; property
+  example: []
+  syntax:
+    content: public byte[] LastNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LastNameAsBinary As Byte()
+  overload: OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestSignUp.LastName
+  commentId: P:OpenTl.Schema.Auth.RequestSignUp.LastName
+  id: LastName
+  parent: OpenTl.Schema.Auth.RequestSignUp
+  langs:
+  - csharp
+  - vb
+  name: LastName
+  nameWithType: RequestSignUp.LastName
+  fullName: OpenTl.Schema.Auth.RequestSignUp.LastName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LastName
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestSignUp.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public string LastName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property LastName As String
+  overload: OpenTl.Schema.Auth.RequestSignUp.LastName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Auth.IAuthorization}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IAuthorization>
+  nameWithType: IRequest<IAuthorization>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Auth.IAuthorization>
+  nameWithType.vb: IRequest(Of IAuthorization)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Auth.IAuthorization)
+  name.vb: IRequest(Of IAuthorization)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Auth.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.Auth.IAuthorization
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Auth.IAuthorization
+    name: IAuthorization
+    nameWithType: IAuthorization
+    fullName: OpenTl.Schema.Auth.IAuthorization
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: RequestSignUp.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: RequestSignUp.PhoneNumber
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+  isExternal: false
+  name: PhoneCodeHashAsBinary
+  nameWithType: RequestSignUp.PhoneCodeHashAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHashAsBinary
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+  isExternal: false
+  name: PhoneCodeHash
+  nameWithType: RequestSignUp.PhoneCodeHash
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeHash
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+  isExternal: false
+  name: PhoneCodeAsBinary
+  nameWithType: RequestSignUp.PhoneCodeAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCodeAsBinary
+- uid: OpenTl.Schema.Auth.RequestSignUp.PhoneCode*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+  isExternal: false
+  name: PhoneCode
+  nameWithType: RequestSignUp.PhoneCode
+  fullName: OpenTl.Schema.Auth.RequestSignUp.PhoneCode
+- uid: OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+  isExternal: false
+  name: FirstNameAsBinary
+  nameWithType: RequestSignUp.FirstNameAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.FirstNameAsBinary
+- uid: OpenTl.Schema.Auth.RequestSignUp.FirstName*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.FirstName
+  isExternal: false
+  name: FirstName
+  nameWithType: RequestSignUp.FirstName
+  fullName: OpenTl.Schema.Auth.RequestSignUp.FirstName
+- uid: OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+  isExternal: false
+  name: LastNameAsBinary
+  nameWithType: RequestSignUp.LastNameAsBinary
+  fullName: OpenTl.Schema.Auth.RequestSignUp.LastNameAsBinary
+- uid: OpenTl.Schema.Auth.RequestSignUp.LastName*
+  commentId: Overload:OpenTl.Schema.Auth.RequestSignUp.LastName
+  isExternal: false
+  name: LastName
+  nameWithType: RequestSignUp.LastName
+  fullName: OpenTl.Schema.Auth.RequestSignUp.LastName

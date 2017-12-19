@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDocumentAttributeFilename
+  commentId: T:OpenTl.Schema.TDocumentAttributeFilename
+  id: TDocumentAttributeFilename
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDocumentAttributeFilename.FileName
+  - OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TDocumentAttributeFilename
+  nameWithType: TDocumentAttributeFilename
+  fullName: OpenTl.Schema.TDocumentAttributeFilename
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDocumentAttributeFilename
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDocumentAttributeFilename : object, IDocumentAttribute, IObject'
+    content.vb: >-
+      Public Class TDocumentAttributeFilename
+
+          Inherits Object
+
+          Implements IDocumentAttribute, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDocumentAttribute
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+  commentId: P:OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+  id: FileNameAsBinary
+  parent: OpenTl.Schema.TDocumentAttributeFilename
+  langs:
+  - csharp
+  - vb
+  name: FileNameAsBinary
+  nameWithType: TDocumentAttributeFilename.FileNameAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;FileName&apos; property
+  example: []
+  syntax:
+    content: public byte[] FileNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property FileNameAsBinary As Byte()
+  overload: OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDocumentAttributeFilename.FileName
+  commentId: P:OpenTl.Schema.TDocumentAttributeFilename.FileName
+  id: FileName
+  parent: OpenTl.Schema.TDocumentAttributeFilename
+  langs:
+  - csharp
+  - vb
+  name: FileName
+  nameWithType: TDocumentAttributeFilename.FileName
+  fullName: OpenTl.Schema.TDocumentAttributeFilename.FileName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FileName
+    path: ../src/OpenTl.Schema/_generated/_Entities/DocumentAttribute/TDocumentAttributeFilename.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string FileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FileName As String
+  overload: OpenTl.Schema.TDocumentAttributeFilename.FileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDocumentAttribute
+  commentId: T:OpenTl.Schema.IDocumentAttribute
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocumentAttribute
+  nameWithType: IDocumentAttribute
+  fullName: OpenTl.Schema.IDocumentAttribute
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+  isExternal: false
+  name: FileNameAsBinary
+  nameWithType: TDocumentAttributeFilename.FileNameAsBinary
+  fullName: OpenTl.Schema.TDocumentAttributeFilename.FileNameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDocumentAttributeFilename.FileName*
+  commentId: Overload:OpenTl.Schema.TDocumentAttributeFilename.FileName
+  isExternal: false
+  name: FileName
+  nameWithType: TDocumentAttributeFilename.FileName
+  fullName: OpenTl.Schema.TDocumentAttributeFilename.FileName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

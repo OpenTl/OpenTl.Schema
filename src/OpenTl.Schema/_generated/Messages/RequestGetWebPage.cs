@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Messages
 	[Serialize(0x32ca8f91)]
     public class RequestGetWebPage : IRequest<OpenTl.Schema.IWebPage>
     {
+       /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]
        public byte[] UrlAsBinary { get => _UrlAsBinary; set { _Url = Encoding.UTF8.GetString(value); _UrlAsBinary = value; }}
        private byte[] _UrlAsBinary;

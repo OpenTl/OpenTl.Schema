@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputMessagesFilterPhoneCalls
+  commentId: T:OpenTl.Schema.TInputMessagesFilterPhoneCalls
+  id: TInputMessagesFilterPhoneCalls
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+  - OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+  langs:
+  - csharp
+  - vb
+  name: TInputMessagesFilterPhoneCalls
+  nameWithType: TInputMessagesFilterPhoneCalls
+  fullName: OpenTl.Schema.TInputMessagesFilterPhoneCalls
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputMessagesFilterPhoneCalls
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputMessagesFilterPhoneCalls : object, IMessagesFilter, IObject'
+    content.vb: >-
+      Public Class TInputMessagesFilterPhoneCalls
+
+          Inherits Object
+
+          Implements IMessagesFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessagesFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+  commentId: P:OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInputMessagesFilterPhoneCalls
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInputMessagesFilterPhoneCalls.Flags
+  fullName: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+  commentId: P:OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+  id: Missed
+  parent: OpenTl.Schema.TInputMessagesFilterPhoneCalls
+  langs:
+  - csharp
+  - vb
+  name: Missed
+  nameWithType: TInputMessagesFilterPhoneCalls.Missed
+  fullName: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Missed
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessagesFilter/TInputMessagesFilterPhoneCalls.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Missed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Missed As Boolean
+  overload: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessagesFilter
+  commentId: T:OpenTl.Schema.IMessagesFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessagesFilter
+  nameWithType: IMessagesFilter
+  fullName: OpenTl.Schema.IMessagesFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags*
+  commentId: Overload:OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInputMessagesFilterPhoneCalls.Flags
+  fullName: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed*
+  commentId: Overload:OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+  isExternal: false
+  name: Missed
+  nameWithType: TInputMessagesFilterPhoneCalls.Missed
+  fullName: OpenTl.Schema.TInputMessagesFilterPhoneCalls.Missed
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

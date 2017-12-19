@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateReadChannelInbox
+  commentId: T:OpenTl.Schema.TUpdateReadChannelInbox
+  id: TUpdateReadChannelInbox
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+  - OpenTl.Schema.TUpdateReadChannelInbox.MaxId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateReadChannelInbox
+  nameWithType: TUpdateReadChannelInbox
+  fullName: OpenTl.Schema.TUpdateReadChannelInbox
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateReadChannelInbox
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateReadChannelInbox : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateReadChannelInbox
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateReadChannelInbox
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateReadChannelInbox.ChannelId
+  fullName: OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateReadChannelInbox.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateReadChannelInbox.MaxId
+  commentId: P:OpenTl.Schema.TUpdateReadChannelInbox.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.TUpdateReadChannelInbox
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: TUpdateReadChannelInbox.MaxId
+  fullName: OpenTl.Schema.TUpdateReadChannelInbox.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateReadChannelInbox.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.TUpdateReadChannelInbox.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateReadChannelInbox.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateReadChannelInbox.ChannelId
+  fullName: OpenTl.Schema.TUpdateReadChannelInbox.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateReadChannelInbox.MaxId*
+  commentId: Overload:OpenTl.Schema.TUpdateReadChannelInbox.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: TUpdateReadChannelInbox.MaxId
+  fullName: OpenTl.Schema.TUpdateReadChannelInbox.MaxId

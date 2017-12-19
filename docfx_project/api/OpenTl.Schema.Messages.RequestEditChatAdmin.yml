@@ -1,0 +1,299 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin
+  commentId: T:OpenTl.Schema.Messages.RequestEditChatAdmin
+  id: RequestEditChatAdmin
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+  - OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+  - OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+  langs:
+  - csharp
+  - vb
+  name: RequestEditChatAdmin
+  nameWithType: RequestEditChatAdmin
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestEditChatAdmin
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestEditChatAdmin : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestEditChatAdmin
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+  commentId: P:OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.Messages.RequestEditChatAdmin
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: RequestEditChatAdmin.ChatId
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+  commentId: P:OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+  id: UserId
+  parent: OpenTl.Schema.Messages.RequestEditChatAdmin
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: RequestEditChatAdmin.UserId
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputUser UserId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputUser
+    content.vb: Public Property UserId As IInputUser
+  overload: OpenTl.Schema.Messages.RequestEditChatAdmin.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+  commentId: P:OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+  id: IsAdmin
+  parent: OpenTl.Schema.Messages.RequestEditChatAdmin
+  langs:
+  - csharp
+  - vb
+  name: IsAdmin
+  nameWithType: RequestEditChatAdmin.IsAdmin
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IsAdmin
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditChatAdmin.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool IsAdmin { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property IsAdmin As Boolean
+  overload: OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: RequestEditChatAdmin.ChatId
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.UserId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: RequestEditChatAdmin.UserId
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.UserId
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser
+- uid: OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+  isExternal: false
+  name: IsAdmin
+  nameWithType: RequestEditChatAdmin.IsAdmin
+  fullName: OpenTl.Schema.Messages.RequestEditChatAdmin.IsAdmin
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

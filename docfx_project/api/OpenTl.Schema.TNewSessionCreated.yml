@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TNewSessionCreated
+  commentId: T:OpenTl.Schema.TNewSessionCreated
+  id: TNewSessionCreated
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TNewSessionCreated.FirstMsgId
+  - OpenTl.Schema.TNewSessionCreated.ServerSalt
+  - OpenTl.Schema.TNewSessionCreated.UniqueId
+  langs:
+  - csharp
+  - vb
+  name: TNewSessionCreated
+  nameWithType: TNewSessionCreated
+  fullName: OpenTl.Schema.TNewSessionCreated
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TNewSessionCreated
+    path: ../src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TNewSessionCreated : object, IObject'
+    content.vb: >-
+      Public Class TNewSessionCreated
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TNewSessionCreated.FirstMsgId
+  commentId: P:OpenTl.Schema.TNewSessionCreated.FirstMsgId
+  id: FirstMsgId
+  parent: OpenTl.Schema.TNewSessionCreated
+  langs:
+  - csharp
+  - vb
+  name: FirstMsgId
+  nameWithType: TNewSessionCreated.FirstMsgId
+  fullName: OpenTl.Schema.TNewSessionCreated.FirstMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: FirstMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long FirstMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property FirstMsgId As Long
+  overload: OpenTl.Schema.TNewSessionCreated.FirstMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TNewSessionCreated.UniqueId
+  commentId: P:OpenTl.Schema.TNewSessionCreated.UniqueId
+  id: UniqueId
+  parent: OpenTl.Schema.TNewSessionCreated
+  langs:
+  - csharp
+  - vb
+  name: UniqueId
+  nameWithType: TNewSessionCreated.UniqueId
+  fullName: OpenTl.Schema.TNewSessionCreated.UniqueId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UniqueId
+    path: ../src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long UniqueId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property UniqueId As Long
+  overload: OpenTl.Schema.TNewSessionCreated.UniqueId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TNewSessionCreated.ServerSalt
+  commentId: P:OpenTl.Schema.TNewSessionCreated.ServerSalt
+  id: ServerSalt
+  parent: OpenTl.Schema.TNewSessionCreated
+  langs:
+  - csharp
+  - vb
+  name: ServerSalt
+  nameWithType: TNewSessionCreated.ServerSalt
+  fullName: OpenTl.Schema.TNewSessionCreated.ServerSalt
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerSalt
+    path: ../src/OpenTl.Schema/_generated/_Entities/TNewSessionCreated.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ServerSalt { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ServerSalt As Long
+  overload: OpenTl.Schema.TNewSessionCreated.ServerSalt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TNewSessionCreated.FirstMsgId*
+  commentId: Overload:OpenTl.Schema.TNewSessionCreated.FirstMsgId
+  isExternal: false
+  name: FirstMsgId
+  nameWithType: TNewSessionCreated.FirstMsgId
+  fullName: OpenTl.Schema.TNewSessionCreated.FirstMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TNewSessionCreated.UniqueId*
+  commentId: Overload:OpenTl.Schema.TNewSessionCreated.UniqueId
+  isExternal: false
+  name: UniqueId
+  nameWithType: TNewSessionCreated.UniqueId
+  fullName: OpenTl.Schema.TNewSessionCreated.UniqueId
+- uid: OpenTl.Schema.TNewSessionCreated.ServerSalt*
+  commentId: Overload:OpenTl.Schema.TNewSessionCreated.ServerSalt
+  isExternal: false
+  name: ServerSalt
+  nameWithType: TNewSessionCreated.ServerSalt
+  fullName: OpenTl.Schema.TNewSessionCreated.ServerSalt

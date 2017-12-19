@@ -1,0 +1,770 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUserFull
+  commentId: T:OpenTl.Schema.TUserFull
+  id: TUserFull
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUserFull.About
+  - OpenTl.Schema.TUserFull.AboutAsBinary
+  - OpenTl.Schema.TUserFull.Blocked
+  - OpenTl.Schema.TUserFull.BotInfo
+  - OpenTl.Schema.TUserFull.CommonChatsCount
+  - OpenTl.Schema.TUserFull.Flags
+  - OpenTl.Schema.TUserFull.Link
+  - OpenTl.Schema.TUserFull.NotifySettings
+  - OpenTl.Schema.TUserFull.PhoneCallsAvailable
+  - OpenTl.Schema.TUserFull.PhoneCallsPrivate
+  - OpenTl.Schema.TUserFull.ProfilePhoto
+  - OpenTl.Schema.TUserFull.User
+  langs:
+  - csharp
+  - vb
+  name: TUserFull
+  nameWithType: TUserFull
+  fullName: OpenTl.Schema.TUserFull
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUserFull
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUserFull : object, IUserFull, IObject'
+    content.vb: >-
+      Public Class TUserFull
+
+          Inherits Object
+
+          Implements IUserFull, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUserFull
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUserFull.Flags
+  commentId: P:OpenTl.Schema.TUserFull.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUserFull.Flags
+  fullName: OpenTl.Schema.TUserFull.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUserFull.Flags*
+  implements:
+  - OpenTl.Schema.IUserFull.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.Blocked
+  commentId: P:OpenTl.Schema.TUserFull.Blocked
+  id: Blocked
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: Blocked
+  nameWithType: TUserFull.Blocked
+  fullName: OpenTl.Schema.TUserFull.Blocked
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Blocked
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Blocked { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Blocked As Boolean
+  overload: OpenTl.Schema.TUserFull.Blocked*
+  implements:
+  - OpenTl.Schema.IUserFull.Blocked
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.PhoneCallsAvailable
+  commentId: P:OpenTl.Schema.TUserFull.PhoneCallsAvailable
+  id: PhoneCallsAvailable
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: PhoneCallsAvailable
+  nameWithType: TUserFull.PhoneCallsAvailable
+  fullName: OpenTl.Schema.TUserFull.PhoneCallsAvailable
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCallsAvailable
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool PhoneCallsAvailable { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneCallsAvailable As Boolean
+  overload: OpenTl.Schema.TUserFull.PhoneCallsAvailable*
+  implements:
+  - OpenTl.Schema.IUserFull.PhoneCallsAvailable
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.PhoneCallsPrivate
+  commentId: P:OpenTl.Schema.TUserFull.PhoneCallsPrivate
+  id: PhoneCallsPrivate
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: PhoneCallsPrivate
+  nameWithType: TUserFull.PhoneCallsPrivate
+  fullName: OpenTl.Schema.TUserFull.PhoneCallsPrivate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneCallsPrivate
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool PhoneCallsPrivate { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneCallsPrivate As Boolean
+  overload: OpenTl.Schema.TUserFull.PhoneCallsPrivate*
+  implements:
+  - OpenTl.Schema.IUserFull.PhoneCallsPrivate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.User
+  commentId: P:OpenTl.Schema.TUserFull.User
+  id: User
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: User
+  nameWithType: TUserFull.User
+  fullName: OpenTl.Schema.TUserFull.User
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: User
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IUser User { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IUser
+    content.vb: Public Property User As IUser
+  overload: OpenTl.Schema.TUserFull.User*
+  implements:
+  - OpenTl.Schema.IUserFull.User
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.AboutAsBinary
+  commentId: P:OpenTl.Schema.TUserFull.AboutAsBinary
+  id: AboutAsBinary
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: AboutAsBinary
+  nameWithType: TUserFull.AboutAsBinary
+  fullName: OpenTl.Schema.TUserFull.AboutAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AboutAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;About&apos; property
+  example: []
+  syntax:
+    content: public byte[] AboutAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property AboutAsBinary As Byte()
+  overload: OpenTl.Schema.TUserFull.AboutAsBinary*
+  implements:
+  - OpenTl.Schema.IUserFull.AboutAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.About
+  commentId: P:OpenTl.Schema.TUserFull.About
+  id: About
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: About
+  nameWithType: TUserFull.About
+  fullName: OpenTl.Schema.TUserFull.About
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: About
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 38
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string About { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property About As String
+  overload: OpenTl.Schema.TUserFull.About*
+  implements:
+  - OpenTl.Schema.IUserFull.About
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.Link
+  commentId: P:OpenTl.Schema.TUserFull.Link
+  id: Link
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: Link
+  nameWithType: TUserFull.Link
+  fullName: OpenTl.Schema.TUserFull.Link
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Link
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public ILink Link { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.Contacts.ILink
+    content.vb: Public Property Link As ILink
+  overload: OpenTl.Schema.TUserFull.Link*
+  implements:
+  - OpenTl.Schema.IUserFull.Link
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.ProfilePhoto
+  commentId: P:OpenTl.Schema.TUserFull.ProfilePhoto
+  id: ProfilePhoto
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: ProfilePhoto
+  nameWithType: TUserFull.ProfilePhoto
+  fullName: OpenTl.Schema.TUserFull.ProfilePhoto
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ProfilePhoto
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoto ProfilePhoto { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property ProfilePhoto As IPhoto
+  overload: OpenTl.Schema.TUserFull.ProfilePhoto*
+  implements:
+  - OpenTl.Schema.IUserFull.ProfilePhoto
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.NotifySettings
+  commentId: P:OpenTl.Schema.TUserFull.NotifySettings
+  id: NotifySettings
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: NotifySettings
+  nameWithType: TUserFull.NotifySettings
+  fullName: OpenTl.Schema.TUserFull.NotifySettings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeerNotifySettings NotifySettings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeerNotifySettings
+    content.vb: Public Property NotifySettings As IPeerNotifySettings
+  overload: OpenTl.Schema.TUserFull.NotifySettings*
+  implements:
+  - OpenTl.Schema.IUserFull.NotifySettings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.BotInfo
+  commentId: P:OpenTl.Schema.TUserFull.BotInfo
+  id: BotInfo
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: BotInfo
+  nameWithType: TUserFull.BotInfo
+  fullName: OpenTl.Schema.TUserFull.BotInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 50
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IBotInfo BotInfo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IBotInfo
+    content.vb: Public Property BotInfo As IBotInfo
+  overload: OpenTl.Schema.TUserFull.BotInfo*
+  implements:
+  - OpenTl.Schema.IUserFull.BotInfo
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUserFull.CommonChatsCount
+  commentId: P:OpenTl.Schema.TUserFull.CommonChatsCount
+  id: CommonChatsCount
+  parent: OpenTl.Schema.TUserFull
+  langs:
+  - csharp
+  - vb
+  name: CommonChatsCount
+  nameWithType: TUserFull.CommonChatsCount
+  fullName: OpenTl.Schema.TUserFull.CommonChatsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CommonChatsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/UserFull/TUserFull.cs
+    startLine: 54
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int CommonChatsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property CommonChatsCount As Integer
+  overload: OpenTl.Schema.TUserFull.CommonChatsCount*
+  implements:
+  - OpenTl.Schema.IUserFull.CommonChatsCount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUserFull
+  commentId: T:OpenTl.Schema.IUserFull
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUserFull
+  nameWithType: IUserFull
+  fullName: OpenTl.Schema.IUserFull
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUserFull.Flags*
+  commentId: Overload:OpenTl.Schema.TUserFull.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUserFull.Flags
+  fullName: OpenTl.Schema.TUserFull.Flags
+- uid: OpenTl.Schema.IUserFull.Flags
+  commentId: P:OpenTl.Schema.IUserFull.Flags
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: Flags
+  nameWithType: IUserFull.Flags
+  fullName: OpenTl.Schema.IUserFull.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUserFull.Blocked*
+  commentId: Overload:OpenTl.Schema.TUserFull.Blocked
+  isExternal: false
+  name: Blocked
+  nameWithType: TUserFull.Blocked
+  fullName: OpenTl.Schema.TUserFull.Blocked
+- uid: OpenTl.Schema.IUserFull.Blocked
+  commentId: P:OpenTl.Schema.IUserFull.Blocked
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: Blocked
+  nameWithType: IUserFull.Blocked
+  fullName: OpenTl.Schema.IUserFull.Blocked
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TUserFull.PhoneCallsAvailable*
+  commentId: Overload:OpenTl.Schema.TUserFull.PhoneCallsAvailable
+  isExternal: false
+  name: PhoneCallsAvailable
+  nameWithType: TUserFull.PhoneCallsAvailable
+  fullName: OpenTl.Schema.TUserFull.PhoneCallsAvailable
+- uid: OpenTl.Schema.IUserFull.PhoneCallsAvailable
+  commentId: P:OpenTl.Schema.IUserFull.PhoneCallsAvailable
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: PhoneCallsAvailable
+  nameWithType: IUserFull.PhoneCallsAvailable
+  fullName: OpenTl.Schema.IUserFull.PhoneCallsAvailable
+- uid: OpenTl.Schema.TUserFull.PhoneCallsPrivate*
+  commentId: Overload:OpenTl.Schema.TUserFull.PhoneCallsPrivate
+  isExternal: false
+  name: PhoneCallsPrivate
+  nameWithType: TUserFull.PhoneCallsPrivate
+  fullName: OpenTl.Schema.TUserFull.PhoneCallsPrivate
+- uid: OpenTl.Schema.IUserFull.PhoneCallsPrivate
+  commentId: P:OpenTl.Schema.IUserFull.PhoneCallsPrivate
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: PhoneCallsPrivate
+  nameWithType: IUserFull.PhoneCallsPrivate
+  fullName: OpenTl.Schema.IUserFull.PhoneCallsPrivate
+- uid: OpenTl.Schema.TUserFull.User*
+  commentId: Overload:OpenTl.Schema.TUserFull.User
+  isExternal: false
+  name: User
+  nameWithType: TUserFull.User
+  fullName: OpenTl.Schema.TUserFull.User
+- uid: OpenTl.Schema.IUserFull.User
+  commentId: P:OpenTl.Schema.IUserFull.User
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: User
+  nameWithType: IUserFull.User
+  fullName: OpenTl.Schema.IUserFull.User
+- uid: OpenTl.Schema.IUser
+  commentId: T:OpenTl.Schema.IUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUser
+  nameWithType: IUser
+  fullName: OpenTl.Schema.IUser
+- uid: OpenTl.Schema.TUserFull.AboutAsBinary*
+  commentId: Overload:OpenTl.Schema.TUserFull.AboutAsBinary
+  isExternal: false
+  name: AboutAsBinary
+  nameWithType: TUserFull.AboutAsBinary
+  fullName: OpenTl.Schema.TUserFull.AboutAsBinary
+- uid: OpenTl.Schema.IUserFull.AboutAsBinary
+  commentId: P:OpenTl.Schema.IUserFull.AboutAsBinary
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: AboutAsBinary
+  nameWithType: IUserFull.AboutAsBinary
+  fullName: OpenTl.Schema.IUserFull.AboutAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUserFull.About*
+  commentId: Overload:OpenTl.Schema.TUserFull.About
+  isExternal: false
+  name: About
+  nameWithType: TUserFull.About
+  fullName: OpenTl.Schema.TUserFull.About
+- uid: OpenTl.Schema.IUserFull.About
+  commentId: P:OpenTl.Schema.IUserFull.About
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: About
+  nameWithType: IUserFull.About
+  fullName: OpenTl.Schema.IUserFull.About
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TUserFull.Link*
+  commentId: Overload:OpenTl.Schema.TUserFull.Link
+  isExternal: false
+  name: Link
+  nameWithType: TUserFull.Link
+  fullName: OpenTl.Schema.TUserFull.Link
+- uid: OpenTl.Schema.IUserFull.Link
+  commentId: P:OpenTl.Schema.IUserFull.Link
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: Link
+  nameWithType: IUserFull.Link
+  fullName: OpenTl.Schema.IUserFull.Link
+- uid: OpenTl.Schema.Contacts.ILink
+  commentId: T:OpenTl.Schema.Contacts.ILink
+  parent: OpenTl.Schema.Contacts
+  isExternal: false
+  name: ILink
+  nameWithType: ILink
+  fullName: OpenTl.Schema.Contacts.ILink
+- uid: OpenTl.Schema.Contacts
+  commentId: N:OpenTl.Schema.Contacts
+  isExternal: false
+  name: OpenTl.Schema.Contacts
+  nameWithType: OpenTl.Schema.Contacts
+  fullName: OpenTl.Schema.Contacts
+- uid: OpenTl.Schema.TUserFull.ProfilePhoto*
+  commentId: Overload:OpenTl.Schema.TUserFull.ProfilePhoto
+  isExternal: false
+  name: ProfilePhoto
+  nameWithType: TUserFull.ProfilePhoto
+  fullName: OpenTl.Schema.TUserFull.ProfilePhoto
+- uid: OpenTl.Schema.IUserFull.ProfilePhoto
+  commentId: P:OpenTl.Schema.IUserFull.ProfilePhoto
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: ProfilePhoto
+  nameWithType: IUserFull.ProfilePhoto
+  fullName: OpenTl.Schema.IUserFull.ProfilePhoto
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.TUserFull.NotifySettings*
+  commentId: Overload:OpenTl.Schema.TUserFull.NotifySettings
+  isExternal: false
+  name: NotifySettings
+  nameWithType: TUserFull.NotifySettings
+  fullName: OpenTl.Schema.TUserFull.NotifySettings
+- uid: OpenTl.Schema.IUserFull.NotifySettings
+  commentId: P:OpenTl.Schema.IUserFull.NotifySettings
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: NotifySettings
+  nameWithType: IUserFull.NotifySettings
+  fullName: OpenTl.Schema.IUserFull.NotifySettings
+- uid: OpenTl.Schema.IPeerNotifySettings
+  commentId: T:OpenTl.Schema.IPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifySettings
+  nameWithType: IPeerNotifySettings
+  fullName: OpenTl.Schema.IPeerNotifySettings
+- uid: OpenTl.Schema.TUserFull.BotInfo*
+  commentId: Overload:OpenTl.Schema.TUserFull.BotInfo
+  isExternal: false
+  name: BotInfo
+  nameWithType: TUserFull.BotInfo
+  fullName: OpenTl.Schema.TUserFull.BotInfo
+- uid: OpenTl.Schema.IUserFull.BotInfo
+  commentId: P:OpenTl.Schema.IUserFull.BotInfo
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: BotInfo
+  nameWithType: IUserFull.BotInfo
+  fullName: OpenTl.Schema.IUserFull.BotInfo
+- uid: OpenTl.Schema.IBotInfo
+  commentId: T:OpenTl.Schema.IBotInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInfo
+  nameWithType: IBotInfo
+  fullName: OpenTl.Schema.IBotInfo
+- uid: OpenTl.Schema.TUserFull.CommonChatsCount*
+  commentId: Overload:OpenTl.Schema.TUserFull.CommonChatsCount
+  isExternal: false
+  name: CommonChatsCount
+  nameWithType: TUserFull.CommonChatsCount
+  fullName: OpenTl.Schema.TUserFull.CommonChatsCount
+- uid: OpenTl.Schema.IUserFull.CommonChatsCount
+  commentId: P:OpenTl.Schema.IUserFull.CommonChatsCount
+  parent: OpenTl.Schema.IUserFull
+  isExternal: false
+  name: CommonChatsCount
+  nameWithType: IUserFull.CommonChatsCount
+  fullName: OpenTl.Schema.IUserFull.CommonChatsCount
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

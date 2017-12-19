@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}
 
+       /// <summary>Binary representation for the 'Email' property</summary>
        [SerializationOrder(1)]
        public byte[] EmailAsBinary { get => _EmailAsBinary; set { _Email = Encoding.UTF8.GetString(value); _EmailAsBinary = value; }}
        private byte[] _EmailAsBinary;

@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TSendMessageTypingAction
+  commentId: T:OpenTl.Schema.TSendMessageTypingAction
+  id: TSendMessageTypingAction
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TSendMessageTypingAction
+  nameWithType: TSendMessageTypingAction
+  fullName: OpenTl.Schema.TSendMessageTypingAction
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageTypingAction.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TSendMessageTypingAction
+    path: ../src/OpenTl.Schema/_generated/_Entities/SendMessageAction/TSendMessageTypingAction.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TSendMessageTypingAction : object, ISendMessageAction, IObject'
+    content.vb: >-
+      Public Class TSendMessageTypingAction
+
+          Inherits Object
+
+          Implements ISendMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ISendMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ISendMessageAction
+  commentId: T:OpenTl.Schema.ISendMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ISendMessageAction
+  nameWithType: ISendMessageAction
+  fullName: OpenTl.Schema.ISendMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

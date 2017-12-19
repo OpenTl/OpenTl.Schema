@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputDocumentFileLocation
+  commentId: T:OpenTl.Schema.TInputDocumentFileLocation
+  id: TInputDocumentFileLocation
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+  - OpenTl.Schema.TInputDocumentFileLocation.Id
+  - OpenTl.Schema.TInputDocumentFileLocation.Version
+  langs:
+  - csharp
+  - vb
+  name: TInputDocumentFileLocation
+  nameWithType: TInputDocumentFileLocation
+  fullName: OpenTl.Schema.TInputDocumentFileLocation
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputDocumentFileLocation
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputDocumentFileLocation : object, IInputFileLocation, IObject'
+    content.vb: >-
+      Public Class TInputDocumentFileLocation
+
+          Inherits Object
+
+          Implements IInputFileLocation, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputFileLocation
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputDocumentFileLocation.Id
+  commentId: P:OpenTl.Schema.TInputDocumentFileLocation.Id
+  id: Id
+  parent: OpenTl.Schema.TInputDocumentFileLocation
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputDocumentFileLocation.Id
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TInputDocumentFileLocation.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+  commentId: P:OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputDocumentFileLocation
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputDocumentFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputDocumentFileLocation.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputDocumentFileLocation.Version
+  commentId: P:OpenTl.Schema.TInputDocumentFileLocation.Version
+  id: Version
+  parent: OpenTl.Schema.TInputDocumentFileLocation
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TInputDocumentFileLocation.Version
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.Version
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Version
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputFileLocation/TInputDocumentFileLocation.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: OpenTl.Schema.TInputDocumentFileLocation.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputFileLocation
+  commentId: T:OpenTl.Schema.IInputFileLocation
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputFileLocation
+  nameWithType: IInputFileLocation
+  fullName: OpenTl.Schema.IInputFileLocation
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputDocumentFileLocation.Id*
+  commentId: Overload:OpenTl.Schema.TInputDocumentFileLocation.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputDocumentFileLocation.Id
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TInputDocumentFileLocation.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputDocumentFileLocation.AccessHash
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.AccessHash
+- uid: OpenTl.Schema.TInputDocumentFileLocation.Version*
+  commentId: Overload:OpenTl.Schema.TInputDocumentFileLocation.Version
+  isExternal: false
+  name: Version
+  nameWithType: TInputDocumentFileLocation.Version
+  fullName: OpenTl.Schema.TInputDocumentFileLocation.Version
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

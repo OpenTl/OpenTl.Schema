@@ -1,0 +1,201 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete
+  commentId: T:OpenTl.Schema.TUpdateChatParticipantDelete
+  id: TUpdateChatParticipantDelete
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+  - OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+  - OpenTl.Schema.TUpdateChatParticipantDelete.Version
+  langs:
+  - csharp
+  - vb
+  name: TUpdateChatParticipantDelete
+  nameWithType: TUpdateChatParticipantDelete
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateChatParticipantDelete
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateChatParticipantDelete : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateChatParticipantDelete
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+  id: ChatId
+  parent: OpenTl.Schema.TUpdateChatParticipantDelete
+  langs:
+  - csharp
+  - vb
+  name: ChatId
+  nameWithType: TUpdateChatParticipantDelete.ChatId
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChatId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChatId As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantDelete.ChatId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateChatParticipantDelete
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateChatParticipantDelete.UserId
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantDelete.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.Version
+  commentId: P:OpenTl.Schema.TUpdateChatParticipantDelete.Version
+  id: Version
+  parent: OpenTl.Schema.TUpdateChatParticipantDelete
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: TUpdateChatParticipantDelete.Version
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.Version
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Version
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateChatParticipantDelete.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Version { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Version As Integer
+  overload: OpenTl.Schema.TUpdateChatParticipantDelete.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.ChatId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+  isExternal: false
+  name: ChatId
+  nameWithType: TUpdateChatParticipantDelete.ChatId
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.ChatId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateChatParticipantDelete.UserId
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.UserId
+- uid: OpenTl.Schema.TUpdateChatParticipantDelete.Version*
+  commentId: Overload:OpenTl.Schema.TUpdateChatParticipantDelete.Version
+  isExternal: false
+  name: Version
+  nameWithType: TUpdateChatParticipantDelete.Version
+  fullName: OpenTl.Schema.TUpdateChatParticipantDelete.Version

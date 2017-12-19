@@ -1,0 +1,236 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockList
+  commentId: T:OpenTl.Schema.TPageBlockList
+  id: TPageBlockList
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockList.Items
+  - OpenTl.Schema.TPageBlockList.Ordered
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockList
+  nameWithType: TPageBlockList
+  fullName: OpenTl.Schema.TPageBlockList
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockList
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockList : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockList
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockList.Ordered
+  commentId: P:OpenTl.Schema.TPageBlockList.Ordered
+  id: Ordered
+  parent: OpenTl.Schema.TPageBlockList
+  langs:
+  - csharp
+  - vb
+  name: Ordered
+  nameWithType: TPageBlockList.Ordered
+  fullName: OpenTl.Schema.TPageBlockList.Ordered
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ordered
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Ordered { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Ordered As Boolean
+  overload: OpenTl.Schema.TPageBlockList.Ordered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockList.Items
+  commentId: P:OpenTl.Schema.TPageBlockList.Items
+  id: Items
+  parent: OpenTl.Schema.TPageBlockList
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: TPageBlockList.Items
+  fullName: OpenTl.Schema.TPageBlockList.Items
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Items
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockList.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IRichText> Items { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+    content.vb: Public Property Items As TVector(Of IRichText)
+  overload: OpenTl.Schema.TPageBlockList.Items*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockList.Ordered*
+  commentId: Overload:OpenTl.Schema.TPageBlockList.Ordered
+  isExternal: false
+  name: Ordered
+  nameWithType: TPageBlockList.Ordered
+  fullName: OpenTl.Schema.TPageBlockList.Ordered
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TPageBlockList.Items*
+  commentId: Overload:OpenTl.Schema.TPageBlockList.Items
+  isExternal: false
+  name: Items
+  nameWithType: TPageBlockList.Items
+  fullName: OpenTl.Schema.TPageBlockList.Items
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IRichText}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IRichText>
+  nameWithType: TVector<IRichText>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IRichText>
+  nameWithType.vb: TVector(Of IRichText)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IRichText)
+  name.vb: TVector(Of IRichText)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IRichText
+    name: IRichText
+    nameWithType: IRichText
+    fullName: OpenTl.Schema.IRichText
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IRichText
+    name: IRichText
+    nameWithType: IRichText
+    fullName: OpenTl.Schema.IRichText
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

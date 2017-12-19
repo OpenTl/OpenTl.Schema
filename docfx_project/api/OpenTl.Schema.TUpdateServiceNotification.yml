@@ -1,0 +1,581 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateServiceNotification
+  commentId: T:OpenTl.Schema.TUpdateServiceNotification
+  id: TUpdateServiceNotification
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateServiceNotification.Entities
+  - OpenTl.Schema.TUpdateServiceNotification.Flags
+  - OpenTl.Schema.TUpdateServiceNotification.InboxDate
+  - OpenTl.Schema.TUpdateServiceNotification.Media
+  - OpenTl.Schema.TUpdateServiceNotification.Message
+  - OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+  - OpenTl.Schema.TUpdateServiceNotification.Popup
+  - OpenTl.Schema.TUpdateServiceNotification.Type
+  - OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TUpdateServiceNotification
+  nameWithType: TUpdateServiceNotification
+  fullName: OpenTl.Schema.TUpdateServiceNotification
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateServiceNotification
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateServiceNotification : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateServiceNotification
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateServiceNotification.Flags
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateServiceNotification.Flags
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateServiceNotification.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.Popup
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Popup
+  id: Popup
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Popup
+  nameWithType: TUpdateServiceNotification.Popup
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Popup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Popup
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Popup { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Popup As Boolean
+  overload: OpenTl.Schema.TUpdateServiceNotification.Popup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.InboxDate
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.InboxDate
+  id: InboxDate
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: InboxDate
+  nameWithType: TUpdateServiceNotification.InboxDate
+  fullName: OpenTl.Schema.TUpdateServiceNotification.InboxDate
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InboxDate
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int InboxDate { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property InboxDate As Integer
+  overload: OpenTl.Schema.TUpdateServiceNotification.InboxDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TUpdateServiceNotification.TypeAsBinary
+  fullName: OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.Type
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Type
+  id: Type
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TUpdateServiceNotification.Type
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TUpdateServiceNotification.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: TUpdateServiceNotification.MessageAsBinary
+  fullName: OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.Message
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Message
+  id: Message
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: TUpdateServiceNotification.Message
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.TUpdateServiceNotification.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.Media
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Media
+  id: Media
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Media
+  nameWithType: TUpdateServiceNotification.Media
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Media
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Media
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessageMedia Media { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessageMedia
+    content.vb: Public Property Media As IMessageMedia
+  overload: OpenTl.Schema.TUpdateServiceNotification.Media*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateServiceNotification.Entities
+  commentId: P:OpenTl.Schema.TUpdateServiceNotification.Entities
+  id: Entities
+  parent: OpenTl.Schema.TUpdateServiceNotification
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: TUpdateServiceNotification.Entities
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Entities
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Entities
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateServiceNotification.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IMessageEntity> Entities { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+    content.vb: Public Property Entities As TVector(Of IMessageEntity)
+  overload: OpenTl.Schema.TUpdateServiceNotification.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateServiceNotification.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateServiceNotification.Flags
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateServiceNotification.Popup*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Popup
+  isExternal: false
+  name: Popup
+  nameWithType: TUpdateServiceNotification.Popup
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Popup
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TUpdateServiceNotification.InboxDate*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.InboxDate
+  isExternal: false
+  name: InboxDate
+  nameWithType: TUpdateServiceNotification.InboxDate
+  fullName: OpenTl.Schema.TUpdateServiceNotification.InboxDate
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TUpdateServiceNotification.TypeAsBinary
+  fullName: OpenTl.Schema.TUpdateServiceNotification.TypeAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateServiceNotification.Type*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Type
+  isExternal: false
+  name: Type
+  nameWithType: TUpdateServiceNotification.Type
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Type
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: TUpdateServiceNotification.MessageAsBinary
+  fullName: OpenTl.Schema.TUpdateServiceNotification.MessageAsBinary
+- uid: OpenTl.Schema.TUpdateServiceNotification.Message*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Message
+  isExternal: false
+  name: Message
+  nameWithType: TUpdateServiceNotification.Message
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Message
+- uid: OpenTl.Schema.TUpdateServiceNotification.Media*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Media
+  isExternal: false
+  name: Media
+  nameWithType: TUpdateServiceNotification.Media
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Media
+- uid: OpenTl.Schema.IMessageMedia
+  commentId: T:OpenTl.Schema.IMessageMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageMedia
+  nameWithType: IMessageMedia
+  fullName: OpenTl.Schema.IMessageMedia
+- uid: OpenTl.Schema.TUpdateServiceNotification.Entities*
+  commentId: Overload:OpenTl.Schema.TUpdateServiceNotification.Entities
+  isExternal: false
+  name: Entities
+  nameWithType: TUpdateServiceNotification.Entities
+  fullName: OpenTl.Schema.TUpdateServiceNotification.Entities
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessageEntity>
+  nameWithType: TVector<IMessageEntity>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity>
+  nameWithType.vb: TVector(Of IMessageEntity)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessageEntity)
+  name.vb: TVector(Of IMessageEntity)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -15,6 +15,7 @@ namespace OpenTl.Schema.Payments
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
        public byte[] IdAsBinary { get => _IdAsBinary; set { _Id = Encoding.UTF8.GetString(value); _IdAsBinary = value; }}

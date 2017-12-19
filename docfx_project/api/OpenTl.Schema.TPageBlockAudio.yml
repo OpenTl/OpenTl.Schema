@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPageBlockAudio
+  commentId: T:OpenTl.Schema.TPageBlockAudio
+  id: TPageBlockAudio
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPageBlockAudio.AudioId
+  - OpenTl.Schema.TPageBlockAudio.Caption
+  langs:
+  - csharp
+  - vb
+  name: TPageBlockAudio
+  nameWithType: TPageBlockAudio
+  fullName: OpenTl.Schema.TPageBlockAudio
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPageBlockAudio
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPageBlockAudio : object, IPageBlock, IObject'
+    content.vb: >-
+      Public Class TPageBlockAudio
+
+          Inherits Object
+
+          Implements IPageBlock, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPageBlock
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPageBlockAudio.AudioId
+  commentId: P:OpenTl.Schema.TPageBlockAudio.AudioId
+  id: AudioId
+  parent: OpenTl.Schema.TPageBlockAudio
+  langs:
+  - csharp
+  - vb
+  name: AudioId
+  nameWithType: TPageBlockAudio.AudioId
+  fullName: OpenTl.Schema.TPageBlockAudio.AudioId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AudioId
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AudioId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AudioId As Long
+  overload: OpenTl.Schema.TPageBlockAudio.AudioId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPageBlockAudio.Caption
+  commentId: P:OpenTl.Schema.TPageBlockAudio.Caption
+  id: Caption
+  parent: OpenTl.Schema.TPageBlockAudio
+  langs:
+  - csharp
+  - vb
+  name: Caption
+  nameWithType: TPageBlockAudio.Caption
+  fullName: OpenTl.Schema.TPageBlockAudio.Caption
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Caption
+    path: ../src/OpenTl.Schema/_generated/_Entities/PageBlock/TPageBlockAudio.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Caption { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Caption As IRichText
+  overload: OpenTl.Schema.TPageBlockAudio.Caption*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPageBlock
+  commentId: T:OpenTl.Schema.IPageBlock
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPageBlock
+  nameWithType: IPageBlock
+  fullName: OpenTl.Schema.IPageBlock
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPageBlockAudio.AudioId*
+  commentId: Overload:OpenTl.Schema.TPageBlockAudio.AudioId
+  isExternal: false
+  name: AudioId
+  nameWithType: TPageBlockAudio.AudioId
+  fullName: OpenTl.Schema.TPageBlockAudio.AudioId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPageBlockAudio.Caption*
+  commentId: Overload:OpenTl.Schema.TPageBlockAudio.Caption
+  isExternal: false
+  name: Caption
+  nameWithType: TPageBlockAudio.Caption
+  fullName: OpenTl.Schema.TPageBlockAudio.Caption
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText

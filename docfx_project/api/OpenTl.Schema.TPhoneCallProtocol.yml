@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhoneCallProtocol
+  commentId: T:OpenTl.Schema.TPhoneCallProtocol
+  id: TPhoneCallProtocol
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPhoneCallProtocol.Flags
+  - OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+  - OpenTl.Schema.TPhoneCallProtocol.MinLayer
+  - OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+  - OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+  langs:
+  - csharp
+  - vb
+  name: TPhoneCallProtocol
+  nameWithType: TPhoneCallProtocol
+  fullName: OpenTl.Schema.TPhoneCallProtocol
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoneCallProtocol
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhoneCallProtocol : object, IPhoneCallProtocol, IObject'
+    content.vb: >-
+      Public Class TPhoneCallProtocol
+
+          Inherits Object
+
+          Implements IPhoneCallProtocol, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPhoneCallProtocol.Flags
+  commentId: P:OpenTl.Schema.TPhoneCallProtocol.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPhoneCallProtocol
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPhoneCallProtocol.Flags
+  fullName: OpenTl.Schema.TPhoneCallProtocol.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPhoneCallProtocol.Flags*
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+  commentId: P:OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+  id: UdpP2p
+  parent: OpenTl.Schema.TPhoneCallProtocol
+  langs:
+  - csharp
+  - vb
+  name: UdpP2p
+  nameWithType: TPhoneCallProtocol.UdpP2p
+  fullName: OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UdpP2p
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool UdpP2p { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UdpP2p As Boolean
+  overload: OpenTl.Schema.TPhoneCallProtocol.UdpP2p*
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol.UdpP2p
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+  commentId: P:OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+  id: UdpReflector
+  parent: OpenTl.Schema.TPhoneCallProtocol
+  langs:
+  - csharp
+  - vb
+  name: UdpReflector
+  nameWithType: TPhoneCallProtocol.UdpReflector
+  fullName: OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UdpReflector
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool UdpReflector { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property UdpReflector As Boolean
+  overload: OpenTl.Schema.TPhoneCallProtocol.UdpReflector*
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol.UdpReflector
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallProtocol.MinLayer
+  commentId: P:OpenTl.Schema.TPhoneCallProtocol.MinLayer
+  id: MinLayer
+  parent: OpenTl.Schema.TPhoneCallProtocol
+  langs:
+  - csharp
+  - vb
+  name: MinLayer
+  nameWithType: TPhoneCallProtocol.MinLayer
+  fullName: OpenTl.Schema.TPhoneCallProtocol.MinLayer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MinLayer
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MinLayer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MinLayer As Integer
+  overload: OpenTl.Schema.TPhoneCallProtocol.MinLayer*
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol.MinLayer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+  commentId: P:OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+  id: MaxLayer
+  parent: OpenTl.Schema.TPhoneCallProtocol
+  langs:
+  - csharp
+  - vb
+  name: MaxLayer
+  nameWithType: TPhoneCallProtocol.MaxLayer
+  fullName: OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxLayer
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneCallProtocol/TPhoneCallProtocol.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MaxLayer { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxLayer As Integer
+  overload: OpenTl.Schema.TPhoneCallProtocol.MaxLayer*
+  implements:
+  - OpenTl.Schema.IPhoneCallProtocol.MaxLayer
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhoneCallProtocol
+  commentId: T:OpenTl.Schema.IPhoneCallProtocol
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneCallProtocol
+  nameWithType: IPhoneCallProtocol
+  fullName: OpenTl.Schema.IPhoneCallProtocol
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPhoneCallProtocol.Flags*
+  commentId: Overload:OpenTl.Schema.TPhoneCallProtocol.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPhoneCallProtocol.Flags
+  fullName: OpenTl.Schema.TPhoneCallProtocol.Flags
+- uid: OpenTl.Schema.IPhoneCallProtocol.Flags
+  commentId: P:OpenTl.Schema.IPhoneCallProtocol.Flags
+  parent: OpenTl.Schema.IPhoneCallProtocol
+  isExternal: false
+  name: Flags
+  nameWithType: IPhoneCallProtocol.Flags
+  fullName: OpenTl.Schema.IPhoneCallProtocol.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPhoneCallProtocol.UdpP2p*
+  commentId: Overload:OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+  isExternal: false
+  name: UdpP2p
+  nameWithType: TPhoneCallProtocol.UdpP2p
+  fullName: OpenTl.Schema.TPhoneCallProtocol.UdpP2p
+- uid: OpenTl.Schema.IPhoneCallProtocol.UdpP2p
+  commentId: P:OpenTl.Schema.IPhoneCallProtocol.UdpP2p
+  parent: OpenTl.Schema.IPhoneCallProtocol
+  isExternal: false
+  name: UdpP2p
+  nameWithType: IPhoneCallProtocol.UdpP2p
+  fullName: OpenTl.Schema.IPhoneCallProtocol.UdpP2p
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TPhoneCallProtocol.UdpReflector*
+  commentId: Overload:OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+  isExternal: false
+  name: UdpReflector
+  nameWithType: TPhoneCallProtocol.UdpReflector
+  fullName: OpenTl.Schema.TPhoneCallProtocol.UdpReflector
+- uid: OpenTl.Schema.IPhoneCallProtocol.UdpReflector
+  commentId: P:OpenTl.Schema.IPhoneCallProtocol.UdpReflector
+  parent: OpenTl.Schema.IPhoneCallProtocol
+  isExternal: false
+  name: UdpReflector
+  nameWithType: IPhoneCallProtocol.UdpReflector
+  fullName: OpenTl.Schema.IPhoneCallProtocol.UdpReflector
+- uid: OpenTl.Schema.TPhoneCallProtocol.MinLayer*
+  commentId: Overload:OpenTl.Schema.TPhoneCallProtocol.MinLayer
+  isExternal: false
+  name: MinLayer
+  nameWithType: TPhoneCallProtocol.MinLayer
+  fullName: OpenTl.Schema.TPhoneCallProtocol.MinLayer
+- uid: OpenTl.Schema.IPhoneCallProtocol.MinLayer
+  commentId: P:OpenTl.Schema.IPhoneCallProtocol.MinLayer
+  parent: OpenTl.Schema.IPhoneCallProtocol
+  isExternal: false
+  name: MinLayer
+  nameWithType: IPhoneCallProtocol.MinLayer
+  fullName: OpenTl.Schema.IPhoneCallProtocol.MinLayer
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPhoneCallProtocol.MaxLayer*
+  commentId: Overload:OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+  isExternal: false
+  name: MaxLayer
+  nameWithType: TPhoneCallProtocol.MaxLayer
+  fullName: OpenTl.Schema.TPhoneCallProtocol.MaxLayer
+- uid: OpenTl.Schema.IPhoneCallProtocol.MaxLayer
+  commentId: P:OpenTl.Schema.IPhoneCallProtocol.MaxLayer
+  parent: OpenTl.Schema.IPhoneCallProtocol
+  isExternal: false
+  name: MaxLayer
+  nameWithType: IPhoneCallProtocol.MaxLayer
+  fullName: OpenTl.Schema.IPhoneCallProtocol.MaxLayer

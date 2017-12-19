@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TWebPageEmpty
+  commentId: T:OpenTl.Schema.TWebPageEmpty
+  id: TWebPageEmpty
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TWebPageEmpty.Id
+  langs:
+  - csharp
+  - vb
+  name: TWebPageEmpty
+  nameWithType: TWebPageEmpty
+  fullName: OpenTl.Schema.TWebPageEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TWebPageEmpty
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TWebPageEmpty : object, IWebPage, IObject, IEmpty'
+    content.vb: >-
+      Public Class TWebPageEmpty
+
+          Inherits Object
+
+          Implements IWebPage, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IWebPage
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TWebPageEmpty.Id
+  commentId: P:OpenTl.Schema.TWebPageEmpty.Id
+  id: Id
+  parent: OpenTl.Schema.TWebPageEmpty
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TWebPageEmpty.Id
+  fullName: OpenTl.Schema.TWebPageEmpty.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageEmpty.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TWebPageEmpty.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IWebPage
+  commentId: T:OpenTl.Schema.IWebPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebPage
+  nameWithType: IWebPage
+  fullName: OpenTl.Schema.IWebPage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty
+- uid: OpenTl.Schema.TWebPageEmpty.Id*
+  commentId: Overload:OpenTl.Schema.TWebPageEmpty.Id
+  isExternal: false
+  name: Id
+  nameWithType: TWebPageEmpty.Id
+  fullName: OpenTl.Schema.TWebPageEmpty.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

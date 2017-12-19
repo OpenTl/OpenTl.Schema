@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.TExportedAuthorization
+  commentId: T:OpenTl.Schema.Auth.TExportedAuthorization
+  id: TExportedAuthorization
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+  - OpenTl.Schema.Auth.TExportedAuthorization.Id
+  langs:
+  - csharp
+  - vb
+  name: TExportedAuthorization
+  nameWithType: TExportedAuthorization
+  fullName: OpenTl.Schema.Auth.TExportedAuthorization
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TExportedAuthorization
+    path: ../src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class TExportedAuthorization : object, IExportedAuthorization, IObject'
+    content.vb: >-
+      Public Class TExportedAuthorization
+
+          Inherits Object
+
+          Implements IExportedAuthorization, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Auth.IExportedAuthorization
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.TExportedAuthorization.Id
+  commentId: P:OpenTl.Schema.Auth.TExportedAuthorization.Id
+  id: Id
+  parent: OpenTl.Schema.Auth.TExportedAuthorization
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TExportedAuthorization.Id
+  fullName: OpenTl.Schema.Auth.TExportedAuthorization.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.Auth.TExportedAuthorization.Id*
+  implements:
+  - OpenTl.Schema.Auth.IExportedAuthorization.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+  commentId: P:OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.Auth.TExportedAuthorization
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TExportedAuthorization.Bytes
+  fullName: OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/Auth/ExportedAuthorization/TExportedAuthorization.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public byte[] Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Bytes As Byte()
+  overload: OpenTl.Schema.Auth.TExportedAuthorization.Bytes*
+  implements:
+  - OpenTl.Schema.Auth.IExportedAuthorization.Bytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Auth.IExportedAuthorization
+  commentId: T:OpenTl.Schema.Auth.IExportedAuthorization
+  parent: OpenTl.Schema.Auth
+  isExternal: false
+  name: IExportedAuthorization
+  nameWithType: IExportedAuthorization
+  fullName: OpenTl.Schema.Auth.IExportedAuthorization
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.TExportedAuthorization.Id*
+  commentId: Overload:OpenTl.Schema.Auth.TExportedAuthorization.Id
+  isExternal: false
+  name: Id
+  nameWithType: TExportedAuthorization.Id
+  fullName: OpenTl.Schema.Auth.TExportedAuthorization.Id
+- uid: OpenTl.Schema.Auth.IExportedAuthorization.Id
+  commentId: P:OpenTl.Schema.Auth.IExportedAuthorization.Id
+  parent: OpenTl.Schema.Auth.IExportedAuthorization
+  isExternal: false
+  name: Id
+  nameWithType: IExportedAuthorization.Id
+  fullName: OpenTl.Schema.Auth.IExportedAuthorization.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Auth.TExportedAuthorization.Bytes*
+  commentId: Overload:OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TExportedAuthorization.Bytes
+  fullName: OpenTl.Schema.Auth.TExportedAuthorization.Bytes
+- uid: OpenTl.Schema.Auth.IExportedAuthorization.Bytes
+  commentId: P:OpenTl.Schema.Auth.IExportedAuthorization.Bytes
+  parent: OpenTl.Schema.Auth.IExportedAuthorization
+  isExternal: false
+  name: Bytes
+  nameWithType: IExportedAuthorization.Bytes
+  fullName: OpenTl.Schema.Auth.IExportedAuthorization.Bytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

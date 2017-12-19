@@ -30,6 +30,7 @@ namespace OpenTl.Schema
        [CanSerialize("Flags", 2)]
        public int ChannelPost {get; set;}
 
+       /// <summary>Binary representation for the 'PostAuthor' property</summary>
        [SerializationOrder(5)]
        [CanSerialize("Flags", 3)]
        public byte[] PostAuthorAsBinary { get => _PostAuthorAsBinary; set { _PostAuthor = Encoding.UTF8.GetString(value); _PostAuthorAsBinary = value; }}

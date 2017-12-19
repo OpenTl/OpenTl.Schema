@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Langpack
 	[Serialize(0x2e1ee318)]
     public class RequestGetStrings : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.ILangPackString>>
     {
+       /// <summary>Binary representation for the 'LangCode' property</summary>
        [SerializationOrder(0)]
        public byte[] LangCodeAsBinary { get => _LangCodeAsBinary; set { _LangCode = Encoding.UTF8.GetString(value); _LangCodeAsBinary = value; }}
        private byte[] _LangCodeAsBinary;

@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x744694e0)]
 	public class TTextPlain : IRichText
 	{
+       /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]
        public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
        private byte[] _TextAsBinary;

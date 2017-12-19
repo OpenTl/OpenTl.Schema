@@ -15,6 +15,7 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public int DcId {get; set;}
 
+       /// <summary>Binary representation for the 'PublicKey' property</summary>
        [SerializationOrder(1)]
        public byte[] PublicKeyAsBinary { get => _PublicKeyAsBinary; set { _PublicKey = Encoding.UTF8.GetString(value); _PublicKeyAsBinary = value; }}
        private byte[] _PublicKeyAsBinary;

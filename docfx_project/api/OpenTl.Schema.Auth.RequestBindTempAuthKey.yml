@@ -1,0 +1,359 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  commentId: T:OpenTl.Schema.Auth.RequestBindTempAuthKey
+  id: RequestBindTempAuthKey
+  parent: OpenTl.Schema.Auth
+  children:
+  - OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+  - OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+  - OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+  - OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+  langs:
+  - csharp
+  - vb
+  name: RequestBindTempAuthKey
+  nameWithType: RequestBindTempAuthKey
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestBindTempAuthKey
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: 'public class RequestBindTempAuthKey : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestBindTempAuthKey
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+  commentId: P:OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+  id: PermAuthKeyId
+  parent: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  langs:
+  - csharp
+  - vb
+  name: PermAuthKeyId
+  nameWithType: RequestBindTempAuthKey.PermAuthKeyId
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PermAuthKeyId
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public long PermAuthKeyId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property PermAuthKeyId As Long
+  overload: OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+  commentId: P:OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: RequestBindTempAuthKey.Nonce
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public long Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Nonce As Long
+  overload: OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+  commentId: P:OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+  id: ExpiresAt
+  parent: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  langs:
+  - csharp
+  - vb
+  name: ExpiresAt
+  nameWithType: RequestBindTempAuthKey.ExpiresAt
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ExpiresAt
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public int ExpiresAt { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ExpiresAt As Integer
+  overload: OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+  commentId: P:OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+  id: EncryptedMessage
+  parent: OpenTl.Schema.Auth.RequestBindTempAuthKey
+  langs:
+  - csharp
+  - vb
+  name: EncryptedMessage
+  nameWithType: RequestBindTempAuthKey.EncryptedMessage
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EncryptedMessage
+    path: ../src/OpenTl.Schema/_generated/Auth/RequestBindTempAuthKey.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Auth
+  syntax:
+    content: public byte[] EncryptedMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property EncryptedMessage As Byte()
+  overload: OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Auth
+  commentId: N:OpenTl.Schema.Auth
+  isExternal: false
+  name: OpenTl.Schema.Auth
+  nameWithType: OpenTl.Schema.Auth
+  fullName: OpenTl.Schema.Auth
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId*
+  commentId: Overload:OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+  isExternal: false
+  name: PermAuthKeyId
+  nameWithType: RequestBindTempAuthKey.PermAuthKeyId
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.PermAuthKeyId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce*
+  commentId: Overload:OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: RequestBindTempAuthKey.Nonce
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.Nonce
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt*
+  commentId: Overload:OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+  isExternal: false
+  name: ExpiresAt
+  nameWithType: RequestBindTempAuthKey.ExpiresAt
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.ExpiresAt
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage*
+  commentId: Overload:OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+  isExternal: false
+  name: EncryptedMessage
+  nameWithType: RequestBindTempAuthKey.EncryptedMessage
+  fullName: OpenTl.Schema.Auth.RequestBindTempAuthKey.EncryptedMessage
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

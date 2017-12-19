@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRecentMeUrlUnknown
+  commentId: T:OpenTl.Schema.TRecentMeUrlUnknown
+  id: TRecentMeUrlUnknown
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRecentMeUrlUnknown.Url
+  - OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TRecentMeUrlUnknown
+  nameWithType: TRecentMeUrlUnknown
+  fullName: OpenTl.Schema.TRecentMeUrlUnknown
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRecentMeUrlUnknown
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRecentMeUrlUnknown : object, IRecentMeUrl, IObject'
+    content.vb: >-
+      Public Class TRecentMeUrlUnknown
+
+          Inherits Object
+
+          Implements IRecentMeUrl, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRecentMeUrl
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+  commentId: P:OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TRecentMeUrlUnknown
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TRecentMeUrlUnknown.UrlAsBinary
+  fullName: OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary*
+  implements:
+  - OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRecentMeUrlUnknown.Url
+  commentId: P:OpenTl.Schema.TRecentMeUrlUnknown.Url
+  id: Url
+  parent: OpenTl.Schema.TRecentMeUrlUnknown
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TRecentMeUrlUnknown.Url
+  fullName: OpenTl.Schema.TRecentMeUrlUnknown.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlUnknown.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TRecentMeUrlUnknown.Url*
+  implements:
+  - OpenTl.Schema.IRecentMeUrl.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRecentMeUrl
+  commentId: T:OpenTl.Schema.IRecentMeUrl
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRecentMeUrl
+  nameWithType: IRecentMeUrl
+  fullName: OpenTl.Schema.IRecentMeUrl
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TRecentMeUrlUnknown.UrlAsBinary
+  fullName: OpenTl.Schema.TRecentMeUrlUnknown.UrlAsBinary
+- uid: OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  commentId: P:OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  parent: OpenTl.Schema.IRecentMeUrl
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IRecentMeUrl.UrlAsBinary
+  fullName: OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TRecentMeUrlUnknown.Url*
+  commentId: Overload:OpenTl.Schema.TRecentMeUrlUnknown.Url
+  isExternal: false
+  name: Url
+  nameWithType: TRecentMeUrlUnknown.Url
+  fullName: OpenTl.Schema.TRecentMeUrlUnknown.Url
+- uid: OpenTl.Schema.IRecentMeUrl.Url
+  commentId: P:OpenTl.Schema.IRecentMeUrl.Url
+  parent: OpenTl.Schema.IRecentMeUrl
+  isExternal: false
+  name: Url
+  nameWithType: IRecentMeUrl.Url
+  fullName: OpenTl.Schema.IRecentMeUrl.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

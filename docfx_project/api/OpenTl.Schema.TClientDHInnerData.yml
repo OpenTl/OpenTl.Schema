@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TClientDHInnerData
+  commentId: T:OpenTl.Schema.TClientDHInnerData
+  id: TClientDHInnerData
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TClientDHInnerData.GB
+  - OpenTl.Schema.TClientDHInnerData.GBAsBinary
+  - OpenTl.Schema.TClientDHInnerData.Nonce
+  - OpenTl.Schema.TClientDHInnerData.RetryId
+  - OpenTl.Schema.TClientDHInnerData.ServerNonce
+  langs:
+  - csharp
+  - vb
+  name: TClientDHInnerData
+  nameWithType: TClientDHInnerData
+  fullName: OpenTl.Schema.TClientDHInnerData
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TClientDHInnerData
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TClientDHInnerData : object, IObject'
+    content.vb: >-
+      Public Class TClientDHInnerData
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TClientDHInnerData.Nonce
+  commentId: P:OpenTl.Schema.TClientDHInnerData.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TClientDHInnerData
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TClientDHInnerData.Nonce
+  fullName: OpenTl.Schema.TClientDHInnerData.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TClientDHInnerData.Nonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TClientDHInnerData.ServerNonce
+  commentId: P:OpenTl.Schema.TClientDHInnerData.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TClientDHInnerData
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TClientDHInnerData.ServerNonce
+  fullName: OpenTl.Schema.TClientDHInnerData.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TClientDHInnerData.ServerNonce*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TClientDHInnerData.RetryId
+  commentId: P:OpenTl.Schema.TClientDHInnerData.RetryId
+  id: RetryId
+  parent: OpenTl.Schema.TClientDHInnerData
+  langs:
+  - csharp
+  - vb
+  name: RetryId
+  nameWithType: TClientDHInnerData.RetryId
+  fullName: OpenTl.Schema.TClientDHInnerData.RetryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RetryId
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long RetryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property RetryId As Long
+  overload: OpenTl.Schema.TClientDHInnerData.RetryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TClientDHInnerData.GBAsBinary
+  commentId: P:OpenTl.Schema.TClientDHInnerData.GBAsBinary
+  id: GBAsBinary
+  parent: OpenTl.Schema.TClientDHInnerData
+  langs:
+  - csharp
+  - vb
+  name: GBAsBinary
+  nameWithType: TClientDHInnerData.GBAsBinary
+  fullName: OpenTl.Schema.TClientDHInnerData.GBAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GBAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;GB&apos; property
+  example: []
+  syntax:
+    content: public byte[] GBAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property GBAsBinary As Byte()
+  overload: OpenTl.Schema.TClientDHInnerData.GBAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TClientDHInnerData.GB
+  commentId: P:OpenTl.Schema.TClientDHInnerData.GB
+  id: GB
+  parent: OpenTl.Schema.TClientDHInnerData
+  langs:
+  - csharp
+  - vb
+  name: GB
+  nameWithType: TClientDHInnerData.GB
+  fullName: OpenTl.Schema.TClientDHInnerData.GB
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GB
+    path: ../src/OpenTl.Schema/_generated/_Entities/TClientDHInnerData.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string GB { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GB As String
+  overload: OpenTl.Schema.TClientDHInnerData.GB*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TClientDHInnerData.Nonce*
+  commentId: Overload:OpenTl.Schema.TClientDHInnerData.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TClientDHInnerData.Nonce
+  fullName: OpenTl.Schema.TClientDHInnerData.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TClientDHInnerData.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TClientDHInnerData.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TClientDHInnerData.ServerNonce
+  fullName: OpenTl.Schema.TClientDHInnerData.ServerNonce
+- uid: OpenTl.Schema.TClientDHInnerData.RetryId*
+  commentId: Overload:OpenTl.Schema.TClientDHInnerData.RetryId
+  isExternal: false
+  name: RetryId
+  nameWithType: TClientDHInnerData.RetryId
+  fullName: OpenTl.Schema.TClientDHInnerData.RetryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TClientDHInnerData.GBAsBinary*
+  commentId: Overload:OpenTl.Schema.TClientDHInnerData.GBAsBinary
+  isExternal: false
+  name: GBAsBinary
+  nameWithType: TClientDHInnerData.GBAsBinary
+  fullName: OpenTl.Schema.TClientDHInnerData.GBAsBinary
+- uid: OpenTl.Schema.TClientDHInnerData.GB*
+  commentId: Overload:OpenTl.Schema.TClientDHInnerData.GB
+  isExternal: false
+  name: GB
+  nameWithType: TClientDHInnerData.GB
+  fullName: OpenTl.Schema.TClientDHInnerData.GB
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

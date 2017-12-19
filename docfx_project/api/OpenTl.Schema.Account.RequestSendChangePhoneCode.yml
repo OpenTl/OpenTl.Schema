@@ -1,0 +1,406 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  commentId: T:OpenTl.Schema.Account.RequestSendChangePhoneCode
+  id: RequestSendChangePhoneCode
+  parent: OpenTl.Schema.Account
+  children:
+  - OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+  - OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber
+  - OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+  - OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+  - OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+  langs:
+  - csharp
+  - vb
+  name: RequestSendChangePhoneCode
+  nameWithType: RequestSendChangePhoneCode
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSendChangePhoneCode
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: 'public class RequestSendChangePhoneCode : object, IRequest<ISentCode>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSendChangePhoneCode
+
+          Inherits Object
+
+          Implements IRequest(Of ISentCode), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+  commentId: P:OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+  id: Flags
+  parent: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSendChangePhoneCode.Flags
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+  commentId: P:OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+  id: AllowFlashcall
+  parent: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  langs:
+  - csharp
+  - vb
+  name: AllowFlashcall
+  nameWithType: RequestSendChangePhoneCode.AllowFlashcall
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AllowFlashcall
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public bool AllowFlashcall { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AllowFlashcall As Boolean
+  overload: OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+  commentId: P:OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+  id: PhoneNumberAsBinary
+  parent: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumberAsBinary
+  nameWithType: RequestSendChangePhoneCode.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumberAsBinary
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  summary: Binary representation for the &apos;PhoneNumber&apos; property
+  example: []
+  syntax:
+    content: public byte[] PhoneNumberAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PhoneNumberAsBinary As Byte()
+  overload: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+  commentId: P:OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+  id: PhoneNumber
+  parent: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  langs:
+  - csharp
+  - vb
+  name: PhoneNumber
+  nameWithType: RequestSendChangePhoneCode.PhoneNumber
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneNumber
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public string PhoneNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PhoneNumber As String
+  overload: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber
+  commentId: P:OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber
+  id: CurrentNumber
+  parent: OpenTl.Schema.Account.RequestSendChangePhoneCode
+  langs:
+  - csharp
+  - vb
+  name: CurrentNumber
+  nameWithType: RequestSendChangePhoneCode.CurrentNumber
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrentNumber
+    path: ../src/OpenTl.Schema/_generated/Account/RequestSendChangePhoneCode.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Account
+  syntax:
+    content: public bool CurrentNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property CurrentNumber As Boolean
+  overload: OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Account
+  commentId: N:OpenTl.Schema.Account
+  isExternal: false
+  name: OpenTl.Schema.Account
+  nameWithType: OpenTl.Schema.Account
+  fullName: OpenTl.Schema.Account
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.Auth.ISentCode}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<ISentCode>
+  nameWithType: IRequest<ISentCode>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.Auth.ISentCode>
+  nameWithType.vb: IRequest(Of ISentCode)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.Auth.ISentCode)
+  name.vb: IRequest(Of ISentCode)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.Auth.ISentCode
+    name: ISentCode
+    nameWithType: ISentCode
+    fullName: OpenTl.Schema.Auth.ISentCode
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.Auth.ISentCode
+    name: ISentCode
+    nameWithType: ISentCode
+    fullName: OpenTl.Schema.Auth.ISentCode
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags*
+  commentId: Overload:OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSendChangePhoneCode.Flags
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall*
+  commentId: Overload:OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+  isExternal: false
+  name: AllowFlashcall
+  nameWithType: RequestSendChangePhoneCode.AllowFlashcall
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.AllowFlashcall
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary*
+  commentId: Overload:OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+  isExternal: false
+  name: PhoneNumberAsBinary
+  nameWithType: RequestSendChangePhoneCode.PhoneNumberAsBinary
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumberAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber*
+  commentId: Overload:OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+  isExternal: false
+  name: PhoneNumber
+  nameWithType: RequestSendChangePhoneCode.PhoneNumber
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.PhoneNumber
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber*
+  commentId: Overload:OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber
+  isExternal: false
+  name: CurrentNumber
+  nameWithType: RequestSendChangePhoneCode.CurrentNumber
+  fullName: OpenTl.Schema.Account.RequestSendChangePhoneCode.CurrentNumber

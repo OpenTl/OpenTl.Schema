@@ -20,6 +20,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public byte[] ServerNonce {get; set;}
 
+       /// <summary>Binary representation for the 'EncryptedAnswer' property</summary>
        [SerializationOrder(2)]
        public byte[] EncryptedAnswerAsBinary { get => _EncryptedAnswerAsBinary; set { _EncryptedAnswer = Encoding.UTF8.GetString(value); _EncryptedAnswerAsBinary = value; }}
        private byte[] _EncryptedAnswerAsBinary;

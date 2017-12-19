@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDcOption
+  commentId: T:OpenTl.Schema.TDcOption
+  id: TDcOption
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDcOption.Cdn
+  - OpenTl.Schema.TDcOption.Flags
+  - OpenTl.Schema.TDcOption.Id
+  - OpenTl.Schema.TDcOption.IpAddress
+  - OpenTl.Schema.TDcOption.IpAddressAsBinary
+  - OpenTl.Schema.TDcOption.Ipv6
+  - OpenTl.Schema.TDcOption.MediaOnly
+  - OpenTl.Schema.TDcOption.Port
+  - OpenTl.Schema.TDcOption.Static
+  - OpenTl.Schema.TDcOption.TcpoOnly
+  langs:
+  - csharp
+  - vb
+  name: TDcOption
+  nameWithType: TDcOption
+  fullName: OpenTl.Schema.TDcOption
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDcOption
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDcOption : object, IDcOption, IObject'
+    content.vb: >-
+      Public Class TDcOption
+
+          Inherits Object
+
+          Implements IDcOption, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDcOption
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDcOption.Flags
+  commentId: P:OpenTl.Schema.TDcOption.Flags
+  id: Flags
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TDcOption.Flags
+  fullName: OpenTl.Schema.TDcOption.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TDcOption.Flags*
+  implements:
+  - OpenTl.Schema.IDcOption.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.Ipv6
+  commentId: P:OpenTl.Schema.TDcOption.Ipv6
+  id: Ipv6
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Ipv6
+  nameWithType: TDcOption.Ipv6
+  fullName: OpenTl.Schema.TDcOption.Ipv6
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ipv6
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Ipv6 { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Ipv6 As Boolean
+  overload: OpenTl.Schema.TDcOption.Ipv6*
+  implements:
+  - OpenTl.Schema.IDcOption.Ipv6
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.MediaOnly
+  commentId: P:OpenTl.Schema.TDcOption.MediaOnly
+  id: MediaOnly
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: MediaOnly
+  nameWithType: TDcOption.MediaOnly
+  fullName: OpenTl.Schema.TDcOption.MediaOnly
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MediaOnly
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool MediaOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property MediaOnly As Boolean
+  overload: OpenTl.Schema.TDcOption.MediaOnly*
+  implements:
+  - OpenTl.Schema.IDcOption.MediaOnly
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.TcpoOnly
+  commentId: P:OpenTl.Schema.TDcOption.TcpoOnly
+  id: TcpoOnly
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: TcpoOnly
+  nameWithType: TDcOption.TcpoOnly
+  fullName: OpenTl.Schema.TDcOption.TcpoOnly
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TcpoOnly
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool TcpoOnly { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property TcpoOnly As Boolean
+  overload: OpenTl.Schema.TDcOption.TcpoOnly*
+  implements:
+  - OpenTl.Schema.IDcOption.TcpoOnly
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.Cdn
+  commentId: P:OpenTl.Schema.TDcOption.Cdn
+  id: Cdn
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Cdn
+  nameWithType: TDcOption.Cdn
+  fullName: OpenTl.Schema.TDcOption.Cdn
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Cdn
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Cdn { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Cdn As Boolean
+  overload: OpenTl.Schema.TDcOption.Cdn*
+  implements:
+  - OpenTl.Schema.IDcOption.Cdn
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.Static
+  commentId: P:OpenTl.Schema.TDcOption.Static
+  id: Static
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Static
+  nameWithType: TDcOption.Static
+  fullName: OpenTl.Schema.TDcOption.Static
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Static
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Static { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Static As Boolean
+  overload: OpenTl.Schema.TDcOption.Static*
+  implements:
+  - OpenTl.Schema.IDcOption.Static
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.Id
+  commentId: P:OpenTl.Schema.TDcOption.Id
+  id: Id
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TDcOption.Id
+  fullName: OpenTl.Schema.TDcOption.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TDcOption.Id*
+  implements:
+  - OpenTl.Schema.IDcOption.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.IpAddressAsBinary
+  commentId: P:OpenTl.Schema.TDcOption.IpAddressAsBinary
+  id: IpAddressAsBinary
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: IpAddressAsBinary
+  nameWithType: TDcOption.IpAddressAsBinary
+  fullName: OpenTl.Schema.TDcOption.IpAddressAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpAddressAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;IpAddress&apos; property
+  example: []
+  syntax:
+    content: public byte[] IpAddressAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IpAddressAsBinary As Byte()
+  overload: OpenTl.Schema.TDcOption.IpAddressAsBinary*
+  implements:
+  - OpenTl.Schema.IDcOption.IpAddressAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.IpAddress
+  commentId: P:OpenTl.Schema.TDcOption.IpAddress
+  id: IpAddress
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: IpAddress
+  nameWithType: TDcOption.IpAddress
+  fullName: OpenTl.Schema.TDcOption.IpAddress
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpAddress
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string IpAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property IpAddress As String
+  overload: OpenTl.Schema.TDcOption.IpAddress*
+  implements:
+  - OpenTl.Schema.IDcOption.IpAddress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TDcOption.Port
+  commentId: P:OpenTl.Schema.TDcOption.Port
+  id: Port
+  parent: OpenTl.Schema.TDcOption
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: TDcOption.Port
+  fullName: OpenTl.Schema.TDcOption.Port
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Port
+    path: ../src/OpenTl.Schema/_generated/_Entities/DcOption/TDcOption.cs
+    startLine: 47
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: OpenTl.Schema.TDcOption.Port*
+  implements:
+  - OpenTl.Schema.IDcOption.Port
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDcOption
+  commentId: T:OpenTl.Schema.IDcOption
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDcOption
+  nameWithType: IDcOption
+  fullName: OpenTl.Schema.IDcOption
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDcOption.Flags*
+  commentId: Overload:OpenTl.Schema.TDcOption.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TDcOption.Flags
+  fullName: OpenTl.Schema.TDcOption.Flags
+- uid: OpenTl.Schema.IDcOption.Flags
+  commentId: P:OpenTl.Schema.IDcOption.Flags
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Flags
+  nameWithType: IDcOption.Flags
+  fullName: OpenTl.Schema.IDcOption.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TDcOption.Ipv6*
+  commentId: Overload:OpenTl.Schema.TDcOption.Ipv6
+  isExternal: false
+  name: Ipv6
+  nameWithType: TDcOption.Ipv6
+  fullName: OpenTl.Schema.TDcOption.Ipv6
+- uid: OpenTl.Schema.IDcOption.Ipv6
+  commentId: P:OpenTl.Schema.IDcOption.Ipv6
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Ipv6
+  nameWithType: IDcOption.Ipv6
+  fullName: OpenTl.Schema.IDcOption.Ipv6
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TDcOption.MediaOnly*
+  commentId: Overload:OpenTl.Schema.TDcOption.MediaOnly
+  isExternal: false
+  name: MediaOnly
+  nameWithType: TDcOption.MediaOnly
+  fullName: OpenTl.Schema.TDcOption.MediaOnly
+- uid: OpenTl.Schema.IDcOption.MediaOnly
+  commentId: P:OpenTl.Schema.IDcOption.MediaOnly
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: MediaOnly
+  nameWithType: IDcOption.MediaOnly
+  fullName: OpenTl.Schema.IDcOption.MediaOnly
+- uid: OpenTl.Schema.TDcOption.TcpoOnly*
+  commentId: Overload:OpenTl.Schema.TDcOption.TcpoOnly
+  isExternal: false
+  name: TcpoOnly
+  nameWithType: TDcOption.TcpoOnly
+  fullName: OpenTl.Schema.TDcOption.TcpoOnly
+- uid: OpenTl.Schema.IDcOption.TcpoOnly
+  commentId: P:OpenTl.Schema.IDcOption.TcpoOnly
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: TcpoOnly
+  nameWithType: IDcOption.TcpoOnly
+  fullName: OpenTl.Schema.IDcOption.TcpoOnly
+- uid: OpenTl.Schema.TDcOption.Cdn*
+  commentId: Overload:OpenTl.Schema.TDcOption.Cdn
+  isExternal: false
+  name: Cdn
+  nameWithType: TDcOption.Cdn
+  fullName: OpenTl.Schema.TDcOption.Cdn
+- uid: OpenTl.Schema.IDcOption.Cdn
+  commentId: P:OpenTl.Schema.IDcOption.Cdn
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Cdn
+  nameWithType: IDcOption.Cdn
+  fullName: OpenTl.Schema.IDcOption.Cdn
+- uid: OpenTl.Schema.TDcOption.Static*
+  commentId: Overload:OpenTl.Schema.TDcOption.Static
+  isExternal: false
+  name: Static
+  nameWithType: TDcOption.Static
+  fullName: OpenTl.Schema.TDcOption.Static
+- uid: OpenTl.Schema.IDcOption.Static
+  commentId: P:OpenTl.Schema.IDcOption.Static
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Static
+  nameWithType: IDcOption.Static
+  fullName: OpenTl.Schema.IDcOption.Static
+- uid: OpenTl.Schema.TDcOption.Id*
+  commentId: Overload:OpenTl.Schema.TDcOption.Id
+  isExternal: false
+  name: Id
+  nameWithType: TDcOption.Id
+  fullName: OpenTl.Schema.TDcOption.Id
+- uid: OpenTl.Schema.IDcOption.Id
+  commentId: P:OpenTl.Schema.IDcOption.Id
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Id
+  nameWithType: IDcOption.Id
+  fullName: OpenTl.Schema.IDcOption.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TDcOption.IpAddressAsBinary*
+  commentId: Overload:OpenTl.Schema.TDcOption.IpAddressAsBinary
+  isExternal: false
+  name: IpAddressAsBinary
+  nameWithType: TDcOption.IpAddressAsBinary
+  fullName: OpenTl.Schema.TDcOption.IpAddressAsBinary
+- uid: OpenTl.Schema.IDcOption.IpAddressAsBinary
+  commentId: P:OpenTl.Schema.IDcOption.IpAddressAsBinary
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: IpAddressAsBinary
+  nameWithType: IDcOption.IpAddressAsBinary
+  fullName: OpenTl.Schema.IDcOption.IpAddressAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TDcOption.IpAddress*
+  commentId: Overload:OpenTl.Schema.TDcOption.IpAddress
+  isExternal: false
+  name: IpAddress
+  nameWithType: TDcOption.IpAddress
+  fullName: OpenTl.Schema.TDcOption.IpAddress
+- uid: OpenTl.Schema.IDcOption.IpAddress
+  commentId: P:OpenTl.Schema.IDcOption.IpAddress
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: IpAddress
+  nameWithType: IDcOption.IpAddress
+  fullName: OpenTl.Schema.IDcOption.IpAddress
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TDcOption.Port*
+  commentId: Overload:OpenTl.Schema.TDcOption.Port
+  isExternal: false
+  name: Port
+  nameWithType: TDcOption.Port
+  fullName: OpenTl.Schema.TDcOption.Port
+- uid: OpenTl.Schema.IDcOption.Port
+  commentId: P:OpenTl.Schema.IDcOption.Port
+  parent: OpenTl.Schema.IDcOption
+  isExternal: false
+  name: Port
+  nameWithType: IDcOption.Port
+  fullName: OpenTl.Schema.IDcOption.Port

@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo
+  commentId: T:OpenTl.Schema.TBotInlineMessageMediaGeo
+  id: TBotInlineMessageMediaGeo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+  - OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+  - OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+  - OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+  langs:
+  - csharp
+  - vb
+  name: TBotInlineMessageMediaGeo
+  nameWithType: TBotInlineMessageMediaGeo
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBotInlineMessageMediaGeo
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBotInlineMessageMediaGeo : object, IBotInlineMessage, IObject'
+    content.vb: >-
+      Public Class TBotInlineMessageMediaGeo
+
+          Inherits Object
+
+          Implements IBotInlineMessage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBotInlineMessage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+  commentId: P:OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+  id: Flags
+  parent: OpenTl.Schema.TBotInlineMessageMediaGeo
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TBotInlineMessageMediaGeo.Flags
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TBotInlineMessageMediaGeo.Flags*
+  implements:
+  - OpenTl.Schema.IBotInlineMessage.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+  commentId: P:OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+  id: Geo
+  parent: OpenTl.Schema.TBotInlineMessageMediaGeo
+  langs:
+  - csharp
+  - vb
+  name: Geo
+  nameWithType: TBotInlineMessageMediaGeo.Geo
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Geo
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IGeoPoint Geo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IGeoPoint
+    content.vb: Public Property Geo As IGeoPoint
+  overload: OpenTl.Schema.TBotInlineMessageMediaGeo.Geo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+  commentId: P:OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+  id: Period
+  parent: OpenTl.Schema.TBotInlineMessageMediaGeo
+  langs:
+  - csharp
+  - vb
+  name: Period
+  nameWithType: TBotInlineMessageMediaGeo.Period
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Period
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Period { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Period As Integer
+  overload: OpenTl.Schema.TBotInlineMessageMediaGeo.Period*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+  commentId: P:OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.TBotInlineMessageMediaGeo
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: TBotInlineMessageMediaGeo.ReplyMarkup
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineMessage/TBotInlineMessageMediaGeo.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup*
+  implements:
+  - OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBotInlineMessage
+  commentId: T:OpenTl.Schema.IBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInlineMessage
+  nameWithType: IBotInlineMessage
+  fullName: OpenTl.Schema.IBotInlineMessage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Flags*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TBotInlineMessageMediaGeo.Flags
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Flags
+- uid: OpenTl.Schema.IBotInlineMessage.Flags
+  commentId: P:OpenTl.Schema.IBotInlineMessage.Flags
+  parent: OpenTl.Schema.IBotInlineMessage
+  isExternal: false
+  name: Flags
+  nameWithType: IBotInlineMessage.Flags
+  fullName: OpenTl.Schema.IBotInlineMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Geo*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+  isExternal: false
+  name: Geo
+  nameWithType: TBotInlineMessageMediaGeo.Geo
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Geo
+- uid: OpenTl.Schema.IGeoPoint
+  commentId: T:OpenTl.Schema.IGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGeoPoint
+  nameWithType: IGeoPoint
+  fullName: OpenTl.Schema.IGeoPoint
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.Period*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+  isExternal: false
+  name: Period
+  nameWithType: TBotInlineMessageMediaGeo.Period
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.Period
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: TBotInlineMessageMediaGeo.ReplyMarkup
+  fullName: OpenTl.Schema.TBotInlineMessageMediaGeo.ReplyMarkup
+- uid: OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+  parent: OpenTl.Schema.IBotInlineMessage
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: IBotInlineMessage.ReplyMarkup
+  fullName: OpenTl.Schema.IBotInlineMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup

@@ -1,0 +1,388 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBotInfo
+  commentId: T:OpenTl.Schema.TBotInfo
+  id: TBotInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBotInfo.Commands
+  - OpenTl.Schema.TBotInfo.Description
+  - OpenTl.Schema.TBotInfo.DescriptionAsBinary
+  - OpenTl.Schema.TBotInfo.UserId
+  langs:
+  - csharp
+  - vb
+  name: TBotInfo
+  nameWithType: TBotInfo
+  fullName: OpenTl.Schema.TBotInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBotInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBotInfo : object, IBotInfo, IObject'
+    content.vb: >-
+      Public Class TBotInfo
+
+          Inherits Object
+
+          Implements IBotInfo, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBotInfo
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBotInfo.UserId
+  commentId: P:OpenTl.Schema.TBotInfo.UserId
+  id: UserId
+  parent: OpenTl.Schema.TBotInfo
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TBotInfo.UserId
+  fullName: OpenTl.Schema.TBotInfo.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TBotInfo.UserId*
+  implements:
+  - OpenTl.Schema.IBotInfo.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInfo.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TBotInfo.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TBotInfo
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TBotInfo.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotInfo.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInfo.DescriptionAsBinary*
+  implements:
+  - OpenTl.Schema.IBotInfo.DescriptionAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInfo.Description
+  commentId: P:OpenTl.Schema.TBotInfo.Description
+  id: Description
+  parent: OpenTl.Schema.TBotInfo
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TBotInfo.Description
+  fullName: OpenTl.Schema.TBotInfo.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TBotInfo.Description*
+  implements:
+  - OpenTl.Schema.IBotInfo.Description
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInfo.Commands
+  commentId: P:OpenTl.Schema.TBotInfo.Commands
+  id: Commands
+  parent: OpenTl.Schema.TBotInfo
+  langs:
+  - csharp
+  - vb
+  name: Commands
+  nameWithType: TBotInfo.Commands
+  fullName: OpenTl.Schema.TBotInfo.Commands
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Commands
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInfo/TBotInfo.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<IBotCommand> Commands { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IBotCommand}
+    content.vb: Public Property Commands As TVector(Of IBotCommand)
+  overload: OpenTl.Schema.TBotInfo.Commands*
+  implements:
+  - OpenTl.Schema.IBotInfo.Commands
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBotInfo
+  commentId: T:OpenTl.Schema.IBotInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInfo
+  nameWithType: IBotInfo
+  fullName: OpenTl.Schema.IBotInfo
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBotInfo.UserId*
+  commentId: Overload:OpenTl.Schema.TBotInfo.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TBotInfo.UserId
+  fullName: OpenTl.Schema.TBotInfo.UserId
+- uid: OpenTl.Schema.IBotInfo.UserId
+  commentId: P:OpenTl.Schema.IBotInfo.UserId
+  parent: OpenTl.Schema.IBotInfo
+  isExternal: false
+  name: UserId
+  nameWithType: IBotInfo.UserId
+  fullName: OpenTl.Schema.IBotInfo.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TBotInfo.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInfo.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TBotInfo.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotInfo.DescriptionAsBinary
+- uid: OpenTl.Schema.IBotInfo.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.IBotInfo.DescriptionAsBinary
+  parent: OpenTl.Schema.IBotInfo
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: IBotInfo.DescriptionAsBinary
+  fullName: OpenTl.Schema.IBotInfo.DescriptionAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TBotInfo.Description*
+  commentId: Overload:OpenTl.Schema.TBotInfo.Description
+  isExternal: false
+  name: Description
+  nameWithType: TBotInfo.Description
+  fullName: OpenTl.Schema.TBotInfo.Description
+- uid: OpenTl.Schema.IBotInfo.Description
+  commentId: P:OpenTl.Schema.IBotInfo.Description
+  parent: OpenTl.Schema.IBotInfo
+  isExternal: false
+  name: Description
+  nameWithType: IBotInfo.Description
+  fullName: OpenTl.Schema.IBotInfo.Description
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TBotInfo.Commands*
+  commentId: Overload:OpenTl.Schema.TBotInfo.Commands
+  isExternal: false
+  name: Commands
+  nameWithType: TBotInfo.Commands
+  fullName: OpenTl.Schema.TBotInfo.Commands
+- uid: OpenTl.Schema.IBotInfo.Commands
+  commentId: P:OpenTl.Schema.IBotInfo.Commands
+  parent: OpenTl.Schema.IBotInfo
+  isExternal: false
+  name: Commands
+  nameWithType: IBotInfo.Commands
+  fullName: OpenTl.Schema.IBotInfo.Commands
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IBotCommand}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IBotCommand}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IBotCommand>
+  nameWithType: TVector<IBotCommand>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IBotCommand>
+  nameWithType.vb: TVector(Of IBotCommand)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IBotCommand)
+  name.vb: TVector(Of IBotCommand)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IBotCommand
+    name: IBotCommand
+    nameWithType: IBotCommand
+    fullName: OpenTl.Schema.IBotCommand
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IBotCommand
+    name: IBotCommand
+    nameWithType: IBotCommand
+    fullName: OpenTl.Schema.IBotCommand
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

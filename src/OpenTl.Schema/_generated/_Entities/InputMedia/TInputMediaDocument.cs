@@ -18,6 +18,7 @@ namespace OpenTl.Schema
        [SerializationOrder(1)]
        public OpenTl.Schema.IInputDocument Id {get; set;}
 
+       /// <summary>Binary representation for the 'Caption' property</summary>
        [SerializationOrder(2)]
        public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
        private byte[] _CaptionAsBinary;

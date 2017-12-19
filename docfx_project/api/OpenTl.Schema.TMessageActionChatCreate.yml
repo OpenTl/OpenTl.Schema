@@ -1,0 +1,307 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMessageActionChatCreate
+  commentId: T:OpenTl.Schema.TMessageActionChatCreate
+  id: TMessageActionChatCreate
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMessageActionChatCreate.Title
+  - OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+  - OpenTl.Schema.TMessageActionChatCreate.Users
+  langs:
+  - csharp
+  - vb
+  name: TMessageActionChatCreate
+  nameWithType: TMessageActionChatCreate
+  fullName: OpenTl.Schema.TMessageActionChatCreate
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMessageActionChatCreate
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMessageActionChatCreate : object, IMessageAction, IObject'
+    content.vb: >-
+      Public Class TMessageActionChatCreate
+
+          Inherits Object
+
+          Implements IMessageAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMessageAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+  commentId: P:OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TMessageActionChatCreate
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TMessageActionChatCreate.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionChatCreate.Title
+  commentId: P:OpenTl.Schema.TMessageActionChatCreate.Title
+  id: Title
+  parent: OpenTl.Schema.TMessageActionChatCreate
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TMessageActionChatCreate.Title
+  fullName: OpenTl.Schema.TMessageActionChatCreate.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TMessageActionChatCreate.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMessageActionChatCreate.Users
+  commentId: P:OpenTl.Schema.TMessageActionChatCreate.Users
+  id: Users
+  parent: OpenTl.Schema.TMessageActionChatCreate
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TMessageActionChatCreate.Users
+  fullName: OpenTl.Schema.TMessageActionChatCreate.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageAction/TMessageActionChatCreate.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<int> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int32}
+    content.vb: Public Property Users As TVector(Of Integer)
+  overload: OpenTl.Schema.TMessageActionChatCreate.Users*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMessageAction
+  commentId: T:OpenTl.Schema.IMessageAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessageAction
+  nameWithType: IMessageAction
+  fullName: OpenTl.Schema.IMessageAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TMessageActionChatCreate.TitleAsBinary
+  fullName: OpenTl.Schema.TMessageActionChatCreate.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TMessageActionChatCreate.Title*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatCreate.Title
+  isExternal: false
+  name: Title
+  nameWithType: TMessageActionChatCreate.Title
+  fullName: OpenTl.Schema.TMessageActionChatCreate.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TMessageActionChatCreate.Users*
+  commentId: Overload:OpenTl.Schema.TMessageActionChatCreate.Users
+  isExternal: false
+  name: Users
+  nameWithType: TMessageActionChatCreate.Users
+  fullName: OpenTl.Schema.TMessageActionChatCreate.Users
+- uid: OpenTl.Schema.TVector{System.Int32}
+  commentId: T:OpenTl.Schema.TVector{System.Int32}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int32>
+  nameWithType: TVector<Int32>
+  fullName: OpenTl.Schema.TVector<System.Int32>
+  nameWithType.vb: TVector(Of Int32)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int32)
+  name.vb: TVector(Of Int32)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

@@ -1,0 +1,436 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TResPQ
+  commentId: T:OpenTl.Schema.TResPQ
+  id: TResPQ
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TResPQ.Nonce
+  - OpenTl.Schema.TResPQ.Pq
+  - OpenTl.Schema.TResPQ.PqAsBinary
+  - OpenTl.Schema.TResPQ.ServerNonce
+  - OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+  langs:
+  - csharp
+  - vb
+  name: TResPQ
+  nameWithType: TResPQ
+  fullName: OpenTl.Schema.TResPQ
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TResPQ
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TResPQ : object, IResPQ, IObject'
+    content.vb: >-
+      Public Class TResPQ
+
+          Inherits Object
+
+          Implements IResPQ, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IResPQ
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TResPQ.Nonce
+  commentId: P:OpenTl.Schema.TResPQ.Nonce
+  id: Nonce
+  parent: OpenTl.Schema.TResPQ
+  langs:
+  - csharp
+  - vb
+  name: Nonce
+  nameWithType: TResPQ.Nonce
+  fullName: OpenTl.Schema.TResPQ.Nonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Nonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Nonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Nonce As Byte()
+  overload: OpenTl.Schema.TResPQ.Nonce*
+  implements:
+  - OpenTl.Schema.IResPQ.Nonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TResPQ.ServerNonce
+  commentId: P:OpenTl.Schema.TResPQ.ServerNonce
+  id: ServerNonce
+  parent: OpenTl.Schema.TResPQ
+  langs:
+  - csharp
+  - vb
+  name: ServerNonce
+  nameWithType: TResPQ.ServerNonce
+  fullName: OpenTl.Schema.TResPQ.ServerNonce
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerNonce
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] ServerNonce { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ServerNonce As Byte()
+  overload: OpenTl.Schema.TResPQ.ServerNonce*
+  implements:
+  - OpenTl.Schema.IResPQ.ServerNonce
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TResPQ.PqAsBinary
+  commentId: P:OpenTl.Schema.TResPQ.PqAsBinary
+  id: PqAsBinary
+  parent: OpenTl.Schema.TResPQ
+  langs:
+  - csharp
+  - vb
+  name: PqAsBinary
+  nameWithType: TResPQ.PqAsBinary
+  fullName: OpenTl.Schema.TResPQ.PqAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PqAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Pq&apos; property
+  example: []
+  syntax:
+    content: public byte[] PqAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PqAsBinary As Byte()
+  overload: OpenTl.Schema.TResPQ.PqAsBinary*
+  implements:
+  - OpenTl.Schema.IResPQ.PqAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TResPQ.Pq
+  commentId: P:OpenTl.Schema.TResPQ.Pq
+  id: Pq
+  parent: OpenTl.Schema.TResPQ
+  langs:
+  - csharp
+  - vb
+  name: Pq
+  nameWithType: TResPQ.Pq
+  fullName: OpenTl.Schema.TResPQ.Pq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pq
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Pq { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Pq As String
+  overload: OpenTl.Schema.TResPQ.Pq*
+  implements:
+  - OpenTl.Schema.IResPQ.Pq
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+  commentId: P:OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+  id: ServerPublicKeyFingerprints
+  parent: OpenTl.Schema.TResPQ
+  langs:
+  - csharp
+  - vb
+  name: ServerPublicKeyFingerprints
+  nameWithType: TResPQ.ServerPublicKeyFingerprints
+  fullName: OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ServerPublicKeyFingerprints
+    path: ../src/OpenTl.Schema/_generated/_Entities/ResPQ/TResPQ.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<long> ServerPublicKeyFingerprints { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int64}
+    content.vb: Public Property ServerPublicKeyFingerprints As TVector(Of Long)
+  overload: OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints*
+  implements:
+  - OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IResPQ
+  commentId: T:OpenTl.Schema.IResPQ
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IResPQ
+  nameWithType: IResPQ
+  fullName: OpenTl.Schema.IResPQ
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TResPQ.Nonce*
+  commentId: Overload:OpenTl.Schema.TResPQ.Nonce
+  isExternal: false
+  name: Nonce
+  nameWithType: TResPQ.Nonce
+  fullName: OpenTl.Schema.TResPQ.Nonce
+- uid: OpenTl.Schema.IResPQ.Nonce
+  commentId: P:OpenTl.Schema.IResPQ.Nonce
+  parent: OpenTl.Schema.IResPQ
+  isExternal: false
+  name: Nonce
+  nameWithType: IResPQ.Nonce
+  fullName: OpenTl.Schema.IResPQ.Nonce
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TResPQ.ServerNonce*
+  commentId: Overload:OpenTl.Schema.TResPQ.ServerNonce
+  isExternal: false
+  name: ServerNonce
+  nameWithType: TResPQ.ServerNonce
+  fullName: OpenTl.Schema.TResPQ.ServerNonce
+- uid: OpenTl.Schema.IResPQ.ServerNonce
+  commentId: P:OpenTl.Schema.IResPQ.ServerNonce
+  parent: OpenTl.Schema.IResPQ
+  isExternal: false
+  name: ServerNonce
+  nameWithType: IResPQ.ServerNonce
+  fullName: OpenTl.Schema.IResPQ.ServerNonce
+- uid: OpenTl.Schema.TResPQ.PqAsBinary*
+  commentId: Overload:OpenTl.Schema.TResPQ.PqAsBinary
+  isExternal: false
+  name: PqAsBinary
+  nameWithType: TResPQ.PqAsBinary
+  fullName: OpenTl.Schema.TResPQ.PqAsBinary
+- uid: OpenTl.Schema.IResPQ.PqAsBinary
+  commentId: P:OpenTl.Schema.IResPQ.PqAsBinary
+  parent: OpenTl.Schema.IResPQ
+  isExternal: false
+  name: PqAsBinary
+  nameWithType: IResPQ.PqAsBinary
+  fullName: OpenTl.Schema.IResPQ.PqAsBinary
+- uid: OpenTl.Schema.TResPQ.Pq*
+  commentId: Overload:OpenTl.Schema.TResPQ.Pq
+  isExternal: false
+  name: Pq
+  nameWithType: TResPQ.Pq
+  fullName: OpenTl.Schema.TResPQ.Pq
+- uid: OpenTl.Schema.IResPQ.Pq
+  commentId: P:OpenTl.Schema.IResPQ.Pq
+  parent: OpenTl.Schema.IResPQ
+  isExternal: false
+  name: Pq
+  nameWithType: IResPQ.Pq
+  fullName: OpenTl.Schema.IResPQ.Pq
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints*
+  commentId: Overload:OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+  isExternal: false
+  name: ServerPublicKeyFingerprints
+  nameWithType: TResPQ.ServerPublicKeyFingerprints
+  fullName: OpenTl.Schema.TResPQ.ServerPublicKeyFingerprints
+- uid: OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints
+  commentId: P:OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints
+  parent: OpenTl.Schema.IResPQ
+  isExternal: false
+  name: ServerPublicKeyFingerprints
+  nameWithType: IResPQ.ServerPublicKeyFingerprints
+  fullName: OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints
+- uid: OpenTl.Schema.TVector{System.Int64}
+  commentId: T:OpenTl.Schema.TVector{System.Int64}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int64>
+  nameWithType: TVector<Int64>
+  fullName: OpenTl.Schema.TVector<System.Int64>
+  nameWithType.vb: TVector(Of Int64)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int64)
+  name.vb: TVector(Of Int64)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int64
+    name: Int64
+    nameWithType: Int64
+    fullName: System.Int64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

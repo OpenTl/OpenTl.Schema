@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TLabeledPrice
+  commentId: T:OpenTl.Schema.TLabeledPrice
+  id: TLabeledPrice
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TLabeledPrice.Amount
+  - OpenTl.Schema.TLabeledPrice.Label
+  - OpenTl.Schema.TLabeledPrice.LabelAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TLabeledPrice
+  nameWithType: TLabeledPrice
+  fullName: OpenTl.Schema.TLabeledPrice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TLabeledPrice
+    path: ../src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TLabeledPrice : object, ILabeledPrice, IObject'
+    content.vb: >-
+      Public Class TLabeledPrice
+
+          Inherits Object
+
+          Implements ILabeledPrice, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.ILabeledPrice
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TLabeledPrice.LabelAsBinary
+  commentId: P:OpenTl.Schema.TLabeledPrice.LabelAsBinary
+  id: LabelAsBinary
+  parent: OpenTl.Schema.TLabeledPrice
+  langs:
+  - csharp
+  - vb
+  name: LabelAsBinary
+  nameWithType: TLabeledPrice.LabelAsBinary
+  fullName: OpenTl.Schema.TLabeledPrice.LabelAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: LabelAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Label&apos; property
+  example: []
+  syntax:
+    content: public byte[] LabelAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property LabelAsBinary As Byte()
+  overload: OpenTl.Schema.TLabeledPrice.LabelAsBinary*
+  implements:
+  - OpenTl.Schema.ILabeledPrice.LabelAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLabeledPrice.Label
+  commentId: P:OpenTl.Schema.TLabeledPrice.Label
+  id: Label
+  parent: OpenTl.Schema.TLabeledPrice
+  langs:
+  - csharp
+  - vb
+  name: Label
+  nameWithType: TLabeledPrice.Label
+  fullName: OpenTl.Schema.TLabeledPrice.Label
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Label
+    path: ../src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Label { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Label As String
+  overload: OpenTl.Schema.TLabeledPrice.Label*
+  implements:
+  - OpenTl.Schema.ILabeledPrice.Label
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TLabeledPrice.Amount
+  commentId: P:OpenTl.Schema.TLabeledPrice.Amount
+  id: Amount
+  parent: OpenTl.Schema.TLabeledPrice
+  langs:
+  - csharp
+  - vb
+  name: Amount
+  nameWithType: TLabeledPrice.Amount
+  fullName: OpenTl.Schema.TLabeledPrice.Amount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Amount
+    path: ../src/OpenTl.Schema/_generated/_Entities/LabeledPrice/TLabeledPrice.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Amount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Amount As Long
+  overload: OpenTl.Schema.TLabeledPrice.Amount*
+  implements:
+  - OpenTl.Schema.ILabeledPrice.Amount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.ILabeledPrice
+  commentId: T:OpenTl.Schema.ILabeledPrice
+  parent: OpenTl.Schema
+  isExternal: false
+  name: ILabeledPrice
+  nameWithType: ILabeledPrice
+  fullName: OpenTl.Schema.ILabeledPrice
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TLabeledPrice.LabelAsBinary*
+  commentId: Overload:OpenTl.Schema.TLabeledPrice.LabelAsBinary
+  isExternal: false
+  name: LabelAsBinary
+  nameWithType: TLabeledPrice.LabelAsBinary
+  fullName: OpenTl.Schema.TLabeledPrice.LabelAsBinary
+- uid: OpenTl.Schema.ILabeledPrice.LabelAsBinary
+  commentId: P:OpenTl.Schema.ILabeledPrice.LabelAsBinary
+  parent: OpenTl.Schema.ILabeledPrice
+  isExternal: false
+  name: LabelAsBinary
+  nameWithType: ILabeledPrice.LabelAsBinary
+  fullName: OpenTl.Schema.ILabeledPrice.LabelAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TLabeledPrice.Label*
+  commentId: Overload:OpenTl.Schema.TLabeledPrice.Label
+  isExternal: false
+  name: Label
+  nameWithType: TLabeledPrice.Label
+  fullName: OpenTl.Schema.TLabeledPrice.Label
+- uid: OpenTl.Schema.ILabeledPrice.Label
+  commentId: P:OpenTl.Schema.ILabeledPrice.Label
+  parent: OpenTl.Schema.ILabeledPrice
+  isExternal: false
+  name: Label
+  nameWithType: ILabeledPrice.Label
+  fullName: OpenTl.Schema.ILabeledPrice.Label
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TLabeledPrice.Amount*
+  commentId: Overload:OpenTl.Schema.TLabeledPrice.Amount
+  isExternal: false
+  name: Amount
+  nameWithType: TLabeledPrice.Amount
+  fullName: OpenTl.Schema.TLabeledPrice.Amount
+- uid: OpenTl.Schema.ILabeledPrice.Amount
+  commentId: P:OpenTl.Schema.ILabeledPrice.Amount
+  parent: OpenTl.Schema.ILabeledPrice
+  isExternal: false
+  name: Amount
+  nameWithType: ILabeledPrice.Amount
+  fullName: OpenTl.Schema.ILabeledPrice.Amount
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x8e1a1775)]
 	public class TNearestDc : INearestDc
 	{
+       /// <summary>Binary representation for the 'Country' property</summary>
        [SerializationOrder(0)]
        public byte[] CountryAsBinary { get => _CountryAsBinary; set { _Country = Encoding.UTF8.GetString(value); _CountryAsBinary = value; }}
        private byte[] _CountryAsBinary;

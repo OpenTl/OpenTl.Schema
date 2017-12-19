@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputGameShortName
+  commentId: T:OpenTl.Schema.TInputGameShortName
+  id: TInputGameShortName
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputGameShortName.BotId
+  - OpenTl.Schema.TInputGameShortName.ShortName
+  - OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputGameShortName
+  nameWithType: TInputGameShortName
+  fullName: OpenTl.Schema.TInputGameShortName
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputGameShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputGameShortName : object, IInputGame, IObject'
+    content.vb: >-
+      Public Class TInputGameShortName
+
+          Inherits Object
+
+          Implements IInputGame, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputGame
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputGameShortName.BotId
+  commentId: P:OpenTl.Schema.TInputGameShortName.BotId
+  id: BotId
+  parent: OpenTl.Schema.TInputGameShortName
+  langs:
+  - csharp
+  - vb
+  name: BotId
+  nameWithType: TInputGameShortName.BotId
+  fullName: OpenTl.Schema.TInputGameShortName.BotId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BotId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputUser BotId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputUser
+    content.vb: Public Property BotId As IInputUser
+  overload: OpenTl.Schema.TInputGameShortName.BotId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+  commentId: P:OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+  id: ShortNameAsBinary
+  parent: OpenTl.Schema.TInputGameShortName
+  langs:
+  - csharp
+  - vb
+  name: ShortNameAsBinary
+  nameWithType: TInputGameShortName.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ShortName&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShortNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShortNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputGameShortName.ShortNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputGameShortName.ShortName
+  commentId: P:OpenTl.Schema.TInputGameShortName.ShortName
+  id: ShortName
+  parent: OpenTl.Schema.TInputGameShortName
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: TInputGameShortName.ShortName
+  fullName: OpenTl.Schema.TInputGameShortName.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputGame/TInputGameShortName.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortName As String
+  overload: OpenTl.Schema.TInputGameShortName.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputGame
+  commentId: T:OpenTl.Schema.IInputGame
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputGame
+  nameWithType: IInputGame
+  fullName: OpenTl.Schema.IInputGame
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputGameShortName.BotId*
+  commentId: Overload:OpenTl.Schema.TInputGameShortName.BotId
+  isExternal: false
+  name: BotId
+  nameWithType: TInputGameShortName.BotId
+  fullName: OpenTl.Schema.TInputGameShortName.BotId
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser
+- uid: OpenTl.Schema.TInputGameShortName.ShortNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+  isExternal: false
+  name: ShortNameAsBinary
+  nameWithType: TInputGameShortName.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputGameShortName.ShortNameAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputGameShortName.ShortName*
+  commentId: Overload:OpenTl.Schema.TInputGameShortName.ShortName
+  isExternal: false
+  name: ShortName
+  nameWithType: TInputGameShortName.ShortName
+  fullName: OpenTl.Schema.TInputGameShortName.ShortName
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

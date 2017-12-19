@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPeerSettings
+  commentId: T:OpenTl.Schema.TPeerSettings
+  id: TPeerSettings
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPeerSettings.Flags
+  - OpenTl.Schema.TPeerSettings.ReportSpam
+  langs:
+  - csharp
+  - vb
+  name: TPeerSettings
+  nameWithType: TPeerSettings
+  fullName: OpenTl.Schema.TPeerSettings
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPeerSettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPeerSettings : object, IPeerSettings, IObject'
+    content.vb: >-
+      Public Class TPeerSettings
+
+          Inherits Object
+
+          Implements IPeerSettings, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPeerSettings
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPeerSettings.Flags
+  commentId: P:OpenTl.Schema.TPeerSettings.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPeerSettings
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPeerSettings.Flags
+  fullName: OpenTl.Schema.TPeerSettings.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPeerSettings.Flags*
+  implements:
+  - OpenTl.Schema.IPeerSettings.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerSettings.ReportSpam
+  commentId: P:OpenTl.Schema.TPeerSettings.ReportSpam
+  id: ReportSpam
+  parent: OpenTl.Schema.TPeerSettings
+  langs:
+  - csharp
+  - vb
+  name: ReportSpam
+  nameWithType: TPeerSettings.ReportSpam
+  fullName: OpenTl.Schema.TPeerSettings.ReportSpam
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReportSpam
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerSettings/TPeerSettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ReportSpam { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ReportSpam As Boolean
+  overload: OpenTl.Schema.TPeerSettings.ReportSpam*
+  implements:
+  - OpenTl.Schema.IPeerSettings.ReportSpam
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPeerSettings
+  commentId: T:OpenTl.Schema.IPeerSettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerSettings
+  nameWithType: IPeerSettings
+  fullName: OpenTl.Schema.IPeerSettings
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPeerSettings.Flags*
+  commentId: Overload:OpenTl.Schema.TPeerSettings.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPeerSettings.Flags
+  fullName: OpenTl.Schema.TPeerSettings.Flags
+- uid: OpenTl.Schema.IPeerSettings.Flags
+  commentId: P:OpenTl.Schema.IPeerSettings.Flags
+  parent: OpenTl.Schema.IPeerSettings
+  isExternal: false
+  name: Flags
+  nameWithType: IPeerSettings.Flags
+  fullName: OpenTl.Schema.IPeerSettings.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPeerSettings.ReportSpam*
+  commentId: Overload:OpenTl.Schema.TPeerSettings.ReportSpam
+  isExternal: false
+  name: ReportSpam
+  nameWithType: TPeerSettings.ReportSpam
+  fullName: OpenTl.Schema.TPeerSettings.ReportSpam
+- uid: OpenTl.Schema.IPeerSettings.ReportSpam
+  commentId: P:OpenTl.Schema.IPeerSettings.ReportSpam
+  parent: OpenTl.Schema.IPeerSettings
+  isExternal: false
+  name: ReportSpam
+  nameWithType: IPeerSettings.ReportSpam
+  fullName: OpenTl.Schema.IPeerSettings.ReportSpam
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

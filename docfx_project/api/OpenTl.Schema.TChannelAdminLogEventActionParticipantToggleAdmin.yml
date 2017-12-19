@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin
+  id: TChannelAdminLogEventActionParticipantToggleAdmin
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  - OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionParticipantToggleAdmin
+  nameWithType: TChannelAdminLogEventActionParticipantToggleAdmin
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionParticipantToggleAdmin
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionParticipantToggleAdmin : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionParticipantToggleAdmin
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  id: PrevParticipant
+  parent: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin
+  langs:
+  - csharp
+  - vb
+  name: PrevParticipant
+  nameWithType: TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PrevParticipant
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChannelParticipant PrevParticipant { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelParticipant
+    content.vb: Public Property PrevParticipant As IChannelParticipant
+  overload: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  id: NewParticipant
+  parent: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin
+  langs:
+  - csharp
+  - vb
+  name: NewParticipant
+  nameWithType: TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewParticipant
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionParticipantToggleAdmin.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChannelParticipant NewParticipant { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelParticipant
+    content.vb: Public Property NewParticipant As IChannelParticipant
+  overload: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  isExternal: false
+  name: PrevParticipant
+  nameWithType: TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.PrevParticipant
+- uid: OpenTl.Schema.IChannelParticipant
+  commentId: T:OpenTl.Schema.IChannelParticipant
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipant
+  nameWithType: IChannelParticipant
+  fullName: OpenTl.Schema.IChannelParticipant
+- uid: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  isExternal: false
+  name: NewParticipant
+  nameWithType: TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionParticipantToggleAdmin.NewParticipant

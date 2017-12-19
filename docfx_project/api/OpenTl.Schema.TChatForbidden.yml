@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChatForbidden
+  commentId: T:OpenTl.Schema.TChatForbidden
+  id: TChatForbidden
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChatForbidden.Id
+  - OpenTl.Schema.TChatForbidden.Title
+  - OpenTl.Schema.TChatForbidden.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TChatForbidden
+  nameWithType: TChatForbidden
+  fullName: OpenTl.Schema.TChatForbidden
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChatForbidden
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChatForbidden : object, IChat, IObject'
+    content.vb: >-
+      Public Class TChatForbidden
+
+          Inherits Object
+
+          Implements IChat, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChat
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChatForbidden.Id
+  commentId: P:OpenTl.Schema.TChatForbidden.Id
+  id: Id
+  parent: OpenTl.Schema.TChatForbidden
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TChatForbidden.Id
+  fullName: OpenTl.Schema.TChatForbidden.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TChatForbidden.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatForbidden.TitleAsBinary
+  commentId: P:OpenTl.Schema.TChatForbidden.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TChatForbidden
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TChatForbidden.TitleAsBinary
+  fullName: OpenTl.Schema.TChatForbidden.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TChatForbidden.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChatForbidden.Title
+  commentId: P:OpenTl.Schema.TChatForbidden.Title
+  id: Title
+  parent: OpenTl.Schema.TChatForbidden
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TChatForbidden.Title
+  fullName: OpenTl.Schema.TChatForbidden.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/Chat/TChatForbidden.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TChatForbidden.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChat
+  commentId: T:OpenTl.Schema.IChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChat
+  nameWithType: IChat
+  fullName: OpenTl.Schema.IChat
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChatForbidden.Id*
+  commentId: Overload:OpenTl.Schema.TChatForbidden.Id
+  isExternal: false
+  name: Id
+  nameWithType: TChatForbidden.Id
+  fullName: OpenTl.Schema.TChatForbidden.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TChatForbidden.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TChatForbidden.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TChatForbidden.TitleAsBinary
+  fullName: OpenTl.Schema.TChatForbidden.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TChatForbidden.Title*
+  commentId: Overload:OpenTl.Schema.TChatForbidden.Title
+  isExternal: false
+  name: Title
+  nameWithType: TChatForbidden.Title
+  fullName: OpenTl.Schema.TChatForbidden.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

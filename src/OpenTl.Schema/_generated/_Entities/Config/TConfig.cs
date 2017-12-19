@@ -107,12 +107,14 @@ namespace OpenTl.Schema
        [SerializationOrder(30)]
        public int CallPacketTimeoutMs {get; set;}
 
+       /// <summary>Binary representation for the 'MeUrlPrefix' property</summary>
        [SerializationOrder(31)]
        public byte[] MeUrlPrefixAsBinary { get => _MeUrlPrefixAsBinary; set { _MeUrlPrefix = Encoding.UTF8.GetString(value); _MeUrlPrefixAsBinary = value; }}
        private byte[] _MeUrlPrefixAsBinary;
        private string _MeUrlPrefix;
        public string MeUrlPrefix { get => _MeUrlPrefix; set { MeUrlPrefixAsBinary = Encoding.UTF8.GetBytes(value); _MeUrlPrefix = value; }}
 
+       /// <summary>Binary representation for the 'SuggestedLangCode' property</summary>
        [SerializationOrder(32)]
        [CanSerialize("Flags", 2)]
        public byte[] SuggestedLangCodeAsBinary { get => _SuggestedLangCodeAsBinary; set { _SuggestedLangCode = Encoding.UTF8.GetString(value); _SuggestedLangCodeAsBinary = value; }}

@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TMsgNewDetailedInfo
+  commentId: T:OpenTl.Schema.TMsgNewDetailedInfo
+  id: TMsgNewDetailedInfo
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+  - OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+  - OpenTl.Schema.TMsgNewDetailedInfo.Status
+  langs:
+  - csharp
+  - vb
+  name: TMsgNewDetailedInfo
+  nameWithType: TMsgNewDetailedInfo
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TMsgNewDetailedInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TMsgNewDetailedInfo : object, IMsgDetailedInfo, IObject'
+    content.vb: >-
+      Public Class TMsgNewDetailedInfo
+
+          Inherits Object
+
+          Implements IMsgDetailedInfo, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+  commentId: P:OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+  id: AnswerMsgId
+  parent: OpenTl.Schema.TMsgNewDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: AnswerMsgId
+  nameWithType: TMsgNewDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AnswerMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AnswerMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AnswerMsgId As Long
+  overload: OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+  commentId: P:OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+  id: Bytes
+  parent: OpenTl.Schema.TMsgNewDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: Bytes
+  nameWithType: TMsgNewDetailedInfo.Bytes
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Bytes
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Bytes { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Bytes As Integer
+  overload: OpenTl.Schema.TMsgNewDetailedInfo.Bytes*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.Bytes
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.Status
+  commentId: P:OpenTl.Schema.TMsgNewDetailedInfo.Status
+  id: Status
+  parent: OpenTl.Schema.TMsgNewDetailedInfo
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: TMsgNewDetailedInfo.Status
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.Status
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Status
+    path: ../src/OpenTl.Schema/_generated/_Entities/MsgDetailedInfo/TMsgNewDetailedInfo.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Status { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Status As Integer
+  overload: OpenTl.Schema.TMsgNewDetailedInfo.Status*
+  implements:
+  - OpenTl.Schema.IMsgDetailedInfo.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IMsgDetailedInfo
+  commentId: T:OpenTl.Schema.IMsgDetailedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMsgDetailedInfo
+  nameWithType: IMsgDetailedInfo
+  fullName: OpenTl.Schema.IMsgDetailedInfo
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId*
+  commentId: Overload:OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+  isExternal: false
+  name: AnswerMsgId
+  nameWithType: TMsgNewDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.AnswerMsgId
+- uid: OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: AnswerMsgId
+  nameWithType: IMsgDetailedInfo.AnswerMsgId
+  fullName: OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.Bytes*
+  commentId: Overload:OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+  isExternal: false
+  name: Bytes
+  nameWithType: TMsgNewDetailedInfo.Bytes
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.Bytes
+- uid: OpenTl.Schema.IMsgDetailedInfo.Bytes
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.Bytes
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: Bytes
+  nameWithType: IMsgDetailedInfo.Bytes
+  fullName: OpenTl.Schema.IMsgDetailedInfo.Bytes
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TMsgNewDetailedInfo.Status*
+  commentId: Overload:OpenTl.Schema.TMsgNewDetailedInfo.Status
+  isExternal: false
+  name: Status
+  nameWithType: TMsgNewDetailedInfo.Status
+  fullName: OpenTl.Schema.TMsgNewDetailedInfo.Status
+- uid: OpenTl.Schema.IMsgDetailedInfo.Status
+  commentId: P:OpenTl.Schema.IMsgDetailedInfo.Status
+  parent: OpenTl.Schema.IMsgDetailedInfo
+  isExternal: false
+  name: Status
+  nameWithType: IMsgDetailedInfo.Status
+  fullName: OpenTl.Schema.IMsgDetailedInfo.Status

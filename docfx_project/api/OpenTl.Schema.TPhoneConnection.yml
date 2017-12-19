@@ -1,0 +1,471 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPhoneConnection
+  commentId: T:OpenTl.Schema.TPhoneConnection
+  id: TPhoneConnection
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPhoneConnection.Id
+  - OpenTl.Schema.TPhoneConnection.Ip
+  - OpenTl.Schema.TPhoneConnection.IpAsBinary
+  - OpenTl.Schema.TPhoneConnection.Ipv6
+  - OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+  - OpenTl.Schema.TPhoneConnection.PeerTag
+  - OpenTl.Schema.TPhoneConnection.Port
+  langs:
+  - csharp
+  - vb
+  name: TPhoneConnection
+  nameWithType: TPhoneConnection
+  fullName: OpenTl.Schema.TPhoneConnection
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPhoneConnection
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPhoneConnection : object, IPhoneConnection, IObject'
+    content.vb: >-
+      Public Class TPhoneConnection
+
+          Inherits Object
+
+          Implements IPhoneConnection, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPhoneConnection
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPhoneConnection.Id
+  commentId: P:OpenTl.Schema.TPhoneConnection.Id
+  id: Id
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TPhoneConnection.Id
+  fullName: OpenTl.Schema.TPhoneConnection.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property Id As Long
+  overload: OpenTl.Schema.TPhoneConnection.Id*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.IpAsBinary
+  commentId: P:OpenTl.Schema.TPhoneConnection.IpAsBinary
+  id: IpAsBinary
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: IpAsBinary
+  nameWithType: TPhoneConnection.IpAsBinary
+  fullName: OpenTl.Schema.TPhoneConnection.IpAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IpAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Ip&apos; property
+  example: []
+  syntax:
+    content: public byte[] IpAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IpAsBinary As Byte()
+  overload: OpenTl.Schema.TPhoneConnection.IpAsBinary*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.IpAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.Ip
+  commentId: P:OpenTl.Schema.TPhoneConnection.Ip
+  id: Ip
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: Ip
+  nameWithType: TPhoneConnection.Ip
+  fullName: OpenTl.Schema.TPhoneConnection.Ip
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ip
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Ip { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ip As String
+  overload: OpenTl.Schema.TPhoneConnection.Ip*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.Ip
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+  commentId: P:OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+  id: Ipv6AsBinary
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: Ipv6AsBinary
+  nameWithType: TPhoneConnection.Ipv6AsBinary
+  fullName: OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ipv6AsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Ipv6&apos; property
+  example: []
+  syntax:
+    content: public byte[] Ipv6AsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Ipv6AsBinary As Byte()
+  overload: OpenTl.Schema.TPhoneConnection.Ipv6AsBinary*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.Ipv6AsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.Ipv6
+  commentId: P:OpenTl.Schema.TPhoneConnection.Ipv6
+  id: Ipv6
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: Ipv6
+  nameWithType: TPhoneConnection.Ipv6
+  fullName: OpenTl.Schema.TPhoneConnection.Ipv6
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ipv6
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Ipv6 { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ipv6 As String
+  overload: OpenTl.Schema.TPhoneConnection.Ipv6*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.Ipv6
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.Port
+  commentId: P:OpenTl.Schema.TPhoneConnection.Port
+  id: Port
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: TPhoneConnection.Port
+  fullName: OpenTl.Schema.TPhoneConnection.Port
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Port
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Port { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Port As Integer
+  overload: OpenTl.Schema.TPhoneConnection.Port*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.Port
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPhoneConnection.PeerTag
+  commentId: P:OpenTl.Schema.TPhoneConnection.PeerTag
+  id: PeerTag
+  parent: OpenTl.Schema.TPhoneConnection
+  langs:
+  - csharp
+  - vb
+  name: PeerTag
+  nameWithType: TPhoneConnection.PeerTag
+  fullName: OpenTl.Schema.TPhoneConnection.PeerTag
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PeerTag
+    path: ../src/OpenTl.Schema/_generated/_Entities/PhoneConnection/TPhoneConnection.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] PeerTag { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property PeerTag As Byte()
+  overload: OpenTl.Schema.TPhoneConnection.PeerTag*
+  implements:
+  - OpenTl.Schema.IPhoneConnection.PeerTag
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPhoneConnection
+  commentId: T:OpenTl.Schema.IPhoneConnection
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoneConnection
+  nameWithType: IPhoneConnection
+  fullName: OpenTl.Schema.IPhoneConnection
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPhoneConnection.Id*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.Id
+  isExternal: false
+  name: Id
+  nameWithType: TPhoneConnection.Id
+  fullName: OpenTl.Schema.TPhoneConnection.Id
+- uid: OpenTl.Schema.IPhoneConnection.Id
+  commentId: P:OpenTl.Schema.IPhoneConnection.Id
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: Id
+  nameWithType: IPhoneConnection.Id
+  fullName: OpenTl.Schema.IPhoneConnection.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TPhoneConnection.IpAsBinary*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.IpAsBinary
+  isExternal: false
+  name: IpAsBinary
+  nameWithType: TPhoneConnection.IpAsBinary
+  fullName: OpenTl.Schema.TPhoneConnection.IpAsBinary
+- uid: OpenTl.Schema.IPhoneConnection.IpAsBinary
+  commentId: P:OpenTl.Schema.IPhoneConnection.IpAsBinary
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: IpAsBinary
+  nameWithType: IPhoneConnection.IpAsBinary
+  fullName: OpenTl.Schema.IPhoneConnection.IpAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPhoneConnection.Ip*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.Ip
+  isExternal: false
+  name: Ip
+  nameWithType: TPhoneConnection.Ip
+  fullName: OpenTl.Schema.TPhoneConnection.Ip
+- uid: OpenTl.Schema.IPhoneConnection.Ip
+  commentId: P:OpenTl.Schema.IPhoneConnection.Ip
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: Ip
+  nameWithType: IPhoneConnection.Ip
+  fullName: OpenTl.Schema.IPhoneConnection.Ip
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TPhoneConnection.Ipv6AsBinary*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+  isExternal: false
+  name: Ipv6AsBinary
+  nameWithType: TPhoneConnection.Ipv6AsBinary
+  fullName: OpenTl.Schema.TPhoneConnection.Ipv6AsBinary
+- uid: OpenTl.Schema.IPhoneConnection.Ipv6AsBinary
+  commentId: P:OpenTl.Schema.IPhoneConnection.Ipv6AsBinary
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: Ipv6AsBinary
+  nameWithType: IPhoneConnection.Ipv6AsBinary
+  fullName: OpenTl.Schema.IPhoneConnection.Ipv6AsBinary
+- uid: OpenTl.Schema.TPhoneConnection.Ipv6*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.Ipv6
+  isExternal: false
+  name: Ipv6
+  nameWithType: TPhoneConnection.Ipv6
+  fullName: OpenTl.Schema.TPhoneConnection.Ipv6
+- uid: OpenTl.Schema.IPhoneConnection.Ipv6
+  commentId: P:OpenTl.Schema.IPhoneConnection.Ipv6
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: Ipv6
+  nameWithType: IPhoneConnection.Ipv6
+  fullName: OpenTl.Schema.IPhoneConnection.Ipv6
+- uid: OpenTl.Schema.TPhoneConnection.Port*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.Port
+  isExternal: false
+  name: Port
+  nameWithType: TPhoneConnection.Port
+  fullName: OpenTl.Schema.TPhoneConnection.Port
+- uid: OpenTl.Schema.IPhoneConnection.Port
+  commentId: P:OpenTl.Schema.IPhoneConnection.Port
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: Port
+  nameWithType: IPhoneConnection.Port
+  fullName: OpenTl.Schema.IPhoneConnection.Port
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPhoneConnection.PeerTag*
+  commentId: Overload:OpenTl.Schema.TPhoneConnection.PeerTag
+  isExternal: false
+  name: PeerTag
+  nameWithType: TPhoneConnection.PeerTag
+  fullName: OpenTl.Schema.TPhoneConnection.PeerTag
+- uid: OpenTl.Schema.IPhoneConnection.PeerTag
+  commentId: P:OpenTl.Schema.IPhoneConnection.PeerTag
+  parent: OpenTl.Schema.IPhoneConnection
+  isExternal: false
+  name: PeerTag
+  nameWithType: IPhoneConnection.PeerTag
+  fullName: OpenTl.Schema.IPhoneConnection.PeerTag

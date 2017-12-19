@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0x2979eeb2)]
 	public class TLangPackStringDeleted : ILangPackString
 	{
+       /// <summary>Binary representation for the 'Key' property</summary>
        [SerializationOrder(0)]
        public byte[] KeyAsBinary { get => _KeyAsBinary; set { _Key = Encoding.UTF8.GetString(value); _KeyAsBinary = value; }}
        private byte[] _KeyAsBinary;

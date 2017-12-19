@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xfae69f56)]
 	public class TMessageActionCustomAction : IMessageAction
 	{
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(0)]
        public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
        private byte[] _MessageAsBinary;

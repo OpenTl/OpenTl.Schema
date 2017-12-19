@@ -1,0 +1,311 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TNearestDc
+  commentId: T:OpenTl.Schema.TNearestDc
+  id: TNearestDc
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TNearestDc.Country
+  - OpenTl.Schema.TNearestDc.CountryAsBinary
+  - OpenTl.Schema.TNearestDc.NearestDc
+  - OpenTl.Schema.TNearestDc.ThisDc
+  langs:
+  - csharp
+  - vb
+  name: TNearestDc
+  nameWithType: TNearestDc
+  fullName: OpenTl.Schema.TNearestDc
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TNearestDc
+    path: ../src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TNearestDc : object, INearestDc, IObject'
+    content.vb: >-
+      Public Class TNearestDc
+
+          Inherits Object
+
+          Implements INearestDc, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.INearestDc
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TNearestDc.CountryAsBinary
+  commentId: P:OpenTl.Schema.TNearestDc.CountryAsBinary
+  id: CountryAsBinary
+  parent: OpenTl.Schema.TNearestDc
+  langs:
+  - csharp
+  - vb
+  name: CountryAsBinary
+  nameWithType: TNearestDc.CountryAsBinary
+  fullName: OpenTl.Schema.TNearestDc.CountryAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CountryAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Country&apos; property
+  example: []
+  syntax:
+    content: public byte[] CountryAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CountryAsBinary As Byte()
+  overload: OpenTl.Schema.TNearestDc.CountryAsBinary*
+  implements:
+  - OpenTl.Schema.INearestDc.CountryAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TNearestDc.Country
+  commentId: P:OpenTl.Schema.TNearestDc.Country
+  id: Country
+  parent: OpenTl.Schema.TNearestDc
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: TNearestDc.Country
+  fullName: OpenTl.Schema.TNearestDc.Country
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Country
+    path: ../src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Country { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Country As String
+  overload: OpenTl.Schema.TNearestDc.Country*
+  implements:
+  - OpenTl.Schema.INearestDc.Country
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TNearestDc.ThisDc
+  commentId: P:OpenTl.Schema.TNearestDc.ThisDc
+  id: ThisDc
+  parent: OpenTl.Schema.TNearestDc
+  langs:
+  - csharp
+  - vb
+  name: ThisDc
+  nameWithType: TNearestDc.ThisDc
+  fullName: OpenTl.Schema.TNearestDc.ThisDc
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ThisDc
+    path: ../src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ThisDc { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ThisDc As Integer
+  overload: OpenTl.Schema.TNearestDc.ThisDc*
+  implements:
+  - OpenTl.Schema.INearestDc.ThisDc
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TNearestDc.NearestDc
+  commentId: P:OpenTl.Schema.TNearestDc.NearestDc
+  id: NearestDc
+  parent: OpenTl.Schema.TNearestDc
+  langs:
+  - csharp
+  - vb
+  name: NearestDc
+  nameWithType: TNearestDc.NearestDc
+  fullName: OpenTl.Schema.TNearestDc.NearestDc
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NearestDc
+    path: ../src/OpenTl.Schema/_generated/_Entities/NearestDc/TNearestDc.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int NearestDc { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NearestDc As Integer
+  overload: OpenTl.Schema.TNearestDc.NearestDc*
+  implements:
+  - OpenTl.Schema.INearestDc.NearestDc
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.INearestDc
+  commentId: T:OpenTl.Schema.INearestDc
+  parent: OpenTl.Schema
+  isExternal: false
+  name: INearestDc
+  nameWithType: INearestDc
+  fullName: OpenTl.Schema.INearestDc
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TNearestDc.CountryAsBinary*
+  commentId: Overload:OpenTl.Schema.TNearestDc.CountryAsBinary
+  isExternal: false
+  name: CountryAsBinary
+  nameWithType: TNearestDc.CountryAsBinary
+  fullName: OpenTl.Schema.TNearestDc.CountryAsBinary
+- uid: OpenTl.Schema.INearestDc.CountryAsBinary
+  commentId: P:OpenTl.Schema.INearestDc.CountryAsBinary
+  parent: OpenTl.Schema.INearestDc
+  isExternal: false
+  name: CountryAsBinary
+  nameWithType: INearestDc.CountryAsBinary
+  fullName: OpenTl.Schema.INearestDc.CountryAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TNearestDc.Country*
+  commentId: Overload:OpenTl.Schema.TNearestDc.Country
+  isExternal: false
+  name: Country
+  nameWithType: TNearestDc.Country
+  fullName: OpenTl.Schema.TNearestDc.Country
+- uid: OpenTl.Schema.INearestDc.Country
+  commentId: P:OpenTl.Schema.INearestDc.Country
+  parent: OpenTl.Schema.INearestDc
+  isExternal: false
+  name: Country
+  nameWithType: INearestDc.Country
+  fullName: OpenTl.Schema.INearestDc.Country
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TNearestDc.ThisDc*
+  commentId: Overload:OpenTl.Schema.TNearestDc.ThisDc
+  isExternal: false
+  name: ThisDc
+  nameWithType: TNearestDc.ThisDc
+  fullName: OpenTl.Schema.TNearestDc.ThisDc
+- uid: OpenTl.Schema.INearestDc.ThisDc
+  commentId: P:OpenTl.Schema.INearestDc.ThisDc
+  parent: OpenTl.Schema.INearestDc
+  isExternal: false
+  name: ThisDc
+  nameWithType: INearestDc.ThisDc
+  fullName: OpenTl.Schema.INearestDc.ThisDc
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TNearestDc.NearestDc*
+  commentId: Overload:OpenTl.Schema.TNearestDc.NearestDc
+  isExternal: false
+  name: NearestDc
+  nameWithType: TNearestDc.NearestDc
+  fullName: OpenTl.Schema.TNearestDc.NearestDc
+- uid: OpenTl.Schema.INearestDc.NearestDc
+  commentId: P:OpenTl.Schema.INearestDc.NearestDc
+  parent: OpenTl.Schema.INearestDc
+  isExternal: false
+  name: NearestDc
+  nameWithType: INearestDc.NearestDc
+  fullName: OpenTl.Schema.INearestDc.NearestDc

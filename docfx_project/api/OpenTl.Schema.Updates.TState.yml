@@ -1,0 +1,336 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TState
+  commentId: T:OpenTl.Schema.Updates.TState
+  id: TState
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TState.Date
+  - OpenTl.Schema.Updates.TState.Pts
+  - OpenTl.Schema.Updates.TState.Qts
+  - OpenTl.Schema.Updates.TState.Seq
+  - OpenTl.Schema.Updates.TState.UnreadCount
+  langs:
+  - csharp
+  - vb
+  name: TState
+  nameWithType: TState
+  fullName: OpenTl.Schema.Updates.TState
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TState
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TState : object, IState, IObject'
+    content.vb: >-
+      Public Class TState
+
+          Inherits Object
+
+          Implements IState, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IState
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TState.Pts
+  commentId: P:OpenTl.Schema.Updates.TState.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.TState
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TState.Pts
+  fullName: OpenTl.Schema.Updates.TState.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.TState.Pts*
+  implements:
+  - OpenTl.Schema.Updates.IState.Pts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TState.Qts
+  commentId: P:OpenTl.Schema.Updates.TState.Qts
+  id: Qts
+  parent: OpenTl.Schema.Updates.TState
+  langs:
+  - csharp
+  - vb
+  name: Qts
+  nameWithType: TState.Qts
+  fullName: OpenTl.Schema.Updates.TState.Qts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Qts
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Qts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Qts As Integer
+  overload: OpenTl.Schema.Updates.TState.Qts*
+  implements:
+  - OpenTl.Schema.Updates.IState.Qts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TState.Date
+  commentId: P:OpenTl.Schema.Updates.TState.Date
+  id: Date
+  parent: OpenTl.Schema.Updates.TState
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: TState.Date
+  fullName: OpenTl.Schema.Updates.TState.Date
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Date
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Date { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Date As Integer
+  overload: OpenTl.Schema.Updates.TState.Date*
+  implements:
+  - OpenTl.Schema.Updates.IState.Date
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TState.Seq
+  commentId: P:OpenTl.Schema.Updates.TState.Seq
+  id: Seq
+  parent: OpenTl.Schema.Updates.TState
+  langs:
+  - csharp
+  - vb
+  name: Seq
+  nameWithType: TState.Seq
+  fullName: OpenTl.Schema.Updates.TState.Seq
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Seq
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Seq { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Seq As Integer
+  overload: OpenTl.Schema.Updates.TState.Seq*
+  implements:
+  - OpenTl.Schema.Updates.IState.Seq
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TState.UnreadCount
+  commentId: P:OpenTl.Schema.Updates.TState.UnreadCount
+  id: UnreadCount
+  parent: OpenTl.Schema.Updates.TState
+  langs:
+  - csharp
+  - vb
+  name: UnreadCount
+  nameWithType: TState.UnreadCount
+  fullName: OpenTl.Schema.Updates.TState.UnreadCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/State/TState.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UnreadCount
+    path: ../src/OpenTl.Schema/_generated/Updates/State/TState.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int UnreadCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UnreadCount As Integer
+  overload: OpenTl.Schema.Updates.TState.UnreadCount*
+  implements:
+  - OpenTl.Schema.Updates.IState.UnreadCount
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IState
+  commentId: T:OpenTl.Schema.Updates.IState
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IState
+  nameWithType: IState
+  fullName: OpenTl.Schema.Updates.IState
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TState.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.TState.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TState.Pts
+  fullName: OpenTl.Schema.Updates.TState.Pts
+- uid: OpenTl.Schema.Updates.IState.Pts
+  commentId: P:OpenTl.Schema.Updates.IState.Pts
+  parent: OpenTl.Schema.Updates.IState
+  isExternal: false
+  name: Pts
+  nameWithType: IState.Pts
+  fullName: OpenTl.Schema.Updates.IState.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.TState.Qts*
+  commentId: Overload:OpenTl.Schema.Updates.TState.Qts
+  isExternal: false
+  name: Qts
+  nameWithType: TState.Qts
+  fullName: OpenTl.Schema.Updates.TState.Qts
+- uid: OpenTl.Schema.Updates.IState.Qts
+  commentId: P:OpenTl.Schema.Updates.IState.Qts
+  parent: OpenTl.Schema.Updates.IState
+  isExternal: false
+  name: Qts
+  nameWithType: IState.Qts
+  fullName: OpenTl.Schema.Updates.IState.Qts
+- uid: OpenTl.Schema.Updates.TState.Date*
+  commentId: Overload:OpenTl.Schema.Updates.TState.Date
+  isExternal: false
+  name: Date
+  nameWithType: TState.Date
+  fullName: OpenTl.Schema.Updates.TState.Date
+- uid: OpenTl.Schema.Updates.IState.Date
+  commentId: P:OpenTl.Schema.Updates.IState.Date
+  parent: OpenTl.Schema.Updates.IState
+  isExternal: false
+  name: Date
+  nameWithType: IState.Date
+  fullName: OpenTl.Schema.Updates.IState.Date
+- uid: OpenTl.Schema.Updates.TState.Seq*
+  commentId: Overload:OpenTl.Schema.Updates.TState.Seq
+  isExternal: false
+  name: Seq
+  nameWithType: TState.Seq
+  fullName: OpenTl.Schema.Updates.TState.Seq
+- uid: OpenTl.Schema.Updates.IState.Seq
+  commentId: P:OpenTl.Schema.Updates.IState.Seq
+  parent: OpenTl.Schema.Updates.IState
+  isExternal: false
+  name: Seq
+  nameWithType: IState.Seq
+  fullName: OpenTl.Schema.Updates.IState.Seq
+- uid: OpenTl.Schema.Updates.TState.UnreadCount*
+  commentId: Overload:OpenTl.Schema.Updates.TState.UnreadCount
+  isExternal: false
+  name: UnreadCount
+  nameWithType: TState.UnreadCount
+  fullName: OpenTl.Schema.Updates.TState.UnreadCount
+- uid: OpenTl.Schema.Updates.IState.UnreadCount
+  commentId: P:OpenTl.Schema.Updates.IState.UnreadCount
+  parent: OpenTl.Schema.Updates.IState
+  isExternal: false
+  name: UnreadCount
+  nameWithType: IState.UnreadCount
+  fullName: OpenTl.Schema.Updates.IState.UnreadCount

@@ -12,6 +12,7 @@ namespace OpenTl.Schema.Account
 	[Serialize(0x418d4e0b)]
     public class RequestDeleteAccount : IRequest<bool>
     {
+       /// <summary>Binary representation for the 'Reason' property</summary>
        [SerializationOrder(0)]
        public byte[] ReasonAsBinary { get => _ReasonAsBinary; set { _Reason = Encoding.UTF8.GetString(value); _ReasonAsBinary = value; }}
        private byte[] _ReasonAsBinary;

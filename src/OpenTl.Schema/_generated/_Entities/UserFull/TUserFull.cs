@@ -30,6 +30,7 @@ namespace OpenTl.Schema
        [SerializationOrder(4)]
        public OpenTl.Schema.IUser User {get; set;}
 
+       /// <summary>Binary representation for the 'About' property</summary>
        [SerializationOrder(5)]
        [CanSerialize("Flags", 1)]
        public byte[] AboutAsBinary { get => _AboutAsBinary; set { _About = Encoding.UTF8.GetString(value); _AboutAsBinary = value; }}

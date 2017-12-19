@@ -39,6 +39,7 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 5)]
        public bool Flexible {get; set;}
 
+       /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(7)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
        private byte[] _CurrencyAsBinary;

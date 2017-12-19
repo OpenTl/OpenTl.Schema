@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TWebPageNotModified
+  commentId: T:OpenTl.Schema.TWebPageNotModified
+  id: TWebPageNotModified
+  parent: OpenTl.Schema
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TWebPageNotModified
+  nameWithType: TWebPageNotModified
+  fullName: OpenTl.Schema.TWebPageNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TWebPageNotModified
+    path: ../src/OpenTl.Schema/_generated/_Entities/WebPage/TWebPageNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TWebPageNotModified : object, IWebPage, IObject'
+    content.vb: >-
+      Public Class TWebPageNotModified
+
+          Inherits Object
+
+          Implements IWebPage, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IWebPage
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IWebPage
+  commentId: T:OpenTl.Schema.IWebPage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IWebPage
+  nameWithType: IWebPage
+  fullName: OpenTl.Schema.IWebPage
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject

@@ -1,0 +1,845 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventsFilter
+  id: TChannelAdminLogEventsFilter
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+  - OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventsFilter
+  nameWithType: TChannelAdminLogEventsFilter
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventsFilter
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventsFilter : object, IChannelAdminLogEventsFilter, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventsFilter
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventsFilter, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+  id: Flags
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelAdminLogEventsFilter.Flags
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Flags*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+  id: Join
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Join
+  nameWithType: TChannelAdminLogEventsFilter.Join
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Join
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Join { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Join As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Join*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Join
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+  id: Leave
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Leave
+  nameWithType: TChannelAdminLogEventsFilter.Leave
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Leave
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Leave { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Leave As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Leave*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Leave
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+  id: Invite
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Invite
+  nameWithType: TChannelAdminLogEventsFilter.Invite
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Invite
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Invite { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Invite As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Invite*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Invite
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+  id: Ban
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Ban
+  nameWithType: TChannelAdminLogEventsFilter.Ban
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Ban
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Ban { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Ban As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Ban*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Ban
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+  id: Unban
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Unban
+  nameWithType: TChannelAdminLogEventsFilter.Unban
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Unban
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Unban { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Unban As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Unban*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Unban
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+  id: Kick
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Kick
+  nameWithType: TChannelAdminLogEventsFilter.Kick
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Kick
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Kick { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Kick As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Kick*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Kick
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+  id: Unkick
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Unkick
+  nameWithType: TChannelAdminLogEventsFilter.Unkick
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Unkick
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 41
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Unkick { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Unkick As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Unkick
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+  id: Promote
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Promote
+  nameWithType: TChannelAdminLogEventsFilter.Promote
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Promote
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Promote { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Promote As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Promote*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Promote
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+  id: Demote
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Demote
+  nameWithType: TChannelAdminLogEventsFilter.Demote
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Demote
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 49
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Demote { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Demote As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Demote*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Demote
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+  id: Info
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TChannelAdminLogEventsFilter.Info
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 53
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Info { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Info As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Info*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Info
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+  id: Settings
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: TChannelAdminLogEventsFilter.Settings
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Settings
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 57
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Settings { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Settings As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Settings*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Settings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+  id: Pinned
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Pinned
+  nameWithType: TChannelAdminLogEventsFilter.Pinned
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pinned
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 61
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Pinned { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Pinned As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Pinned
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+  id: Edit
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Edit
+  nameWithType: TChannelAdminLogEventsFilter.Edit
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Edit
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 65
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Edit { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Edit As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Edit*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Edit
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+  id: Delete
+  parent: OpenTl.Schema.TChannelAdminLogEventsFilter
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: TChannelAdminLogEventsFilter.Delete
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Delete
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventsFilter/TChannelAdminLogEventsFilter.cs
+    startLine: 69
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Delete { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Delete As Boolean
+  overload: OpenTl.Schema.TChannelAdminLogEventsFilter.Delete*
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventsFilter.Delete
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventsFilter
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventsFilter
+  nameWithType: IChannelAdminLogEventsFilter
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Flags*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelAdminLogEventsFilter.Flags
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Flags
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Flags
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Flags
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Flags
+  nameWithType: IChannelAdminLogEventsFilter.Flags
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Join*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+  isExternal: false
+  name: Join
+  nameWithType: TChannelAdminLogEventsFilter.Join
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Join
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Join
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Join
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Join
+  nameWithType: IChannelAdminLogEventsFilter.Join
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Join
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Leave*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+  isExternal: false
+  name: Leave
+  nameWithType: TChannelAdminLogEventsFilter.Leave
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Leave
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Leave
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Leave
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Leave
+  nameWithType: IChannelAdminLogEventsFilter.Leave
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Leave
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Invite*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+  isExternal: false
+  name: Invite
+  nameWithType: TChannelAdminLogEventsFilter.Invite
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Invite
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Invite
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Invite
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Invite
+  nameWithType: IChannelAdminLogEventsFilter.Invite
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Invite
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Ban*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+  isExternal: false
+  name: Ban
+  nameWithType: TChannelAdminLogEventsFilter.Ban
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Ban
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Ban
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Ban
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Ban
+  nameWithType: IChannelAdminLogEventsFilter.Ban
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Ban
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Unban*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+  isExternal: false
+  name: Unban
+  nameWithType: TChannelAdminLogEventsFilter.Unban
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Unban
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Unban
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Unban
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Unban
+  nameWithType: IChannelAdminLogEventsFilter.Unban
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Unban
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Kick*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+  isExternal: false
+  name: Kick
+  nameWithType: TChannelAdminLogEventsFilter.Kick
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Kick
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Kick
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Kick
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Kick
+  nameWithType: IChannelAdminLogEventsFilter.Kick
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Kick
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+  isExternal: false
+  name: Unkick
+  nameWithType: TChannelAdminLogEventsFilter.Unkick
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Unkick
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Unkick
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Unkick
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Unkick
+  nameWithType: IChannelAdminLogEventsFilter.Unkick
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Unkick
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Promote*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+  isExternal: false
+  name: Promote
+  nameWithType: TChannelAdminLogEventsFilter.Promote
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Promote
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Promote
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Promote
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Promote
+  nameWithType: IChannelAdminLogEventsFilter.Promote
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Promote
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Demote*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+  isExternal: false
+  name: Demote
+  nameWithType: TChannelAdminLogEventsFilter.Demote
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Demote
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Demote
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Demote
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Demote
+  nameWithType: IChannelAdminLogEventsFilter.Demote
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Demote
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Info*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+  isExternal: false
+  name: Info
+  nameWithType: TChannelAdminLogEventsFilter.Info
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Info
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Info
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Info
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Info
+  nameWithType: IChannelAdminLogEventsFilter.Info
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Info
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Settings*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+  isExternal: false
+  name: Settings
+  nameWithType: TChannelAdminLogEventsFilter.Settings
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Settings
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Settings
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Settings
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Settings
+  nameWithType: IChannelAdminLogEventsFilter.Settings
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Settings
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+  isExternal: false
+  name: Pinned
+  nameWithType: TChannelAdminLogEventsFilter.Pinned
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Pinned
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Pinned
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Pinned
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Pinned
+  nameWithType: IChannelAdminLogEventsFilter.Pinned
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Pinned
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Edit*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+  isExternal: false
+  name: Edit
+  nameWithType: TChannelAdminLogEventsFilter.Edit
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Edit
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Edit
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Edit
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Edit
+  nameWithType: IChannelAdminLogEventsFilter.Edit
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Edit
+- uid: OpenTl.Schema.TChannelAdminLogEventsFilter.Delete*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+  isExternal: false
+  name: Delete
+  nameWithType: TChannelAdminLogEventsFilter.Delete
+  fullName: OpenTl.Schema.TChannelAdminLogEventsFilter.Delete
+- uid: OpenTl.Schema.IChannelAdminLogEventsFilter.Delete
+  commentId: P:OpenTl.Schema.IChannelAdminLogEventsFilter.Delete
+  parent: OpenTl.Schema.IChannelAdminLogEventsFilter
+  isExternal: false
+  name: Delete
+  nameWithType: IChannelAdminLogEventsFilter.Delete
+  fullName: OpenTl.Schema.IChannelAdminLogEventsFilter.Delete

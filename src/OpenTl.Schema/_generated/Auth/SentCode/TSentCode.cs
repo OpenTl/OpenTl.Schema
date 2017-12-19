@@ -22,6 +22,7 @@ namespace OpenTl.Schema.Auth
        [SerializationOrder(2)]
        public OpenTl.Schema.Auth.ISentCodeType Type {get; set;}
 
+       /// <summary>Binary representation for the 'PhoneCodeHash' property</summary>
        [SerializationOrder(3)]
        public byte[] PhoneCodeHashAsBinary { get => _PhoneCodeHashAsBinary; set { _PhoneCodeHash = Encoding.UTF8.GetString(value); _PhoneCodeHashAsBinary = value; }}
        private byte[] _PhoneCodeHashAsBinary;

@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xe9a734fa)]
 	public class TPhotoCachedSize : IPhotoSize
 	{
+       /// <summary>Binary representation for the 'Type' property</summary>
        [SerializationOrder(0)]
        public byte[] TypeAsBinary { get => _TypeAsBinary; set { _Type = Encoding.UTF8.GetString(value); _TypeAsBinary = value; }}
        private byte[] _TypeAsBinary;

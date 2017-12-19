@@ -1,0 +1,355 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  id: TVector`1
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TVector`1.#ctor
+  - OpenTl.Schema.TVector`1.#ctor(`0[])
+  - OpenTl.Schema.TVector`1.Item(System.Int32)
+  - OpenTl.Schema.TVector`1.Items
+  langs:
+  - csharp
+  - vb
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/TVector.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TVector
+    path: ../src/OpenTl.Schema/TVector.cs
+    startLine: 5
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TVector<T> : object, IObject'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public Class TVector(Of T)
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  nameWithType.vb: TVector(Of T)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+- uid: OpenTl.Schema.TVector`1.#ctor
+  commentId: M:OpenTl.Schema.TVector`1.#ctor
+  id: '#ctor'
+  parent: OpenTl.Schema.TVector`1
+  langs:
+  - csharp
+  - vb
+  name: TVector()
+  nameWithType: TVector<T>.TVector()
+  fullName: OpenTl.Schema.TVector<T>.TVector()
+  type: Constructor
+  source:
+    remote:
+      path: src/OpenTl.Schema/TVector.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: .ctor
+    path: ../src/OpenTl.Schema/TVector.cs
+    startLine: 8
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector()
+    content.vb: Public Sub New
+  overload: OpenTl.Schema.TVector`1.#ctor*
+  nameWithType.vb: TVector(Of T).TVector()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenTl.Schema.TVector(Of T).TVector()
+- uid: OpenTl.Schema.TVector`1.#ctor(`0[])
+  commentId: M:OpenTl.Schema.TVector`1.#ctor(`0[])
+  id: '#ctor(`0[])'
+  parent: OpenTl.Schema.TVector`1
+  langs:
+  - csharp
+  - vb
+  name: TVector(T[])
+  nameWithType: TVector<T>.TVector(T[])
+  fullName: OpenTl.Schema.TVector<T>.TVector(T[])
+  type: Constructor
+  source:
+    remote:
+      path: src/OpenTl.Schema/TVector.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: .ctor
+    path: ../src/OpenTl.Schema/TVector.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector(params T[] items)
+    parameters:
+    - id: items
+      type: '{T}[]'
+    content.vb: Public Sub New(ParamArray items As T())
+  overload: OpenTl.Schema.TVector`1.#ctor*
+  nameWithType.vb: TVector(Of T).TVector(T())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenTl.Schema.TVector(Of T).TVector(T())
+  name.vb: TVector(T())
+- uid: OpenTl.Schema.TVector`1.Item(System.Int32)
+  commentId: P:OpenTl.Schema.TVector`1.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: OpenTl.Schema.TVector`1
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: TVector<T>.Item[Int32]
+  fullName: OpenTl.Schema.TVector<T>.Item[System.Int32]
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/TVector.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: this[]
+    path: ../src/OpenTl.Schema/TVector.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public T this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: '{T}'
+    content.vb: Public Property Item(index As Integer) As T
+  overload: OpenTl.Schema.TVector`1.Item*
+  nameWithType.vb: TVector(Of T).Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenTl.Schema.TVector(Of T).Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: OpenTl.Schema.TVector`1.Items
+  commentId: P:OpenTl.Schema.TVector`1.Items
+  id: Items
+  parent: OpenTl.Schema.TVector`1
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: TVector<T>.Items
+  fullName: OpenTl.Schema.TVector<T>.Items
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/TVector.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Items
+    path: ../src/OpenTl.Schema/TVector.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public List<T> Items { get; set; }
+    parameters: []
+    return:
+      type: List{{T}}
+    content.vb: Public Property Items As List(Of T)
+  overload: OpenTl.Schema.TVector`1.Items*
+  nameWithType.vb: TVector(Of T).Items
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: OpenTl.Schema.TVector(Of T).Items
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TVector`1.#ctor*
+  commentId: Overload:OpenTl.Schema.TVector`1.#ctor
+  isExternal: false
+  name: TVector
+  nameWithType: TVector<T>.TVector
+  fullName: OpenTl.Schema.TVector<T>.TVector
+  nameWithType.vb: TVector(Of T).TVector
+  fullName.vb: OpenTl.Schema.TVector(Of T).TVector
+- uid: '{T}[]'
+  name: T[]
+  nameWithType: T[]
+  fullName: T[]
+  nameWithType.vb: T()
+  fullName.vb: T()
+  name.vb: T()
+  spec.csharp:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TVector`1.Item*
+  commentId: Overload:OpenTl.Schema.TVector`1.Item
+  isExternal: false
+  name: Item
+  nameWithType: TVector<T>.Item
+  fullName: OpenTl.Schema.TVector<T>.Item
+  nameWithType.vb: TVector(Of T).Item
+  fullName.vb: OpenTl.Schema.TVector(Of T).Item
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  isExternal: false
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: OpenTl.Schema.TVector`1.Items*
+  commentId: Overload:OpenTl.Schema.TVector`1.Items
+  isExternal: false
+  name: Items
+  nameWithType: TVector<T>.Items
+  fullName: OpenTl.Schema.TVector<T>.Items
+  nameWithType.vb: TVector(Of T).Items
+  fullName.vb: OpenTl.Schema.TVector(Of T).Items
+- uid: List{{T}}
+  commentId: '!:List{`0}'
+  definition: List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  commentId: '!:List`1'
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

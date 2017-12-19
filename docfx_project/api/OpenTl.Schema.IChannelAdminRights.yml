@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IChannelAdminRights
+  commentId: T:OpenTl.Schema.IChannelAdminRights
+  id: IChannelAdminRights
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IChannelAdminRights.AddAdmins
+  - OpenTl.Schema.IChannelAdminRights.BanUsers
+  - OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  - OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  - OpenTl.Schema.IChannelAdminRights.EditMessages
+  - OpenTl.Schema.IChannelAdminRights.Flags
+  - OpenTl.Schema.IChannelAdminRights.InviteLink
+  - OpenTl.Schema.IChannelAdminRights.InviteUsers
+  - OpenTl.Schema.IChannelAdminRights.PinMessages
+  - OpenTl.Schema.IChannelAdminRights.PostMessages
+  langs:
+  - csharp
+  - vb
+  name: IChannelAdminRights
+  nameWithType: IChannelAdminRights
+  fullName: OpenTl.Schema.IChannelAdminRights
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IChannelAdminRights
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IChannelAdminRights : IObject'
+    content.vb: >-
+      Public Interface IChannelAdminRights
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IChannelAdminRights.Flags
+  commentId: P:OpenTl.Schema.IChannelAdminRights.Flags
+  id: Flags
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IChannelAdminRights.Flags
+  fullName: OpenTl.Schema.IChannelAdminRights.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IChannelAdminRights.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  commentId: P:OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  id: ChangeInfo
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: ChangeInfo
+  nameWithType: IChannelAdminRights.ChangeInfo
+  fullName: OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChangeInfo
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool ChangeInfo { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property ChangeInfo As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.ChangeInfo*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.PostMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.PostMessages
+  id: PostMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: PostMessages
+  nameWithType: IChannelAdminRights.PostMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PostMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PostMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool PostMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PostMessages As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.PostMessages*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.EditMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.EditMessages
+  id: EditMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: EditMessages
+  nameWithType: IChannelAdminRights.EditMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.EditMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EditMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool EditMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EditMessages As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.EditMessages*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  id: DeleteMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: DeleteMessages
+  nameWithType: IChannelAdminRights.DeleteMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DeleteMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool DeleteMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property DeleteMessages As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.DeleteMessages*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.BanUsers
+  commentId: P:OpenTl.Schema.IChannelAdminRights.BanUsers
+  id: BanUsers
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: BanUsers
+  nameWithType: IChannelAdminRights.BanUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.BanUsers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: BanUsers
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool BanUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property BanUsers As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.BanUsers*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.InviteUsers
+  commentId: P:OpenTl.Schema.IChannelAdminRights.InviteUsers
+  id: InviteUsers
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: InviteUsers
+  nameWithType: IChannelAdminRights.InviteUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteUsers
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviteUsers
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool InviteUsers { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property InviteUsers As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.InviteUsers*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.InviteLink
+  commentId: P:OpenTl.Schema.IChannelAdminRights.InviteLink
+  id: InviteLink
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: InviteLink
+  nameWithType: IChannelAdminRights.InviteLink
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteLink
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: InviteLink
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool InviteLink { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property InviteLink As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.InviteLink*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.PinMessages
+  commentId: P:OpenTl.Schema.IChannelAdminRights.PinMessages
+  id: PinMessages
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: PinMessages
+  nameWithType: IChannelAdminRights.PinMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PinMessages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PinMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool PinMessages { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PinMessages As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.PinMessages*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IChannelAdminRights.AddAdmins
+  commentId: P:OpenTl.Schema.IChannelAdminRights.AddAdmins
+  id: AddAdmins
+  parent: OpenTl.Schema.IChannelAdminRights
+  langs:
+  - csharp
+  - vb
+  name: AddAdmins
+  nameWithType: IChannelAdminRights.AddAdmins
+  fullName: OpenTl.Schema.IChannelAdminRights.AddAdmins
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AddAdmins
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminRights/IChannelAdminRights.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool AddAdmins { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property AddAdmins As Boolean
+  overload: OpenTl.Schema.IChannelAdminRights.AddAdmins*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IChannelAdminRights.Flags*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IChannelAdminRights.Flags
+  fullName: OpenTl.Schema.IChannelAdminRights.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IChannelAdminRights.ChangeInfo*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.ChangeInfo
+  isExternal: false
+  name: ChangeInfo
+  nameWithType: IChannelAdminRights.ChangeInfo
+  fullName: OpenTl.Schema.IChannelAdminRights.ChangeInfo
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.IChannelAdminRights.PostMessages*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.PostMessages
+  isExternal: false
+  name: PostMessages
+  nameWithType: IChannelAdminRights.PostMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PostMessages
+- uid: OpenTl.Schema.IChannelAdminRights.EditMessages*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.EditMessages
+  isExternal: false
+  name: EditMessages
+  nameWithType: IChannelAdminRights.EditMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.EditMessages
+- uid: OpenTl.Schema.IChannelAdminRights.DeleteMessages*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.DeleteMessages
+  isExternal: false
+  name: DeleteMessages
+  nameWithType: IChannelAdminRights.DeleteMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.DeleteMessages
+- uid: OpenTl.Schema.IChannelAdminRights.BanUsers*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.BanUsers
+  isExternal: false
+  name: BanUsers
+  nameWithType: IChannelAdminRights.BanUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.BanUsers
+- uid: OpenTl.Schema.IChannelAdminRights.InviteUsers*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.InviteUsers
+  isExternal: false
+  name: InviteUsers
+  nameWithType: IChannelAdminRights.InviteUsers
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteUsers
+- uid: OpenTl.Schema.IChannelAdminRights.InviteLink*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.InviteLink
+  isExternal: false
+  name: InviteLink
+  nameWithType: IChannelAdminRights.InviteLink
+  fullName: OpenTl.Schema.IChannelAdminRights.InviteLink
+- uid: OpenTl.Schema.IChannelAdminRights.PinMessages*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.PinMessages
+  isExternal: false
+  name: PinMessages
+  nameWithType: IChannelAdminRights.PinMessages
+  fullName: OpenTl.Schema.IChannelAdminRights.PinMessages
+- uid: OpenTl.Schema.IChannelAdminRights.AddAdmins*
+  commentId: Overload:OpenTl.Schema.IChannelAdminRights.AddAdmins
+  isExternal: false
+  name: AddAdmins
+  nameWithType: IChannelAdminRights.AddAdmins
+  fullName: OpenTl.Schema.IChannelAdminRights.AddAdmins

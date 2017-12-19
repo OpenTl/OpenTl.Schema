@@ -1,0 +1,225 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRpcError
+  commentId: T:OpenTl.Schema.TRpcError
+  id: TRpcError
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRpcError.ErrorCode
+  - OpenTl.Schema.TRpcError.ErrorMessage
+  - OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TRpcError
+  nameWithType: TRpcError
+  fullName: OpenTl.Schema.TRpcError
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRpcError
+    path: ../src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRpcError : object, IObject'
+    content.vb: >-
+      Public Class TRpcError
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRpcError.ErrorCode
+  commentId: P:OpenTl.Schema.TRpcError.ErrorCode
+  id: ErrorCode
+  parent: OpenTl.Schema.TRpcError
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: TRpcError.ErrorCode
+  fullName: OpenTl.Schema.TRpcError.ErrorCode
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ErrorCode
+    path: ../src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ErrorCode As Integer
+  overload: OpenTl.Schema.TRpcError.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+  commentId: P:OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+  id: ErrorMessageAsBinary
+  parent: OpenTl.Schema.TRpcError
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessageAsBinary
+  nameWithType: TRpcError.ErrorMessageAsBinary
+  fullName: OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ErrorMessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ErrorMessage&apos; property
+  example: []
+  syntax:
+    content: public byte[] ErrorMessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ErrorMessageAsBinary As Byte()
+  overload: OpenTl.Schema.TRpcError.ErrorMessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRpcError.ErrorMessage
+  commentId: P:OpenTl.Schema.TRpcError.ErrorMessage
+  id: ErrorMessage
+  parent: OpenTl.Schema.TRpcError
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessage
+  nameWithType: TRpcError.ErrorMessage
+  fullName: OpenTl.Schema.TRpcError.ErrorMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ErrorMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/TRpcError.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ErrorMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorMessage As String
+  overload: OpenTl.Schema.TRpcError.ErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TRpcError.ErrorCode*
+  commentId: Overload:OpenTl.Schema.TRpcError.ErrorCode
+  isExternal: false
+  name: ErrorCode
+  nameWithType: TRpcError.ErrorCode
+  fullName: OpenTl.Schema.TRpcError.ErrorCode
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TRpcError.ErrorMessageAsBinary*
+  commentId: Overload:OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+  isExternal: false
+  name: ErrorMessageAsBinary
+  nameWithType: TRpcError.ErrorMessageAsBinary
+  fullName: OpenTl.Schema.TRpcError.ErrorMessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TRpcError.ErrorMessage*
+  commentId: Overload:OpenTl.Schema.TRpcError.ErrorMessage
+  isExternal: false
+  name: ErrorMessage
+  nameWithType: TRpcError.ErrorMessage
+  fullName: OpenTl.Schema.TRpcError.ErrorMessage
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

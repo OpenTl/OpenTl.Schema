@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.RequestEditPhoto
+  commentId: T:OpenTl.Schema.Channels.RequestEditPhoto
+  id: RequestEditPhoto
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.RequestEditPhoto.Channel
+  - OpenTl.Schema.Channels.RequestEditPhoto.Photo
+  langs:
+  - csharp
+  - vb
+  name: RequestEditPhoto
+  nameWithType: RequestEditPhoto
+  fullName: OpenTl.Schema.Channels.RequestEditPhoto
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestEditPhoto
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class RequestEditPhoto : object, IRequest<IUpdates>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestEditPhoto
+
+          Inherits Object
+
+          Implements IRequest(Of IUpdates), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.RequestEditPhoto.Channel
+  commentId: P:OpenTl.Schema.Channels.RequestEditPhoto.Channel
+  id: Channel
+  parent: OpenTl.Schema.Channels.RequestEditPhoto
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: RequestEditPhoto.Channel
+  fullName: OpenTl.Schema.Channels.RequestEditPhoto.Channel
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Channel
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChannel
+    content.vb: Public Property Channel As IInputChannel
+  overload: OpenTl.Schema.Channels.RequestEditPhoto.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.RequestEditPhoto.Photo
+  commentId: P:OpenTl.Schema.Channels.RequestEditPhoto.Photo
+  id: Photo
+  parent: OpenTl.Schema.Channels.RequestEditPhoto
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: RequestEditPhoto.Photo
+  fullName: OpenTl.Schema.Channels.RequestEditPhoto.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/Channels/RequestEditPhoto.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IInputChatPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputChatPhoto
+    content.vb: Public Property Photo As IInputChatPhoto
+  overload: OpenTl.Schema.Channels.RequestEditPhoto.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUpdates>
+  nameWithType: IRequest<IUpdates>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUpdates>
+  nameWithType.vb: IRequest(Of IUpdates)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUpdates)
+  name.vb: IRequest(Of IUpdates)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.RequestEditPhoto.Channel*
+  commentId: Overload:OpenTl.Schema.Channels.RequestEditPhoto.Channel
+  isExternal: false
+  name: Channel
+  nameWithType: RequestEditPhoto.Channel
+  fullName: OpenTl.Schema.Channels.RequestEditPhoto.Channel
+- uid: OpenTl.Schema.IInputChannel
+  commentId: T:OpenTl.Schema.IInputChannel
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChannel
+  nameWithType: IInputChannel
+  fullName: OpenTl.Schema.IInputChannel
+- uid: OpenTl.Schema.Channels.RequestEditPhoto.Photo*
+  commentId: Overload:OpenTl.Schema.Channels.RequestEditPhoto.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: RequestEditPhoto.Photo
+  fullName: OpenTl.Schema.Channels.RequestEditPhoto.Photo
+- uid: OpenTl.Schema.IInputChatPhoto
+  commentId: T:OpenTl.Schema.IInputChatPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputChatPhoto
+  nameWithType: IInputChatPhoto
+  fullName: OpenTl.Schema.IInputChatPhoto

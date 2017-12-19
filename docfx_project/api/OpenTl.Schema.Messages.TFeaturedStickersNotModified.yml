@@ -1,0 +1,76 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TFeaturedStickersNotModified
+  commentId: T:OpenTl.Schema.Messages.TFeaturedStickersNotModified
+  id: TFeaturedStickersNotModified
+  parent: OpenTl.Schema.Messages
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TFeaturedStickersNotModified
+  nameWithType: TFeaturedStickersNotModified
+  fullName: OpenTl.Schema.Messages.TFeaturedStickersNotModified
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickersNotModified.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFeaturedStickersNotModified
+    path: ../src/OpenTl.Schema/_generated/Messages/FeaturedStickers/TFeaturedStickersNotModified.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TFeaturedStickersNotModified : object, IFeaturedStickers, IObject'
+    content.vb: >-
+      Public Class TFeaturedStickersNotModified
+
+          Inherits Object
+
+          Implements IFeaturedStickers, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IFeaturedStickers
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IFeaturedStickers
+  commentId: T:OpenTl.Schema.Messages.IFeaturedStickers
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IFeaturedStickers
+  nameWithType: IFeaturedStickers
+  fullName: OpenTl.Schema.Messages.IFeaturedStickers
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema

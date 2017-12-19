@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputUser
+  commentId: T:OpenTl.Schema.TInputUser
+  id: TInputUser
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputUser.AccessHash
+  - OpenTl.Schema.TInputUser.UserId
+  langs:
+  - csharp
+  - vb
+  name: TInputUser
+  nameWithType: TInputUser
+  fullName: OpenTl.Schema.TInputUser
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputUser
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputUser : object, IInputUser, IObject'
+    content.vb: >-
+      Public Class TInputUser
+
+          Inherits Object
+
+          Implements IInputUser, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputUser
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputUser.UserId
+  commentId: P:OpenTl.Schema.TInputUser.UserId
+  id: UserId
+  parent: OpenTl.Schema.TInputUser
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TInputUser.UserId
+  fullName: OpenTl.Schema.TInputUser.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TInputUser.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputUser.AccessHash
+  commentId: P:OpenTl.Schema.TInputUser.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.TInputUser
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: TInputUser.AccessHash
+  fullName: OpenTl.Schema.TInputUser.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputUser/TInputUser.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property AccessHash As Long
+  overload: OpenTl.Schema.TInputUser.AccessHash*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputUser.UserId*
+  commentId: Overload:OpenTl.Schema.TInputUser.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TInputUser.UserId
+  fullName: OpenTl.Schema.TInputUser.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TInputUser.AccessHash*
+  commentId: Overload:OpenTl.Schema.TInputUser.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: TInputUser.AccessHash
+  fullName: OpenTl.Schema.TInputUser.AccessHash
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

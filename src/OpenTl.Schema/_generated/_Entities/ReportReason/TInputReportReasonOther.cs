@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xe1746d0a)]
 	public class TInputReportReasonOther : IReportReason
 	{
+       /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]
        public byte[] TextAsBinary { get => _TextAsBinary; set { _Text = Encoding.UTF8.GetString(value); _TextAsBinary = value; }}
        private byte[] _TextAsBinary;

@@ -1,0 +1,692 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TBotInlineMediaResult
+  commentId: T:OpenTl.Schema.TBotInlineMediaResult
+  id: TBotInlineMediaResult
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TBotInlineMediaResult.Description
+  - OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+  - OpenTl.Schema.TBotInlineMediaResult.Document
+  - OpenTl.Schema.TBotInlineMediaResult.Flags
+  - OpenTl.Schema.TBotInlineMediaResult.Id
+  - OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+  - OpenTl.Schema.TBotInlineMediaResult.Photo
+  - OpenTl.Schema.TBotInlineMediaResult.SendMessage
+  - OpenTl.Schema.TBotInlineMediaResult.Title
+  - OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+  - OpenTl.Schema.TBotInlineMediaResult.Type
+  - OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TBotInlineMediaResult
+  nameWithType: TBotInlineMediaResult
+  fullName: OpenTl.Schema.TBotInlineMediaResult
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TBotInlineMediaResult
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TBotInlineMediaResult : object, IBotInlineResult, IObject'
+    content.vb: >-
+      Public Class TBotInlineMediaResult
+
+          Inherits Object
+
+          Implements IBotInlineResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IBotInlineResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TBotInlineMediaResult.Flags
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Flags
+  id: Flags
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TBotInlineMediaResult.Flags
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TBotInlineMediaResult.Flags*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TBotInlineMediaResult.IdAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 18
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInlineMediaResult.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Id
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Id
+  id: Id
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TBotInlineMediaResult.Id
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TBotInlineMediaResult.Id*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+  id: TypeAsBinary
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: TypeAsBinary
+  nameWithType: TBotInlineMediaResult.TypeAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TypeAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Type&apos; property
+  example: []
+  syntax:
+    content: public byte[] TypeAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TypeAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Type
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Type
+  id: Type
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: TBotInlineMediaResult.Type
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Type
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Type
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: OpenTl.Schema.TBotInlineMediaResult.Type*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.Type
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Photo
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Photo
+  id: Photo
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Photo
+  nameWithType: TBotInlineMediaResult.Photo
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Photo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Photo
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPhoto Photo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPhoto
+    content.vb: Public Property Photo As IPhoto
+  overload: OpenTl.Schema.TBotInlineMediaResult.Photo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Document
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Document
+  id: Document
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Document
+  nameWithType: TBotInlineMediaResult.Document
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Document
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Document
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IDocument Document { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDocument
+    content.vb: Public Property Document As IDocument
+  overload: OpenTl.Schema.TBotInlineMediaResult.Document*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: TBotInlineMediaResult.TitleAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Title&apos; property
+  example: []
+  syntax:
+    content: public byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Title
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Title
+  id: Title
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: TBotInlineMediaResult.Title
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Title As String
+  overload: OpenTl.Schema.TBotInlineMediaResult.Title*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+  id: DescriptionAsBinary
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: DescriptionAsBinary
+  nameWithType: TBotInlineMediaResult.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DescriptionAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 48
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Description&apos; property
+  example: []
+  syntax:
+    content: public byte[] DescriptionAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property DescriptionAsBinary As Byte()
+  overload: OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.Description
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.Description
+  id: Description
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: Description
+  nameWithType: TBotInlineMediaResult.Description
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Description
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Description
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 53
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Description { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Description As String
+  overload: OpenTl.Schema.TBotInlineMediaResult.Description*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TBotInlineMediaResult.SendMessage
+  commentId: P:OpenTl.Schema.TBotInlineMediaResult.SendMessage
+  id: SendMessage
+  parent: OpenTl.Schema.TBotInlineMediaResult
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: TBotInlineMediaResult.SendMessage
+  fullName: OpenTl.Schema.TBotInlineMediaResult.SendMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SendMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/BotInlineResult/TBotInlineMediaResult.cs
+    startLine: 55
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IBotInlineMessage SendMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IBotInlineMessage
+    content.vb: Public Property SendMessage As IBotInlineMessage
+  overload: OpenTl.Schema.TBotInlineMediaResult.SendMessage*
+  implements:
+  - OpenTl.Schema.IBotInlineResult.SendMessage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IBotInlineResult
+  commentId: T:OpenTl.Schema.IBotInlineResult
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInlineResult
+  nameWithType: IBotInlineResult
+  fullName: OpenTl.Schema.IBotInlineResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TBotInlineMediaResult.Flags*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TBotInlineMediaResult.Flags
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Flags
+- uid: OpenTl.Schema.IBotInlineResult.Flags
+  commentId: P:OpenTl.Schema.IBotInlineResult.Flags
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: Flags
+  nameWithType: IBotInlineResult.Flags
+  fullName: OpenTl.Schema.IBotInlineResult.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TBotInlineMediaResult.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TBotInlineMediaResult.IdAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.IdAsBinary
+- uid: OpenTl.Schema.IBotInlineResult.IdAsBinary
+  commentId: P:OpenTl.Schema.IBotInlineResult.IdAsBinary
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TBotInlineMediaResult.Id*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Id
+  isExternal: false
+  name: Id
+  nameWithType: TBotInlineMediaResult.Id
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Id
+- uid: OpenTl.Schema.IBotInlineResult.Id
+  commentId: P:OpenTl.Schema.IBotInlineResult.Id
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: Id
+  nameWithType: IBotInlineResult.Id
+  fullName: OpenTl.Schema.IBotInlineResult.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: TBotInlineMediaResult.TypeAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.TypeAsBinary
+- uid: OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  commentId: P:OpenTl.Schema.IBotInlineResult.TypeAsBinary
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: TypeAsBinary
+  nameWithType: IBotInlineResult.TypeAsBinary
+  fullName: OpenTl.Schema.IBotInlineResult.TypeAsBinary
+- uid: OpenTl.Schema.TBotInlineMediaResult.Type*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Type
+  isExternal: false
+  name: Type
+  nameWithType: TBotInlineMediaResult.Type
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Type
+- uid: OpenTl.Schema.IBotInlineResult.Type
+  commentId: P:OpenTl.Schema.IBotInlineResult.Type
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: Type
+  nameWithType: IBotInlineResult.Type
+  fullName: OpenTl.Schema.IBotInlineResult.Type
+- uid: OpenTl.Schema.TBotInlineMediaResult.Photo*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Photo
+  isExternal: false
+  name: Photo
+  nameWithType: TBotInlineMediaResult.Photo
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Photo
+- uid: OpenTl.Schema.IPhoto
+  commentId: T:OpenTl.Schema.IPhoto
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPhoto
+  nameWithType: IPhoto
+  fullName: OpenTl.Schema.IPhoto
+- uid: OpenTl.Schema.TBotInlineMediaResult.Document*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Document
+  isExternal: false
+  name: Document
+  nameWithType: TBotInlineMediaResult.Document
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Document
+- uid: OpenTl.Schema.IDocument
+  commentId: T:OpenTl.Schema.IDocument
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDocument
+  nameWithType: IDocument
+  fullName: OpenTl.Schema.IDocument
+- uid: OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: TBotInlineMediaResult.TitleAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.TitleAsBinary
+- uid: OpenTl.Schema.TBotInlineMediaResult.Title*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Title
+  isExternal: false
+  name: Title
+  nameWithType: TBotInlineMediaResult.Title
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Title
+- uid: OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+  isExternal: false
+  name: DescriptionAsBinary
+  nameWithType: TBotInlineMediaResult.DescriptionAsBinary
+  fullName: OpenTl.Schema.TBotInlineMediaResult.DescriptionAsBinary
+- uid: OpenTl.Schema.TBotInlineMediaResult.Description*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.Description
+  isExternal: false
+  name: Description
+  nameWithType: TBotInlineMediaResult.Description
+  fullName: OpenTl.Schema.TBotInlineMediaResult.Description
+- uid: OpenTl.Schema.TBotInlineMediaResult.SendMessage*
+  commentId: Overload:OpenTl.Schema.TBotInlineMediaResult.SendMessage
+  isExternal: false
+  name: SendMessage
+  nameWithType: TBotInlineMediaResult.SendMessage
+  fullName: OpenTl.Schema.TBotInlineMediaResult.SendMessage
+- uid: OpenTl.Schema.IBotInlineResult.SendMessage
+  commentId: P:OpenTl.Schema.IBotInlineResult.SendMessage
+  parent: OpenTl.Schema.IBotInlineResult
+  isExternal: false
+  name: SendMessage
+  nameWithType: IBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IBotInlineResult.SendMessage
+- uid: OpenTl.Schema.IBotInlineMessage
+  commentId: T:OpenTl.Schema.IBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IBotInlineMessage
+  nameWithType: IBotInlineMessage
+  fullName: OpenTl.Schema.IBotInlineMessage

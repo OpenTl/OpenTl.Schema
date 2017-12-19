@@ -1,0 +1,260 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.TFoundGifs
+  commentId: T:OpenTl.Schema.Messages.TFoundGifs
+  id: TFoundGifs
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.TFoundGifs.NextOffset
+  - OpenTl.Schema.Messages.TFoundGifs.Results
+  langs:
+  - csharp
+  - vb
+  name: TFoundGifs
+  nameWithType: TFoundGifs
+  fullName: OpenTl.Schema.Messages.TFoundGifs
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TFoundGifs
+    path: ../src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class TFoundGifs : object, IFoundGifs, IObject'
+    content.vb: >-
+      Public Class TFoundGifs
+
+          Inherits Object
+
+          Implements IFoundGifs, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Messages.IFoundGifs
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.TFoundGifs.NextOffset
+  commentId: P:OpenTl.Schema.Messages.TFoundGifs.NextOffset
+  id: NextOffset
+  parent: OpenTl.Schema.Messages.TFoundGifs
+  langs:
+  - csharp
+  - vb
+  name: NextOffset
+  nameWithType: TFoundGifs.NextOffset
+  fullName: OpenTl.Schema.Messages.TFoundGifs.NextOffset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NextOffset
+    path: ../src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int NextOffset { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property NextOffset As Integer
+  overload: OpenTl.Schema.Messages.TFoundGifs.NextOffset*
+  implements:
+  - OpenTl.Schema.Messages.IFoundGifs.NextOffset
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.TFoundGifs.Results
+  commentId: P:OpenTl.Schema.Messages.TFoundGifs.Results
+  id: Results
+  parent: OpenTl.Schema.Messages.TFoundGifs
+  langs:
+  - csharp
+  - vb
+  name: Results
+  nameWithType: TFoundGifs.Results
+  fullName: OpenTl.Schema.Messages.TFoundGifs.Results
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Results
+    path: ../src/OpenTl.Schema/_generated/Messages/FoundGifs/TFoundGifs.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IFoundGif> Results { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IFoundGif}
+    content.vb: Public Property Results As TVector(Of IFoundGif)
+  overload: OpenTl.Schema.Messages.TFoundGifs.Results*
+  implements:
+  - OpenTl.Schema.Messages.IFoundGifs.Results
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Messages.IFoundGifs
+  commentId: T:OpenTl.Schema.Messages.IFoundGifs
+  parent: OpenTl.Schema.Messages
+  isExternal: false
+  name: IFoundGifs
+  nameWithType: IFoundGifs
+  fullName: OpenTl.Schema.Messages.IFoundGifs
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.TFoundGifs.NextOffset*
+  commentId: Overload:OpenTl.Schema.Messages.TFoundGifs.NextOffset
+  isExternal: false
+  name: NextOffset
+  nameWithType: TFoundGifs.NextOffset
+  fullName: OpenTl.Schema.Messages.TFoundGifs.NextOffset
+- uid: OpenTl.Schema.Messages.IFoundGifs.NextOffset
+  commentId: P:OpenTl.Schema.Messages.IFoundGifs.NextOffset
+  parent: OpenTl.Schema.Messages.IFoundGifs
+  isExternal: false
+  name: NextOffset
+  nameWithType: IFoundGifs.NextOffset
+  fullName: OpenTl.Schema.Messages.IFoundGifs.NextOffset
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.TFoundGifs.Results*
+  commentId: Overload:OpenTl.Schema.Messages.TFoundGifs.Results
+  isExternal: false
+  name: Results
+  nameWithType: TFoundGifs.Results
+  fullName: OpenTl.Schema.Messages.TFoundGifs.Results
+- uid: OpenTl.Schema.Messages.IFoundGifs.Results
+  commentId: P:OpenTl.Schema.Messages.IFoundGifs.Results
+  parent: OpenTl.Schema.Messages.IFoundGifs
+  isExternal: false
+  name: Results
+  nameWithType: IFoundGifs.Results
+  fullName: OpenTl.Schema.Messages.IFoundGifs.Results
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IFoundGif}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IFoundGif}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IFoundGif>
+  nameWithType: TVector<IFoundGif>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IFoundGif>
+  nameWithType.vb: TVector(Of IFoundGif)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IFoundGif)
+  name.vb: TVector(Of IFoundGif)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IFoundGif
+    name: IFoundGif
+    nameWithType: IFoundGif
+    fullName: OpenTl.Schema.IFoundGif
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IFoundGif
+    name: IFoundGif
+    nameWithType: IFoundGif
+    fullName: OpenTl.Schema.IFoundGif
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

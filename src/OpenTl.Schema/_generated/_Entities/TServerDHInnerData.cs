@@ -23,12 +23,14 @@ namespace OpenTl.Schema
        [SerializationOrder(2)]
        public int G {get; set;}
 
+       /// <summary>Binary representation for the 'DhPrime' property</summary>
        [SerializationOrder(3)]
        public byte[] DhPrimeAsBinary { get => _DhPrimeAsBinary; set { _DhPrime = Encoding.UTF8.GetString(value); _DhPrimeAsBinary = value; }}
        private byte[] _DhPrimeAsBinary;
        private string _DhPrime;
        public string DhPrime { get => _DhPrime; set { DhPrimeAsBinary = Encoding.UTF8.GetBytes(value); _DhPrime = value; }}
 
+       /// <summary>Binary representation for the 'GA' property</summary>
        [SerializationOrder(4)]
        public byte[] GAAsBinary { get => _GAAsBinary; set { _GA = Encoding.UTF8.GetString(value); _GAAsBinary = value; }}
        private byte[] _GAAsBinary;

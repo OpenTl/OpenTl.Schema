@@ -1,0 +1,117 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TEncryptedChatDiscarded
+  commentId: T:OpenTl.Schema.TEncryptedChatDiscarded
+  id: TEncryptedChatDiscarded
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TEncryptedChatDiscarded.Id
+  langs:
+  - csharp
+  - vb
+  name: TEncryptedChatDiscarded
+  nameWithType: TEncryptedChatDiscarded
+  fullName: OpenTl.Schema.TEncryptedChatDiscarded
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChatDiscarded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TEncryptedChatDiscarded
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChatDiscarded.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TEncryptedChatDiscarded : object, IEncryptedChat, IObject'
+    content.vb: >-
+      Public Class TEncryptedChatDiscarded
+
+          Inherits Object
+
+          Implements IEncryptedChat, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IEncryptedChat
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TEncryptedChatDiscarded.Id
+  commentId: P:OpenTl.Schema.TEncryptedChatDiscarded.Id
+  id: Id
+  parent: OpenTl.Schema.TEncryptedChatDiscarded
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TEncryptedChatDiscarded.Id
+  fullName: OpenTl.Schema.TEncryptedChatDiscarded.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChatDiscarded.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/EncryptedChat/TEncryptedChatDiscarded.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.TEncryptedChatDiscarded.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IEncryptedChat
+  commentId: T:OpenTl.Schema.IEncryptedChat
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEncryptedChat
+  nameWithType: IEncryptedChat
+  fullName: OpenTl.Schema.IEncryptedChat
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TEncryptedChatDiscarded.Id*
+  commentId: Overload:OpenTl.Schema.TEncryptedChatDiscarded.Id
+  isExternal: false
+  name: Id
+  nameWithType: TEncryptedChatDiscarded.Id
+  fullName: OpenTl.Schema.TEncryptedChatDiscarded.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,462 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateBotInlineQuery
+  commentId: T:OpenTl.Schema.TUpdateBotInlineQuery
+  id: TUpdateBotInlineQuery
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateBotInlineQuery.Flags
+  - OpenTl.Schema.TUpdateBotInlineQuery.Geo
+  - OpenTl.Schema.TUpdateBotInlineQuery.Offset
+  - OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+  - OpenTl.Schema.TUpdateBotInlineQuery.Query
+  - OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+  - OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+  - OpenTl.Schema.TUpdateBotInlineQuery.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateBotInlineQuery
+  nameWithType: TUpdateBotInlineQuery
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateBotInlineQuery
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateBotInlineQuery : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateBotInlineQuery
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Flags
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateBotInlineQuery.Flags
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: TUpdateBotInlineQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.UserId
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateBotInlineQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+  id: QueryAsBinary
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryAsBinary
+  nameWithType: TUpdateBotInlineQuery.QueryAsBinary
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Query&apos; property
+  example: []
+  syntax:
+    content: public byte[] QueryAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property QueryAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Query
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.Query
+  id: Query
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: TUpdateBotInlineQuery.Query
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Query
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Query
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Query { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Query As String
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.Query*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Geo
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.Geo
+  id: Geo
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: Geo
+  nameWithType: TUpdateBotInlineQuery.Geo
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Geo
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Geo
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IGeoPoint Geo { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IGeoPoint
+    content.vb: Public Property Geo As IGeoPoint
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.Geo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+  id: OffsetAsBinary
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: OffsetAsBinary
+  nameWithType: TUpdateBotInlineQuery.OffsetAsBinary
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: OffsetAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 35
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Offset&apos; property
+  example: []
+  syntax:
+    content: public byte[] OffsetAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property OffsetAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Offset
+  commentId: P:OpenTl.Schema.TUpdateBotInlineQuery.Offset
+  id: Offset
+  parent: OpenTl.Schema.TUpdateBotInlineQuery
+  langs:
+  - csharp
+  - vb
+  name: Offset
+  nameWithType: TUpdateBotInlineQuery.Offset
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Offset
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Offset
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotInlineQuery.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Offset { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Offset As String
+  overload: OpenTl.Schema.TUpdateBotInlineQuery.Offset*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateBotInlineQuery.Flags
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.QueryId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: TUpdateBotInlineQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateBotInlineQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+  isExternal: false
+  name: QueryAsBinary
+  nameWithType: TUpdateBotInlineQuery.QueryAsBinary
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.QueryAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Query*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.Query
+  isExternal: false
+  name: Query
+  nameWithType: TUpdateBotInlineQuery.Query
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Query
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Geo*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.Geo
+  isExternal: false
+  name: Geo
+  nameWithType: TUpdateBotInlineQuery.Geo
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Geo
+- uid: OpenTl.Schema.IGeoPoint
+  commentId: T:OpenTl.Schema.IGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IGeoPoint
+  nameWithType: IGeoPoint
+  fullName: OpenTl.Schema.IGeoPoint
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+  isExternal: false
+  name: OffsetAsBinary
+  nameWithType: TUpdateBotInlineQuery.OffsetAsBinary
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.OffsetAsBinary
+- uid: OpenTl.Schema.TUpdateBotInlineQuery.Offset*
+  commentId: Overload:OpenTl.Schema.TUpdateBotInlineQuery.Offset
+  isExternal: false
+  name: Offset
+  nameWithType: TUpdateBotInlineQuery.Offset
+  fullName: OpenTl.Schema.TUpdateBotInlineQuery.Offset

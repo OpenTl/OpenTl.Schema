@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TAccountDaysTTL
+  commentId: T:OpenTl.Schema.TAccountDaysTTL
+  id: TAccountDaysTTL
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TAccountDaysTTL.Days
+  langs:
+  - csharp
+  - vb
+  name: TAccountDaysTTL
+  nameWithType: TAccountDaysTTL
+  fullName: OpenTl.Schema.TAccountDaysTTL
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/AccountDaysTTL/TAccountDaysTTL.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TAccountDaysTTL
+    path: ../src/OpenTl.Schema/_generated/_Entities/AccountDaysTTL/TAccountDaysTTL.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TAccountDaysTTL : object, IAccountDaysTTL, IObject'
+    content.vb: >-
+      Public Class TAccountDaysTTL
+
+          Inherits Object
+
+          Implements IAccountDaysTTL, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IAccountDaysTTL
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TAccountDaysTTL.Days
+  commentId: P:OpenTl.Schema.TAccountDaysTTL.Days
+  id: Days
+  parent: OpenTl.Schema.TAccountDaysTTL
+  langs:
+  - csharp
+  - vb
+  name: Days
+  nameWithType: TAccountDaysTTL.Days
+  fullName: OpenTl.Schema.TAccountDaysTTL.Days
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/AccountDaysTTL/TAccountDaysTTL.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Days
+    path: ../src/OpenTl.Schema/_generated/_Entities/AccountDaysTTL/TAccountDaysTTL.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Days { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Days As Integer
+  overload: OpenTl.Schema.TAccountDaysTTL.Days*
+  implements:
+  - OpenTl.Schema.IAccountDaysTTL.Days
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IAccountDaysTTL
+  commentId: T:OpenTl.Schema.IAccountDaysTTL
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IAccountDaysTTL
+  nameWithType: IAccountDaysTTL
+  fullName: OpenTl.Schema.IAccountDaysTTL
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TAccountDaysTTL.Days*
+  commentId: Overload:OpenTl.Schema.TAccountDaysTTL.Days
+  isExternal: false
+  name: Days
+  nameWithType: TAccountDaysTTL.Days
+  fullName: OpenTl.Schema.TAccountDaysTTL.Days
+- uid: OpenTl.Schema.IAccountDaysTTL.Days
+  commentId: P:OpenTl.Schema.IAccountDaysTTL.Days
+  parent: OpenTl.Schema.IAccountDaysTTL
+  isExternal: false
+  name: Days
+  nameWithType: IAccountDaysTTL.Days
+  fullName: OpenTl.Schema.IAccountDaysTTL.Days
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

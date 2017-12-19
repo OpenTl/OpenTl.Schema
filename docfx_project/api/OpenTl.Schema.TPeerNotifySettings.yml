@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TPeerNotifySettings
+  commentId: T:OpenTl.Schema.TPeerNotifySettings
+  id: TPeerNotifySettings
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TPeerNotifySettings.Flags
+  - OpenTl.Schema.TPeerNotifySettings.MuteUntil
+  - OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+  - OpenTl.Schema.TPeerNotifySettings.Silent
+  - OpenTl.Schema.TPeerNotifySettings.Sound
+  - OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TPeerNotifySettings
+  nameWithType: TPeerNotifySettings
+  fullName: OpenTl.Schema.TPeerNotifySettings
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TPeerNotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TPeerNotifySettings : object, IPeerNotifySettings, IObject'
+    content.vb: >-
+      Public Class TPeerNotifySettings
+
+          Inherits Object
+
+          Implements IPeerNotifySettings, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IPeerNotifySettings
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TPeerNotifySettings.Flags
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.Flags
+  id: Flags
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.TPeerNotifySettings.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TPeerNotifySettings.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+  id: ShowPreviews
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: ShowPreviews
+  nameWithType: TPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShowPreviews
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ShowPreviews { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShowPreviews As Boolean
+  overload: OpenTl.Schema.TPeerNotifySettings.ShowPreviews*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerNotifySettings.Silent
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.Silent
+  id: Silent
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Silent
+  nameWithType: TPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.TPeerNotifySettings.Silent
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Silent
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Silent { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Silent As Boolean
+  overload: OpenTl.Schema.TPeerNotifySettings.Silent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerNotifySettings.MuteUntil
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.MuteUntil
+  id: MuteUntil
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: MuteUntil
+  nameWithType: TPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.TPeerNotifySettings.MuteUntil
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MuteUntil
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int MuteUntil { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MuteUntil As Integer
+  overload: OpenTl.Schema.TPeerNotifySettings.MuteUntil*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+  id: SoundAsBinary
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: SoundAsBinary
+  nameWithType: TPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SoundAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Sound&apos; property
+  example: []
+  syntax:
+    content: public byte[] SoundAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property SoundAsBinary As Byte()
+  overload: OpenTl.Schema.TPeerNotifySettings.SoundAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TPeerNotifySettings.Sound
+  commentId: P:OpenTl.Schema.TPeerNotifySettings.Sound
+  id: Sound
+  parent: OpenTl.Schema.TPeerNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Sound
+  nameWithType: TPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.TPeerNotifySettings.Sound
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Sound
+    path: ../src/OpenTl.Schema/_generated/_Entities/PeerNotifySettings/TPeerNotifySettings.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Sound { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Sound As String
+  overload: OpenTl.Schema.TPeerNotifySettings.Sound*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IPeerNotifySettings
+  commentId: T:OpenTl.Schema.IPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifySettings
+  nameWithType: IPeerNotifySettings
+  fullName: OpenTl.Schema.IPeerNotifySettings
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TPeerNotifySettings.Flags*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TPeerNotifySettings.Flags
+  fullName: OpenTl.Schema.TPeerNotifySettings.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TPeerNotifySettings.ShowPreviews*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+  isExternal: false
+  name: ShowPreviews
+  nameWithType: TPeerNotifySettings.ShowPreviews
+  fullName: OpenTl.Schema.TPeerNotifySettings.ShowPreviews
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TPeerNotifySettings.Silent*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.Silent
+  isExternal: false
+  name: Silent
+  nameWithType: TPeerNotifySettings.Silent
+  fullName: OpenTl.Schema.TPeerNotifySettings.Silent
+- uid: OpenTl.Schema.TPeerNotifySettings.MuteUntil*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.MuteUntil
+  isExternal: false
+  name: MuteUntil
+  nameWithType: TPeerNotifySettings.MuteUntil
+  fullName: OpenTl.Schema.TPeerNotifySettings.MuteUntil
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TPeerNotifySettings.SoundAsBinary*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+  isExternal: false
+  name: SoundAsBinary
+  nameWithType: TPeerNotifySettings.SoundAsBinary
+  fullName: OpenTl.Schema.TPeerNotifySettings.SoundAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TPeerNotifySettings.Sound*
+  commentId: Overload:OpenTl.Schema.TPeerNotifySettings.Sound
+  isExternal: false
+  name: Sound
+  nameWithType: TPeerNotifySettings.Sound
+  fullName: OpenTl.Schema.TPeerNotifySettings.Sound
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

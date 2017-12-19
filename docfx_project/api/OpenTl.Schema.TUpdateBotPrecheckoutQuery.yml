@@ -1,0 +1,546 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  commentId: T:OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  id: TUpdateBotPrecheckoutQuery
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount
+  - OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+  langs:
+  - csharp
+  - vb
+  name: TUpdateBotPrecheckoutQuery
+  nameWithType: TUpdateBotPrecheckoutQuery
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateBotPrecheckoutQuery
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateBotPrecheckoutQuery : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateBotPrecheckoutQuery
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateBotPrecheckoutQuery.Flags
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: TUpdateBotPrecheckoutQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+  id: UserId
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TUpdateBotPrecheckoutQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+  id: Payload
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: TUpdateBotPrecheckoutQuery.Payload
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Payload
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public byte[] Payload { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Payload As Byte()
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+  id: Info
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: TUpdateBotPrecheckoutQuery.Info
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Info
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPaymentRequestedInfo Info { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPaymentRequestedInfo
+    content.vb: Public Property Info As IPaymentRequestedInfo
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  id: ShippingOptionIdAsBinary
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionIdAsBinary
+  nameWithType: TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionIdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ShippingOptionId&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShippingOptionIdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShippingOptionIdAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+  id: ShippingOptionId
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: ShippingOptionId
+  nameWithType: TUpdateBotPrecheckoutQuery.ShippingOptionId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingOptionId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ShippingOptionId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShippingOptionId As String
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  id: CurrencyAsBinary
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAsBinary
+  nameWithType: TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrencyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 39
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Currency&apos; property
+  example: []
+  syntax:
+    content: public byte[] CurrencyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrencyAsBinary As Byte()
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+  id: Currency
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TUpdateBotPrecheckoutQuery.Currency
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Currency
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 43
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount
+  commentId: P:OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount
+  id: TotalAmount
+  parent: OpenTl.Schema.TUpdateBotPrecheckoutQuery
+  langs:
+  - csharp
+  - vb
+  name: TotalAmount
+  nameWithType: TUpdateBotPrecheckoutQuery.TotalAmount
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TotalAmount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateBotPrecheckoutQuery.cs
+    startLine: 45
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long TotalAmount { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property TotalAmount As Long
+  overload: OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateBotPrecheckoutQuery.Flags
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: TUpdateBotPrecheckoutQuery.QueryId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TUpdateBotPrecheckoutQuery.UserId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+  isExternal: false
+  name: Payload
+  nameWithType: TUpdateBotPrecheckoutQuery.Payload
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Payload
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+  isExternal: false
+  name: Info
+  nameWithType: TUpdateBotPrecheckoutQuery.Info
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Info
+- uid: OpenTl.Schema.IPaymentRequestedInfo
+  commentId: T:OpenTl.Schema.IPaymentRequestedInfo
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPaymentRequestedInfo
+  nameWithType: IPaymentRequestedInfo
+  fullName: OpenTl.Schema.IPaymentRequestedInfo
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  isExternal: false
+  name: ShippingOptionIdAsBinary
+  nameWithType: TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionIdAsBinary
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+  isExternal: false
+  name: ShippingOptionId
+  nameWithType: TUpdateBotPrecheckoutQuery.ShippingOptionId
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.ShippingOptionId
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.CurrencyAsBinary
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: TUpdateBotPrecheckoutQuery.Currency
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.Currency
+- uid: OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount*
+  commentId: Overload:OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount
+  isExternal: false
+  name: TotalAmount
+  nameWithType: TUpdateBotPrecheckoutQuery.TotalAmount
+  fullName: OpenTl.Schema.TUpdateBotPrecheckoutQuery.TotalAmount

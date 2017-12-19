@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateNotifySettings
+  commentId: T:OpenTl.Schema.TUpdateNotifySettings
+  id: TUpdateNotifySettings
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+  - OpenTl.Schema.TUpdateNotifySettings.Peer
+  langs:
+  - csharp
+  - vb
+  name: TUpdateNotifySettings
+  nameWithType: TUpdateNotifySettings
+  fullName: OpenTl.Schema.TUpdateNotifySettings
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateNotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateNotifySettings : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateNotifySettings
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateNotifySettings.Peer
+  commentId: P:OpenTl.Schema.TUpdateNotifySettings.Peer
+  id: Peer
+  parent: OpenTl.Schema.TUpdateNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TUpdateNotifySettings.Peer
+  fullName: OpenTl.Schema.TUpdateNotifySettings.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public INotifyPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.INotifyPeer
+    content.vb: Public Property Peer As INotifyPeer
+  overload: OpenTl.Schema.TUpdateNotifySettings.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+  commentId: P:OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+  id: NotifySettings
+  parent: OpenTl.Schema.TUpdateNotifySettings
+  langs:
+  - csharp
+  - vb
+  name: NotifySettings
+  nameWithType: TUpdateNotifySettings.NotifySettings
+  fullName: OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NotifySettings
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateNotifySettings.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeerNotifySettings NotifySettings { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeerNotifySettings
+    content.vb: Public Property NotifySettings As IPeerNotifySettings
+  overload: OpenTl.Schema.TUpdateNotifySettings.NotifySettings*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateNotifySettings.Peer*
+  commentId: Overload:OpenTl.Schema.TUpdateNotifySettings.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TUpdateNotifySettings.Peer
+  fullName: OpenTl.Schema.TUpdateNotifySettings.Peer
+- uid: OpenTl.Schema.INotifyPeer
+  commentId: T:OpenTl.Schema.INotifyPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: INotifyPeer
+  nameWithType: INotifyPeer
+  fullName: OpenTl.Schema.INotifyPeer
+- uid: OpenTl.Schema.TUpdateNotifySettings.NotifySettings*
+  commentId: Overload:OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+  isExternal: false
+  name: NotifySettings
+  nameWithType: TUpdateNotifySettings.NotifySettings
+  fullName: OpenTl.Schema.TUpdateNotifySettings.NotifySettings
+- uid: OpenTl.Schema.IPeerNotifySettings
+  commentId: T:OpenTl.Schema.IPeerNotifySettings
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeerNotifySettings
+  nameWithType: IPeerNotifySettings
+  fullName: OpenTl.Schema.IPeerNotifySettings

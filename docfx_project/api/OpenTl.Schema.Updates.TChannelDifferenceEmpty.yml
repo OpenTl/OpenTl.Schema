@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  commentId: T:OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  id: TChannelDifferenceEmpty
+  parent: OpenTl.Schema.Updates
+  children:
+  - OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+  - OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+  - OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+  - OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout
+  langs:
+  - csharp
+  - vb
+  name: TChannelDifferenceEmpty
+  nameWithType: TChannelDifferenceEmpty
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelDifferenceEmpty
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: 'public class TChannelDifferenceEmpty : object, IChannelDifference, IObject, IEmpty'
+    content.vb: >-
+      Public Class TChannelDifferenceEmpty
+
+          Inherits Object
+
+          Implements IChannelDifference, IObject, IEmpty
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Updates.IChannelDifference
+  - OpenTl.Schema.IObject
+  - OpenTl.Schema.IEmpty
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+  commentId: P:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+  id: Flags
+  parent: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TChannelDifferenceEmpty.Flags
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+  commentId: P:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+  id: Final
+  parent: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Final
+  nameWithType: TChannelDifferenceEmpty.Final
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Final
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public bool Final { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Final As Boolean
+  overload: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+  commentId: P:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+  id: Pts
+  parent: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TChannelDifferenceEmpty.Pts
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout
+  commentId: P:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout
+  id: Timeout
+  parent: OpenTl.Schema.Updates.TChannelDifferenceEmpty
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: TChannelDifferenceEmpty.Timeout
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Timeout
+    path: ../src/OpenTl.Schema/_generated/Updates/ChannelDifference/TChannelDifferenceEmpty.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Updates
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Updates
+  commentId: N:OpenTl.Schema.Updates
+  isExternal: false
+  name: OpenTl.Schema.Updates
+  nameWithType: OpenTl.Schema.Updates
+  fullName: OpenTl.Schema.Updates
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Updates.IChannelDifference
+  commentId: T:OpenTl.Schema.Updates.IChannelDifference
+  parent: OpenTl.Schema.Updates
+  isExternal: false
+  name: IChannelDifference
+  nameWithType: IChannelDifference
+  fullName: OpenTl.Schema.Updates.IChannelDifference
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IEmpty
+  commentId: T:OpenTl.Schema.IEmpty
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IEmpty
+  nameWithType: IEmpty
+  fullName: OpenTl.Schema.IEmpty
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TChannelDifferenceEmpty.Flags
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+  isExternal: false
+  name: Final
+  nameWithType: TChannelDifferenceEmpty.Final
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Final
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TChannelDifferenceEmpty.Pts
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Pts
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout*
+  commentId: Overload:OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: TChannelDifferenceEmpty.Timeout
+  fullName: OpenTl.Schema.Updates.TChannelDifferenceEmpty.Timeout

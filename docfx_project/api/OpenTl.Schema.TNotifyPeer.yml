@@ -1,0 +1,119 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TNotifyPeer
+  commentId: T:OpenTl.Schema.TNotifyPeer
+  id: TNotifyPeer
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TNotifyPeer.Peer
+  langs:
+  - csharp
+  - vb
+  name: TNotifyPeer
+  nameWithType: TNotifyPeer
+  fullName: OpenTl.Schema.TNotifyPeer
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NotifyPeer/TNotifyPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TNotifyPeer
+    path: ../src/OpenTl.Schema/_generated/_Entities/NotifyPeer/TNotifyPeer.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TNotifyPeer : object, INotifyPeer, IObject'
+    content.vb: >-
+      Public Class TNotifyPeer
+
+          Inherits Object
+
+          Implements INotifyPeer, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.INotifyPeer
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TNotifyPeer.Peer
+  commentId: P:OpenTl.Schema.TNotifyPeer.Peer
+  id: Peer
+  parent: OpenTl.Schema.TNotifyPeer
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TNotifyPeer.Peer
+  fullName: OpenTl.Schema.TNotifyPeer.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/NotifyPeer/TNotifyPeer.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/NotifyPeer/TNotifyPeer.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TNotifyPeer.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.INotifyPeer
+  commentId: T:OpenTl.Schema.INotifyPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: INotifyPeer
+  nameWithType: INotifyPeer
+  fullName: OpenTl.Schema.INotifyPeer
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TNotifyPeer.Peer*
+  commentId: Overload:OpenTl.Schema.TNotifyPeer.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TNotifyPeer.Peer
+  fullName: OpenTl.Schema.TNotifyPeer.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer

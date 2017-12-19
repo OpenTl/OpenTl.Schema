@@ -1,0 +1,819 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.IStickerSet
+  commentId: T:OpenTl.Schema.IStickerSet
+  id: IStickerSet
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.IStickerSet.AccessHash
+  - OpenTl.Schema.IStickerSet.Archived
+  - OpenTl.Schema.IStickerSet.Count
+  - OpenTl.Schema.IStickerSet.Flags
+  - OpenTl.Schema.IStickerSet.Hash
+  - OpenTl.Schema.IStickerSet.Id
+  - OpenTl.Schema.IStickerSet.Installed
+  - OpenTl.Schema.IStickerSet.Masks
+  - OpenTl.Schema.IStickerSet.Official
+  - OpenTl.Schema.IStickerSet.ShortName
+  - OpenTl.Schema.IStickerSet.ShortNameAsBinary
+  - OpenTl.Schema.IStickerSet.Title
+  - OpenTl.Schema.IStickerSet.TitleAsBinary
+  langs:
+  - csharp
+  - vb
+  name: IStickerSet
+  nameWithType: IStickerSet
+  fullName: OpenTl.Schema.IStickerSet
+  type: Interface
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IStickerSet
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 9
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public interface IStickerSet : IObject'
+    content.vb: >-
+      Public Interface IStickerSet
+
+          Inherits IObject
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: OpenTl.Schema.IStickerSet.Flags
+  commentId: P:OpenTl.Schema.IStickerSet.Flags
+  id: Flags
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: IStickerSet.Flags
+  fullName: OpenTl.Schema.IStickerSet.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Property Flags As BitArray
+  overload: OpenTl.Schema.IStickerSet.Flags*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Installed
+  commentId: P:OpenTl.Schema.IStickerSet.Installed
+  id: Installed
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Installed
+  nameWithType: IStickerSet.Installed
+  fullName: OpenTl.Schema.IStickerSet.Installed
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Installed
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 13
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Installed { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Installed As Boolean
+  overload: OpenTl.Schema.IStickerSet.Installed*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Archived
+  commentId: P:OpenTl.Schema.IStickerSet.Archived
+  id: Archived
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Archived
+  nameWithType: IStickerSet.Archived
+  fullName: OpenTl.Schema.IStickerSet.Archived
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Archived
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Archived { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Archived As Boolean
+  overload: OpenTl.Schema.IStickerSet.Archived*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Official
+  commentId: P:OpenTl.Schema.IStickerSet.Official
+  id: Official
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Official
+  nameWithType: IStickerSet.Official
+  fullName: OpenTl.Schema.IStickerSet.Official
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Official
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Official { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Official As Boolean
+  overload: OpenTl.Schema.IStickerSet.Official*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Masks
+  commentId: P:OpenTl.Schema.IStickerSet.Masks
+  id: Masks
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Masks
+  nameWithType: IStickerSet.Masks
+  fullName: OpenTl.Schema.IStickerSet.Masks
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Masks
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool Masks { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property Masks As Boolean
+  overload: OpenTl.Schema.IStickerSet.Masks*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Id
+  commentId: P:OpenTl.Schema.IStickerSet.Id
+  id: Id
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: IStickerSet.Id
+  fullName: OpenTl.Schema.IStickerSet.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: long Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property Id As Long
+  overload: OpenTl.Schema.IStickerSet.Id*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.AccessHash
+  commentId: P:OpenTl.Schema.IStickerSet.AccessHash
+  id: AccessHash
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: AccessHash
+  nameWithType: IStickerSet.AccessHash
+  fullName: OpenTl.Schema.IStickerSet.AccessHash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: AccessHash
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: long AccessHash { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Property AccessHash As Long
+  overload: OpenTl.Schema.IStickerSet.AccessHash*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.TitleAsBinary
+  commentId: P:OpenTl.Schema.IStickerSet.TitleAsBinary
+  id: TitleAsBinary
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: TitleAsBinary
+  nameWithType: IStickerSet.TitleAsBinary
+  fullName: OpenTl.Schema.IStickerSet.TitleAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TitleAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] TitleAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property TitleAsBinary As Byte()
+  overload: OpenTl.Schema.IStickerSet.TitleAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Title
+  commentId: P:OpenTl.Schema.IStickerSet.Title
+  id: Title
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Title
+  nameWithType: IStickerSet.Title
+  fullName: OpenTl.Schema.IStickerSet.Title
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Title
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string Title { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Title As String
+  overload: OpenTl.Schema.IStickerSet.Title*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.ShortNameAsBinary
+  commentId: P:OpenTl.Schema.IStickerSet.ShortNameAsBinary
+  id: ShortNameAsBinary
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: ShortNameAsBinary
+  nameWithType: IStickerSet.ShortNameAsBinary
+  fullName: OpenTl.Schema.IStickerSet.ShortNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: byte[] ShortNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Property ShortNameAsBinary As Byte()
+  overload: OpenTl.Schema.IStickerSet.ShortNameAsBinary*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.ShortName
+  commentId: P:OpenTl.Schema.IStickerSet.ShortName
+  id: ShortName
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: IStickerSet.ShortName
+  fullName: OpenTl.Schema.IStickerSet.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ShortName As String
+  overload: OpenTl.Schema.IStickerSet.ShortName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Count
+  commentId: P:OpenTl.Schema.IStickerSet.Count
+  id: Count
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: IStickerSet.Count
+  fullName: OpenTl.Schema.IStickerSet.Count
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Count
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Count { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Count As Integer
+  overload: OpenTl.Schema.IStickerSet.Count*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IStickerSet.Hash
+  commentId: P:OpenTl.Schema.IStickerSet.Hash
+  id: Hash
+  parent: OpenTl.Schema.IStickerSet
+  langs:
+  - csharp
+  - vb
+  name: Hash
+  nameWithType: IStickerSet.Hash
+  fullName: OpenTl.Schema.IStickerSet.Hash
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Hash
+    path: ../src/OpenTl.Schema/_generated/_Entities/StickerSet/IStickerSet.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int Hash { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Hash As Integer
+  overload: OpenTl.Schema.IStickerSet.Hash*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IStickerSet.Flags*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: IStickerSet.Flags
+  fullName: OpenTl.Schema.IStickerSet.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.IStickerSet.Installed*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Installed
+  isExternal: false
+  name: Installed
+  nameWithType: IStickerSet.Installed
+  fullName: OpenTl.Schema.IStickerSet.Installed
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.IStickerSet.Archived*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Archived
+  isExternal: false
+  name: Archived
+  nameWithType: IStickerSet.Archived
+  fullName: OpenTl.Schema.IStickerSet.Archived
+- uid: OpenTl.Schema.IStickerSet.Official*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Official
+  isExternal: false
+  name: Official
+  nameWithType: IStickerSet.Official
+  fullName: OpenTl.Schema.IStickerSet.Official
+- uid: OpenTl.Schema.IStickerSet.Masks*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Masks
+  isExternal: false
+  name: Masks
+  nameWithType: IStickerSet.Masks
+  fullName: OpenTl.Schema.IStickerSet.Masks
+- uid: OpenTl.Schema.IStickerSet.Id*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Id
+  isExternal: false
+  name: Id
+  nameWithType: IStickerSet.Id
+  fullName: OpenTl.Schema.IStickerSet.Id
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.IStickerSet.AccessHash*
+  commentId: Overload:OpenTl.Schema.IStickerSet.AccessHash
+  isExternal: false
+  name: AccessHash
+  nameWithType: IStickerSet.AccessHash
+  fullName: OpenTl.Schema.IStickerSet.AccessHash
+- uid: OpenTl.Schema.IStickerSet.TitleAsBinary*
+  commentId: Overload:OpenTl.Schema.IStickerSet.TitleAsBinary
+  isExternal: false
+  name: TitleAsBinary
+  nameWithType: IStickerSet.TitleAsBinary
+  fullName: OpenTl.Schema.IStickerSet.TitleAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.IStickerSet.Title*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Title
+  isExternal: false
+  name: Title
+  nameWithType: IStickerSet.Title
+  fullName: OpenTl.Schema.IStickerSet.Title
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.IStickerSet.ShortNameAsBinary*
+  commentId: Overload:OpenTl.Schema.IStickerSet.ShortNameAsBinary
+  isExternal: false
+  name: ShortNameAsBinary
+  nameWithType: IStickerSet.ShortNameAsBinary
+  fullName: OpenTl.Schema.IStickerSet.ShortNameAsBinary
+- uid: OpenTl.Schema.IStickerSet.ShortName*
+  commentId: Overload:OpenTl.Schema.IStickerSet.ShortName
+  isExternal: false
+  name: ShortName
+  nameWithType: IStickerSet.ShortName
+  fullName: OpenTl.Schema.IStickerSet.ShortName
+- uid: OpenTl.Schema.IStickerSet.Count*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Count
+  isExternal: false
+  name: Count
+  nameWithType: IStickerSet.Count
+  fullName: OpenTl.Schema.IStickerSet.Count
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.IStickerSet.Hash*
+  commentId: Overload:OpenTl.Schema.IStickerSet.Hash
+  isExternal: false
+  name: Hash
+  nameWithType: IStickerSet.Hash
+  fullName: OpenTl.Schema.IStickerSet.Hash

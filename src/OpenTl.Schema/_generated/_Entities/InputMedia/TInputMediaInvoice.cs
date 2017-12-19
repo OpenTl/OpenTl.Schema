@@ -15,12 +15,14 @@ namespace OpenTl.Schema
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
+       /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(1)]
        public byte[] TitleAsBinary { get => _TitleAsBinary; set { _Title = Encoding.UTF8.GetString(value); _TitleAsBinary = value; }}
        private byte[] _TitleAsBinary;
        private string _Title;
        public string Title { get => _Title; set { TitleAsBinary = Encoding.UTF8.GetBytes(value); _Title = value; }}
 
+       /// <summary>Binary representation for the 'Description' property</summary>
        [SerializationOrder(2)]
        public byte[] DescriptionAsBinary { get => _DescriptionAsBinary; set { _Description = Encoding.UTF8.GetString(value); _DescriptionAsBinary = value; }}
        private byte[] _DescriptionAsBinary;
@@ -37,12 +39,14 @@ namespace OpenTl.Schema
        [SerializationOrder(5)]
        public byte[] Payload {get; set;}
 
+       /// <summary>Binary representation for the 'Provider' property</summary>
        [SerializationOrder(6)]
        public byte[] ProviderAsBinary { get => _ProviderAsBinary; set { _Provider = Encoding.UTF8.GetString(value); _ProviderAsBinary = value; }}
        private byte[] _ProviderAsBinary;
        private string _Provider;
        public string Provider { get => _Provider; set { ProviderAsBinary = Encoding.UTF8.GetBytes(value); _Provider = value; }}
 
+       /// <summary>Binary representation for the 'StartParam' property</summary>
        [SerializationOrder(7)]
        public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
        private byte[] _StartParamAsBinary;

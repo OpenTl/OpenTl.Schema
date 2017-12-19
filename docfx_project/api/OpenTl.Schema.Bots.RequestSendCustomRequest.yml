@@ -1,0 +1,319 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest
+  commentId: T:OpenTl.Schema.Bots.RequestSendCustomRequest
+  id: RequestSendCustomRequest
+  parent: OpenTl.Schema.Bots
+  children:
+  - OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+  - OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+  - OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+  langs:
+  - csharp
+  - vb
+  name: RequestSendCustomRequest
+  nameWithType: RequestSendCustomRequest
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSendCustomRequest
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: 'public class RequestSendCustomRequest : object, IRequest<IDataJSON>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSendCustomRequest
+
+          Inherits Object
+
+          Implements IRequest(Of IDataJSON), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IDataJSON}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+  commentId: P:OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+  id: CustomMethodAsBinary
+  parent: OpenTl.Schema.Bots.RequestSendCustomRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomMethodAsBinary
+  nameWithType: RequestSendCustomRequest.CustomMethodAsBinary
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CustomMethodAsBinary
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  summary: Binary representation for the &apos;CustomMethod&apos; property
+  example: []
+  syntax:
+    content: public byte[] CustomMethodAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CustomMethodAsBinary As Byte()
+  overload: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+  commentId: P:OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+  id: CustomMethod
+  parent: OpenTl.Schema.Bots.RequestSendCustomRequest
+  langs:
+  - csharp
+  - vb
+  name: CustomMethod
+  nameWithType: RequestSendCustomRequest.CustomMethod
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CustomMethod
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: public string CustomMethod { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomMethod As String
+  overload: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+  commentId: P:OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+  id: Params
+  parent: OpenTl.Schema.Bots.RequestSendCustomRequest
+  langs:
+  - csharp
+  - vb
+  name: Params
+  nameWithType: RequestSendCustomRequest.Params
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Params
+    path: ../src/OpenTl.Schema/_generated/Bots/RequestSendCustomRequest.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Bots
+  syntax:
+    content: public IDataJSON Params { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IDataJSON
+    content.vb: Public Property Params As IDataJSON
+  overload: OpenTl.Schema.Bots.RequestSendCustomRequest.Params*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Bots
+  commentId: N:OpenTl.Schema.Bots
+  isExternal: false
+  name: OpenTl.Schema.Bots
+  nameWithType: OpenTl.Schema.Bots
+  fullName: OpenTl.Schema.Bots
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IDataJSON}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IDataJSON}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IDataJSON>
+  nameWithType: IRequest<IDataJSON>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IDataJSON>
+  nameWithType.vb: IRequest(Of IDataJSON)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IDataJSON)
+  name.vb: IRequest(Of IDataJSON)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IDataJSON
+    name: IDataJSON
+    nameWithType: IDataJSON
+    fullName: OpenTl.Schema.IDataJSON
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IDataJSON
+    name: IDataJSON
+    nameWithType: IDataJSON
+    fullName: OpenTl.Schema.IDataJSON
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary*
+  commentId: Overload:OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+  isExternal: false
+  name: CustomMethodAsBinary
+  nameWithType: RequestSendCustomRequest.CustomMethodAsBinary
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethodAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod*
+  commentId: Overload:OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+  isExternal: false
+  name: CustomMethod
+  nameWithType: RequestSendCustomRequest.CustomMethod
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.CustomMethod
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Bots.RequestSendCustomRequest.Params*
+  commentId: Overload:OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+  isExternal: false
+  name: Params
+  nameWithType: RequestSendCustomRequest.Params
+  fullName: OpenTl.Schema.Bots.RequestSendCustomRequest.Params
+- uid: OpenTl.Schema.IDataJSON
+  commentId: T:OpenTl.Schema.IDataJSON
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDataJSON
+  nameWithType: IDataJSON
+  fullName: OpenTl.Schema.IDataJSON

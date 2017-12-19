@@ -12,6 +12,7 @@ namespace OpenTl.Schema
 	[Serialize(0xa3b54985)]
 	public class TChannelParticipantsKicked : IChannelParticipantsFilter
 	{
+       /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]
        public byte[] QAsBinary { get => _QAsBinary; set { _Q = Encoding.UTF8.GetString(value); _QAsBinary = value; }}
        private byte[] _QAsBinary;

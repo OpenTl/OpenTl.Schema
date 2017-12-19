@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestReceivedMessages
+  commentId: T:OpenTl.Schema.Messages.RequestReceivedMessages
+  id: RequestReceivedMessages
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+  langs:
+  - csharp
+  - vb
+  name: RequestReceivedMessages
+  nameWithType: RequestReceivedMessages
+  fullName: OpenTl.Schema.Messages.RequestReceivedMessages
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestReceivedMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestReceivedMessages
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestReceivedMessages.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestReceivedMessages : object, IRequest<TVector<TReceivedNotifyMessage>>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestReceivedMessages
+
+          Inherits Object
+
+          Implements IRequest(Of TVector(Of TReceivedNotifyMessage)), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.TReceivedNotifyMessage}}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+  commentId: P:OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+  id: MaxId
+  parent: OpenTl.Schema.Messages.RequestReceivedMessages
+  langs:
+  - csharp
+  - vb
+  name: MaxId
+  nameWithType: RequestReceivedMessages.MaxId
+  fullName: OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestReceivedMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MaxId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestReceivedMessages.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int MaxId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxId As Integer
+  overload: OpenTl.Schema.Messages.RequestReceivedMessages.MaxId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.TReceivedNotifyMessage}}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.TVector{OpenTl.Schema.TReceivedNotifyMessage}}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<TVector<TReceivedNotifyMessage>>
+  nameWithType: IRequest<TVector<TReceivedNotifyMessage>>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.TVector<OpenTl.Schema.TReceivedNotifyMessage>>
+  nameWithType.vb: IRequest(Of TVector(Of TReceivedNotifyMessage))
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.TVector(Of OpenTl.Schema.TReceivedNotifyMessage))
+  name.vb: IRequest(Of TVector(Of TReceivedNotifyMessage))
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.TReceivedNotifyMessage
+    name: TReceivedNotifyMessage
+    nameWithType: TReceivedNotifyMessage
+    fullName: OpenTl.Schema.TReceivedNotifyMessage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.TReceivedNotifyMessage
+    name: TReceivedNotifyMessage
+    nameWithType: TReceivedNotifyMessage
+    fullName: OpenTl.Schema.TReceivedNotifyMessage
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestReceivedMessages.MaxId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+  isExternal: false
+  name: MaxId
+  nameWithType: RequestReceivedMessages.MaxId
+  fullName: OpenTl.Schema.Messages.RequestReceivedMessages.MaxId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

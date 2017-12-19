@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TContact
+  commentId: T:OpenTl.Schema.TContact
+  id: TContact
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TContact.Mutual
+  - OpenTl.Schema.TContact.UserId
+  langs:
+  - csharp
+  - vb
+  name: TContact
+  nameWithType: TContact
+  fullName: OpenTl.Schema.TContact
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TContact
+    path: ../src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TContact : object, IContact, IObject'
+    content.vb: >-
+      Public Class TContact
+
+          Inherits Object
+
+          Implements IContact, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IContact
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TContact.UserId
+  commentId: P:OpenTl.Schema.TContact.UserId
+  id: UserId
+  parent: OpenTl.Schema.TContact
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: TContact.UserId
+  fullName: OpenTl.Schema.TContact.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int UserId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property UserId As Integer
+  overload: OpenTl.Schema.TContact.UserId*
+  implements:
+  - OpenTl.Schema.IContact.UserId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TContact.Mutual
+  commentId: P:OpenTl.Schema.TContact.Mutual
+  id: Mutual
+  parent: OpenTl.Schema.TContact
+  langs:
+  - csharp
+  - vb
+  name: Mutual
+  nameWithType: TContact.Mutual
+  fullName: OpenTl.Schema.TContact.Mutual
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Mutual
+    path: ../src/OpenTl.Schema/_generated/_Entities/Contact/TContact.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Mutual { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Mutual As Boolean
+  overload: OpenTl.Schema.TContact.Mutual*
+  implements:
+  - OpenTl.Schema.IContact.Mutual
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IContact
+  commentId: T:OpenTl.Schema.IContact
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IContact
+  nameWithType: IContact
+  fullName: OpenTl.Schema.IContact
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TContact.UserId*
+  commentId: Overload:OpenTl.Schema.TContact.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: TContact.UserId
+  fullName: OpenTl.Schema.TContact.UserId
+- uid: OpenTl.Schema.IContact.UserId
+  commentId: P:OpenTl.Schema.IContact.UserId
+  parent: OpenTl.Schema.IContact
+  isExternal: false
+  name: UserId
+  nameWithType: IContact.UserId
+  fullName: OpenTl.Schema.IContact.UserId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TContact.Mutual*
+  commentId: Overload:OpenTl.Schema.TContact.Mutual
+  isExternal: false
+  name: Mutual
+  nameWithType: TContact.Mutual
+  fullName: OpenTl.Schema.TContact.Mutual
+- uid: OpenTl.Schema.IContact.Mutual
+  commentId: P:OpenTl.Schema.IContact.Mutual
+  parent: OpenTl.Schema.IContact
+  isExternal: false
+  name: Mutual
+  nameWithType: IContact.Mutual
+  fullName: OpenTl.Schema.IContact.Mutual
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

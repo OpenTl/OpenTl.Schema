@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Help.TTermsOfService
+  commentId: T:OpenTl.Schema.Help.TTermsOfService
+  id: TTermsOfService
+  parent: OpenTl.Schema.Help
+  children:
+  - OpenTl.Schema.Help.TTermsOfService.Text
+  - OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TTermsOfService
+  nameWithType: TTermsOfService
+  fullName: OpenTl.Schema.Help.TTermsOfService
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTermsOfService
+    path: ../src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: 'public class TTermsOfService : object, ITermsOfService, IObject'
+    content.vb: >-
+      Public Class TTermsOfService
+
+          Inherits Object
+
+          Implements ITermsOfService, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Help.ITermsOfService
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+  commentId: P:OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+  id: TextAsBinary
+  parent: OpenTl.Schema.Help.TTermsOfService
+  langs:
+  - csharp
+  - vb
+  name: TextAsBinary
+  nameWithType: TTermsOfService.TextAsBinary
+  fullName: OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TextAsBinary
+    path: ../src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  summary: Binary representation for the &apos;Text&apos; property
+  example: []
+  syntax:
+    content: public byte[] TextAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property TextAsBinary As Byte()
+  overload: OpenTl.Schema.Help.TTermsOfService.TextAsBinary*
+  implements:
+  - OpenTl.Schema.Help.ITermsOfService.TextAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Help.TTermsOfService.Text
+  commentId: P:OpenTl.Schema.Help.TTermsOfService.Text
+  id: Text
+  parent: OpenTl.Schema.Help.TTermsOfService
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TTermsOfService.Text
+  fullName: OpenTl.Schema.Help.TTermsOfService.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/Help/TermsOfService/TTermsOfService.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Help
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: OpenTl.Schema.Help.TTermsOfService.Text*
+  implements:
+  - OpenTl.Schema.Help.ITermsOfService.Text
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Help
+  commentId: N:OpenTl.Schema.Help
+  isExternal: false
+  name: OpenTl.Schema.Help
+  nameWithType: OpenTl.Schema.Help
+  fullName: OpenTl.Schema.Help
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Help.ITermsOfService
+  commentId: T:OpenTl.Schema.Help.ITermsOfService
+  parent: OpenTl.Schema.Help
+  isExternal: false
+  name: ITermsOfService
+  nameWithType: ITermsOfService
+  fullName: OpenTl.Schema.Help.ITermsOfService
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Help.TTermsOfService.TextAsBinary*
+  commentId: Overload:OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: TTermsOfService.TextAsBinary
+  fullName: OpenTl.Schema.Help.TTermsOfService.TextAsBinary
+- uid: OpenTl.Schema.Help.ITermsOfService.TextAsBinary
+  commentId: P:OpenTl.Schema.Help.ITermsOfService.TextAsBinary
+  parent: OpenTl.Schema.Help.ITermsOfService
+  isExternal: false
+  name: TextAsBinary
+  nameWithType: ITermsOfService.TextAsBinary
+  fullName: OpenTl.Schema.Help.ITermsOfService.TextAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Help.TTermsOfService.Text*
+  commentId: Overload:OpenTl.Schema.Help.TTermsOfService.Text
+  isExternal: false
+  name: Text
+  nameWithType: TTermsOfService.Text
+  fullName: OpenTl.Schema.Help.TTermsOfService.Text
+- uid: OpenTl.Schema.Help.ITermsOfService.Text
+  commentId: P:OpenTl.Schema.Help.ITermsOfService.Text
+  parent: OpenTl.Schema.Help.ITermsOfService
+  isExternal: false
+  name: Text
+  nameWithType: ITermsOfService.Text
+  fullName: OpenTl.Schema.Help.ITermsOfService.Text
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

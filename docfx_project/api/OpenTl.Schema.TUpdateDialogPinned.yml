@@ -1,0 +1,213 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateDialogPinned
+  commentId: T:OpenTl.Schema.TUpdateDialogPinned
+  id: TUpdateDialogPinned
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateDialogPinned.Flags
+  - OpenTl.Schema.TUpdateDialogPinned.Peer
+  - OpenTl.Schema.TUpdateDialogPinned.Pinned
+  langs:
+  - csharp
+  - vb
+  name: TUpdateDialogPinned
+  nameWithType: TUpdateDialogPinned
+  fullName: OpenTl.Schema.TUpdateDialogPinned
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateDialogPinned
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateDialogPinned : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateDialogPinned
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateDialogPinned.Flags
+  commentId: P:OpenTl.Schema.TUpdateDialogPinned.Flags
+  id: Flags
+  parent: OpenTl.Schema.TUpdateDialogPinned
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TUpdateDialogPinned.Flags
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TUpdateDialogPinned.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDialogPinned.Pinned
+  commentId: P:OpenTl.Schema.TUpdateDialogPinned.Pinned
+  id: Pinned
+  parent: OpenTl.Schema.TUpdateDialogPinned
+  langs:
+  - csharp
+  - vb
+  name: Pinned
+  nameWithType: TUpdateDialogPinned.Pinned
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Pinned
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pinned
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Pinned { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Pinned As Boolean
+  overload: OpenTl.Schema.TUpdateDialogPinned.Pinned*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDialogPinned.Peer
+  commentId: P:OpenTl.Schema.TUpdateDialogPinned.Peer
+  id: Peer
+  parent: OpenTl.Schema.TUpdateDialogPinned
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: TUpdateDialogPinned.Peer
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDialogPinned.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Public Property Peer As IPeer
+  overload: OpenTl.Schema.TUpdateDialogPinned.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateDialogPinned.Flags*
+  commentId: Overload:OpenTl.Schema.TUpdateDialogPinned.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TUpdateDialogPinned.Flags
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TUpdateDialogPinned.Pinned*
+  commentId: Overload:OpenTl.Schema.TUpdateDialogPinned.Pinned
+  isExternal: false
+  name: Pinned
+  nameWithType: TUpdateDialogPinned.Pinned
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Pinned
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TUpdateDialogPinned.Peer*
+  commentId: Overload:OpenTl.Schema.TUpdateDialogPinned.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: TUpdateDialogPinned.Peer
+  fullName: OpenTl.Schema.TUpdateDialogPinned.Peer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer

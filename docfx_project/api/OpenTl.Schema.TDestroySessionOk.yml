@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TDestroySessionOk
+  commentId: T:OpenTl.Schema.TDestroySessionOk
+  id: TDestroySessionOk
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TDestroySessionOk.SessionId
+  langs:
+  - csharp
+  - vb
+  name: TDestroySessionOk
+  nameWithType: TDestroySessionOk
+  fullName: OpenTl.Schema.TDestroySessionOk
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DestroySessionRes/TDestroySessionOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TDestroySessionOk
+    path: ../src/OpenTl.Schema/_generated/_Entities/DestroySessionRes/TDestroySessionOk.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TDestroySessionOk : object, IDestroySessionRes, IObject'
+    content.vb: >-
+      Public Class TDestroySessionOk
+
+          Inherits Object
+
+          Implements IDestroySessionRes, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IDestroySessionRes
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TDestroySessionOk.SessionId
+  commentId: P:OpenTl.Schema.TDestroySessionOk.SessionId
+  id: SessionId
+  parent: OpenTl.Schema.TDestroySessionOk
+  langs:
+  - csharp
+  - vb
+  name: SessionId
+  nameWithType: TDestroySessionOk.SessionId
+  fullName: OpenTl.Schema.TDestroySessionOk.SessionId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/DestroySessionRes/TDestroySessionOk.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SessionId
+    path: ../src/OpenTl.Schema/_generated/_Entities/DestroySessionRes/TDestroySessionOk.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long SessionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property SessionId As Long
+  overload: OpenTl.Schema.TDestroySessionOk.SessionId*
+  implements:
+  - OpenTl.Schema.IDestroySessionRes.SessionId
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IDestroySessionRes
+  commentId: T:OpenTl.Schema.IDestroySessionRes
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IDestroySessionRes
+  nameWithType: IDestroySessionRes
+  fullName: OpenTl.Schema.IDestroySessionRes
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TDestroySessionOk.SessionId*
+  commentId: Overload:OpenTl.Schema.TDestroySessionOk.SessionId
+  isExternal: false
+  name: SessionId
+  nameWithType: TDestroySessionOk.SessionId
+  fullName: OpenTl.Schema.TDestroySessionOk.SessionId
+- uid: OpenTl.Schema.IDestroySessionRes.SessionId
+  commentId: P:OpenTl.Schema.IDestroySessionRes.SessionId
+  parent: OpenTl.Schema.IDestroySessionRes
+  isExternal: false
+  name: SessionId
+  nameWithType: IDestroySessionRes.SessionId
+  fullName: OpenTl.Schema.IDestroySessionRes.SessionId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64

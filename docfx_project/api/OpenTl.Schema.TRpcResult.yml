@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRpcResult
+  commentId: T:OpenTl.Schema.TRpcResult
+  id: TRpcResult
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRpcResult.ReqMsgId
+  - OpenTl.Schema.TRpcResult.Result
+  langs:
+  - csharp
+  - vb
+  name: TRpcResult
+  nameWithType: TRpcResult
+  fullName: OpenTl.Schema.TRpcResult
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRpcResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRpcResult
+    path: ../src/OpenTl.Schema/Entities/TRpcResult.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRpcResult : object, IObject'
+    content.vb: >-
+      Public Class TRpcResult
+
+          Inherits Object
+
+          Implements IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRpcResult.ReqMsgId
+  commentId: P:OpenTl.Schema.TRpcResult.ReqMsgId
+  id: ReqMsgId
+  parent: OpenTl.Schema.TRpcResult
+  langs:
+  - csharp
+  - vb
+  name: ReqMsgId
+  nameWithType: TRpcResult.ReqMsgId
+  fullName: OpenTl.Schema.TRpcResult.ReqMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRpcResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReqMsgId
+    path: ../src/OpenTl.Schema/Entities/TRpcResult.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public long ReqMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property ReqMsgId As Long
+  overload: OpenTl.Schema.TRpcResult.ReqMsgId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRpcResult.Result
+  commentId: P:OpenTl.Schema.TRpcResult.Result
+  id: Result
+  parent: OpenTl.Schema.TRpcResult
+  langs:
+  - csharp
+  - vb
+  name: Result
+  nameWithType: TRpcResult.Result
+  fullName: OpenTl.Schema.TRpcResult.Result
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/Entities/TRpcResult.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Result
+    path: ../src/OpenTl.Schema/Entities/TRpcResult.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public object Result { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Result As Object
+  overload: OpenTl.Schema.TRpcResult.Result*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TRpcResult.ReqMsgId*
+  commentId: Overload:OpenTl.Schema.TRpcResult.ReqMsgId
+  isExternal: false
+  name: ReqMsgId
+  nameWithType: TRpcResult.ReqMsgId
+  fullName: OpenTl.Schema.TRpcResult.ReqMsgId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.TRpcResult.Result*
+  commentId: Overload:OpenTl.Schema.TRpcResult.Result
+  isExternal: false
+  name: Result
+  nameWithType: TRpcResult.Result
+  fullName: OpenTl.Schema.TRpcResult.Result

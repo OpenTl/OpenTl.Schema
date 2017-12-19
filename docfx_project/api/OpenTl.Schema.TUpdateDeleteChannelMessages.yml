@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages
+  commentId: T:OpenTl.Schema.TUpdateDeleteChannelMessages
+  id: TUpdateDeleteChannelMessages
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+  - OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+  - OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+  - OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount
+  langs:
+  - csharp
+  - vb
+  name: TUpdateDeleteChannelMessages
+  nameWithType: TUpdateDeleteChannelMessages
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TUpdateDeleteChannelMessages
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TUpdateDeleteChannelMessages : object, IUpdate, IObject'
+    content.vb: >-
+      Public Class TUpdateDeleteChannelMessages
+
+          Inherits Object
+
+          Implements IUpdate, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IUpdate
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+  commentId: P:OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+  id: ChannelId
+  parent: OpenTl.Schema.TUpdateDeleteChannelMessages
+  langs:
+  - csharp
+  - vb
+  name: ChannelId
+  nameWithType: TUpdateDeleteChannelMessages.ChannelId
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChannelId
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int ChannelId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ChannelId As Integer
+  overload: OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+  commentId: P:OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+  id: Messages
+  parent: OpenTl.Schema.TUpdateDeleteChannelMessages
+  langs:
+  - csharp
+  - vb
+  name: Messages
+  nameWithType: TUpdateDeleteChannelMessages.Messages
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Messages
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<int> Messages { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{System.Int32}
+    content.vb: Public Property Messages As TVector(Of Integer)
+  overload: OpenTl.Schema.TUpdateDeleteChannelMessages.Messages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+  commentId: P:OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+  id: Pts
+  parent: OpenTl.Schema.TUpdateDeleteChannelMessages
+  langs:
+  - csharp
+  - vb
+  name: Pts
+  nameWithType: TUpdateDeleteChannelMessages.Pts
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Pts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+    startLine: 20
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int Pts { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Pts As Integer
+  overload: OpenTl.Schema.TUpdateDeleteChannelMessages.Pts*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount
+  commentId: P:OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount
+  id: PtsCount
+  parent: OpenTl.Schema.TUpdateDeleteChannelMessages
+  langs:
+  - csharp
+  - vb
+  name: PtsCount
+  nameWithType: TUpdateDeleteChannelMessages.PtsCount
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PtsCount
+    path: ../src/OpenTl.Schema/_generated/_Entities/Update/TUpdateDeleteChannelMessages.cs
+    startLine: 23
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public int PtsCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property PtsCount As Integer
+  overload: OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IUpdate
+  commentId: T:OpenTl.Schema.IUpdate
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IUpdate
+  nameWithType: IUpdate
+  fullName: OpenTl.Schema.IUpdate
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId*
+  commentId: Overload:OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+  isExternal: false
+  name: ChannelId
+  nameWithType: TUpdateDeleteChannelMessages.ChannelId
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.ChannelId
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.Messages*
+  commentId: Overload:OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+  isExternal: false
+  name: Messages
+  nameWithType: TUpdateDeleteChannelMessages.Messages
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.Messages
+- uid: OpenTl.Schema.TVector{System.Int32}
+  commentId: T:OpenTl.Schema.TVector{System.Int32}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<Int32>
+  nameWithType: TVector<Int32>
+  fullName: OpenTl.Schema.TVector<System.Int32>
+  nameWithType.vb: TVector(Of Int32)
+  fullName.vb: OpenTl.Schema.TVector(Of System.Int32)
+  name.vb: TVector(Of Int32)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.Pts*
+  commentId: Overload:OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+  isExternal: false
+  name: Pts
+  nameWithType: TUpdateDeleteChannelMessages.Pts
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.Pts
+- uid: OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount*
+  commentId: Overload:OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount
+  isExternal: false
+  name: PtsCount
+  nameWithType: TUpdateDeleteChannelMessages.PtsCount
+  fullName: OpenTl.Schema.TUpdateDeleteChannelMessages.PtsCount

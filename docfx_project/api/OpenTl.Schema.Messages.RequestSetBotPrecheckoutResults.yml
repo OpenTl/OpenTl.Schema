@@ -1,0 +1,413 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  commentId: T:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  id: RequestSetBotPrecheckoutResults
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+  - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+  - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+  - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+  - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+  langs:
+  - csharp
+  - vb
+  name: RequestSetBotPrecheckoutResults
+  nameWithType: RequestSetBotPrecheckoutResults
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSetBotPrecheckoutResults
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSetBotPrecheckoutResults : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSetBotPrecheckoutResults
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSetBotPrecheckoutResults.Flags
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+  commentId: P:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+  id: Success
+  parent: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  langs:
+  - csharp
+  - vb
+  name: Success
+  nameWithType: RequestSetBotPrecheckoutResults.Success
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Success
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Success { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Success As Boolean
+  overload: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+  commentId: P:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+  id: QueryId
+  parent: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  langs:
+  - csharp
+  - vb
+  name: QueryId
+  nameWithType: RequestSetBotPrecheckoutResults.QueryId
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: QueryId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public long QueryId { get; set; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public Property QueryId As Long
+  overload: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+  commentId: P:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+  id: ErrorAsBinary
+  parent: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  langs:
+  - csharp
+  - vb
+  name: ErrorAsBinary
+  nameWithType: RequestSetBotPrecheckoutResults.ErrorAsBinary
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ErrorAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  summary: Binary representation for the &apos;Error&apos; property
+  example: []
+  syntax:
+    content: public byte[] ErrorAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ErrorAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+  commentId: P:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+  id: Error
+  parent: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: RequestSetBotPrecheckoutResults.Error
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Error
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetBotPrecheckoutResults.cs
+    startLine: 30
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public string Error { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Error As String
+  overload: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSetBotPrecheckoutResults.Flags
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+  isExternal: false
+  name: Success
+  nameWithType: RequestSetBotPrecheckoutResults.Success
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Success
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+  isExternal: false
+  name: QueryId
+  nameWithType: RequestSetBotPrecheckoutResults.QueryId
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.QueryId
+- uid: System.Int64
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+  isExternal: false
+  name: ErrorAsBinary
+  nameWithType: RequestSetBotPrecheckoutResults.ErrorAsBinary
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.ErrorAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+  isExternal: false
+  name: Error
+  nameWithType: RequestSetBotPrecheckoutResults.Error
+  fullName: OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults.Error
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

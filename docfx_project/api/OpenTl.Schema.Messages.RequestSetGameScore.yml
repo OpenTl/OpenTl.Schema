@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestSetGameScore
+  commentId: T:OpenTl.Schema.Messages.RequestSetGameScore
+  id: RequestSetGameScore
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+  - OpenTl.Schema.Messages.RequestSetGameScore.Flags
+  - OpenTl.Schema.Messages.RequestSetGameScore.Force
+  - OpenTl.Schema.Messages.RequestSetGameScore.Id
+  - OpenTl.Schema.Messages.RequestSetGameScore.Peer
+  - OpenTl.Schema.Messages.RequestSetGameScore.Score
+  - OpenTl.Schema.Messages.RequestSetGameScore.UserId
+  langs:
+  - csharp
+  - vb
+  name: RequestSetGameScore
+  nameWithType: RequestSetGameScore
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestSetGameScore
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestSetGameScore : object, IRequest<IUpdates>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestSetGameScore
+
+          Inherits Object
+
+          Implements IRequest(Of IUpdates), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestSetGameScore.Flags
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+  id: EditMessage
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: EditMessage
+  nameWithType: RequestSetGameScore.EditMessage
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EditMessage
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool EditMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EditMessage As Boolean
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.EditMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Force
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.Force
+  id: Force
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: Force
+  nameWithType: RequestSetGameScore.Force
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Force
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Force
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool Force { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Force As Boolean
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.Force*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Peer
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.Peer
+  id: Peer
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: Peer
+  nameWithType: RequestSetGameScore.Peer
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Peer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Peer
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputPeer Peer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputPeer
+    content.vb: Public Property Peer As IInputPeer
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.Peer*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Id
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.Id
+  id: Id
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestSetGameScore.Id
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.UserId
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.UserId
+  id: UserId
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: UserId
+  nameWithType: RequestSetGameScore.UserId
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.UserId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UserId
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 31
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputUser UserId { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputUser
+    content.vb: Public Property UserId As IInputUser
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.UserId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Score
+  commentId: P:OpenTl.Schema.Messages.RequestSetGameScore.Score
+  id: Score
+  parent: OpenTl.Schema.Messages.RequestSetGameScore
+  langs:
+  - csharp
+  - vb
+  name: Score
+  nameWithType: RequestSetGameScore.Score
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Score
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Score
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestSetGameScore.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public int Score { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Score As Integer
+  overload: OpenTl.Schema.Messages.RequestSetGameScore.Score*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  commentId: T:OpenTl.Schema.IRequest{OpenTl.Schema.IUpdates}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<IUpdates>
+  nameWithType: IRequest<IUpdates>
+  fullName: OpenTl.Schema.IRequest<OpenTl.Schema.IUpdates>
+  nameWithType.vb: IRequest(Of IUpdates)
+  fullName.vb: OpenTl.Schema.IRequest(Of OpenTl.Schema.IUpdates)
+  name.vb: IRequest(Of IUpdates)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUpdates
+    name: IUpdates
+    nameWithType: IUpdates
+    fullName: OpenTl.Schema.IUpdates
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestSetGameScore.Flags
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.EditMessage*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+  isExternal: false
+  name: EditMessage
+  nameWithType: RequestSetGameScore.EditMessage
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.EditMessage
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Force*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.Force
+  isExternal: false
+  name: Force
+  nameWithType: RequestSetGameScore.Force
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Force
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Peer*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.Peer
+  isExternal: false
+  name: Peer
+  nameWithType: RequestSetGameScore.Peer
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Peer
+- uid: OpenTl.Schema.IInputPeer
+  commentId: T:OpenTl.Schema.IInputPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputPeer
+  nameWithType: IInputPeer
+  fullName: OpenTl.Schema.IInputPeer
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Id*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestSetGameScore.Id
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Id
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.UserId*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.UserId
+  isExternal: false
+  name: UserId
+  nameWithType: RequestSetGameScore.UserId
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.UserId
+- uid: OpenTl.Schema.IInputUser
+  commentId: T:OpenTl.Schema.IInputUser
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputUser
+  nameWithType: IInputUser
+  fullName: OpenTl.Schema.IInputUser
+- uid: OpenTl.Schema.Messages.RequestSetGameScore.Score*
+  commentId: Overload:OpenTl.Schema.Messages.RequestSetGameScore.Score
+  isExternal: false
+  name: Score
+  nameWithType: RequestSetGameScore.Score
+  fullName: OpenTl.Schema.Messages.RequestSetGameScore.Score

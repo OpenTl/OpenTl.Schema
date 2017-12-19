@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite
+  commentId: T:OpenTl.Schema.TRecentMeUrlChatInvite
+  id: TRecentMeUrlChatInvite
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+  - OpenTl.Schema.TRecentMeUrlChatInvite.Url
+  - OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TRecentMeUrlChatInvite
+  nameWithType: TRecentMeUrlChatInvite
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TRecentMeUrlChatInvite
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TRecentMeUrlChatInvite : object, IRecentMeUrl, IObject'
+    content.vb: >-
+      Public Class TRecentMeUrlChatInvite
+
+          Inherits Object
+
+          Implements IRecentMeUrl, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRecentMeUrl
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+  commentId: P:OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+  id: UrlAsBinary
+  parent: OpenTl.Schema.TRecentMeUrlChatInvite
+  langs:
+  - csharp
+  - vb
+  name: UrlAsBinary
+  nameWithType: TRecentMeUrlChatInvite.UrlAsBinary
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: UrlAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Url&apos; property
+  example: []
+  syntax:
+    content: public byte[] UrlAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property UrlAsBinary As Byte()
+  overload: OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary*
+  implements:
+  - OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.Url
+  commentId: P:OpenTl.Schema.TRecentMeUrlChatInvite.Url
+  id: Url
+  parent: OpenTl.Schema.TRecentMeUrlChatInvite
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: TRecentMeUrlChatInvite.Url
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.Url
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Url
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: OpenTl.Schema.TRecentMeUrlChatInvite.Url*
+  implements:
+  - OpenTl.Schema.IRecentMeUrl.Url
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+  commentId: P:OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+  id: ChatInvite
+  parent: OpenTl.Schema.TRecentMeUrlChatInvite
+  langs:
+  - csharp
+  - vb
+  name: ChatInvite
+  nameWithType: TRecentMeUrlChatInvite.ChatInvite
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ChatInvite
+    path: ../src/OpenTl.Schema/_generated/_Entities/RecentMeUrl/TRecentMeUrlChatInvite.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IChatInvite ChatInvite { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChatInvite
+    content.vb: Public Property ChatInvite As IChatInvite
+  overload: OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRecentMeUrl
+  commentId: T:OpenTl.Schema.IRecentMeUrl
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRecentMeUrl
+  nameWithType: IRecentMeUrl
+  fullName: OpenTl.Schema.IRecentMeUrl
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary*
+  commentId: Overload:OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: TRecentMeUrlChatInvite.UrlAsBinary
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.UrlAsBinary
+- uid: OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  commentId: P:OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+  parent: OpenTl.Schema.IRecentMeUrl
+  isExternal: false
+  name: UrlAsBinary
+  nameWithType: IRecentMeUrl.UrlAsBinary
+  fullName: OpenTl.Schema.IRecentMeUrl.UrlAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.Url*
+  commentId: Overload:OpenTl.Schema.TRecentMeUrlChatInvite.Url
+  isExternal: false
+  name: Url
+  nameWithType: TRecentMeUrlChatInvite.Url
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.Url
+- uid: OpenTl.Schema.IRecentMeUrl.Url
+  commentId: P:OpenTl.Schema.IRecentMeUrl.Url
+  parent: OpenTl.Schema.IRecentMeUrl
+  isExternal: false
+  name: Url
+  nameWithType: IRecentMeUrl.Url
+  fullName: OpenTl.Schema.IRecentMeUrl.Url
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite*
+  commentId: Overload:OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+  isExternal: false
+  name: ChatInvite
+  nameWithType: TRecentMeUrlChatInvite.ChatInvite
+  fullName: OpenTl.Schema.TRecentMeUrlChatInvite.ChatInvite
+- uid: OpenTl.Schema.IChatInvite
+  commentId: T:OpenTl.Schema.IChatInvite
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChatInvite
+  nameWithType: IChatInvite
+  fullName: OpenTl.Schema.IChatInvite

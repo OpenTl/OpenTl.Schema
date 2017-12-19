@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInputBotInlineResultGame
+  commentId: T:OpenTl.Schema.TInputBotInlineResultGame
+  id: TInputBotInlineResultGame
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInputBotInlineResultGame.Id
+  - OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+  - OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+  - OpenTl.Schema.TInputBotInlineResultGame.ShortName
+  - OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+  langs:
+  - csharp
+  - vb
+  name: TInputBotInlineResultGame
+  nameWithType: TInputBotInlineResultGame
+  fullName: OpenTl.Schema.TInputBotInlineResultGame
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInputBotInlineResultGame
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInputBotInlineResultGame : object, IInputBotInlineResult, IObject'
+    content.vb: >-
+      Public Class TInputBotInlineResultGame
+
+          Inherits Object
+
+          Implements IInputBotInlineResult, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+  id: IdAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultGame
+  langs:
+  - csharp
+  - vb
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultGame.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: IdAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 15
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Id&apos; property
+  example: []
+  syntax:
+    content: public byte[] IdAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property IdAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultGame.Id
+  commentId: P:OpenTl.Schema.TInputBotInlineResultGame.Id
+  id: Id
+  parent: OpenTl.Schema.TInputBotInlineResultGame
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: TInputBotInlineResultGame.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 19
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Id { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Id As String
+  overload: OpenTl.Schema.TInputBotInlineResultGame.Id*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.Id
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+  commentId: P:OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+  id: ShortNameAsBinary
+  parent: OpenTl.Schema.TInputBotInlineResultGame
+  langs:
+  - csharp
+  - vb
+  name: ShortNameAsBinary
+  nameWithType: TInputBotInlineResultGame.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortNameAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 22
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;ShortName&apos; property
+  example: []
+  syntax:
+    content: public byte[] ShortNameAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShortNameAsBinary As Byte()
+  overload: OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultGame.ShortName
+  commentId: P:OpenTl.Schema.TInputBotInlineResultGame.ShortName
+  id: ShortName
+  parent: OpenTl.Schema.TInputBotInlineResultGame
+  langs:
+  - csharp
+  - vb
+  name: ShortName
+  nameWithType: TInputBotInlineResultGame.ShortName
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.ShortName
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShortName
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string ShortName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ShortName As String
+  overload: OpenTl.Schema.TInputBotInlineResultGame.ShortName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+  commentId: P:OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+  id: SendMessage
+  parent: OpenTl.Schema.TInputBotInlineResultGame
+  langs:
+  - csharp
+  - vb
+  name: SendMessage
+  nameWithType: TInputBotInlineResultGame.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SendMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/InputBotInlineResult/TInputBotInlineResultGame.cs
+    startLine: 28
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IInputBotInlineMessage SendMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputBotInlineMessage
+    content.vb: Public Property SendMessage As IInputBotInlineMessage
+  overload: OpenTl.Schema.TInputBotInlineResultGame.SendMessage*
+  implements:
+  - OpenTl.Schema.IInputBotInlineResult.SendMessage
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInputBotInlineResult
+  commentId: T:OpenTl.Schema.IInputBotInlineResult
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineResult
+  nameWithType: IInputBotInlineResult
+  fullName: OpenTl.Schema.IInputBotInlineResult
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: TInputBotInlineResultGame.IdAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.IdAsBinary
+- uid: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: IdAsBinary
+  nameWithType: IInputBotInlineResult.IdAsBinary
+  fullName: OpenTl.Schema.IInputBotInlineResult.IdAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInputBotInlineResultGame.Id*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultGame.Id
+  isExternal: false
+  name: Id
+  nameWithType: TInputBotInlineResultGame.Id
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.Id
+- uid: OpenTl.Schema.IInputBotInlineResult.Id
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.Id
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: Id
+  nameWithType: IInputBotInlineResult.Id
+  fullName: OpenTl.Schema.IInputBotInlineResult.Id
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+  isExternal: false
+  name: ShortNameAsBinary
+  nameWithType: TInputBotInlineResultGame.ShortNameAsBinary
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.ShortNameAsBinary
+- uid: OpenTl.Schema.TInputBotInlineResultGame.ShortName*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultGame.ShortName
+  isExternal: false
+  name: ShortName
+  nameWithType: TInputBotInlineResultGame.ShortName
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.ShortName
+- uid: OpenTl.Schema.TInputBotInlineResultGame.SendMessage*
+  commentId: Overload:OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+  isExternal: false
+  name: SendMessage
+  nameWithType: TInputBotInlineResultGame.SendMessage
+  fullName: OpenTl.Schema.TInputBotInlineResultGame.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineResult.SendMessage
+  commentId: P:OpenTl.Schema.IInputBotInlineResult.SendMessage
+  parent: OpenTl.Schema.IInputBotInlineResult
+  isExternal: false
+  name: SendMessage
+  nameWithType: IInputBotInlineResult.SendMessage
+  fullName: OpenTl.Schema.IInputBotInlineResult.SendMessage
+- uid: OpenTl.Schema.IInputBotInlineMessage
+  commentId: T:OpenTl.Schema.IInputBotInlineMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessage
+  nameWithType: IInputBotInlineMessage
+  fullName: OpenTl.Schema.IInputBotInlineMessage

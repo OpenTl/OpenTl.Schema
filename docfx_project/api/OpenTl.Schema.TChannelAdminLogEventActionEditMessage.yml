@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TChannelAdminLogEventActionEditMessage
+  commentId: T:OpenTl.Schema.TChannelAdminLogEventActionEditMessage
+  id: TChannelAdminLogEventActionEditMessage
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage
+  - OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+  langs:
+  - csharp
+  - vb
+  name: TChannelAdminLogEventActionEditMessage
+  nameWithType: TChannelAdminLogEventActionEditMessage
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionEditMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelAdminLogEventActionEditMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TChannelAdminLogEventActionEditMessage : object, IChannelAdminLogEventAction, IObject'
+    content.vb: >-
+      Public Class TChannelAdminLogEventActionEditMessage
+
+          Inherits Object
+
+          Implements IChannelAdminLogEventAction, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IChannelAdminLogEventAction
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+  id: PrevMessage
+  parent: OpenTl.Schema.TChannelAdminLogEventActionEditMessage
+  langs:
+  - csharp
+  - vb
+  name: PrevMessage
+  nameWithType: TChannelAdminLogEventActionEditMessage.PrevMessage
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PrevMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessage PrevMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessage
+    content.vb: Public Property PrevMessage As IMessage
+  overload: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage
+  commentId: P:OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage
+  id: NewMessage
+  parent: OpenTl.Schema.TChannelAdminLogEventActionEditMessage
+  langs:
+  - csharp
+  - vb
+  name: NewMessage
+  nameWithType: TChannelAdminLogEventActionEditMessage.NewMessage
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NewMessage
+    path: ../src/OpenTl.Schema/_generated/_Entities/ChannelAdminLogEventAction/TChannelAdminLogEventActionEditMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IMessage NewMessage { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IMessage
+    content.vb: Public Property NewMessage As IMessage
+  overload: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IChannelAdminLogEventAction
+  commentId: T:OpenTl.Schema.IChannelAdminLogEventAction
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelAdminLogEventAction
+  nameWithType: IChannelAdminLogEventAction
+  fullName: OpenTl.Schema.IChannelAdminLogEventAction
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+  isExternal: false
+  name: PrevMessage
+  nameWithType: TChannelAdminLogEventActionEditMessage.PrevMessage
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.PrevMessage
+- uid: OpenTl.Schema.IMessage
+  commentId: T:OpenTl.Schema.IMessage
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IMessage
+  nameWithType: IMessage
+  fullName: OpenTl.Schema.IMessage
+- uid: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage*
+  commentId: Overload:OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage
+  isExternal: false
+  name: NewMessage
+  nameWithType: TChannelAdminLogEventActionEditMessage.NewMessage
+  fullName: OpenTl.Schema.TChannelAdminLogEventActionEditMessage.NewMessage

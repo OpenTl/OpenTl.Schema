@@ -1,0 +1,699 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TInvoice
+  commentId: T:OpenTl.Schema.TInvoice
+  id: TInvoice
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TInvoice.Currency
+  - OpenTl.Schema.TInvoice.CurrencyAsBinary
+  - OpenTl.Schema.TInvoice.EmailRequested
+  - OpenTl.Schema.TInvoice.Flags
+  - OpenTl.Schema.TInvoice.Flexible
+  - OpenTl.Schema.TInvoice.NameRequested
+  - OpenTl.Schema.TInvoice.PhoneRequested
+  - OpenTl.Schema.TInvoice.Prices
+  - OpenTl.Schema.TInvoice.ShippingAddressRequested
+  - OpenTl.Schema.TInvoice.Test
+  langs:
+  - csharp
+  - vb
+  name: TInvoice
+  nameWithType: TInvoice
+  fullName: OpenTl.Schema.TInvoice
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TInvoice
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TInvoice : object, IInvoice, IObject'
+    content.vb: >-
+      Public Class TInvoice
+
+          Inherits Object
+
+          Implements IInvoice, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IInvoice
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TInvoice.Flags
+  commentId: P:OpenTl.Schema.TInvoice.Flags
+  id: Flags
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: TInvoice.Flags
+  fullName: OpenTl.Schema.TInvoice.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.TInvoice.Flags*
+  implements:
+  - OpenTl.Schema.IInvoice.Flags
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.Test
+  commentId: P:OpenTl.Schema.TInvoice.Test
+  id: Test
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: Test
+  nameWithType: TInvoice.Test
+  fullName: OpenTl.Schema.TInvoice.Test
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Test
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Test { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Test As Boolean
+  overload: OpenTl.Schema.TInvoice.Test*
+  implements:
+  - OpenTl.Schema.IInvoice.Test
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.NameRequested
+  commentId: P:OpenTl.Schema.TInvoice.NameRequested
+  id: NameRequested
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: NameRequested
+  nameWithType: TInvoice.NameRequested
+  fullName: OpenTl.Schema.TInvoice.NameRequested
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NameRequested
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool NameRequested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NameRequested As Boolean
+  overload: OpenTl.Schema.TInvoice.NameRequested*
+  implements:
+  - OpenTl.Schema.IInvoice.NameRequested
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.PhoneRequested
+  commentId: P:OpenTl.Schema.TInvoice.PhoneRequested
+  id: PhoneRequested
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: PhoneRequested
+  nameWithType: TInvoice.PhoneRequested
+  fullName: OpenTl.Schema.TInvoice.PhoneRequested
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneRequested
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool PhoneRequested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property PhoneRequested As Boolean
+  overload: OpenTl.Schema.TInvoice.PhoneRequested*
+  implements:
+  - OpenTl.Schema.IInvoice.PhoneRequested
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.EmailRequested
+  commentId: P:OpenTl.Schema.TInvoice.EmailRequested
+  id: EmailRequested
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: EmailRequested
+  nameWithType: TInvoice.EmailRequested
+  fullName: OpenTl.Schema.TInvoice.EmailRequested
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmailRequested
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool EmailRequested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property EmailRequested As Boolean
+  overload: OpenTl.Schema.TInvoice.EmailRequested*
+  implements:
+  - OpenTl.Schema.IInvoice.EmailRequested
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.ShippingAddressRequested
+  commentId: P:OpenTl.Schema.TInvoice.ShippingAddressRequested
+  id: ShippingAddressRequested
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: ShippingAddressRequested
+  nameWithType: TInvoice.ShippingAddressRequested
+  fullName: OpenTl.Schema.TInvoice.ShippingAddressRequested
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ShippingAddressRequested
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 33
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool ShippingAddressRequested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShippingAddressRequested As Boolean
+  overload: OpenTl.Schema.TInvoice.ShippingAddressRequested*
+  implements:
+  - OpenTl.Schema.IInvoice.ShippingAddressRequested
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.Flexible
+  commentId: P:OpenTl.Schema.TInvoice.Flexible
+  id: Flexible
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: Flexible
+  nameWithType: TInvoice.Flexible
+  fullName: OpenTl.Schema.TInvoice.Flexible
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flexible
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 37
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool Flexible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Flexible As Boolean
+  overload: OpenTl.Schema.TInvoice.Flexible*
+  implements:
+  - OpenTl.Schema.IInvoice.Flexible
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.TInvoice.CurrencyAsBinary
+  id: CurrencyAsBinary
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: CurrencyAsBinary
+  nameWithType: TInvoice.CurrencyAsBinary
+  fullName: OpenTl.Schema.TInvoice.CurrencyAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: CurrencyAsBinary
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 42
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  summary: Binary representation for the &apos;Currency&apos; property
+  example: []
+  syntax:
+    content: public byte[] CurrencyAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property CurrencyAsBinary As Byte()
+  overload: OpenTl.Schema.TInvoice.CurrencyAsBinary*
+  implements:
+  - OpenTl.Schema.IInvoice.CurrencyAsBinary
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.Currency
+  commentId: P:OpenTl.Schema.TInvoice.Currency
+  id: Currency
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: Currency
+  nameWithType: TInvoice.Currency
+  fullName: OpenTl.Schema.TInvoice.Currency
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Currency
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 46
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public string Currency { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Currency As String
+  overload: OpenTl.Schema.TInvoice.Currency*
+  implements:
+  - OpenTl.Schema.IInvoice.Currency
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.TInvoice.Prices
+  commentId: P:OpenTl.Schema.TInvoice.Prices
+  id: Prices
+  parent: OpenTl.Schema.TInvoice
+  langs:
+  - csharp
+  - vb
+  name: Prices
+  nameWithType: TInvoice.Prices
+  fullName: OpenTl.Schema.TInvoice.Prices
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Prices
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/TInvoice.cs
+    startLine: 48
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public TVector<ILabeledPrice> Prices { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+    content.vb: Public Property Prices As TVector(Of ILabeledPrice)
+  overload: OpenTl.Schema.TInvoice.Prices*
+  implements:
+  - OpenTl.Schema.IInvoice.Prices
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IInvoice
+  commentId: T:OpenTl.Schema.IInvoice
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInvoice
+  nameWithType: IInvoice
+  fullName: OpenTl.Schema.IInvoice
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TInvoice.Flags*
+  commentId: Overload:OpenTl.Schema.TInvoice.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: TInvoice.Flags
+  fullName: OpenTl.Schema.TInvoice.Flags
+- uid: OpenTl.Schema.IInvoice.Flags
+  commentId: P:OpenTl.Schema.IInvoice.Flags
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: Flags
+  nameWithType: IInvoice.Flags
+  fullName: OpenTl.Schema.IInvoice.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.TInvoice.Test*
+  commentId: Overload:OpenTl.Schema.TInvoice.Test
+  isExternal: false
+  name: Test
+  nameWithType: TInvoice.Test
+  fullName: OpenTl.Schema.TInvoice.Test
+- uid: OpenTl.Schema.IInvoice.Test
+  commentId: P:OpenTl.Schema.IInvoice.Test
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: Test
+  nameWithType: IInvoice.Test
+  fullName: OpenTl.Schema.IInvoice.Test
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.TInvoice.NameRequested*
+  commentId: Overload:OpenTl.Schema.TInvoice.NameRequested
+  isExternal: false
+  name: NameRequested
+  nameWithType: TInvoice.NameRequested
+  fullName: OpenTl.Schema.TInvoice.NameRequested
+- uid: OpenTl.Schema.IInvoice.NameRequested
+  commentId: P:OpenTl.Schema.IInvoice.NameRequested
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: NameRequested
+  nameWithType: IInvoice.NameRequested
+  fullName: OpenTl.Schema.IInvoice.NameRequested
+- uid: OpenTl.Schema.TInvoice.PhoneRequested*
+  commentId: Overload:OpenTl.Schema.TInvoice.PhoneRequested
+  isExternal: false
+  name: PhoneRequested
+  nameWithType: TInvoice.PhoneRequested
+  fullName: OpenTl.Schema.TInvoice.PhoneRequested
+- uid: OpenTl.Schema.IInvoice.PhoneRequested
+  commentId: P:OpenTl.Schema.IInvoice.PhoneRequested
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: PhoneRequested
+  nameWithType: IInvoice.PhoneRequested
+  fullName: OpenTl.Schema.IInvoice.PhoneRequested
+- uid: OpenTl.Schema.TInvoice.EmailRequested*
+  commentId: Overload:OpenTl.Schema.TInvoice.EmailRequested
+  isExternal: false
+  name: EmailRequested
+  nameWithType: TInvoice.EmailRequested
+  fullName: OpenTl.Schema.TInvoice.EmailRequested
+- uid: OpenTl.Schema.IInvoice.EmailRequested
+  commentId: P:OpenTl.Schema.IInvoice.EmailRequested
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: EmailRequested
+  nameWithType: IInvoice.EmailRequested
+  fullName: OpenTl.Schema.IInvoice.EmailRequested
+- uid: OpenTl.Schema.TInvoice.ShippingAddressRequested*
+  commentId: Overload:OpenTl.Schema.TInvoice.ShippingAddressRequested
+  isExternal: false
+  name: ShippingAddressRequested
+  nameWithType: TInvoice.ShippingAddressRequested
+  fullName: OpenTl.Schema.TInvoice.ShippingAddressRequested
+- uid: OpenTl.Schema.IInvoice.ShippingAddressRequested
+  commentId: P:OpenTl.Schema.IInvoice.ShippingAddressRequested
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: ShippingAddressRequested
+  nameWithType: IInvoice.ShippingAddressRequested
+  fullName: OpenTl.Schema.IInvoice.ShippingAddressRequested
+- uid: OpenTl.Schema.TInvoice.Flexible*
+  commentId: Overload:OpenTl.Schema.TInvoice.Flexible
+  isExternal: false
+  name: Flexible
+  nameWithType: TInvoice.Flexible
+  fullName: OpenTl.Schema.TInvoice.Flexible
+- uid: OpenTl.Schema.IInvoice.Flexible
+  commentId: P:OpenTl.Schema.IInvoice.Flexible
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: Flexible
+  nameWithType: IInvoice.Flexible
+  fullName: OpenTl.Schema.IInvoice.Flexible
+- uid: OpenTl.Schema.TInvoice.CurrencyAsBinary*
+  commentId: Overload:OpenTl.Schema.TInvoice.CurrencyAsBinary
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: TInvoice.CurrencyAsBinary
+  fullName: OpenTl.Schema.TInvoice.CurrencyAsBinary
+- uid: OpenTl.Schema.IInvoice.CurrencyAsBinary
+  commentId: P:OpenTl.Schema.IInvoice.CurrencyAsBinary
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: CurrencyAsBinary
+  nameWithType: IInvoice.CurrencyAsBinary
+  fullName: OpenTl.Schema.IInvoice.CurrencyAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.TInvoice.Currency*
+  commentId: Overload:OpenTl.Schema.TInvoice.Currency
+  isExternal: false
+  name: Currency
+  nameWithType: TInvoice.Currency
+  fullName: OpenTl.Schema.TInvoice.Currency
+- uid: OpenTl.Schema.IInvoice.Currency
+  commentId: P:OpenTl.Schema.IInvoice.Currency
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: Currency
+  nameWithType: IInvoice.Currency
+  fullName: OpenTl.Schema.IInvoice.Currency
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.TInvoice.Prices*
+  commentId: Overload:OpenTl.Schema.TInvoice.Prices
+  isExternal: false
+  name: Prices
+  nameWithType: TInvoice.Prices
+  fullName: OpenTl.Schema.TInvoice.Prices
+- uid: OpenTl.Schema.IInvoice.Prices
+  commentId: P:OpenTl.Schema.IInvoice.Prices
+  parent: OpenTl.Schema.IInvoice
+  isExternal: false
+  name: Prices
+  nameWithType: IInvoice.Prices
+  fullName: OpenTl.Schema.IInvoice.Prices
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.ILabeledPrice}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<ILabeledPrice>
+  nameWithType: TVector<ILabeledPrice>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice>
+  nameWithType.vb: TVector(Of ILabeledPrice)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.ILabeledPrice)
+  name.vb: TVector(Of ILabeledPrice)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.ILabeledPrice
+    name: ILabeledPrice
+    nameWithType: ILabeledPrice
+    fullName: OpenTl.Schema.ILabeledPrice
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.ILabeledPrice
+    name: ILabeledPrice
+    nameWithType: ILabeledPrice
+    fullName: OpenTl.Schema.ILabeledPrice
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )

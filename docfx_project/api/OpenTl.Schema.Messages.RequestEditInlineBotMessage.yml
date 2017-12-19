@@ -1,0 +1,674 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  commentId: T:OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  id: RequestEditInlineBotMessage
+  parent: OpenTl.Schema.Messages
+  children:
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+  - OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+  langs:
+  - csharp
+  - vb
+  name: RequestEditInlineBotMessage
+  nameWithType: RequestEditInlineBotMessage
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: RequestEditInlineBotMessage
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: 'public class RequestEditInlineBotMessage : object, IRequest<bool>, IRequest, IObject'
+    content.vb: >-
+      Public Class RequestEditInlineBotMessage
+
+          Inherits Object
+
+          Implements IRequest(Of Boolean), IRequest, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRequest{System.Boolean}
+  - OpenTl.Schema.IRequest
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+  id: Flags
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: Flags
+  nameWithType: RequestEditInlineBotMessage.Flags
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Flags
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public BitArray Flags { get; set; }
+    parameters: []
+    return:
+      type: BitArray
+    content.vb: Public Property Flags As BitArray
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+  id: NoWebpage
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: NoWebpage
+  nameWithType: RequestEditInlineBotMessage.NoWebpage
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: NoWebpage
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool NoWebpage { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property NoWebpage As Boolean
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+  id: StopGeoLive
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: StopGeoLive
+  nameWithType: RequestEditInlineBotMessage.StopGeoLive
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: StopGeoLive
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public bool StopGeoLive { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property StopGeoLive As Boolean
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+  id: Id
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: RequestEditInlineBotMessage.Id
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Id
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputBotInlineMessageID Id { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputBotInlineMessageID
+    content.vb: Public Property Id As IInputBotInlineMessageID
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+  id: MessageAsBinary
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: MessageAsBinary
+  nameWithType: RequestEditInlineBotMessage.MessageAsBinary
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: MessageAsBinary
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 29
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  summary: Binary representation for the &apos;Message&apos; property
+  example: []
+  syntax:
+    content: public byte[] MessageAsBinary { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property MessageAsBinary As Byte()
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+  id: Message
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: RequestEditInlineBotMessage.Message
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Message
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 34
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+  id: ReplyMarkup
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: ReplyMarkup
+  nameWithType: RequestEditInlineBotMessage.ReplyMarkup
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: ReplyMarkup
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 36
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IReplyMarkup ReplyMarkup { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IReplyMarkup
+    content.vb: Public Property ReplyMarkup As IReplyMarkup
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+  id: Entities
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: Entities
+  nameWithType: RequestEditInlineBotMessage.Entities
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Entities
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 40
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public TVector<IMessageEntity> Entities { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+    content.vb: Public Property Entities As TVector(Of IMessageEntity)
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+  commentId: P:OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+  id: GeoPoint
+  parent: OpenTl.Schema.Messages.RequestEditInlineBotMessage
+  langs:
+  - csharp
+  - vb
+  name: GeoPoint
+  nameWithType: RequestEditInlineBotMessage.GeoPoint
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: GeoPoint
+    path: ../src/OpenTl.Schema/_generated/Messages/RequestEditInlineBotMessage.cs
+    startLine: 44
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Messages
+  syntax:
+    content: public IInputGeoPoint GeoPoint { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IInputGeoPoint
+    content.vb: Public Property GeoPoint As IInputGeoPoint
+  overload: OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Messages
+  commentId: N:OpenTl.Schema.Messages
+  isExternal: false
+  name: OpenTl.Schema.Messages
+  nameWithType: OpenTl.Schema.Messages
+  fullName: OpenTl.Schema.Messages
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRequest{System.Boolean}
+  commentId: T:OpenTl.Schema.IRequest{System.Boolean}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.IRequest`1
+  name: IRequest<Boolean>
+  nameWithType: IRequest<Boolean>
+  fullName: OpenTl.Schema.IRequest<System.Boolean>
+  nameWithType.vb: IRequest(Of Boolean)
+  fullName.vb: OpenTl.Schema.IRequest(Of System.Boolean)
+  name.vb: IRequest(Of Boolean)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IRequest
+  commentId: T:OpenTl.Schema.IRequest
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRequest
+  nameWithType: IRequest
+  fullName: OpenTl.Schema.IRequest
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.IRequest`1
+  commentId: T:OpenTl.Schema.IRequest`1
+  isExternal: false
+  name: IRequest<TResult>
+  nameWithType: IRequest<TResult>
+  fullName: OpenTl.Schema.IRequest<TResult>
+  nameWithType.vb: IRequest(Of TResult)
+  fullName.vb: OpenTl.Schema.IRequest(Of TResult)
+  name.vb: IRequest(Of TResult)
+  spec.csharp:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.IRequest`1
+    name: IRequest
+    nameWithType: IRequest
+    fullName: OpenTl.Schema.IRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+  isExternal: false
+  name: Flags
+  nameWithType: RequestEditInlineBotMessage.Flags
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Flags
+- uid: BitArray
+  isExternal: true
+  name: BitArray
+  nameWithType: BitArray
+  fullName: BitArray
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+  isExternal: false
+  name: NoWebpage
+  nameWithType: RequestEditInlineBotMessage.NoWebpage
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.NoWebpage
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+  isExternal: false
+  name: StopGeoLive
+  nameWithType: RequestEditInlineBotMessage.StopGeoLive
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.StopGeoLive
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+  isExternal: false
+  name: Id
+  nameWithType: RequestEditInlineBotMessage.Id
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Id
+- uid: OpenTl.Schema.IInputBotInlineMessageID
+  commentId: T:OpenTl.Schema.IInputBotInlineMessageID
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputBotInlineMessageID
+  nameWithType: IInputBotInlineMessageID
+  fullName: OpenTl.Schema.IInputBotInlineMessageID
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+  isExternal: false
+  name: MessageAsBinary
+  nameWithType: RequestEditInlineBotMessage.MessageAsBinary
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.MessageAsBinary
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+  isExternal: false
+  name: Message
+  nameWithType: RequestEditInlineBotMessage.Message
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Message
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+  isExternal: false
+  name: ReplyMarkup
+  nameWithType: RequestEditInlineBotMessage.ReplyMarkup
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.ReplyMarkup
+- uid: OpenTl.Schema.IReplyMarkup
+  commentId: T:OpenTl.Schema.IReplyMarkup
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IReplyMarkup
+  nameWithType: IReplyMarkup
+  fullName: OpenTl.Schema.IReplyMarkup
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+  isExternal: false
+  name: Entities
+  nameWithType: RequestEditInlineBotMessage.Entities
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.Entities
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IMessageEntity}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IMessageEntity>
+  nameWithType: TVector<IMessageEntity>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity>
+  nameWithType.vb: TVector(Of IMessageEntity)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IMessageEntity)
+  name.vb: TVector(Of IMessageEntity)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IMessageEntity
+    name: IMessageEntity
+    nameWithType: IMessageEntity
+    fullName: OpenTl.Schema.IMessageEntity
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint*
+  commentId: Overload:OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+  isExternal: false
+  name: GeoPoint
+  nameWithType: RequestEditInlineBotMessage.GeoPoint
+  fullName: OpenTl.Schema.Messages.RequestEditInlineBotMessage.GeoPoint
+- uid: OpenTl.Schema.IInputGeoPoint
+  commentId: T:OpenTl.Schema.IInputGeoPoint
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputGeoPoint
+  nameWithType: IInputGeoPoint
+  fullName: OpenTl.Schema.IInputGeoPoint

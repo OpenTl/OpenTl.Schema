@@ -1,0 +1,112 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.TTextItalic
+  commentId: T:OpenTl.Schema.TTextItalic
+  id: TTextItalic
+  parent: OpenTl.Schema
+  children:
+  - OpenTl.Schema.TTextItalic.Text
+  langs:
+  - csharp
+  - vb
+  name: TTextItalic
+  nameWithType: TTextItalic
+  fullName: OpenTl.Schema.TTextItalic
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextItalic.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TTextItalic
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextItalic.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: 'public class TTextItalic : object, IRichText, IObject'
+    content.vb: >-
+      Public Class TTextItalic
+
+          Inherits Object
+
+          Implements IRichText, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.IRichText
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.TTextItalic.Text
+  commentId: P:OpenTl.Schema.TTextItalic.Text
+  id: Text
+  parent: OpenTl.Schema.TTextItalic
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: TTextItalic.Text
+  fullName: OpenTl.Schema.TTextItalic.Text
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/RichText/TTextItalic.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Text
+    path: ../src/OpenTl.Schema/_generated/_Entities/RichText/TTextItalic.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public IRichText Text { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IRichText
+    content.vb: Public Property Text As IRichText
+  overload: OpenTl.Schema.TTextItalic.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.IRichText
+  commentId: T:OpenTl.Schema.IRichText
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IRichText
+  nameWithType: IRichText
+  fullName: OpenTl.Schema.IRichText
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema.TTextItalic.Text*
+  commentId: Overload:OpenTl.Schema.TTextItalic.Text
+  isExternal: false
+  name: Text
+  nameWithType: TTextItalic.Text
+  fullName: OpenTl.Schema.TTextItalic.Text

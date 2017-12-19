@@ -12,18 +12,21 @@ namespace OpenTl.Schema
 	[Serialize(0xa6e45987)]
 	public class TInputMediaContact : IInputMedia
 	{
+       /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]
        public byte[] PhoneNumberAsBinary { get => _PhoneNumberAsBinary; set { _PhoneNumber = Encoding.UTF8.GetString(value); _PhoneNumberAsBinary = value; }}
        private byte[] _PhoneNumberAsBinary;
        private string _PhoneNumber;
        public string PhoneNumber { get => _PhoneNumber; set { PhoneNumberAsBinary = Encoding.UTF8.GetBytes(value); _PhoneNumber = value; }}
 
+       /// <summary>Binary representation for the 'FirstName' property</summary>
        [SerializationOrder(1)]
        public byte[] FirstNameAsBinary { get => _FirstNameAsBinary; set { _FirstName = Encoding.UTF8.GetString(value); _FirstNameAsBinary = value; }}
        private byte[] _FirstNameAsBinary;
        private string _FirstName;
        public string FirstName { get => _FirstName; set { FirstNameAsBinary = Encoding.UTF8.GetBytes(value); _FirstName = value; }}
 
+       /// <summary>Binary representation for the 'LastName' property</summary>
        [SerializationOrder(2)]
        public byte[] LastNameAsBinary { get => _LastNameAsBinary; set { _LastName = Encoding.UTF8.GetString(value); _LastNameAsBinary = value; }}
        private byte[] _LastNameAsBinary;

@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: OpenTl.Schema.Channels.TChannelParticipant
+  commentId: T:OpenTl.Schema.Channels.TChannelParticipant
+  id: TChannelParticipant
+  parent: OpenTl.Schema.Channels
+  children:
+  - OpenTl.Schema.Channels.TChannelParticipant.Participant
+  - OpenTl.Schema.Channels.TChannelParticipant.Users
+  langs:
+  - csharp
+  - vb
+  name: TChannelParticipant
+  nameWithType: TChannelParticipant
+  fullName: OpenTl.Schema.Channels.TChannelParticipant
+  type: Class
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: TChannelParticipant
+    path: ../src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+    startLine: 11
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: 'public class TChannelParticipant : object, IChannelParticipant, IObject'
+    content.vb: >-
+      Public Class TChannelParticipant
+
+          Inherits Object
+
+          Implements IChannelParticipant, IObject
+  inheritance:
+  - System.Object
+  implements:
+  - OpenTl.Schema.Channels.IChannelParticipant
+  - OpenTl.Schema.IObject
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: OpenTl.Schema.Channels.TChannelParticipant.Participant
+  commentId: P:OpenTl.Schema.Channels.TChannelParticipant.Participant
+  id: Participant
+  parent: OpenTl.Schema.Channels.TChannelParticipant
+  langs:
+  - csharp
+  - vb
+  name: Participant
+  nameWithType: TChannelParticipant.Participant
+  fullName: OpenTl.Schema.Channels.TChannelParticipant.Participant
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Participant
+    path: ../src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+    startLine: 14
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public IChannelParticipant Participant { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IChannelParticipant
+    content.vb: Public Property Participant As IChannelParticipant
+  overload: OpenTl.Schema.Channels.TChannelParticipant.Participant*
+  implements:
+  - OpenTl.Schema.Channels.IChannelParticipant.Participant
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: OpenTl.Schema.Channels.TChannelParticipant.Users
+  commentId: P:OpenTl.Schema.Channels.TChannelParticipant.Users
+  id: Users
+  parent: OpenTl.Schema.Channels.TChannelParticipant
+  langs:
+  - csharp
+  - vb
+  name: Users
+  nameWithType: TChannelParticipant.Users
+  fullName: OpenTl.Schema.Channels.TChannelParticipant.Users
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: Users
+    path: ../src/OpenTl.Schema/_generated/Channels/ChannelParticipant/TChannelParticipant.cs
+    startLine: 17
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema.Channels
+  syntax:
+    content: public TVector<IUser> Users { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+    content.vb: Public Property Users As TVector(Of IUser)
+  overload: OpenTl.Schema.Channels.TChannelParticipant.Users*
+  implements:
+  - OpenTl.Schema.Channels.IChannelParticipant.Users
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: OpenTl.Schema.Channels
+  commentId: N:OpenTl.Schema.Channels
+  isExternal: false
+  name: OpenTl.Schema.Channels
+  nameWithType: OpenTl.Schema.Channels
+  fullName: OpenTl.Schema.Channels
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: OpenTl.Schema.Channels.IChannelParticipant
+  commentId: T:OpenTl.Schema.Channels.IChannelParticipant
+  parent: OpenTl.Schema.Channels
+  isExternal: false
+  name: IChannelParticipant
+  nameWithType: IChannelParticipant
+  fullName: OpenTl.Schema.Channels.IChannelParticipant
+- uid: OpenTl.Schema.IObject
+  commentId: T:OpenTl.Schema.IObject
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IObject
+  nameWithType: IObject
+  fullName: OpenTl.Schema.IObject
+- uid: OpenTl.Schema
+  commentId: N:OpenTl.Schema
+  isExternal: false
+  name: OpenTl.Schema
+  nameWithType: OpenTl.Schema
+  fullName: OpenTl.Schema
+- uid: OpenTl.Schema.Channels.TChannelParticipant.Participant*
+  commentId: Overload:OpenTl.Schema.Channels.TChannelParticipant.Participant
+  isExternal: false
+  name: Participant
+  nameWithType: TChannelParticipant.Participant
+  fullName: OpenTl.Schema.Channels.TChannelParticipant.Participant
+- uid: OpenTl.Schema.Channels.IChannelParticipant.Participant
+  commentId: P:OpenTl.Schema.Channels.IChannelParticipant.Participant
+  parent: OpenTl.Schema.Channels.IChannelParticipant
+  isExternal: false
+  name: Participant
+  nameWithType: IChannelParticipant.Participant
+  fullName: OpenTl.Schema.Channels.IChannelParticipant.Participant
+- uid: OpenTl.Schema.IChannelParticipant
+  commentId: T:OpenTl.Schema.IChannelParticipant
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IChannelParticipant
+  nameWithType: IChannelParticipant
+  fullName: OpenTl.Schema.IChannelParticipant
+- uid: OpenTl.Schema.Channels.TChannelParticipant.Users*
+  commentId: Overload:OpenTl.Schema.Channels.TChannelParticipant.Users
+  isExternal: false
+  name: Users
+  nameWithType: TChannelParticipant.Users
+  fullName: OpenTl.Schema.Channels.TChannelParticipant.Users
+- uid: OpenTl.Schema.Channels.IChannelParticipant.Users
+  commentId: P:OpenTl.Schema.Channels.IChannelParticipant.Users
+  parent: OpenTl.Schema.Channels.IChannelParticipant
+  isExternal: false
+  name: Users
+  nameWithType: IChannelParticipant.Users
+  fullName: OpenTl.Schema.Channels.IChannelParticipant.Users
+- uid: OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  commentId: T:OpenTl.Schema.TVector{OpenTl.Schema.IUser}
+  parent: OpenTl.Schema
+  definition: OpenTl.Schema.TVector`1
+  name: TVector<IUser>
+  nameWithType: TVector<IUser>
+  fullName: OpenTl.Schema.TVector<OpenTl.Schema.IUser>
+  nameWithType.vb: TVector(Of IUser)
+  fullName.vb: OpenTl.Schema.TVector(Of OpenTl.Schema.IUser)
+  name.vb: TVector(Of IUser)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: OpenTl.Schema.IUser
+    name: IUser
+    nameWithType: IUser
+    fullName: OpenTl.Schema.IUser
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.TVector`1
+  commentId: T:OpenTl.Schema.TVector`1
+  isExternal: false
+  name: TVector<T>
+  nameWithType: TVector<T>
+  fullName: OpenTl.Schema.TVector<T>
+  nameWithType.vb: TVector(Of T)
+  fullName.vb: OpenTl.Schema.TVector(Of T)
+  name.vb: TVector(Of T)
+  spec.csharp:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: OpenTl.Schema.TVector`1
+    name: TVector
+    nameWithType: TVector
+    fullName: OpenTl.Schema.TVector
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
