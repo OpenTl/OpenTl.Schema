@@ -6,10 +6,15 @@
           "files": [
             "src/OpenTl.Schema/**.csproj"
           ],
+          "exclude": [
+            "**/obj/**",
+            "**/bin/**",
+            "../docs/**"
+          ],
           "src": "../"
         }
       ],
-      "dest": "docfx_project/api",
+      "dest": "api",
       "disableGitFeatures": false
     }
   ],
@@ -30,7 +35,7 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "../docs/**"
         ]
       }
     ],
@@ -41,7 +46,7 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "../docs/**"
         ]
       }
     ],
@@ -52,9 +57,12 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "../docs/**"
         ]
       }
+    ],
+    "xref": [
+      "No"
     ],
     "dest": "../docs",
     "globalMetadataFiles": [],
