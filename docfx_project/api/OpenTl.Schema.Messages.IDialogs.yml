@@ -31,7 +31,6 @@ items:
     content: 'public interface IDialogs : IObject'
     content.vb: >-
       Public Interface IDialogs
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

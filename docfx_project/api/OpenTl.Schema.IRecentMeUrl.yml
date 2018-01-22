@@ -29,7 +29,6 @@ items:
     content: 'public interface IRecentMeUrl : IObject'
     content.vb: >-
       Public Interface IRecentMeUrl
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -364,7 +363,15 @@ references:
   nameWithType: IRecentMeUrl.Url
   fullName: OpenTl.Schema.IRecentMeUrl.Url
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

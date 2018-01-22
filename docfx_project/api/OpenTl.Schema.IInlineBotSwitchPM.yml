@@ -31,7 +31,6 @@ items:
     content: 'public interface IInlineBotSwitchPM : IObject'
     content.vb: >-
       Public Interface IInlineBotSwitchPM
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -430,10 +429,18 @@ references:
   nameWithType: IInlineBotSwitchPM.Text
   fullName: OpenTl.Schema.IInlineBotSwitchPM.Text
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary*
   commentId: Overload:OpenTl.Schema.IInlineBotSwitchPM.StartParamAsBinary
   isExternal: false

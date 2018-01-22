@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputUser : IObject'
     content.vb: >-
       Public Interface IInputUser
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

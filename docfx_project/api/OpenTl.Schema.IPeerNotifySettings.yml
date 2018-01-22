@@ -27,7 +27,6 @@ items:
     content: 'public interface IPeerNotifySettings : IObject'
     content.vb: >-
       Public Interface IPeerNotifySettings
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

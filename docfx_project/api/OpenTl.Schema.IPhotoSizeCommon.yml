@@ -32,7 +32,6 @@ items:
     content: 'public interface IPhotoSizeCommon : IObject'
     content.vb: >-
       Public Interface IPhotoSizeCommon
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -463,10 +462,18 @@ references:
   nameWithType: IPhotoSizeCommon.Type
   fullName: OpenTl.Schema.IPhotoSizeCommon.Type
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IPhotoSizeCommon.Location*
   commentId: Overload:OpenTl.Schema.IPhotoSizeCommon.Location
   isExternal: false
@@ -487,6 +494,8 @@ references:
   nameWithType: IPhotoSizeCommon.W
   fullName: OpenTl.Schema.IPhotoSizeCommon.W
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

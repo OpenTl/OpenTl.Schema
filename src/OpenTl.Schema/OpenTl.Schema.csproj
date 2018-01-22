@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard16;net46</TargetFrameworks>
+    <!--<TargetFramework>net46</TargetFramework>-->
   </PropertyGroup>
   <PropertyGroup>
     <Title>Schema for a OpenTl project</Title>

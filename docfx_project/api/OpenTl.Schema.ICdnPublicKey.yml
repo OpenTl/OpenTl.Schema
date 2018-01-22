@@ -30,7 +30,6 @@ items:
     content: 'public interface ICdnPublicKey : IObject'
     content.vb: >-
       Public Interface ICdnPublicKey
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: ICdnPublicKey.DcId
   fullName: OpenTl.Schema.ICdnPublicKey.DcId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary*
   commentId: Overload:OpenTl.Schema.ICdnPublicKey.PublicKeyAsBinary
   isExternal: false
@@ -408,6 +415,8 @@ references:
   nameWithType: ICdnPublicKey.PublicKey
   fullName: OpenTl.Schema.ICdnPublicKey.PublicKey
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

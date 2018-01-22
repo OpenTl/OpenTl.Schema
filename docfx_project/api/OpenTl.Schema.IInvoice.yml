@@ -8,10 +8,12 @@ items:
   - OpenTl.Schema.IInvoice.Currency
   - OpenTl.Schema.IInvoice.CurrencyAsBinary
   - OpenTl.Schema.IInvoice.EmailRequested
+  - OpenTl.Schema.IInvoice.EmailToProvider
   - OpenTl.Schema.IInvoice.Flags
   - OpenTl.Schema.IInvoice.Flexible
   - OpenTl.Schema.IInvoice.NameRequested
   - OpenTl.Schema.IInvoice.PhoneRequested
+  - OpenTl.Schema.IInvoice.PhoneToProvider
   - OpenTl.Schema.IInvoice.Prices
   - OpenTl.Schema.IInvoice.ShippingAddressRequested
   - OpenTl.Schema.IInvoice.Test
@@ -37,7 +39,6 @@ items:
     content: 'public interface IInvoice : IObject'
     content.vb: >-
       Public Interface IInvoice
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -75,7 +76,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.IInvoice.Flags*
   modifiers.csharp:
@@ -273,6 +274,70 @@ items:
   modifiers.csharp:
   - get
   - set
+- uid: OpenTl.Schema.IInvoice.PhoneToProvider
+  commentId: P:OpenTl.Schema.IInvoice.PhoneToProvider
+  id: PhoneToProvider
+  parent: OpenTl.Schema.IInvoice
+  langs:
+  - csharp
+  - vb
+  name: PhoneToProvider
+  nameWithType: IInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.IInvoice.PhoneToProvider
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: PhoneToProvider
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
+    startLine: 25
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool PhoneToProvider { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property PhoneToProvider As Boolean
+  overload: OpenTl.Schema.IInvoice.PhoneToProvider*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IInvoice.EmailToProvider
+  commentId: P:OpenTl.Schema.IInvoice.EmailToProvider
+  id: EmailToProvider
+  parent: OpenTl.Schema.IInvoice
+  langs:
+  - csharp
+  - vb
+  name: EmailToProvider
+  nameWithType: IInvoice.EmailToProvider
+  fullName: OpenTl.Schema.IInvoice.EmailToProvider
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: EmailToProvider
+    path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
+    startLine: 27
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: bool EmailToProvider { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property EmailToProvider As Boolean
+  overload: OpenTl.Schema.IInvoice.EmailToProvider*
+  modifiers.csharp:
+  - get
+  - set
 - uid: OpenTl.Schema.IInvoice.CurrencyAsBinary
   commentId: P:OpenTl.Schema.IInvoice.CurrencyAsBinary
   id: CurrencyAsBinary
@@ -291,7 +356,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: CurrencyAsBinary
     path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
-    startLine: 25
+    startLine: 29
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -323,7 +388,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: Currency
     path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
-    startLine: 26
+    startLine: 30
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -355,7 +420,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: Prices
     path: ../src/OpenTl.Schema/_generated/_Entities/Invoice/IInvoice.cs
-    startLine: 28
+    startLine: 32
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -596,11 +661,19 @@ references:
   name: Flags
   nameWithType: IInvoice.Flags
   fullName: OpenTl.Schema.IInvoice.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.IInvoice.Test*
   commentId: Overload:OpenTl.Schema.IInvoice.Test
   isExternal: false
@@ -608,10 +681,18 @@ references:
   nameWithType: IInvoice.Test
   fullName: OpenTl.Schema.IInvoice.Test
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInvoice.NameRequested*
   commentId: Overload:OpenTl.Schema.IInvoice.NameRequested
   isExternal: false
@@ -642,6 +723,18 @@ references:
   name: Flexible
   nameWithType: IInvoice.Flexible
   fullName: OpenTl.Schema.IInvoice.Flexible
+- uid: OpenTl.Schema.IInvoice.PhoneToProvider*
+  commentId: Overload:OpenTl.Schema.IInvoice.PhoneToProvider
+  isExternal: false
+  name: PhoneToProvider
+  nameWithType: IInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.IInvoice.PhoneToProvider
+- uid: OpenTl.Schema.IInvoice.EmailToProvider*
+  commentId: Overload:OpenTl.Schema.IInvoice.EmailToProvider
+  isExternal: false
+  name: EmailToProvider
+  nameWithType: IInvoice.EmailToProvider
+  fullName: OpenTl.Schema.IInvoice.EmailToProvider
 - uid: OpenTl.Schema.IInvoice.CurrencyAsBinary*
   commentId: Overload:OpenTl.Schema.IInvoice.CurrencyAsBinary
   isExternal: false
@@ -680,6 +773,8 @@ references:
   nameWithType: IInvoice.Currency
   fullName: OpenTl.Schema.IInvoice.Currency
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

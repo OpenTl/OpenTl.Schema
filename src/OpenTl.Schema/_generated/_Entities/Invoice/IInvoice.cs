@@ -23,6 +23,10 @@ namespace OpenTl.Schema
 
        bool Flexible {get; set;}
 
+       bool PhoneToProvider {get; set;}
+
+       bool EmailToProvider {get; set;}
+
        byte[] CurrencyAsBinary {get; set;}
        string Currency {get; set;}
 

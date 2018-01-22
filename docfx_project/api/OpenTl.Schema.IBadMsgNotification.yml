@@ -30,7 +30,6 @@ items:
     content: 'public interface IBadMsgNotification : IObject'
     content.vb: >-
       Public Interface IBadMsgNotification
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: IBadMsgNotification.BadMsgId
   fullName: OpenTl.Schema.IBadMsgNotification.BadMsgId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IBadMsgNotification.BadMsgSeqno*
   commentId: Overload:OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
   isExternal: false
@@ -377,6 +384,8 @@ references:
   nameWithType: IBadMsgNotification.BadMsgSeqno
   fullName: OpenTl.Schema.IBadMsgNotification.BadMsgSeqno
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

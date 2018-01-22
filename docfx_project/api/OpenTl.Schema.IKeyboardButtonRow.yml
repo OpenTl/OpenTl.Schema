@@ -28,7 +28,6 @@ items:
     content: 'public interface IKeyboardButtonRow : IObject'
     content.vb: >-
       Public Interface IKeyboardButtonRow
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

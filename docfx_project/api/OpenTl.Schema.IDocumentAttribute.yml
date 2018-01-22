@@ -27,7 +27,6 @@ items:
     content: 'public interface IDocumentAttribute : IObject'
     content.vb: >-
       Public Interface IDocumentAttribute
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

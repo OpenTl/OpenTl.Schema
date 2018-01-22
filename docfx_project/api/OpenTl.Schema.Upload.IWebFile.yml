@@ -33,7 +33,6 @@ items:
     content: 'public interface IWebFile : IObject'
     content.vb: >-
       Public Interface IWebFile
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -471,10 +470,18 @@ references:
   nameWithType: IWebFile.Size
   fullName: OpenTl.Schema.Upload.IWebFile.Size
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary*
   commentId: Overload:OpenTl.Schema.Upload.IWebFile.MimeTypeAsBinary
   isExternal: false
@@ -513,6 +520,8 @@ references:
   nameWithType: IWebFile.MimeType
   fullName: OpenTl.Schema.Upload.IWebFile.MimeType
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

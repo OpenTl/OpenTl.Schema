@@ -27,7 +27,6 @@ items:
     content: 'public interface IRequest : IObject'
     content.vb: >-
       Public Interface IRequest
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

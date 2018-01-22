@@ -30,7 +30,6 @@ items:
     content: 'public interface IChatFull : IObject'
     content.vb: >-
       Public Interface IChatFull
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

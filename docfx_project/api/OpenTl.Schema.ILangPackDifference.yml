@@ -32,7 +32,6 @@ items:
     content: 'public interface ILangPackDifference : IObject'
     content.vb: >-
       Public Interface ILangPackDifference
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -463,10 +462,18 @@ references:
   nameWithType: ILangPackDifference.LangCode
   fullName: OpenTl.Schema.ILangPackDifference.LangCode
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.ILangPackDifference.FromVersion*
   commentId: Overload:OpenTl.Schema.ILangPackDifference.FromVersion
   isExternal: false
@@ -474,6 +481,8 @@ references:
   nameWithType: ILangPackDifference.FromVersion
   fullName: OpenTl.Schema.ILangPackDifference.FromVersion
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

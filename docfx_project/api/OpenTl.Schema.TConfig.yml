@@ -14,6 +14,7 @@ items:
   - OpenTl.Schema.TConfig.ChatSizeMax
   - OpenTl.Schema.TConfig.Date
   - OpenTl.Schema.TConfig.DcOptions
+  - OpenTl.Schema.TConfig.DefaultP2pContacts
   - OpenTl.Schema.TConfig.DisabledFeatures
   - OpenTl.Schema.TConfig.EditTimeLimit
   - OpenTl.Schema.TConfig.Expires
@@ -61,18 +62,27 @@ items:
   - OpenTl.Schema
   namespace: OpenTl.Schema
   syntax:
-    content: 'public class TConfig : object, IConfig, IObject'
+    content: 'public class TConfig : IConfig, IObject'
     content.vb: >-
       Public Class TConfig
-
-          Inherits Object
-
           Implements IConfig, IObject
   inheritance:
   - System.Object
   implements:
   - OpenTl.Schema.IConfig
   - OpenTl.Schema.IObject
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  - OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
   modifiers.csharp:
   - public
   - class
@@ -105,7 +115,7 @@ items:
     content: public BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Public Property Flags As BitArray
   overload: OpenTl.Schema.TConfig.Flags*
   implements:
@@ -153,6 +163,43 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: OpenTl.Schema.TConfig.DefaultP2pContacts
+  commentId: P:OpenTl.Schema.TConfig.DefaultP2pContacts
+  id: DefaultP2pContacts
+  parent: OpenTl.Schema.TConfig
+  langs:
+  - csharp
+  - vb
+  name: DefaultP2pContacts
+  nameWithType: TConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.TConfig.DefaultP2pContacts
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: DefaultP2pContacts
+    path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
+    startLine: 21
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: public bool DefaultP2pContacts { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property DefaultP2pContacts As Boolean
+  overload: OpenTl.Schema.TConfig.DefaultP2pContacts*
+  implements:
+  - OpenTl.Schema.IConfig.DefaultP2pContacts
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
 - uid: OpenTl.Schema.TConfig.Date
   commentId: P:OpenTl.Schema.TConfig.Date
   id: Date
@@ -171,7 +218,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: Date
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 21
+    startLine: 25
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -208,7 +255,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: Expires
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 24
+    startLine: 28
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -245,7 +292,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: TestMode
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 27
+    startLine: 31
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -282,7 +329,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: ThisDc
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 30
+    startLine: 34
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -319,7 +366,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: DcOptions
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 33
+    startLine: 37
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -356,7 +403,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: ChatSizeMax
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 36
+    startLine: 40
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -393,7 +440,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: MegagroupSizeMax
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 39
+    startLine: 43
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -430,7 +477,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: ForwardedCountMax
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 42
+    startLine: 46
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -467,7 +514,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: OnlineUpdatePeriodMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 45
+    startLine: 49
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -504,7 +551,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: OfflineBlurTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 48
+    startLine: 52
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -541,7 +588,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: OfflineIdleTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 51
+    startLine: 55
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -578,7 +625,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: OnlineCloudTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 54
+    startLine: 58
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -615,7 +662,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: NotifyCloudDelayMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 57
+    startLine: 61
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -652,7 +699,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: NotifyDefaultDelayMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 60
+    startLine: 64
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -689,7 +736,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: ChatBigSize
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 63
+    startLine: 67
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -726,7 +773,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: PushChatPeriodMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 66
+    startLine: 70
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -763,7 +810,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: PushChatLimit
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 69
+    startLine: 73
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -800,7 +847,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: SavedGifsLimit
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 72
+    startLine: 76
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -837,7 +884,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: EditTimeLimit
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 75
+    startLine: 79
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -874,7 +921,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: RatingEDecay
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 78
+    startLine: 82
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -911,7 +958,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: StickersRecentLimit
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 81
+    startLine: 85
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -948,7 +995,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: StickersFavedLimit
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 84
+    startLine: 88
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -985,7 +1032,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: ChannelsReadMediaPeriod
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 87
+    startLine: 91
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1022,7 +1069,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: TmpSessions
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 90
+    startLine: 94
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1059,7 +1106,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: PinnedDialogsCountMax
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 94
+    startLine: 98
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1096,7 +1143,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: CallReceiveTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 97
+    startLine: 101
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1133,7 +1180,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: CallRingTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 100
+    startLine: 104
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1170,7 +1217,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: CallConnectTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 103
+    startLine: 107
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1207,7 +1254,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: CallPacketTimeoutMs
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 106
+    startLine: 110
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1244,7 +1291,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: MeUrlPrefixAsBinary
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 110
+    startLine: 114
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1283,7 +1330,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: MeUrlPrefix
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 114
+    startLine: 118
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1320,7 +1367,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: SuggestedLangCodeAsBinary
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 117
+    startLine: 121
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1359,7 +1406,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: SuggestedLangCode
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 122
+    startLine: 126
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1396,7 +1443,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: LangPackVersion
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 124
+    startLine: 128
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1433,7 +1480,7 @@ items:
       repo: https://github.com/OpenTl/OpenTl.Schema.git
     id: DisabledFeatures
     path: ../src/OpenTl.Schema/_generated/_Entities/Config/TConfig.cs
-    startLine: 128
+    startLine: 132
   assemblies:
   - OpenTl.Schema
   namespace: OpenTl.Schema
@@ -1460,6 +1507,8 @@ references:
   nameWithType: OpenTl.Schema
   fullName: OpenTl.Schema
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
@@ -1478,6 +1527,505 @@ references:
   name: IObject
   nameWithType: IObject
   fullName: OpenTl.Schema.IObject
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  name: As<T>()
+  nameWithType: Utils.As<T>()
+  fullName: OpenTl.Schema.Utils.As<T>()
+  nameWithType.vb: Utils.As(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)()
+  name.vb: As(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.Cast``1
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  name: Cast<T>()
+  nameWithType: Utils.Cast<T>()
+  fullName: OpenTl.Schema.Utils.Cast<T>()
+  nameWithType.vb: Utils.Cast(Of T)()
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)()
+  name.vb: Cast(Of T)()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.IObject.OpenTl.Schema.Utils.IsEmpty
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  parent: OpenTl.Schema.Utils
+  definition: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  name: IsEmpty()
+  nameWithType: Utils.IsEmpty()
+  fullName: OpenTl.Schema.Utils.IsEmpty()
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: As<T>(IObject)
+  nameWithType: Utils.As<T>(IObject)
+  fullName: OpenTl.Schema.Utils.As<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.As(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.As(Of T)(OpenTl.Schema.IObject)
+  name.vb: As(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As<T>
+    nameWithType: Utils.As<T>
+    fullName: OpenTl.Schema.Utils.As<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.As``1(OpenTl.Schema.IObject)
+    name: As(Of T)
+    nameWithType: Utils.As(Of T)
+    fullName: OpenTl.Schema.Utils.As(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils
+  commentId: T:OpenTl.Schema.Utils
+  parent: OpenTl.Schema
+  isExternal: false
+  name: Utils
+  nameWithType: Utils
+  fullName: OpenTl.Schema.Utils
+- uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+  isExternal: false
+  name: Cast<T>(IObject)
+  nameWithType: Utils.Cast<T>(IObject)
+  fullName: OpenTl.Schema.Utils.Cast<T>(OpenTl.Schema.IObject)
+  nameWithType.vb: Utils.Cast(Of T)(IObject)
+  fullName.vb: OpenTl.Schema.Utils.Cast(Of T)(OpenTl.Schema.IObject)
+  name.vb: Cast(Of T)(IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast<T>
+    nameWithType: Utils.Cast<T>
+    fullName: OpenTl.Schema.Utils.Cast<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.Cast``1(OpenTl.Schema.IObject)
+    name: Cast(Of T)
+    nameWithType: Utils.Cast(Of T)
+    fullName: OpenTl.Schema.Utils.Cast(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  commentId: M:OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  isExternal: false
+  name: IsEmpty(IObject)
+  nameWithType: Utils.IsEmpty(IObject)
+  fullName: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+  spec.csharp:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: OpenTl.Schema.Utils.IsEmpty(OpenTl.Schema.IObject)
+    name: IsEmpty
+    nameWithType: Utils.IsEmpty
+    fullName: OpenTl.Schema.Utils.IsEmpty
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: OpenTl.Schema.IObject
+    name: IObject
+    nameWithType: IObject
+    fullName: OpenTl.Schema.IObject
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: OpenTl.Schema.TConfig.Flags*
   commentId: Overload:OpenTl.Schema.TConfig.Flags
   isExternal: false
@@ -1491,11 +2039,19 @@ references:
   name: Flags
   nameWithType: IConfig.Flags
   fullName: OpenTl.Schema.IConfig.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.TConfig.PhonecallsEnabled*
   commentId: Overload:OpenTl.Schema.TConfig.PhonecallsEnabled
   isExternal: false
@@ -1510,10 +2066,25 @@ references:
   nameWithType: IConfig.PhonecallsEnabled
   fullName: OpenTl.Schema.IConfig.PhonecallsEnabled
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: OpenTl.Schema.TConfig.DefaultP2pContacts*
+  commentId: Overload:OpenTl.Schema.TConfig.DefaultP2pContacts
+  isExternal: false
+  name: DefaultP2pContacts
+  nameWithType: TConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.TConfig.DefaultP2pContacts
+- uid: OpenTl.Schema.IConfig.DefaultP2pContacts
+  commentId: P:OpenTl.Schema.IConfig.DefaultP2pContacts
+  parent: OpenTl.Schema.IConfig
+  isExternal: false
+  name: DefaultP2pContacts
+  nameWithType: IConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.IConfig.DefaultP2pContacts
 - uid: OpenTl.Schema.TConfig.Date*
   commentId: Overload:OpenTl.Schema.TConfig.Date
   isExternal: false
@@ -1528,6 +2099,8 @@ references:
   nameWithType: IConfig.Date
   fullName: OpenTl.Schema.IConfig.Date
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -2025,6 +2598,8 @@ references:
   nameWithType: IConfig.MeUrlPrefix
   fullName: OpenTl.Schema.IConfig.MeUrlPrefix
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -27,7 +27,6 @@ items:
     content: 'public interface IPhoneCall : IObject'
     content.vb: >-
       Public Interface IPhoneCall
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

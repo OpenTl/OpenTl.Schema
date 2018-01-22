@@ -31,7 +31,6 @@ items:
     content: 'public interface IValidatedRequestedInfo : IObject'
     content.vb: >-
       Public Interface IValidatedRequestedInfo
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -69,7 +68,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.Payments.IValidatedRequestedInfo.Flags*
   modifiers.csharp:
@@ -404,11 +403,19 @@ references:
   name: Flags
   nameWithType: IValidatedRequestedInfo.Flags
   fullName: OpenTl.Schema.Payments.IValidatedRequestedInfo.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.Payments.IValidatedRequestedInfo.IdAsBinary*
   commentId: Overload:OpenTl.Schema.Payments.IValidatedRequestedInfo.IdAsBinary
   isExternal: false
@@ -447,10 +454,18 @@ references:
   nameWithType: IValidatedRequestedInfo.Id
   fullName: OpenTl.Schema.Payments.IValidatedRequestedInfo.Id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Payments.IValidatedRequestedInfo.ShippingOptions*
   commentId: Overload:OpenTl.Schema.Payments.IValidatedRequestedInfo.ShippingOptions
   isExternal: false

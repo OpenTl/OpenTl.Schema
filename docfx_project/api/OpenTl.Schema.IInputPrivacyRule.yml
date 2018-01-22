@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputPrivacyRule : IObject'
     content.vb: >-
       Public Interface IInputPrivacyRule
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

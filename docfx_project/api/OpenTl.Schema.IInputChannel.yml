@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputChannel : IObject'
     content.vb: >-
       Public Interface IInputChannel
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

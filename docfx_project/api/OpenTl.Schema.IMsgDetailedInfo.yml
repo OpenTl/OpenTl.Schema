@@ -30,7 +30,6 @@ items:
     content: 'public interface IMsgDetailedInfo : IObject'
     content.vb: >-
       Public Interface IMsgDetailedInfo
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: IMsgDetailedInfo.AnswerMsgId
   fullName: OpenTl.Schema.IMsgDetailedInfo.AnswerMsgId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IMsgDetailedInfo.Bytes*
   commentId: Overload:OpenTl.Schema.IMsgDetailedInfo.Bytes
   isExternal: false
@@ -377,6 +384,8 @@ references:
   nameWithType: IMsgDetailedInfo.Bytes
   fullName: OpenTl.Schema.IMsgDetailedInfo.Bytes
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

@@ -39,14 +39,22 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 5)]
        public bool Flexible {get; set;}
 
-       /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(7)]
+       [FromFlag("Flags", 6)]
+       public bool PhoneToProvider {get; set;}
+
+       [SerializationOrder(8)]
+       [FromFlag("Flags", 7)]
+       public bool EmailToProvider {get; set;}
+
+       /// <summary>Binary representation for the 'Currency' property</summary>
+       [SerializationOrder(9)]
        public byte[] CurrencyAsBinary { get => _CurrencyAsBinary; set { _Currency = Encoding.UTF8.GetString(value); _CurrencyAsBinary = value; }}
        private byte[] _CurrencyAsBinary;
        private string _Currency;
        public string Currency { get => _Currency; set { CurrencyAsBinary = Encoding.UTF8.GetBytes(value); _Currency = value; }}
 
-       [SerializationOrder(8)]
+       [SerializationOrder(10)]
        public OpenTl.Schema.TVector<OpenTl.Schema.ILabeledPrice> Prices {get; set;}
 
 	}

@@ -13,6 +13,8 @@ namespace OpenTl.Schema
 
        bool PhonecallsEnabled {get; set;}
 
+       bool DefaultP2pContacts {get; set;}
+
        int Date {get; set;}
 
        int Expires {get; set;}

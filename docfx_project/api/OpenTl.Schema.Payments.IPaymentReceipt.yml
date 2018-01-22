@@ -40,7 +40,6 @@ items:
     content: 'public interface IPaymentReceipt : IObject'
     content.vb: >-
       Public Interface IPaymentReceipt
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -78,7 +77,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.Payments.IPaymentReceipt.Flags*
   modifiers.csharp:
@@ -701,11 +700,19 @@ references:
   name: Flags
   nameWithType: IPaymentReceipt.Flags
   fullName: OpenTl.Schema.Payments.IPaymentReceipt.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.Payments.IPaymentReceipt.Date*
   commentId: Overload:OpenTl.Schema.Payments.IPaymentReceipt.Date
   isExternal: false
@@ -713,10 +720,18 @@ references:
   nameWithType: IPaymentReceipt.Date
   fullName: OpenTl.Schema.Payments.IPaymentReceipt.Date
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Payments.IPaymentReceipt.BotId*
   commentId: Overload:OpenTl.Schema.Payments.IPaymentReceipt.BotId
   isExternal: false
@@ -806,6 +821,8 @@ references:
   nameWithType: IPaymentReceipt.Currency
   fullName: OpenTl.Schema.Payments.IPaymentReceipt.Currency
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -817,6 +834,8 @@ references:
   nameWithType: IPaymentReceipt.TotalAmount
   fullName: OpenTl.Schema.Payments.IPaymentReceipt.TotalAmount
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

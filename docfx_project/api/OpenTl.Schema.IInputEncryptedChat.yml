@@ -29,7 +29,6 @@ items:
     content: 'public interface IInputEncryptedChat : IObject'
     content.vb: >-
       Public Interface IInputEncryptedChat
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -333,10 +332,18 @@ references:
   nameWithType: IInputEncryptedChat.ChatId
   fullName: OpenTl.Schema.IInputEncryptedChat.ChatId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputEncryptedChat.AccessHash*
   commentId: Overload:OpenTl.Schema.IInputEncryptedChat.AccessHash
   isExternal: false
@@ -344,6 +351,8 @@ references:
   nameWithType: IInputEncryptedChat.AccessHash
   fullName: OpenTl.Schema.IInputEncryptedChat.AccessHash
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

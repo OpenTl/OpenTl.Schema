@@ -105,6 +105,7 @@ items:
   - OpenTl.Schema.Messages.RequestSendInlineBotResult
   - OpenTl.Schema.Messages.RequestSendMedia
   - OpenTl.Schema.Messages.RequestSendMessage
+  - OpenTl.Schema.Messages.RequestSendMultiMedia
   - OpenTl.Schema.Messages.RequestSendScreenshotNotification
   - OpenTl.Schema.Messages.RequestSetBotCallbackAnswer
   - OpenTl.Schema.Messages.RequestSetBotPrecheckoutResults
@@ -118,6 +119,7 @@ items:
   - OpenTl.Schema.Messages.RequestToggleChatAdmins
   - OpenTl.Schema.Messages.RequestToggleDialogPin
   - OpenTl.Schema.Messages.RequestUninstallStickerSet
+  - OpenTl.Schema.Messages.RequestUploadEncryptedFile
   - OpenTl.Schema.Messages.RequestUploadMedia
   - OpenTl.Schema.Messages.TAffectedHistory
   - OpenTl.Schema.Messages.TAffectedMessages
@@ -928,6 +930,12 @@ references:
   name: RequestSendMessage
   nameWithType: RequestSendMessage
   fullName: OpenTl.Schema.Messages.RequestSendMessage
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia
+  commentId: T:OpenTl.Schema.Messages.RequestSendMultiMedia
+  isExternal: false
+  name: RequestSendMultiMedia
+  nameWithType: RequestSendMultiMedia
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia
 - uid: OpenTl.Schema.Messages.RequestSendScreenshotNotification
   commentId: T:OpenTl.Schema.Messages.RequestSendScreenshotNotification
   isExternal: false
@@ -1006,6 +1014,12 @@ references:
   name: RequestUninstallStickerSet
   nameWithType: RequestUninstallStickerSet
   fullName: OpenTl.Schema.Messages.RequestUninstallStickerSet
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile
+  commentId: T:OpenTl.Schema.Messages.RequestUploadEncryptedFile
+  isExternal: false
+  name: RequestUploadEncryptedFile
+  nameWithType: RequestUploadEncryptedFile
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile
 - uid: OpenTl.Schema.Messages.RequestUploadMedia
   commentId: T:OpenTl.Schema.Messages.RequestUploadMedia
   isExternal: false

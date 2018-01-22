@@ -28,7 +28,6 @@ items:
     content: 'public interface IInputEncryptedFileCommon : IObject'
     content.vb: >-
       Public Interface IInputEncryptedFileCommon
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -300,7 +299,15 @@ references:
   nameWithType: IInputEncryptedFileCommon.Id
   fullName: OpenTl.Schema.IInputEncryptedFileCommon.Id
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

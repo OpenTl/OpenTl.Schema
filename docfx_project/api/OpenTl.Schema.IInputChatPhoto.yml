@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputChatPhoto : IObject'
     content.vb: >-
       Public Interface IInputChatPhoto
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

@@ -27,7 +27,6 @@ items:
     content: 'public interface IRecentStickers : IObject'
     content.vb: >-
       Public Interface IRecentStickers
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

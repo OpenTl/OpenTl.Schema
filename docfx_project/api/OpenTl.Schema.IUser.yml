@@ -27,7 +27,6 @@ items:
     content: 'public interface IUser : IObject'
     content.vb: >-
       Public Interface IUser
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

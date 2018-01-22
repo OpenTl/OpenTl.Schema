@@ -27,7 +27,6 @@ items:
     content: 'public interface IPaymentResult : IObject'
     content.vb: >-
       Public Interface IPaymentResult
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

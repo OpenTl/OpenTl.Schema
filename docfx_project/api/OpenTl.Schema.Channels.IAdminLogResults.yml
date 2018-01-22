@@ -30,7 +30,6 @@ items:
     content: 'public interface IAdminLogResults : IObject'
     content.vb: >-
       Public Interface IAdminLogResults
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

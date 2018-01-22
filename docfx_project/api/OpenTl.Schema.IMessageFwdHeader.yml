@@ -12,6 +12,8 @@ items:
   - OpenTl.Schema.IMessageFwdHeader.FromId
   - OpenTl.Schema.IMessageFwdHeader.PostAuthor
   - OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
+  - OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  - OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
   langs:
   - csharp
   - vb
@@ -34,7 +36,6 @@ items:
     content: 'public interface IMessageFwdHeader : IObject'
     content.vb: >-
       Public Interface IMessageFwdHeader
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -72,7 +73,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.IMessageFwdHeader.Flags*
   modifiers.csharp:
@@ -267,6 +268,70 @@ items:
       type: System.String
     content.vb: Property PostAuthor As String
   overload: OpenTl.Schema.IMessageFwdHeader.PostAuthor*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  id: SavedFromPeer
+  parent: OpenTl.Schema.IMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: SavedFromPeer
+  nameWithType: IMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/IMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SavedFromPeer
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/IMessageFwdHeader.cs
+    startLine: 24
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: IPeer SavedFromPeer { get; set; }
+    parameters: []
+    return:
+      type: OpenTl.Schema.IPeer
+    content.vb: Property SavedFromPeer As IPeer
+  overload: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer*
+  modifiers.csharp:
+  - get
+  - set
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  id: SavedFromMsgId
+  parent: OpenTl.Schema.IMessageFwdHeader
+  langs:
+  - csharp
+  - vb
+  name: SavedFromMsgId
+  nameWithType: IMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  type: Property
+  source:
+    remote:
+      path: src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/IMessageFwdHeader.cs
+      branch: master
+      repo: https://github.com/OpenTl/OpenTl.Schema.git
+    id: SavedFromMsgId
+    path: ../src/OpenTl.Schema/_generated/_Entities/MessageFwdHeader/IMessageFwdHeader.cs
+    startLine: 26
+  assemblies:
+  - OpenTl.Schema
+  namespace: OpenTl.Schema
+  syntax:
+    content: int SavedFromMsgId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property SavedFromMsgId As Integer
+  overload: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId*
   modifiers.csharp:
   - get
   - set
@@ -497,11 +562,19 @@ references:
   name: Flags
   nameWithType: IMessageFwdHeader.Flags
   fullName: OpenTl.Schema.IMessageFwdHeader.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.IMessageFwdHeader.FromId*
   commentId: Overload:OpenTl.Schema.IMessageFwdHeader.FromId
   isExternal: false
@@ -509,10 +582,18 @@ references:
   nameWithType: IMessageFwdHeader.FromId
   fullName: OpenTl.Schema.IMessageFwdHeader.FromId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IMessageFwdHeader.Date*
   commentId: Overload:OpenTl.Schema.IMessageFwdHeader.Date
   isExternal: false
@@ -569,7 +650,28 @@ references:
   nameWithType: IMessageFwdHeader.PostAuthor
   fullName: OpenTl.Schema.IMessageFwdHeader.PostAuthor
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer*
+  commentId: Overload:OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  isExternal: false
+  name: SavedFromPeer
+  nameWithType: IMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+- uid: OpenTl.Schema.IPeer
+  commentId: T:OpenTl.Schema.IPeer
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IPeer
+  nameWithType: IPeer
+  fullName: OpenTl.Schema.IPeer
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId*
+  commentId: Overload:OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  isExternal: false
+  name: SavedFromMsgId
+  nameWithType: IMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId

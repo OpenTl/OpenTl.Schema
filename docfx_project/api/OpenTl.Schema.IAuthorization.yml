@@ -48,7 +48,6 @@ items:
     content: 'public interface IAuthorization : IObject'
     content.vb: >-
       Public Interface IAuthorization
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -960,10 +959,18 @@ references:
   nameWithType: IAuthorization.Hash
   fullName: OpenTl.Schema.IAuthorization.Hash
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IAuthorization.Flags*
   commentId: Overload:OpenTl.Schema.IAuthorization.Flags
   isExternal: false
@@ -971,6 +978,8 @@ references:
   nameWithType: IAuthorization.Flags
   fullName: OpenTl.Schema.IAuthorization.Flags
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -1013,6 +1022,8 @@ references:
   nameWithType: IAuthorization.DeviceModel
   fullName: OpenTl.Schema.IAuthorization.DeviceModel
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputPeerNotifyEvents : IObject'
     content.vb: >-
       Public Interface IInputPeerNotifyEvents
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

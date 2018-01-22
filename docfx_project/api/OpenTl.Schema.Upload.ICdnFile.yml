@@ -27,7 +27,6 @@ items:
     content: 'public interface ICdnFile : IObject'
     content.vb: >-
       Public Interface ICdnFile
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

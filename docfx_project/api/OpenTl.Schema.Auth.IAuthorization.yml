@@ -30,7 +30,6 @@ items:
     content: 'public interface IAuthorization : IObject'
     content.vb: >-
       Public Interface IAuthorization
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -68,7 +67,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.Auth.IAuthorization.Flags*
   modifiers.csharp:
@@ -371,11 +370,19 @@ references:
   name: Flags
   nameWithType: IAuthorization.Flags
   fullName: OpenTl.Schema.Auth.IAuthorization.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.Auth.IAuthorization.TmpSessions*
   commentId: Overload:OpenTl.Schema.Auth.IAuthorization.TmpSessions
   isExternal: false
@@ -383,10 +390,18 @@ references:
   nameWithType: IAuthorization.TmpSessions
   fullName: OpenTl.Schema.Auth.IAuthorization.TmpSessions
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Auth.IAuthorization.User*
   commentId: Overload:OpenTl.Schema.Auth.IAuthorization.User
   isExternal: false

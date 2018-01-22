@@ -30,7 +30,6 @@ items:
     content: 'public interface IFound : IObject'
     content.vb: >-
       Public Interface IFound
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

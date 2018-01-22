@@ -166,6 +166,8 @@
     name: IInputPrivacyKey
   - uid: OpenTl.Schema.IInputPrivacyRule
     name: IInputPrivacyRule
+  - uid: OpenTl.Schema.IInputSingleMedia
+    name: IInputSingleMedia
   - uid: OpenTl.Schema.IInputStickeredMedia
     name: IInputStickeredMedia
   - uid: OpenTl.Schema.IInputStickerSet
@@ -809,6 +811,8 @@
     name: TInputReportReasonSpam
   - uid: OpenTl.Schema.TInputReportReasonViolence
     name: TInputReportReasonViolence
+  - uid: OpenTl.Schema.TInputSingleMedia
+    name: TInputSingleMedia
   - uid: OpenTl.Schema.TInputStickeredMediaDocument
     name: TInputStickeredMediaDocument
   - uid: OpenTl.Schema.TInputStickeredMediaPhoto
@@ -2007,6 +2011,8 @@
     name: RequestSendMedia
   - uid: OpenTl.Schema.Messages.RequestSendMessage
     name: RequestSendMessage
+  - uid: OpenTl.Schema.Messages.RequestSendMultiMedia
+    name: RequestSendMultiMedia
   - uid: OpenTl.Schema.Messages.RequestSendScreenshotNotification
     name: RequestSendScreenshotNotification
   - uid: OpenTl.Schema.Messages.RequestSetBotCallbackAnswer
@@ -2033,6 +2039,8 @@
     name: RequestToggleDialogPin
   - uid: OpenTl.Schema.Messages.RequestUninstallStickerSet
     name: RequestUninstallStickerSet
+  - uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile
+    name: RequestUploadEncryptedFile
   - uid: OpenTl.Schema.Messages.RequestUploadMedia
     name: RequestUploadMedia
   - uid: OpenTl.Schema.Messages.TAffectedHistory

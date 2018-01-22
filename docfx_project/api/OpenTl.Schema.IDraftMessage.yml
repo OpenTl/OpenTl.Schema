@@ -27,7 +27,6 @@ items:
     content: 'public interface IDraftMessage : IObject'
     content.vb: >-
       Public Interface IDraftMessage
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

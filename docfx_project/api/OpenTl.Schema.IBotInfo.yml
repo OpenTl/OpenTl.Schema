@@ -31,7 +31,6 @@ items:
     content: 'public interface IBotInfo : IObject'
     content.vb: >-
       Public Interface IBotInfo
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -399,10 +398,18 @@ references:
   nameWithType: IBotInfo.UserId
   fullName: OpenTl.Schema.IBotInfo.UserId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IBotInfo.DescriptionAsBinary*
   commentId: Overload:OpenTl.Schema.IBotInfo.DescriptionAsBinary
   isExternal: false
@@ -441,6 +448,8 @@ references:
   nameWithType: IBotInfo.Description
   fullName: OpenTl.Schema.IBotInfo.Description
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

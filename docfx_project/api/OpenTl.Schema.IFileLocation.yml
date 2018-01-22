@@ -30,7 +30,6 @@ items:
     content: 'public interface IFileLocation : IObject'
     content.vb: >-
       Public Interface IFileLocation
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: IFileLocation.VolumeId
   fullName: OpenTl.Schema.IFileLocation.VolumeId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IFileLocation.LocalId*
   commentId: Overload:OpenTl.Schema.IFileLocation.LocalId
   isExternal: false
@@ -377,6 +384,8 @@ references:
   nameWithType: IFileLocation.LocalId
   fullName: OpenTl.Schema.IFileLocation.LocalId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

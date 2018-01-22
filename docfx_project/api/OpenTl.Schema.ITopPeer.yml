@@ -29,7 +29,6 @@ items:
     content: 'public interface ITopPeer : IObject'
     content.vb: >-
       Public Interface ITopPeer
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -346,7 +345,15 @@ references:
   nameWithType: ITopPeer.Rating
   fullName: OpenTl.Schema.ITopPeer.Rating
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

@@ -27,7 +27,6 @@ items:
     content: 'public interface IMessages : IObject'
     content.vb: >-
       Public Interface IMessages
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

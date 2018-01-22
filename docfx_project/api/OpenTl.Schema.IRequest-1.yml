@@ -29,7 +29,6 @@ items:
     - id: TResult
     content.vb: >-
       Public Interface IRequest(Of TResult)
-
           Inherits IRequest
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

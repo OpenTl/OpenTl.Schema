@@ -29,7 +29,6 @@ items:
     content: 'public interface IArchivedStickers : IObject'
     content.vb: >-
       Public Interface IArchivedStickers
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -339,10 +338,18 @@ references:
   nameWithType: IArchivedStickers.Count
   fullName: OpenTl.Schema.Messages.IArchivedStickers.Count
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Messages.IArchivedStickers.Sets*
   commentId: Overload:OpenTl.Schema.Messages.IArchivedStickers.Sets
   isExternal: false

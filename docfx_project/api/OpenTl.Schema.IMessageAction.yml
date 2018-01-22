@@ -27,7 +27,6 @@ items:
     content: 'public interface IMessageAction : IObject'
     content.vb: >-
       Public Interface IMessageAction
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

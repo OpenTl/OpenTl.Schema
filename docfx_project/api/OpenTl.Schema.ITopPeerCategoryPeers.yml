@@ -30,7 +30,6 @@ items:
     content: 'public interface ITopPeerCategoryPeers : IObject'
     content.vb: >-
       Public Interface ITopPeerCategoryPeers
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -379,10 +378,18 @@ references:
   nameWithType: ITopPeerCategoryPeers.Count
   fullName: OpenTl.Schema.ITopPeerCategoryPeers.Count
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.ITopPeerCategoryPeers.Peers*
   commentId: Overload:OpenTl.Schema.ITopPeerCategoryPeers.Peers
   isExternal: false

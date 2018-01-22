@@ -29,7 +29,6 @@ items:
     content: 'public interface IFoundGifs : IObject'
     content.vb: >-
       Public Interface IFoundGifs
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -339,10 +338,18 @@ references:
   nameWithType: IFoundGifs.NextOffset
   fullName: OpenTl.Schema.Messages.IFoundGifs.NextOffset
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Messages.IFoundGifs.Results*
   commentId: Overload:OpenTl.Schema.Messages.IFoundGifs.Results
   isExternal: false

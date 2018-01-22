@@ -35,7 +35,6 @@ items:
     content: 'public interface IWebDocument : IObject'
     content.vb: >-
       Public Interface IWebDocument
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -562,10 +561,18 @@ references:
   nameWithType: IWebDocument.Url
   fullName: OpenTl.Schema.IWebDocument.Url
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IWebDocument.AccessHash*
   commentId: Overload:OpenTl.Schema.IWebDocument.AccessHash
   isExternal: false
@@ -573,6 +580,8 @@ references:
   nameWithType: IWebDocument.AccessHash
   fullName: OpenTl.Schema.IWebDocument.AccessHash
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
@@ -584,6 +593,8 @@ references:
   nameWithType: IWebDocument.Size
   fullName: OpenTl.Schema.IWebDocument.Size
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

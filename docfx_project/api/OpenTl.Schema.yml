@@ -86,6 +86,7 @@ items:
   - OpenTl.Schema.IInputPhoto
   - OpenTl.Schema.IInputPrivacyKey
   - OpenTl.Schema.IInputPrivacyRule
+  - OpenTl.Schema.IInputSingleMedia
   - OpenTl.Schema.IInputStickeredMedia
   - OpenTl.Schema.IInputStickerSet
   - OpenTl.Schema.IInputStickerSetCommon
@@ -407,6 +408,7 @@ items:
   - OpenTl.Schema.TInputReportReasonPornography
   - OpenTl.Schema.TInputReportReasonSpam
   - OpenTl.Schema.TInputReportReasonViolence
+  - OpenTl.Schema.TInputSingleMedia
   - OpenTl.Schema.TInputStickeredMediaDocument
   - OpenTl.Schema.TInputStickeredMediaPhoto
   - OpenTl.Schema.TInputStickerSetEmpty
@@ -2587,6 +2589,19 @@ references:
   name: TInputPrivacyValueDisallowUsers
   nameWithType: TInputPrivacyValueDisallowUsers
   fullName: OpenTl.Schema.TInputPrivacyValueDisallowUsers
+- uid: OpenTl.Schema.IInputSingleMedia
+  commentId: T:OpenTl.Schema.IInputSingleMedia
+  parent: OpenTl.Schema
+  isExternal: false
+  name: IInputSingleMedia
+  nameWithType: IInputSingleMedia
+  fullName: OpenTl.Schema.IInputSingleMedia
+- uid: OpenTl.Schema.TInputSingleMedia
+  commentId: T:OpenTl.Schema.TInputSingleMedia
+  isExternal: false
+  name: TInputSingleMedia
+  nameWithType: TInputSingleMedia
+  fullName: OpenTl.Schema.TInputSingleMedia
 - uid: OpenTl.Schema.IInputStickeredMedia
   commentId: T:OpenTl.Schema.IInputStickeredMedia
   parent: OpenTl.Schema

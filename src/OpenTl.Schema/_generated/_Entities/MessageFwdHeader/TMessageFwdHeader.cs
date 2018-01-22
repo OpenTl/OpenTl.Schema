@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xfadff4ac)]
+	[Serialize(0x559ebe6d)]
 	public class TMessageFwdHeader : IMessageFwdHeader
 	{
        [SerializationOrder(0)]
@@ -37,6 +37,14 @@ namespace OpenTl.Schema
        private byte[] _PostAuthorAsBinary;
        private string _PostAuthor;
        public string PostAuthor { get => _PostAuthor; set { PostAuthorAsBinary = Encoding.UTF8.GetBytes(value); _PostAuthor = value; }}
+
+       [SerializationOrder(6)]
+       [CanSerialize("Flags", 4)]
+       public OpenTl.Schema.IPeer SavedFromPeer {get; set;}
+
+       [SerializationOrder(7)]
+       [CanSerialize("Flags", 4)]
+       public int SavedFromMsgId {get; set;}
 
 	}
 }

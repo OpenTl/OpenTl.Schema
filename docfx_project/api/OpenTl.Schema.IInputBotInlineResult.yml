@@ -30,7 +30,6 @@ items:
     content: 'public interface IInputBotInlineResult : IObject'
     content.vb: >-
       Public Interface IInputBotInlineResult
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -397,10 +396,18 @@ references:
   nameWithType: IInputBotInlineResult.Id
   fullName: OpenTl.Schema.IInputBotInlineResult.Id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputBotInlineResult.SendMessage*
   commentId: Overload:OpenTl.Schema.IInputBotInlineResult.SendMessage
   isExternal: false

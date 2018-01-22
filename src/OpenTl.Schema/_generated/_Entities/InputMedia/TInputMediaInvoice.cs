@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x92153685)]
+	[Serialize(0xf4e096c3)]
 	public class TInputMediaInvoice : IInputMedia
 	{
        [SerializationOrder(0)]
@@ -46,8 +46,11 @@ namespace OpenTl.Schema
        private string _Provider;
        public string Provider { get => _Provider; set { ProviderAsBinary = Encoding.UTF8.GetBytes(value); _Provider = value; }}
 
-       /// <summary>Binary representation for the 'StartParam' property</summary>
        [SerializationOrder(7)]
+       public OpenTl.Schema.IDataJSON ProviderData {get; set;}
+
+       /// <summary>Binary representation for the 'StartParam' property</summary>
+       [SerializationOrder(8)]
        public byte[] StartParamAsBinary { get => _StartParamAsBinary; set { _StartParam = Encoding.UTF8.GetString(value); _StartParamAsBinary = value; }}
        private byte[] _StartParamAsBinary;
        private string _StartParam;

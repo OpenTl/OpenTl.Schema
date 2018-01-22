@@ -28,15 +28,19 @@ namespace OpenTl.Schema.Messages
        public bool WithMyScore {get; set;}
 
        [SerializationOrder(4)]
-       public OpenTl.Schema.IInputPeer FromPeer {get; set;}
+       [FromFlag("Flags", 9)]
+       public bool Grouped {get; set;}
 
        [SerializationOrder(5)]
-       public OpenTl.Schema.TVector<int> Id {get; set;}
+       public OpenTl.Schema.IInputPeer FromPeer {get; set;}
 
        [SerializationOrder(6)]
-       public OpenTl.Schema.TVector<long> RandomId {get; set;}
+       public OpenTl.Schema.TVector<int> Id {get; set;}
 
        [SerializationOrder(7)]
+       public OpenTl.Schema.TVector<long> RandomId {get; set;}
+
+       [SerializationOrder(8)]
        public OpenTl.Schema.IInputPeer ToPeer {get; set;}
 
     }

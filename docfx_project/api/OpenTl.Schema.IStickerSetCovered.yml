@@ -28,7 +28,6 @@ items:
     content: 'public interface IStickerSetCovered : IObject'
     content.vb: >-
       Public Interface IStickerSetCovered
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

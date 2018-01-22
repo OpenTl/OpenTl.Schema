@@ -30,7 +30,6 @@ items:
     content: 'public interface IInputWebFileLocation : IObject'
     content.vb: >-
       Public Interface IInputWebFileLocation
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -397,10 +396,18 @@ references:
   nameWithType: IInputWebFileLocation.Url
   fullName: OpenTl.Schema.IInputWebFileLocation.Url
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputWebFileLocation.AccessHash*
   commentId: Overload:OpenTl.Schema.IInputWebFileLocation.AccessHash
   isExternal: false
@@ -408,6 +415,8 @@ references:
   nameWithType: IInputWebFileLocation.AccessHash
   fullName: OpenTl.Schema.IInputWebFileLocation.AccessHash
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

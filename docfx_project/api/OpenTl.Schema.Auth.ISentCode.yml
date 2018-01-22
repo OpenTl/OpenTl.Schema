@@ -34,7 +34,6 @@ items:
     content: 'public interface ISentCode : IObject'
     content.vb: >-
       Public Interface ISentCode
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -72,7 +71,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.Auth.ISentCode.Flags*
   modifiers.csharp:
@@ -503,11 +502,19 @@ references:
   name: Flags
   nameWithType: ISentCode.Flags
   fullName: OpenTl.Schema.Auth.ISentCode.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.Auth.ISentCode.PhoneRegistered*
   commentId: Overload:OpenTl.Schema.Auth.ISentCode.PhoneRegistered
   isExternal: false
@@ -515,10 +522,18 @@ references:
   nameWithType: ISentCode.PhoneRegistered
   fullName: OpenTl.Schema.Auth.ISentCode.PhoneRegistered
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Auth.ISentCode.Type*
   commentId: Overload:OpenTl.Schema.Auth.ISentCode.Type
   isExternal: false
@@ -570,6 +585,8 @@ references:
   nameWithType: ISentCode.PhoneCodeHash
   fullName: OpenTl.Schema.Auth.ISentCode.PhoneCodeHash
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -594,6 +611,8 @@ references:
   nameWithType: ISentCode.Timeout
   fullName: OpenTl.Schema.Auth.ISentCode.Timeout
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

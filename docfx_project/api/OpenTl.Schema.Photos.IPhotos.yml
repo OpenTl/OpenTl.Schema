@@ -29,7 +29,6 @@ items:
     content: 'public interface IPhotos : IObject'
     content.vb: >-
       Public Interface IPhotos
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

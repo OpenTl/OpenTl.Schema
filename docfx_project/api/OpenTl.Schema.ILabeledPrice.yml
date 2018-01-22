@@ -30,7 +30,6 @@ items:
     content: 'public interface ILabeledPrice : IObject'
     content.vb: >-
       Public Interface ILabeledPrice
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -397,10 +396,18 @@ references:
   nameWithType: ILabeledPrice.Label
   fullName: OpenTl.Schema.ILabeledPrice.Label
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.ILabeledPrice.Amount*
   commentId: Overload:OpenTl.Schema.ILabeledPrice.Amount
   isExternal: false
@@ -408,6 +415,8 @@ references:
   nameWithType: ILabeledPrice.Amount
   fullName: OpenTl.Schema.ILabeledPrice.Amount
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

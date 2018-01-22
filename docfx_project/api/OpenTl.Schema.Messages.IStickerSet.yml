@@ -30,7 +30,6 @@ items:
     content: 'public interface IStickerSet : IObject'
     content.vb: >-
       Public Interface IStickerSet
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

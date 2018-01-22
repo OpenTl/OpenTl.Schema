@@ -29,7 +29,6 @@ items:
     content: 'public interface IInputBotInlineMessage : IObject'
     content.vb: >-
       Public Interface IInputBotInlineMessage
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -67,7 +66,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.IInputBotInlineMessage.Flags*
   modifiers.csharp:
@@ -332,11 +331,19 @@ references:
   name: Flags
   nameWithType: IInputBotInlineMessage.Flags
   fullName: OpenTl.Schema.IInputBotInlineMessage.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup*
   commentId: Overload:OpenTl.Schema.IInputBotInlineMessage.ReplyMarkup
   isExternal: false

@@ -27,7 +27,6 @@ items:
     content: 'public interface IFileType : IObject'
     content.vb: >-
       Public Interface IFileType
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

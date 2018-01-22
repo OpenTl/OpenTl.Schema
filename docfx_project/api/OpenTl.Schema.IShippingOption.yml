@@ -32,7 +32,6 @@ items:
     content: 'public interface IShippingOption : IObject'
     content.vb: >-
       Public Interface IShippingOption
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -463,10 +462,18 @@ references:
   nameWithType: IShippingOption.Id
   fullName: OpenTl.Schema.IShippingOption.Id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IShippingOption.TitleAsBinary*
   commentId: Overload:OpenTl.Schema.IShippingOption.TitleAsBinary
   isExternal: false

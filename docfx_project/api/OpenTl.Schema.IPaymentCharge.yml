@@ -31,7 +31,6 @@ items:
     content: 'public interface IPaymentCharge : IObject'
     content.vb: >-
       Public Interface IPaymentCharge
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -430,10 +429,18 @@ references:
   nameWithType: IPaymentCharge.Id
   fullName: OpenTl.Schema.IPaymentCharge.Id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary*
   commentId: Overload:OpenTl.Schema.IPaymentCharge.ProviderChargeIdAsBinary
   isExternal: false

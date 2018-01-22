@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputStickeredMedia : IObject'
     content.vb: >-
       Public Interface IInputStickeredMedia
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

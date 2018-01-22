@@ -31,7 +31,6 @@ items:
     content: 'public interface IInputFile : IObject'
     content.vb: >-
       Public Interface IInputFile
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -399,10 +398,18 @@ references:
   nameWithType: IInputFile.Id
   fullName: OpenTl.Schema.IInputFile.Id
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputFile.Parts*
   commentId: Overload:OpenTl.Schema.IInputFile.Parts
   isExternal: false
@@ -410,6 +417,8 @@ references:
   nameWithType: IInputFile.Parts
   fullName: OpenTl.Schema.IInputFile.Parts
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
@@ -452,6 +461,8 @@ references:
   nameWithType: IInputFile.Name
   fullName: OpenTl.Schema.IInputFile.Name
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String

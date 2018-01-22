@@ -27,7 +27,6 @@ items:
     content: 'public interface IDifference : IObject'
     content.vb: >-
       Public Interface IDifference
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

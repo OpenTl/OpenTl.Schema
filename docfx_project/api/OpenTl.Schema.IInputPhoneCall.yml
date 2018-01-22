@@ -29,7 +29,6 @@ items:
     content: 'public interface IInputPhoneCall : IObject'
     content.vb: >-
       Public Interface IInputPhoneCall
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -333,10 +332,18 @@ references:
   nameWithType: IInputPhoneCall.Id
   fullName: OpenTl.Schema.IInputPhoneCall.Id
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputPhoneCall.AccessHash*
   commentId: Overload:OpenTl.Schema.IInputPhoneCall.AccessHash
   isExternal: false

@@ -28,7 +28,6 @@ items:
     content: 'public interface ICheckedPhone : IObject'
     content.vb: >-
       Public Interface ICheckedPhone
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -306,7 +305,15 @@ references:
   nameWithType: ICheckedPhone.PhoneRegistered
   fullName: OpenTl.Schema.Auth.ICheckedPhone.PhoneRegistered
 - uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
   isExternal: true
   name: Boolean
   nameWithType: Boolean
   fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

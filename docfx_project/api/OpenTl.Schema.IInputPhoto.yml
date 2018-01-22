@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputPhoto : IObject'
     content.vb: >-
       Public Interface IInputPhoto
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

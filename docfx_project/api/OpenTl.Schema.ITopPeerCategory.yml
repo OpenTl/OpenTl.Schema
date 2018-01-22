@@ -27,7 +27,6 @@ items:
     content: 'public interface ITopPeerCategory : IObject'
     content.vb: >-
       Public Interface ITopPeerCategory
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

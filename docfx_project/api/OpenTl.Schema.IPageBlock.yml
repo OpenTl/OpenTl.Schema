@@ -27,7 +27,6 @@ items:
     content: 'public interface IPageBlock : IObject'
     content.vb: >-
       Public Interface IPageBlock
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

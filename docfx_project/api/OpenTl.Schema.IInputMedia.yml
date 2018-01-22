@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputMedia : IObject'
     content.vb: >-
       Public Interface IInputMedia
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

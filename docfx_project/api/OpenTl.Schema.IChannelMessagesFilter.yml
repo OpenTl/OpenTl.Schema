@@ -27,7 +27,6 @@ items:
     content: 'public interface IChannelMessagesFilter : IObject'
     content.vb: >-
       Public Interface IChannelMessagesFilter
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

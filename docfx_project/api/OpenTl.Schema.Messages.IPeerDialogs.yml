@@ -32,7 +32,6 @@ items:
     content: 'public interface IPeerDialogs : IObject'
     content.vb: >-
       Public Interface IPeerDialogs
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

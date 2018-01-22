@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputGeoPoint : IObject'
     content.vb: >-
       Public Interface IInputGeoPoint
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

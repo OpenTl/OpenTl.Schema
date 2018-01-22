@@ -30,7 +30,6 @@ items:
     content: 'public interface IRecentMeUrls : IObject'
     content.vb: >-
       Public Interface IRecentMeUrls
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

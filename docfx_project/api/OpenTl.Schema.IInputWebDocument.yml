@@ -33,7 +33,6 @@ items:
     content: 'public interface IInputWebDocument : IObject'
     content.vb: >-
       Public Interface IInputWebDocument
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -496,10 +495,18 @@ references:
   nameWithType: IInputWebDocument.Url
   fullName: OpenTl.Schema.IInputWebDocument.Url
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputWebDocument.Size*
   commentId: Overload:OpenTl.Schema.IInputWebDocument.Size
   isExternal: false
@@ -507,6 +514,8 @@ references:
   nameWithType: IInputWebDocument.Size
   fullName: OpenTl.Schema.IInputWebDocument.Size
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

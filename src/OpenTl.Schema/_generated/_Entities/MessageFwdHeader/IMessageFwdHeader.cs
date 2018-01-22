@@ -22,5 +22,9 @@ namespace OpenTl.Schema
        byte[] PostAuthorAsBinary {get; set;}
        string PostAuthor {get; set;}
 
+       OpenTl.Schema.IPeer SavedFromPeer {get; set;}
+
+       int SavedFromMsgId {get; set;}
+
     }
 }

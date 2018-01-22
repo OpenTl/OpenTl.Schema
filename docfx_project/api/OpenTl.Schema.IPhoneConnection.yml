@@ -34,7 +34,6 @@ items:
     content: 'public interface IPhoneConnection : IObject'
     content.vb: >-
       Public Interface IPhoneConnection
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -498,10 +497,18 @@ references:
   nameWithType: IPhoneConnection.Id
   fullName: OpenTl.Schema.IPhoneConnection.Id
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IPhoneConnection.IpAsBinary*
   commentId: Overload:OpenTl.Schema.IPhoneConnection.IpAsBinary
   isExternal: false
@@ -540,6 +547,8 @@ references:
   nameWithType: IPhoneConnection.Ip
   fullName: OpenTl.Schema.IPhoneConnection.Ip
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -563,6 +572,8 @@ references:
   nameWithType: IPhoneConnection.Port
   fullName: OpenTl.Schema.IPhoneConnection.Port
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

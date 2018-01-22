@@ -29,7 +29,6 @@ items:
     content: 'public interface IChannelParticipant : IObject'
     content.vb: >-
       Public Interface IChannelParticipant
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

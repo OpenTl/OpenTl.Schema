@@ -30,7 +30,6 @@ items:
     content: 'public interface IFutureSalts : IObject'
     content.vb: >-
       Public Interface IFutureSalts
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: IFutureSalts.ReqMsgId
   fullName: OpenTl.Schema.IFutureSalts.ReqMsgId
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64
   fullName: System.Int64
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IFutureSalts.Now*
   commentId: Overload:OpenTl.Schema.IFutureSalts.Now
   isExternal: false
@@ -377,6 +384,8 @@ references:
   nameWithType: IFutureSalts.Now
   fullName: OpenTl.Schema.IFutureSalts.Now
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

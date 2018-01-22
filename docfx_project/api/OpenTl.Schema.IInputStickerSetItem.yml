@@ -32,7 +32,6 @@ items:
     content: 'public interface IInputStickerSetItem : IObject'
     content.vb: >-
       Public Interface IInputStickerSetItem
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -70,7 +69,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.IInputStickerSetItem.Flags*
   modifiers.csharp:
@@ -431,11 +430,19 @@ references:
   name: Flags
   nameWithType: IInputStickerSetItem.Flags
   fullName: OpenTl.Schema.IInputStickerSetItem.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.IInputStickerSetItem.Document*
   commentId: Overload:OpenTl.Schema.IInputStickerSetItem.Document
   isExternal: false
@@ -487,10 +494,18 @@ references:
   nameWithType: IInputStickerSetItem.Emoji
   fullName: OpenTl.Schema.IInputStickerSetItem.Emoji
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputStickerSetItem.MaskCoords*
   commentId: Overload:OpenTl.Schema.IInputStickerSetItem.MaskCoords
   isExternal: false

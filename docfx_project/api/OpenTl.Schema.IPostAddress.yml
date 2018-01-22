@@ -39,7 +39,6 @@ items:
     content: 'public interface IPostAddress : IObject'
     content.vb: >-
       Public Interface IPostAddress
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -694,10 +693,18 @@ references:
   nameWithType: IPostAddress.StreetLine1
   fullName: OpenTl.Schema.IPostAddress.StreetLine1
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IPostAddress.StreetLine2AsBinary*
   commentId: Overload:OpenTl.Schema.IPostAddress.StreetLine2AsBinary
   isExternal: false

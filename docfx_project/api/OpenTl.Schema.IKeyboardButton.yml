@@ -29,7 +29,6 @@ items:
     content: 'public interface IKeyboardButton : IObject'
     content.vb: >-
       Public Interface IKeyboardButton
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -364,7 +363,15 @@ references:
   nameWithType: IKeyboardButton.Text
   fullName: OpenTl.Schema.IKeyboardButton.Text
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

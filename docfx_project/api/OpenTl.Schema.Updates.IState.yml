@@ -32,7 +32,6 @@ items:
     content: 'public interface IState : IObject'
     content.vb: >-
       Public Interface IState
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -438,10 +437,18 @@ references:
   nameWithType: IState.Pts
   fullName: OpenTl.Schema.Updates.IState.Pts
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Updates.IState.Qts*
   commentId: Overload:OpenTl.Schema.Updates.IState.Qts
   isExternal: false

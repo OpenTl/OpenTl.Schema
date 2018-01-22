@@ -27,7 +27,6 @@ items:
     content: 'public interface IDestroyAuthKeyRes : IObject'
     content.vb: >-
       Public Interface IDestroyAuthKeyRes
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

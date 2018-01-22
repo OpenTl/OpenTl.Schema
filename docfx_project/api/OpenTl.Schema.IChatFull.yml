@@ -32,7 +32,6 @@ items:
     content: 'public interface IChatFull : IObject'
     content.vb: >-
       Public Interface IChatFull
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -432,10 +431,18 @@ references:
   nameWithType: IChatFull.Id
   fullName: OpenTl.Schema.IChatFull.Id
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IChatFull.ChatPhoto*
   commentId: Overload:OpenTl.Schema.IChatFull.ChatPhoto
   isExternal: false

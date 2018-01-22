@@ -27,7 +27,6 @@ items:
     content: 'public interface IInputGame : IObject'
     content.vb: >-
       Public Interface IInputGame
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

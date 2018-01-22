@@ -29,7 +29,6 @@ items:
     content: 'public interface IServerDHParams : IObject'
     content.vb: >-
       Public Interface IServerDHParams
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

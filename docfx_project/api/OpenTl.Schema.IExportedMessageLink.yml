@@ -29,7 +29,6 @@ items:
     content: 'public interface IExportedMessageLink : IObject'
     content.vb: >-
       Public Interface IExportedMessageLink
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -364,7 +363,15 @@ references:
   nameWithType: IExportedMessageLink.Link
   fullName: OpenTl.Schema.IExportedMessageLink.Link
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

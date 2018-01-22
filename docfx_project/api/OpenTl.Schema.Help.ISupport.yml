@@ -30,7 +30,6 @@ items:
     content: 'public interface ISupport : IObject'
     content.vb: >-
       Public Interface ISupport
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -403,10 +402,18 @@ references:
   nameWithType: ISupport.PhoneNumber
   fullName: OpenTl.Schema.Help.ISupport.PhoneNumber
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Help.ISupport.User*
   commentId: Overload:OpenTl.Schema.Help.ISupport.User
   isExternal: false

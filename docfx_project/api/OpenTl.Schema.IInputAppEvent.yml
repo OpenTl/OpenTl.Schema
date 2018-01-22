@@ -33,7 +33,6 @@ items:
     content: 'public interface IInputAppEvent : IObject'
     content.vb: >-
       Public Interface IInputAppEvent
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -465,10 +464,18 @@ references:
   nameWithType: IInputAppEvent.Time
   fullName: OpenTl.Schema.IInputAppEvent.Time
 - uid: System.Double
+  commentId: T:System.Double
+  parent: System
   isExternal: true
   name: Double
   nameWithType: Double
   fullName: System.Double
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputAppEvent.TypeAsBinary*
   commentId: Overload:OpenTl.Schema.IInputAppEvent.TypeAsBinary
   isExternal: false
@@ -507,6 +514,8 @@ references:
   nameWithType: IInputAppEvent.Type
   fullName: OpenTl.Schema.IInputAppEvent.Type
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
@@ -518,6 +527,8 @@ references:
   nameWithType: IInputAppEvent.Peer
   fullName: OpenTl.Schema.IInputAppEvent.Peer
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

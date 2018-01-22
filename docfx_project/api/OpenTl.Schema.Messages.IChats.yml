@@ -28,7 +28,6 @@ items:
     content: 'public interface IChats : IObject'
     content.vb: >-
       Public Interface IChats
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

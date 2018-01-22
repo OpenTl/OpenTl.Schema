@@ -7273,6 +7273,18 @@ references:
   commentId: Overload:OpenTl.Schema.IConfig.DcOptions
   fullName: OpenTl.Schema.IConfig.DcOptions
   nameWithType: IConfig.DcOptions
+- uid: OpenTl.Schema.IConfig.DefaultP2pContacts
+  name: DefaultP2pContacts
+  href: api/OpenTl.Schema.IConfig.html#OpenTl_Schema_IConfig_DefaultP2pContacts
+  commentId: P:OpenTl.Schema.IConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.IConfig.DefaultP2pContacts
+  nameWithType: IConfig.DefaultP2pContacts
+- uid: OpenTl.Schema.IConfig.DefaultP2pContacts*
+  name: DefaultP2pContacts
+  href: api/OpenTl.Schema.IConfig.html#OpenTl_Schema_IConfig_DefaultP2pContacts_
+  commentId: Overload:OpenTl.Schema.IConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.IConfig.DefaultP2pContacts
+  nameWithType: IConfig.DefaultP2pContacts
 - uid: OpenTl.Schema.IConfig.DisabledFeatures
   name: DisabledFeatures
   href: api/OpenTl.Schema.IConfig.html#OpenTl_Schema_IConfig_DisabledFeatures
@@ -9175,6 +9187,36 @@ references:
   commentId: T:OpenTl.Schema.IInputPrivacyRule
   fullName: OpenTl.Schema.IInputPrivacyRule
   nameWithType: IInputPrivacyRule
+- uid: OpenTl.Schema.IInputSingleMedia
+  name: IInputSingleMedia
+  href: api/OpenTl.Schema.IInputSingleMedia.html
+  commentId: T:OpenTl.Schema.IInputSingleMedia
+  fullName: OpenTl.Schema.IInputSingleMedia
+  nameWithType: IInputSingleMedia
+- uid: OpenTl.Schema.IInputSingleMedia.Media
+  name: Media
+  href: api/OpenTl.Schema.IInputSingleMedia.html#OpenTl_Schema_IInputSingleMedia_Media
+  commentId: P:OpenTl.Schema.IInputSingleMedia.Media
+  fullName: OpenTl.Schema.IInputSingleMedia.Media
+  nameWithType: IInputSingleMedia.Media
+- uid: OpenTl.Schema.IInputSingleMedia.Media*
+  name: Media
+  href: api/OpenTl.Schema.IInputSingleMedia.html#OpenTl_Schema_IInputSingleMedia_Media_
+  commentId: Overload:OpenTl.Schema.IInputSingleMedia.Media
+  fullName: OpenTl.Schema.IInputSingleMedia.Media
+  nameWithType: IInputSingleMedia.Media
+- uid: OpenTl.Schema.IInputSingleMedia.RandomId
+  name: RandomId
+  href: api/OpenTl.Schema.IInputSingleMedia.html#OpenTl_Schema_IInputSingleMedia_RandomId
+  commentId: P:OpenTl.Schema.IInputSingleMedia.RandomId
+  fullName: OpenTl.Schema.IInputSingleMedia.RandomId
+  nameWithType: IInputSingleMedia.RandomId
+- uid: OpenTl.Schema.IInputSingleMedia.RandomId*
+  name: RandomId
+  href: api/OpenTl.Schema.IInputSingleMedia.html#OpenTl_Schema_IInputSingleMedia_RandomId_
+  commentId: Overload:OpenTl.Schema.IInputSingleMedia.RandomId
+  fullName: OpenTl.Schema.IInputSingleMedia.RandomId
+  nameWithType: IInputSingleMedia.RandomId
 - uid: OpenTl.Schema.IInputStickeredMedia
   name: IInputStickeredMedia
   href: api/OpenTl.Schema.IInputStickeredMedia.html
@@ -9433,6 +9475,18 @@ references:
   commentId: Overload:OpenTl.Schema.IInvoice.EmailRequested
   fullName: OpenTl.Schema.IInvoice.EmailRequested
   nameWithType: IInvoice.EmailRequested
+- uid: OpenTl.Schema.IInvoice.EmailToProvider
+  name: EmailToProvider
+  href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_EmailToProvider
+  commentId: P:OpenTl.Schema.IInvoice.EmailToProvider
+  fullName: OpenTl.Schema.IInvoice.EmailToProvider
+  nameWithType: IInvoice.EmailToProvider
+- uid: OpenTl.Schema.IInvoice.EmailToProvider*
+  name: EmailToProvider
+  href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_EmailToProvider_
+  commentId: Overload:OpenTl.Schema.IInvoice.EmailToProvider
+  fullName: OpenTl.Schema.IInvoice.EmailToProvider
+  nameWithType: IInvoice.EmailToProvider
 - uid: OpenTl.Schema.IInvoice.Flags
   name: Flags
   href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_Flags
@@ -9481,6 +9535,18 @@ references:
   commentId: Overload:OpenTl.Schema.IInvoice.PhoneRequested
   fullName: OpenTl.Schema.IInvoice.PhoneRequested
   nameWithType: IInvoice.PhoneRequested
+- uid: OpenTl.Schema.IInvoice.PhoneToProvider
+  name: PhoneToProvider
+  href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_PhoneToProvider
+  commentId: P:OpenTl.Schema.IInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.IInvoice.PhoneToProvider
+  nameWithType: IInvoice.PhoneToProvider
+- uid: OpenTl.Schema.IInvoice.PhoneToProvider*
+  name: PhoneToProvider
+  href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_PhoneToProvider_
+  commentId: Overload:OpenTl.Schema.IInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.IInvoice.PhoneToProvider
+  nameWithType: IInvoice.PhoneToProvider
 - uid: OpenTl.Schema.IInvoice.Prices
   name: Prices
   href: api/OpenTl.Schema.IInvoice.html#OpenTl_Schema_IInvoice_Prices
@@ -10033,6 +10099,30 @@ references:
   commentId: Overload:OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
   fullName: OpenTl.Schema.IMessageFwdHeader.PostAuthorAsBinary
   nameWithType: IMessageFwdHeader.PostAuthorAsBinary
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  name: SavedFromMsgId
+  href: api/OpenTl.Schema.IMessageFwdHeader.html#OpenTl_Schema_IMessageFwdHeader_SavedFromMsgId
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  nameWithType: IMessageFwdHeader.SavedFromMsgId
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId*
+  name: SavedFromMsgId
+  href: api/OpenTl.Schema.IMessageFwdHeader.html#OpenTl_Schema_IMessageFwdHeader_SavedFromMsgId_
+  commentId: Overload:OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromMsgId
+  nameWithType: IMessageFwdHeader.SavedFromMsgId
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  name: SavedFromPeer
+  href: api/OpenTl.Schema.IMessageFwdHeader.html#OpenTl_Schema_IMessageFwdHeader_SavedFromPeer
+  commentId: P:OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  nameWithType: IMessageFwdHeader.SavedFromPeer
+- uid: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer*
+  name: SavedFromPeer
+  href: api/OpenTl.Schema.IMessageFwdHeader.html#OpenTl_Schema_IMessageFwdHeader_SavedFromPeer_
+  commentId: Overload:OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.IMessageFwdHeader.SavedFromPeer
+  nameWithType: IMessageFwdHeader.SavedFromPeer
 - uid: OpenTl.Schema.IMessageMedia
   name: IMessageMedia
   href: api/OpenTl.Schema.IMessageMedia.html
@@ -13564,6 +13654,18 @@ references:
   commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
   fullName: OpenTl.Schema.Messages.RequestForwardMessages.FromPeer
   nameWithType: RequestForwardMessages.FromPeer
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Grouped
+  name: Grouped
+  href: api/OpenTl.Schema.Messages.RequestForwardMessages.html#OpenTl_Schema_Messages_RequestForwardMessages_Grouped
+  commentId: P:OpenTl.Schema.Messages.RequestForwardMessages.Grouped
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Grouped
+  nameWithType: RequestForwardMessages.Grouped
+- uid: OpenTl.Schema.Messages.RequestForwardMessages.Grouped*
+  name: Grouped
+  href: api/OpenTl.Schema.Messages.RequestForwardMessages.html#OpenTl_Schema_Messages_RequestForwardMessages_Grouped_
+  commentId: Overload:OpenTl.Schema.Messages.RequestForwardMessages.Grouped
+  fullName: OpenTl.Schema.Messages.RequestForwardMessages.Grouped
+  nameWithType: RequestForwardMessages.Grouped
 - uid: OpenTl.Schema.Messages.RequestForwardMessages.Id
   name: Id
   href: api/OpenTl.Schema.Messages.RequestForwardMessages.html#OpenTl_Schema_Messages_RequestForwardMessages_Id
@@ -16156,6 +16258,96 @@ references:
   commentId: Overload:OpenTl.Schema.Messages.RequestSendMessage.Silent
   fullName: OpenTl.Schema.Messages.RequestSendMessage.Silent
   nameWithType: RequestSendMessage.Silent
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia
+  name: RequestSendMultiMedia
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html
+  commentId: T:OpenTl.Schema.Messages.RequestSendMultiMedia
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia
+  nameWithType: RequestSendMultiMedia
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Background
+  name: Background
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Background
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.Background
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Background
+  nameWithType: RequestSendMultiMedia.Background
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Background*
+  name: Background
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Background_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.Background
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Background
+  nameWithType: RequestSendMultiMedia.Background
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft
+  name: ClearDraft
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_ClearDraft
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft
+  nameWithType: RequestSendMultiMedia.ClearDraft
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft*
+  name: ClearDraft
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_ClearDraft_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.ClearDraft
+  nameWithType: RequestSendMultiMedia.ClearDraft
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Flags
+  name: Flags
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Flags
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.Flags
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Flags
+  nameWithType: RequestSendMultiMedia.Flags
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Flags*
+  name: Flags
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Flags_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.Flags
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Flags
+  nameWithType: RequestSendMultiMedia.Flags
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia
+  name: MultiMedia
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_MultiMedia
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia
+  nameWithType: RequestSendMultiMedia.MultiMedia
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia*
+  name: MultiMedia
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_MultiMedia_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.MultiMedia
+  nameWithType: RequestSendMultiMedia.MultiMedia
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Peer
+  name: Peer
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Peer
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Peer
+  nameWithType: RequestSendMultiMedia.Peer
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Peer*
+  name: Peer
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Peer_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.Peer
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Peer
+  nameWithType: RequestSendMultiMedia.Peer
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId
+  name: ReplyToMsgId
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_ReplyToMsgId
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId
+  nameWithType: RequestSendMultiMedia.ReplyToMsgId
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId*
+  name: ReplyToMsgId
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_ReplyToMsgId_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.ReplyToMsgId
+  nameWithType: RequestSendMultiMedia.ReplyToMsgId
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Silent
+  name: Silent
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Silent
+  commentId: P:OpenTl.Schema.Messages.RequestSendMultiMedia.Silent
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Silent
+  nameWithType: RequestSendMultiMedia.Silent
+- uid: OpenTl.Schema.Messages.RequestSendMultiMedia.Silent*
+  name: Silent
+  href: api/OpenTl.Schema.Messages.RequestSendMultiMedia.html#OpenTl_Schema_Messages_RequestSendMultiMedia_Silent_
+  commentId: Overload:OpenTl.Schema.Messages.RequestSendMultiMedia.Silent
+  fullName: OpenTl.Schema.Messages.RequestSendMultiMedia.Silent
+  nameWithType: RequestSendMultiMedia.Silent
 - uid: OpenTl.Schema.Messages.RequestSendScreenshotNotification
   name: RequestSendScreenshotNotification
   href: api/OpenTl.Schema.Messages.RequestSendScreenshotNotification.html
@@ -16930,6 +17122,36 @@ references:
   commentId: Overload:OpenTl.Schema.Messages.RequestUninstallStickerSet.Stickerset
   fullName: OpenTl.Schema.Messages.RequestUninstallStickerSet.Stickerset
   nameWithType: RequestUninstallStickerSet.Stickerset
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile
+  name: RequestUploadEncryptedFile
+  href: api/OpenTl.Schema.Messages.RequestUploadEncryptedFile.html
+  commentId: T:OpenTl.Schema.Messages.RequestUploadEncryptedFile
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile
+  nameWithType: RequestUploadEncryptedFile
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile.File
+  name: File
+  href: api/OpenTl.Schema.Messages.RequestUploadEncryptedFile.html#OpenTl_Schema_Messages_RequestUploadEncryptedFile_File
+  commentId: P:OpenTl.Schema.Messages.RequestUploadEncryptedFile.File
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile.File
+  nameWithType: RequestUploadEncryptedFile.File
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile.File*
+  name: File
+  href: api/OpenTl.Schema.Messages.RequestUploadEncryptedFile.html#OpenTl_Schema_Messages_RequestUploadEncryptedFile_File_
+  commentId: Overload:OpenTl.Schema.Messages.RequestUploadEncryptedFile.File
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile.File
+  nameWithType: RequestUploadEncryptedFile.File
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer
+  name: Peer
+  href: api/OpenTl.Schema.Messages.RequestUploadEncryptedFile.html#OpenTl_Schema_Messages_RequestUploadEncryptedFile_Peer
+  commentId: P:OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer
+  nameWithType: RequestUploadEncryptedFile.Peer
+- uid: OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer*
+  name: Peer
+  href: api/OpenTl.Schema.Messages.RequestUploadEncryptedFile.html#OpenTl_Schema_Messages_RequestUploadEncryptedFile_Peer_
+  commentId: Overload:OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer
+  fullName: OpenTl.Schema.Messages.RequestUploadEncryptedFile.Peer
+  nameWithType: RequestUploadEncryptedFile.Peer
 - uid: OpenTl.Schema.Messages.RequestUploadMedia
   name: RequestUploadMedia
   href: api/OpenTl.Schema.Messages.RequestUploadMedia.html
@@ -20698,11 +20920,11 @@ references:
   commentId: T:OpenTl.Schema.Serialization.Serializer
   fullName: OpenTl.Schema.Serialization.Serializer
   nameWithType: Serializer
-- uid: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
+- uid: OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
   name: Deserialize(BinaryReader, TypeInfo)
-  href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_Deserialize_BinaryReader_TypeInfo_
-  commentId: M:OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
-  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader, TypeInfo)
+  href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_Deserialize_System_IO_BinaryReader_System_Reflection_TypeInfo_
+  commentId: M:OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
+  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader, System.Reflection.TypeInfo)
   nameWithType: Serializer.Deserialize(BinaryReader, TypeInfo)
 - uid: OpenTl.Schema.Serialization.Serializer.Deserialize*
   name: Deserialize
@@ -20710,12 +20932,6 @@ references:
   commentId: Overload:OpenTl.Schema.Serialization.Serializer.Deserialize
   fullName: OpenTl.Schema.Serialization.Serializer.Deserialize
   nameWithType: Serializer.Deserialize
-- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
-  name: DeserializeObject(BinaryReader)
-  href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_DeserializeObject_BinaryReader_
-  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
-  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
-  nameWithType: Serializer.DeserializeObject(BinaryReader)
 - uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
   name: DeserializeObject(Byte[])
   href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_DeserializeObject_System_Byte___
@@ -20725,6 +20941,12 @@ references:
   fullName.vb: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte())
   nameWithType: Serializer.DeserializeObject(Byte[])
   nameWithType.vb: Serializer.DeserializeObject(Byte())
+- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
+  name: DeserializeObject(BinaryReader)
+  href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_DeserializeObject_System_IO_BinaryReader_
+  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
+  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
+  nameWithType: Serializer.DeserializeObject(BinaryReader)
 - uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject*
   name: DeserializeObject
   href: api/OpenTl.Schema.Serialization.Serializer.html#OpenTl_Schema_Serialization_Serializer_DeserializeObject_
@@ -22603,6 +22825,18 @@ references:
   commentId: Overload:OpenTl.Schema.TChannel.Min
   fullName: OpenTl.Schema.TChannel.Min
   nameWithType: TChannel.Min
+- uid: OpenTl.Schema.TChannel.ParticipantsCount
+  name: ParticipantsCount
+  href: api/OpenTl.Schema.TChannel.html#OpenTl_Schema_TChannel_ParticipantsCount
+  commentId: P:OpenTl.Schema.TChannel.ParticipantsCount
+  fullName: OpenTl.Schema.TChannel.ParticipantsCount
+  nameWithType: TChannel.ParticipantsCount
+- uid: OpenTl.Schema.TChannel.ParticipantsCount*
+  name: ParticipantsCount
+  href: api/OpenTl.Schema.TChannel.html#OpenTl_Schema_TChannel_ParticipantsCount_
+  commentId: Overload:OpenTl.Schema.TChannel.ParticipantsCount
+  fullName: OpenTl.Schema.TChannel.ParticipantsCount
+  nameWithType: TChannel.ParticipantsCount
 - uid: OpenTl.Schema.TChannel.Photo
   name: Photo
   href: api/OpenTl.Schema.TChannel.html#OpenTl_Schema_TChannel_Photo
@@ -25375,6 +25609,18 @@ references:
   commentId: Overload:OpenTl.Schema.TConfig.DcOptions
   fullName: OpenTl.Schema.TConfig.DcOptions
   nameWithType: TConfig.DcOptions
+- uid: OpenTl.Schema.TConfig.DefaultP2pContacts
+  name: DefaultP2pContacts
+  href: api/OpenTl.Schema.TConfig.html#OpenTl_Schema_TConfig_DefaultP2pContacts
+  commentId: P:OpenTl.Schema.TConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.TConfig.DefaultP2pContacts
+  nameWithType: TConfig.DefaultP2pContacts
+- uid: OpenTl.Schema.TConfig.DefaultP2pContacts*
+  name: DefaultP2pContacts
+  href: api/OpenTl.Schema.TConfig.html#OpenTl_Schema_TConfig_DefaultP2pContacts_
+  commentId: Overload:OpenTl.Schema.TConfig.DefaultP2pContacts
+  fullName: OpenTl.Schema.TConfig.DefaultP2pContacts
+  nameWithType: TConfig.DefaultP2pContacts
 - uid: OpenTl.Schema.TConfig.DisabledFeatures
   name: DisabledFeatures
   href: api/OpenTl.Schema.TConfig.html#OpenTl_Schema_TConfig_DisabledFeatures
@@ -30427,6 +30673,18 @@ references:
   commentId: Overload:OpenTl.Schema.TInputMediaInvoice.ProviderAsBinary
   fullName: OpenTl.Schema.TInputMediaInvoice.ProviderAsBinary
   nameWithType: TInputMediaInvoice.ProviderAsBinary
+- uid: OpenTl.Schema.TInputMediaInvoice.ProviderData
+  name: ProviderData
+  href: api/OpenTl.Schema.TInputMediaInvoice.html#OpenTl_Schema_TInputMediaInvoice_ProviderData
+  commentId: P:OpenTl.Schema.TInputMediaInvoice.ProviderData
+  fullName: OpenTl.Schema.TInputMediaInvoice.ProviderData
+  nameWithType: TInputMediaInvoice.ProviderData
+- uid: OpenTl.Schema.TInputMediaInvoice.ProviderData*
+  name: ProviderData
+  href: api/OpenTl.Schema.TInputMediaInvoice.html#OpenTl_Schema_TInputMediaInvoice_ProviderData_
+  commentId: Overload:OpenTl.Schema.TInputMediaInvoice.ProviderData
+  fullName: OpenTl.Schema.TInputMediaInvoice.ProviderData
+  nameWithType: TInputMediaInvoice.ProviderData
 - uid: OpenTl.Schema.TInputMediaInvoice.StartParam
   name: StartParam
   href: api/OpenTl.Schema.TInputMediaInvoice.html#OpenTl_Schema_TInputMediaInvoice_StartParam
@@ -31753,6 +32011,36 @@ references:
   commentId: T:OpenTl.Schema.TInputReportReasonViolence
   fullName: OpenTl.Schema.TInputReportReasonViolence
   nameWithType: TInputReportReasonViolence
+- uid: OpenTl.Schema.TInputSingleMedia
+  name: TInputSingleMedia
+  href: api/OpenTl.Schema.TInputSingleMedia.html
+  commentId: T:OpenTl.Schema.TInputSingleMedia
+  fullName: OpenTl.Schema.TInputSingleMedia
+  nameWithType: TInputSingleMedia
+- uid: OpenTl.Schema.TInputSingleMedia.Media
+  name: Media
+  href: api/OpenTl.Schema.TInputSingleMedia.html#OpenTl_Schema_TInputSingleMedia_Media
+  commentId: P:OpenTl.Schema.TInputSingleMedia.Media
+  fullName: OpenTl.Schema.TInputSingleMedia.Media
+  nameWithType: TInputSingleMedia.Media
+- uid: OpenTl.Schema.TInputSingleMedia.Media*
+  name: Media
+  href: api/OpenTl.Schema.TInputSingleMedia.html#OpenTl_Schema_TInputSingleMedia_Media_
+  commentId: Overload:OpenTl.Schema.TInputSingleMedia.Media
+  fullName: OpenTl.Schema.TInputSingleMedia.Media
+  nameWithType: TInputSingleMedia.Media
+- uid: OpenTl.Schema.TInputSingleMedia.RandomId
+  name: RandomId
+  href: api/OpenTl.Schema.TInputSingleMedia.html#OpenTl_Schema_TInputSingleMedia_RandomId
+  commentId: P:OpenTl.Schema.TInputSingleMedia.RandomId
+  fullName: OpenTl.Schema.TInputSingleMedia.RandomId
+  nameWithType: TInputSingleMedia.RandomId
+- uid: OpenTl.Schema.TInputSingleMedia.RandomId*
+  name: RandomId
+  href: api/OpenTl.Schema.TInputSingleMedia.html#OpenTl_Schema_TInputSingleMedia_RandomId_
+  commentId: Overload:OpenTl.Schema.TInputSingleMedia.RandomId
+  fullName: OpenTl.Schema.TInputSingleMedia.RandomId
+  nameWithType: TInputSingleMedia.RandomId
 - uid: OpenTl.Schema.TInputStickeredMediaDocument
   name: TInputStickeredMediaDocument
   href: api/OpenTl.Schema.TInputStickeredMediaDocument.html
@@ -32125,6 +32413,18 @@ references:
   commentId: Overload:OpenTl.Schema.TInvoice.EmailRequested
   fullName: OpenTl.Schema.TInvoice.EmailRequested
   nameWithType: TInvoice.EmailRequested
+- uid: OpenTl.Schema.TInvoice.EmailToProvider
+  name: EmailToProvider
+  href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_EmailToProvider
+  commentId: P:OpenTl.Schema.TInvoice.EmailToProvider
+  fullName: OpenTl.Schema.TInvoice.EmailToProvider
+  nameWithType: TInvoice.EmailToProvider
+- uid: OpenTl.Schema.TInvoice.EmailToProvider*
+  name: EmailToProvider
+  href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_EmailToProvider_
+  commentId: Overload:OpenTl.Schema.TInvoice.EmailToProvider
+  fullName: OpenTl.Schema.TInvoice.EmailToProvider
+  nameWithType: TInvoice.EmailToProvider
 - uid: OpenTl.Schema.TInvoice.Flags
   name: Flags
   href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_Flags
@@ -32173,6 +32473,18 @@ references:
   commentId: Overload:OpenTl.Schema.TInvoice.PhoneRequested
   fullName: OpenTl.Schema.TInvoice.PhoneRequested
   nameWithType: TInvoice.PhoneRequested
+- uid: OpenTl.Schema.TInvoice.PhoneToProvider
+  name: PhoneToProvider
+  href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_PhoneToProvider
+  commentId: P:OpenTl.Schema.TInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.TInvoice.PhoneToProvider
+  nameWithType: TInvoice.PhoneToProvider
+- uid: OpenTl.Schema.TInvoice.PhoneToProvider*
+  name: PhoneToProvider
+  href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_PhoneToProvider_
+  commentId: Overload:OpenTl.Schema.TInvoice.PhoneToProvider
+  fullName: OpenTl.Schema.TInvoice.PhoneToProvider
+  nameWithType: TInvoice.PhoneToProvider
 - uid: OpenTl.Schema.TInvoice.Prices
   name: Prices
   href: api/OpenTl.Schema.TInvoice.html#OpenTl_Schema_TInvoice_Prices
@@ -33169,6 +33481,18 @@ references:
   commentId: Overload:OpenTl.Schema.TMessage.FwdFrom
   fullName: OpenTl.Schema.TMessage.FwdFrom
   nameWithType: TMessage.FwdFrom
+- uid: OpenTl.Schema.TMessage.GroupedId
+  name: GroupedId
+  href: api/OpenTl.Schema.TMessage.html#OpenTl_Schema_TMessage_GroupedId
+  commentId: P:OpenTl.Schema.TMessage.GroupedId
+  fullName: OpenTl.Schema.TMessage.GroupedId
+  nameWithType: TMessage.GroupedId
+- uid: OpenTl.Schema.TMessage.GroupedId*
+  name: GroupedId
+  href: api/OpenTl.Schema.TMessage.html#OpenTl_Schema_TMessage_GroupedId_
+  commentId: Overload:OpenTl.Schema.TMessage.GroupedId
+  fullName: OpenTl.Schema.TMessage.GroupedId
+  nameWithType: TMessage.GroupedId
 - uid: OpenTl.Schema.TMessage.Id
   name: Id
   href: api/OpenTl.Schema.TMessage.html#OpenTl_Schema_TMessage_Id
@@ -34423,6 +34747,30 @@ references:
   commentId: Overload:OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
   fullName: OpenTl.Schema.TMessageFwdHeader.PostAuthorAsBinary
   nameWithType: TMessageFwdHeader.PostAuthorAsBinary
+- uid: OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId
+  name: SavedFromMsgId
+  href: api/OpenTl.Schema.TMessageFwdHeader.html#OpenTl_Schema_TMessageFwdHeader_SavedFromMsgId
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId
+  nameWithType: TMessageFwdHeader.SavedFromMsgId
+- uid: OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId*
+  name: SavedFromMsgId
+  href: api/OpenTl.Schema.TMessageFwdHeader.html#OpenTl_Schema_TMessageFwdHeader_SavedFromMsgId_
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId
+  fullName: OpenTl.Schema.TMessageFwdHeader.SavedFromMsgId
+  nameWithType: TMessageFwdHeader.SavedFromMsgId
+- uid: OpenTl.Schema.TMessageFwdHeader.SavedFromPeer
+  name: SavedFromPeer
+  href: api/OpenTl.Schema.TMessageFwdHeader.html#OpenTl_Schema_TMessageFwdHeader_SavedFromPeer
+  commentId: P:OpenTl.Schema.TMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.TMessageFwdHeader.SavedFromPeer
+  nameWithType: TMessageFwdHeader.SavedFromPeer
+- uid: OpenTl.Schema.TMessageFwdHeader.SavedFromPeer*
+  name: SavedFromPeer
+  href: api/OpenTl.Schema.TMessageFwdHeader.html#OpenTl_Schema_TMessageFwdHeader_SavedFromPeer_
+  commentId: Overload:OpenTl.Schema.TMessageFwdHeader.SavedFromPeer
+  fullName: OpenTl.Schema.TMessageFwdHeader.SavedFromPeer
+  nameWithType: TMessageFwdHeader.SavedFromPeer
 - uid: OpenTl.Schema.TMessageMediaContact
   name: TMessageMediaContact
   href: api/OpenTl.Schema.TMessageMediaContact.html

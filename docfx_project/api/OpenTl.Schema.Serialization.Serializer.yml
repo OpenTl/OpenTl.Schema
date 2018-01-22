@@ -5,9 +5,9 @@ items:
   id: Serializer
   parent: OpenTl.Schema.Serialization
   children:
-  - OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
-  - OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  - OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
   - OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte[])
+  - OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
   - OpenTl.Schema.Serialization.Serializer.SerializeObject(System.Object)
   - OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer(System.Object,System.Int32)
   langs:
@@ -29,13 +29,18 @@ items:
   - OpenTl.Schema
   namespace: OpenTl.Schema.Serialization
   syntax:
-    content: 'public static class Serializer : object'
-    content.vb: >-
-      Public Module Serializer
-
-          Inherits Object
+    content: public static class Serializer
+    content.vb: Public Module Serializer
   inheritance:
   - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
   modifiers.csharp:
   - public
   - static
@@ -83,16 +88,16 @@ items:
   - Shared
   fullName.vb: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.Byte())
   name.vb: DeserializeObject(Byte())
-- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
-  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
-  id: DeserializeObject(BinaryReader)
+- uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
+  id: DeserializeObject(System.IO.BinaryReader)
   parent: OpenTl.Schema.Serialization.Serializer
   langs:
   - csharp
   - vb
   name: DeserializeObject(BinaryReader)
   nameWithType: Serializer.DeserializeObject(BinaryReader)
-  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(BinaryReader)
+  fullName: OpenTl.Schema.Serialization.Serializer.DeserializeObject(System.IO.BinaryReader)
   type: Method
   source:
     remote:
@@ -109,7 +114,7 @@ items:
     content: public static IObject DeserializeObject(BinaryReader reader)
     parameters:
     - id: reader
-      type: BinaryReader
+      type: System.IO.BinaryReader
     return:
       type: OpenTl.Schema.IObject
     content.vb: Public Shared Function DeserializeObject(reader As BinaryReader) As IObject
@@ -120,16 +125,16 @@ items:
   modifiers.vb:
   - Public
   - Shared
-- uid: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
-  commentId: M:OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader,TypeInfo)
-  id: Deserialize(BinaryReader,TypeInfo)
+- uid: OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
+  commentId: M:OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
+  id: Deserialize(System.IO.BinaryReader,System.Reflection.TypeInfo)
   parent: OpenTl.Schema.Serialization.Serializer
   langs:
   - csharp
   - vb
   name: Deserialize(BinaryReader, TypeInfo)
   nameWithType: Serializer.Deserialize(BinaryReader, TypeInfo)
-  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize(BinaryReader, TypeInfo)
+  fullName: OpenTl.Schema.Serialization.Serializer.Deserialize(System.IO.BinaryReader, System.Reflection.TypeInfo)
   type: Method
   source:
     remote:
@@ -146,9 +151,9 @@ items:
     content: public static object Deserialize(BinaryReader binaryReader, TypeInfo typeInfo)
     parameters:
     - id: binaryReader
-      type: BinaryReader
+      type: System.IO.BinaryReader
     - id: typeInfo
-      type: TypeInfo
+      type: System.Reflection.TypeInfo
     return:
       type: System.Object
     content.vb: Public Shared Function Deserialize(binaryReader As BinaryReader, typeInfo As TypeInfo) As Object
@@ -182,7 +187,7 @@ items:
   - OpenTl.Schema
   namespace: OpenTl.Schema.Serialization
   syntax:
-    content: public static byte[] SerializeObjectWithBuffer(object obj, int bufferSize = null)
+    content: public static byte[] SerializeObjectWithBuffer(object obj, int bufferSize = -1)
     parameters:
     - id: obj
       type: System.Object
@@ -190,7 +195,7 @@ items:
       type: System.Int32
     return:
       type: System.Byte[]
-    content.vb: Public Shared Function SerializeObjectWithBuffer(obj As Object, bufferSize As Integer = Nothing) As Byte()
+    content.vb: Public Shared Function SerializeObjectWithBuffer(obj As Object, bufferSize As Integer = -1) As Byte()
   overload: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer*
   modifiers.csharp:
   - public
@@ -243,10 +248,297 @@ references:
   nameWithType: OpenTl.Schema.Serialization
   fullName: OpenTl.Schema.Serialization
 - uid: System.Object
+  commentId: T:System.Object
+  parent: System
   isExternal: true
   name: Object
   nameWithType: Object
   fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Serialization.Serializer.DeserializeObject*
   commentId: Overload:OpenTl.Schema.Serialization.Serializer.DeserializeObject
   isExternal: false
@@ -291,23 +583,38 @@ references:
   name: OpenTl.Schema
   nameWithType: OpenTl.Schema
   fullName: OpenTl.Schema
-- uid: BinaryReader
+- uid: System.IO.BinaryReader
+  commentId: T:System.IO.BinaryReader
+  parent: System.IO
   isExternal: true
   name: BinaryReader
   nameWithType: BinaryReader
-  fullName: BinaryReader
+  fullName: System.IO.BinaryReader
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
 - uid: OpenTl.Schema.Serialization.Serializer.Deserialize*
   commentId: Overload:OpenTl.Schema.Serialization.Serializer.Deserialize
   isExternal: false
   name: Deserialize
   nameWithType: Serializer.Deserialize
   fullName: OpenTl.Schema.Serialization.Serializer.Deserialize
-- uid: TypeInfo
-  commentId: '!:TypeInfo'
+- uid: System.Reflection.TypeInfo
+  commentId: T:System.Reflection.TypeInfo
+  parent: System.Reflection
   isExternal: true
   name: TypeInfo
   nameWithType: TypeInfo
-  fullName: TypeInfo
+  fullName: System.Reflection.TypeInfo
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: false
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
 - uid: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer*
   commentId: Overload:OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer
   isExternal: false
@@ -315,6 +622,8 @@ references:
   nameWithType: Serializer.SerializeObjectWithBuffer
   fullName: OpenTl.Schema.Serialization.Serializer.SerializeObjectWithBuffer
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x90dddc11)]
+	[Serialize(0x44f9b43d)]
 	public class TMessage : IMessage
 	{
        [SerializationOrder(0)]
@@ -94,6 +94,10 @@ namespace OpenTl.Schema
        private byte[] _PostAuthorAsBinary;
        private string _PostAuthor;
        public string PostAuthor { get => _PostAuthor; set { PostAuthorAsBinary = Encoding.UTF8.GetBytes(value); _PostAuthor = value; }}
+
+       [SerializationOrder(20)]
+       [CanSerialize("Flags", 17)]
+       public long GroupedId {get; set;}
 
 	}
 }

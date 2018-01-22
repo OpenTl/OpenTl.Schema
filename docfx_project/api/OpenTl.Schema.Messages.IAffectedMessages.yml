@@ -29,7 +29,6 @@ items:
     content: 'public interface IAffectedMessages : IObject'
     content.vb: >-
       Public Interface IAffectedMessages
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -339,10 +338,18 @@ references:
   nameWithType: IAffectedMessages.Pts
   fullName: OpenTl.Schema.Messages.IAffectedMessages.Pts
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.Messages.IAffectedMessages.PtsCount*
   commentId: Overload:OpenTl.Schema.Messages.IAffectedMessages.PtsCount
   isExternal: false

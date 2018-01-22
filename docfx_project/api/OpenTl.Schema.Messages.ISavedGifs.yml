@@ -27,7 +27,6 @@ items:
     content: 'public interface ISavedGifs : IObject'
     content.vb: >-
       Public Interface ISavedGifs
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

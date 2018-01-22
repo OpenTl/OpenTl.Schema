@@ -20,113 +20,117 @@ namespace OpenTl.Schema
        public bool PhonecallsEnabled {get; set;}
 
        [SerializationOrder(2)]
-       public int Date {get; set;}
+       [FromFlag("Flags", 3)]
+       public bool DefaultP2pContacts {get; set;}
 
        [SerializationOrder(3)]
-       public int Expires {get; set;}
+       public int Date {get; set;}
 
        [SerializationOrder(4)]
-       public bool TestMode {get; set;}
+       public int Expires {get; set;}
 
        [SerializationOrder(5)]
-       public int ThisDc {get; set;}
+       public bool TestMode {get; set;}
 
        [SerializationOrder(6)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
+       public int ThisDc {get; set;}
 
        [SerializationOrder(7)]
-       public int ChatSizeMax {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
 
        [SerializationOrder(8)]
-       public int MegagroupSizeMax {get; set;}
+       public int ChatSizeMax {get; set;}
 
        [SerializationOrder(9)]
-       public int ForwardedCountMax {get; set;}
+       public int MegagroupSizeMax {get; set;}
 
        [SerializationOrder(10)]
-       public int OnlineUpdatePeriodMs {get; set;}
+       public int ForwardedCountMax {get; set;}
 
        [SerializationOrder(11)]
-       public int OfflineBlurTimeoutMs {get; set;}
+       public int OnlineUpdatePeriodMs {get; set;}
 
        [SerializationOrder(12)]
-       public int OfflineIdleTimeoutMs {get; set;}
+       public int OfflineBlurTimeoutMs {get; set;}
 
        [SerializationOrder(13)]
-       public int OnlineCloudTimeoutMs {get; set;}
+       public int OfflineIdleTimeoutMs {get; set;}
 
        [SerializationOrder(14)]
-       public int NotifyCloudDelayMs {get; set;}
+       public int OnlineCloudTimeoutMs {get; set;}
 
        [SerializationOrder(15)]
-       public int NotifyDefaultDelayMs {get; set;}
+       public int NotifyCloudDelayMs {get; set;}
 
        [SerializationOrder(16)]
-       public int ChatBigSize {get; set;}
+       public int NotifyDefaultDelayMs {get; set;}
 
        [SerializationOrder(17)]
-       public int PushChatPeriodMs {get; set;}
+       public int ChatBigSize {get; set;}
 
        [SerializationOrder(18)]
-       public int PushChatLimit {get; set;}
+       public int PushChatPeriodMs {get; set;}
 
        [SerializationOrder(19)]
-       public int SavedGifsLimit {get; set;}
+       public int PushChatLimit {get; set;}
 
        [SerializationOrder(20)]
-       public int EditTimeLimit {get; set;}
+       public int SavedGifsLimit {get; set;}
 
        [SerializationOrder(21)]
-       public int RatingEDecay {get; set;}
+       public int EditTimeLimit {get; set;}
 
        [SerializationOrder(22)]
-       public int StickersRecentLimit {get; set;}
+       public int RatingEDecay {get; set;}
 
        [SerializationOrder(23)]
-       public int StickersFavedLimit {get; set;}
+       public int StickersRecentLimit {get; set;}
 
        [SerializationOrder(24)]
-       public int ChannelsReadMediaPeriod {get; set;}
+       public int StickersFavedLimit {get; set;}
 
        [SerializationOrder(25)]
+       public int ChannelsReadMediaPeriod {get; set;}
+
+       [SerializationOrder(26)]
        [CanSerialize("Flags", 0)]
        public int TmpSessions {get; set;}
 
-       [SerializationOrder(26)]
+       [SerializationOrder(27)]
        public int PinnedDialogsCountMax {get; set;}
 
-       [SerializationOrder(27)]
+       [SerializationOrder(28)]
        public int CallReceiveTimeoutMs {get; set;}
 
-       [SerializationOrder(28)]
+       [SerializationOrder(29)]
        public int CallRingTimeoutMs {get; set;}
 
-       [SerializationOrder(29)]
+       [SerializationOrder(30)]
        public int CallConnectTimeoutMs {get; set;}
 
-       [SerializationOrder(30)]
+       [SerializationOrder(31)]
        public int CallPacketTimeoutMs {get; set;}
 
        /// <summary>Binary representation for the 'MeUrlPrefix' property</summary>
-       [SerializationOrder(31)]
+       [SerializationOrder(32)]
        public byte[] MeUrlPrefixAsBinary { get => _MeUrlPrefixAsBinary; set { _MeUrlPrefix = Encoding.UTF8.GetString(value); _MeUrlPrefixAsBinary = value; }}
        private byte[] _MeUrlPrefixAsBinary;
        private string _MeUrlPrefix;
        public string MeUrlPrefix { get => _MeUrlPrefix; set { MeUrlPrefixAsBinary = Encoding.UTF8.GetBytes(value); _MeUrlPrefix = value; }}
 
        /// <summary>Binary representation for the 'SuggestedLangCode' property</summary>
-       [SerializationOrder(32)]
+       [SerializationOrder(33)]
        [CanSerialize("Flags", 2)]
        public byte[] SuggestedLangCodeAsBinary { get => _SuggestedLangCodeAsBinary; set { _SuggestedLangCode = Encoding.UTF8.GetString(value); _SuggestedLangCodeAsBinary = value; }}
        private byte[] _SuggestedLangCodeAsBinary;
        private string _SuggestedLangCode;
        public string SuggestedLangCode { get => _SuggestedLangCode; set { SuggestedLangCodeAsBinary = Encoding.UTF8.GetBytes(value); _SuggestedLangCode = value; }}
 
-       [SerializationOrder(33)]
+       [SerializationOrder(34)]
        [CanSerialize("Flags", 2)]
        public int LangPackVersion {get; set;}
 
-       [SerializationOrder(34)]
+       [SerializationOrder(35)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature> DisabledFeatures {get; set;}
 
 	}

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xcb44b1c)]
+	[Serialize(0x450b7115)]
 	public class TChannel : IChat
 	{
        [SerializationOrder(0)]
@@ -101,6 +101,10 @@ namespace OpenTl.Schema
        [SerializationOrder(20)]
        [CanSerialize("Flags", 15)]
        public OpenTl.Schema.IChannelBannedRights BannedRights {get; set;}
+
+       [SerializationOrder(21)]
+       [CanSerialize("Flags", 17)]
+       public int ParticipantsCount {get; set;}
 
 	}
 }

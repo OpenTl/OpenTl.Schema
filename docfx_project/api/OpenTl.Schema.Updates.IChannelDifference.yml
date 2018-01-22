@@ -27,7 +27,6 @@ items:
     content: 'public interface IChannelDifference : IObject'
     content.vb: >-
       Public Interface IChannelDifference
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

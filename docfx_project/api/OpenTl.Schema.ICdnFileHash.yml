@@ -30,7 +30,6 @@ items:
     content: 'public interface ICdnFileHash : IObject'
     content.vb: >-
       Public Interface ICdnFileHash
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: ICdnFileHash.Offset
   fullName: OpenTl.Schema.ICdnFileHash.Offset
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.ICdnFileHash.Limit*
   commentId: Overload:OpenTl.Schema.ICdnFileHash.Limit
   isExternal: false

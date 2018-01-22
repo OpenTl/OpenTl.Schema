@@ -33,7 +33,6 @@ items:
     content: 'public interface IBotInlineResult : IObject'
     content.vb: >-
       Public Interface IBotInlineResult
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -71,7 +70,7 @@ items:
     content: BitArray Flags { get; set; }
     parameters: []
     return:
-      type: BitArray
+      type: System.Collections.BitArray
     content.vb: Property Flags As BitArray
   overload: OpenTl.Schema.IBotInlineResult.Flags*
   modifiers.csharp:
@@ -464,11 +463,19 @@ references:
   name: Flags
   nameWithType: IBotInlineResult.Flags
   fullName: OpenTl.Schema.IBotInlineResult.Flags
-- uid: BitArray
+- uid: System.Collections.BitArray
+  commentId: T:System.Collections.BitArray
+  parent: System.Collections
   isExternal: true
   name: BitArray
   nameWithType: BitArray
-  fullName: BitArray
+  fullName: System.Collections.BitArray
+- uid: System.Collections
+  commentId: N:System.Collections
+  isExternal: false
+  name: System.Collections
+  nameWithType: System.Collections
+  fullName: System.Collections
 - uid: OpenTl.Schema.IBotInlineResult.IdAsBinary*
   commentId: Overload:OpenTl.Schema.IBotInlineResult.IdAsBinary
   isExternal: false
@@ -507,10 +514,18 @@ references:
   nameWithType: IBotInlineResult.Id
   fullName: OpenTl.Schema.IBotInlineResult.Id
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IBotInlineResult.TypeAsBinary*
   commentId: Overload:OpenTl.Schema.IBotInlineResult.TypeAsBinary
   isExternal: false

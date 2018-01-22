@@ -29,7 +29,6 @@ items:
     content: 'public interface IBlocked : IObject'
     content.vb: >-
       Public Interface IBlocked
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

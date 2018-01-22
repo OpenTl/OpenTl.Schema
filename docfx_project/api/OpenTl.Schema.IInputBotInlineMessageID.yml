@@ -30,7 +30,6 @@ items:
     content: 'public interface IInputBotInlineMessageID : IObject'
     content.vb: >-
       Public Interface IInputBotInlineMessageID
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -366,10 +365,18 @@ references:
   nameWithType: IInputBotInlineMessageID.DcId
   fullName: OpenTl.Schema.IInputBotInlineMessageID.DcId
 - uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
   isExternal: true
   name: Int32
   nameWithType: Int32
   fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IInputBotInlineMessageID.Id*
   commentId: Overload:OpenTl.Schema.IInputBotInlineMessageID.Id
   isExternal: false
@@ -377,6 +384,8 @@ references:
   nameWithType: IInputBotInlineMessageID.Id
   fullName: OpenTl.Schema.IInputBotInlineMessageID.Id
 - uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
   isExternal: true
   name: Int64
   nameWithType: Int64

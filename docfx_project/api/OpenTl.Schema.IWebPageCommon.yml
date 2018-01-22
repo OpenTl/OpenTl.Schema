@@ -27,7 +27,6 @@ items:
     content: 'public interface IWebPageCommon : IObject'
     content.vb: >-
       Public Interface IWebPageCommon
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1

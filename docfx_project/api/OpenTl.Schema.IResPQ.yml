@@ -32,7 +32,6 @@ items:
     content: 'public interface IResPQ : IObject'
     content.vb: >-
       Public Interface IResPQ
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
@@ -475,10 +474,18 @@ references:
   nameWithType: IResPQ.Pq
   fullName: OpenTl.Schema.IResPQ.Pq
 - uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
   name: String
   nameWithType: String
   fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints*
   commentId: Overload:OpenTl.Schema.IResPQ.ServerPublicKeyFingerprints
   isExternal: false

@@ -27,7 +27,6 @@ items:
     content: 'public interface ICodeType : IObject'
     content.vb: >-
       Public Interface ICodeType
-
           Inherits IObject
   extensionMethods:
   - OpenTl.Schema.IObject.OpenTl.Schema.Utils.As``1
