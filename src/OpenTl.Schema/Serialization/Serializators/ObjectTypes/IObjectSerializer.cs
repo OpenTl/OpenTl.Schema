@@ -8,41 +8,43 @@ using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
 namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
  {
+     using DotNetty.Buffers;
+
      internal class IObjectSerializer : ISerializator
      {
          public TypeInfo SupportedType { get; } = typeof(IObject).GetTypeInfo();
  
-         public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata)
+         public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata)
          {
-             Serializer.Serialize(value, writer);
+             Serializer.Serialize(value, buffer);
 
              if (IsAssignableToGenericType(value.GetType().GetTypeInfo(), typeof(TVector<>)))
              {
                  var collection = (ICollection) ((dynamic) value).Items ;
-                 writer.Write(collection.Count);
+                 buffer.WriteIntLE(collection.Count);
             
                  foreach (var item in collection)
                  {
-                     Serializer.Serialize(item, writer);
+                     Serializer.Serialize(item, buffer);
                  }
              }
          }
 
-         public object Deserialize(BinaryReader reader, SerializationMetadata metadata)
+         public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
          {
-             var value =  Serializer.Deserialize(reader, metadata?.PropertyTypeInfo);
+             var value =  Serializer.DeserializeByType(buffer, metadata?.PropertyTypeInfo);
 
              var valueType = value.GetType().GetTypeInfo();
              
              if (IsAssignableToGenericType(valueType, typeof(TVector<>)))
              {
-                 var length = reader.ReadInt32();
+                 var length = buffer.ReadIntLE();
                  var genParameter = metadata.PropertyTypeInfo.GenericTypeArguments[0];
                  var listType = typeof(List<>).MakeGenericType(genParameter);
                  var children = (IList)Activator.CreateInstance(listType);
                  for (var j = 0; j < length; j++)
                  {
-                     var child = Serializer.Deserialize(reader, genParameter.GetTypeInfo());
+                     var child = Serializer.DeserializeByType(buffer, genParameter.GetTypeInfo());
                      children.Add(child);
                  }
 

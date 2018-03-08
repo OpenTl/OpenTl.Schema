@@ -5,6 +5,8 @@ using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
 namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
 {
+    using DotNetty.Buffers;
+
     internal class BooleanSerializer : ISerializator
     {
         private static readonly TBoolTrue True = new TBoolTrue();
@@ -12,17 +14,17 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
         
         public TypeInfo SupportedType { get; } = typeof(bool).GetTypeInfo();
 
-        public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata)
+        public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata)
         {
             var b = (bool) value;
 
             value =  b ? (object) True : False;
-            Serializer.Serialize(value, writer);
+            Serializer.Serialize(value, buffer);
         }
 
-        public object Deserialize(BinaryReader reader, SerializationMetadata metadata)
+        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
         {
-            var obj = Serializer.Deserialize(reader, null);
+            var obj = Serializer.DeserializeByType(buffer, null);
             return obj is TBoolTrue;
         }
     }

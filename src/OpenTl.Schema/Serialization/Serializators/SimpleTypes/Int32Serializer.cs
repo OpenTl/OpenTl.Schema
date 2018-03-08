@@ -4,46 +4,14 @@ using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
 namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
 {
-    #region Int32
+    using DotNetty.Buffers;
 
     internal class Int32Serializer : ISerializator
     {
         public TypeInfo SupportedType { get; } = typeof(int).GetTypeInfo();
 
-        public void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata) => writer.Write((int) value);
+        public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata) => buffer.WriteIntLE((int) value);
 
-        public object Deserialize(BinaryReader reader, SerializationMetadata metadata) => reader.ReadInt32();
+        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata) => buffer.ReadIntLE();
     }
-
-    #endregion
-
-    #region Int64
-
-    #endregion
-
-    #region String
-
-    #endregion
-
-    #region Double
-
-    #endregion
-
-    #region BitArray
-
-    #endregion
-    
-    #region Collection
-
-    #endregion
-    
-    #region IObject
-
-    // ReSharper disable once InconsistentNaming
-
-    #endregion
-
-    #region BytesArray
-
-    #endregion
 }

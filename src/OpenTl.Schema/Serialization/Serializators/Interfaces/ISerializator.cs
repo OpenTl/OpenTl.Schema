@@ -4,12 +4,14 @@ using System.Reflection;
 
 namespace OpenTl.Schema.Serialization.Serializators.Interfaces
 {
+    using DotNetty.Buffers;
+
     internal interface ISerializator
     {
         TypeInfo SupportedType { get; }
         
-        void Serialize(BinaryWriter writer, object value, SerializationMetadata metadata);
+        void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata);
         
-        object Deserialize(BinaryReader reader, SerializationMetadata metadata);
+        object Deserialize(IByteBuffer buffer, SerializationMetadata metadata);
     }
 }

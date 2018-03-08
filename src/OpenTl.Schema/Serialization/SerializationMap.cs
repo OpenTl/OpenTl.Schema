@@ -53,8 +53,7 @@ namespace OpenTl.Schema.Serialization
 
         internal static ISerializator GetSerializator(TypeInfo type)
         {
-            ISerializator serializator;
-            if (!TryGetSerializator(type, out serializator))
+            if (!TryGetSerializator(type, out var serializator))
             {
                 throw new NotSupportedException($"Can serialize \\ deserialize type: {type}");
             }
@@ -62,14 +61,14 @@ namespace OpenTl.Schema.Serialization
             return serializator;
         }
 
-        internal static bool TryGetSerializator(TypeInfo type, out ISerializator serializator)
+        private static bool TryGetSerializator(TypeInfo type, out ISerializator serializator)
         {
             if (type.IsGenericType)
             {
                 type = type.GetGenericTypeDefinition().GetTypeInfo();
             }
 
-            if (type == typeof(object).GetTypeInfo())
+            if (type.Equals(typeof(object).GetTypeInfo()))
             {
                 type = typeof(IObject).GetTypeInfo();
             }

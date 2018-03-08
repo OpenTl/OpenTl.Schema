@@ -1,5 +1,8 @@
+using System;
 using System.IO;
 using System.Linq;
+using System.Net.Http.Headers;
+using DotNetty.Buffers;
 using OpenTl.Schema.Help;
 using OpenTl.Schema.Serialization;
 using TelegramClient.Entities;
@@ -29,14 +32,17 @@ namespace OpenTl.Schema.Tests
                 }
             };
 
-            var data = Serializer.SerializeObject(request).ToArray();
-            
-            var legacy = (RequestInvokeWithLayer) LegacyDeserialize(data);
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            Serializer.Serialize(request, buffer);
 
-            var obj = (RequestInvokeWithLayer) Serializer.DeserializeObject(data);
+            var data = new byte[buffer.ReadableBytes];
+            buffer.ReadBytes(data);
+            
+            buffer.ResetReaderIndex();
+            var obj = (RequestInvokeWithLayer) Serializer.Deserialize(buffer);
             
             Assert.Equal(request.Layer, obj.Layer);
-            Assert.Equal(request.Query, obj.Query);
+            Assert.IsType<RequestInitConnection>(request.Query);
         }
         
         [Fact]
@@ -48,12 +54,10 @@ namespace OpenTl.Schema.Tests
                 N = new byte[]{111},
             };
 
-            var data = Serializer.SerializeObject(peer).ToArray();
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            Serializer.Serialize(peer, buffer);
 
-            var obj = (TRsaPublicKey) Serializer.DeserializeObject(data);
-            
-            Assert.Equal(peer.E, obj.E);
-            Assert.Equal(peer.N, obj.N);
+            Assert.Equal(8, buffer.ReadableBytes);
         }
         
         [Fact]
@@ -67,9 +71,10 @@ namespace OpenTl.Schema.Tests
                 IpPortList = new TVector<TIpPort>(new TIpPort{Ipv4 = 444, Port = 555})
             };
 
-            var data = Serializer.SerializeObject(peer).ToArray();
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            Serializer.Serialize(peer, buffer);
 
-            var obj = (TConfigSimple) Serializer.DeserializeObject(data);
+            var obj = (TConfigSimple) Serializer.Deserialize(buffer);
             
             Assert.Equal(peer.Date, obj.Date);
         }
@@ -82,8 +87,12 @@ namespace OpenTl.Schema.Tests
                 UserId = 123
             };
 
-            var data = Serializer.SerializeObject(peer).ToArray();
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            Serializer.Serialize(peer, buffer);
 
+            var data = new byte[buffer.ReadableBytes];
+            buffer.ReadBytes(data);
+            
             var obj = (TlPeerUser) LegacyDeserialize(data);
             
             Assert.Equal(peer.UserId, obj.UserId);
@@ -98,8 +107,10 @@ namespace OpenTl.Schema.Tests
             };
 
             var data = LegacySerialize(peer);
-            
-            var obj = (TPeerUser) Serializer.DeserializeObject(data);
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            buffer.WriteBytes(data);
+                
+            var obj = (TPeerUser) Serializer.Deserialize(buffer);
 
             Assert.Equal(peer.UserId, obj.UserId);
         }
@@ -124,9 +135,10 @@ namespace OpenTl.Schema.Tests
                 },
             };
 
-            var data = Serializer.SerializeObject(callWaiting).ToArray();
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+            Serializer.Serialize(callWaiting, buffer);
 
-            var obj = (TPhoneCallWaiting)Serializer.DeserializeObject(data);
+            var obj = (TPhoneCallWaiting)Serializer.Deserialize(buffer);
             
             Assert.Equal(callWaiting.AccessHash, obj.AccessHash);
             Assert.Equal(callWaiting.AdminId, obj.AdminId);
