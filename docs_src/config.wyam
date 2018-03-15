@@ -1,0 +1,10 @@
+#recipe Docs
+
+// Customize your settings and add new ones here
+Settings[Keys.Host] = "opentl.github.io";
+Settings[DocsKeys.Title] = "OpenTl.Schema";
+Settings[Keys.LinkRoot] = "/OpenTl.Schema/docs/output";
+Settings[DocsKeys.ImplicitInheritDoc] = true;
+Settings[Keys.LinkHideExtensions] = false;
+Settings[DocsKeys.SourceFiles] = @"../../src/OpenTl.Schema/**/{!bin,!obj,!packages,!*.Tests,}/**/*.cs";
+// Add any pipeline customizations here
