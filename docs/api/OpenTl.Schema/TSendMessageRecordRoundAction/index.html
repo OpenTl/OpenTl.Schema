@@ -1,0 +1,1045 @@
+﻿<!DOCTYPE html><html><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="description">
+        <meta name="keywords" content="static content generator,static site generator,static site,HTML,web development,.NET,C#,Razor,Markdown,YAML">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="/OpenTl.Schema/docs/output/assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/OpenTl.Schema/docs/output/assets/img/favicon.ico" type="image/x-icon">
+        <title>OpenTl.Schema - API - TSendMessageRecordRoundAction Class</title>
+        <link href="/OpenTl.Schema/docs/output/assets/css/mermaid.css" rel="stylesheet">
+        <link href="/OpenTl.Schema/docs/output/assets/css/highlight.css" rel="stylesheet">
+        <link href="/OpenTl.Schema/docs/output/assets/css/bootstrap/bootstrap.css" rel="stylesheet">
+        <link href="/OpenTl.Schema/docs/output/assets/css/adminlte/AdminLTE.css" rel="stylesheet">
+        <link href="/OpenTl.Schema/docs/output/assets/css/theme/theme.css" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto:400,400i,700,700i" rel="stylesheet">
+        <link href="/OpenTl.Schema/docs/output/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="/OpenTl.Schema/docs/output/assets/css/override.css" rel="stylesheet">
+        <script src="/OpenTl.Schema/docs/output/assets/js/jquery-2.2.3.min.js"></script>
+        <script src="/OpenTl.Schema/docs/output/assets/js/bootstrap.min.js"></script>        
+        <script src="/OpenTl.Schema/docs/output/assets/js/app.min.js"></script>         
+        <script src="/OpenTl.Schema/docs/output/assets/js/highlight.pack.js"></script>   
+        <script src="/OpenTl.Schema/docs/output/assets/js/jquery.slimscroll.min.js"></script>
+        <script src="/OpenTl.Schema/docs/output/assets/js/jquery.sticky-kit.min.js"></script>
+        <script src="/OpenTl.Schema/docs/output/assets/js/mermaid.min.js"></script>
+        <!--[if lt IE 9]>
+        <script src="/OpenTl.Schema/docs/output/assets/js/html5shiv.min.js"></script>
+        <script src="/OpenTl.Schema/docs/output/assets/js/respond.min.js"></script>
+        <![endif]-->  
+
+        
+    </head>
+    <body class="hold-transition wyam layout-boxed  ">    
+        <div class="top-banner"></div>
+        <div class="wrapper with-container">
+            <!-- Header -->
+            <header class="main-header">   
+                     
+                <a href="/OpenTl.Schema/docs/output/" class="logo">
+                            <span>OpenTl.Schema</span>
+                </a>   
+                         
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <!-- Sidebar toggle button-->
+                        <a href="#" class="sidebar-toggle visible-xs-block" data-toggle="offcanvas" role="button">
+                            <span class="sr-only">Toggle side menu</span>
+                            <i class="fa fa-chevron-circle-right"></i>
+                        </a>
+                                        
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle side menu</span>
+                            <i class="fa fa-chevron-circle-down"></i>
+                        </button>
+                    </div>
+            
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                        <ul class="nav navbar-nav">                            
+                                    <li><a href="/OpenTl.Schema/docs/output/about.html">About This Project</a></li>
+        <li class="active"><a href="/OpenTl.Schema/docs/output/api">API</a></li>
+ 
+                        </ul>       
+                    </div>
+                    <!-- /.navbar-collapse -->
+                
+                    <!-- Navbar Right Menu -->
+                </nav>
+            </header>
+            
+            <!-- Left side column. contains the logo and sidebar -->
+            <aside class="main-sidebar ">
+                <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
+                    	
+	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
+<p><a href="#Attributes">Attributes</a></p>
+<p><a href="#ExtensionMethods">Extension Methods</a></p>
+<hr class="infobar-hidden">
+</div>
+
+                </section>
+                <section class="sidebar">    
+                                     
+                    	
+	    <script src="/OpenTl.Schema/docs/output/assets/js/lunr.min.js"></script>
+    <script src="/OpenTl.Schema/docs/output/assets/js/searchIndex.js"></script>
+    <div class="sidebar-form">
+        <div class="input-group">
+            <input type="text" name="search" id="search" class="form-control" placeholder="Search Types...">
+            <span class="input-group-btn">
+                <button class="btn btn-flat"><i class="fa fa-search"></i></button>
+            </span>
+        </div>
+    </div>
+    <div id="search-results">
+    </div>
+    <script>
+        function runSearch(query){
+            $("#search-results").empty();			
+            if( query.length < 2 ){
+                return;
+            }			
+            var results = searchModule.search("*" + query + "*");
+            var listHtml = "<ul class='sidebar-menu'>";	
+            listHtml += "<li class='header'>Type Results</li>";	
+            if(results.length == 0 ){
+                listHtml += "<li>No results found</li>";
+            } else {					
+                for(var i = 0; i < results.length; ++i){
+                    var res = results[i];
+                    listHtml += "<li><a href='" + res.url + "'>" + htmlEscape(res.title) + "</a></li>";
+                }				
+            }
+            listHtml += "</ul>";				
+            $("#search-results").append(listHtml);
+        }
+
+        $(document).ready(function(){
+            $("#search").on('input propertychange paste', function() {
+                runSearch($("#search").val());
+            });
+        });
+
+        function htmlEscape(html) {
+            return document.createElement('div')
+                .appendChild(document.createTextNode(html))
+                .parentNode
+                .innerHTML;
+        }
+    </script>
+	
+    <hr>
+
+                    <ul class="sidebar-menu">
+                        
+			<li class="header">Namespace</li>
+		<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema">OpenTl<wbr>.Schema</a></li>
+		<li role="separator" class="divider"></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IAccountDaysTTL">IAccountDaysTTL</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IAuthorization">IAuthorization</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBadMsgNotification">IBadMsgNotification</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBool">IBool</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBotCommand">IBotCommand</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBotInfo">IBotInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBotInlineMessage">IBotInlineMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IBotInlineResult">IBotInlineResult</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ICdnConfig">ICdnConfig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ICdnFileHash">ICdnFileHash</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ICdnPublicKey">ICdnPublicKey</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelAdminLogEvent">I<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelAdminLogEventAction">I<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelAdminLogEventsFilter">I<wbr>Channel<wbr>Admin<wbr>Log<wbr>Events<wbr>Filter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelAdminRights">IChannelAdminRights</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelBannedRights">IChannelBannedRights</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelMessagesFilter">I<wbr>Channel<wbr>Messages<wbr>Filter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelParticipant">IChannelParticipant</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChannelParticipantsFilter">I<wbr>Channel<wbr>Participants<wbr>Filter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChat">IChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatCommon">IChatCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatFull">IChatFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatInvite">IChatInvite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatParticipant">IChatParticipant</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatParticipants">IChatParticipants</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IChatPhoto">IChatPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IConfig">IConfig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IContact">IContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IContactBlocked">IContactBlocked</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IContactLink">IContactLink</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDataJSON">IDataJSON</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDcOption">IDcOption</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDestroyAuthKeyRes">IDestroyAuthKeyRes</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDestroySessionRes">IDestroySessionRes</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDialog">IDialog</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDisabledFeature">IDisabledFeature</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDocument">IDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDocumentAttribute">IDocumentAttribute</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IDraftMessage">IDraftMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IEmpty">IEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IEncryptedChat">IEncryptedChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IEncryptedChatCommon">IEncryptedChatCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IEncryptedFile">IEncryptedFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IEncryptedMessage">IEncryptedMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IExportedChatInvite">IExportedChatInvite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IExportedMessageLink">IExportedMessageLink</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IFileLocation">IFileLocation</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IFoundGif">IFoundGif</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IFutureSalts">IFutureSalts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IGame">IGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IGeoPoint">IGeoPoint</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IHighScore">IHighScore</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IImportedContact">IImportedContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInlineBotSwitchPM">IInlineBotSwitchPM</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputAppEvent">IInputAppEvent</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputBotInlineMessage">I<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputBotInlineMessageID">I<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>I<wbr>D</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputBotInlineResult">I<wbr>Input<wbr>Bot<wbr>Inline<wbr>Result</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputChannel">IInputChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputChatPhoto">IInputChatPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputChatPhotoCommon">I<wbr>Input<wbr>Chat<wbr>Photo<wbr>Common</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputContact">IInputContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputDocument">IInputDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputEncryptedChat">IInputEncryptedChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputEncryptedFile">IInputEncryptedFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputEncryptedFileCommon">I<wbr>Input<wbr>Encrypted<wbr>File<wbr>Common</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputFile">IInputFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputFileLocation">IInputFileLocation</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputGame">IInputGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputGeoPoint">IInputGeoPoint</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputMedia">IInputMedia</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputMediaCommon">IInputMediaCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputNotifyPeer">IInputNotifyPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPaymentCredentials">I<wbr>Input<wbr>Payment<wbr>Credentials</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPeer">IInputPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPeerCommon">IInputPeerCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPeerNotifyEvents">I<wbr>Input<wbr>Peer<wbr>Notify<wbr>Events</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPeerNotifySettings">I<wbr>Input<wbr>Peer<wbr>Notify<wbr>Settings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPhoneCall">IInputPhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPhoto">IInputPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPrivacyKey">IInputPrivacyKey</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputPrivacyRule">IInputPrivacyRule</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputSingleMedia">IInputSingleMedia</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputStickeredMedia">IInputStickeredMedia</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputStickerSet">IInputStickerSet</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputStickerSetCommon">I<wbr>Input<wbr>Sticker<wbr>Set<wbr>Common</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputStickerSetItem">IInputStickerSetItem</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputUser">IInputUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputUserCommon">IInputUserCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputWebDocument">IInputWebDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInputWebFileLocation">I<wbr>Input<wbr>Web<wbr>File<wbr>Location</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IInvoice">IInvoice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IKeyboardButton">IKeyboardButton</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IKeyboardButtonRow">IKeyboardButtonRow</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ILabeledPrice">ILabeledPrice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ILangPackDifference">ILangPackDifference</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ILangPackString">ILangPackString</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMaskCoords">IMaskCoords</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessage">IMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageAction">IMessageAction</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageActionCommon">IMessageActionCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageCommon">IMessageCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageEntity">IMessageEntity</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageFwdHeader">IMessageFwdHeader</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageMedia">IMessageMedia</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageMediaCommon">IMessageMediaCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessageRange">IMessageRange</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessagesFilter">IMessagesFilter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMessagesFilterCommon">I<wbr>Messages<wbr>Filter<wbr>Common</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IMsgDetailedInfo">IMsgDetailedInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/INearestDc">INearestDc</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/INotifyPeer">INotifyPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IObject">IObject</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPage">IPage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPageBlock">IPageBlock</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPaymentCharge">IPaymentCharge</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPaymentRequestedInfo">I<wbr>Payment<wbr>Requested<wbr>Info</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPaymentSavedCredentials">I<wbr>Payment<wbr>Saved<wbr>Credentials</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPeer">IPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPeerNotifyEvents">IPeerNotifyEvents</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPeerNotifySettings">IPeerNotifySettings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPeerSettings">IPeerSettings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoneCall">IPhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoneCallCommon">IPhoneCallCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoneCallDiscardReason">I<wbr>Phone<wbr>Call<wbr>Discard<wbr>Reason</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoneCallProtocol">IPhoneCallProtocol</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoneConnection">IPhoneConnection</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhoto">IPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhotoSize">IPhotoSize</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPhotoSizeCommon">IPhotoSizeCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPong">IPong</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPopularContact">IPopularContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPostAddress">IPostAddress</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPrivacyKey">IPrivacyKey</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IPrivacyRule">IPrivacyRule</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRecentMeUrl">IRecentMeUrl</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IReplyMarkup">IReplyMarkup</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IReportReason">IReportReason</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRequest">IRequest</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRequest_1">IRequest<wbr>&lt;TResult&gt;<wbr></a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IResPQ">IResPQ</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRichText">IRichText</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRichTextCommon">IRichTextCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IRpcDropAnswer">IRpcDropAnswer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ISendMessageAction">ISendMessageAction</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IServerDHParams">IServerDHParams</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ISetClientDHParamsAnswer">I<wbr>Set<wbr>Client<wbr>D<wbr>H<wbr>Params<wbr>Answer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IShippingOption">IShippingOption</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IStickerPack">IStickerPack</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IStickerSet">IStickerSet</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IStickerSetCovered">IStickerSetCovered</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ITopPeer">ITopPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ITopPeerCategory">ITopPeerCategory</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ITopPeerCategoryPeers">I<wbr>Top<wbr>Peer<wbr>Category<wbr>Peers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUpdate">IUpdate</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUpdates">IUpdates</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUser">IUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUserFull">IUserFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUserProfilePhoto">IUserProfilePhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUserStatus">IUserStatus</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IUserStatusCommon">IUserStatusCommon</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IWallPaper">IWallPaper</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IWebDocument">IWebDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IWebPage">IWebPage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IWebPageCommon">IWebPageCommon</a></li>
+			<li class="header">Class Types</li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestDestroyAuthKey">Request<wbr>Destroy<wbr>Auth<wbr>Key</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestDestroySession">Request<wbr>Destroy<wbr>Session</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestGetFutureSalts">Request<wbr>Get<wbr>Future<wbr>Salts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestInitConnection">Request<wbr>Init<wbr>Connection</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestInvokeAfterMsg">Request<wbr>Invoke<wbr>After<wbr>Msg</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestInvokeAfterMsgs">Request<wbr>Invoke<wbr>After<wbr>Msgs</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestInvokeWithLayer">Request<wbr>Invoke<wbr>With<wbr>Layer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestInvokeWithoutUpdates">Request<wbr>Invoke<wbr>Without<wbr>Updates</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestPing">RequestPing</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestPingDelayDisconnect">Request<wbr>Ping<wbr>Delay<wbr>Disconnect</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestReqDHParams">RequestReqDHParams</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestReqPq">RequestReqPq</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestReqPqMulty">RequestReqPqMulty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestRpcDropAnswer">RequestRpcDropAnswer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/RequestSetClientDHParams">Request<wbr>Set<wbr>Client<wbr>D<wbr>H<wbr>Params</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/SchemaInfo">SchemaInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TAccountDaysTTL">TAccountDaysTTL</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TAuthorization">TAuthorization</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBadMsgNotification">TBadMsgNotification</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBadServerSalt">TBadServerSalt</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBoolFalse">TBoolFalse</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBoolTrue">TBoolTrue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotCommand">TBotCommand</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInfo">TBotInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMediaResult">T<wbr>Bot<wbr>Inline<wbr>Media<wbr>Result</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMessageMediaAuto">T<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Auto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMessageMediaContact">T<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Contact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMessageMediaGeo">T<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Geo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMessageMediaVenue">T<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Venue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineMessageText">T<wbr>Bot<wbr>Inline<wbr>Message<wbr>Text</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TBotInlineResult">TBotInlineResult</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TCdnConfig">TCdnConfig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TCdnFileHash">TCdnFileHash</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TCdnPublicKey">TCdnPublicKey</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannel">TChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEvent">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionChangeAbout">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Change<wbr>About</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionChangePhoto">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Change<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionChangeStickerSet">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Change<wbr>Sticker<wbr>Set</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionChangeTitle">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Change<wbr>Title</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionChangeUsername">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Change<wbr>Username</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionDeleteMessage">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Delete<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionEditMessage">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Edit<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionParticipantInvite">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Participant<wbr>Invite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionParticipantJoin">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Participant<wbr>Join</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionParticipantLeave">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Participant<wbr>Leave</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionParticipantToggleAdmin">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Participant<wbr>Toggle<wbr>Admin</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionParticipantToggleBan">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Participant<wbr>Toggle<wbr>Ban</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionToggleInvites">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Toggle<wbr>Invites</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionTogglePreHistoryHidden">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Toggle<wbr>Pre<wbr>History<wbr>Hidden</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionToggleSignatures">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Toggle<wbr>Signatures</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventActionUpdatePinned">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Event<wbr>Action<wbr>Update<wbr>Pinned</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminLogEventsFilter">T<wbr>Channel<wbr>Admin<wbr>Log<wbr>Events<wbr>Filter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelAdminRights">TChannelAdminRights</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelBannedRights">TChannelBannedRights</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelForbidden">TChannelForbidden</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelFull">TChannelFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelMessagesFilter">T<wbr>Channel<wbr>Messages<wbr>Filter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelMessagesFilterEmpty">T<wbr>Channel<wbr>Messages<wbr>Filter<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipant">TChannelParticipant</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantAdmin">T<wbr>Channel<wbr>Participant<wbr>Admin</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantBanned">T<wbr>Channel<wbr>Participant<wbr>Banned</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantCreator">T<wbr>Channel<wbr>Participant<wbr>Creator</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsAdmins">T<wbr>Channel<wbr>Participants<wbr>Admins</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsBanned">T<wbr>Channel<wbr>Participants<wbr>Banned</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsBots">T<wbr>Channel<wbr>Participants<wbr>Bots</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantSelf">T<wbr>Channel<wbr>Participant<wbr>Self</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsKicked">T<wbr>Channel<wbr>Participants<wbr>Kicked</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsRecent">T<wbr>Channel<wbr>Participants<wbr>Recent</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChannelParticipantsSearch">T<wbr>Channel<wbr>Participants<wbr>Search</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChat">TChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatEmpty">TChatEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatForbidden">TChatForbidden</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatFull">TChatFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatInvite">TChatInvite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatInviteAlready">TChatInviteAlready</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatInviteEmpty">TChatInviteEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatInviteExported">TChatInviteExported</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatParticipant">TChatParticipant</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatParticipantAdmin">T<wbr>Chat<wbr>Participant<wbr>Admin</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatParticipantCreator">T<wbr>Chat<wbr>Participant<wbr>Creator</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatParticipants">TChatParticipants</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatParticipantsForbidden">T<wbr>Chat<wbr>Participants<wbr>Forbidden</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatPhoto">TChatPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TChatPhotoEmpty">TChatPhotoEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TClientDHInnerData">TClientDHInnerData</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TConfig">TConfig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContact">TContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactBlocked">TContactBlocked</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactLinkContact">TContactLinkContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactLinkHasPhone">TContactLinkHasPhone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactLinkNone">TContactLinkNone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactLinkUnknown">TContactLinkUnknown</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContactStatus">TContactStatus</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TContainerMessage">TContainerMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDataJSON">TDataJSON</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDcOption">TDcOption</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDestroyAuthKeyFail">TDestroyAuthKeyFail</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDestroyAuthKeyNone">TDestroyAuthKeyNone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDestroyAuthKeyOk">TDestroyAuthKeyOk</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDestroySessionNone">TDestroySessionNone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDestroySessionOk">TDestroySessionOk</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDhGenFail">TDhGenFail</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDhGenOk">TDhGenOk</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDhGenRetry">TDhGenRetry</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDialog">TDialog</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDisabledFeature">TDisabledFeature</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocument">TDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeAnimated">T<wbr>Document<wbr>Attribute<wbr>Animated</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeAudio">T<wbr>Document<wbr>Attribute<wbr>Audio</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeFilename">T<wbr>Document<wbr>Attribute<wbr>Filename</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeHasStickers">T<wbr>Document<wbr>Attribute<wbr>Has<wbr>Stickers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeImageSize">T<wbr>Document<wbr>Attribute<wbr>Image<wbr>Size</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeSticker">T<wbr>Document<wbr>Attribute<wbr>Sticker</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentAttributeVideo">T<wbr>Document<wbr>Attribute<wbr>Video</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDocumentEmpty">TDocumentEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDraftMessage">TDraftMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TDraftMessageEmpty">TDraftMessageEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedChat">TEncryptedChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedChatDiscarded">T<wbr>Encrypted<wbr>Chat<wbr>Discarded</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedChatEmpty">TEncryptedChatEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedChatRequested">T<wbr>Encrypted<wbr>Chat<wbr>Requested</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedChatWaiting">T<wbr>Encrypted<wbr>Chat<wbr>Waiting</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedFile">TEncryptedFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedFileEmpty">TEncryptedFileEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedMessage">TEncryptedMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TEncryptedMessageService">T<wbr>Encrypted<wbr>Message<wbr>Service</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TError">TError</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TExportedMessageLink">TExportedMessageLink</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFileLocation">TFileLocation</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFileLocationUnavailable">T<wbr>File<wbr>Location<wbr>Unavailable</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFoundGif">TFoundGif</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFoundGifCached">TFoundGifCached</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFutureSalt">TFutureSalt</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TFutureSalts">TFutureSalts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TGame">TGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TGeoPoint">TGeoPoint</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TGeoPointEmpty">TGeoPointEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TgZipPacked">TgZipPacked</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/THighScore">THighScore</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/THttpWait">THttpWait</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TImportedContact">TImportedContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInlineBotSwitchPM">TInlineBotSwitchPM</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputAppEvent">TInputAppEvent</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageGame">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Game</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageID">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>I<wbr>D</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageMediaAuto">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Auto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageMediaContact">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Contact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageMediaGeo">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Geo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageMediaVenue">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Media<wbr>Venue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineMessageText">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Message<wbr>Text</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineResult">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Result</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineResultDocument">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Result<wbr>Document</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineResultGame">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Result<wbr>Game</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputBotInlineResultPhoto">T<wbr>Input<wbr>Bot<wbr>Inline<wbr>Result<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputChannel">TInputChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputChannelEmpty">TInputChannelEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputChatPhoto">TInputChatPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputChatPhotoEmpty">TInputChatPhotoEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputChatUploadedPhoto">T<wbr>Input<wbr>Chat<wbr>Uploaded<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputDocument">TInputDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputDocumentEmpty">TInputDocumentEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputDocumentFileLocation">T<wbr>Input<wbr>Document<wbr>File<wbr>Location</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedChat">TInputEncryptedChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedFile">TInputEncryptedFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedFileBigUploaded">T<wbr>Input<wbr>Encrypted<wbr>File<wbr>Big<wbr>Uploaded</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedFileEmpty">T<wbr>Input<wbr>Encrypted<wbr>File<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedFileLocation">T<wbr>Input<wbr>Encrypted<wbr>File<wbr>Location</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputEncryptedFileUploaded">T<wbr>Input<wbr>Encrypted<wbr>File<wbr>Uploaded</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputFile">TInputFile</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputFileBig">TInputFileBig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputFileLocation">TInputFileLocation</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputGameID">TInputGameID</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputGameShortName">TInputGameShortName</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputGeoPoint">TInputGeoPoint</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputGeoPointEmpty">TInputGeoPointEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaContact">TInputMediaContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaDocument">TInputMediaDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaDocumentExternal">T<wbr>Input<wbr>Media<wbr>Document<wbr>External</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaEmpty">TInputMediaEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaGame">TInputMediaGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaGeoLive">TInputMediaGeoLive</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaGeoPoint">TInputMediaGeoPoint</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaGifExternal">T<wbr>Input<wbr>Media<wbr>Gif<wbr>External</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaInvoice">TInputMediaInvoice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaPhoto">TInputMediaPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaPhotoExternal">T<wbr>Input<wbr>Media<wbr>Photo<wbr>External</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaUploadedDocument">T<wbr>Input<wbr>Media<wbr>Uploaded<wbr>Document</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaUploadedPhoto">T<wbr>Input<wbr>Media<wbr>Uploaded<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMediaVenue">TInputMediaVenue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessageEntityMentionName">T<wbr>Input<wbr>Message<wbr>Entity<wbr>Mention<wbr>Name</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterChatPhotos">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Chat<wbr>Photos</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterContacts">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Contacts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterDocument">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Document</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterEmpty">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterGeo">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Geo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterGif">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Gif</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterMusic">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Music</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterMyMentions">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>My<wbr>Mentions</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterPhoneCalls">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Phone<wbr>Calls</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterPhotos">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Photos</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterPhotoVideo">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Photo<wbr>Video</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterRoundVideo">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Round<wbr>Video</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterRoundVoice">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Round<wbr>Voice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterUrl">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Url</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterVideo">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Video</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputMessagesFilterVoice">T<wbr>Input<wbr>Messages<wbr>Filter<wbr>Voice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputNotifyAll">TInputNotifyAll</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputNotifyChats">TInputNotifyChats</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputNotifyPeer">TInputNotifyPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputNotifyUsers">TInputNotifyUsers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPaymentCredentials">T<wbr>Input<wbr>Payment<wbr>Credentials</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPaymentCredentialsAndroidPay">T<wbr>Input<wbr>Payment<wbr>Credentials<wbr>Android<wbr>Pay</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPaymentCredentialsApplePay">T<wbr>Input<wbr>Payment<wbr>Credentials<wbr>Apple<wbr>Pay</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPaymentCredentialsSaved">T<wbr>Input<wbr>Payment<wbr>Credentials<wbr>Saved</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerChannel">TInputPeerChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerChat">TInputPeerChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerEmpty">TInputPeerEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerNotifyEventsAll">T<wbr>Input<wbr>Peer<wbr>Notify<wbr>Events<wbr>All</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerNotifyEventsEmpty">T<wbr>Input<wbr>Peer<wbr>Notify<wbr>Events<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerNotifySettings">T<wbr>Input<wbr>Peer<wbr>Notify<wbr>Settings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerSelf">TInputPeerSelf</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPeerUser">TInputPeerUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPhoneCall">TInputPhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPhoneContact">TInputPhoneContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPhoto">TInputPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPhotoEmpty">TInputPhotoEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyKeyChatInvite">T<wbr>Input<wbr>Privacy<wbr>Key<wbr>Chat<wbr>Invite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyKeyPhoneCall">T<wbr>Input<wbr>Privacy<wbr>Key<wbr>Phone<wbr>Call</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyKeyStatusTimestamp">T<wbr>Input<wbr>Privacy<wbr>Key<wbr>Status<wbr>Timestamp</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueAllowAll">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Allow<wbr>All</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueAllowContacts">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Allow<wbr>Contacts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueAllowUsers">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Allow<wbr>Users</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueDisallowAll">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>All</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueDisallowContacts">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>Contacts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputPrivacyValueDisallowUsers">T<wbr>Input<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>Users</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputReportReasonOther">T<wbr>Input<wbr>Report<wbr>Reason<wbr>Other</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputReportReasonPornography">T<wbr>Input<wbr>Report<wbr>Reason<wbr>Pornography</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputReportReasonSpam">T<wbr>Input<wbr>Report<wbr>Reason<wbr>Spam</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputReportReasonViolence">T<wbr>Input<wbr>Report<wbr>Reason<wbr>Violence</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputSingleMedia">TInputSingleMedia</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickeredMediaDocument">T<wbr>Input<wbr>Stickered<wbr>Media<wbr>Document</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickeredMediaPhoto">T<wbr>Input<wbr>Stickered<wbr>Media<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickerSetEmpty">T<wbr>Input<wbr>Sticker<wbr>Set<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickerSetID">TInputStickerSetID</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickerSetItem">TInputStickerSetItem</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputStickerSetShortName">T<wbr>Input<wbr>Sticker<wbr>Set<wbr>Short<wbr>Name</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputUser">TInputUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputUserEmpty">TInputUserEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputUserSelf">TInputUserSelf</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputWebDocument">TInputWebDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInputWebFileLocation">T<wbr>Input<wbr>Web<wbr>File<wbr>Location</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TInvoice">TInvoice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TIpPort">TIpPort</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButton">TKeyboardButton</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonBuy">TKeyboardButtonBuy</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonCallback">T<wbr>Keyboard<wbr>Button<wbr>Callback</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonGame">TKeyboardButtonGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonRequestGeoLocation">T<wbr>Keyboard<wbr>Button<wbr>Request<wbr>Geo<wbr>Location</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonRequestPhone">T<wbr>Keyboard<wbr>Button<wbr>Request<wbr>Phone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonRow">TKeyboardButtonRow</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonSwitchInline">T<wbr>Keyboard<wbr>Button<wbr>Switch<wbr>Inline</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TKeyboardButtonUrl">TKeyboardButtonUrl</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLabeledPrice">TLabeledPrice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLangPackDifference">TLangPackDifference</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLangPackLanguage">TLangPackLanguage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLangPackString">TLangPackString</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLangPackStringDeleted">T<wbr>Lang<wbr>Pack<wbr>String<wbr>Deleted</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TLangPackStringPluralized">T<wbr>Lang<wbr>Pack<wbr>String<wbr>Pluralized</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMaskCoords">TMaskCoords</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessage">TMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChannelCreate">T<wbr>Message<wbr>Action<wbr>Channel<wbr>Create</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChannelMigrateFrom">T<wbr>Message<wbr>Action<wbr>Channel<wbr>Migrate<wbr>From</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatAddUser">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Add<wbr>User</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatCreate">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Create</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatDeletePhoto">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Delete<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatDeleteUser">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Delete<wbr>User</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatEditPhoto">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Edit<wbr>Photo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatEditTitle">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Edit<wbr>Title</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatJoinedByLink">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Joined<wbr>By<wbr>Link</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionChatMigrateTo">T<wbr>Message<wbr>Action<wbr>Chat<wbr>Migrate<wbr>To</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionCustomAction">T<wbr>Message<wbr>Action<wbr>Custom<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionEmpty">TMessageActionEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionGameScore">T<wbr>Message<wbr>Action<wbr>Game<wbr>Score</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionHistoryClear">T<wbr>Message<wbr>Action<wbr>History<wbr>Clear</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionPaymentSent">T<wbr>Message<wbr>Action<wbr>Payment<wbr>Sent</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionPaymentSentMe">T<wbr>Message<wbr>Action<wbr>Payment<wbr>Sent<wbr>Me</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionPhoneCall">T<wbr>Message<wbr>Action<wbr>Phone<wbr>Call</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionPinMessage">T<wbr>Message<wbr>Action<wbr>Pin<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageActionScreenshotTaken">T<wbr>Message<wbr>Action<wbr>Screenshot<wbr>Taken</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEmpty">TMessageEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityBold">TMessageEntityBold</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityBotCommand">T<wbr>Message<wbr>Entity<wbr>Bot<wbr>Command</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityCode">TMessageEntityCode</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityEmail">TMessageEntityEmail</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityHashtag">T<wbr>Message<wbr>Entity<wbr>Hashtag</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityItalic">TMessageEntityItalic</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityMention">T<wbr>Message<wbr>Entity<wbr>Mention</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityMentionName">T<wbr>Message<wbr>Entity<wbr>Mention<wbr>Name</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityPre">TMessageEntityPre</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityTextUrl">T<wbr>Message<wbr>Entity<wbr>Text<wbr>Url</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityUnknown">T<wbr>Message<wbr>Entity<wbr>Unknown</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageEntityUrl">TMessageEntityUrl</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageFwdHeader">TMessageFwdHeader</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaContact">TMessageMediaContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaDocument">T<wbr>Message<wbr>Media<wbr>Document</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaEmpty">TMessageMediaEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaGame">TMessageMediaGame</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaGeo">TMessageMediaGeo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaGeoLive">TMessageMediaGeoLive</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaInvoice">TMessageMediaInvoice</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaPhoto">TMessageMediaPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaUnsupported">T<wbr>Message<wbr>Media<wbr>Unsupported</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaVenue">TMessageMediaVenue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageMediaWebPage">TMessageMediaWebPage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageRange">TMessageRange</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMessageService">TMessageService</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgContainer">TMsgContainer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgDetailedInfo">TMsgDetailedInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgNewDetailedInfo">TMsgNewDetailedInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgResendReq">TMsgResendReq</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgsAck">TMsgsAck</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgsAllInfo">TMsgsAllInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgsStateInfo">TMsgsStateInfo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TMsgsStateReq">TMsgsStateReq</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNearestDc">TNearestDc</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNewSessionCreated">TNewSessionCreated</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNotifyAll">TNotifyAll</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNotifyChats">TNotifyChats</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNotifyPeer">TNotifyPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNotifyUsers">TNotifyUsers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TNull">TNull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockAnchor">TPageBlockAnchor</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockAudio">TPageBlockAudio</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockAuthorDate">TPageBlockAuthorDate</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockBlockquote">TPageBlockBlockquote</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockChannel">TPageBlockChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockCollage">TPageBlockCollage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockCover">TPageBlockCover</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockDivider">TPageBlockDivider</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockEmbed">TPageBlockEmbed</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockEmbedPost">TPageBlockEmbedPost</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockFooter">TPageBlockFooter</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockHeader">TPageBlockHeader</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockList">TPageBlockList</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockParagraph">TPageBlockParagraph</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockPhoto">TPageBlockPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockPreformatted">T<wbr>Page<wbr>Block<wbr>Preformatted</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockPullquote">TPageBlockPullquote</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockSlideshow">TPageBlockSlideshow</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockSubheader">TPageBlockSubheader</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockSubtitle">TPageBlockSubtitle</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockTitle">TPageBlockTitle</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockUnsupported">T<wbr>Page<wbr>Block<wbr>Unsupported</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageBlockVideo">TPageBlockVideo</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPageFull">TPageFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPagePart">TPagePart</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPaymentCharge">TPaymentCharge</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPaymentRequestedInfo">T<wbr>Payment<wbr>Requested<wbr>Info</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPaymentSavedCredentialsCard">T<wbr>Payment<wbr>Saved<wbr>Credentials<wbr>Card</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerChannel">TPeerChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerChat">TPeerChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerNotifyEventsAll">TPeerNotifyEventsAll</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerNotifyEventsEmpty">T<wbr>Peer<wbr>Notify<wbr>Events<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerNotifySettings">TPeerNotifySettings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerNotifySettingsEmpty">T<wbr>Peer<wbr>Notify<wbr>Settings<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerSettings">TPeerSettings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPeerUser">TPeerUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCall">TPhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallAccepted">TPhoneCallAccepted</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallDiscarded">TPhoneCallDiscarded</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallDiscardReasonBusy">T<wbr>Phone<wbr>Call<wbr>Discard<wbr>Reason<wbr>Busy</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallDiscardReasonDisconnect">T<wbr>Phone<wbr>Call<wbr>Discard<wbr>Reason<wbr>Disconnect</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallDiscardReasonHangup">T<wbr>Phone<wbr>Call<wbr>Discard<wbr>Reason<wbr>Hangup</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallDiscardReasonMissed">T<wbr>Phone<wbr>Call<wbr>Discard<wbr>Reason<wbr>Missed</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallEmpty">TPhoneCallEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallProtocol">TPhoneCallProtocol</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallRequested">TPhoneCallRequested</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneCallWaiting">TPhoneCallWaiting</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoneConnection">TPhoneConnection</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhoto">TPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhotoCachedSize">TPhotoCachedSize</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhotoEmpty">TPhotoEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhotoSize">TPhotoSize</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPhotoSizeEmpty">TPhotoSizeEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPong">TPong</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPopularContact">TPopularContact</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPostAddress">TPostAddress</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPQInnerData">TPQInnerData</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyKeyChatInvite">T<wbr>Privacy<wbr>Key<wbr>Chat<wbr>Invite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyKeyPhoneCall">TPrivacyKeyPhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyKeyStatusTimestamp">T<wbr>Privacy<wbr>Key<wbr>Status<wbr>Timestamp</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueAllowAll">T<wbr>Privacy<wbr>Value<wbr>Allow<wbr>All</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueAllowContacts">T<wbr>Privacy<wbr>Value<wbr>Allow<wbr>Contacts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueAllowUsers">T<wbr>Privacy<wbr>Value<wbr>Allow<wbr>Users</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueDisallowAll">T<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>All</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueDisallowContacts">T<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>Contacts</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TPrivacyValueDisallowUsers">T<wbr>Privacy<wbr>Value<wbr>Disallow<wbr>Users</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TReceivedNotifyMessage">T<wbr>Received<wbr>Notify<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRecentMeUrlChat">TRecentMeUrlChat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRecentMeUrlChatInvite">T<wbr>Recent<wbr>Me<wbr>Url<wbr>Chat<wbr>Invite</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRecentMeUrlStickerSet">T<wbr>Recent<wbr>Me<wbr>Url<wbr>Sticker<wbr>Set</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRecentMeUrlUnknown">TRecentMeUrlUnknown</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRecentMeUrlUser">TRecentMeUrlUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TReplyInlineMarkup">TReplyInlineMarkup</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TReplyKeyboardForceReply">T<wbr>Reply<wbr>Keyboard<wbr>Force<wbr>Reply</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TReplyKeyboardHide">TReplyKeyboardHide</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TReplyKeyboardMarkup">TReplyKeyboardMarkup</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TResPQ">TResPQ</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRpcAnswerDropped">TRpcAnswerDropped</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRpcAnswerDroppedRunning">T<wbr>Rpc<wbr>Answer<wbr>Dropped<wbr>Running</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRpcAnswerUnknown">TRpcAnswerUnknown</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRpcError">TRpcError</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRpcResult">TRpcResult</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TRsaPublicKey">TRsaPublicKey</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageCancelAction">T<wbr>Send<wbr>Message<wbr>Cancel<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageChooseContactAction">T<wbr>Send<wbr>Message<wbr>Choose<wbr>Contact<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageGamePlayAction">T<wbr>Send<wbr>Message<wbr>Game<wbr>Play<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageGeoLocationAction">T<wbr>Send<wbr>Message<wbr>Geo<wbr>Location<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageRecordAudioAction">T<wbr>Send<wbr>Message<wbr>Record<wbr>Audio<wbr>Action</a></li>
+				<li class="selected"><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageRecordRoundAction">T<wbr>Send<wbr>Message<wbr>Record<wbr>Round<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageRecordVideoAction">T<wbr>Send<wbr>Message<wbr>Record<wbr>Video<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageTypingAction">T<wbr>Send<wbr>Message<wbr>Typing<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageUploadAudioAction">T<wbr>Send<wbr>Message<wbr>Upload<wbr>Audio<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageUploadDocumentAction">T<wbr>Send<wbr>Message<wbr>Upload<wbr>Document<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageUploadPhotoAction">T<wbr>Send<wbr>Message<wbr>Upload<wbr>Photo<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageUploadRoundAction">T<wbr>Send<wbr>Message<wbr>Upload<wbr>Round<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TSendMessageUploadVideoAction">T<wbr>Send<wbr>Message<wbr>Upload<wbr>Video<wbr>Action</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TServerDHInnerData">TServerDHInnerData</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TServerDHParamsFail">TServerDHParamsFail</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TServerDHParamsOk">TServerDHParamsOk</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TShippingOption">TShippingOption</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TStickerPack">TStickerPack</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TStickerSet">TStickerSet</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TStickerSetCovered">TStickerSetCovered</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TStickerSetMultiCovered">T<wbr>Sticker<wbr>Set<wbr>Multi<wbr>Covered</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextBold">TTextBold</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextConcat">TTextConcat</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextEmail">TTextEmail</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextEmpty">TTextEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextFixed">TTextFixed</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextItalic">TTextItalic</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextPlain">TTextPlain</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextStrike">TTextStrike</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextUnderline">TTextUnderline</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTextUrl">TTextUrl</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeer">TTopPeer</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryBotsInline">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Bots<wbr>Inline</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryBotsPM">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Bots<wbr>P<wbr>M</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryChannels">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Channels</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryCorrespondents">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Correspondents</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryGroups">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Groups</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryPeers">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Peers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTopPeerCategoryPhoneCalls">T<wbr>Top<wbr>Peer<wbr>Category<wbr>Phone<wbr>Calls</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TTrue">TTrue</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotCallbackQuery">T<wbr>Update<wbr>Bot<wbr>Callback<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotInlineQuery">T<wbr>Update<wbr>Bot<wbr>Inline<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotInlineSend">TUpdateBotInlineSend</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotPrecheckoutQuery">T<wbr>Update<wbr>Bot<wbr>Precheckout<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotShippingQuery">T<wbr>Update<wbr>Bot<wbr>Shipping<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotWebhookJSON">T<wbr>Update<wbr>Bot<wbr>Webhook<wbr>J<wbr>S<wbr>O<wbr>N</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateBotWebhookJSONQuery">T<wbr>Update<wbr>Bot<wbr>Webhook<wbr>J<wbr>S<wbr>O<wbr>N<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannel">TUpdateChannel</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelAvailableMessages">T<wbr>Update<wbr>Channel<wbr>Available<wbr>Messages</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelMessageViews">T<wbr>Update<wbr>Channel<wbr>Message<wbr>Views</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelPinnedMessage">T<wbr>Update<wbr>Channel<wbr>Pinned<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelReadMessagesContents">T<wbr>Update<wbr>Channel<wbr>Read<wbr>Messages<wbr>Contents</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelTooLong">T<wbr>Update<wbr>Channel<wbr>Too<wbr>Long</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChannelWebPage">T<wbr>Update<wbr>Channel<wbr>Web<wbr>Page</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatAdmins">TUpdateChatAdmins</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatParticipantAdd">T<wbr>Update<wbr>Chat<wbr>Participant<wbr>Add</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatParticipantAdmin">T<wbr>Update<wbr>Chat<wbr>Participant<wbr>Admin</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatParticipantDelete">T<wbr>Update<wbr>Chat<wbr>Participant<wbr>Delete</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatParticipants">T<wbr>Update<wbr>Chat<wbr>Participants</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateChatUserTyping">T<wbr>Update<wbr>Chat<wbr>User<wbr>Typing</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateConfig">TUpdateConfig</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateContactLink">TUpdateContactLink</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateContactRegistered">T<wbr>Update<wbr>Contact<wbr>Registered</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateContactsReset">TUpdateContactsReset</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateDcOptions">TUpdateDcOptions</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateDeleteChannelMessages">T<wbr>Update<wbr>Delete<wbr>Channel<wbr>Messages</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateDeleteMessages">T<wbr>Update<wbr>Delete<wbr>Messages</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateDialogPinned">TUpdateDialogPinned</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateDraftMessage">TUpdateDraftMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateEditChannelMessage">T<wbr>Update<wbr>Edit<wbr>Channel<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateEditMessage">TUpdateEditMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateEncryptedChatTyping">T<wbr>Update<wbr>Encrypted<wbr>Chat<wbr>Typing</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateEncryptedMessagesRead">T<wbr>Update<wbr>Encrypted<wbr>Messages<wbr>Read</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateEncryption">TUpdateEncryption</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateFavedStickers">TUpdateFavedStickers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateInlineBotCallbackQuery">T<wbr>Update<wbr>Inline<wbr>Bot<wbr>Callback<wbr>Query</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateLangPack">TUpdateLangPack</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateLangPackTooLong">T<wbr>Update<wbr>Lang<wbr>Pack<wbr>Too<wbr>Long</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateMessageID">TUpdateMessageID</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateNewChannelMessage">T<wbr>Update<wbr>New<wbr>Channel<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateNewEncryptedMessage">T<wbr>Update<wbr>New<wbr>Encrypted<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateNewMessage">TUpdateNewMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateNewStickerSet">TUpdateNewStickerSet</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateNotifySettings">T<wbr>Update<wbr>Notify<wbr>Settings</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatePhoneCall">TUpdatePhoneCall</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatePinnedDialogs">TUpdatePinnedDialogs</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatePrivacy">TUpdatePrivacy</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatePtsChanged">TUpdatePtsChanged</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadChannelInbox">T<wbr>Update<wbr>Read<wbr>Channel<wbr>Inbox</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadChannelOutbox">T<wbr>Update<wbr>Read<wbr>Channel<wbr>Outbox</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadFeaturedStickers">T<wbr>Update<wbr>Read<wbr>Featured<wbr>Stickers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadHistoryInbox">T<wbr>Update<wbr>Read<wbr>History<wbr>Inbox</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadHistoryOutbox">T<wbr>Update<wbr>Read<wbr>History<wbr>Outbox</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateReadMessagesContents">T<wbr>Update<wbr>Read<wbr>Messages<wbr>Contents</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateRecentStickers">T<wbr>Update<wbr>Recent<wbr>Stickers</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdates">TUpdates</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateSavedGifs">TUpdateSavedGifs</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatesCombined">TUpdatesCombined</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateServiceNotification">T<wbr>Update<wbr>Service<wbr>Notification</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateShort">TUpdateShort</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateShortChatMessage">T<wbr>Update<wbr>Short<wbr>Chat<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateShortMessage">TUpdateShortMessage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateShortSentMessage">T<wbr>Update<wbr>Short<wbr>Sent<wbr>Message</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateStickerSets">TUpdateStickerSets</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateStickerSetsOrder">T<wbr>Update<wbr>Sticker<wbr>Sets<wbr>Order</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdatesTooLong">TUpdatesTooLong</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserBlocked">TUpdateUserBlocked</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserName">TUpdateUserName</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserPhone">TUpdateUserPhone</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserPhoto">TUpdateUserPhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserStatus">TUpdateUserStatus</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateUserTyping">TUpdateUserTyping</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUpdateWebPage">TUpdateWebPage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUser">TUser</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserEmpty">TUserEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserFull">TUserFull</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserProfilePhoto">TUserProfilePhoto</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserProfilePhotoEmpty">T<wbr>User<wbr>Profile<wbr>Photo<wbr>Empty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusEmpty">TUserStatusEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusLastMonth">TUserStatusLastMonth</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusLastWeek">TUserStatusLastWeek</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusOffline">TUserStatusOffline</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusOnline">TUserStatusOnline</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TUserStatusRecently">TUserStatusRecently</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWallPaper">TWallPaper</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWallPaperSolid">TWallPaperSolid</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWebDocument">TWebDocument</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWebPage">TWebPage</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWebPageEmpty">TWebPageEmpty</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWebPageNotModified">TWebPageNotModified</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/TWebPagePending">TWebPagePending</a></li>
+				<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils">Utils</a></li>
+
+
+                    </ul>
+                            
+                </section>                
+            </aside>
+            
+            <!-- Content Wrapper. Contains page content -->
+            <div class="content-wrapper">
+                
+
+
+
+<section class="content-header">
+	<h1>T<wbr>Send<wbr>Message<wbr>Record<wbr>Round<wbr>Action <small>Class</small></h1>
+</section>
+<section class="content">
+	
+	
+	
+		<div class="panel panel-default">
+  			<div class="panel-body">
+				<div class="row">
+					<div class="col-md-6">
+						<dl class="dl-horizontal">		
+
+								<dt>Namespace</dt>
+								<dd><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema">OpenTl<wbr>.Schema</a></dd>
+											
+								<dt>Interfaces</dt>
+								<dd>
+									<ul class="list-unstyled">
+											<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/ISendMessageAction">ISendMessageAction</a></li>								
+											<li><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/IObject">IObject</a></li>								
+									</ul>
+								</dd>
+							
+								<dt>Base Types</dt>
+								<dd>
+									<ul class="list-unstyled">										
+											<li>object</li>								
+									</ul>
+								</dd>				
+							
+							
+						</dl>
+					</div>		
+					<div class="col-md-6">
+						<div class="mermaid">
+							graph TD
+	Base0["object"]--&gt;Type
+	Interface0["ISendMessageAction"]-.-&gt;Type
+	click Interface0 "/OpenTl.Schema/docs/output/api/OpenTl.Schema/ISendMessageAction"
+	Interface1["IObject"]-.-&gt;Type
+	click Interface1 "/OpenTl.Schema/docs/output/api/OpenTl.Schema/IObject"
+	Type["TSendMessageRecordRoundAction"]
+class Type type-node
+
+						</div>
+					</div>
+				</div>
+  			</div>
+		</div>
+
+	<h1 id="Syntax">Syntax</h1>
+	<pre><code>[Serialize(0x88f27fbc)]
+public class TSendMessageRecordRoundAction : ISendMessageAction, IObject</code></pre>
+
+
+
+	<h1 id="Attributes">Attributes</h1>
+	<div class="box">
+		<div class="box-body no-padding table-responsive">
+			<table class="table table-striped table-hover two-cols">
+				<thead>
+					<tr>
+						<th>Type</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+					<tbody><tr>
+						<td>SerializeAttribute</td>
+						<td></td>
+					</tr>
+			</tbody></table>
+		</div>
+	</div>	
+
+
+
+
+
+
+
+
+
+			<h1 id="ExtensionMethods">Extension Methods</h1>
+			<div class="box">
+				<div class="box-body no-padding table-responsive">
+					<table class="table table-striped table-hover three-cols">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Value</th>
+								<th>Summary</th>
+							</tr>
+						</thead>
+							<tbody><tr>
+								<td><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils/A1A958DE.html">As<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
+								<td>T</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils/D57D3CEE.html">Cast<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
+								<td>T</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils/CF7043C9.html">IsEmpty<wbr>()<wbr></a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/docs/output/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+					</tbody></table>
+				</div>
+			</div>
+		
+
+	
+</section>
+                
+            </div>           
+            
+            <!-- Footer -->
+            <footer class="main-footer">
+            </footer>
+            
+        </div>
+        <div class="wrapper bottom-wrapper">
+            <footer class="bottom-footer">
+                Generated by <a href="https://wyam.io">Wyam</a>
+            </footer>
+        </div>
+        <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <script>           
+            // Close the sidebar if we select an anchor link
+            $(".main-sidebar a[href^='#']:not('.expand')").click(function(){
+                $(document.body).removeClass('sidebar-open');
+            });
+            
+            $(document).load(function() {
+                mermaid.initialize(
+                {
+                    flowchart:
+                    {
+                        htmlLabels: false,
+                        useMaxWidth:false
+                    }
+                });  
+                mermaid.init(undefined, ".mermaid")
+                $('svg').addClass('img-responsive');
+                
+                $('pre code').each(function(i, block) {
+                    hljs.highlightBlock(block);
+                });  
+            });
+            hljs.initHighlightingOnLoad();
+
+            // Back to top
+            $(window).scroll(function() {
+                if ($(this).scrollTop() >= 200) {        // If page is scrolled more than 50px
+                    $('#return-to-top').fadeIn(1000);    // Fade in the arrow
+                } else {
+                    $('#return-to-top').fadeOut(1000);   // Else fade out the arrow
+                }
+            });
+            $('#return-to-top').click(function() {      // When arrow is clicked
+                $('body,html').animate({
+                    scrollTop : 0                       // Scroll to top of body
+                }, 500);
+            });
+        </script>
+    
+</body></html>
