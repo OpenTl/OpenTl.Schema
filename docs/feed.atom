@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<link rel="self" href="http://opentl.github.io/OpenTl.Schema/docs" />
-	<id>http://opentl.github.io/OpenTl.Schema/docs</id>
+	<link rel="self" href="http://opentl.github.io/OpenTl.Schema" />
+	<id>http://opentl.github.io/OpenTl.Schema</id>
 	<title>OpenTl.Schema</title>
 	<rights>2018</rights>
-	<updated>2018-03-15T04:41:52Z</updated>
+	<updated>2018-03-15T04:50:11Z</updated>
 </feed>
