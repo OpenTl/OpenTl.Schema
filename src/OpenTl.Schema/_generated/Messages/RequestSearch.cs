@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x39e9ea0)]
+	[Serialize(0x8614ef68)]
     public class RequestSearch : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
@@ -52,6 +52,9 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(11)]
        public int MinId {get; set;}
+
+       [SerializationOrder(12)]
+       public int Hash {get; set;}
 
     }
 }

@@ -51,5 +51,9 @@ namespace OpenTl.Schema
        [FromFlag("Flags", 9)]
        public bool AddAdmins {get; set;}
 
+       [SerializationOrder(10)]
+       [FromFlag("Flags", 10)]
+       public bool ManageCall {get; set;}
+
 	}
 }

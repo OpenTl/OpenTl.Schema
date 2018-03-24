@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xd8caf68d)]
+	[Serialize(0xea4cb65b)]
 	public class TUpdatePinnedDialogs : IUpdate
 	{
        [SerializationOrder(0)]
@@ -17,7 +17,7 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Order {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IDialogPeer> Order {get; set;}
 
 	}
 }

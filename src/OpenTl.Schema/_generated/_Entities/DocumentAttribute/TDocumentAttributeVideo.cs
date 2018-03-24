@@ -20,12 +20,16 @@ namespace OpenTl.Schema
        public bool RoundMessage {get; set;}
 
        [SerializationOrder(2)]
-       public int Duration {get; set;}
+       [FromFlag("Flags", 1)]
+       public bool SupportsStreaming {get; set;}
 
        [SerializationOrder(3)]
-       public int W {get; set;}
+       public int Duration {get; set;}
 
        [SerializationOrder(4)]
+       public int W {get; set;}
+
+       [SerializationOrder(5)]
        public int H {get; set;}
 
 	}

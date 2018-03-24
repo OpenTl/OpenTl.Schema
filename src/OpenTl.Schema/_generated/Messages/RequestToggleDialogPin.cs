@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x3289be6a)]
+	[Serialize(0xa731e257)]
     public class RequestToggleDialogPin : IRequest<bool>
     {
        [SerializationOrder(0)]
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Pinned {get; set;}
 
        [SerializationOrder(2)]
-       public OpenTl.Schema.IInputPeer Peer {get; set;}
+       public OpenTl.Schema.IInputDialogPeer Peer {get; set;}
 
     }
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xe39621fd)]
+	[Serialize(0x5b38c6c1)]
 	public class TInputMediaUploadedDocument : IInputMedia
 	{
        [SerializationOrder(0)]
@@ -36,18 +36,11 @@ namespace OpenTl.Schema
        [SerializationOrder(5)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
 
-       /// <summary>Binary representation for the 'Caption' property</summary>
        [SerializationOrder(6)]
-       public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
-       private byte[] _CaptionAsBinary;
-       private string _Caption;
-       public string Caption { get => _Caption; set { CaptionAsBinary = Encoding.UTF8.GetBytes(value); _Caption = value; }}
-
-       [SerializationOrder(7)]
        [CanSerialize("Flags", 0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IInputDocument> Stickers {get; set;}
 
-       [SerializationOrder(8)]
+       [SerializationOrder(7)]
        [CanSerialize("Flags", 1)]
        public int TtlSeconds {get; set;}
 

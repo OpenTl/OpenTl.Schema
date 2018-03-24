@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x959ff644)]
+	[Serialize(0x5b51d63f)]
     public class RequestReorderPinnedDialogs : IRequest<bool>
     {
        [SerializationOrder(0)]
@@ -20,7 +20,7 @@ namespace OpenTl.Schema.Messages
        public bool Force {get; set;}
 
        [SerializationOrder(2)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPeer> Order {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputDialogPeer> Order {get; set;}
 
     }
 }

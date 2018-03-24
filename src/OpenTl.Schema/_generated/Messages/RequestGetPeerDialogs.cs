@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x2d9776b9)]
+	[Serialize(0xe470bcfd)]
     public class RequestGetPeerDialogs : IRequest<OpenTl.Schema.Messages.IPeerDialogs>
     {
        [SerializationOrder(0)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IInputPeer> Peers {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputDialogPeer> Peers {get; set;}
 
     }
 }

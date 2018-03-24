@@ -9,16 +9,19 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x1aa1f784)]
+	[Serialize(0xb3134d9d)]
 	public class TFound : IFound
 	{
        [SerializationOrder(0)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Results {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> MyResults {get; set;}
 
        [SerializationOrder(1)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Results {get; set;}
 
        [SerializationOrder(2)]
+       public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}
+
+       [SerializationOrder(3)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IUser> Users {get; set;}
 
 	}

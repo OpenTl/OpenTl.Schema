@@ -11,13 +11,13 @@ namespace OpenTl.Schema
     {
        BitArray Flags {get; set;}
 
-       bool Installed {get; set;}
-
        bool Archived {get; set;}
 
        bool Official {get; set;}
 
        bool Masks {get; set;}
+
+       int InstalledDate {get; set;}
 
        long Id {get; set;}
 

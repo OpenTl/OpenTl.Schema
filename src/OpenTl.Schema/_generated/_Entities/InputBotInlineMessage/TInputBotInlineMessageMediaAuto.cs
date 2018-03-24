@@ -9,20 +9,24 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x292fed13)]
+	[Serialize(0x3380c786)]
 	public class TInputBotInlineMessageMediaAuto : IInputBotInlineMessage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
-       /// <summary>Binary representation for the 'Caption' property</summary>
+       /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(1)]
-       public byte[] CaptionAsBinary { get => _CaptionAsBinary; set { _Caption = Encoding.UTF8.GetString(value); _CaptionAsBinary = value; }}
-       private byte[] _CaptionAsBinary;
-       private string _Caption;
-       public string Caption { get => _Caption; set { CaptionAsBinary = Encoding.UTF8.GetBytes(value); _Caption = value; }}
+       public byte[] MessageAsBinary { get => _MessageAsBinary; set { _Message = Encoding.UTF8.GetString(value); _MessageAsBinary = value; }}
+       private byte[] _MessageAsBinary;
+       private string _Message;
+       public string Message { get => _Message; set { MessageAsBinary = Encoding.UTF8.GetBytes(value); _Message = value; }}
 
        [SerializationOrder(2)]
+       [CanSerialize("Flags", 1)]
+       public OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
+
+       [SerializationOrder(3)]
        [CanSerialize("Flags", 2)]
        public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 

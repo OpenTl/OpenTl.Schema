@@ -9,27 +9,27 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xcd303b41)]
+	[Serialize(0x5585a139)]
 	public class TStickerSet : IStickerSet
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
-       [FromFlag("Flags", 0)]
-       public bool Installed {get; set;}
-
-       [SerializationOrder(2)]
        [FromFlag("Flags", 1)]
        public bool Archived {get; set;}
 
-       [SerializationOrder(3)]
+       [SerializationOrder(2)]
        [FromFlag("Flags", 2)]
        public bool Official {get; set;}
 
-       [SerializationOrder(4)]
+       [SerializationOrder(3)]
        [FromFlag("Flags", 3)]
        public bool Masks {get; set;}
+
+       [SerializationOrder(4)]
+       [CanSerialize("Flags", 0)]
+       public int InstalledDate {get; set;}
 
        [SerializationOrder(5)]
        public long Id {get; set;}

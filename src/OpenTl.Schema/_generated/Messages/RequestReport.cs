@@ -9,17 +9,17 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x33963bf9)]
-    public class RequestForwardMessage : IRequest<OpenTl.Schema.IUpdates>
+	[Serialize(0xbd82b658)]
+    public class RequestReport : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}
 
        [SerializationOrder(1)]
-       public int Id {get; set;}
+       public OpenTl.Schema.TVector<int> Id {get; set;}
 
        [SerializationOrder(2)]
-       public long RandomId {get; set;}
+       public OpenTl.Schema.IReportReason Reason {get; set;}
 
     }
 }

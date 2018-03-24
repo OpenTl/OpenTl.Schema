@@ -12,16 +12,12 @@ namespace OpenTl.Schema
        byte[] UrlAsBinary {get; set;}
        string Url {get; set;}
 
-       long AccessHash {get; set;}
-
        int Size {get; set;}
 
        byte[] MimeTypeAsBinary {get; set;}
        string MimeType {get; set;}
 
        OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
-
-       int DcId {get; set;}
 
     }
 }

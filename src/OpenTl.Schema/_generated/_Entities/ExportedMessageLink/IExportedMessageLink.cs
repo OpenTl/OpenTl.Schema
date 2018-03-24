@@ -12,5 +12,8 @@ namespace OpenTl.Schema
        byte[] LinkAsBinary {get; set;}
        string Link {get; set;}
 
+       byte[] HtmlAsBinary {get; set;}
+       string Html {get; set;}
+
     }
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x249431e2)]
+	[Serialize(0xbbc45b09)]
     public class RequestGetRecentLocations : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
@@ -17,6 +17,9 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(1)]
        public int Limit {get; set;}
+
+       [SerializationOrder(2)]
+       public int Hash {get; set;}
 
     }
 }

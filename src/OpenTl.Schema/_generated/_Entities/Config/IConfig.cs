@@ -15,6 +15,12 @@ namespace OpenTl.Schema
 
        bool DefaultP2pContacts {get; set;}
 
+       bool PreloadFeaturedStickers {get; set;}
+
+       bool IgnorePhoneEntities {get; set;}
+
+       bool RevokePmInbox {get; set;}
+
        int Date {get; set;}
 
        int Expires {get; set;}
@@ -43,8 +49,6 @@ namespace OpenTl.Schema
 
        int NotifyDefaultDelayMs {get; set;}
 
-       int ChatBigSize {get; set;}
-
        int PushChatPeriodMs {get; set;}
 
        int PushChatLimit {get; set;}
@@ -52,6 +56,10 @@ namespace OpenTl.Schema
        int SavedGifsLimit {get; set;}
 
        int EditTimeLimit {get; set;}
+
+       int RevokeTimeLimit {get; set;}
+
+       int RevokePmTimeLimit {get; set;}
 
        int RatingEDecay {get; set;}
 
@@ -80,8 +88,6 @@ namespace OpenTl.Schema
        string SuggestedLangCode {get; set;}
 
        int LangPackVersion {get; set;}
-
-       OpenTl.Schema.TVector<OpenTl.Schema.IDisabledFeature> DisabledFeatures {get; set;}
 
     }
 }

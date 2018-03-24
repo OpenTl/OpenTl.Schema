@@ -9,17 +9,14 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x77eec38f)]
-	public class TCdnFileHash : ICdnFileHash
+	[Serialize(0x4c4e743f)]
+	public class TMessageEntityCashtag : IMessageEntity
 	{
        [SerializationOrder(0)]
        public int Offset {get; set;}
 
        [SerializationOrder(1)]
-       public int Limit {get; set;}
-
-       [SerializationOrder(2)]
-       public byte[] Hash {get; set;}
+       public int Length {get; set;}
 
 	}
 }

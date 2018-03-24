@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xc846d22d)]
+	[Serialize(0xceb77163)]
     public class RequestExportMessageLink : IRequest<OpenTl.Schema.IExportedMessageLink>
     {
        [SerializationOrder(0)]
@@ -17,6 +17,9 @@ namespace OpenTl.Schema.Channels
 
        [SerializationOrder(1)]
        public int Id {get; set;}
+
+       [SerializationOrder(2)]
+       public bool Grouped {get; set;}
 
     }
 }

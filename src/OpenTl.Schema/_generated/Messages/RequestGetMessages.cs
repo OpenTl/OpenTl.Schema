@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x4222fa74)]
+	[Serialize(0x63c66506)]
     public class RequestGetMessages : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
-       public OpenTl.Schema.TVector<int> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputMessage> Id {get; set;}
 
     }
 }

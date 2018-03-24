@@ -32,8 +32,7 @@ namespace OpenTl.Schema.Tests
                 }
             };
 
-            var buffer = PooledByteBufferAllocator.Default.Buffer();
-            Serializer.Serialize(request, buffer);
+            var buffer = Serializer.Serialize(request);
 
             var data = new byte[buffer.ReadableBytes];
             buffer.ReadBytes(data);
@@ -54,8 +53,7 @@ namespace OpenTl.Schema.Tests
                 N = new byte[]{111},
             };
 
-            var buffer = PooledByteBufferAllocator.Default.Buffer();
-            Serializer.Serialize(peer, buffer);
+            var buffer =  Serializer.Serialize(peer);
 
             Assert.Equal(8, buffer.ReadableBytes);
         }
@@ -71,8 +69,7 @@ namespace OpenTl.Schema.Tests
                 IpPortList = new TVector<TIpPort>(new TIpPort{Ipv4 = 444, Port = 555})
             };
 
-            var buffer = PooledByteBufferAllocator.Default.Buffer();
-            Serializer.Serialize(peer, buffer);
+            var buffer = Serializer.Serialize(peer);
 
             var obj = (TConfigSimple) Serializer.Deserialize(buffer);
             
@@ -87,8 +84,7 @@ namespace OpenTl.Schema.Tests
                 UserId = 123
             };
 
-            var buffer = PooledByteBufferAllocator.Default.Buffer();
-            Serializer.Serialize(peer, buffer);
+            var buffer = Serializer.Serialize(peer);
 
             var data = new byte[buffer.ReadableBytes];
             buffer.ReadBytes(data);
@@ -135,8 +131,7 @@ namespace OpenTl.Schema.Tests
                 },
             };
 
-            var buffer = PooledByteBufferAllocator.Default.Buffer();
-            Serializer.Serialize(callWaiting, buffer);
+            var buffer = Serializer.Serialize(callWaiting);
 
             var obj = (TPhoneCallWaiting)Serializer.Deserialize(buffer);
             

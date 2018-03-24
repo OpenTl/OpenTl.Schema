@@ -9,6 +9,8 @@ namespace OpenTl.Schema.Contacts
 
     public interface IFound : IObject
     {
+       OpenTl.Schema.TVector<OpenTl.Schema.IPeer> MyResults {get; set;}
+
        OpenTl.Schema.TVector<OpenTl.Schema.IPeer> Results {get; set;}
 
        OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}

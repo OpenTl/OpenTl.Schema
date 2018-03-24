@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x65c55b40)]
+	[Serialize(0x3076c4bf)]
     public class RequestUnregisterDevice : IRequest<bool>
     {
        [SerializationOrder(0)]
@@ -21,6 +21,9 @@ namespace OpenTl.Schema.Account
        private byte[] _TokenAsBinary;
        private string _Token;
        public string Token { get => _Token; set { TokenAsBinary = Encoding.UTF8.GetBytes(value); _Token = value; }}
+
+       [SerializationOrder(2)]
+       public OpenTl.Schema.TVector<int> OtherUids {get; set;}
 
     }
 }

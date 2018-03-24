@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x9bebaeb9)]
+	[Serialize(0x11965f3a)]
 	public class TBotInlineResult : IBotInlineResult
 	{
        [SerializationOrder(0)]
@@ -53,43 +53,15 @@ namespace OpenTl.Schema
        private string _Url;
        public string Url { get => _Url; set { UrlAsBinary = Encoding.UTF8.GetBytes(value); _Url = value; }}
 
-       /// <summary>Binary representation for the 'ThumbUrl' property</summary>
        [SerializationOrder(6)]
        [CanSerialize("Flags", 4)]
-       public byte[] ThumbUrlAsBinary { get => _ThumbUrlAsBinary; set { _ThumbUrl = Encoding.UTF8.GetString(value); _ThumbUrlAsBinary = value; }}
-       private byte[] _ThumbUrlAsBinary;
-       private string _ThumbUrl;
-       public string ThumbUrl { get => _ThumbUrl; set { ThumbUrlAsBinary = Encoding.UTF8.GetBytes(value); _ThumbUrl = value; }}
+       public OpenTl.Schema.IWebDocument Thumb {get; set;}
 
-       /// <summary>Binary representation for the 'ContentUrl' property</summary>
        [SerializationOrder(7)]
        [CanSerialize("Flags", 5)]
-       public byte[] ContentUrlAsBinary { get => _ContentUrlAsBinary; set { _ContentUrl = Encoding.UTF8.GetString(value); _ContentUrlAsBinary = value; }}
-       private byte[] _ContentUrlAsBinary;
-       private string _ContentUrl;
-       public string ContentUrl { get => _ContentUrl; set { ContentUrlAsBinary = Encoding.UTF8.GetBytes(value); _ContentUrl = value; }}
+       public OpenTl.Schema.IWebDocument Content {get; set;}
 
-       /// <summary>Binary representation for the 'ContentType' property</summary>
        [SerializationOrder(8)]
-       [CanSerialize("Flags", 5)]
-       public byte[] ContentTypeAsBinary { get => _ContentTypeAsBinary; set { _ContentType = Encoding.UTF8.GetString(value); _ContentTypeAsBinary = value; }}
-       private byte[] _ContentTypeAsBinary;
-       private string _ContentType;
-       public string ContentType { get => _ContentType; set { ContentTypeAsBinary = Encoding.UTF8.GetBytes(value); _ContentType = value; }}
-
-       [SerializationOrder(9)]
-       [CanSerialize("Flags", 6)]
-       public int W {get; set;}
-
-       [SerializationOrder(10)]
-       [CanSerialize("Flags", 6)]
-       public int H {get; set;}
-
-       [SerializationOrder(11)]
-       [CanSerialize("Flags", 7)]
-       public int Duration {get; set;}
-
-       [SerializationOrder(12)]
        public OpenTl.Schema.IBotInlineMessage SendMessage {get; set;}
 
 	}

@@ -7,13 +7,9 @@ namespace OpenTl.Schema
 
 	using OpenTl.Schema;
 
-    public interface ICdnFileHash : IObject
+    public interface IInputDialogPeer : IObject
     {
-       int Offset {get; set;}
-
-       int Limit {get; set;}
-
-       byte[] Hash {get; set;}
+       OpenTl.Schema.IInputPeer Peer {get; set;}
 
     }
 }

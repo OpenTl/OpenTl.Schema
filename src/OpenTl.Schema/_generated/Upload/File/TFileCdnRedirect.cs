@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xea52fe5a)]
+	[Serialize(0xf18cda44)]
 	public class TFileCdnRedirect : IFile
 	{
        [SerializationOrder(0)]
@@ -25,7 +25,7 @@ namespace OpenTl.Schema.Upload
        public byte[] EncryptionIv {get; set;}
 
        [SerializationOrder(4)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.ICdnFileHash> CdnFileHashes {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IFileHash> FileHashes {get; set;}
 
 	}
 }

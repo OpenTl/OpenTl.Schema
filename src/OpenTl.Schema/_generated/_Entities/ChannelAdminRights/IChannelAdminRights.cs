@@ -29,5 +29,7 @@ namespace OpenTl.Schema
 
        bool AddAdmins {get; set;}
 
+       bool ManageCall {get; set;}
+
     }
 }

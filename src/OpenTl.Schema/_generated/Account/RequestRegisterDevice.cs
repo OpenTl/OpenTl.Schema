@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x637ea878)]
+	[Serialize(0x5cbea590)]
     public class RequestRegisterDevice : IRequest<bool>
     {
        [SerializationOrder(0)]
@@ -21,6 +21,15 @@ namespace OpenTl.Schema.Account
        private byte[] _TokenAsBinary;
        private string _Token;
        public string Token { get => _Token; set { TokenAsBinary = Encoding.UTF8.GetBytes(value); _Token = value; }}
+
+       [SerializationOrder(2)]
+       public bool AppSandbox {get; set;}
+
+       [SerializationOrder(3)]
+       public byte[] Secret {get; set;}
+
+       [SerializationOrder(4)]
+       public OpenTl.Schema.TVector<int> OtherUids {get; set;}
 
     }
 }

@@ -9,14 +9,14 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x93d7b347)]
+	[Serialize(0xad8c9a23)]
     public class RequestGetMessages : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}
 
        [SerializationOrder(1)]
-       public OpenTl.Schema.TVector<int> Id {get; set;}
+       public OpenTl.Schema.TVector<OpenTl.Schema.IInputMessage> Id {get; set;}
 
     }
 }
