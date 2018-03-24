@@ -76,7 +76,7 @@ namespace OpenTl.Schema.Serialization.Serializators.SimpleTypes
             if (padding > 0)
             {
                 padding = 4 - padding;
-                buffer.ReadBytes(padding);
+                buffer.SkipBytes(padding);
             }
 
             return data;

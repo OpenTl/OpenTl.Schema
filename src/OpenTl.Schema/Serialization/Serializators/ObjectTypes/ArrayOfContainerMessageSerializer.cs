@@ -21,10 +21,9 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                 buffer.WriteLongLE(item.MsgId);
                 buffer.WriteIntLE(item.SeqNo);
 
-                var dataBuffer = PooledByteBufferAllocator.Default.Buffer();
+                var dataBuffer = Serializer.Serialize(item);
                 try
                 {
-                    Serializer.Serialize(item, buffer);
                     buffer.WriteIntLE(dataBuffer.ReadableBytes);
                     buffer.WriteBytes(dataBuffer);
                 }

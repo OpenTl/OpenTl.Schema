@@ -7,6 +7,7 @@
     using System.Reflection;
 
     using DotNetty.Buffers;
+    using DotNetty.Common.Utilities;
 
     using OpenTl.Schema.Serialization.Attributes;
     using OpenTl.Schema.Serialization.Serializators.Interfaces;
@@ -24,29 +25,40 @@
             return DeserializeObject(buffer, null);
         }
 
-        public static void Serialize(object obj, IByteBuffer buffer)
+        public static IByteBuffer Serialize(object obj)
+        {
+            var buffer = PooledByteBufferAllocator.Default.Buffer();
+         
+            Serialize(obj, buffer);
+            
+            return buffer;
+        }
+
+        internal static void Serialize(object obj, IByteBuffer buffer)
         {
             if (obj == null)
             {
                 obj = Null;
             }
+            
+                var objectType = obj.GetType().GetTypeInfo();
 
-            var objectType = obj.GetType().GetTypeInfo();
+                if (SerializationMap.GetIdByType(objectType, out var typeId))
+                {
+                    buffer.WriteIntLE((int)typeId);
 
-            if (SerializationMap.GetIdByType(objectType, out var typeId))
-            {
-                buffer.WriteIntLE((int)typeId);
+                    var metadatas = GetMetadatas(objectType);
 
-                var metadatas = GetMetadatas(objectType);
+                    ComputeFlags(obj, metadatas);
 
-                ComputeFlags(obj, metadatas);
+                    Serialize(buffer, obj);
+                }
+                else
+                {
+                    SerializeValue(buffer, obj, null);
+                }
 
-                Serialize(buffer, obj);
-            }
-            else
-            {
-                SerializeValue(buffer, obj, null);
-            }
+             
         }
 
         internal static object DeserializeByType(IByteBuffer buffer, TypeInfo typeInfo)
