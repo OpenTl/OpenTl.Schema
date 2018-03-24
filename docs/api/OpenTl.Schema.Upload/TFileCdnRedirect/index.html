@@ -136,14 +136,11 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload">OpenTl<wbr>.Schema<wbr>.Upload</a></li>
 		<li role="separator" class="divider"></li>
-			<li class="header">Interface Types</li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/ICdnFile">ICdnFile</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IFile">IFile</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IWebFile">IWebFile</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetCdnFile">RequestGetCdnFile</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetCdnFileHashes">Request<wbr>Get<wbr>Cdn<wbr>File<wbr>Hashes</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetFile">RequestGetFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetFileHashes">RequestGetFileHashes</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetWebFile">RequestGetWebFile</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestReuploadCdnFile">Request<wbr>Reupload<wbr>Cdn<wbr>File</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestSaveBigFilePart">Request<wbr>Save<wbr>Big<wbr>File<wbr>Part</a></li>
@@ -153,6 +150,10 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFile">TFile</a></li>
 				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect">TFileCdnRedirect</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TWebFile">TWebFile</a></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/ICdnFile">ICdnFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IFile">IFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IWebFile">IWebFile</a></li>
 
 
                     </ul>
@@ -218,7 +219,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0xea52fe5a)]
+	<pre><code>[Serialize(0xf18cda44)]
 public class TFileCdnRedirect : IFile, IObject</code></pre>
 
 
@@ -258,13 +259,6 @@ public class TFileCdnRedirect : IFile, IObject</code></pre>
 							</tr>
 						</thead>
 							<tbody><tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect/9D393143.html">CdnFileHashes</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
-								<td>
-									<div></div>
-								</td>
-							</tr>
-							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect/407D46B4.html">DcId</a></td>
 								<td>int</td>
 								<td>
@@ -281,6 +275,13 @@ public class TFileCdnRedirect : IFile, IObject</code></pre>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect/1C667FEE.html">EncryptionKey</a></td>
 								<td>byte[]</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect/CB1F5BEC.html">FileHashes</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
 								<td>
 									<div></div>
 								</td>

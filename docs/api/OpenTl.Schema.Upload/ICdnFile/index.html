@@ -134,14 +134,11 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload">OpenTl<wbr>.Schema<wbr>.Upload</a></li>
 		<li role="separator" class="divider"></li>
-			<li class="header">Interface Types</li>
-				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/ICdnFile">ICdnFile</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IFile">IFile</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IWebFile">IWebFile</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetCdnFile">RequestGetCdnFile</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetCdnFileHashes">Request<wbr>Get<wbr>Cdn<wbr>File<wbr>Hashes</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetFile">RequestGetFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetFileHashes">RequestGetFileHashes</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestGetWebFile">RequestGetWebFile</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestReuploadCdnFile">Request<wbr>Reupload<wbr>Cdn<wbr>File</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/RequestSaveBigFilePart">Request<wbr>Save<wbr>Big<wbr>File<wbr>Part</a></li>
@@ -151,6 +148,10 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFile">TFile</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TFileCdnRedirect">TFileCdnRedirect</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TWebFile">TWebFile</a></li>
+			<li class="header">Interface Types</li>
+				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/ICdnFile">ICdnFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IFile">IFile</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/IWebFile">IWebFile</a></li>
 
 
                     </ul>
@@ -192,8 +193,8 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFile">TCdnFile</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFileReuploadNeeded">T<wbr>Cdn<wbr>File<wbr>Reupload<wbr>Needed</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFile">TCdnFile</a></li>								
 									</ul>
 								</dd>				
 						</dl>
@@ -205,10 +206,10 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["ICdnFile"]
 class Type type-node
-	Type-.-&gt;Implementing0["TCdnFile"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFile"
-	Type-.-&gt;Implementing1["TCdnFileReuploadNeeded"]
-	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFileReuploadNeeded"
+	Type-.-&gt;Implementing0["TCdnFileReuploadNeeded"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFileReuploadNeeded"
+	Type-.-&gt;Implementing1["TCdnFile"]
+	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Upload/TCdnFile"
 
 						</div>
 					</div>

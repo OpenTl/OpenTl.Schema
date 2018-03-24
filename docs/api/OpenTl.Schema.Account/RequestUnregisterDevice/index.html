@@ -149,10 +149,13 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetPrivacy">RequestGetPrivacy</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetTmpPassword">Request<wbr>Get<wbr>Tmp<wbr>Password</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetWallPapers">RequestGetWallPapers</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetWebAuthorizations">Request<wbr>Get<wbr>Web<wbr>Authorizations</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestRegisterDevice">Request<wbr>Register<wbr>Device</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestReportPeer">RequestReportPeer</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestResetAuthorization">Request<wbr>Reset<wbr>Authorization</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestResetNotifySettings">Request<wbr>Reset<wbr>Notify<wbr>Settings</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestResetWebAuthorization">Request<wbr>Reset<wbr>Web<wbr>Authorization</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestResetWebAuthorizations">Request<wbr>Reset<wbr>Web<wbr>Authorizations</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestSendChangePhoneCode">Request<wbr>Send<wbr>Change<wbr>Phone<wbr>Code</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestSendConfirmPhoneCode">Request<wbr>Send<wbr>Confirm<wbr>Phone<wbr>Code</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestSetAccountTTL">RequestSetAccountTTL</a></li>
@@ -171,6 +174,7 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPrivacyRules">TPrivacyRules</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TTmpPassword">TTmpPassword</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TWebAuthorizations">TWebAuthorizations</a></li>
 			<li class="header">Interface Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IAuthorizations">IAuthorizations</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword">IPassword</a></li>
@@ -178,6 +182,7 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPasswordSettings">IPasswordSettings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPrivacyRules">IPrivacyRules</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/ITmpPassword">ITmpPassword</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IWebAuthorizations">IWebAuthorizations</a></li>
 
 
                     </ul>
@@ -246,7 +251,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0x65c55b40)]
+	<pre><code>[Serialize(0x3076c4bf)]
 public class RequestUnregisterDevice : IRequest&lt;bool&gt;, IRequest, IObject</code></pre>
 
 
@@ -286,6 +291,13 @@ public class RequestUnregisterDevice : IRequest&lt;bool&gt;, IRequest, IObject</
 							</tr>
 						</thead>
 							<tbody><tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestUnregisterDevice/1733F966.html">OtherUids</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestUnregisterDevice/B823AA96.html">Token</a></td>
 								<td>string</td>
 								<td>
