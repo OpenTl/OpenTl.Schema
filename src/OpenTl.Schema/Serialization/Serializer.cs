@@ -12,9 +12,9 @@
             return (IObject)Deserialize(buffer, typeof(IObject).GetTypeInfo());
         }
 
-        public static IObject Deserialize(IByteBuffer buffer, Type expectedType)
+        public static object Deserialize(IByteBuffer buffer, Type expectedType)
         {
-            return (IObject)Deserialize(buffer, new SerializationMetadata{PropertyTypeInfo =  expectedType.GetTypeInfo()});
+            return Deserialize(buffer, new SerializationMetadata{PropertyTypeInfo =  expectedType.GetTypeInfo()});
         }
         
         public static IByteBuffer Serialize(object obj)
