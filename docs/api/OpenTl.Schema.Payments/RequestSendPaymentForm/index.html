@@ -136,6 +136,12 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments">OpenTl<wbr>.Schema<wbr>.Payments</a></li>
 		<li role="separator" class="divider"></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentForm">IPaymentForm</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentReceipt">IPaymentReceipt</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentResult">IPaymentResult</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/ISavedInfo">ISavedInfo</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IValidatedRequestedInfo">I<wbr>Validated<wbr>Requested<wbr>Info</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/RequestClearSavedInfo">Request<wbr>Clear<wbr>Saved<wbr>Info</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/RequestGetPaymentForm">Request<wbr>Get<wbr>Payment<wbr>Form</a></li>
@@ -149,12 +155,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/TPaymentVerficationNeeded">T<wbr>Payment<wbr>Verfication<wbr>Needed</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/TSavedInfo">TSavedInfo</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/TValidatedRequestedInfo">T<wbr>Validated<wbr>Requested<wbr>Info</a></li>
-			<li class="header">Interface Types</li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentForm">IPaymentForm</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentReceipt">IPaymentReceipt</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IPaymentResult">IPaymentResult</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/ISavedInfo">ISavedInfo</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Payments/IValidatedRequestedInfo">I<wbr>Validated<wbr>Requested<wbr>Info</a></li>
 
 
                     </ul>
@@ -224,7 +224,7 @@ class Type type-node
 
 	<h1 id="Syntax">Syntax</h1>
 	<pre><code>[Serialize(0x2b8879b3)]
-public class RequestSendPaymentForm : IRequest&lt;IPaymentResult&gt;, IRequest, IObject</code></pre>
+public sealed class RequestSendPaymentForm : IRequest&lt;IPaymentResult&gt;, IRequest, IObject</code></pre>
 
 
 
@@ -338,7 +338,7 @@ public class RequestSendPaymentForm : IRequest&lt;IPaymentResult&gt;, IRequest, 
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/Utils/D57D3CEE.html">Cast<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/Utils/4941F7D3.html">Is<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
 								<td>T</td>
 								<td>
 									<div></div>
