@@ -134,6 +134,14 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth">OpenTl<wbr>.Schema<wbr>.Auth</a></li>
 		<li role="separator" class="divider"></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IAuthorization">IAuthorization</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ICheckedPhone">ICheckedPhone</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ICodeType">ICodeType</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IExportedAuthorization">I<wbr>Exported<wbr>Authorization</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IPasswordRecovery">IPasswordRecovery</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ISentCode">ISentCode</a></li>
+				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ISentCodeType">ISentCodeType</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/RequestBindTempAuthKey">Request<wbr>Bind<wbr>Temp<wbr>Auth<wbr>Key</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/RequestCancelCode">RequestCancelCode</a></li>
@@ -164,14 +172,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeCall">TSentCodeTypeCall</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeFlashCall">T<wbr>Sent<wbr>Code<wbr>Type<wbr>Flash<wbr>Call</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeSms">TSentCodeTypeSms</a></li>
-			<li class="header">Interface Types</li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IAuthorization">IAuthorization</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ICheckedPhone">ICheckedPhone</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ICodeType">ICodeType</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IExportedAuthorization">I<wbr>Exported<wbr>Authorization</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IPasswordRecovery">IPasswordRecovery</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ISentCode">ISentCode</a></li>
-				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/ISentCodeType">ISentCodeType</a></li>
 
 
                     </ul>
@@ -213,10 +213,10 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeFlashCall">T<wbr>Sent<wbr>Code<wbr>Type<wbr>Flash<wbr>Call</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeCall">TSentCodeTypeCall</a></li>								
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeSms">TSentCodeTypeSms</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeApp">TSentCodeTypeApp</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeSms">TSentCodeTypeSms</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeFlashCall">T<wbr>Sent<wbr>Code<wbr>Type<wbr>Flash<wbr>Call</a></li>								
 									</ul>
 								</dd>				
 						</dl>
@@ -228,14 +228,14 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["ISentCodeType"]
 class Type type-node
-	Type-.-&gt;Implementing0["TSentCodeTypeFlashCall"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeFlashCall"
-	Type-.-&gt;Implementing1["TSentCodeTypeCall"]
-	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeCall"
+	Type-.-&gt;Implementing0["TSentCodeTypeCall"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeCall"
+	Type-.-&gt;Implementing1["TSentCodeTypeApp"]
+	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeApp"
 	Type-.-&gt;Implementing2["TSentCodeTypeSms"]
 	click Implementing2 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeSms"
-	Type-.-&gt;Implementing3["TSentCodeTypeApp"]
-	click Implementing3 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeApp"
+	Type-.-&gt;Implementing3["TSentCodeTypeFlashCall"]
+	click Implementing3 "/OpenTl.Schema/api/OpenTl.Schema.Auth/TSentCodeTypeFlashCall"
 
 						</div>
 					</div>
