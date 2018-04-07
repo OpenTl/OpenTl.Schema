@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5b51d63f)]
-    public class RequestReorderPinnedDialogs : IRequest<bool>
+    public sealed class RequestReorderPinnedDialogs : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

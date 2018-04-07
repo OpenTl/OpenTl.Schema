@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x514e999d)]
-    public class RequestGetInlineBotResults : IRequest<OpenTl.Schema.Messages.IBotResults>
+    public sealed class RequestGetInlineBotResults : IRequest<OpenTl.Schema.Messages.IBotResults>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

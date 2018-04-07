@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe1746d0a)]
-	public class TInputReportReasonOther : IReportReason
+	public sealed class TInputReportReasonOther : IReportReason
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

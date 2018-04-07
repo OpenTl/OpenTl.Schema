@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x55a5bb66)]
-    public class RequestReceivedQueue : IRequest<OpenTl.Schema.TVector<long>>
+    public sealed class RequestReceivedQueue : IRequest<OpenTl.Schema.TVector<long>>
     {
        [SerializationOrder(0)]
        public int MaxQts {get; set;}

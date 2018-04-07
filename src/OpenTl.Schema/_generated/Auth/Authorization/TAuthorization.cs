@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcd050916)]
-	public class TAuthorization : IAuthorization
+	public sealed class TAuthorization : IAuthorization
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

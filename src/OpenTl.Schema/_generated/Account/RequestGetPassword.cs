@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x548a30f5)]
-    public class RequestGetPassword : IRequest<OpenTl.Schema.Account.IPassword>
+    public sealed class RequestGetPassword : IRequest<OpenTl.Schema.Account.IPassword>
     {
 
     }

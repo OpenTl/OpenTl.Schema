@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5d2f3aa9)]
-	public class TUpdateBotPrecheckoutQuery : IUpdate
+	public sealed class TUpdateBotPrecheckoutQuery : IUpdate
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

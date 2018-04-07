@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdf77f3bc)]
-    public class RequestResetAuthorization : IRequest<bool>
+    public sealed class RequestResetAuthorization : IRequest<bool>
     {
        [SerializationOrder(0)]
        public long Hash {get; set;}

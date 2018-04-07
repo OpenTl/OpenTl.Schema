@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xda9b0d0d)]
-    public class RequestInvokeWithLayer : IRequest<IObject>
+    public sealed class RequestInvokeWithLayer : IRequest<IObject>
     {
        [SerializationOrder(0)]
        public int Layer {get; set;}

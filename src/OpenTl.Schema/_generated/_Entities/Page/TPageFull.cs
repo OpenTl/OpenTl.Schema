@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x556ec7aa)]
-	public class TPageFull : IPage
+	public sealed class TPageFull : IPage
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock> Blocks {get; set;}

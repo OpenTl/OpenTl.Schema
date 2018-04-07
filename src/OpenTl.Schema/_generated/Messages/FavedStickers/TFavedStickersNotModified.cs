@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9e8fa6d3)]
-	public class TFavedStickersNotModified : IFavedStickers
+	public sealed class TFavedStickersNotModified : IFavedStickers
 	{
 
 	}

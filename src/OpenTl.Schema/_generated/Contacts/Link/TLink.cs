@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3ace484c)]
-	public class TLink : ILink
+	public sealed class TLink : ILink
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IContactLink MyLink {get; set;}

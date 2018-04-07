@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x04deb57d)]
-	public class TMsgsStateInfo : IObject
+	public sealed class TMsgsStateInfo : IObject
 	{
        [SerializationOrder(0)]
        public long ReqMsgId {get; set;}

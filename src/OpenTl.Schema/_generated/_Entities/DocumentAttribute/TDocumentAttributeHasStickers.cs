@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9801d2f7)]
-	public class TDocumentAttributeHasStickers : IDocumentAttribute
+	public sealed class TDocumentAttributeHasStickers : IDocumentAttribute
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x98e81d3a)]
-	public class TBotInfo : IBotInfo
+	public sealed class TBotInfo : IBotInfo
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

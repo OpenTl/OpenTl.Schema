@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x80c99768)]
-	public class TInputMessagesFilterPhoneCalls : IMessagesFilter
+	public sealed class TInputMessagesFilterPhoneCalls : IMessagesFilter
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

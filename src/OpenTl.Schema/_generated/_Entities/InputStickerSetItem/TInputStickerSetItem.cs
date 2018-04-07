@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xffa0a496)]
-	public class TInputStickerSetItem : IInputStickerSetItem
+	public sealed class TInputStickerSetItem : IInputStickerSetItem
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

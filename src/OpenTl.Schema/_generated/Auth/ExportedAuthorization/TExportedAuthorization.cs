@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdf969c2d)]
-	public class TExportedAuthorization : IExportedAuthorization
+	public sealed class TExportedAuthorization : IExportedAuthorization
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

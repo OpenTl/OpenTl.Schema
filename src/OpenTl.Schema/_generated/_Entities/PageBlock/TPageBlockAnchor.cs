@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xce0d37b0)]
-	public class TPageBlockAnchor : IPageBlock
+	public sealed class TPageBlockAnchor : IPageBlock
 	{
        /// <summary>Binary representation for the 'Name' property</summary>
        [SerializationOrder(0)]

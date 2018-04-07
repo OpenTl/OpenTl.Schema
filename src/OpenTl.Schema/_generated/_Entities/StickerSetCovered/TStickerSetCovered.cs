@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6410a5d2)]
-	public class TStickerSetCovered : IStickerSetCovered
+	public sealed class TStickerSetCovered : IStickerSetCovered
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IStickerSet Set {get; set;}

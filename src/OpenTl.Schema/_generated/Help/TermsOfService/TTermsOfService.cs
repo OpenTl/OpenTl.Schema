@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf1ee3e90)]
-	public class TTermsOfService : ITermsOfService
+	public sealed class TTermsOfService : ITermsOfService
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x56022f4d)]
-	public class TUpdateLangPack : IUpdate
+	public sealed class TUpdateLangPack : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.ILangPackDifference Difference {get; set;}

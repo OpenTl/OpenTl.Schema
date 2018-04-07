@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x33ddf480)]
-    public class RequestGetAdminLog : IRequest<OpenTl.Schema.Channels.IAdminLogResults>
+    public sealed class RequestGetAdminLog : IRequest<OpenTl.Schema.Channels.IAdminLogResults>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

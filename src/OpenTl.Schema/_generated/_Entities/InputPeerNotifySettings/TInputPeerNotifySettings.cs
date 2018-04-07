@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x38935eb2)]
-	public class TInputPeerNotifySettings : IInputPeerNotifySettings
+	public sealed class TInputPeerNotifySettings : IInputPeerNotifySettings
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9a3bfd99)]
-	public class THighScores : IHighScores
+	public sealed class THighScores : IHighScores
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IHighScore> Scores {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9299359f)]
-	public class THttpWait : IObject
+	public sealed class THttpWait : IObject
 	{
        [SerializationOrder(0)]
        public int MaxDelay {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x11b58939)]
-	public class TDocumentAttributeAnimated : IDocumentAttribute
+	public sealed class TDocumentAttributeAnimated : IDocumentAttribute
 	{
 
 	}

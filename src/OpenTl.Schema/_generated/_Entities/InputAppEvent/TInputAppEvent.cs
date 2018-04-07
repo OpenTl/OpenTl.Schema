@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x770656a8)]
-	public class TInputAppEvent : IInputAppEvent
+	public sealed class TInputAppEvent : IInputAppEvent
 	{
        [SerializationOrder(0)]
        public double Time {get; set;}

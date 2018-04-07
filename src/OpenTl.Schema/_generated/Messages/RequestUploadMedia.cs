@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x519bc2b1)]
-    public class RequestUploadMedia : IRequest<OpenTl.Schema.IMessageMedia>
+    public sealed class RequestUploadMedia : IRequest<OpenTl.Schema.IMessageMedia>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x392718f8)]
-    public class RequestSaveRecentSticker : IRequest<bool>
+    public sealed class RequestSaveRecentSticker : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

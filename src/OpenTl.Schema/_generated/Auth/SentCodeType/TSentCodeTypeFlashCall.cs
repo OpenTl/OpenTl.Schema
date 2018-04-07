@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xab03c6d9)]
-	public class TSentCodeTypeFlashCall : ISentCodeType
+	public sealed class TSentCodeTypeFlashCall : ISentCodeType
 	{
        /// <summary>Binary representation for the 'Pattern' property</summary>
        [SerializationOrder(0)]

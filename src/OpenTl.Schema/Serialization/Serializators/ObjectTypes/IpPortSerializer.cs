@@ -1,32 +1,32 @@
-using System.IO;
-using System.Reflection;
-using OpenTl.Schema.Serialization.Serializators.Interfaces;
-
 namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
- {
-     using DotNetty.Buffers;
+{
+    using System.Reflection;
 
-     internal class IpPortSerializer : ISerializator
-     {
-         public TypeInfo SupportedType { get; } = typeof(TIpPort).GetTypeInfo();
- 
-         public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata)
-         {
-             var ipPort = (TIpPort) value;
-             
-             buffer.WriteIntLE(ipPort.Ipv4);
-             buffer.WriteIntLE(ipPort.Port);
-         }
+    using DotNetty.Buffers;
 
-         public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
-         {
+    using OpenTl.Schema.Serialization.Serializators.Interfaces;
+
+    internal class IpPortSerializer : ISerializator
+    {
+        public TypeInfo SupportedType { get; } = typeof(TIpPort).GetTypeInfo();
+
+        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
+        {
             var ipPort = new TIpPort
-            {
-                Ipv4 = buffer.ReadIntLE(),
-                Port = buffer.ReadIntLE()
-            };
+                         {
+                             Ipv4 = buffer.ReadIntLE(),
+                             Port = buffer.ReadIntLE()
+                         };
 
-             return ipPort;
-         }
-     }
- }
+            return ipPort;
+        }
+
+        public void Serialize(object value, IByteBuffer buffer, SerializationMetadata metadata)
+        {
+            var ipPort = (TIpPort)value;
+
+            buffer.WriteIntLE(ipPort.Ipv4);
+            buffer.WriteIntLE(ipPort.Port);
+        }
+    }
+}

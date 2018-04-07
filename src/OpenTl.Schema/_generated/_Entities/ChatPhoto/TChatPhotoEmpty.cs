@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x37c1011c)]
-	public class TChatPhotoEmpty : IChatPhoto, IEmpty
+	public sealed class TChatPhotoEmpty : IChatPhoto, IEmpty
 	{
 
 	}

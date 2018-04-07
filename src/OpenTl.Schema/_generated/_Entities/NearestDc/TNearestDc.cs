@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8e1a1775)]
-	public class TNearestDc : INearestDc
+	public sealed class TNearestDc : INearestDc
 	{
        /// <summary>Binary representation for the 'Country' property</summary>
        [SerializationOrder(0)]

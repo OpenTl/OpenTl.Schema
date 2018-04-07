@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x64ff9fd5)]
-	public class TChats : IChats
+	public sealed class TChats : IChats
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IChat> Chats {get; set;}

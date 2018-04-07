@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcc5b67cc)]
-    public class RequestGetAttachedStickers : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered>>
+    public sealed class RequestGetAttachedStickers : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IStickerSetCovered>>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputStickeredMedia Media {get; set;}

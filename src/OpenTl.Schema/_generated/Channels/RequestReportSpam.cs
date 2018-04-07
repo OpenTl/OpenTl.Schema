@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfe087810)]
-    public class RequestReportSpam : IRequest<bool>
+    public sealed class RequestReportSpam : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

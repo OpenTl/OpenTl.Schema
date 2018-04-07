@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc023849f)]
-    public class RequestGetContacts : IRequest<OpenTl.Schema.Contacts.IContacts>
+    public sealed class RequestGetContacts : IRequest<OpenTl.Schema.Contacts.IContacts>
     {
        [SerializationOrder(0)]
        public int Hash {get; set;}

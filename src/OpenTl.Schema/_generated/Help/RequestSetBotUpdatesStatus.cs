@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xec22cfcd)]
-    public class RequestSetBotUpdatesStatus : IRequest<bool>
+    public sealed class RequestSetBotUpdatesStatus : IRequest<bool>
     {
        [SerializationOrder(0)]
        public int PendingUpdatesCount {get; set;}

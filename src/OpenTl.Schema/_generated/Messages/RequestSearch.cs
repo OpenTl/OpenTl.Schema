@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8614ef68)]
-    public class RequestSearch : IRequest<OpenTl.Schema.Messages.IMessages>
+    public sealed class RequestSearch : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

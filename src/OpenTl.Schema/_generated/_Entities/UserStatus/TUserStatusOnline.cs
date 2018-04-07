@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xedb93949)]
-	public class TUserStatusOnline : IUserStatus
+	public sealed class TUserStatusOnline : IUserStatus
 	{
        [SerializationOrder(0)]
        public int Expires {get; set;}

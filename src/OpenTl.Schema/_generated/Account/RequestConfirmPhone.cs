@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5f2178c3)]
-    public class RequestConfirmPhone : IRequest<bool>
+    public sealed class RequestConfirmPhone : IRequest<bool>
     {
        /// <summary>Binary representation for the 'PhoneCodeHash' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3d662b7b)]
-	public class TPrivacyKeyPhoneCall : IPrivacyKey
+	public sealed class TPrivacyKeyPhoneCall : IPrivacyKey
 	{
 
 	}

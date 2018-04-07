@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfc796b3f)]
-	public class TKeyboardButtonRequestGeoLocation : IKeyboardButton
+	public sealed class TKeyboardButtonRequestGeoLocation : IKeyboardButton
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

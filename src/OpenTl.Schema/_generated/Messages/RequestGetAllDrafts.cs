@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6a3f8d65)]
-    public class RequestGetAllDrafts : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestGetAllDrafts : IRequest<OpenTl.Schema.IUpdates>
     {
 
     }

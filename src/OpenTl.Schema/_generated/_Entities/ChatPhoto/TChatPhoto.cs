@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6153276a)]
-	public class TChatPhoto : IChatPhoto
+	public sealed class TChatPhoto : IChatPhoto
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IFileLocation PhotoSmall {get; set;}

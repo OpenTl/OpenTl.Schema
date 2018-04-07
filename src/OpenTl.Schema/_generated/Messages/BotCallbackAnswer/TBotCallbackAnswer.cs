@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x36585ea4)]
-	public class TBotCallbackAnswer : IBotCallbackAnswer
+	public sealed class TBotCallbackAnswer : IBotCallbackAnswer
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

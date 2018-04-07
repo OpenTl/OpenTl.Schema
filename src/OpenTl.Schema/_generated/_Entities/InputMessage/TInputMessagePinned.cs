@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x86872538)]
-	public class TInputMessagePinned : IInputMessage
+	public sealed class TInputMessagePinned : IInputMessage
 	{
 
 	}

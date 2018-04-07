@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb3cea0e4)]
-	public class TFileMp4 : IFileType
+	public sealed class TFileMp4 : IFileType
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x292c7be9)]
-	public class TPageBlockEmbedPost : IPageBlock
+	public sealed class TPageBlockEmbedPost : IPageBlock
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

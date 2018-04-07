@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6c37c15c)]
-	public class TDocumentAttributeImageSize : IDocumentAttribute
+	public sealed class TDocumentAttributeImageSize : IDocumentAttribute
 	{
        [SerializationOrder(0)]
        public int W {get; set;}

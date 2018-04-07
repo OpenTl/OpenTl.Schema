@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8ffa9a1f)]
-	public class TPageBlockSubtitle : IPageBlock
+	public sealed class TPageBlockSubtitle : IPageBlock
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}

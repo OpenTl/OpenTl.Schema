@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Photos
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x91cd32a8)]
-    public class RequestGetUserPhotos : IRequest<OpenTl.Schema.Photos.IPhotos>
+    public sealed class RequestGetUserPhotos : IRequest<OpenTl.Schema.Photos.IPhotos>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser UserId {get; set;}

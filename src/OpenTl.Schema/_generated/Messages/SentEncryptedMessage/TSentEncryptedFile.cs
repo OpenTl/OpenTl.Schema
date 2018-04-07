@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9493ff32)]
-	public class TSentEncryptedFile : ISentEncryptedMessage
+	public sealed class TSentEncryptedFile : ISentEncryptedMessage
 	{
        [SerializationOrder(0)]
        public int Date {get; set;}

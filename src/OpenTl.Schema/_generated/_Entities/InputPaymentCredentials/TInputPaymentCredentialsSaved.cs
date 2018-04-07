@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc10eb2cf)]
-	public class TInputPaymentCredentialsSaved : IInputPaymentCredentials
+	public sealed class TInputPaymentCredentialsSaved : IInputPaymentCredentials
 	{
        /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]

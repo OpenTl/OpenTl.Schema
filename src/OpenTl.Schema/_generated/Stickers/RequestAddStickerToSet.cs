@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Stickers
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8653febe)]
-    public class RequestAddStickerToSet : IRequest<OpenTl.Schema.Messages.IStickerSet>
+    public sealed class RequestAddStickerToSet : IRequest<OpenTl.Schema.Messages.IStickerSet>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}

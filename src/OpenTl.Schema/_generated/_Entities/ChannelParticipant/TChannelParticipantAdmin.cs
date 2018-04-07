@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa82fa898)]
-	public class TChannelParticipantAdmin : IChannelParticipant
+	public sealed class TChannelParticipantAdmin : IChannelParticipant
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

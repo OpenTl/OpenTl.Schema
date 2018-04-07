@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x32c3e77)]
-	public class TInputGameID : IInputGame
+	public sealed class TInputGameID : IInputGame
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

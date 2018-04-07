@@ -22,22 +22,22 @@ let entitiesFodler = "_Entities"
 let namespaceMarker = "/* NAMESPACE */"
 
 let constructorMarker = "/* CONSTRUCTOR */"
-let requestParamMarker = "/* GENERIC_PARAM */"
+let requestAttrMarker = "/* GENERIC_PARAM */"
 
 let nameMarker = "/* NAME */"
 
 let parentMarker = "/* PARENT */"
 let serializeMarker = "/* SERIALIZE */"
 
-let paramMarker = "/* PARAMS */"
+let attrMarker = "/* ATTRS */"
 
 let formatName (name: string) =
     name.Split('_')
     |> Seq.map(fun w -> 
-        let firstChar = Seq.head w
-                        |> Char.ToUpper
-        String.Concat(firstChar, w.Substring(1))
-        )
+                 let firstChar = Seq.head w
+                                 |> Char.ToUpper
+                 String.Concat(firstChar, w.Substring(1))
+                 )
     |> String.Concat
     |> (fun s -> s.Split(' '))
     |> Seq.head
@@ -84,17 +84,16 @@ let getFullTypeName tlType typeName =
 
 let genericTypeReg = Regex("(.*)\<(.*)\>")
 
-let validTypes = HashSet [|"string"; "int"; "long"; "double"|]
+let validTypes = HashSet [|"string"; "int"; "long"; "double"; "byte[]"; "bool"|]
 
 let rec typeMapping (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>) (typeName:string) = 
     match typeName with
-    | _ when validTypes.Contains(typeName.ToLower()) -> typeName
+    | _ when validTypes.Contains(typeName.ToLower()) -> typeName.ToLower()
     | "vector" -> "TVector"
     | "int128" -> "byte[]"
     | "int256" -> "byte[]"
     | "bytes" -> "byte[]"
     | "#" -> "BitArray"
-    | "Bool" -> "bool"
     | "true" -> "bool"
     | "Object" -> "IObject"
     | "ipPort" -> "TIpPort"
@@ -106,22 +105,22 @@ let rec typeMapping (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>)
         let group = genericTypeReg.Match(tlType).Groups
 
         let genericClass =  group.Item(1).Value |> typeMapping typeSet interfacesSet
-        let genericParameter =  group.Item(2).Value |> typeMapping typeSet interfacesSet
+        let genericAttribute =  group.Item(2).Value |> typeMapping typeSet interfacesSet
 
-        sprintf "%s<%s>" genericClass genericParameter
+        sprintf "%s<%s>" genericClass genericAttribute
     | tlType when tlType.Contains("?")-> 
         tlType.Split('?')
         |> Array.last
         |> typeMapping typeSet interfacesSet
     | _ -> failwith typeName
-
+       
 let expressionReg = Regex(@"(\w*)\.(\d\d?)\?(\w*)")
 
-let getSerializeAttribute(tlParam: TlParam) =
-    match tlParam.Type.Contains("?") with
+let getSerializeAttribute(tlAttr: TlAttr) =
+    match tlAttr.Type.Contains("?") with
     | false -> None
     | true -> 
-        let group = expressionReg.Match(tlParam.Type)
+        let group = expressionReg.Match(tlAttr.Type)
         let fieldName = group.Groups.Item(1).Value |> getName
         let index = group.Groups.Item(2).Value
         let resultType = group.Groups.Item(3).Value
@@ -130,67 +129,85 @@ let getSerializeAttribute(tlParam: TlParam) =
         | "true" -> sprintf """       [FromFlag("%s", %s)]""" fieldName index |> Some
         | _ -> sprintf """       [CanSerialize("%s", %s)]""" fieldName index |> Some
 
-let getParameterForInterface (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
-        let paramName = getName p.Name
-        let paramType = typeMapping typeSet interfacesSet p.Type
+let getAttributeForInterface (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlAttr) = 
+        let attrName = getName p.Name
+        let attrType = typeMapping typeSet interfacesSet p.Type
 
         let result = new List<string>()
 
-        if paramType = "string" then
-            paramName + "AsBinary"
+        if attrType = "string" then
+            attrName + "AsBinary"
             |> sprintf "       byte[] %s {get; set;}"
             |> result.Add
         
-        sprintf "       %s %s {get; set;}\n" paramType paramName |> result.Add
+        sprintf "       %s %s {get; set;}\n" attrType attrName |> result.Add
 
         result |> String.concat "\n"
 
-let getSummaryForParam (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) =
-    let paramName = getName p.Name
-    let paramType = typeMapping typeSet interfacesSet p.Type
-    match paramType with 
-    | "string" -> sprintf "       /// <summary>Binary representation for the '%s' property</summary>" paramName |> Some
+let getSummaryForAttr (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlAttr) =
+    let attrName = getName p.Name
+    let attrType = typeMapping typeSet interfacesSet p.Type
+    match attrType with 
+    | "string" -> sprintf "       /// <summary>Binary representation for the '%s' property</summary>" attrName |> Some
     | _ -> None
 
-let getParameterForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlParam) = 
-    let paramName = getName p.Name
-    let paramType = typeMapping typeSet interfacesSet p.Type
+let getAttibuteForType (typeSet: HashSet<string>) (interfacesSet: HashSet<string>) (p: TlAttr) = 
+    let attrName = getName p.Name
+    let attrType = typeMapping typeSet interfacesSet p.Type
 
-    match paramType with 
+    match attrType with 
     | "string" -> 
-        let privateName =  "_" + paramName;
-        let asBinaryName = paramName + "AsBinary"
+        let privateName =  "_" + attrName;
+        let asBinaryName = attrName + "AsBinary"
         let privateBinaryName =  "_" + asBinaryName;
 
         [|
             sprintf "       public byte[] %s { get => %s; set { %s = Encoding.UTF8.GetString(value); %s = value; }}" asBinaryName privateBinaryName privateName  privateBinaryName 
             sprintf "       private byte[] %s;" privateBinaryName
             sprintf "       private string %s;" privateName
-            sprintf "       public string %s { get => %s; set { %s = Encoding.UTF8.GetBytes(value); %s = value; }}\n" paramName privateName asBinaryName privateName
+            sprintf "       public string %s { get => %s; set { %s = Encoding.UTF8.GetBytes(value); %s = value; }}\n" attrName privateName asBinaryName privateName
         |]
         |> String.concat "\n"
     | _ -> 
-        sprintf "       public %s %s {get; set;}\n" paramType paramName
+        sprintf "       public %s %s {get; set;}\n" attrType attrName
 
 let getTypesForInterface (allTypes: List<TlType>) (typeName: string) = 
     allTypes
     |> Seq.filter(fun t -> t.Type = typeName)
 
-let getParametersForInterface (allTypes: List<TlType>, typesSet: HashSet<string>, interfacesSet: HashSet<string>, typeName: string) = 
+let getAttributesForInterface (allTypes: List<TlType>, typesSet: HashSet<string>, interfacesSet: HashSet<string>, typeName: string) = 
     let types = getTypesForInterface allTypes typeName
                 |> Seq.filter (fun t -> isEmpty t.Predicate = None)
 
     let typesCount =  Seq.length types
 
     types
-    |> Seq.collect(fun t -> t.Params)
+    |> Seq.collect(fun t -> t.Attrs)
     |> Seq.groupBy(fun p -> p.Name, p.Type)
     |> Seq.filter(fun (_, col) -> Seq.length col = typesCount)
     |> Seq.map (fun (_, col) -> Seq.head col)
-    |> Seq.map (fun p -> getParameterForInterface typesSet interfacesSet p)
+    |> Seq.map (fun p -> getAttributeForInterface typesSet interfacesSet p)
     |> String.concat "\n"
 
-let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<string>, prms: TlParam list) = 
+let rec isBareType (typeSet: HashSet<string>)  (interfacesSet: HashSet<string>) (typeName:string) =
+    let isFirstCharLower = fun str -> Seq.head str |> Char.IsLower
+    match typeName.Split('.') |> Array.last with
+     | "vector" -> true
+     | "ipPort" -> true
+     | "true" -> false 
+     | tlType when containsName interfacesSet tlType -> isFirstCharLower tlType
+     | tlType when containsName typeSet tlType -> isFirstCharLower tlType
+     | tlType when genericTypeReg.IsMatch(tlType) -> 
+             let group = genericTypeReg.Match(tlType).Groups
+             group.Item(1).Value |> isBareType typeSet interfacesSet
+     
+     | tlType when tlType.Contains("?")-> 
+        tlType.Split('?')
+        |> Array.last
+        |> isBareType typeSet interfacesSet
+     | _ -> false
+     
+let getAttributesForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<string>, prms: TlAttr list) = 
     let result = List<string>()
     prms
     |> Seq.ofList
@@ -200,7 +217,7 @@ let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<str
         | "int256" ->  result.Add "       [SerializationArrayLength(32)]"
         | _ -> ()
 
-        match getSummaryForParam typeSet interfacesSet  p with
+        match getSummaryForAttr typeSet interfacesSet  p with
         | Some(value) -> result.Add value
         | None -> ()
 
@@ -209,8 +226,13 @@ let getParametersForEntity (typeSet: HashSet<string>, interfacesSet: HashSet<str
         match getSerializeAttribute p with
         | Some(value) -> result.Add value
         | None -> ()
+        
+        
+        match isBareType typeSet interfacesSet p.Type with
+        | true  -> result.Add "       [BareTypeAttribute]"
+        | _ -> ()
 
-        getParameterForType typeSet interfacesSet  p |> result.Add
+        getAttibuteForType typeSet interfacesSet  p |> result.Add
     )
 
     result |> String.concat "\n"
@@ -274,7 +296,7 @@ let getClassNameFromRequest (tlRequest: TlRequest) =
      getName tlRequest.Method
     |> sprintf "Request%s"
 
-let getGenericParamRequest (tlRequest: TlRequest, typesSet: HashSet<string>,  interfacesSet: HashSet<string>) = 
+let getGenericAttrRequest (tlRequest: TlRequest, typesSet: HashSet<string>,  interfacesSet: HashSet<string>) = 
     typeMapping typesSet interfacesSet tlRequest.Type
 
 let getFileNameFromRequest (tlRequest: TlRequest) = 
@@ -302,8 +324,8 @@ let generateEntities (schema: Schema) =
     |> Seq.map(fun t -> t.Type)
     |> Seq.iter(fun t -> 
             let name = t.ToLower()
-            let usageInTypesCount = schema.Types.FindAll(fun st -> st.Type = t || st.Params |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
-            let usageInRequestsCount = schema.Requests.FindAll(fun st -> st.Type = t || st.Params |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
+            let usageInTypesCount = schema.Types.FindAll(fun st -> st.Type = t || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
+            let usageInRequestsCount = schema.Requests.FindAll(fun st -> st.Type = t || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
             if usageInTypesCount + usageInRequestsCount > 1 then
                 name |>  interfacesHash.Add |> ignore
 
@@ -325,14 +347,14 @@ let generateEntities (schema: Schema) =
                     StringBuilder(interfaceTemplate)
                         .Replace(namespaceMarker, getFullNamespace(tlType.Type))
                         .Replace(nameMarker, getClassNameFromInterface(tlType.Type) + "Common" )
-                        .Replace(paramMarker, getParametersForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
+                        .Replace(attrMarker, getAttributesForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
                         .ToString()
                     |> createInterfaceCommonFile tlType.Type
                     
                 StringBuilder(interfaceTemplate)
                     .Replace(namespaceMarker, getFullNamespace(tlType.Type))
                     .Replace(nameMarker, getClassNameFromInterface(tlType.Type))
-                    .Replace(paramMarker, "")
+                    .Replace(attrMarker, "")
                     .ToString()
                 |> createInterfaceFile tlType.Type
 
@@ -340,8 +362,8 @@ let generateEntities (schema: Schema) =
                 StringBuilder(interfaceTemplate)
                     .Replace(namespaceMarker, getFullNamespace(tlType.Type))
                     .Replace(nameMarker, getClassNameFromInterface(tlType.Type))
-                    .Replace(paramMarker, getParametersForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
-                    .Replace(paramMarker, "")
+                    .Replace(attrMarker, getAttributesForInterface(schema.Types, typesHash, interfacesHash, tlType.Type))
+                    .Replace(attrMarker, "")
                     .ToString()
                 |> createInterfaceFile tlType.Type
         
@@ -350,7 +372,7 @@ let generateEntities (schema: Schema) =
             .Replace(parentMarker, getParentForType(tlType, interfacesHash))
             .Replace(namespaceMarker, getFullNamespace(tlType.Predicate))
             .Replace(nameMarker, getClassNameFromEntity(tlType.Predicate))
-            .Replace(paramMarker, getParametersForEntity(typesHash, interfacesHash, tlType.Params))
+            .Replace(attrMarker, getAttributesForEntity(typesHash, interfacesHash, tlType.Attrs))
             .ToString()
         |> createEntityFile tlType interfacesHash
 
@@ -358,9 +380,9 @@ let generateEntities (schema: Schema) =
         StringBuilder(requestTemplate)
             .Replace(constructorMarker, tlRequest.Id)
             .Replace(namespaceMarker, getFullNamespace(tlRequest.Method))
-            .Replace(requestParamMarker, getGenericParamRequest(tlRequest, typesHash, interfacesHash))
+            .Replace(requestAttrMarker, getGenericAttrRequest(tlRequest, typesHash, interfacesHash))
             .Replace(nameMarker, getClassNameFromRequest(tlRequest))
-            .Replace(paramMarker, getParametersForEntity(typesHash, interfacesHash, tlRequest.Params))
+            .Replace(attrMarker, getAttributesForEntity(typesHash, interfacesHash, tlRequest.Attrs))
             .ToString()
         |> createRequestFile tlRequest interfacesHash
 ()

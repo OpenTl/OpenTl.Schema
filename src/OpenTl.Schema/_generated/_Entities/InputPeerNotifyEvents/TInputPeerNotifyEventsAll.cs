@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe86a2c74)]
-	public class TInputPeerNotifyEventsAll : IInputPeerNotifyEvents
+	public sealed class TInputPeerNotifyEventsAll : IInputPeerNotifyEvents
 	{
 
 	}

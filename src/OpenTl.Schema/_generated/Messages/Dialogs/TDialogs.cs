@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x15ba6c40)]
-	public class TDialogs : IDialogs
+	public sealed class TDialogs : IDialogs
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDialog> Dialogs {get; set;}

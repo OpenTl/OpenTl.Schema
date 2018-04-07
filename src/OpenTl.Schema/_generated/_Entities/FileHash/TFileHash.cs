@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6242c773)]
-	public class TFileHash : IFileHash
+	public sealed class TFileHash : IFileHash
 	{
        [SerializationOrder(0)]
        public int Offset {get; set;}

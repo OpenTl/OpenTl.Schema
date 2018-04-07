@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6d003d3f)]
-	public class TPhoneCallAccepted : IPhoneCall
+	public sealed class TPhoneCallAccepted : IPhoneCall
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

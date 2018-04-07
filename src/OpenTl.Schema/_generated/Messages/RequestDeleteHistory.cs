@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1c015b09)]
-    public class RequestDeleteHistory : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
+    public sealed class RequestDeleteHistory : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

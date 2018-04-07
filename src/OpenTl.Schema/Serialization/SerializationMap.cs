@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-
-using OpenTl.Schema.Serialization.Attributes;
-using OpenTl.Schema.Serialization.Serializators.Interfaces;
-
-namespace OpenTl.Schema.Serialization
+﻿namespace OpenTl.Schema.Serialization
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Reflection;
+
+    using OpenTl.Schema.Serialization.Attributes;
+    using OpenTl.Schema.Serialization.Serializators.Interfaces;
+
     internal static class SerializationMap
     {
         private static readonly Dictionary<uint, TypeInfo> IdToTypeMap;
@@ -23,22 +23,17 @@ namespace OpenTl.Schema.Serialization
             var allTypes = typeof(SerializationMap).GetTypeInfo().Assembly.DefinedTypes.ToArray();
 
             var modelTypes = allTypes
-                .Where(t => t.GetCustomAttribute<SerializeAttribute>() != null && typeof(IObject).GetTypeInfo().IsAssignableFrom(t))
-                .ToArray();
+                             .Where(t => t.GetCustomAttribute<SerializeAttribute>() != null && typeof(IObject).GetTypeInfo().IsAssignableFrom(t))
+                             .ToArray();
 
             IdToTypeMap = modelTypes.ToDictionary(t => t.GetCustomAttribute<SerializeAttribute>().Id);
             TypeToIdMap = modelTypes.ToDictionary(t => t, t => t.GetCustomAttribute<SerializeAttribute>().Id);
 
             Serializators = allTypes
-                .Where(t => typeof(ISerializator).GetTypeInfo().IsAssignableFrom(t) && t.IsClass)
-                .Select(ti => Activator.CreateInstance(ti.AsType()))
-                .Cast<ISerializator>()
-                .ToArray();
-        }
-
-        internal static bool GetTypeById(uint typeId, out TypeInfo type)
-        {
-            return IdToTypeMap.TryGetValue(typeId, out type);
+                            .Where(t => typeof(ISerializator).GetTypeInfo().IsAssignableFrom(t) && t.IsClass)
+                            .Select(ti => Activator.CreateInstance(ti.AsType()))
+                            .Cast<ISerializator>()
+                            .ToArray();
         }
 
         internal static bool GetIdByType(TypeInfo type, out uint typeId)
@@ -61,6 +56,11 @@ namespace OpenTl.Schema.Serialization
             return serializator;
         }
 
+        internal static bool GetTypeById(uint typeId, out TypeInfo type)
+        {
+            return IdToTypeMap.TryGetValue(typeId, out type);
+        }
+
         private static bool TryGetSerializator(TypeInfo type, out ISerializator serializator)
         {
             if (type.IsGenericType)
@@ -80,7 +80,7 @@ namespace OpenTl.Schema.Serialization
                 return true;
             }
 
-            serializator = Serializators.SingleOrDefault(s => s.SupportedType.IsAssignableFrom(type));
+            serializator = Serializators.SingleOrDefault(s => Equals(s.SupportedType, type)) ?? Serializators.FirstOrDefault(s => s.SupportedType.IsAssignableFrom(type));
 
             if (serializator != null)
             {

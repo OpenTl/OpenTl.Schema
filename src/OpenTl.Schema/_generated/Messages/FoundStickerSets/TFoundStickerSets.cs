@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5108d648)]
-	public class TFoundStickerSets : IFoundStickerSets
+	public sealed class TFoundStickerSets : IFoundStickerSets
 	{
        [SerializationOrder(0)]
        public int Hash {get; set;}

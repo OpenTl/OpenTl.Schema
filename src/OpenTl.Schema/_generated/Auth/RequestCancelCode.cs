@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1f040578)]
-    public class RequestCancelCode : IRequest<bool>
+    public sealed class RequestCancelCode : IRequest<bool>
     {
        /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]

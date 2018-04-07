@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfda68d36)]
-    public class RequestGetMessageEditData : IRequest<OpenTl.Schema.Messages.IMessageEditData>
+    public sealed class RequestGetMessageEditData : IRequest<OpenTl.Schema.Messages.IMessageEditData>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

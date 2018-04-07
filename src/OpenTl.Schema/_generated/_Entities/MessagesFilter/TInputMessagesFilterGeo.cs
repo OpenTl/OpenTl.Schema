@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe7026d0d)]
-	public class TInputMessagesFilterGeo : IMessagesFilter
+	public sealed class TInputMessagesFilterGeo : IMessagesFilter
 	{
 
 	}

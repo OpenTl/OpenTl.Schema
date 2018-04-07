@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xae30253)]
-	public class TMessageRange : IMessageRange
+	public sealed class TMessageRange : IMessageRange
 	{
        [SerializationOrder(0)]
        public int MinId {get; set;}

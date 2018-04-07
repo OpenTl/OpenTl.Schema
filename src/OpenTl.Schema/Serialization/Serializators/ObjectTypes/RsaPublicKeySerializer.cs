@@ -1,32 +1,34 @@
-using System.IO;
-using System.Reflection;
-using OpenTl.Schema.Serialization.Serializators.Interfaces;
-
 namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
- {
-     using DotNetty.Buffers;
+{
+    using System.Reflection;
 
-     internal class RsaPublicKeySerializer: ISerializator
-     {
-         public TypeInfo SupportedType { get; } = typeof(TRsaPublicKey).GetTypeInfo();
- 
-         public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata)
-         {
-             var rsaPublicKey = (TRsaPublicKey) value;
-             
-             Serializer.Serialize(rsaPublicKey.N, buffer);
-             Serializer.Serialize(rsaPublicKey.E, buffer);
-         }
+    using DotNetty.Buffers;
 
-         public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
-         {
-             var rsaPublicKey = new TRsaPublicKey
-            {
-                N = (byte[])Serializer.DeserializeByType(buffer, typeof(byte[]).GetTypeInfo()),
-                E = (byte[])Serializer.DeserializeByType(buffer, typeof(byte[]).GetTypeInfo())
-            };
+    using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
-             return rsaPublicKey;
-         }
-     }
- }
+    internal class RsaPublicKeySerializer : ISerializator
+    {
+        private static readonly TypeInfo ArrayOfBytesTypeInfo = typeof(byte[]).GetTypeInfo();
+
+        public TypeInfo SupportedType { get; } = typeof(TRsaPublicKey).GetTypeInfo();
+
+        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
+        {
+            var rsaPublicKey = new TRsaPublicKey
+                               {
+                                   N = (byte[])Serializer.Deserialize(buffer, ArrayOfBytesTypeInfo),
+                                   E = (byte[])Serializer.Deserialize(buffer, ArrayOfBytesTypeInfo)
+                               };
+
+            return rsaPublicKey;
+        }
+
+        public void Serialize(object value, IByteBuffer buffer, SerializationMetadata metadata)
+        {
+            var rsaPublicKey = (TRsaPublicKey)value;
+
+            Serializer.Serialize(rsaPublicKey.N, buffer);
+            Serializer.Serialize(rsaPublicKey.E, buffer);
+        }
+    }
+}

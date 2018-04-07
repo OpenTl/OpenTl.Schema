@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe48f964)]
-	public class TUpdateBotInlineSend : IUpdate
+	public sealed class TUpdateBotInlineSend : IUpdate
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

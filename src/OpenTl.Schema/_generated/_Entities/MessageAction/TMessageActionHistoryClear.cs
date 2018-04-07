@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9fbab604)]
-	public class TMessageActionHistoryClear : IMessageAction
+	public sealed class TMessageActionHistoryClear : IMessageAction
 	{
 
 	}

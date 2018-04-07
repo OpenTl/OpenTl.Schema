@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe9763aec)]
-	public class TSendMessageUploadVideoAction : ISendMessageAction
+	public sealed class TSendMessageUploadVideoAction : ISendMessageAction
 	{
        [SerializationOrder(0)]
        public int Progress {get; set;}

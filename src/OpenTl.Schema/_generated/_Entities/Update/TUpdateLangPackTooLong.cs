@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x10c2404b)]
-	public class TUpdateLangPackTooLong : IUpdate
+	public sealed class TUpdateLangPackTooLong : IUpdate
 	{
 
 	}

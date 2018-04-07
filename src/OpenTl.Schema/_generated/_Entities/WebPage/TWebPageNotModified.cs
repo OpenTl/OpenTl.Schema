@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x85849473)]
-	public class TWebPageNotModified : IWebPage
+	public sealed class TWebPageNotModified : IWebPage
 	{
 
 	}

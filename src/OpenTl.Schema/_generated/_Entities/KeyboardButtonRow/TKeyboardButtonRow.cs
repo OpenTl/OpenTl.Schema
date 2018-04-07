@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x77608b83)]
-	public class TKeyboardButtonRow : IKeyboardButtonRow
+	public sealed class TKeyboardButtonRow : IKeyboardButtonRow
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButton> Buttons {get; set;}

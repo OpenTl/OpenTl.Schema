@@ -1,19 +1,39 @@
-using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using OpenTl.Schema.Serialization.Serializators.Interfaces;
-
 namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
 {
+    using System.Collections.Generic;
+    using System.Reflection;
+
     using DotNetty.Buffers;
+
+    using OpenTl.Schema.Serialization.Serializators.Interfaces;
 
     internal class ArrayOfContainerMessageSerializer : ISerializator
     {
         public TypeInfo SupportedType { get; } = typeof(TContainerMessage[]).GetTypeInfo();
 
-        public void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata)
+        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
         {
-            var array = (TContainerMessage[]) value;
+            var length = buffer.ReadIntLE();
+
+            var items = new List<TContainerMessage>();
+            for (var i = 0; i < length; i++)
+            {
+                var item = new TContainerMessage
+                           {
+                               MsgId = buffer.ReadLongLE(),
+                               SeqNo = buffer.ReadIntLE(),
+                               Bytes = buffer.ReadIntLE(),
+                               Body = Serializer.Deserialize(buffer)
+                           };
+                items.Add(item);
+            }
+
+            return items.ToArray();
+        }
+
+        public void Serialize(object value, IByteBuffer buffer, SerializationMetadata metadata)
+        {
+            var array = (TContainerMessage[])value;
 
             buffer.WriteIntLE(array.Length);
             foreach (var item in array)
@@ -32,25 +52,6 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                     dataBuffer.Release();
                 }
             }
-        }
-
-        public object Deserialize(IByteBuffer buffer, SerializationMetadata metadata)
-        {
-            var length = buffer.ReadIntLE();
-
-            var items = new List<TContainerMessage>();
-            for (var i = 0; i < length; i++)
-            {
-                var item = new TContainerMessage
-                           {
-                               MsgId = buffer.ReadLongLE(),
-                               SeqNo = buffer.ReadIntLE(),
-                               Bytes = buffer.ReadIntLE(),
-                               Body = Serializer.Deserialize(buffer)
-                           };
-                items.Add(item);
-            }
-            return items.ToArray();
         }
     }
 }

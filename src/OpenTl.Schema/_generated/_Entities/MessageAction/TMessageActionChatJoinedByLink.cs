@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf89cf5e8)]
-	public class TMessageActionChatJoinedByLink : IMessageAction
+	public sealed class TMessageActionChatJoinedByLink : IMessageAction
 	{
        [SerializationOrder(0)]
        public int InviterId {get; set;}

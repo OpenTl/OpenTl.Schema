@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6724abc4)]
-	public class TTextBold : IRichText
+	public sealed class TTextBold : IRichText
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}

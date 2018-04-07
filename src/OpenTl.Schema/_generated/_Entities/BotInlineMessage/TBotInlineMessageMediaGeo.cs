@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb722de65)]
-	public class TBotInlineMessageMediaGeo : IBotInlineMessage
+	public sealed class TBotInlineMessageMediaGeo : IBotInlineMessage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

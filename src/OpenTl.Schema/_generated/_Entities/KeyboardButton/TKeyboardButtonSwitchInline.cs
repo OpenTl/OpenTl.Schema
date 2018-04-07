@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x568a748)]
-	public class TKeyboardButtonSwitchInline : IKeyboardButton
+	public sealed class TKeyboardButtonSwitchInline : IKeyboardButton
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

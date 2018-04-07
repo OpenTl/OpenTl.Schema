@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd9d71866)]
-	public class TPageBlockVideo : IPageBlock
+	public sealed class TPageBlockVideo : IPageBlock
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

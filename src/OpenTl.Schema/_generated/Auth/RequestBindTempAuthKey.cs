@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcdd42a05)]
-    public class RequestBindTempAuthKey : IRequest<bool>
+    public sealed class RequestBindTempAuthKey : IRequest<bool>
     {
        [SerializationOrder(0)]
        public long PermAuthKeyId {get; set;}

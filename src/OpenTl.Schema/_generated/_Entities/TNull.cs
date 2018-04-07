@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x56730bcc)]
-	public class TNull : IObject
+	public sealed class TNull : IObject
 	{
 
 	}

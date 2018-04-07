@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1e8caaeb)]
-	public class TPostAddress : IPostAddress
+	public sealed class TPostAddress : IPostAddress
 	{
        /// <summary>Binary representation for the 'StreetLine1' property</summary>
        [SerializationOrder(0)]

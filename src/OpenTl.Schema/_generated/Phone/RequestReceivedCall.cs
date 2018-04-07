@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x17d54f61)]
-    public class RequestReceivedCall : IRequest<bool>
+    public sealed class RequestReceivedCall : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPhoneCall Peer {get; set;}

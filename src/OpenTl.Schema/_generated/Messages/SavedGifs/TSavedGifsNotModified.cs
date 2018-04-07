@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe8025ca2)]
-	public class TSavedGifsNotModified : ISavedGifs
+	public sealed class TSavedGifsNotModified : ISavedGifs
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5f07b4bc)]
-	public class TWebPage : IWebPage
+	public sealed class TWebPage : IWebPage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

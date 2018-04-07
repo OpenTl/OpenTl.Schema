@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc1f8e69a)]
-	public class TInputMessagesFilterMyMentions : IMessagesFilter
+	public sealed class TInputMessagesFilterMyMentions : IMessagesFilter
 	{
 
 	}

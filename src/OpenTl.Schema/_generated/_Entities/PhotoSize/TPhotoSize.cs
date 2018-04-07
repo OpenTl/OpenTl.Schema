@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x77bfb61b)]
-	public class TPhotoSize : IPhotoSize
+	public sealed class TPhotoSize : IPhotoSize
 	{
        /// <summary>Binary representation for the 'Type' property</summary>
        [SerializationOrder(0)]

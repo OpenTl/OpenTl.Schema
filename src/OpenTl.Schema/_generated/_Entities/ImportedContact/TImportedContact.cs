@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd0028438)]
-	public class TImportedContact : IImportedContact
+	public sealed class TImportedContact : IImportedContact
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

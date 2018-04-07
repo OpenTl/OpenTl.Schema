@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x50ca4de1)]
-	public class TPhoneCallDiscarded : IPhoneCall
+	public sealed class TPhoneCallDiscarded : IPhoneCall
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

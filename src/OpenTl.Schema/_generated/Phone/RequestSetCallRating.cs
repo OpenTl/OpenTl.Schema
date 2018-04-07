@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1c536a34)]
-    public class RequestSetCallRating : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestSetCallRating : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPhoneCall Peer {get; set;}

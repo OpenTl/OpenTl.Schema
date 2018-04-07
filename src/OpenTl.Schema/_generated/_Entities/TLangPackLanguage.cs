@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x117698f1)]
-	public class TLangPackLanguage : IObject
+	public sealed class TLangPackLanguage : IObject
 	{
        /// <summary>Binary representation for the 'Name' property</summary>
        [SerializationOrder(0)]

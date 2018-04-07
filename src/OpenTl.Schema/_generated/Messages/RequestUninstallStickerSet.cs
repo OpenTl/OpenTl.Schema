@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf96e55de)]
-    public class RequestUninstallStickerSet : IRequest<bool>
+    public sealed class RequestUninstallStickerSet : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputStickerSet Stickerset {get; set;}

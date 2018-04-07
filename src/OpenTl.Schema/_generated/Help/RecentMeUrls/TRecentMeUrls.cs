@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe0310d7)]
-	public class TRecentMeUrls : IRecentMeUrls
+	public sealed class TRecentMeUrls : IRecentMeUrls
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IRecentMeUrl> Urls {get; set;}

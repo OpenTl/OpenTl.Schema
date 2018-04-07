@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x811ea28e)]
-	public class TCheckedPhone : ICheckedPhone
+	public sealed class TCheckedPhone : ICheckedPhone
 	{
        [SerializationOrder(0)]
        public bool PhoneRegistered {get; set;}

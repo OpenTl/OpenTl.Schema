@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x12b299d4)]
-	public class TStickerPack : IStickerPack
+	public sealed class TStickerPack : IStickerPack
 	{
        /// <summary>Binary representation for the 'Emoticon' property</summary>
        [SerializationOrder(0)]

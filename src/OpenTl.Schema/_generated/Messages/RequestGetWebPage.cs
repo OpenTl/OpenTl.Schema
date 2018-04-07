@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x32ca8f91)]
-    public class RequestGetWebPage : IRequest<OpenTl.Schema.IWebPage>
+    public sealed class RequestGetWebPage : IRequest<OpenTl.Schema.IWebPage>
     {
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

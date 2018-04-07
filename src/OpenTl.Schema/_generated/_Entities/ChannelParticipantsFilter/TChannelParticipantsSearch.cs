@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x656ac4b)]
-	public class TChannelParticipantsSearch : IChannelParticipantsFilter
+	public sealed class TChannelParticipantsSearch : IChannelParticipantsFilter
 	{
        /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]

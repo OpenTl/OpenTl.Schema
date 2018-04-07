@@ -1,17 +1,15 @@
-﻿using System;
-using System.IO;
-using System.Reflection;
-
-namespace OpenTl.Schema.Serialization.Serializators.Interfaces
+﻿namespace OpenTl.Schema.Serialization.Serializators.Interfaces
 {
+    using System.Reflection;
+
     using DotNetty.Buffers;
 
     internal interface ISerializator
     {
         TypeInfo SupportedType { get; }
-        
-        void Serialize(IByteBuffer buffer, object value, SerializationMetadata metadata);
-        
+
         object Deserialize(IByteBuffer buffer, SerializationMetadata metadata);
+
+        void Serialize(object value, IByteBuffer buffer, SerializationMetadata metadata);
     }
 }

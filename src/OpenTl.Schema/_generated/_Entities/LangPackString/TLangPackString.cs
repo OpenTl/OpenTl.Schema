@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcad181f6)]
-	public class TLangPackString : ILangPackString
+	public sealed class TLangPackString : ILangPackString
 	{
        /// <summary>Binary representation for the 'Key' property</summary>
        [SerializationOrder(0)]

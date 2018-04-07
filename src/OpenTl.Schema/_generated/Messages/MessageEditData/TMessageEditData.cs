@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x26b5dde6)]
-	public class TMessageEditData : IMessageEditData
+	public sealed class TMessageEditData : IMessageEditData
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

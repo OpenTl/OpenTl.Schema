@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x84551347)]
-	public class TMessageMediaInvoice : IMessageMedia
+	public sealed class TMessageMediaInvoice : IMessageMedia
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb60a24a6)]
-	public class TStickerSet : IStickerSet
+	public sealed class TStickerSet : IStickerSet
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IStickerSet Set {get; set;}

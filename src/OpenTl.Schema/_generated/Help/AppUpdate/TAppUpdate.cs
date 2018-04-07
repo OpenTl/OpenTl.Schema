@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8987f311)]
-	public class TAppUpdate : IAppUpdate
+	public sealed class TAppUpdate : IAppUpdate
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

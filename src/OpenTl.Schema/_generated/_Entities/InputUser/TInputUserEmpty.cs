@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb98886cf)]
-	public class TInputUserEmpty : IInputUser, IEmpty
+	public sealed class TInputUserEmpty : IInputUser, IEmpty
 	{
 
 	}

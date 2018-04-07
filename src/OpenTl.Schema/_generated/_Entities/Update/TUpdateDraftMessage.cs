@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xee2bb969)]
-	public class TUpdateDraftMessage : IUpdate
+	public sealed class TUpdateDraftMessage : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPeer Peer {get; set;}

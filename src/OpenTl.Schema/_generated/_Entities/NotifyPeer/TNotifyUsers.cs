@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb4c83b4c)]
-	public class TNotifyUsers : INotifyPeer
+	public sealed class TNotifyUsers : INotifyPeer
 	{
 
 	}

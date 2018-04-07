@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc37521c9)]
-	public class TUpdateDeleteChannelMessages : IUpdate
+	public sealed class TUpdateDeleteChannelMessages : IUpdate
 	{
        [SerializationOrder(0)]
        public int ChannelId {get; set;}

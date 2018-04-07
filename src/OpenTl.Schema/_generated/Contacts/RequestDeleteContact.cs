@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8e953744)]
-    public class RequestDeleteContact : IRequest<OpenTl.Schema.Contacts.ILink>
+    public sealed class RequestDeleteContact : IRequest<OpenTl.Schema.Contacts.ILink>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser Id {get; set;}

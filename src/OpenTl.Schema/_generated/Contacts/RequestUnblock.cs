@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe54100bd)]
-    public class RequestUnblock : IRequest<bool>
+    public sealed class RequestUnblock : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser Id {get; set;}

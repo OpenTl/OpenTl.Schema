@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc4a353ee)]
-    public class RequestGetStatuses : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.TContactStatus>>
+    public sealed class RequestGetStatuses : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.TContactStatus>>
     {
 
     }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x70b772a8)]
-	public class TTopPeers : ITopPeers
+	public sealed class TTopPeers : ITopPeers
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.ITopPeerCategoryPeers> Categories {get; set;}

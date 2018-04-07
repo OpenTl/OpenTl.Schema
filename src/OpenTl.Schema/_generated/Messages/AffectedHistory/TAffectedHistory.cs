@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb45c69d1)]
-	public class TAffectedHistory : IAffectedHistory
+	public sealed class TAffectedHistory : IAffectedHistory
 	{
        [SerializationOrder(0)]
        public int Pts {get; set;}

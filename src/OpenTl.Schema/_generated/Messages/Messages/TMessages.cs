@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8c718e87)]
-	public class TMessages : IMessages
+	public sealed class TMessages : IMessages
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> Messages {get; set;}

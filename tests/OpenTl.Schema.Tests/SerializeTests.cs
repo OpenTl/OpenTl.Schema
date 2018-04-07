@@ -1,7 +1,5 @@
-using System;
 using System.IO;
 using System.Linq;
-using System.Net.Http.Headers;
 using DotNetty.Buffers;
 using OpenTl.Schema.Help;
 using OpenTl.Schema.Serialization;
@@ -11,7 +9,7 @@ using Xunit;
 
 namespace OpenTl.Schema.Tests
 {
-    public class SerializeTests
+    public sealed class SerializeTests
     {
         [Fact]
         public void RequestInvokeWithLayer_Serialize()
@@ -41,6 +39,7 @@ namespace OpenTl.Schema.Tests
             var obj = (RequestInvokeWithLayer) Serializer.Deserialize(buffer);
             
             Assert.Equal(request.Layer, obj.Layer);
+            Assert.NotNull(request.Query);
             Assert.IsType<RequestInitConnection>(request.Query);
         }
         
@@ -74,6 +73,8 @@ namespace OpenTl.Schema.Tests
             var obj = (TConfigSimple) Serializer.Deserialize(buffer);
             
             Assert.Equal(peer.Date, obj.Date);
+            Assert.Equal(peer.IpPortList.Count, obj.IpPortList.Count);
+            Assert.Equal(peer.IpPortList.First().Ipv4, obj.IpPortList.First().Ipv4);
         }
         
         [Fact]

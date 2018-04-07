@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x744694e0)]
-	public class TTextPlain : IRichText
+	public sealed class TTextPlain : IRichText
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

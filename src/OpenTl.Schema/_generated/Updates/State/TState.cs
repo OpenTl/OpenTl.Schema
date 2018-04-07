@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa56c2a3e)]
-	public class TState : IState
+	public sealed class TState : IState
 	{
        [SerializationOrder(0)]
        public int Pts {get; set;}

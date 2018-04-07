@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x488a7337)]
-	public class TMessageActionChatAddUser : IMessageAction
+	public sealed class TMessageActionChatAddUser : IMessageAction
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<int> Users {get; set;}

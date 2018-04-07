@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb9ffc55b)]
-    public class RequestFaveSticker : IRequest<bool>
+    public sealed class RequestFaveSticker : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputDocument Id {get; set;}

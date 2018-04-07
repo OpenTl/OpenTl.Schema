@@ -178,7 +178,6 @@
     <Folder Include="_generated\_Entities\Dialog" />
     <Folder Include="_generated\_Entities\Dialog" />
     <Folder Include="_generated\_Entities\DisabledFeature" />
-    <Folder Include="_generated\_Entities\DisabledFeature" />
     <Folder Include="_generated\_Entities\Document" />
     <Folder Include="_generated\_Entities\DocumentAttribute" />
     <Folder Include="_generated\_Entities\DraftMessage" />

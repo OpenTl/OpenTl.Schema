@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4fa417f2)]
-	public class TInputBotInlineResultGame : IInputBotInlineResult
+	public sealed class TInputBotInlineResultGame : IInputBotInlineResult
 	{
        /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xedd4882a)]
-    public class RequestGetState : IRequest<OpenTl.Schema.Updates.IState>
+    public sealed class RequestGetState : IRequest<OpenTl.Schema.Updates.IState>
     {
 
     }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2e0709a5)]
-	public class TSavedGifs : ISavedGifs
+	public sealed class TSavedGifs : ISavedGifs
 	{
        [SerializationOrder(0)]
        public int Hash {get; set;}

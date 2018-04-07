@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7b8e7de6)]
-	public class TInputPeerUser : IInputPeer
+	public sealed class TInputPeerUser : IInputPeer
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

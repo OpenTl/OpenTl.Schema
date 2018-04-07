@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xeae87e42)]
-	public class TContacts : IContacts
+	public sealed class TContacts : IContacts
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IContact> Contacts {get; set;}

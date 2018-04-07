@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2049d70c)]
-	public class TGeoPoint : IGeoPoint
+	public sealed class TGeoPoint : IGeoPoint
 	{
        [SerializationOrder(0)]
        public double Long {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb0e08243)]
-    public class RequestEditInlineBotMessage : IRequest<bool>
+    public sealed class RequestEditInlineBotMessage : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

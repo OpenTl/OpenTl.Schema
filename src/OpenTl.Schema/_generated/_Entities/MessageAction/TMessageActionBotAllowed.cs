@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xabe9affe)]
-	public class TMessageActionBotAllowed : IMessageAction
+	public sealed class TMessageActionBotAllowed : IMessageAction
 	{
        /// <summary>Binary representation for the 'Domain' property</summary>
        [SerializationOrder(0)]

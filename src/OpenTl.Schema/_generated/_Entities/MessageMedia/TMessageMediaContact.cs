@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5e7d2f39)]
-	public class TMessageMediaContact : IMessageMedia
+	public sealed class TMessageMediaContact : IMessageMedia
 	{
        /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]

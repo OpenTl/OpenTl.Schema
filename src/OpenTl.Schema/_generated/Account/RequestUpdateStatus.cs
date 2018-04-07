@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6628562c)]
-    public class RequestUpdateStatus : IRequest<bool>
+    public sealed class RequestUpdateStatus : IRequest<bool>
     {
        [SerializationOrder(0)]
        public bool Offline {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x74535f21)]
-	public class TMessagesNotModified : IMessages
+	public sealed class TMessagesNotModified : IMessages
 	{
        [SerializationOrder(0)]
        public int Count {get; set;}

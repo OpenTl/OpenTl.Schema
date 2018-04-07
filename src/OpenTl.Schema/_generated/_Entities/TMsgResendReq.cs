@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7d861a08)]
-	public class TMsgResendReq : IObject
+	public sealed class TMsgResendReq : IObject
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<long> MsgIds {get; set;}

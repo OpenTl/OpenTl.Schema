@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xed18c118)]
-	public class TEncryptedMessage : IEncryptedMessage
+	public sealed class TEncryptedMessage : IEncryptedMessage
 	{
        [SerializationOrder(0)]
        public long RandomId {get; set;}

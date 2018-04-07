@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8e48a188)]
-    public class RequestDropTempAuthKeys : IRequest<bool>
+    public sealed class RequestDropTempAuthKeys : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<long> ExceptAuthKeys {get; set;}

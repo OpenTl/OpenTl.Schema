@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcb296bf8)]
-	public class TLabeledPrice : ILabeledPrice
+	public sealed class TLabeledPrice : ILabeledPrice
 	{
        /// <summary>Binary representation for the 'Label' property</summary>
        [SerializationOrder(0)]

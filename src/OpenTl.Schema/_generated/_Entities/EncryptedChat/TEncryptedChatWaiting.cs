@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3bf703dc)]
-	public class TEncryptedChatWaiting : IEncryptedChat
+	public sealed class TEncryptedChatWaiting : IEncryptedChat
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

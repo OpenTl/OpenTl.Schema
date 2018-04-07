@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6a9d7b35)]
-	public class TChannelDifferenceTooLong : IChannelDifference
+	public sealed class TChannelDifferenceTooLong : IChannelDifference
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

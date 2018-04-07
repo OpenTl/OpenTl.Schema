@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf392b7f4)]
-	public class TInputPhoneContact : IInputContact
+	public sealed class TInputPhoneContact : IInputContact
 	{
        [SerializationOrder(0)]
        public long ClientId {get; set;}

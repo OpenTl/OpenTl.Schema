@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x914fbf11)]
-	public class TUpdateShortMessage : IUpdates
+	public sealed class TUpdateShortMessage : IUpdates
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

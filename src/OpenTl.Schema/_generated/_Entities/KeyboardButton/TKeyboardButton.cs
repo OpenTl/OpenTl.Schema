@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa2fa4880)]
-	public class TKeyboardButton : IKeyboardButton
+	public sealed class TKeyboardButton : IKeyboardButton
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

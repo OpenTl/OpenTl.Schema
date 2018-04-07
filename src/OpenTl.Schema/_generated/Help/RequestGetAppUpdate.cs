@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xae2de196)]
-    public class RequestGetAppUpdate : IRequest<OpenTl.Schema.Help.IAppUpdate>
+    public sealed class RequestGetAppUpdate : IRequest<OpenTl.Schema.Help.IAppUpdate>
     {
 
     }

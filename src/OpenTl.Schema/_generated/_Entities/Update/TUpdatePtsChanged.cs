@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3354678f)]
-	public class TUpdatePtsChanged : IUpdate
+	public sealed class TUpdatePtsChanged : IUpdate
 	{
 
 	}

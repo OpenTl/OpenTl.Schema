@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc7f49b7)]
-	public class TPrivacyValueDisallowUsers : IPrivacyRule
+	public sealed class TPrivacyValueDisallowUsers : IPrivacyRule
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<int> Users {get; set;}

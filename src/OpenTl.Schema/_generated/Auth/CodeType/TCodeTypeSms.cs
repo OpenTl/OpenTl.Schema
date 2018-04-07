@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x72a3158c)]
-	public class TCodeTypeSms : ICodeType
+	public sealed class TCodeTypeSms : ICodeType
 	{
 
 	}

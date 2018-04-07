@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbaafe5e0)]
-	public class TPageBlockAuthorDate : IPageBlock
+	public sealed class TPageBlockAuthorDate : IPageBlock
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Author {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc7560885)]
-    public class RequestExportInvite : IRequest<OpenTl.Schema.IExportedChatInvite>
+    public sealed class RequestExportInvite : IRequest<OpenTl.Schema.IExportedChatInvite>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

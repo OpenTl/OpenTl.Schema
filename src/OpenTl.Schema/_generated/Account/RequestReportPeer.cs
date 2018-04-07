@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xae189d5f)]
-    public class RequestReportPeer : IRequest<bool>
+    public sealed class RequestReportPeer : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

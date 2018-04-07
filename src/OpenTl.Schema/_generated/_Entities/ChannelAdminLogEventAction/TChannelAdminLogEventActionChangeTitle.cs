@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe6dfb825)]
-	public class TChannelAdminLogEventActionChangeTitle : IChannelAdminLogEventAction
+	public sealed class TChannelAdminLogEventActionChangeTitle : IChannelAdminLogEventAction
 	{
        /// <summary>Binary representation for the 'PrevValue' property</summary>
        [SerializationOrder(0)]

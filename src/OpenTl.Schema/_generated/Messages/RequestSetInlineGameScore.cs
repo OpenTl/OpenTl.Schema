@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x15ad9f64)]
-    public class RequestSetInlineGameScore : IRequest<bool>
+    public sealed class RequestSetInlineGameScore : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

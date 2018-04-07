@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1ae373ac)]
-    public class RequestResetTopPeerRating : IRequest<bool>
+    public sealed class RequestResetTopPeerRating : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.ITopPeerCategory Category {get; set;}

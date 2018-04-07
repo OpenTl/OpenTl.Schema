@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x96dabc18)]
-	public class TNoPassword : IPassword
+	public sealed class TNoPassword : IPassword
 	{
        [SerializationOrder(0)]
        public byte[] NewSalt {get; set;}

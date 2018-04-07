@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x83c95aec)]
-	public class TPQInnerData : IObject
+	public sealed class TPQInnerData : IObject
 	{
        /// <summary>Binary representation for the 'Pq' property</summary>
        [SerializationOrder(0)]

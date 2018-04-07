@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7f077ad9)]
-	public class TResolvedPeer : IResolvedPeer
+	public sealed class TResolvedPeer : IResolvedPeer
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPeer Peer {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd4982db5)]
-    public class RequestGetTopPeers : IRequest<OpenTl.Schema.Contacts.ITopPeers>
+    public sealed class RequestGetTopPeers : IRequest<OpenTl.Schema.Contacts.ITopPeers>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

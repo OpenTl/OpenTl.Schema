@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9e3cacb0)]
-    public class RequestSearchGlobal : IRequest<OpenTl.Schema.Messages.IMessages>
+    public sealed class RequestSearchGlobal : IRequest<OpenTl.Schema.Messages.IMessages>
     {
        /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2442485e)]
-    public class RequestSetAccountTTL : IRequest<bool>
+    public sealed class RequestSetAccountTTL : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IAccountDaysTTL Ttl {get; set;}

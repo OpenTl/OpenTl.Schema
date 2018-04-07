@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xea107ae4)]
-	public class TChannelAdminLogEventsFilter : IChannelAdminLogEventsFilter
+	public sealed class TChannelAdminLogEventsFilter : IChannelAdminLogEventsFilter
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

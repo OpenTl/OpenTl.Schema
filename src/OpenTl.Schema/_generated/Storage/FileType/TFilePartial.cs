@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x40bc6f52)]
-	public class TFilePartial : IFileType
+	public sealed class TFilePartial : IFileType
 	{
 
 	}

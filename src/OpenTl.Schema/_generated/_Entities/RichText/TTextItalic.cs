@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd912a59c)]
-	public class TTextItalic : IRichText
+	public sealed class TTextItalic : IRichText
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xeb0467fb)]
-	public class TUpdateChannelTooLong : IUpdate
+	public sealed class TUpdateChannelTooLong : IUpdate
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

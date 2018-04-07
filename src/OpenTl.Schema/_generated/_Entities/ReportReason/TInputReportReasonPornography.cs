@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2e59d922)]
-	public class TInputReportReasonPornography : IReportReason
+	public sealed class TInputReportReasonPornography : IReportReason
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xde7b673d)]
-    public class RequestSaveBigFilePart : IRequest<bool>
+    public sealed class RequestSaveBigFilePart : IRequest<bool>
     {
        [SerializationOrder(0)]
        public long FileId {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfb8fe43c)]
-	public class TSavedInfo : ISavedInfo
+	public sealed class TSavedInfo : ISavedInfo
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

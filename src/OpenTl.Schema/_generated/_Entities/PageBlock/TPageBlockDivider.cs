@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdb20b188)]
-	public class TPageBlockDivider : IPageBlock
+	public sealed class TPageBlockDivider : IPageBlock
 	{
 
 	}

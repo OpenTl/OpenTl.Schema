@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x15590068)]
-	public class TDocumentAttributeFilename : IDocumentAttribute
+	public sealed class TDocumentAttributeFilename : IDocumentAttribute
 	{
        /// <summary>Binary representation for the 'FileName' property</summary>
        [SerializationOrder(0)]

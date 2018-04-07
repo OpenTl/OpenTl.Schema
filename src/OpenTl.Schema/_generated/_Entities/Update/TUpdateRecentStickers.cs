@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9a422c20)]
-	public class TUpdateRecentStickers : IUpdate
+	public sealed class TUpdateRecentStickers : IUpdate
 	{
 
 	}

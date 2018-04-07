@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc982eaba)]
-	public class TCdnPublicKey : ICdnPublicKey
+	public sealed class TCdnPublicKey : ICdnPublicKey
 	{
        [SerializationOrder(0)]
        public int DcId {get; set;}

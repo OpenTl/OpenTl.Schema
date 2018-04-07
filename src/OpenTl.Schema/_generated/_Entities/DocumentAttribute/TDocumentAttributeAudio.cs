@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9852f9c6)]
-	public class TDocumentAttributeAudio : IDocumentAttribute
+	public sealed class TDocumentAttributeAudio : IDocumentAttribute
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

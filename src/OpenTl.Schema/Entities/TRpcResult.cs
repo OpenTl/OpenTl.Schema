@@ -10,13 +10,13 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf35c6d01)]
-	public class TRpcResult : IObject
+	public sealed class TRpcResult : IObject
 	{
        [SerializationOrder(0)]
        public long ReqMsgId {get; set;}
 
        [SerializationOrder(1)]
-       public object Result {get; set;}
+       public byte[] Result {get; set;}
 
 	}
 }

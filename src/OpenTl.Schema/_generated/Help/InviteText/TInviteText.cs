@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x18cb9f78)]
-	public class TInviteText : IInviteText
+	public sealed class TInviteText : IInviteText
 	{
        /// <summary>Binary representation for the 'Message' property</summary>
        [SerializationOrder(0)]

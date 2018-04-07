@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc27ac8c7)]
-	public class TBotCommand : IBotCommand
+	public sealed class TBotCommand : IBotCommand
 	{
        /// <summary>Binary representation for the 'Command' property</summary>
        [SerializationOrder(0)]

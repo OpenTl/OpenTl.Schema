@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x13567e8a)]
-	public class TPageBlockUnsupported : IPageBlock
+	public sealed class TPageBlockUnsupported : IPageBlock
 	{
 
 	}

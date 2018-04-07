@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x137948a5)]
-	public class TPasswordRecovery : IPasswordRecovery
+	public sealed class TPasswordRecovery : IPasswordRecovery
 	{
        /// <summary>Binary representation for the 'EmailPattern' property</summary>
        [SerializationOrder(0)]

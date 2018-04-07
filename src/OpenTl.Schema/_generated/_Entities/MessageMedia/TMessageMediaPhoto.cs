@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x695150d7)]
-	public class TMessageMediaPhoto : IMessageMedia
+	public sealed class TMessageMediaPhoto : IMessageMedia
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4afe8f6d)]
-	public class TDifferenceTooLong : IDifference
+	public sealed class TDifferenceTooLong : IDifference
 	{
        [SerializationOrder(0)]
        public int Pts {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x13e27f1e)]
-    public class RequestEditAbout : IRequest<bool>
+    public sealed class RequestEditAbout : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

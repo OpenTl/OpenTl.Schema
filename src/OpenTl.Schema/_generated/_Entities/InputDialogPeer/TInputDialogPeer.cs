@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfcaafeb7)]
-	public class TInputDialogPeer : IInputDialogPeer
+	public sealed class TInputDialogPeer : IInputDialogPeer
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc7025931)]
-    public class RequestGetFileHashes : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IFileHash>>
+    public sealed class RequestGetFileHashes : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IFileHash>>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputFileLocation Location {get; set;}

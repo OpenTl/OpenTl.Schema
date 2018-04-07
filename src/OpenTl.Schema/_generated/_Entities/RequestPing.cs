@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7abe77ec)]
-    public class RequestPing : IRequest<OpenTl.Schema.IPong>
+    public sealed class RequestPing : IRequest<OpenTl.Schema.IPong>
     {
        [SerializationOrder(0)]
        public long PingId {get; set;}

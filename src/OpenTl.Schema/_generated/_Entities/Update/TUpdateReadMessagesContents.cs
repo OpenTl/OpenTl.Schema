@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x68c13933)]
-	public class TUpdateReadMessagesContents : IUpdate
+	public sealed class TUpdateReadMessagesContents : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<int> Messages {get; set;}

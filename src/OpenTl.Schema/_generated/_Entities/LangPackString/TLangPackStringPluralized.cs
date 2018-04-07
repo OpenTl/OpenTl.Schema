@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6c47ac9f)]
-	public class TLangPackStringPluralized : ILangPackString
+	public sealed class TLangPackStringPluralized : ILangPackString
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x559ebe6d)]
-	public class TMessageFwdHeader : IMessageFwdHeader
+	public sealed class TMessageFwdHeader : IMessageFwdHeader
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

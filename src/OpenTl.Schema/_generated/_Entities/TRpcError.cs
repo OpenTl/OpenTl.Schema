@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2144ca19)]
-	public class TRpcError : IObject
+	public sealed class TRpcError : IObject
 	{
        [SerializationOrder(0)]
        public int ErrorCode {get; set;}

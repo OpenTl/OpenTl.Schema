@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9ec20908)]
-	public class TNewSessionCreated : IObject
+	public sealed class TNewSessionCreated : IObject
 	{
        [SerializationOrder(0)]
        public long FirstMsgId {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2f2f21bf)]
-	public class TUpdateReadHistoryOutbox : IUpdate
+	public sealed class TUpdateReadHistoryOutbox : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPeer Peer {get; set;}

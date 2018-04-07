@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7d885289)]
-    public class RequestExportChatInvite : IRequest<OpenTl.Schema.IExportedChatInvite>
+    public sealed class RequestExportChatInvite : IRequest<OpenTl.Schema.IExportedChatInvite>
     {
        [SerializationOrder(0)]
        public int ChatId {get; set;}

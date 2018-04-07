@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcd77d957)]
-	public class TChannelMessagesFilter : IChannelMessagesFilter
+	public sealed class TChannelMessagesFilter : IChannelMessagesFilter
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

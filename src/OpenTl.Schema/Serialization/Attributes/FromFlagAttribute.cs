@@ -1,9 +1,9 @@
-using System;
-
 namespace OpenTl.Schema.Serialization.Attributes
 {
+    using System;
+
     [AttributeUsage(AttributeTargets.Property)]
-    internal class FromFlagAttribute: Attribute
+    internal class FromFlagAttribute : Attribute
     {
         internal string PropertyName { get; }
 

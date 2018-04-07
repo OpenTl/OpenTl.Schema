@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa676a322)]
-	public class TInputMessageID : IInputMessage
+	public sealed class TInputMessageID : IInputMessage
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

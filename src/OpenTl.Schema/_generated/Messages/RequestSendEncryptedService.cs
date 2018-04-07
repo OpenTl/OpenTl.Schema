@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x32d439a4)]
-    public class RequestSendEncryptedService : IRequest<OpenTl.Schema.Messages.ISentEncryptedMessage>
+    public sealed class RequestSendEncryptedService : IRequest<OpenTl.Schema.Messages.ISentEncryptedMessage>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}

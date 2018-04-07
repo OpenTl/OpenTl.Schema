@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa2bb35cb)]
-	public class TPhoneCallProtocol : IPhoneCallProtocol
+	public sealed class TPhoneCallProtocol : IPhoneCallProtocol
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

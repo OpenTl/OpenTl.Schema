@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xed56c9fc)]
-	public class TWebAuthorizations : IWebAuthorizations
+	public sealed class TWebAuthorizations : IWebAuthorizations
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IWebAuthorization> Authorizations {get; set;}

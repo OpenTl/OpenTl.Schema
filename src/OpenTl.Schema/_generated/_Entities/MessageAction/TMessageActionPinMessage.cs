@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x94bd38ed)]
-	public class TMessageActionPinMessage : IMessageAction
+	public sealed class TMessageActionPinMessage : IMessageAction
 	{
 
 	}

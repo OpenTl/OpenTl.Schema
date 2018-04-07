@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5dab1af4)]
-	public class TExportedMessageLink : IExportedMessageLink
+	public sealed class TExportedMessageLink : IExportedMessageLink
 	{
        /// <summary>Binary representation for the 'Link' property</summary>
        [SerializationOrder(0)]

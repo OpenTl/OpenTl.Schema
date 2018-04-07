@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb17f890)]
-	public class TRecentStickersNotModified : IRecentStickers
+	public sealed class TRecentStickersNotModified : IRecentStickers
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2c221edd)]
-	public class TDhConfig : IDhConfig
+	public sealed class TDhConfig : IDhConfig
 	{
        [SerializationOrder(0)]
        public int G {get; set;}

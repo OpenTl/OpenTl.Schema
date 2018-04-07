@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xea4cb65b)]
-	public class TUpdatePinnedDialogs : IUpdate
+	public sealed class TUpdatePinnedDialogs : IUpdate
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

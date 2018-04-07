@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x26cf8950)]
-    public class RequestGetDhConfig : IRequest<OpenTl.Schema.Messages.IDhConfig>
+    public sealed class RequestGetDhConfig : IRequest<OpenTl.Schema.Messages.IDhConfig>
     {
        [SerializationOrder(0)]
        public int Version {get; set;}

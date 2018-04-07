@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x58dbcab8)]
-	public class TInputReportReasonSpam : IReportReason
+	public sealed class TInputReportReasonSpam : IReportReason
 	{
 
 	}

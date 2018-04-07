@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2e13f4c3)]
-	public class TUser : IUser
+	public sealed class TUser : IUser
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

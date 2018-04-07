@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa8f1709b)]
-    public class RequestHideReportSpam : IRequest<bool>
+    public sealed class RequestHideReportSpam : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

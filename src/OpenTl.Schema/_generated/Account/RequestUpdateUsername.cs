@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3e0bdd7c)]
-    public class RequestUpdateUsername : IRequest<OpenTl.Schema.IUser>
+    public sealed class RequestUpdateUsername : IRequest<OpenTl.Schema.IUser>
     {
        /// <summary>Binary representation for the 'Username' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfa4f0bb5)]
-	public class TInputFileBig : IInputFile
+	public sealed class TInputFileBig : IInputFile
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x40699cd0)]
-	public class TMessageActionPaymentSent : IMessageAction
+	public sealed class TMessageActionPaymentSent : IMessageAction
 	{
        /// <summary>Binary representation for the 'Currency' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4843b0fd)]
-	public class TInputMediaGifExternal : IInputMedia
+	public sealed class TInputMediaGifExternal : IInputMedia
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

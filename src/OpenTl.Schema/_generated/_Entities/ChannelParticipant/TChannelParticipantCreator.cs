@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe3e2e1f9)]
-	public class TChannelParticipantCreator : IChannelParticipant
+	public sealed class TChannelParticipantCreator : IChannelParticipant
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

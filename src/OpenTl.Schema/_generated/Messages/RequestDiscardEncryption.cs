@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xedd923c5)]
-    public class RequestDiscardEncryption : IRequest<bool>
+    public sealed class RequestDiscardEncryption : IRequest<bool>
     {
        [SerializationOrder(0)]
        public int ChatId {get; set;}

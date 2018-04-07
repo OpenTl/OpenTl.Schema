@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2331b22d)]
-	public class TPhotoEmpty : IPhoto, IEmpty
+	public sealed class TPhotoEmpty : IPhoto, IEmpty
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

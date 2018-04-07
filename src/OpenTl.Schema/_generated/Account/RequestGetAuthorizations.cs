@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe320c158)]
-    public class RequestGetAuthorizations : IRequest<OpenTl.Schema.Account.IAuthorizations>
+    public sealed class RequestGetAuthorizations : IRequest<OpenTl.Schema.Account.IAuthorizations>
     {
 
     }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3417d728)]
-	public class TInputPaymentCredentials : IInputPaymentCredentials
+	public sealed class TInputPaymentCredentials : IInputPaymentCredentials
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

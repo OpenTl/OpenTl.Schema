@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x58cf4249)]
-	public class TChannelBannedRights : IChannelBannedRights
+	public sealed class TChannelBannedRights : IChannelBannedRights
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

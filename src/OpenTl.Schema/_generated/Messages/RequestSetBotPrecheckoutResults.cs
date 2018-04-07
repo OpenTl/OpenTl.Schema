@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9c2dd95)]
-    public class RequestSetBotPrecheckoutResults : IRequest<bool>
+    public sealed class RequestSetBotPrecheckoutResults : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

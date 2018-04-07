@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x162ecc1f)]
-	public class TFoundGif : IFoundGif
+	public sealed class TFoundGif : IFoundGif
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

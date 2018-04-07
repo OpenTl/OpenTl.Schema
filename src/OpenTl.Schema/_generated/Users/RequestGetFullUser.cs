@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Users
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xca30a5b1)]
-    public class RequestGetFullUser : IRequest<OpenTl.Schema.IUserFull>
+    public sealed class RequestGetFullUser : IRequest<OpenTl.Schema.IUserFull>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser Id {get; set;}

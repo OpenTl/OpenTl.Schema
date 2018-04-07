@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbc2eab30)]
-	public class TPrivacyKeyStatusTimestamp : IPrivacyKey
+	public sealed class TPrivacyKeyStatusTimestamp : IPrivacyKey
 	{
 
 	}

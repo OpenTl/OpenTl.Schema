@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x818426cd)]
-	public class TPeerSettings : IPeerSettings
+	public sealed class TPeerSettings : IPeerSettings
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

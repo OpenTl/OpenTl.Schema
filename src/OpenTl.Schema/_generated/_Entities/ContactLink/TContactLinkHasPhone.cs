@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x268f3f59)]
-	public class TContactLinkHasPhone : IContactLink
+	public sealed class TContactLinkHasPhone : IContactLink
 	{
 
 	}

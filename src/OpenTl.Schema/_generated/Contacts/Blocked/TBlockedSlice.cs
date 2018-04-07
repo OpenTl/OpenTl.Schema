@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x900802a1)]
-	public class TBlockedSlice : IBlocked
+	public sealed class TBlockedSlice : IBlocked
 	{
        [SerializationOrder(0)]
        public int Count {get; set;}

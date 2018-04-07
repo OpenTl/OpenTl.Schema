@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x289da732)]
-	public class TChannelForbidden : IChat
+	public sealed class TChannelForbidden : IChat
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

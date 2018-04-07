@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd52f73f7)]
-	public class TSendMessageRecordAudioAction : ISendMessageAction
+	public sealed class TSendMessageRecordAudioAction : ISendMessageAction
 	{
 
 	}

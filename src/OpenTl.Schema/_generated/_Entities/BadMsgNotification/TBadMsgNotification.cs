@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa7eff811)]
-	public class TBadMsgNotification : IBadMsgNotification
+	public sealed class TBadMsgNotification : IBadMsgNotification
 	{
        [SerializationOrder(0)]
        public long BadMsgId {get; set;}

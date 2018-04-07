@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe0cdc940)]
-	public class TUpdateBotShippingQuery : IUpdate
+	public sealed class TUpdateBotShippingQuery : IUpdate
 	{
        [SerializationOrder(0)]
        public long QueryId {get; set;}

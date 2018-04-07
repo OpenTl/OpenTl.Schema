@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x55451fa9)]
-    public class RequestGetCallConfig : IRequest<OpenTl.Schema.IDataJSON>
+    public sealed class RequestGetCallConfig : IRequest<OpenTl.Schema.IDataJSON>
     {
 
     }

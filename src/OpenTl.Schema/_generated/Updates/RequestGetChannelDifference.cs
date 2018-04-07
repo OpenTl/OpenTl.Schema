@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3173d78)]
-    public class RequestGetChannelDifference : IRequest<OpenTl.Schema.Updates.IChannelDifference>
+    public sealed class RequestGetChannelDifference : IRequest<OpenTl.Schema.Updates.IChannelDifference>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

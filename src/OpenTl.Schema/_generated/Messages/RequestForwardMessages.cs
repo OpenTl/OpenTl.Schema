@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x708e0195)]
-    public class RequestForwardMessages : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestForwardMessages : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

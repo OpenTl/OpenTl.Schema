@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x95313b0c)]
-	public class TUpdateUserPhoto : IUpdate
+	public sealed class TUpdateUserPhoto : IUpdate
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

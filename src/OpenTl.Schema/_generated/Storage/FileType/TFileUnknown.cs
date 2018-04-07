@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaa963b05)]
-	public class TFileUnknown : IFileType
+	public sealed class TFileUnknown : IFileType
 	{
 
 	}

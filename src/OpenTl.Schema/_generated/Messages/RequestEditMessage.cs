@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5d1b8dd)]
-    public class RequestEditMessage : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestEditMessage : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

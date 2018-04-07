@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc13d1c11)]
-	public class TInputMediaVenue : IInputMedia
+	public sealed class TInputMediaVenue : IInputMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputGeoPoint GeoPoint {get; set;}

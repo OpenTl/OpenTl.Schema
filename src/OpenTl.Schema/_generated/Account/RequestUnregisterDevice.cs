@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3076c4bf)]
-    public class RequestUnregisterDevice : IRequest<bool>
+    public sealed class RequestUnregisterDevice : IRequest<bool>
     {
        [SerializationOrder(0)]
        public int TokenType {get; set;}

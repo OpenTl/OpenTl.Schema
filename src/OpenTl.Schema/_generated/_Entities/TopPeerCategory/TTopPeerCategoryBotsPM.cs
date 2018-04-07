@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xab661b5b)]
-	public class TTopPeerCategoryBotsPM : ITopPeerCategory
+	public sealed class TTopPeerCategoryBotsPM : ITopPeerCategory
 	{
 
 	}

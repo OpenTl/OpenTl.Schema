@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd0e8075c)]
-	public class TServerDHParamsOk : IServerDHParams
+	public sealed class TServerDHParamsOk : IServerDHParams
 	{
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

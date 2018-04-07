@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6c50051c)]
-    public class RequestImportChatInvite : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestImportChatInvite : IRequest<OpenTl.Schema.IUpdates>
     {
        /// <summary>Binary representation for the 'Hash' property</summary>
        [SerializationOrder(0)]

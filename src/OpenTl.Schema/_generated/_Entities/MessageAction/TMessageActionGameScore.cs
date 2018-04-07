@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x92a72876)]
-	public class TMessageActionGameScore : IMessageAction
+	public sealed class TMessageActionGameScore : IMessageAction
 	{
        [SerializationOrder(0)]
        public long GameId {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xed8af74d)]
-	public class TAdminLogResults : IAdminLogResults
+	public sealed class TAdminLogResults : IAdminLogResults
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IChannelAdminLogEvent> Events {get; set;}

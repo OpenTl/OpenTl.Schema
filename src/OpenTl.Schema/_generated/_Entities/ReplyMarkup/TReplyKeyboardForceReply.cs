@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf4108aa0)]
-	public class TReplyKeyboardForceReply : IReplyMarkup
+	public sealed class TReplyKeyboardForceReply : IReplyMarkup
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

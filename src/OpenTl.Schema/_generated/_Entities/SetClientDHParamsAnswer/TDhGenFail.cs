@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa69dae02)]
-	public class TDhGenFail : ISetClientDHParamsAnswer
+	public sealed class TDhGenFail : ISetClientDHParamsAnswer
 	{
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

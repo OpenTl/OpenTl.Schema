@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Langpack
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb2e4d7d)]
-    public class RequestGetDifference : IRequest<OpenTl.Schema.ILangPackDifference>
+    public sealed class RequestGetDifference : IRequest<OpenTl.Schema.ILangPackDifference>
     {
        [SerializationOrder(0)]
        public int FromVersion {get; set;}

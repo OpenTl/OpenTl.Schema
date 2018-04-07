@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5e002502)]
-	public class TSentCode : ISentCode
+	public sealed class TSentCode : ISentCode
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

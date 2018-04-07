@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5b118126)]
-    public class RequestReadFeaturedStickers : IRequest<bool>
+    public sealed class RequestReadFeaturedStickers : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<long> Id {get; set;}

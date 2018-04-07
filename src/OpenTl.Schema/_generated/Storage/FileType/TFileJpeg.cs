@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7efe0e)]
-	public class TFileJpeg : IFileType
+	public sealed class TFileJpeg : IFileType
 	{
 
 	}

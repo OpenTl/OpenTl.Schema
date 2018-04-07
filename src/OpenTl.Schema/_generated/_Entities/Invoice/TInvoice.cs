@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc30aa358)]
-	public class TInvoice : IInvoice
+	public sealed class TInvoice : IInvoice
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

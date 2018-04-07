@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5a17b5e5)]
-	public class TInputEncryptedFile : IInputEncryptedFile
+	public sealed class TInputEncryptedFile : IInputEncryptedFile
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

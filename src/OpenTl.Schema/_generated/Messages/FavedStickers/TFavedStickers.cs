@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf37f2f16)]
-	public class TFavedStickers : IFavedStickers
+	public sealed class TFavedStickers : IFavedStickers
 	{
        [SerializationOrder(0)]
        public int Hash {get; set;}

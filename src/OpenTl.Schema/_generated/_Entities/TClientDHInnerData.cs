@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6643b654)]
-	public class TClientDHInnerData : IObject
+	public sealed class TClientDHInnerData : IObject
 	{
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

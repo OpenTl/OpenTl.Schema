@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd10dd71b)]
-    public class RequestDeleteUserHistory : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
+    public sealed class RequestDeleteUserHistory : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x63117f24)]
-	public class TWallPaperSolid : IWallPaper
+	public sealed class TWallPaperSolid : IWallPaper
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

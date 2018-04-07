@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdb74f558)]
-	public class TChatInvite : IChatInvite
+	public sealed class TChatInvite : IChatInvite
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

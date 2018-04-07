@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb8bc5b0c)]
-	public class TInputNotifyPeer : IInputNotifyPeer
+	public sealed class TInputNotifyPeer : IInputNotifyPeer
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

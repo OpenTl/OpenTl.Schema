@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x347773c5)]
-	public class TPong : IPong
+	public sealed class TPong : IPong
 	{
        [SerializationOrder(0)]
        public long MsgId {get; set;}

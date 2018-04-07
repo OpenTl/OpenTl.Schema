@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x39f23300)]
-	public class TPageBlockCover : IPageBlock
+	public sealed class TPageBlockCover : IPageBlock
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPageBlock Cover {get; set;}

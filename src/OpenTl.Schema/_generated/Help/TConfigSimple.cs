@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd997c3c5)]
-	public class TConfigSimple : IObject
+	public sealed class TConfigSimple : IObject
 	{
        [SerializationOrder(0)]
        public int Date {get; set;}

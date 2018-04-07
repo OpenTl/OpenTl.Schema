@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7fcb13a8)]
-	public class TMessageActionChatEditPhoto : IMessageAction
+	public sealed class TMessageActionChatEditPhoto : IMessageAction
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPhoto Photo {get; set;}

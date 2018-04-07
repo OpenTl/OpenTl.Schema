@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9288dd29)]
-	public class TPhoto : IPhoto
+	public sealed class TPhoto : IPhoto
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

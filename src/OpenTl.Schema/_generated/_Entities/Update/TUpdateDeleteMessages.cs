@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa20db0e5)]
-	public class TUpdateDeleteMessages : IUpdate
+	public sealed class TUpdateDeleteMessages : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<int> Messages {get; set;}

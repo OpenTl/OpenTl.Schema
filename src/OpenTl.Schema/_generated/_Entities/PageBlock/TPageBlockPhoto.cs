@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe9c69982)]
-	public class TPageBlockPhoto : IPageBlock
+	public sealed class TPageBlockPhoto : IPageBlock
 	{
        [SerializationOrder(0)]
        public long PhotoId {get; set;}

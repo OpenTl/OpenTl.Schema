@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xee3b272a)]
-	public class TUpdatePrivacy : IUpdate
+	public sealed class TUpdatePrivacy : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPrivacyKey Key {get; set;}

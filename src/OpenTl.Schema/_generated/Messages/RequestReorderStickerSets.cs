@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x78337739)]
-    public class RequestReorderStickerSets : IRequest<bool>
+    public sealed class RequestReorderStickerSets : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

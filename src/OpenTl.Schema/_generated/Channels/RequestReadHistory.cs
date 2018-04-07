@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcc104937)]
-    public class RequestReadHistory : IRequest<bool>
+    public sealed class RequestReadHistory : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfaf7e8c9)]
-	public class TPhoneCallDiscardReasonBusy : IPhoneCallDiscardReason
+	public sealed class TPhoneCallDiscardReasonBusy : IPhoneCallDiscardReason
 	{
 
 	}

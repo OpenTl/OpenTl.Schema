@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x53d69076)]
-	public class TFileLocation : IFileLocation
+	public sealed class TFileLocation : IFileLocation
 	{
        [SerializationOrder(0)]
        public int DcId {get; set;}

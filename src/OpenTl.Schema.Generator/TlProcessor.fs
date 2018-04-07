@@ -40,7 +40,7 @@ let private createMethod parseResult =
     if String.IsNullOrEmpty sConstr then
         failwith "sConstr must be fill"
 
-    {Id = "0x" + sConstr; Method = sName; GenericType = sGenericType; Params = prms; Type = sResult }
+    {Id = "0x" + sConstr; Method = sName; GenericType = sGenericType; Attrs = prms; Type = sResult }
 
 let private createType parseResult = 
     let (sName:string), (sConstr:string), (sGenericType:string), (sPrms:string), (sResult:string) = parseResult
@@ -50,7 +50,7 @@ let private createType parseResult =
     if String.IsNullOrEmpty sConstr then
         failwith "sConstr must be fill"
     
-    {Id = "0x" + sConstr; Predicate = sName; GenericType = sGenericType; Params = prms; Type = sResult }
+    {Id = "0x" + sConstr; Predicate = sName; GenericType = sGenericType; Attrs = prms; Type = sResult }
 
 let parseTlSchema (lines: string seq) =
     let schema = {Types = new List<TlType>(); Requests = new List<TlRequest>()}

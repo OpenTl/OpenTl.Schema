@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf9a0aa09)]
-    public class RequestAddChatUser : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestAddChatUser : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public int ChatId {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5ce14175)]
-	public class TPopularContact : IPopularContact
+	public sealed class TPopularContact : IPopularContact
 	{
        [SerializationOrder(0)]
        public long ClientId {get; set;}

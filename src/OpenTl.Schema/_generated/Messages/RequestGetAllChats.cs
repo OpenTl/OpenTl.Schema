@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xeba80ff0)]
-    public class RequestGetAllChats : IRequest<OpenTl.Schema.Messages.IChats>
+    public sealed class RequestGetAllChats : IRequest<OpenTl.Schema.Messages.IChats>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<int> ExceptIds {get; set;}

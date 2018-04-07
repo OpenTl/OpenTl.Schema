@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd54b65d)]
-	public class TFoundStickerSetsNotModified : IFoundStickerSets
+	public sealed class TFoundStickerSetsNotModified : IFoundStickerSets
 	{
 
 	}

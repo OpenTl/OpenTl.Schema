@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5cbea590)]
-    public class RequestRegisterDevice : IRequest<bool>
+    public sealed class RequestRegisterDevice : IRequest<bool>
     {
        [SerializationOrder(0)]
        public int TokenType {get; set;}

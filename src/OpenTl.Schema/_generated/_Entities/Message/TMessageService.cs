@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9e19a1f6)]
-	public class TMessageService : IMessage
+	public sealed class TMessageService : IMessage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

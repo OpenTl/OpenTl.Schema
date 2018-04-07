@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb6d45656)]
-	public class TUpdateChannel : IUpdate
+	public sealed class TUpdateChannel : IUpdate
 	{
        [SerializationOrder(0)]
        public int ChannelId {get; set;}

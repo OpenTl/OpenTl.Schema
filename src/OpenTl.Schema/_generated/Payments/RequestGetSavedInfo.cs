@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x227d824b)]
-    public class RequestGetSavedInfo : IRequest<OpenTl.Schema.Payments.ISavedInfo>
+    public sealed class RequestGetSavedInfo : IRequest<OpenTl.Schema.Payments.ISavedInfo>
     {
 
     }

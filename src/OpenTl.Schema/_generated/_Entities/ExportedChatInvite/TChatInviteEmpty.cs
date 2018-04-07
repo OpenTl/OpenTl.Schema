@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x69df3769)]
-	public class TChatInviteEmpty : IExportedChatInvite, IEmpty
+	public sealed class TChatInviteEmpty : IExportedChatInvite, IEmpty
 	{
 
 	}

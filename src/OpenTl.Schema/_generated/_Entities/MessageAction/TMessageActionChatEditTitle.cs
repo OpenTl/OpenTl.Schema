@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb5a1ce5a)]
-	public class TMessageActionChatEditTitle : IMessageAction
+	public sealed class TMessageActionChatEditTitle : IMessageAction
 	{
        /// <summary>Binary representation for the 'Title' property</summary>
        [SerializationOrder(0)]

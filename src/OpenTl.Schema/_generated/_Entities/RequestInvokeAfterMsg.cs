@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcb9f372d)]
-    public class RequestInvokeAfterMsg : IRequest<IObject>
+    public sealed class RequestInvokeAfterMsg : IRequest<IObject>
     {
        [SerializationOrder(0)]
        public long MsgId {get; set;}

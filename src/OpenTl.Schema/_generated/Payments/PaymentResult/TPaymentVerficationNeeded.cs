@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6b56b921)]
-	public class TPaymentVerficationNeeded : IPaymentResult
+	public sealed class TPaymentVerficationNeeded : IPaymentResult
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

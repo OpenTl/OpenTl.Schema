@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6f02f748)]
-    public class RequestSaveAppLog : IRequest<bool>
+    public sealed class RequestSaveAppLog : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IInputAppEvent> Events {get; set;}

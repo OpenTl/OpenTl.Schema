@@ -7,7 +7,7 @@
             return obj as T;
         }
         
-        public static T Cast<T>(this IObject obj) where T: IObject
+        public static T Is<T>(this IObject obj) where T: IObject
         {
             return (T)obj;
         }

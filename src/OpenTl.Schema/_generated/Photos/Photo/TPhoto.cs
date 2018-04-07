@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Photos
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x20212ca8)]
-	public class TPhoto : IPhoto
+	public sealed class TPhoto : IPhoto
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPhoto Photo {get; set;}

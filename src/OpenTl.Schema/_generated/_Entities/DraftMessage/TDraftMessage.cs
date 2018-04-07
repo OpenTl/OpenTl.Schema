@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfd8e711f)]
-	public class TDraftMessage : IDraftMessage
+	public sealed class TDraftMessage : IDraftMessage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

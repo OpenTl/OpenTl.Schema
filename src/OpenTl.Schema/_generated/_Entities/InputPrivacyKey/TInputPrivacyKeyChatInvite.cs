@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbdfb0426)]
-	public class TInputPrivacyKeyChatInvite : IInputPrivacyKey
+	public sealed class TInputPrivacyKeyChatInvite : IInputPrivacyKey
 	{
 
 	}

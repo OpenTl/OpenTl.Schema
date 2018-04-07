@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa187d66f)]
-	public class TSendMessageRecordVideoAction : ISendMessageAction
+	public sealed class TSendMessageRecordVideoAction : ISendMessageAction
 	{
 
 	}

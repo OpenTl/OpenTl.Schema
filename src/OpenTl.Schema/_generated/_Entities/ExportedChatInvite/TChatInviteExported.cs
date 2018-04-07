@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfc2e05bc)]
-	public class TChatInviteExported : IExportedChatInvite
+	public sealed class TChatInviteExported : IExportedChatInvite
 	{
        /// <summary>Binary representation for the 'Link' property</summary>
        [SerializationOrder(0)]

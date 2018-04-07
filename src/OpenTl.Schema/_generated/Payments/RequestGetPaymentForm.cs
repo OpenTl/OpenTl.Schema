@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x99f09745)]
-    public class RequestGetPaymentForm : IRequest<OpenTl.Schema.Payments.IPaymentForm>
+    public sealed class RequestGetPaymentForm : IRequest<OpenTl.Schema.Payments.IPaymentForm>
     {
        [SerializationOrder(0)]
        public int MsgId {get; set;}

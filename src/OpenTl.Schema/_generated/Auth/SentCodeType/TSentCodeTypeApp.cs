@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3dbb5986)]
-	public class TSentCodeTypeApp : ISentCodeType
+	public sealed class TSentCodeTypeApp : ISentCodeType
 	{
        [SerializationOrder(0)]
        public int Length {get; set;}

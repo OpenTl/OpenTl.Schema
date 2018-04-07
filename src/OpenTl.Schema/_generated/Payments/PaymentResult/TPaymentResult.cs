@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4e5f810d)]
-	public class TPaymentResult : IPaymentResult
+	public sealed class TPaymentResult : IPaymentResult
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IUpdates Updates {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3f460fed)]
-	public class TChatParticipants : IChatParticipants
+	public sealed class TChatParticipants : IChatParticipants
 	{
        [SerializationOrder(0)]
        public int ChatId {get; set;}

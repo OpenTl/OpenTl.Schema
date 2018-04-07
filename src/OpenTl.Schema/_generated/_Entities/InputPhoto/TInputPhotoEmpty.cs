@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1cd7bf0d)]
-	public class TInputPhotoEmpty : IInputPhoto, IEmpty
+	public sealed class TInputPhotoEmpty : IInputPhoto, IEmpty
 	{
 
 	}

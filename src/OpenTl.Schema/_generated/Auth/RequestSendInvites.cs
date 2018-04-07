@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x771c1d97)]
-    public class RequestSendInvites : IRequest<bool>
+    public sealed class RequestSendInvites : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<string> PhoneNumbers {get; set;}

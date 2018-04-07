@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x2979eeb2)]
-	public class TLangPackStringDeleted : ILangPackString
+	public sealed class TLangPackStringDeleted : ILangPackString
 	{
        /// <summary>Binary representation for the 'Key' property</summary>
        [SerializationOrder(0)]

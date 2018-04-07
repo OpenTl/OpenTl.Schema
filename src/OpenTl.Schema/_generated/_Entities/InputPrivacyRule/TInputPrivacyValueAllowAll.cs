@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x184b35ce)]
-	public class TInputPrivacyValueAllowAll : IInputPrivacyRule
+	public sealed class TInputPrivacyValueAllowAll : IInputPrivacyRule
 	{
 
 	}

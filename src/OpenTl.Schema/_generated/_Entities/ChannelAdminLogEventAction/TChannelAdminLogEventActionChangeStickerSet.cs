@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb1c3caa7)]
-	public class TChannelAdminLogEventActionChangeStickerSet : IChannelAdminLogEventAction
+	public sealed class TChannelAdminLogEventActionChangeStickerSet : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputStickerSet PrevStickerset {get; set;}

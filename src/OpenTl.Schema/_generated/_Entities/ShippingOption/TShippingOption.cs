@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb6213cdf)]
-	public class TShippingOption : IShippingOption
+	public sealed class TShippingOption : IShippingOption
 	{
        /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]

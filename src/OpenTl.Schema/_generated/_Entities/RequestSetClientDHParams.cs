@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf5045f1f)]
-    public class RequestSetClientDHParams : IRequest<OpenTl.Schema.ISetClientDHParamsAnswer>
+    public sealed class RequestSetClientDHParams : IRequest<OpenTl.Schema.ISetClientDHParamsAnswer>
     {
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

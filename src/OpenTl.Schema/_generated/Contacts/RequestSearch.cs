@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x11f812d8)]
-    public class RequestSearch : IRequest<OpenTl.Schema.Contacts.IFound>
+    public sealed class RequestSearch : IRequest<OpenTl.Schema.Contacts.IFound>
     {
        /// <summary>Binary representation for the 'Q' property</summary>
        [SerializationOrder(0)]

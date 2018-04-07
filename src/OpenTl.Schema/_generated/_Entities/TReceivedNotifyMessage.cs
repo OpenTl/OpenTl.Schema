@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa384b779)]
-	public class TReceivedNotifyMessage : IObject
+	public sealed class TReceivedNotifyMessage : IObject
 	{
        [SerializationOrder(0)]
        public int Id {get; set;}

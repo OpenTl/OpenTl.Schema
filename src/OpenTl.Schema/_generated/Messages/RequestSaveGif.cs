@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x327a30cb)]
-    public class RequestSaveGif : IRequest<bool>
+    public sealed class RequestSaveGif : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputDocument Id {get; set;}

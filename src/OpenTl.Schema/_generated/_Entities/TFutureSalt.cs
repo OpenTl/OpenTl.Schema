@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x0949d9dc)]
-	public class TFutureSalt : IObject
+	public sealed class TFutureSalt : IObject
 	{
        [SerializationOrder(0)]
        public int ValidSince {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaed6dbb2)]
-	public class TMaskCoords : IMaskCoords
+	public sealed class TMaskCoords : IMaskCoords
 	{
        [SerializationOrder(0)]
        public int N {get; set;}

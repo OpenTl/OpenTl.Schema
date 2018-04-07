@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa01b22f9)]
-	public class TRecentMeUrlChat : IRecentMeUrl
+	public sealed class TRecentMeUrlChat : IRecentMeUrl
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

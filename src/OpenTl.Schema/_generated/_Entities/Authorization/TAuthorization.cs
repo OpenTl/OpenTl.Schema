@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7bf2e6f6)]
-	public class TAuthorization : IAuthorization
+	public sealed class TAuthorization : IAuthorization
 	{
        [SerializationOrder(0)]
        public long Hash {get; set;}

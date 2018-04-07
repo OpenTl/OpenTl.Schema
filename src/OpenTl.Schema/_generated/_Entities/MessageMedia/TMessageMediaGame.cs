@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xfdb19008)]
-	public class TMessageMediaGame : IMessageMedia
+	public sealed class TMessageMediaGame : IMessageMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IGame Game {get; set;}

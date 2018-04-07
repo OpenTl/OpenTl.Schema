@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4fcba9c8)]
-	public class TArchivedStickers : IArchivedStickers
+	public sealed class TArchivedStickers : IArchivedStickers
 	{
        [SerializationOrder(0)]
        public int Count {get; set;}

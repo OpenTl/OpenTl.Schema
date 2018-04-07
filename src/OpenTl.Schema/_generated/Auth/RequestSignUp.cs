@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1b067634)]
-    public class RequestSignUp : IRequest<OpenTl.Schema.Auth.IAuthorization>
+    public sealed class RequestSignUp : IRequest<OpenTl.Schema.Auth.IAuthorization>
     {
        /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]

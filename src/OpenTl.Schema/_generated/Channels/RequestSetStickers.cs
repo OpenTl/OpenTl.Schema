@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xea8ca4f9)]
-    public class RequestSetStickers : IRequest<bool>
+    public sealed class RequestSetStickers : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

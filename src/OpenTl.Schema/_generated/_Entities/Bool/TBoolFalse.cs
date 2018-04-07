@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbc799737)]
-	public class TBoolFalse : IBool
+	public sealed class TBoolFalse : IBool
 	{
 
 	}

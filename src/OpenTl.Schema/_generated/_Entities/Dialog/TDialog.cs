@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe4def5db)]
-	public class TDialog : IDialog
+	public sealed class TDialog : IDialog
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

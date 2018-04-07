@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xcdc27a1f)]
-	public class TPaymentSavedCredentialsCard : IPaymentSavedCredentials
+	public sealed class TPaymentSavedCredentialsCard : IPaymentSavedCredentials
 	{
        /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]

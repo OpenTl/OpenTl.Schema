@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc239d686)]
-	public class TInputWebFileLocation : IInputWebFileLocation
+	public sealed class TInputWebFileLocation : IInputWebFileLocation
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

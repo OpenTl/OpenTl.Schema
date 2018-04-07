@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd58f130a)]
-    public class RequestSetBotCallbackAnswer : IRequest<bool>
+    public sealed class RequestSetBotCallbackAnswer : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

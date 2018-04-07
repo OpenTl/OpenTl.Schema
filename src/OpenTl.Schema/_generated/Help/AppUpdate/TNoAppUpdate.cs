@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc45a6536)]
-	public class TNoAppUpdate : IAppUpdate
+	public sealed class TNoAppUpdate : IAppUpdate
 	{
 
 	}

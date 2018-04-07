@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc7481da6)]
-    public class RequestInitConnection : IRequest<IObject>
+    public sealed class RequestInitConnection : IRequest<IObject>
     {
        [SerializationOrder(0)]
        public int ApiId {get; set;}

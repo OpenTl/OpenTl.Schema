@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8317c0c3)]
-	public class TUpdateBotWebhookJSON : IUpdate
+	public sealed class TUpdateBotWebhookJSON : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IDataJSON Data {get; set;}

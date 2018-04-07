@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xea02c27e)]
-	public class TPaymentCharge : IPaymentCharge
+	public sealed class TPaymentCharge : IPaymentCharge
 	{
        /// <summary>Binary representation for the 'Id' property</summary>
        [SerializationOrder(0)]

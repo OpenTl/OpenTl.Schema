@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x571d2742)]
-	public class TUpdateReadFeaturedStickers : IUpdate
+	public sealed class TUpdateReadFeaturedStickers : IUpdate
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8d8d82d7)]
-    public class RequestGetAdminedPublicChannels : IRequest<OpenTl.Schema.Messages.IChats>
+    public sealed class RequestGetAdminedPublicChannels : IRequest<OpenTl.Schema.Messages.IChats>
     {
 
     }

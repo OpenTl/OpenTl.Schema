@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4792929b)]
-	public class TMessageActionScreenshotTaken : IMessageAction
+	public sealed class TMessageActionScreenshotTaken : IMessageAction
 	{
 
 	}

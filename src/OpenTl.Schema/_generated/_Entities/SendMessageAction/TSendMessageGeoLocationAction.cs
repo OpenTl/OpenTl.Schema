@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x176f8ba1)]
-	public class TSendMessageGeoLocationAction : ISendMessageAction
+	public sealed class TSendMessageGeoLocationAction : ISendMessageAction
 	{
 
 	}

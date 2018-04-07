@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x438865b)]
-	public class TInputStickeredMediaDocument : IInputStickeredMedia
+	public sealed class TInputStickeredMediaDocument : IInputStickeredMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputDocument Id {get; set;}

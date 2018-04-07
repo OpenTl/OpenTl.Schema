@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xba4baec5)]
-	public class TDraftMessageEmpty : IDraftMessage, IEmpty
+	public sealed class TDraftMessageEmpty : IDraftMessage, IEmpty
 	{
 
 	}

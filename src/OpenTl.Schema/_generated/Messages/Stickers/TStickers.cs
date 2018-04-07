@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8a8ecd32)]
-	public class TStickers : IStickers
+	public sealed class TStickers : IStickers
 	{
        /// <summary>Binary representation for the 'Hash' property</summary>
        [SerializationOrder(0)]

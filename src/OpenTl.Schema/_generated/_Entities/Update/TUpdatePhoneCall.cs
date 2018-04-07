@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xab0f6b1e)]
-	public class TUpdatePhoneCall : IUpdate
+	public sealed class TUpdatePhoneCall : IUpdate
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IPhoneCall PhoneCall {get; set;}

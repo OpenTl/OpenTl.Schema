@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7d748d04)]
-	public class TDataJSON : IDataJSON
+	public sealed class TDataJSON : IDataJSON
 	{
        /// <summary>Binary representation for the 'Data' property</summary>
        [SerializationOrder(0)]

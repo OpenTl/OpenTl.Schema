@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf49ca0)]
-	public class TDifference : IDifference
+	public sealed class TDifference : IDifference
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IMessage> NewMessages {get; set;}

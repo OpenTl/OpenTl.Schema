@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc0111fe3)]
-    public class RequestDeleteChannel : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestDeleteChannel : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

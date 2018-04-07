@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8b31c4f)]
-	public class TPageBlockCollage : IPageBlock
+	public sealed class TPageBlockCollage : IPageBlock
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IPageBlock> Items {get; set;}

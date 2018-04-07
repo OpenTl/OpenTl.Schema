@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Bots
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaa2769ed)]
-    public class RequestSendCustomRequest : IRequest<OpenTl.Schema.IDataJSON>
+    public sealed class RequestSendCustomRequest : IRequest<OpenTl.Schema.IDataJSON>
     {
        /// <summary>Binary representation for the 'CustomMethod' property</summary>
        [SerializationOrder(0)]

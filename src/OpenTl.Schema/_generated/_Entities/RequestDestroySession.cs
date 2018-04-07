@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe7512126)]
-    public class RequestDestroySession : IRequest<OpenTl.Schema.IDestroySessionRes>
+    public sealed class RequestDestroySession : IRequest<OpenTl.Schema.IDestroySessionRes>
     {
        [SerializationOrder(0)]
        public long SessionId {get; set;}

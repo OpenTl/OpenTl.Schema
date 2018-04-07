@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x861cc8a0)]
-	public class TInputStickerSetShortName : IInputStickerSet
+	public sealed class TInputStickerSetShortName : IInputStickerSet
 	{
        /// <summary>Binary representation for the 'ShortName' property</summary>
        [SerializationOrder(0)]

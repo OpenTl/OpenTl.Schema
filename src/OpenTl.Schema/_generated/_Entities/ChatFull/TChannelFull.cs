@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x76af5481)]
-	public class TChannelFull : IChatFull
+	public sealed class TChannelFull : IChatFull
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

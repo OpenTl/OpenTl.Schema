@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7f4b690a)]
-    public class RequestReadEncryptedHistory : IRequest<bool>
+    public sealed class RequestReadEncryptedHistory : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputEncryptedChat Peer {get; set;}

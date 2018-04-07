@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x38fe25b7)]
-	public class TUpdateEncryptedMessagesRead : IUpdate
+	public sealed class TUpdateEncryptedMessagesRead : IUpdate
 	{
        [SerializationOrder(0)]
        public int ChatId {get; set;}

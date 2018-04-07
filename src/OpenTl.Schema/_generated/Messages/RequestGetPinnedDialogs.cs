@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe254d64e)]
-    public class RequestGetPinnedDialogs : IRequest<OpenTl.Schema.Messages.IPeerDialogs>
+    public sealed class RequestGetPinnedDialogs : IRequest<OpenTl.Schema.Messages.IPeerDialogs>
     {
 
     }

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x123e05e9)]
-    public class RequestGetParticipants : IRequest<OpenTl.Schema.Channels.IChannelParticipants>
+    public sealed class RequestGetParticipants : IRequest<OpenTl.Schema.Channels.IChannelParticipants>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

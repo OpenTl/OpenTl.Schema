@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf0189d3)]
-    public class RequestReadMentions : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
+    public sealed class RequestReadMentions : IRequest<OpenTl.Schema.Messages.IAffectedHistory>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

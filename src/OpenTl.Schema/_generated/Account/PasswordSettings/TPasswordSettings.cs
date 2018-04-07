@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb7b72ab3)]
-	public class TPasswordSettings : IPasswordSettings
+	public sealed class TPasswordSettings : IPasswordSettings
 	{
        /// <summary>Binary representation for the 'Email' property</summary>
        [SerializationOrder(0)]

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x26ae0971)]
-	public class TChannelAdminLogEventActionToggleSignatures : IChannelAdminLogEventAction
+	public sealed class TChannelAdminLogEventActionToggleSignatures : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
        public bool NewValue {get; set;}

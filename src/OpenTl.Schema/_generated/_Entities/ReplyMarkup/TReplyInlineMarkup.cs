@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x48a30254)]
-	public class TReplyInlineMarkup : IReplyMarkup
+	public sealed class TReplyInlineMarkup : IReplyMarkup
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IKeyboardButtonRow> Rows {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb2ae9b0c)]
-	public class TMessageActionChatDeleteUser : IMessageAction
+	public sealed class TMessageActionChatDeleteUser : IMessageAction
 	{
        [SerializationOrder(0)]
        public int UserId {get; set;}

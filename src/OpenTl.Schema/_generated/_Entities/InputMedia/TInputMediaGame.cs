@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd33f43f3)]
-	public class TInputMediaGame : IInputMedia
+	public sealed class TInputMediaGame : IInputMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputGame Id {get; set;}

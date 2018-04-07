@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x42e047bb)]
-	public class TChannelAdminLogEventActionDeleteMessage : IChannelAdminLogEventAction
+	public sealed class TChannelAdminLogEventActionDeleteMessage : IChannelAdminLogEventAction
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IMessage Message {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbb2d201)]
-	public class TUpdateStickerSetsOrder : IUpdate
+	public sealed class TUpdateStickerSetsOrder : IUpdate
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

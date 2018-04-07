@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7c3c2609)]
-	public class TMessageMediaGeoLive : IMessageMedia
+	public sealed class TMessageMediaGeoLive : IMessageMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IGeoPoint Geo {get; set;}

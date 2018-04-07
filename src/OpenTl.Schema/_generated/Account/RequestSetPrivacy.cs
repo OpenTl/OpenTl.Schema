@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc9f81ce8)]
-    public class RequestSetPrivacy : IRequest<OpenTl.Schema.Account.IPrivacyRules>
+    public sealed class RequestSetPrivacy : IRequest<OpenTl.Schema.Account.IPrivacyRules>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPrivacyKey Key {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x725b04c3)]
-	public class TUpdatesCombined : IUpdates
+	public sealed class TUpdatesCombined : IUpdates
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IUpdate> Updates {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe6df7378)]
-    public class RequestStartBot : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestStartBot : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputUser Bot {get; set;}

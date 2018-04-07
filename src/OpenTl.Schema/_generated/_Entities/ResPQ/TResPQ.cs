@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x05162463)]
-	public class TResPQ : IResPQ
+	public sealed class TResPQ : IResPQ
 	{
        [SerializationArrayLength(16)]
        [SerializationOrder(0)]

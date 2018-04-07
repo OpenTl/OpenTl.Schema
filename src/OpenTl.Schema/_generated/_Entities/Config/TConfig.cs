@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x86b5778e)]
-	public class TConfig : IConfig
+	public sealed class TConfig : IConfig
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

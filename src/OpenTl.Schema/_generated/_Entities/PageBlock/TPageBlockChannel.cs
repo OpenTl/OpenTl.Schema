@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xef1751b5)]
-	public class TPageBlockChannel : IPageBlock
+	public sealed class TPageBlockChannel : IPageBlock
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IChat Channel {get; set;}

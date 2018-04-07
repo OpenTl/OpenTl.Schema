@@ -9,6 +9,6 @@ namespace /* NAMESPACE */
 
     public interface /* NAME */ : IObject
     {
-/* PARAMS */
+/* ATTRS */
     }
 }

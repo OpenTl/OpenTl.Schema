@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa3825e50)]
-    public class RequestSetTyping : IRequest<bool>
+    public sealed class RequestSetTyping : IRequest<bool>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

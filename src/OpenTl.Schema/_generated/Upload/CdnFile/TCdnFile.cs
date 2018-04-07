@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa99fca4f)]
-	public class TCdnFile : ICdnFile
+	public sealed class TCdnFile : ICdnFile
 	{
        [SerializationOrder(0)]
        public byte[] Bytes {get; set;}

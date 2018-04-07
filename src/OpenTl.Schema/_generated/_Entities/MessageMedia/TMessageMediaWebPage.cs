@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa32dd600)]
-	public class TMessageMediaWebPage : IMessageMedia
+	public sealed class TMessageMediaWebPage : IMessageMedia
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IWebPage Webpage {get; set;}

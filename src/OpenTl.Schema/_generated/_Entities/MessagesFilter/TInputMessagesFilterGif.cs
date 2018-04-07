@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xffc86587)]
-	public class TInputMessagesFilterGif : IMessagesFilter
+	public sealed class TInputMessagesFilterGif : IMessagesFilter
 	{
 
 	}

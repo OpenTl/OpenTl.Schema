@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8fc711d)]
-    public class RequestGetAccountTTL : IRequest<OpenTl.Schema.IAccountDaysTTL>
+    public sealed class RequestGetAccountTTL : IRequest<OpenTl.Schema.IAccountDaysTTL>
     {
 
     }

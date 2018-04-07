@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x879537f1)]
-    public class RequestResetSaved : IRequest<bool>
+    public sealed class RequestResetSaved : IRequest<bool>
     {
 
     }

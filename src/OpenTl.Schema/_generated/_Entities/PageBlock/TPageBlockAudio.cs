@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x31b81a7f)]
-	public class TPageBlockAudio : IPageBlock
+	public sealed class TPageBlockAudio : IPageBlock
 	{
        [SerializationOrder(0)]
        public long AudioId {get; set;}

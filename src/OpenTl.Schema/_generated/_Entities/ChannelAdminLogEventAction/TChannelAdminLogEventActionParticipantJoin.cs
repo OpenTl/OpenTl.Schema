@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x183040d3)]
-	public class TChannelAdminLogEventActionParticipantJoin : IChannelAdminLogEventAction
+	public sealed class TChannelAdminLogEventActionParticipantJoin : IChannelAdminLogEventAction
 	{
 
 	}

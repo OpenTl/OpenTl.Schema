@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf12e57c9)]
-    public class RequestEditPhoto : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestEditPhoto : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputChannel Channel {get; set;}

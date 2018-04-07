@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x71e094f3)]
-	public class TDialogsSlice : IDialogs
+	public sealed class TDialogsSlice : IDialogs
 	{
        [SerializationOrder(0)]
        public int Count {get; set;}

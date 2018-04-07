@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb446ae3)]
-	public class TMessagesSlice : IMessages
+	public sealed class TMessagesSlice : IMessages
 	{
        [SerializationOrder(0)]
        public int Count {get; set;}

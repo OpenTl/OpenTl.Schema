@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9de7a269)]
-	public class TInputStickerSetID : IInputStickerSet
+	public sealed class TInputStickerSetID : IInputStickerSet
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

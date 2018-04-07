@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8f31b327)]
-	public class TMessageActionPaymentSentMe : IMessageAction
+	public sealed class TMessageActionPaymentSentMe : IMessageAction
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

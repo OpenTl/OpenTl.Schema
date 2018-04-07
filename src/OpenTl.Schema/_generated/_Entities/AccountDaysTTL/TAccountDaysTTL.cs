@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xb8d0afdf)]
-	public class TAccountDaysTTL : IAccountDaysTTL
+	public sealed class TAccountDaysTTL : IAccountDaysTTL
 	{
        [SerializationOrder(0)]
        public int Days {get; set;}

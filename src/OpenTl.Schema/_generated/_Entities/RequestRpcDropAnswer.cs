@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x58e4a740)]
-    public class RequestRpcDropAnswer : IRequest<OpenTl.Schema.IRpcDropAnswer>
+    public sealed class RequestRpcDropAnswer : IRequest<OpenTl.Schema.IRpcDropAnswer>
     {
        [SerializationOrder(0)]
        public long ReqMsgId {get; set;}

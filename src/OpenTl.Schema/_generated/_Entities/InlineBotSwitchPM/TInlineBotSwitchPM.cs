@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3c20629f)]
-	public class TInlineBotSwitchPM : IInlineBotSwitchPM
+	public sealed class TInlineBotSwitchPM : IInlineBotSwitchPM
 	{
        /// <summary>Binary representation for the 'Text' property</summary>
        [SerializationOrder(0)]

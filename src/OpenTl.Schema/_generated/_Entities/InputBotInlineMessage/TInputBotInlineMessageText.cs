@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3dcd7a87)]
-	public class TInputBotInlineMessageText : IInputBotInlineMessage
+	public sealed class TInputBotInlineMessageText : IInputBotInlineMessage
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

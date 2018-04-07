@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x88f27fbc)]
-	public class TSendMessageRecordRoundAction : ISendMessageAction
+	public sealed class TSendMessageRecordRoundAction : ISendMessageAction
 	{
 
 	}

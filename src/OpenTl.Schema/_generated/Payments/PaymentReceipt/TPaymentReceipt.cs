@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x500911e1)]
-	public class TPaymentReceipt : IPaymentReceipt
+	public sealed class TPaymentReceipt : IPaymentReceipt
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

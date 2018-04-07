@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe822649d)]
-    public class RequestGetGameHighScores : IRequest<OpenTl.Schema.Messages.IHighScores>
+    public sealed class RequestGetGameHighScores : IRequest<OpenTl.Schema.Messages.IHighScores>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

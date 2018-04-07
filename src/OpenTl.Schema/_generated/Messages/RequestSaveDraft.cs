@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xbc39e14b)]
-    public class RequestSaveDraft : IRequest<bool>
+    public sealed class RequestSaveDraft : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

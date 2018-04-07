@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3ded6320)]
-	public class TMessageMediaEmpty : IMessageMedia, IEmpty
+	public sealed class TMessageMediaEmpty : IMessageMedia, IEmpty
 	{
 
 	}

@@ -1,8 +1,8 @@
-﻿using System;
-
-namespace OpenTl.Schema.Serialization.Attributes
+﻿namespace OpenTl.Schema.Serialization.Attributes
 {
-    internal class SerializationOrderAttribute: Attribute
+    using System;
+
+    internal class SerializationOrderAttribute : Attribute
     {
         internal int Order { get; }
 

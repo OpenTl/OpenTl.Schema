@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xdb7e1747)]
-    public class RequestResetNotifySettings : IRequest<bool>
+    public sealed class RequestResetNotifySettings : IRequest<bool>
     {
 
     }

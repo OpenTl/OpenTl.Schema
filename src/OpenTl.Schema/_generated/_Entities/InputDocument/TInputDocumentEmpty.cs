@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x72f0eaae)]
-	public class TInputDocumentEmpty : IInputDocument, IEmpty
+	public sealed class TInputDocumentEmpty : IInputDocument, IEmpty
 	{
 
 	}

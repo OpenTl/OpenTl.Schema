@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contest
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9a5f6e95)]
-    public class RequestSaveDeveloperInfo : IRequest<bool>
+    public sealed class RequestSaveDeveloperInfo : IRequest<bool>
     {
        [SerializationOrder(0)]
        public int VkId {get; set;}

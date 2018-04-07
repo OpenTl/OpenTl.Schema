@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xd1435160)]
-    public class RequestDestroyAuthKey : IRequest<OpenTl.Schema.IDestroyAuthKeyRes>
+    public sealed class RequestDestroyAuthKey : IRequest<OpenTl.Schema.IDestroyAuthKeyRes>
     {
 
     }

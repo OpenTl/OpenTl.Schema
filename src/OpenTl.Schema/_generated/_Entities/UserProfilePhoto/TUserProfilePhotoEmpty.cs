@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4f11bae1)]
-	public class TUserProfilePhotoEmpty : IUserProfilePhoto, IEmpty
+	public sealed class TUserProfilePhotoEmpty : IUserProfilePhoto, IEmpty
 	{
 
 	}

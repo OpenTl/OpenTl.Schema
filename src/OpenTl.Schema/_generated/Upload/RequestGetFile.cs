@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xe3a6cfb5)]
-    public class RequestGetFile : IRequest<OpenTl.Schema.Upload.IFile>
+    public sealed class RequestGetFile : IRequest<OpenTl.Schema.Upload.IFile>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputFileLocation Location {get; set;}

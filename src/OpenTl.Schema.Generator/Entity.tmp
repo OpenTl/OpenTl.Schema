@@ -10,8 +10,8 @@ namespace /* NAMESPACE */
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(/* CONSTRUCTOR */)]
-	public class /* NAME */ : /* PARENT */
+	public sealed class /* NAME */ : /* PARENT */
 	{
-/* PARAMS */
+/* ATTRS */
 	}
 }

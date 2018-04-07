@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaa0cd9e4)]
-	public class TSendMessageUploadDocumentAction : ISendMessageAction
+	public sealed class TSendMessageUploadDocumentAction : ISendMessageAction
 	{
        [SerializationOrder(0)]
        public int Progress {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x87232bc7)]
-	public class TDocument : IDocument
+	public sealed class TDocument : IDocument
 	{
        [SerializationOrder(0)]
        public long Id {get; set;}

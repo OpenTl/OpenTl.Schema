@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc97df020)]
-    public class RequestSendScreenshotNotification : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestSendScreenshotNotification : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public OpenTl.Schema.IInputPeer Peer {get; set;}

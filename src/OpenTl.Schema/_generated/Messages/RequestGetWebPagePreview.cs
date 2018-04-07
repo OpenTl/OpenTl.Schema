@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x8b68b0cc)]
-    public class RequestGetWebPagePreview : IRequest<OpenTl.Schema.IMessageMedia>
+    public sealed class RequestGetWebPagePreview : IRequest<OpenTl.Schema.IMessageMedia>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

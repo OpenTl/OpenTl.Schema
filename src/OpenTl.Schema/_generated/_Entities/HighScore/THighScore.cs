@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x58fffcd0)]
-	public class THighScore : IHighScore
+	public sealed class THighScore : IHighScore
 	{
        [SerializationOrder(0)]
        public int Pos {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xa731e257)]
-    public class RequestToggleDialogPin : IRequest<bool>
+    public sealed class RequestToggleDialogPin : IRequest<bool>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

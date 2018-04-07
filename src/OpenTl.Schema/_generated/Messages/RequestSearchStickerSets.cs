@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc2b7d08b)]
-    public class RequestSearchStickerSets : IRequest<OpenTl.Schema.Messages.IFoundStickerSets>
+    public sealed class RequestSearchStickerSets : IRequest<OpenTl.Schema.Messages.IFoundStickerSets>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

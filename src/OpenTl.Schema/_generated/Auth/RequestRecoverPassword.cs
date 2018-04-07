@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x4ea56e92)]
-    public class RequestRecoverPassword : IRequest<OpenTl.Schema.Auth.IAuthorization>
+    public sealed class RequestRecoverPassword : IRequest<OpenTl.Schema.Auth.IAuthorization>
     {
        /// <summary>Binary representation for the 'Code' property</summary>
        [SerializationOrder(0)]

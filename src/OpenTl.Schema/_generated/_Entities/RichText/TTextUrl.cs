@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3c2884c1)]
-	public class TTextUrl : IRichText
+	public sealed class TTextUrl : IRichText
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IRichText Text {get; set;}

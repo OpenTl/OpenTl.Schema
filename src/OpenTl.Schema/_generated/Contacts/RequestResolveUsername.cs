@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf93ccba3)]
-    public class RequestResolveUsername : IRequest<OpenTl.Schema.Contacts.IResolvedPeer>
+    public sealed class RequestResolveUsername : IRequest<OpenTl.Schema.Contacts.IResolvedPeer>
     {
        /// <summary>Binary representation for the 'Username' property</summary>
        [SerializationOrder(0)]

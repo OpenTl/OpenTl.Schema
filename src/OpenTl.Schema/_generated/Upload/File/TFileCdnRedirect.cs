@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf18cda44)]
-	public class TFileCdnRedirect : IFile
+	public sealed class TFileCdnRedirect : IFile
 	{
        [SerializationOrder(0)]
        public int DcId {get; set;}

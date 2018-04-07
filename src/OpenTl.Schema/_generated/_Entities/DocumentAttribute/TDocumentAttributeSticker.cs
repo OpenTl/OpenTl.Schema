@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6319d612)]
-	public class TDocumentAttributeSticker : IDocumentAttribute
+	public sealed class TDocumentAttributeSticker : IDocumentAttribute
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

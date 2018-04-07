@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x1081464c)]
-	public class TFileWebp : IFileType
+	public sealed class TFileWebp : IFileType
 	{
 
 	}

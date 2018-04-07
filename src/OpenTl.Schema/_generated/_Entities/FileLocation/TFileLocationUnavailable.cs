@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x7c596b46)]
-	public class TFileLocationUnavailable : IFileLocation
+	public sealed class TFileLocationUnavailable : IFileLocation
 	{
        [SerializationOrder(0)]
        public long VolumeId {get; set;}

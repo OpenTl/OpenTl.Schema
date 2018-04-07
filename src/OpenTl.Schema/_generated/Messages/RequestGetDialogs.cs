@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x191ba9c5)]
-    public class RequestGetDialogs : IRequest<OpenTl.Schema.Messages.IDialogs>
+    public sealed class RequestGetDialogs : IRequest<OpenTl.Schema.Messages.IDialogs>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

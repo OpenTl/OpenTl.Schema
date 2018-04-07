@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x3f56aea3)]
-	public class TPaymentForm : IPaymentForm
+	public sealed class TPaymentForm : IPaymentForm
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

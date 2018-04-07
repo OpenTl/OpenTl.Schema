@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x86916deb)]
-	public class TPasswordInputSettings : IPasswordInputSettings
+	public sealed class TPasswordInputSettings : IPasswordInputSettings
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

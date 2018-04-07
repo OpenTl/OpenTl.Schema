@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xc4b9f9bb)]
-	public class TError : IObject
+	public sealed class TError : IObject
 	{
        [SerializationOrder(0)]
        public int Code {get; set;}

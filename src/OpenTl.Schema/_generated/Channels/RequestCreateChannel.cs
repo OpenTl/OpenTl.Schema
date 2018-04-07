@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf4893d7f)]
-    public class RequestCreateChannel : IRequest<OpenTl.Schema.IUpdates>
+    public sealed class RequestCreateChannel : IRequest<OpenTl.Schema.IUpdates>
     {
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

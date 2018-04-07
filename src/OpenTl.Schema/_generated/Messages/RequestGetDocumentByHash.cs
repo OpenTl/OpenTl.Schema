@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x338e2464)]
-    public class RequestGetDocumentByHash : IRequest<OpenTl.Schema.IDocument>
+    public sealed class RequestGetDocumentByHash : IRequest<OpenTl.Schema.IDocument>
     {
        [SerializationOrder(0)]
        public byte[] Sha256 {get; set;}

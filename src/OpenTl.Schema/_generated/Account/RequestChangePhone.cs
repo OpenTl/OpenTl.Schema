@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x70c32edb)]
-    public class RequestChangePhone : IRequest<OpenTl.Schema.IUser>
+    public sealed class RequestChangePhone : IRequest<OpenTl.Schema.IUser>
     {
        /// <summary>Binary representation for the 'PhoneNumber' property</summary>
        [SerializationOrder(0)]

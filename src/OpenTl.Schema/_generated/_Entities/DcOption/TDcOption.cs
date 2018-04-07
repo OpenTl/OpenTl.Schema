@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5d8c6cc)]
-	public class TDcOption : IDcOption
+	public sealed class TDcOption : IDcOption
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x38641628)]
-	public class TStickerSetInstallResultSuccess : IStickerSetInstallResult
+	public sealed class TStickerSetInstallResultSuccess : IStickerSetInstallResult
 	{
 
 	}

@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xaa1c39f)]
-	public class TInputPaymentCredentialsApplePay : IInputPaymentCredentials
+	public sealed class TInputPaymentCredentialsApplePay : IInputPaymentCredentials
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IDataJSON PaymentData {get; set;}

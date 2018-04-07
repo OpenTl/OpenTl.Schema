@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xf9c8bcc6)]
-	public class TWebDocumentNoProxy : IWebDocument
+	public sealed class TWebDocumentNoProxy : IWebDocument
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
        [SerializationOrder(0)]

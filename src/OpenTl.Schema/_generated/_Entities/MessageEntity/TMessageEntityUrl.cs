@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x6ed02538)]
-	public class TMessageEntityUrl : IMessageEntity
+	public sealed class TMessageEntityUrl : IMessageEntity
 	{
        [SerializationOrder(0)]
        public int Offset {get; set;}

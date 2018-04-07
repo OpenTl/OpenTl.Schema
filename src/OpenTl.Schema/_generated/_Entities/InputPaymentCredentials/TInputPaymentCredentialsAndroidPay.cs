@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xca05d50e)]
-	public class TInputPaymentCredentialsAndroidPay : IInputPaymentCredentials
+	public sealed class TInputPaymentCredentialsAndroidPay : IInputPaymentCredentials
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.IDataJSON PaymentToken {get; set;}

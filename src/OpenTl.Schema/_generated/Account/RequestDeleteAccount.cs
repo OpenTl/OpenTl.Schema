@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x418d4e0b)]
-    public class RequestDeleteAccount : IRequest<bool>
+    public sealed class RequestDeleteAccount : IRequest<bool>
     {
        /// <summary>Binary representation for the 'Reason' property</summary>
        [SerializationOrder(0)]

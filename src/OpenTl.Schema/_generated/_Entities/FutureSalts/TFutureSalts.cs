@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0xae500895)]
-	public class TFutureSalts : IFutureSalts
+	public sealed class TFutureSalts : IFutureSalts
 	{
        [SerializationOrder(0)]
        public long ReqMsgId {get; set;}
@@ -19,6 +19,7 @@ namespace OpenTl.Schema
        public int Now {get; set;}
 
        [SerializationOrder(2)]
+       [BareTypeAttribute]
        public TVector<OpenTl.Schema.TFutureSalt> Salts {get; set;}
 
 	}

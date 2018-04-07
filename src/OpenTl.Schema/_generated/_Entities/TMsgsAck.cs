@@ -10,7 +10,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x62d6b459)]
-	public class TMsgsAck : IObject
+	public sealed class TMsgsAck : IObject
 	{
        [SerializationOrder(0)]
        public OpenTl.Schema.TVector<long> MsgIds {get; set;}

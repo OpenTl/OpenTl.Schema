@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Langpack
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x9ab5c58e)]
-    public class RequestGetLangPack : IRequest<OpenTl.Schema.ILangPackDifference>
+    public sealed class RequestGetLangPack : IRequest<OpenTl.Schema.ILangPackDifference>
     {
        /// <summary>Binary representation for the 'LangCode' property</summary>
        [SerializationOrder(0)]
