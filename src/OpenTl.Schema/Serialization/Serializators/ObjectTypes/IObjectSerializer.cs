@@ -35,7 +35,7 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
             {
                 return null;
             }
-            
+
             var customObjectSerializer = SerializationMap.GetSerializator(typeInfo);
             if (customObjectSerializer != null && !Equals(customObjectSerializer.SupportedType, SupportedType))
             {
@@ -81,7 +81,7 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
             {
                 obj = Null;
             }
-            
+
             var objectType = obj.GetType().GetTypeInfo();
 
             if (SerializationMap.GetIdByType(objectType, out var typeId))
@@ -178,39 +178,43 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                 return null;
             }
 
-            if (TypesMetadata.TryGetValue(typeInfo, out var meta))
+            if (!TypesMetadata.TryGetValue(typeInfo, out var meta))
             {
-                return meta;
+                lock (TypesMetadata)
+                {
+                    if (!TypesMetadata.TryGetValue(typeInfo, out meta))
+                    {
+                        meta = typeInfo.DeclaredProperties
+                                       .Select(
+                                           info =>
+                                           {
+                                               var canSerializeAttribute = info.GetCustomAttribute<CanSerializeAttribute>();
+                                               var fromFlagAttribute = info.GetCustomAttribute<FromFlagAttribute>();
+
+                                               return new SerializationMetadata
+                                                      {
+                                                          PropertyInfo = info,
+                                                          PropertyTypeInfo = info.PropertyType.GetTypeInfo(),
+                                                          Order = info.GetCustomAttribute<SerializationOrderAttribute>()?.Order,
+                                                          ArrayLength = info.GetCustomAttribute<SerializationArrayLengthAttribute>()?.Length,
+                                                          CanSerializeIndex = canSerializeAttribute?.Index,
+                                                          CanSerializeSource = canSerializeAttribute != null
+                                                                                   ? typeInfo.GetProperty(canSerializeAttribute.PropertyName)
+                                                                                   : null,
+                                                          FromFlagIndex = fromFlagAttribute?.Index,
+                                                          FromFlagSource = fromFlagAttribute != null
+                                                                               ? typeInfo.GetProperty(fromFlagAttribute.PropertyName)
+                                                                               : null
+                                                      };
+                                           })
+                                       .Where(metadata => metadata.Order.HasValue)
+                                       .OrderBy(metadata => metadata.Order)
+                                       .ToArray();
+
+                        TypesMetadata.Add(typeInfo, meta);
+                    }
+                }
             }
-
-            meta = typeInfo.DeclaredProperties
-                           .Select(
-                               info =>
-                               {
-                                   var canSerializeAttribute = info.GetCustomAttribute<CanSerializeAttribute>();
-                                   var fromFlagAttribute = info.GetCustomAttribute<FromFlagAttribute>();
-
-                                   return new SerializationMetadata
-                                          {
-                                              PropertyInfo = info,
-                                              PropertyTypeInfo = info.PropertyType.GetTypeInfo(),
-                                              Order = info.GetCustomAttribute<SerializationOrderAttribute>()?.Order,
-                                              ArrayLength = info.GetCustomAttribute<SerializationArrayLengthAttribute>()?.Length,
-                                              CanSerializeIndex = canSerializeAttribute?.Index,
-                                              CanSerializeSource = canSerializeAttribute != null
-                                                                       ? typeInfo.GetProperty(canSerializeAttribute.PropertyName)
-                                                                       : null,
-                                              FromFlagIndex = fromFlagAttribute?.Index,
-                                              FromFlagSource = fromFlagAttribute != null
-                                                                   ? typeInfo.GetProperty(fromFlagAttribute.PropertyName)
-                                                                   : null
-                                          };
-                               })
-                           .Where(metadata => metadata.Order.HasValue)
-                           .OrderBy(metadata => metadata.Order)
-                           .ToArray();
-
-            TypesMetadata.Add(typeInfo, meta);
 
             return meta;
         }
