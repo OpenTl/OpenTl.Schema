@@ -14,7 +14,9 @@
 
         public static object Deserialize(IByteBuffer buffer, Type expectedType)
         {
-            return Deserialize(buffer, new SerializationMetadata{PropertyTypeInfo =  expectedType.GetTypeInfo()});
+            return expectedType == null
+                       ? Deserialize(buffer)
+                       : Deserialize(buffer, new SerializationMetadata { PropertyTypeInfo = expectedType.GetTypeInfo() });
         }
         
         public static IByteBuffer Serialize(object obj)

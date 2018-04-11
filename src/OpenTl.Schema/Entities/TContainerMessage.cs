@@ -2,7 +2,7 @@
 {
     using OpenTl.Schema.Serialization.Attributes;
 
-    public class TContainerMessage
+    public sealed class TContainerMessage
     {
         [SerializationOrder(0)]
         public long MsgId { get; set; }
