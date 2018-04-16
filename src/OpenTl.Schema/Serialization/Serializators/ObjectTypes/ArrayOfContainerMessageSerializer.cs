@@ -41,7 +41,7 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                 buffer.WriteLongLE(item.MsgId);
                 buffer.WriteIntLE(item.SeqNo);
 
-                var dataBuffer = Serializer.Serialize(item);
+                var dataBuffer = Serializer.Serialize(item.Body);
                 try
                 {
                     buffer.WriteIntLE(dataBuffer.ReadableBytes);

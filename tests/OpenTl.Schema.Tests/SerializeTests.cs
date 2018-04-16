@@ -44,6 +44,22 @@ namespace OpenTl.Schema.Tests
         }
         
         [Fact]
+        public void MsgContainer()
+        {
+            var container = new MsgContainer()
+                       {
+                           Messages = new []{ new TContainerMessage
+                                              {
+                                                  Body = new TPong()
+                                              }, }
+                       };
+
+            var buffer =  Serializer.Serialize(container);
+
+            Serializer.Deserialize(buffer);
+        }
+        
+        [Fact]
         public void RsaPublicKey()
         {
             var peer = new TRsaPublicKey()
