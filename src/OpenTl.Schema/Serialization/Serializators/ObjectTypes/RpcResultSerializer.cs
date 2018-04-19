@@ -17,7 +17,6 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                             {
                                 ReqMsgId = buffer.ReadLongLE(),
                                 Result = buffer.ToArray()
-                                
                             };
 
             return rpcResult;

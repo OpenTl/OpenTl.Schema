@@ -23,8 +23,8 @@ namespace OpenTl.Schema.Serialization.Serializators.ObjectTypes
                                MsgId = buffer.ReadLongLE(),
                                SeqNo = buffer.ReadIntLE(),
                                Bytes = buffer.ReadIntLE(),
-                               Body = Serializer.Deserialize(buffer)
                            };
+                item.Body = Serializer.Deserialize(buffer.ReadSlice(item.Bytes));
                 items.Add(item);
             }
 
