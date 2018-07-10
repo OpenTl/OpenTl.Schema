@@ -72,7 +72,9 @@
                 <section class="infobar" data-spy="affix" data-offset-top="60" data-offset-bottom="200"> 
                     	
 	<div id="infobar-headings"><h6>On This Page</h6><p><a href="#Syntax">Syntax</a></p>
+<p><a href="#Attributes">Attributes</a></p>
 <p><a href="#Properties">Properties</a></p>
+<p><a href="#ExtensionMethods">Extension Methods</a></p>
 <hr class="infobar-hidden">
 </div>
 
@@ -719,7 +721,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOffline">TUserStatusOffline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOnline">TUserStatusOnline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusRecently">TUserStatusRecently</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector">TVector</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaper">TWallPaper</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaperSolid">TWallPaperSolid</a></li>
@@ -946,6 +947,13 @@
 								<dt>Namespace</dt>
 								<dd><a href="/OpenTl.Schema/api/OpenTl.Schema">OpenTl<wbr>.Schema</a></dd>
 											
+								<dt>Interfaces</dt>
+								<dd>
+									<ul class="list-unstyled">
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IIpPort">IIpPort</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IObject">IObject</a></li>								
+									</ul>
+								</dd>
 							
 								<dt>Base Types</dt>
 								<dd>
@@ -961,6 +969,10 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
+	Interface0["IIpPort"]-.-&gt;Type
+	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IIpPort"
+	Interface1["IObject"]-.-&gt;Type
+	click Interface1 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["TIpPort"]
 class Type type-node
 
@@ -971,10 +983,28 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>public sealed class TIpPort</code></pre>
+	<pre><code>[Serialize(0xd433ad73)]
+public sealed class TIpPort : IIpPort, IObject</code></pre>
 
 
 
+	<h1 id="Attributes">Attributes</h1>
+	<div class="box">
+		<div class="box-body no-padding table-responsive">
+			<table class="table table-striped table-hover two-cols">
+				<thead>
+					<tr>
+						<th>Type</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+					<tbody><tr>
+						<td>SerializeAttribute</td>
+						<td></td>
+					</tr>
+			</tbody></table>
+		</div>
+	</div>	
 
 
 
@@ -1013,6 +1043,45 @@ class Type type-node
 
 
 
+			<h1 id="ExtensionMethods">Extension Methods</h1>
+			<div class="box">
+				<div class="box-body no-padding table-responsive">
+					<table class="table table-striped table-hover three-cols">
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Value</th>
+								<th>Summary</th>
+							</tr>
+						</thead>
+							<tbody><tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/Utils/A1A958DE.html">As<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
+								<td>T</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/Utils/4941F7D3.html">Is<wbr>&lt;T&gt;<wbr><wbr>()<wbr></a></td>
+								<td>T</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/Utils/CF7043C9.html">IsEmpty<wbr>()<wbr></a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+										<div><small><em>From <a href="/OpenTl.Schema/api/OpenTl.Schema/Utils">Utils</a></em></small></div>
+								</td>
+							</tr>
+					</tbody></table>
+				</div>
+			</div>
+		
 
 	
 </section>

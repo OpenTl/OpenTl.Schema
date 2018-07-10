@@ -719,7 +719,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOffline">TUserStatusOffline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOnline">TUserStatusOnline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusRecently">TUserStatusRecently</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector">TVector</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaper">TWallPaper</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaperSolid">TWallPaperSolid</a></li>
@@ -958,8 +957,8 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TNotifyUsers">TNotifyUsers</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TNotifyChats">TNotifyChats</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TNotifyUsers">TNotifyUsers</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TNotifyPeer">TNotifyPeer</a></li>								
 									</ul>
 								</dd>				
@@ -972,10 +971,10 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["INotifyPeer"]
 class Type type-node
-	Type-.-&gt;Implementing0["TNotifyUsers"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema/TNotifyUsers"
-	Type-.-&gt;Implementing1["TNotifyChats"]
-	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema/TNotifyChats"
+	Type-.-&gt;Implementing0["TNotifyChats"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema/TNotifyChats"
+	Type-.-&gt;Implementing1["TNotifyUsers"]
+	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema/TNotifyUsers"
 	Type-.-&gt;Implementing2["TNotifyPeer"]
 	click Implementing2 "/OpenTl.Schema/api/OpenTl.Schema/TNotifyPeer"
 

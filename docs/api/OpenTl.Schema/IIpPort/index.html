@@ -720,7 +720,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOffline">TUserStatusOffline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusOnline">TUserStatusOnline</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TUserStatusRecently">TUserStatusRecently</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector">TVector</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaper">TWallPaper</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TWallPaperSolid">TWallPaperSolid</a></li>
@@ -959,6 +958,7 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TIpPort">TIpPort</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/TIpPortSecret">TIpPortSecret</a></li>								
 									</ul>
 								</dd>				
@@ -971,8 +971,10 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["IIpPort"]
 class Type type-node
-	Type-.-&gt;Implementing0["TIpPortSecret"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema/TIpPortSecret"
+	Type-.-&gt;Implementing0["TIpPort"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema/TIpPort"
+	Type-.-&gt;Implementing1["TIpPortSecret"]
+	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema/TIpPortSecret"
 
 						</div>
 					</div>
