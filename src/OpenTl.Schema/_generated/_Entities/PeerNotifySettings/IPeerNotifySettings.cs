@@ -9,6 +9,16 @@ namespace OpenTl.Schema
 
     public interface IPeerNotifySettings : IObject
     {
+       BitArray Flags {get; set;}
+
+       bool ShowPreviews {get; set;}
+
+       bool Silent {get; set;}
+
+       int MuteUntil {get; set;}
+
+       byte[] SoundAsBinary {get; set;}
+       string Sound {get; set;}
 
     }
 }

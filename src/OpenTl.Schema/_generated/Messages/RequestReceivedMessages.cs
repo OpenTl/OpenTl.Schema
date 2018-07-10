@@ -10,7 +10,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema.Serialization.Attributes;	
 
 	[Serialize(0x5a954c0)]
-    public sealed class RequestReceivedMessages : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.TReceivedNotifyMessage>>
+    public sealed class RequestReceivedMessages : IRequest<OpenTl.Schema.TVector<OpenTl.Schema.IReceivedNotifyMessage>>
     {
        [SerializationOrder(0)]
        public int MaxId {get; set;}

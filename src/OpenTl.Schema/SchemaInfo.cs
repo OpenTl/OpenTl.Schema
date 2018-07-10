@@ -2,6 +2,6 @@
 {
     public static class SchemaInfo
     {
-        public static int SchemaVersion { get; } = 76;
+        public static int SchemaVersion { get; } = 82;
     }
 }

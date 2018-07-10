@@ -12,5 +12,11 @@ namespace OpenTl.Schema.Account
        byte[] EmailAsBinary {get; set;}
        string Email {get; set;}
 
+       byte[] SecureSalt {get; set;}
+
+       byte[] SecureSecret {get; set;}
+
+       long SecureSecretId {get; set;}
+
     }
 }

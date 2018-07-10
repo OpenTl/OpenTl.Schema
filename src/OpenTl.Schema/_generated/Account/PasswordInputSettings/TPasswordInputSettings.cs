@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x86916deb)]
+	[Serialize(0x21ffa60d)]
 	public sealed class TPasswordInputSettings : IPasswordInputSettings
 	{
        [SerializationOrder(0)]
@@ -38,6 +38,18 @@ namespace OpenTl.Schema.Account
        private byte[] _EmailAsBinary;
        private string _Email;
        public string Email { get => _Email; set { EmailAsBinary = Encoding.UTF8.GetBytes(value); _Email = value; }}
+
+       [SerializationOrder(5)]
+       [CanSerialize("Flags", 2)]
+       public byte[] NewSecureSalt {get; set;}
+
+       [SerializationOrder(6)]
+       [CanSerialize("Flags", 2)]
+       public byte[] NewSecureSecret {get; set;}
+
+       [SerializationOrder(7)]
+       [CanSerialize("Flags", 2)]
+       public long NewSecureSecretId {get; set;}
 
 	}
 }

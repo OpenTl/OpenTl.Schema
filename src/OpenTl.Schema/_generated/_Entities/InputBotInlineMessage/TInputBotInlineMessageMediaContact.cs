@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x2daf01a7)]
+	[Serialize(0xa6edbffd)]
 	public sealed class TInputBotInlineMessageMediaContact : IInputBotInlineMessage
 	{
        [SerializationOrder(0)]
@@ -36,7 +36,14 @@ namespace OpenTl.Schema
        private string _LastName;
        public string LastName { get => _LastName; set { LastNameAsBinary = Encoding.UTF8.GetBytes(value); _LastName = value; }}
 
+       /// <summary>Binary representation for the 'Vcard' property</summary>
        [SerializationOrder(4)]
+       public byte[] VcardAsBinary { get => _VcardAsBinary; set { _Vcard = Encoding.UTF8.GetString(value); _VcardAsBinary = value; }}
+       private byte[] _VcardAsBinary;
+       private string _Vcard;
+       public string Vcard { get => _Vcard; set { VcardAsBinary = Encoding.UTF8.GetBytes(value); _Vcard = value; }}
+
+       [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
        public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 

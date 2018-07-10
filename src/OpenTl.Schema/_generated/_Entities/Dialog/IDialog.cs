@@ -13,6 +13,8 @@ namespace OpenTl.Schema
 
        bool Pinned {get; set;}
 
+       bool UnreadMark {get; set;}
+
        OpenTl.Schema.IPeer Peer {get; set;}
 
        int TopMessage {get; set;}

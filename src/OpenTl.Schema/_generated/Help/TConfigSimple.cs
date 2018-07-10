@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xd997c3c5)]
+	[Serialize(0x5a592a6c)]
 	public sealed class TConfigSimple : IObject
 	{
        [SerializationOrder(0)]
@@ -19,10 +19,8 @@ namespace OpenTl.Schema.Help
        public int Expires {get; set;}
 
        [SerializationOrder(2)]
-       public int DcId {get; set;}
-
-       [SerializationOrder(3)]
-       public OpenTl.Schema.TVector<TIpPort> IpPortList {get; set;}
+       [BareTypeAttribute]
+       public TVector<OpenTl.Schema.IAccessPointRule> Rules {get; set;}
 
 	}
 }

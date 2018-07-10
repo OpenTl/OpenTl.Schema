@@ -22,5 +22,7 @@ namespace OpenTl.Schema.Auth
 
        int Timeout {get; set;}
 
+       OpenTl.Schema.Help.ITermsOfService TermsOfService {get; set;}
+
     }
 }

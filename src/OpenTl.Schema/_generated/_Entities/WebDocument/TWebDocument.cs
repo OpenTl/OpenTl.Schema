@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xc61acbd8)]
+	[Serialize(0x1c570ed1)]
 	public sealed class TWebDocument : IWebDocument
 	{
        /// <summary>Binary representation for the 'Url' property</summary>
@@ -34,9 +34,6 @@ namespace OpenTl.Schema
 
        [SerializationOrder(4)]
        public OpenTl.Schema.TVector<OpenTl.Schema.IDocumentAttribute> Attributes {get; set;}
-
-       [SerializationOrder(5)]
-       public int DcId {get; set;}
 
 	}
 }

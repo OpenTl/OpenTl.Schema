@@ -21,6 +21,8 @@ namespace OpenTl.Schema
 
        bool RevokePmInbox {get; set;}
 
+       bool BlockedMode {get; set;}
+
        int Date {get; set;}
 
        int Expires {get; set;}
@@ -30,6 +32,9 @@ namespace OpenTl.Schema
        int ThisDc {get; set;}
 
        OpenTl.Schema.TVector<OpenTl.Schema.IDcOption> DcOptions {get; set;}
+
+       byte[] DcTxtDomainNameAsBinary {get; set;}
+       string DcTxtDomainName {get; set;}
 
        int ChatSizeMax {get; set;}
 
@@ -83,6 +88,27 @@ namespace OpenTl.Schema
 
        byte[] MeUrlPrefixAsBinary {get; set;}
        string MeUrlPrefix {get; set;}
+
+       byte[] AutoupdateUrlPrefixAsBinary {get; set;}
+       string AutoupdateUrlPrefix {get; set;}
+
+       byte[] GifSearchUsernameAsBinary {get; set;}
+       string GifSearchUsername {get; set;}
+
+       byte[] VenueSearchUsernameAsBinary {get; set;}
+       string VenueSearchUsername {get; set;}
+
+       byte[] ImgSearchUsernameAsBinary {get; set;}
+       string ImgSearchUsername {get; set;}
+
+       byte[] StaticMapsProviderAsBinary {get; set;}
+       string StaticMapsProvider {get; set;}
+
+       int CaptionLengthMax {get; set;}
+
+       int MessageLengthMax {get; set;}
+
+       int WebfileDcId {get; set;}
 
        byte[] SuggestedLangCodeAsBinary {get; set;}
        string SuggestedLangCode {get; set;}

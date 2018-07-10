@@ -79,6 +79,7 @@ namespace OpenTl.Schema.Tests
             var peer = new TConfigSimple()
             {
                 Date = 123,
+                
                 DcId = 432,
                 Expires = 3213,
                 IpPortList = new TVector<TIpPort>(new TIpPort{Ipv4 = 444, Port = 555})

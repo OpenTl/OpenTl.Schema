@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x5d8c6cc)]
+	[Serialize(0x18b7a10d)]
 	public sealed class TDcOption : IDcOption
 	{
        [SerializationOrder(0)]
@@ -47,6 +47,10 @@ namespace OpenTl.Schema
 
        [SerializationOrder(8)]
        public int Port {get; set;}
+
+       [SerializationOrder(9)]
+       [CanSerialize("Flags", 10)]
+       public byte[] Secret {get; set;}
 
 	}
 }

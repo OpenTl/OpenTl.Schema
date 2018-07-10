@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xaaafadc8)]
+	[Serialize(0x417bbf11)]
 	public sealed class TInputBotInlineMessageMediaVenue : IInputBotInlineMessage
 	{
        [SerializationOrder(0)]
@@ -46,7 +46,14 @@ namespace OpenTl.Schema
        private string _VenueId;
        public string VenueId { get => _VenueId; set { VenueIdAsBinary = Encoding.UTF8.GetBytes(value); _VenueId = value; }}
 
+       /// <summary>Binary representation for the 'VenueType' property</summary>
        [SerializationOrder(6)]
+       public byte[] VenueTypeAsBinary { get => _VenueTypeAsBinary; set { _VenueType = Encoding.UTF8.GetString(value); _VenueTypeAsBinary = value; }}
+       private byte[] _VenueTypeAsBinary;
+       private string _VenueType;
+       public string VenueType { get => _VenueType; set { VenueTypeAsBinary = Encoding.UTF8.GetBytes(value); _VenueType = value; }}
+
+       [SerializationOrder(7)]
        [CanSerialize("Flags", 2)]
        public OpenTl.Schema.IReplyMarkup ReplyMarkup {get; set;}
 

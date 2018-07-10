@@ -324,8 +324,8 @@ let generateEntities (schema: Schema) =
     |> Seq.map(fun t -> t.Type)
     |> Seq.iter(fun t -> 
             let name = t.ToLower()
-            let usageInTypesCount = schema.Types.FindAll(fun st -> st.Type = t || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
-            let usageInRequestsCount = schema.Requests.FindAll(fun st -> st.Type = t || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
+            let usageInTypesCount = schema.Types.FindAll(fun st -> st.Type = t || st.Type.Contains("<" + t + ">") || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
+            let usageInRequestsCount = schema.Requests.FindAll(fun st -> st.Type = t || st.Type.Contains("<" + t + ">") || st.Attrs |> Seq.exists(fun p -> p.Type.Contains(t))) |> Seq.length
             if usageInTypesCount + usageInRequestsCount > 1 then
                 name |>  interfacesHash.Add |> ignore
 

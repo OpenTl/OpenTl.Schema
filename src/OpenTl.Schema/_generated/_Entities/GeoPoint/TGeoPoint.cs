@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x2049d70c)]
+	[Serialize(0x296f104)]
 	public sealed class TGeoPoint : IGeoPoint
 	{
        [SerializationOrder(0)]
@@ -17,6 +17,9 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        public double Lat {get; set;}
+
+       [SerializationOrder(2)]
+       public long AccessHash {get; set;}
 
 	}
 }

@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x191ba9c5)]
+	[Serialize(0xb098aee6)]
     public sealed class RequestGetDialogs : IRequest<OpenTl.Schema.Messages.IDialogs>
     {
        [SerializationOrder(0)]
@@ -30,6 +30,9 @@ namespace OpenTl.Schema.Messages
 
        [SerializationOrder(5)]
        public int Limit {get; set;}
+
+       [SerializationOrder(6)]
+       public int Hash {get; set;}
 
     }
 }

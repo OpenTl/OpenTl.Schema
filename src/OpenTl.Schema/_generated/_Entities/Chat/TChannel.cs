@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x450b7115)]
+	[Serialize(0xc88974ac)]
 	public sealed class TChannel : IChat
 	{
        [SerializationOrder(0)]

@@ -9,8 +9,18 @@ namespace OpenTl.Schema.Help
 
     public interface ITermsOfService : IObject
     {
+       BitArray Flags {get; set;}
+
+       bool Popup {get; set;}
+
+       OpenTl.Schema.IDataJSON Id {get; set;}
+
        byte[] TextAsBinary {get; set;}
        string Text {get; set;}
+
+       OpenTl.Schema.TVector<OpenTl.Schema.IMessageEntity> Entities {get; set;}
+
+       int MinAgeConfirm {get; set;}
 
     }
 }

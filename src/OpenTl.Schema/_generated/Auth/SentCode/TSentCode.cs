@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x5e002502)]
+	[Serialize(0x38faab5f)]
 	public sealed class TSentCode : ISentCode
 	{
        [SerializationOrder(0)]
@@ -36,6 +36,10 @@ namespace OpenTl.Schema.Auth
        [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
        public int Timeout {get; set;}
+
+       [SerializationOrder(6)]
+       [CanSerialize("Flags", 3)]
+       public OpenTl.Schema.Help.ITermsOfService TermsOfService {get; set;}
 
 	}
 }

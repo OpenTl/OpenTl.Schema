@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xa6e45987)]
+	[Serialize(0xf8ab7dfb)]
 	public sealed class TInputMediaContact : IInputMedia
 	{
        /// <summary>Binary representation for the 'PhoneNumber' property</summary>
@@ -32,6 +32,13 @@ namespace OpenTl.Schema
        private byte[] _LastNameAsBinary;
        private string _LastName;
        public string LastName { get => _LastName; set { LastNameAsBinary = Encoding.UTF8.GetBytes(value); _LastName = value; }}
+
+       /// <summary>Binary representation for the 'Vcard' property</summary>
+       [SerializationOrder(3)]
+       public byte[] VcardAsBinary { get => _VcardAsBinary; set { _Vcard = Encoding.UTF8.GetString(value); _VcardAsBinary = value; }}
+       private byte[] _VcardAsBinary;
+       private string _Vcard;
+       public string Vcard { get => _Vcard; set { VcardAsBinary = Encoding.UTF8.GetBytes(value); _Vcard = value; }}
 
 	}
 }

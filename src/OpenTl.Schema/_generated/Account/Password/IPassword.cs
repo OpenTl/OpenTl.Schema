@@ -11,6 +11,10 @@ namespace OpenTl.Schema.Account
     {
        byte[] NewSalt {get; set;}
 
+       byte[] NewSecureSalt {get; set;}
+
+       byte[] SecureRandom {get; set;}
+
        byte[] EmailUnconfirmedPatternAsBinary {get; set;}
        string EmailUnconfirmedPattern {get; set;}
 

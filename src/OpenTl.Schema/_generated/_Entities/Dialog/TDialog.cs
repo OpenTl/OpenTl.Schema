@@ -20,31 +20,35 @@ namespace OpenTl.Schema
        public bool Pinned {get; set;}
 
        [SerializationOrder(2)]
-       public OpenTl.Schema.IPeer Peer {get; set;}
+       [FromFlag("Flags", 3)]
+       public bool UnreadMark {get; set;}
 
        [SerializationOrder(3)]
-       public int TopMessage {get; set;}
+       public OpenTl.Schema.IPeer Peer {get; set;}
 
        [SerializationOrder(4)]
-       public int ReadInboxMaxId {get; set;}
+       public int TopMessage {get; set;}
 
        [SerializationOrder(5)]
-       public int ReadOutboxMaxId {get; set;}
+       public int ReadInboxMaxId {get; set;}
 
        [SerializationOrder(6)]
-       public int UnreadCount {get; set;}
+       public int ReadOutboxMaxId {get; set;}
 
        [SerializationOrder(7)]
-       public int UnreadMentionsCount {get; set;}
+       public int UnreadCount {get; set;}
 
        [SerializationOrder(8)]
-       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
+       public int UnreadMentionsCount {get; set;}
 
        [SerializationOrder(9)]
+       public OpenTl.Schema.IPeerNotifySettings NotifySettings {get; set;}
+
+       [SerializationOrder(10)]
        [CanSerialize("Flags", 0)]
        public int Pts {get; set;}
 
-       [SerializationOrder(10)]
+       [SerializationOrder(11)]
        [CanSerialize("Flags", 1)]
        public OpenTl.Schema.IDraftMessage Draft {get; set;}
 

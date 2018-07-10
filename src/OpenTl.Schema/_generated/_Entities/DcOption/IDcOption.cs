@@ -28,5 +28,7 @@ namespace OpenTl.Schema
 
        int Port {get; set;}
 
+       byte[] Secret {get; set;}
+
     }
 }
