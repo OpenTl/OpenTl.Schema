@@ -1,4 +1,6 @@
-﻿namespace OpenTl.Schema.Serialization
+﻿using OpenTl.Schema.Serialization.Serializators.Interfaces;
+
+namespace OpenTl.Schema.Serialization
 {
     using System;
     using System.Reflection;
@@ -7,6 +9,13 @@
 
     public static class Serializer
     {
+        private static readonly uint TgZipPackageId;
+        
+        static Serializer()
+        {
+            SerializationMap.GetIdByType(typeof(TgZipPacked).GetTypeInfo(), out TgZipPackageId);
+        }
+        
         public static IObject Deserialize(IByteBuffer buffer)
         {
             return (IObject)Deserialize(buffer, typeof(IObject).GetTypeInfo());
@@ -33,7 +42,16 @@
         {
             if (metadata != null)
             {
-                var ser = SerializationMap.GetSerializator(metadata.PropertyTypeInfo);
+                ISerializator ser;
+                if (buffer.GetUnsignedIntLE(buffer.ReaderIndex) == TgZipPackageId)
+                {
+                    buffer.SkipBytes(4);
+                    ser = SerializationMap.GetSerializator(typeof(TgZipPacked).GetTypeInfo());
+                }
+                else
+                {
+                    ser = SerializationMap.GetSerializator(metadata.PropertyTypeInfo);
+                }
                 return ser.Deserialize(buffer, metadata);
             }
 
