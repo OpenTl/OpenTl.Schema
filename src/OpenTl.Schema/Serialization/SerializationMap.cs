@@ -1,6 +1,7 @@
 ﻿namespace OpenTl.Schema.Serialization
 {
     using System;
+    using System.Collections.Concurrent;
     using System.Collections.Generic;
     using System.Linq;
     using System.Reflection;
@@ -14,7 +15,7 @@
 
         private static readonly Dictionary<TypeInfo, uint> TypeToIdMap;
 
-        private static readonly Dictionary<TypeInfo, ISerializator> SerializatorsMap = new Dictionary<TypeInfo, ISerializator>();
+        private static readonly ConcurrentDictionary<TypeInfo, ISerializator> SerializatorsMap = new ConcurrentDictionary<TypeInfo, ISerializator>();
 
         private static readonly ISerializator[] Serializators;
 
