@@ -141,9 +141,8 @@
 			<li class="header">Property Members</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/C9ACC9DF.html">Email</a></li>
 				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/CED8BBF5.html">EmailAsBinary</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/6606F4A8.html">SecureSalt</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/FC33917D.html">SecureSecret</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/C4F1642D.html">SecureSecretId</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/07915E33.html">Flags</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings/B223446F.html">SecureSettings</a></li>
 
 
                     </ul>
@@ -182,7 +181,8 @@
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[SerializationOrder(0)]
+	<pre><code>[SerializationOrder(1)]
+[CanSerialize("Flags", 0)]
 public byte[] EmailAsBinary { get; set; }</code></pre>
 
 
@@ -199,6 +199,10 @@ public byte[] EmailAsBinary { get; set; }</code></pre>
 				</thead>
 					<tbody><tr>
 						<td>Serialization<wbr>Order<wbr>Attribute</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>Can<wbr>Serialize<wbr>Attribute</td>
 						<td></td>
 					</tr>
 			</tbody></table>

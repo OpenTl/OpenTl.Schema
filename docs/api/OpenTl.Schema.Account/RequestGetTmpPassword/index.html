@@ -181,7 +181,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestVerifyPhone">RequestVerifyPhone</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm">TAuthorizationForm</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizations">TAuthorizations</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings">T<wbr>Password<wbr>Input<wbr>Settings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
@@ -233,7 +232,7 @@
 								<dt>Interfaces</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest<wbr>&lt;TResult&gt;<wbr></a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema.Account/ITmpPassword">ITmpPassword</a>&gt;<wbr></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest">IRequest</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IObject">IObject</a></li>								
 									</ul>
@@ -253,8 +252,7 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
-	Interface0["IRequest&lt;TResult&gt;"]-.-&gt;Type
-	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IRequest_1"
+	Interface0["IRequest&lt;ITmpPassword&gt;"]-.-&gt;Type
 	Interface1["IRequest"]-.-&gt;Type
 	click Interface1 "/OpenTl.Schema/api/OpenTl.Schema/IRequest"
 	Interface2["IObject"]-.-&gt;Type
@@ -269,7 +267,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0x4a82327e)]
+	<pre><code>[Serialize(0x449e0b51)]
 public sealed class RequestGetTmpPassword : IRequest&lt;ITmpPassword&gt;, IRequest, IObject</code></pre>
 
 
@@ -309,8 +307,8 @@ public sealed class RequestGetTmpPassword : IRequest&lt;ITmpPassword&gt;, IReque
 							</tr>
 						</thead>
 							<tbody><tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetTmpPassword/3E87EDF4.html">PasswordHash</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestGetTmpPassword/6CEDADE2.html">Password</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IInputCheckPasswordSRP">I<wbr>Input<wbr>Check<wbr>Password<wbr>S<wbr>R<wbr>P</a></td>
 								<td>
 									<div></div>
 								</td>

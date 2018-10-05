@@ -203,7 +203,7 @@
 								<dt>Interfaces</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest<wbr>&lt;TResult&gt;<wbr></a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/IAuthorization">IAuthorization</a>&gt;<wbr></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest">IRequest</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IObject">IObject</a></li>								
 									</ul>
@@ -223,8 +223,7 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
-	Interface0["IRequest&lt;TResult&gt;"]-.-&gt;Type
-	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IRequest_1"
+	Interface0["IRequest&lt;IAuthorization&gt;"]-.-&gt;Type
 	Interface1["IRequest"]-.-&gt;Type
 	click Interface1 "/OpenTl.Schema/api/OpenTl.Schema/IRequest"
 	Interface2["IObject"]-.-&gt;Type
@@ -239,7 +238,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0xa63011e)]
+	<pre><code>[Serialize(0xd18b4d16)]
 public sealed class RequestCheckPassword : IRequest&lt;IAuthorization&gt;, IRequest, IObject</code></pre>
 
 
@@ -279,8 +278,8 @@ public sealed class RequestCheckPassword : IRequest&lt;IAuthorization&gt;, IRequ
 							</tr>
 						</thead>
 							<tbody><tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/RequestCheckPassword/3D83113C.html">PasswordHash</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Auth/RequestCheckPassword/8D48DDD7.html">Password</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IInputCheckPasswordSRP">I<wbr>Input<wbr>Check<wbr>Password<wbr>S<wbr>R<wbr>P</a></td>
 								<td>
 									<div></div>
 								</td>

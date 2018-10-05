@@ -181,7 +181,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestVerifyPhone">RequestVerifyPhone</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm">TAuthorizationForm</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizations">TAuthorizations</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>
 				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings">T<wbr>Password<wbr>Input<wbr>Settings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
@@ -266,7 +265,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0x21ffa60d)]
+	<pre><code>[Serialize(0xc23727c9)]
 public sealed class TPasswordInputSettings : IPasswordInputSettings, IObject</code></pre>
 
 
@@ -341,6 +340,13 @@ public sealed class TPasswordInputSettings : IPasswordInputSettings, IObject</co
 								</td>
 							</tr>
 							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/7E1706C4.html">NewAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IPasswordKdfAlgo">IPasswordKdfAlgo</a></td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/B6E4282D.html">NewPasswordHash</a></td>
 								<td>byte[]</td>
 								<td>
@@ -348,29 +354,8 @@ public sealed class TPasswordInputSettings : IPasswordInputSettings, IObject</co
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/1E0B5F5F.html">NewSalt</a></td>
-								<td>byte[]</td>
-								<td>
-									<div></div>
-								</td>
-							</tr>
-							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/16094E30.html">NewSecureSalt</a></td>
-								<td>byte[]</td>
-								<td>
-									<div></div>
-								</td>
-							</tr>
-							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/21CF11C2.html">NewSecureSecret</a></td>
-								<td>byte[]</td>
-								<td>
-									<div></div>
-								</td>
-							</tr>
-							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/214BF9AD.html">NewSecureSecretId</a></td>
-								<td>long</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings/5799D9EF.html">NewSecureSettings</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/ISecureSecretSettings">I<wbr>Secure<wbr>Secret<wbr>Settings</a></td>
 								<td>
 									<div></div>
 								</td>

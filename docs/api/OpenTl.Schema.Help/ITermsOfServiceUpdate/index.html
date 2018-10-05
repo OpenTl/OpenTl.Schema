@@ -134,15 +134,6 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help">OpenTl<wbr>.Schema<wbr>.Help</a></li>
 		<li role="separator" class="divider"></li>
-			<li class="header">Interface Types</li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IAppUpdate">IAppUpdate</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IDeepLinkInfo">IDeepLinkInfo</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IInviteText">IInviteText</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IProxyData">IProxyData</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IRecentMeUrls">IRecentMeUrls</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ISupport">ISupport</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ITermsOfService">ITermsOfService</a></li>
-				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ITermsOfServiceUpdate">I<wbr>Terms<wbr>Of<wbr>Service<wbr>Update</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestAcceptTermsOfService">Request<wbr>Accept<wbr>Terms<wbr>Of<wbr>Service</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetAppChangelog">Request<wbr>Get<wbr>App<wbr>Changelog</a></li>
@@ -152,6 +143,7 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetDeepLinkInfo">Request<wbr>Get<wbr>Deep<wbr>Link<wbr>Info</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetInviteText">RequestGetInviteText</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetNearestDc">RequestGetNearestDc</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetPassportConfig">Request<wbr>Get<wbr>Passport<wbr>Config</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetProxyData">RequestGetProxyData</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetRecentMeUrls">Request<wbr>Get<wbr>Recent<wbr>Me<wbr>Urls</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/RequestGetSupport">RequestGetSupport</a></li>
@@ -164,6 +156,8 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TDeepLinkInfoEmpty">TDeepLinkInfoEmpty</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TInviteText">TInviteText</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TNoAppUpdate">TNoAppUpdate</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TPassportConfig">TPassportConfig</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TPassportConfigNotModified">T<wbr>Passport<wbr>Config<wbr>Not<wbr>Modified</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TProxyDataEmpty">TProxyDataEmpty</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TProxyDataPromo">TProxyDataPromo</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TRecentMeUrls">TRecentMeUrls</a></li>
@@ -171,6 +165,16 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfService">TTermsOfService</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdate">T<wbr>Terms<wbr>Of<wbr>Service<wbr>Update</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdateEmpty">T<wbr>Terms<wbr>Of<wbr>Service<wbr>Update<wbr>Empty</a></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IAppUpdate">IAppUpdate</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IDeepLinkInfo">IDeepLinkInfo</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IInviteText">IInviteText</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IPassportConfig">IPassportConfig</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IProxyData">IProxyData</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/IRecentMeUrls">IRecentMeUrls</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ISupport">ISupport</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ITermsOfService">ITermsOfService</a></li>
+				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/ITermsOfServiceUpdate">I<wbr>Terms<wbr>Of<wbr>Service<wbr>Update</a></li>
 
 
                     </ul>
@@ -212,8 +216,8 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdateEmpty">T<wbr>Terms<wbr>Of<wbr>Service<wbr>Update<wbr>Empty</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdate">T<wbr>Terms<wbr>Of<wbr>Service<wbr>Update</a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdateEmpty">T<wbr>Terms<wbr>Of<wbr>Service<wbr>Update<wbr>Empty</a></li>								
 									</ul>
 								</dd>				
 						</dl>
@@ -225,10 +229,10 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["ITermsOfServiceUpdate"]
 class Type type-node
-	Type-.-&gt;Implementing0["TTermsOfServiceUpdateEmpty"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdateEmpty"
-	Type-.-&gt;Implementing1["TTermsOfServiceUpdate"]
-	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdate"
+	Type-.-&gt;Implementing0["TTermsOfServiceUpdate"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdate"
+	Type-.-&gt;Implementing1["TTermsOfServiceUpdateEmpty"]
+	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Help/TTermsOfServiceUpdateEmpty"
 
 						</div>
 					</div>

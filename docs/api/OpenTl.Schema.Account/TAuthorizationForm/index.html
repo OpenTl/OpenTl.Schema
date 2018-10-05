@@ -181,7 +181,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestVerifyPhone">RequestVerifyPhone</a></li>
 				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm">TAuthorizationForm</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizations">TAuthorizations</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings">T<wbr>Password<wbr>Input<wbr>Settings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
@@ -266,7 +265,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0xcb976d53)]
+	<pre><code>[Serialize(0xad2e1cd8)]
 public sealed class TAuthorizationForm : IAuthorizationForm, IObject</code></pre>
 
 
@@ -307,7 +306,7 @@ public sealed class TAuthorizationForm : IAuthorizationForm, IObject</code></pre
 						</thead>
 							<tbody><tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm/DF0CCE21.html">Errors</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/ISecureValueError">ISecureValueError</a>&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -335,28 +334,21 @@ public sealed class TAuthorizationForm : IAuthorizationForm, IObject</code></pre
 							</tr>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm/8C821317.html">RequiredTypes</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
-								<td>
-									<div></div>
-								</td>
-							</tr>
-							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm/3026C71F.html">SelfieRequired</a></td>
-								<td>bool</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/ISecureRequiredType">ISecureRequiredType</a>&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm/F903CC3C.html">Users</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/IUser">IUser</a>&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm/24133827.html">Values</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/ISecureValue">ISecureValue</a>&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>

@@ -136,6 +136,14 @@
 			<li class="header">Namespace</li>
 		<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts">OpenTl<wbr>.Schema<wbr>.Contacts</a></li>
 		<li role="separator" class="divider"></li>
+			<li class="header">Interface Types</li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IBlocked">IBlocked</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IContacts">IContacts</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IFound">IFound</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IImportedContacts">IImportedContacts</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/ILink">ILink</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IResolvedPeer">IResolvedPeer</a></li>
+				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/ITopPeers">ITopPeers</a></li>
 			<li class="header">Class Types</li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/RequestBlock">RequestBlock</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/RequestDeleteContact">RequestDeleteContact</a></li>
@@ -165,14 +173,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/TTopPeers">TTopPeers</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/TTopPeersDisabled">TTopPeersDisabled</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/TTopPeersNotModified">TTopPeersNotModified</a></li>
-			<li class="header">Interface Types</li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IBlocked">IBlocked</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IContacts">IContacts</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IFound">IFound</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IImportedContacts">IImportedContacts</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/ILink">ILink</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/IResolvedPeer">IResolvedPeer</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/ITopPeers">ITopPeers</a></li>
 
 
                     </ul>
@@ -205,7 +205,7 @@
 								<dt>Interfaces</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest<wbr>&lt;TResult&gt;<wbr></a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest</a><wbr>&lt;bool&gt;<wbr></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest">IRequest</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IObject">IObject</a></li>								
 									</ul>
@@ -225,8 +225,7 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
-	Interface0["IRequest&lt;TResult&gt;"]-.-&gt;Type
-	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IRequest_1"
+	Interface0["IRequest&lt;bool&gt;"]-.-&gt;Type
 	Interface1["IRequest"]-.-&gt;Type
 	click Interface1 "/OpenTl.Schema/api/OpenTl.Schema/IRequest"
 	Interface2["IObject"]-.-&gt;Type
@@ -282,7 +281,7 @@ public sealed class RequestDeleteContacts : IRequest&lt;bool&gt;, IRequest, IObj
 						</thead>
 							<tbody><tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Contacts/RequestDeleteContacts/FD42366C.html">Id</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/IInputUser">IInputUser</a>&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>

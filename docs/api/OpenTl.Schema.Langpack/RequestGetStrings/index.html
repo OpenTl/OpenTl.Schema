@@ -173,7 +173,7 @@
 								<dt>Interfaces</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest<wbr>&lt;TResult&gt;<wbr></a></li>								
+											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest_1">IRequest</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;<a href="/OpenTl.Schema/api/OpenTl.Schema/ILangPackString">ILangPackString</a>&gt;<wbr>&gt;<wbr></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IRequest">IRequest</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema/IObject">IObject</a></li>								
 									</ul>
@@ -193,8 +193,7 @@
 						<div class="mermaid">
 							graph TD
 	Base0["object"]--&gt;Type
-	Interface0["IRequest&lt;TResult&gt;"]-.-&gt;Type
-	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IRequest_1"
+	Interface0["IRequest&lt;TVector&lt;ILangPackString&gt;&gt;"]-.-&gt;Type
 	Interface1["IRequest"]-.-&gt;Type
 	click Interface1 "/OpenTl.Schema/api/OpenTl.Schema/IRequest"
 	Interface2["IObject"]-.-&gt;Type
@@ -209,7 +208,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0x2e1ee318)]
+	<pre><code>[Serialize(0xefea3803)]
 public sealed class RequestGetStrings : IRequest&lt;TVector&lt;ILangPackString&gt;&gt;, IRequest, IObject</code></pre>
 
 
@@ -250,7 +249,7 @@ public sealed class RequestGetStrings : IRequest&lt;TVector&lt;ILangPackString&g
 						</thead>
 							<tbody><tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Langpack/RequestGetStrings/30A9A131.html">Keys</a></td>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector<wbr>&lt;T&gt;<wbr></a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/TVector_1">TVector</a><wbr>&lt;string&gt;<wbr></td>
 								<td>
 									<div></div>
 								</td>
@@ -267,6 +266,20 @@ public sealed class RequestGetStrings : IRequest&lt;TVector&lt;ILangPackString&g
 								<td>byte[]</td>
 								<td>
 									<div>Binary representation for the 'LangCode' property</div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Langpack/RequestGetStrings/AACC9582.html">LangPack</a></td>
+								<td>string</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Langpack/RequestGetStrings/85F0A69B.html">LangPackAsBinary</a></td>
+								<td>byte[]</td>
+								<td>
+									<div>Binary representation for the 'LangPack' property</div>
 								</td>
 							</tr>
 					</tbody></table>

@@ -180,7 +180,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestVerifyPhone">RequestVerifyPhone</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm">TAuthorizationForm</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizations">TAuthorizations</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings">T<wbr>Password<wbr>Input<wbr>Settings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
@@ -241,7 +240,6 @@
 								<dt>Implementing Types</dt>
 								<dd>
 									<ul class="list-unstyled">
-											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>								
 											<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>								
 									</ul>
 								</dd>				
@@ -254,10 +252,8 @@
 	click Interface0 "/OpenTl.Schema/api/OpenTl.Schema/IObject"
 	Type["IPassword"]
 class Type type-node
-	Type-.-&gt;Implementing0["TNoPassword"]
-	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword"
-	Type-.-&gt;Implementing1["TPassword"]
-	click Implementing1 "/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword"
+	Type-.-&gt;Implementing0["TPassword"]
+	click Implementing0 "/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword"
 
 						</div>
 					</div>
@@ -288,6 +284,13 @@ class Type type-node
 							</tr>
 						</thead>
 							<tbody><tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/871111CE.html">CurrentAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IPasswordKdfAlgo">IPasswordKdfAlgo</a></td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/B31812FE.html">Email<wbr>Unconfirmed<wbr>Pattern</a></td>
 								<td>string</td>
 								<td>
@@ -302,15 +305,57 @@ class Type type-node
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/00FEDD2A.html">NewSalt</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/8C9C3C10.html">Flags</a></td>
+								<td>BitArray</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/C7091BE1.html">HasPassword</a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/DBDC9A27.html">HasRecovery</a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/56B6C662.html">HasSecureValues</a></td>
+								<td>bool</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/064EBE0C.html">Hint</a></td>
+								<td>string</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/9B02701A.html">HintAsBinary</a></td>
 								<td>byte[]</td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/DB612C9C.html">NewSecureSalt</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/60E284B1.html">NewAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IPasswordKdfAlgo">IPasswordKdfAlgo</a></td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/BB7D7507.html">NewSecureAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/ISecurePasswordKdfAlgo">I<wbr>Secure<wbr>Password<wbr>Kdf<wbr>Algo</a></td>
 								<td>
 									<div></div>
 								</td>
@@ -318,6 +363,20 @@ class Type type-node
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/E788F250.html">SecureRandom</a></td>
 								<td>byte[]</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/4F782E80.html">SrpB</a></td>
+								<td>byte[]</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/IPassword/7EE1CA9D.html">SrpId</a></td>
+								<td>long</td>
 								<td>
 									<div></div>
 								</td>

@@ -181,7 +181,6 @@
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/RequestVerifyPhone">RequestVerifyPhone</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizationForm">TAuthorizationForm</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TAuthorizations">TAuthorizations</a></li>
-				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TNoPassword">TNoPassword</a></li>
 				<li class="selected"><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword">TPassword</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordInputSettings">T<wbr>Password<wbr>Input<wbr>Settings</a></li>
 				<li><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPasswordSettings">TPasswordSettings</a></li>
@@ -266,7 +265,7 @@ class Type type-node
 		</div>
 
 	<h1 id="Syntax">Syntax</h1>
-	<pre><code>[Serialize(0xca39b447)]
+	<pre><code>[Serialize(0xad2641f8)]
 public sealed class TPassword : IPassword, IObject</code></pre>
 
 
@@ -306,8 +305,8 @@ public sealed class TPassword : IPassword, IObject</code></pre>
 							</tr>
 						</thead>
 							<tbody><tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/58917DB6.html">CurrentSalt</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/388D242D.html">CurrentAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IPasswordKdfAlgo">IPasswordKdfAlgo</a></td>
 								<td>
 									<div></div>
 								</td>
@@ -329,6 +328,13 @@ public sealed class TPassword : IPassword, IObject</code></pre>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/CF7150A8.html">Flags</a></td>
 								<td>BitArray</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/78952E02.html">HasPassword</a></td>
+								<td>bool</td>
 								<td>
 									<div></div>
 								</td>
@@ -362,15 +368,15 @@ public sealed class TPassword : IPassword, IObject</code></pre>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/6FC4322F.html">NewSalt</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/0FD86BB4.html">NewAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/IPasswordKdfAlgo">IPasswordKdfAlgo</a></td>
 								<td>
 									<div></div>
 								</td>
 							</tr>
 							<tr>
-								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/F6EFC806.html">NewSecureSalt</a></td>
-								<td>byte[]</td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/96F3919D.html">NewSecureAlgo</a></td>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema/ISecurePasswordKdfAlgo">I<wbr>Secure<wbr>Password<wbr>Kdf<wbr>Algo</a></td>
 								<td>
 									<div></div>
 								</td>
@@ -378,6 +384,20 @@ public sealed class TPassword : IPassword, IObject</code></pre>
 							<tr>
 								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/6613CF0B.html">SecureRandom</a></td>
 								<td>byte[]</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/78346651.html">SrpB</a></td>
+								<td>byte[]</td>
+								<td>
+									<div></div>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/OpenTl.Schema/api/OpenTl.Schema.Account/TPassword/3D0CA625.html">SrpId</a></td>
+								<td>long</td>
 								<td>
 									<div></div>
 								</td>
