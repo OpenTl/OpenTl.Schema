@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xfa7c4b86)]
+	[Serialize(0xa59b102f)]
     public sealed class RequestUpdatePasswordSettings : IRequest<bool>
     {
        [SerializationOrder(0)]
-       public byte[] CurrentPasswordHash {get; set;}
+       public OpenTl.Schema.IInputCheckPasswordSRP Password {get; set;}
 
        [SerializationOrder(1)]
        public OpenTl.Schema.Account.IPasswordInputSettings NewSettings {get; set;}

@@ -21,6 +21,8 @@ namespace OpenTl.Schema
 
        OpenTl.Schema.IInputSecureFile Selfie {get; set;}
 
+       OpenTl.Schema.TVector<OpenTl.Schema.IInputSecureFile> Translation {get; set;}
+
        OpenTl.Schema.TVector<OpenTl.Schema.IInputSecureFile> Files {get; set;}
 
        OpenTl.Schema.ISecurePlainData PlainData {get; set;}

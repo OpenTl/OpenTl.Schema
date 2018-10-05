@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xb4b4b699)]
+	[Serialize(0x187fa0ca)]
 	public sealed class TSecureValue : ISecureValue
 	{
        [SerializationOrder(0)]
@@ -35,14 +35,18 @@ namespace OpenTl.Schema
        public OpenTl.Schema.ISecureFile Selfie {get; set;}
 
        [SerializationOrder(6)]
+       [CanSerialize("Flags", 6)]
+       public OpenTl.Schema.TVector<OpenTl.Schema.ISecureFile> Translation {get; set;}
+
+       [SerializationOrder(7)]
        [CanSerialize("Flags", 4)]
        public OpenTl.Schema.TVector<OpenTl.Schema.ISecureFile> Files {get; set;}
 
-       [SerializationOrder(7)]
+       [SerializationOrder(8)]
        [CanSerialize("Flags", 5)]
        public OpenTl.Schema.ISecurePlainData PlainData {get; set;}
 
-       [SerializationOrder(8)]
+       [SerializationOrder(9)]
        public byte[] Hash {get; set;}
 
 	}

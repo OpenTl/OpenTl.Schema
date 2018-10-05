@@ -9,30 +9,26 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x9c477dd8)]
-	public sealed class TPhoto : IPhoto
+	[Serialize(0x829d99da)]
+	public sealed class TSecureRequiredType : ISecureRequiredType
 	{
        [SerializationOrder(0)]
        public BitArray Flags {get; set;}
 
        [SerializationOrder(1)]
        [FromFlag("Flags", 0)]
-       public bool HasStickers {get; set;}
+       public bool NativeNames {get; set;}
 
        [SerializationOrder(2)]
-       public long Id {get; set;}
+       [FromFlag("Flags", 1)]
+       public bool SelfieRequired {get; set;}
 
        [SerializationOrder(3)]
-       public long AccessHash {get; set;}
+       [FromFlag("Flags", 2)]
+       public bool TranslationRequired {get; set;}
 
        [SerializationOrder(4)]
-       public byte[] FileReference {get; set;}
-
-       [SerializationOrder(5)]
-       public int Date {get; set;}
-
-       [SerializationOrder(6)]
-       public OpenTl.Schema.TVector<OpenTl.Schema.IPhotoSize> Sizes {get; set;}
+       public OpenTl.Schema.ISecureValueType Type {get; set;}
 
 	}
 }

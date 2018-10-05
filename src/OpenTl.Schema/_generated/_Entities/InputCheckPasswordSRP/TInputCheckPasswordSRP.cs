@@ -9,17 +9,17 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x196683d9)]
-	public sealed class TInputDocumentFileLocation : IInputFileLocation
+	[Serialize(0xd27ff082)]
+	public sealed class TInputCheckPasswordSRP : IInputCheckPasswordSRP
 	{
        [SerializationOrder(0)]
-       public long Id {get; set;}
+       public long SrpId {get; set;}
 
        [SerializationOrder(1)]
-       public long AccessHash {get; set;}
+       public byte[] A {get; set;}
 
        [SerializationOrder(2)]
-       public byte[] FileReference {get; set;}
+       public byte[] M1 {get; set;}
 
 	}
 }

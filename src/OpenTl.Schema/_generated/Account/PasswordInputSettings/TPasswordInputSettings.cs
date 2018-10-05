@@ -9,7 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x21ffa60d)]
+	[Serialize(0xc23727c9)]
 	public sealed class TPasswordInputSettings : IPasswordInputSettings
 	{
        [SerializationOrder(0)]
@@ -17,7 +17,7 @@ namespace OpenTl.Schema.Account
 
        [SerializationOrder(1)]
        [CanSerialize("Flags", 0)]
-       public byte[] NewSalt {get; set;}
+       public OpenTl.Schema.IPasswordKdfAlgo NewAlgo {get; set;}
 
        [SerializationOrder(2)]
        [CanSerialize("Flags", 0)]
@@ -41,15 +41,7 @@ namespace OpenTl.Schema.Account
 
        [SerializationOrder(5)]
        [CanSerialize("Flags", 2)]
-       public byte[] NewSecureSalt {get; set;}
-
-       [SerializationOrder(6)]
-       [CanSerialize("Flags", 2)]
-       public byte[] NewSecureSecret {get; set;}
-
-       [SerializationOrder(7)]
-       [CanSerialize("Flags", 2)]
-       public long NewSecureSecretId {get; set;}
+       public OpenTl.Schema.ISecureSecretSettings NewSecureSettings {get; set;}
 
 	}
 }

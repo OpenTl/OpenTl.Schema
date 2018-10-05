@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x14637196)]
+	[Serialize(0xdfdaabe1)]
 	public sealed class TInputFileLocation : IInputFileLocation
 	{
        [SerializationOrder(0)]
@@ -20,6 +20,9 @@ namespace OpenTl.Schema
 
        [SerializationOrder(2)]
        public long Secret {get; set;}
+
+       [SerializationOrder(3)]
+       public byte[] FileReference {get; set;}
 
 	}
 }

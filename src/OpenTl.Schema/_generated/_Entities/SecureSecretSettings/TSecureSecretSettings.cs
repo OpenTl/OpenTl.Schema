@@ -9,17 +9,17 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x196683d9)]
-	public sealed class TInputDocumentFileLocation : IInputFileLocation
+	[Serialize(0x1527bcac)]
+	public sealed class TSecureSecretSettings : ISecureSecretSettings
 	{
        [SerializationOrder(0)]
-       public long Id {get; set;}
+       public OpenTl.Schema.ISecurePasswordKdfAlgo SecureAlgo {get; set;}
 
        [SerializationOrder(1)]
-       public long AccessHash {get; set;}
+       public byte[] SecureSecret {get; set;}
 
        [SerializationOrder(2)]
-       public byte[] FileReference {get; set;}
+       public long SecureSecretId {get; set;}
 
 	}
 }

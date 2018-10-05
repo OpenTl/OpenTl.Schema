@@ -9,11 +9,11 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x4a82327e)]
+	[Serialize(0x449e0b51)]
     public sealed class RequestGetTmpPassword : IRequest<OpenTl.Schema.Account.ITmpPassword>
     {
        [SerializationOrder(0)]
-       public byte[] PasswordHash {get; set;}
+       public OpenTl.Schema.IInputCheckPasswordSRP Password {get; set;}
 
        [SerializationOrder(1)]
        public int Period {get; set;}

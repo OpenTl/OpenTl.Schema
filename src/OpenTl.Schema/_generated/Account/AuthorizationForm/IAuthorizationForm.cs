@@ -11,9 +11,7 @@ namespace OpenTl.Schema.Account
     {
        BitArray Flags {get; set;}
 
-       bool SelfieRequired {get; set;}
-
-       OpenTl.Schema.TVector<OpenTl.Schema.ISecureValueType> RequiredTypes {get; set;}
+       OpenTl.Schema.TVector<OpenTl.Schema.ISecureRequiredType> RequiredTypes {get; set;}
 
        OpenTl.Schema.TVector<OpenTl.Schema.ISecureValue> Values {get; set;}
 

@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x18798952)]
+	[Serialize(0x1abfb575)]
 	public sealed class TInputDocument : IInputDocument
 	{
        [SerializationOrder(0)]
@@ -17,6 +17,9 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        public long AccessHash {get; set;}
+
+       [SerializationOrder(2)]
+       public byte[] FileReference {get; set;}
 
 	}
 }

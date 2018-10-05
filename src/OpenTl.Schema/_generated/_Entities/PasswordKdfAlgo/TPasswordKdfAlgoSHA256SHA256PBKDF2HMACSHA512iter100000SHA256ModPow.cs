@@ -9,23 +9,20 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x91d11eb)]
-	public sealed class TFileLocation : IFileLocation
+	[Serialize(0x3a912d4a)]
+	public sealed class TPasswordKdfAlgoSHA256SHA256PBKDF2HMACSHA512iter100000SHA256ModPow : IPasswordKdfAlgo
 	{
        [SerializationOrder(0)]
-       public int DcId {get; set;}
+       public byte[] Salt1 {get; set;}
 
        [SerializationOrder(1)]
-       public long VolumeId {get; set;}
+       public byte[] Salt2 {get; set;}
 
        [SerializationOrder(2)]
-       public int LocalId {get; set;}
+       public int G {get; set;}
 
        [SerializationOrder(3)]
-       public long Secret {get; set;}
-
-       [SerializationOrder(4)]
-       public byte[] FileReference {get; set;}
+       public byte[] P {get; set;}
 
 	}
 }

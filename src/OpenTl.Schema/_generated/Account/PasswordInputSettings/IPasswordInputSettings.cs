@@ -11,7 +11,7 @@ namespace OpenTl.Schema.Account
     {
        BitArray Flags {get; set;}
 
-       byte[] NewSalt {get; set;}
+       OpenTl.Schema.IPasswordKdfAlgo NewAlgo {get; set;}
 
        byte[] NewPasswordHash {get; set;}
 
@@ -21,11 +21,7 @@ namespace OpenTl.Schema.Account
        byte[] EmailAsBinary {get; set;}
        string Email {get; set;}
 
-       byte[] NewSecureSalt {get; set;}
-
-       byte[] NewSecureSecret {get; set;}
-
-       long NewSecureSecretId {get; set;}
+       OpenTl.Schema.ISecureSecretSettings NewSecureSettings {get; set;}
 
     }
 }

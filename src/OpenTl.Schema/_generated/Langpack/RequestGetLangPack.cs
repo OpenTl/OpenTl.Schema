@@ -9,11 +9,18 @@ namespace OpenTl.Schema.Langpack
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0x9ab5c58e)]
+	[Serialize(0xf2f2330a)]
     public sealed class RequestGetLangPack : IRequest<OpenTl.Schema.ILangPackDifference>
     {
-       /// <summary>Binary representation for the 'LangCode' property</summary>
+       /// <summary>Binary representation for the 'LangPack' property</summary>
        [SerializationOrder(0)]
+       public byte[] LangPackAsBinary { get => _LangPackAsBinary; set { _LangPack = Encoding.UTF8.GetString(value); _LangPackAsBinary = value; }}
+       private byte[] _LangPackAsBinary;
+       private string _LangPack;
+       public string LangPack { get => _LangPack; set { LangPackAsBinary = Encoding.UTF8.GetBytes(value); _LangPack = value; }}
+
+       /// <summary>Binary representation for the 'LangCode' property</summary>
+       [SerializationOrder(1)]
        public byte[] LangCodeAsBinary { get => _LangCodeAsBinary; set { _LangCode = Encoding.UTF8.GetString(value); _LangCodeAsBinary = value; }}
        private byte[] _LangCodeAsBinary;
        private string _LangCode;

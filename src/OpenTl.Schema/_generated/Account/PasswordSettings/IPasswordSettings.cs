@@ -9,14 +9,12 @@ namespace OpenTl.Schema.Account
 
     public interface IPasswordSettings : IObject
     {
+       BitArray Flags {get; set;}
+
        byte[] EmailAsBinary {get; set;}
        string Email {get; set;}
 
-       byte[] SecureSalt {get; set;}
-
-       byte[] SecureSecret {get; set;}
-
-       long SecureSecretId {get; set;}
+       OpenTl.Schema.ISecureSecretSettings SecureSettings {get; set;}
 
     }
 }

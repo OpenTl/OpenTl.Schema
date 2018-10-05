@@ -9,7 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
-	[Serialize(0xfb95c6c4)]
+	[Serialize(0x3bb3b94a)]
 	public sealed class TInputPhoto : IInputPhoto
 	{
        [SerializationOrder(0)]
@@ -17,6 +17,9 @@ namespace OpenTl.Schema
 
        [SerializationOrder(1)]
        public long AccessHash {get; set;}
+
+       [SerializationOrder(2)]
+       public byte[] FileReference {get; set;}
 
 	}
 }
