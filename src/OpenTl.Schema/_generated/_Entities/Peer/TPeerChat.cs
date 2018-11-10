@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xbad0e5bb)]
 	public sealed class TPeerChat : IPeer
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x7f3b18ea)]
 	public sealed class TInputPeerEmpty : IInputPeer, IEmpty
 	{

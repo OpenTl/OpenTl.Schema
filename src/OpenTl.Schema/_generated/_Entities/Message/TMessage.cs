@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x44f9b43d)]
 	public sealed class TMessage : IMessage
 	{

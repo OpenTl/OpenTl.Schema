@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x29be5899)]
 	public sealed class TInputTakeoutFileLocation : IInputFileLocation
 	{

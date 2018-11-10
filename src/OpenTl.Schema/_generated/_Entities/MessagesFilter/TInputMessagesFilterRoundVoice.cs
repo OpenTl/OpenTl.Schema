@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x7a7c17a4)]
 	public sealed class TInputMessagesFilterRoundVoice : IMessagesFilter
 	{

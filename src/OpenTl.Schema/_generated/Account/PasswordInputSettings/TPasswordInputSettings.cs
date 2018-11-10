@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xc23727c9)]
 	public sealed class TPasswordInputSettings : IPasswordInputSettings
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xe73547e1)]
 	public sealed class TUpdateBotCallbackQuery : IUpdate
 	{

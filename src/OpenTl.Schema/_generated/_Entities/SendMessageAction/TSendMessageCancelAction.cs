@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xfd5ec8f5)]
 	public sealed class TSendMessageCancelAction : ISendMessageAction
 	{

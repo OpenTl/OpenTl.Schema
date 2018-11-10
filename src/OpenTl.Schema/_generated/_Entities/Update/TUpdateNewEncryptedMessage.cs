@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x12bcbd9a)]
 	public sealed class TUpdateNewEncryptedMessage : IUpdate
 	{

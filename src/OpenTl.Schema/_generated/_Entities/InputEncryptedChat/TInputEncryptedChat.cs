@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xf141b5e1)]
 	public sealed class TInputEncryptedChat : IInputEncryptedChat
 	{

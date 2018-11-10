@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x6410a5d2)]
 	public sealed class TStickerSetCovered : IStickerSetCovered
 	{

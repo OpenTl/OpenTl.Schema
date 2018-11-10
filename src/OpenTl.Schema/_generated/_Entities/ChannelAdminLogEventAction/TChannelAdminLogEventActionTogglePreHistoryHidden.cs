@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x5f5c95f1)]
 	public sealed class TChannelAdminLogEventActionTogglePreHistoryHidden : IChannelAdminLogEventAction
 	{

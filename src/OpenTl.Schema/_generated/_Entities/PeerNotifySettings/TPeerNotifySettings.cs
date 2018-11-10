@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xaf509d20)]
 	public sealed class TPeerNotifySettings : IPeerNotifySettings
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xa4f63c0)]
 	public sealed class TFilePng : IFileType
 	{

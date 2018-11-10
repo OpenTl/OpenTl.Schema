@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x5dab1af4)]
 	public sealed class TExportedMessageLink : IExportedMessageLink
 	{

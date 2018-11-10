@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Storage
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xae1e508d)]
 	public sealed class TFilePdf : IFileType
 	{

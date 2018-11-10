@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xe86602c3)]
 	public sealed class TAllStickersNotModified : IAllStickers
 	{

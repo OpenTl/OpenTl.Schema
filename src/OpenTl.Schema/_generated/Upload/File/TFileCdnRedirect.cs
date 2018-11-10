@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xf18cda44)]
 	public sealed class TFileCdnRedirect : IFile
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xdd6a8f48)]
 	public sealed class TSendMessageGamePlayAction : ISendMessageAction
 	{

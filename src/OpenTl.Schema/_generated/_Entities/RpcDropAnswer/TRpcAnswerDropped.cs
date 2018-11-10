@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xa43ad8b7)]
 	public sealed class TRpcAnswerDropped : IRpcDropAnswer
 	{

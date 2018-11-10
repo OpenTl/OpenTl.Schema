@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xe5d7d19c)]
 	public sealed class TChatFull : IChatFull
 	{

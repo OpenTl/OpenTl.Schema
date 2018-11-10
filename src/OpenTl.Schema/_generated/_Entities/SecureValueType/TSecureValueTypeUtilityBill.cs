@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xfc36954e)]
 	public sealed class TSecureValueTypeUtilityBill : ISecureValueType
 	{

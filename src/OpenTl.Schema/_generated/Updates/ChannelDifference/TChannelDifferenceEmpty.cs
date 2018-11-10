@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x3e11affb)]
 	public sealed class TChannelDifferenceEmpty : IChannelDifference, IEmpty
 	{

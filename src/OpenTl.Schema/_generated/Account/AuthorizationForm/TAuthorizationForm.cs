@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xad2e1cd8)]
 	public sealed class TAuthorizationForm : IAuthorizationForm
 	{

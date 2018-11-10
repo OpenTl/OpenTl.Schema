@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Auth
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xab03c6d9)]
 	public sealed class TSentCodeTypeFlashCall : ISentCodeType
 	{

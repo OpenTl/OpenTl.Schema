@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xeae87e42)]
 	public sealed class TContacts : IContacts
 	{

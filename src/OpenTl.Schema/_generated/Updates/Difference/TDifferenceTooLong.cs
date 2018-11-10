@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Updates
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x4afe8f6d)]
 	public sealed class TDifferenceTooLong : IDifference
 	{

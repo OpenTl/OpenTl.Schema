@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xa01b22f9)]
 	public sealed class TRecentMeUrlChat : IRecentMeUrl
 	{

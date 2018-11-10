@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x51bdb021)]
 	public sealed class TMessageActionChatMigrateTo : IMessageAction
 	{

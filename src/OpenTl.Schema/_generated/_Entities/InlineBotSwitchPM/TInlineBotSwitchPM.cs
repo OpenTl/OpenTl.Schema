@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x3c20629f)]
 	public sealed class TInlineBotSwitchPM : IInlineBotSwitchPM
 	{

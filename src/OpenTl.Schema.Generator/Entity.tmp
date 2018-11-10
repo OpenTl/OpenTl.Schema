@@ -9,6 +9,7 @@ namespace /* NAMESPACE */
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(/* CONSTRUCTOR */)]
 	public sealed class /* NAME */ : /* PARENT */
 	{

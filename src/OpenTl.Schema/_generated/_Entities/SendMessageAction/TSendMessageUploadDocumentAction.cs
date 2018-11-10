@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xaa0cd9e4)]
 	public sealed class TSendMessageUploadDocumentAction : ISendMessageAction
 	{

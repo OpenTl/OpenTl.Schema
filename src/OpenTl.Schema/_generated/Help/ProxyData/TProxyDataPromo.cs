@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x2bf7ee23)]
 	public sealed class TProxyDataPromo : IProxyData
 	{

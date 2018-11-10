@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x36f8c871)]
 	public sealed class TDocumentEmpty : IDocument, IEmpty
 	{

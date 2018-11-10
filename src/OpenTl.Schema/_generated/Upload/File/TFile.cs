@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x96a18d5)]
 	public sealed class TFile : IFile
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Channels
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xed8af74d)]
 	public sealed class TAdminLogResults : IAdminLogResults
 	{

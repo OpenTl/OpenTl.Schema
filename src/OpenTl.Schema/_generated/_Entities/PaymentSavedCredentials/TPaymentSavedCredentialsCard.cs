@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xcdc27a1f)]
 	public sealed class TPaymentSavedCredentialsCard : IPaymentSavedCredentials
 	{
