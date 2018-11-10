@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x7fcb13a8)]
 	public sealed class TMessageActionChatEditPhoto : IMessageAction
 	{

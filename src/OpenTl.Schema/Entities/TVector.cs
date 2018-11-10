@@ -6,6 +6,7 @@
 
     using OpenTl.Schema.Serialization.Attributes;
 
+    [System.Serializable]
     [Serialize(0x1cb5c415)]
     public sealed class TVector<T> : IObject,
                                      IList,

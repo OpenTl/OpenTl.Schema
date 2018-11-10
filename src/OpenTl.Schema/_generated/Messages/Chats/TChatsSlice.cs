@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x9cd81144)]
 	public sealed class TChatsSlice : IChats
 	{

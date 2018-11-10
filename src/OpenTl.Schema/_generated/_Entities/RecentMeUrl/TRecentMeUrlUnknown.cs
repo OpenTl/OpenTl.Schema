@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x46e1d13d)]
 	public sealed class TRecentMeUrlUnknown : IRecentMeUrl
 	{

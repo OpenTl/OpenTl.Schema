@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Payments
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xfb8fe43c)]
 	public sealed class TSavedInfo : ISavedInfo
 	{

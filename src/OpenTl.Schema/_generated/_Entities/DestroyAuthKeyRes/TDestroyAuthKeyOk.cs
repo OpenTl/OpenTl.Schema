@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xf660e1d4)]
 	public sealed class TDestroyAuthKeyOk : IDestroyAuthKeyRes
 	{

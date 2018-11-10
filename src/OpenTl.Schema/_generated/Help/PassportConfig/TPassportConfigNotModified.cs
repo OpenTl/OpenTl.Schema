@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xbfb9f457)]
 	public sealed class TPassportConfigNotModified : IPassportConfig
 	{

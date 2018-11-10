@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x1cc6e91f)]
 	public sealed class TInputSingleMedia : IInputSingleMedia
 	{

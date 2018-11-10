@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xffa0a496)]
 	public sealed class TInputStickerSetItem : IInputStickerSetItem
 	{

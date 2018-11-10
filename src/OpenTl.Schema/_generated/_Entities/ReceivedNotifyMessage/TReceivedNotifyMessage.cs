@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xa384b779)]
 	public sealed class TReceivedNotifyMessage : IReceivedNotifyMessage
 	{

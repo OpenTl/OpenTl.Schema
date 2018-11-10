@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x6e425c4)]
 	public sealed class TSecureValueTypeDriverLicense : ISecureValueType
 	{

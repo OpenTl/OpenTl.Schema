@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x1ca48f57)]
 	public sealed class TInputChatPhotoEmpty : IInputChatPhoto, IEmpty
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x258aff05)]
 	public sealed class TKeyboardButtonUrl : IKeyboardButton
 	{

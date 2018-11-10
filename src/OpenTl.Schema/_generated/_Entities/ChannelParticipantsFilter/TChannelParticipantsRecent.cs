@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xde3f3c79)]
 	public sealed class TChannelParticipantsRecent : IChannelParticipantsFilter
 	{

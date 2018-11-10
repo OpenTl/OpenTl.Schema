@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Upload
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x21e753bc)]
 	public sealed class TWebFile : IWebFile
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xdb64fd34)]
 	public sealed class TTmpPassword : ITmpPassword
 	{

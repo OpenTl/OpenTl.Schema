@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x1e287d04)]
 	public sealed class TInputMediaUploadedPhoto : IInputMedia
 	{

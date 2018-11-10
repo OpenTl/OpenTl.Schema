@@ -7,9 +7,10 @@ namespace OpenTl.Schema
 	using System.Text;
 
 	using OpenTl.Schema;
-	using OpenTl.Schema.Serialization.Attributes;	
+	using OpenTl.Schema.Serialization.Attributes;
 
-	[Serialize(0xf35c6d01)]
+    [System.Serializable]
+    [Serialize(0xf35c6d01)]
 	public sealed class TRpcResult : IObject
 	{
        [SerializationOrder(0)]

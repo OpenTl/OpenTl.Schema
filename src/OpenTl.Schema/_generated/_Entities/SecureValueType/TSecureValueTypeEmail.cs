@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x8e3ca7ee)]
 	public sealed class TSecureValueTypeEmail : ISecureValueType
 	{

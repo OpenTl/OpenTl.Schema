@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x868a2aa5)]
 	public sealed class TSecureValueErrorReverseSide : ISecureValueError
 	{

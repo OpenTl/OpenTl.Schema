@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xa03e5b85)]
 	public sealed class TReplyKeyboardHide : IReplyMarkup
 	{

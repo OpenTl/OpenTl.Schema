@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x4a8537)]
 	public sealed class TSecurePasswordKdfAlgoUnknown : ISecurePasswordKdfAlgo
 	{

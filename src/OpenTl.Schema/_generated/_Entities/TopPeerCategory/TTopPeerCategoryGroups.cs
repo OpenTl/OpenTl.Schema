@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xbd17a14a)]
 	public sealed class TTopPeerCategoryGroups : ITopPeerCategory
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Contacts
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x1c138d15)]
 	public sealed class TBlocked : IBlocked
 	{

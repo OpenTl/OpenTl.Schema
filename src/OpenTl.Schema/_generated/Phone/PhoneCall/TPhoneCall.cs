@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Phone
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xec82e140)]
 	public sealed class TPhoneCall : IPhoneCall
 	{

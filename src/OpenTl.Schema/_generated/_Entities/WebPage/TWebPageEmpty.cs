@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xeb1477e8)]
 	public sealed class TWebPageEmpty : IWebPage, IEmpty
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Help
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x17c6b5f6)]
 	public sealed class TSupport : ISupport
 	{

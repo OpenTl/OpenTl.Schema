@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x80e11a7f)]
 	public sealed class TMessageActionPhoneCall : IMessageAction
 	{

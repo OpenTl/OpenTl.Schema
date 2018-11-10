@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Messages
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x35e410a8)]
 	public sealed class TStickerSetInstallResultArchive : IStickerSetInstallResult
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0xf89777f2)]
 	public sealed class TChannelAdminLogEventActionParticipantLeave : IChannelAdminLogEventAction
 	{

@@ -9,6 +9,7 @@ namespace OpenTl.Schema.Account
 	using OpenTl.Schema;
 	using OpenTl.Schema.Serialization.Attributes;	
 
+	[System.Serializable]
 	[Serialize(0x4dba4501)]
 	public sealed class TTakeout : ITakeout
 	{
